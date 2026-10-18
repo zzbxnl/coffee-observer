@@ -1699,6 +1699,16 @@ window.COFFEE_CONTENT = {
         "name": "Espacenet（欧洲专利局专利检索）",
         "type": "官方专利检索入口",
         "url": "https://worldwide.espacenet.com/"
+      },
+      "kidisle-recall": {
+        "name": "CPSC（美国消费品安全委员会）Kidisle KC101B 召回公告",
+        "url": "https://www.cpsc.gov/Recalls/2026/Coffeemakers-Recalled-Due-to-Risk-of-Serious-Injury-from-Burn-Hazard-Imported-by-Kidisle",
+        "type": "监管机构公告"
+      },
+      "eu-claims": {
+        "name": "Directive (EU) 2024/825（欧盟消费者环境主张指令）",
+        "url": "https://eur-lex.europa.eu/eli/dir/2024/825/oj/eng",
+        "type": "欧盟原始法律文件"
       }
     },
     "machines": [
@@ -1914,7 +1924,13 @@ window.COFFEE_CONTENT = {
         "claim": "品牌列为配套盖膜，包装数量为 100 张。",
         "gap": "所读页面美元符号和变体不足以锁定统一到手价；不跨国比较报价。",
         "focus": "规格匹配、边缘密封、每杯耗材成本；不沿用未经验证的健康或环保宣传。",
-        "price": null,
+        "price": {
+          "amount": 11.2,
+          "currency": "USD",
+          "pack": "100 张铝盖膜；SKU SP-AS07，变体 36242593972384",
+          "observedOn": "2026-10-18",
+          "basis": "Sealpod 官方商品页 JSON-LD 标价；未计运费、税费，不是批发报价。"
+        },
         "refs": [
           "sealpod-lids"
         ],
@@ -2443,6 +2459,18 @@ window.COFFEE_CONTENT = {
     ],
     "risks": [
       {
+        "id": "kidisle-kc101b",
+        "name": "Kidisle KC101B（KC101B 型咖啡机）美国召回",
+        "area": "美国 · 2026-06-11 · 召回编号 26-557",
+        "image": "kidisle-kc101b",
+        "fact": "CPSC 公告涉及约 17600 台 KC101B：堵塞可能使热液或蒸汽意外释放。公告记录至少 107 起相关报告、至少 27 起伤害报告；报告数量不是故障发生率。",
+        "action": "核对机器底部型号和原公告适用范围；受影响机器按官方停止使用与退款指引处理。商品兼容测试前先排除已召回机器。",
+        "unknown": "仅针对该公告型号；没有将风险推及其他咖啡机，也没有证据称本店胶囊导致召回。",
+        "refs": [
+          "kidisle-recall"
+        ]
+      },
+      {
         "id": "food-contact",
         "name": "食品接触材料与重复使用条件",
         "area": "欧盟 · 胶囊本体／盖膜／密封圈",
@@ -2487,6 +2515,17 @@ window.COFFEE_CONTENT = {
           "essenza",
           "espacenet"
         ]
+      },
+      {
+        "id": "environment-claims",
+        "name": "Directive (EU) 2024/825（环境宣传与消费者信息）",
+        "area": "欧盟 · 指令与各国实施规定分开核对",
+        "fact": "指令第 4 条要求成员国在 2026-03-27 前转化，相关措施自 2026-09-27 适用；附件限制无充分依据的笼统环境宣传等做法。",
+        "action": "逐项检查“环保”“可持续”、整件产品声明和抵消碳排类文案，保存与实际产品、部件和使用条件对应的依据；再核对销售国实施法。",
+        "unknown": "指令时间线不等于已完成每个国家的实施法核验；未对具体 SKU 作合规结论。",
+        "refs": [
+          "eu-claims"
+        ]
       }
     ],
     "progress": [
@@ -2502,18 +2541,18 @@ window.COFFEE_CONTENT = {
       },
       {
         "name": "消费者痛点",
-        "status": "已上线 6 个问题假设与真实问题记录",
-        "next": "导入匿名售后／退货或有原链接的评论；发生率必须另有总样本量。"
+        "status": "已取得 26 个具体商品、163 条可见评论，整理 36 个案例；24 平台任务尚未完成。",
+        "next": "继续公开可读平台；保留日期、变体和机器条件，真实售后与实测仍待补充。"
       },
       {
         "name": "国家与集团",
-        "status": "已上线 7 国卡片、39 份企业档案与已核对数据",
-        "next": "法国、意大利、西班牙等继续补同口径报告；英国与欧盟分别列示。"
+        "status": "七国有独立资料页，补入法国、意大利、西班牙、荷兰与英国协会数据。",
+        "next": "补同一系统的当地商品价格与明确统计期；不以全部咖啡数据代替可填充胶囊销量。"
       },
       {
         "name": "材料、政策与产品风险",
-        "status": "已增加法规／召回观察卡",
-        "next": "将具体产品和销售国家对应到文件、报告和批次，记录后续核验。"
+        "status": "加入 KC101B 官方召回实案与欧盟环境主张指令时间线。",
+        "next": "继续精确到国家实施法、具体部件、型号与批次；未完成全量自动匹配。"
       },
       {
         "name": "豆粉实验与供应链",
@@ -2581,6 +2620,11 @@ window.COFFEE_CONTENT = {
         "products": "KDP（克里格胡椒博士集团）美国咖啡历史基线",
         "action": "保留 2025 Q3 原披露，和后续同口径季度量／价组合比较。",
         "unknown": "历史季度结果不是当前季度，不能据此计算当下单品销售额。"
+      },
+      "kidisle-recall-2026": {
+        "products": "Kidisle KC101B（KC101B 型咖啡机）及对应设备的售后核对。",
+        "action": "核对完整型号和官方范围，将召回机器从正常兼容试验中排除。",
+        "unknown": "没有本店胶囊与本次召回的因果证据；其他机型不据此类推。"
       }
     }
   },
@@ -4120,7 +4164,7 @@ window.COFFEE_CONTENT = {
   },
   "visuals": {
     "checkedOn": "2026-10-18",
-    "policy": "仅采用对应品牌官方网站、官方产品页或原厂说明书的图片；图片用于识别具体产品，保留品牌、型号、规格、原始图片地址与出处，不代表兼容性、销量或授权背书。",
+    "policy": "仅采用对应品牌官网、原厂说明书或监管机构公告中的对应产品图片；逐图标记出处与类别，不用相似型号代替，也不据图片推定兼容性或性能。",
     "images": {
       "pixie": {
         "id": "pixie",
@@ -4604,6 +4648,19 @@ window.COFFEE_CONTENT = {
         "width": 900,
         "height": 634,
         "sha256": "e5757cac69aafe5a4ef850d75fdbc4f441729f0d1f83bda4cb885ec521abc78a"
+      },
+      "kidisle-kc101b": {
+        "id": "kidisle-kc101b",
+        "subject": "Kidisle KC101B（KC101B 型咖啡机，召回公告识别图）",
+        "owner": "CPSC（美国消费品安全委员会）",
+        "source": "https://www.cpsc.gov/Recalls/2026/Coffeemakers-Recalled-Due-to-Risk-of-Serious-Injury-from-Burn-Hazard-Imported-by-Kidisle",
+        "imageURL": "https://www.cpsc.gov/s3fs-public/styles/recall_product/public/kidisle-1.gif?VersionId=HBVyyaUqWGNmib3Fk8h6wE5SS2VBvooF&itok=zCQOomoQ",
+        "kind": "recall",
+        "checkedOn": "2026-10-18",
+        "file": "images/kidisle-kc101b-12949aff74.gif",
+        "width": 284,
+        "height": 382,
+        "sha256": "12949aff7497702890424b6ea2395490f343ba300e7670ea3268ae7482bb0d3e"
       }
     }
   },
@@ -4878,6 +4935,3471 @@ window.COFFEE_CONTENT = {
       {
         "name": "Google 关键词历史指标说明",
         "url": "https://developers.google.com/google-ads/api/docs/keyword-planning/generate-historical-metrics"
+      }
+    ]
+  },
+  "evidence": {
+    "checkedOn": "2026-10-18",
+    "scope": "研究范围：24个平台，每个平台目标10个咖啡胶囊相关商品；优先公开榜单，否则明确标为候选样本。",
+    "method": "仅公开页面可见评论；不登录、不绕过验证码、不使用收费数据。公开索引有滞后时逐商品标明；激励评论保留标记。评论不代表全部购买者；保留商品市场、评论日期、评论国家与变体，不把站点或好评率当成销量。",
+    "window": {
+      "from": "2025-10-18",
+      "to": "2026-10-18"
+    },
+    "platforms": [
+      {
+        "id": "amazon",
+        "market": "US",
+        "url": "https://www.amazon.com/gp/bestsellers/home-garden/14162591/",
+        "status": 200,
+        "checkedAt": "2026-10-18T04:07:53.802Z",
+        "targetProducts": 10,
+        "productCount": 10,
+        "reviewCount": 78,
+        "candidateCount": 10,
+        "statusLabel": "已核对10商品，部分评论已取得",
+        "note": "美国 Reusable Coffee Filters 品类榜；10 个商品中 6 个详情页给出文字评论，其余页面未取得正文。不是店铺榜，亦不是整个胶囊市场排名。"
+      },
+      {
+        "id": "aliexpress",
+        "market": "global",
+        "url": "https://www.aliexpress.com/w/wholesale-reusable-coffee-capsules.html",
+        "status": 200,
+        "checkedAt": "2026-10-18T04:07:54.457Z",
+        "targetProducts": 10,
+        "productCount": 0,
+        "reviewCount": 0,
+        "candidateCount": 0,
+        "statusLabel": "入口可访问，但本次尚未取得可用评论",
+        "note": "本轮入口仅返回动态页面或未取得可读商品评论；需要继续验证公开详情入口，不代表没有相关商品。"
+      },
+      {
+        "id": "temu",
+        "market": "US",
+        "url": "https://www.temu.com/search_result.html?search_key=reusable%20coffee%20capsules",
+        "status": 200,
+        "checkedAt": "2026-10-18T04:07:54.506Z",
+        "targetProducts": 10,
+        "productCount": 0,
+        "reviewCount": 0,
+        "candidateCount": 0,
+        "statusLabel": "入口可访问，但本次尚未取得可用评论",
+        "note": "本轮入口仅返回动态页面或未取得可读商品评论；需要继续验证公开详情入口，不代表没有相关商品。"
+      },
+      {
+        "id": "ebay",
+        "market": "US",
+        "url": "https://www.ebay.com/sch/i.html?_nkw=reusable%20coffee%20capsules",
+        "status": 403,
+        "checkedAt": "2026-10-18T04:07:54.581Z",
+        "targetProducts": 10,
+        "productCount": 0,
+        "reviewCount": 0,
+        "candidateCount": 0,
+        "statusLabel": "入口访问受限（HTTP 403）",
+        "note": "本轮请求被拒绝（HTTP 403），未取得商品评论；不代表平台无商品。"
+      },
+      {
+        "id": "tiktok",
+        "market": "US",
+        "url": "https://shop.tiktok.com/",
+        "status": null,
+        "error": "fetch failed",
+        "checkedAt": "2026-10-18T04:07:54.669Z",
+        "targetProducts": 10,
+        "productCount": 0,
+        "reviewCount": 0,
+        "candidateCount": 0,
+        "statusLabel": "网络读取失败，等待补充公开证据",
+        "note": "本轮入口仅返回动态页面或未取得可读商品评论；需要继续验证公开详情入口，不代表没有相关商品。"
+      },
+      {
+        "id": "dhgate",
+        "market": "global",
+        "url": "https://www.dhgate.com/wholesale/reusable+coffee+capsules.html",
+        "status": 404,
+        "checkedAt": "2026-10-18T04:07:54.791Z",
+        "targetProducts": 10,
+        "productCount": 0,
+        "reviewCount": 0,
+        "candidateCount": 0,
+        "statusLabel": "入口访问受限（HTTP 404）",
+        "note": "本轮检索路径返回 404，仅说明该入口失效；尚未取得可核对商品，不能据此判断全平台无数据。"
+      },
+      {
+        "id": "shein",
+        "market": "US",
+        "url": "https://us.shein.com/pdsearch/reusable%20coffee%20capsules/",
+        "status": 403,
+        "checkedAt": "2026-10-18T04:07:54.842Z",
+        "targetProducts": 10,
+        "productCount": 0,
+        "reviewCount": 0,
+        "candidateCount": 0,
+        "statusLabel": "入口访问受限（HTTP 403）",
+        "note": "本轮请求被拒绝（HTTP 403），未取得商品评论；不代表平台无商品。"
+      },
+      {
+        "id": "allegro",
+        "market": "PL",
+        "url": "https://allegro.pl/listing?string=kapsu%C5%82ki%20wielokrotnego%20u%C5%BCytku%20kawa",
+        "status": 403,
+        "checkedAt": "2026-10-18T04:07:55.641Z",
+        "targetProducts": 10,
+        "productCount": 0,
+        "reviewCount": 0,
+        "candidateCount": 0,
+        "statusLabel": "入口访问受限（HTTP 403）",
+        "note": "本轮请求被拒绝（HTTP 403），未取得商品评论；不代表平台无商品。"
+      },
+      {
+        "id": "jumia",
+        "market": "KE",
+        "url": "https://www.jumia.co.ke/catalog/?q=reusable%20coffee%20capsules",
+        "status": 200,
+        "checkedAt": "2026-10-18T04:07:55.677Z",
+        "targetProducts": 10,
+        "productCount": 0,
+        "reviewCount": 0,
+        "candidateCount": 0,
+        "statusLabel": "入口可访问，但本次尚未取得可用评论",
+        "note": "肯尼亚站本轮英文关键词未返回相关商品，需另查当地用词或其他站点；不是全平台无相关商品的结论。"
+      },
+      {
+        "id": "shopee",
+        "market": "SG",
+        "url": "https://shopee.sg/search?keyword=reusable%20coffee%20capsules",
+        "status": 200,
+        "checkedAt": "2026-10-18T04:07:56.030Z",
+        "targetProducts": 10,
+        "productCount": 0,
+        "reviewCount": 0,
+        "candidateCount": 0,
+        "statusLabel": "入口可访问，但本次尚未取得可用评论",
+        "note": "本轮入口仅返回动态页面或未取得可读商品评论；需要继续验证公开详情入口，不代表没有相关商品。"
+      },
+      {
+        "id": "cdiscount",
+        "market": "FR",
+        "url": "https://www.cdiscount.com/search/10/capsule+cafe+reutilisable.html",
+        "status": 200,
+        "checkedAt": "2026-10-18T04:07:56.723Z",
+        "targetProducts": 10,
+        "productCount": 0,
+        "reviewCount": 0,
+        "candidateCount": 0,
+        "statusLabel": "入口可访问，但本次尚未取得可用评论",
+        "note": "本轮入口仅返回动态页面或未取得可读商品评论；需要继续验证公开详情入口，不代表没有相关商品。"
+      },
+      {
+        "id": "mercado-libre",
+        "market": "MX",
+        "url": "https://listado.mercadolibre.com.mx/capsulas-cafe-reutilizables",
+        "status": 200,
+        "checkedAt": "2026-10-18T04:07:57.998Z",
+        "targetProducts": 10,
+        "productCount": 0,
+        "reviewCount": 0,
+        "candidateCount": 0,
+        "statusLabel": "入口可访问，但本次尚未取得可用评论",
+        "note": "本轮入口仅返回动态页面或未取得可读商品评论；需要继续验证公开详情入口，不代表没有相关商品。"
+      },
+      {
+        "id": "wish",
+        "market": "global",
+        "url": "https://www.wish.com/search/reusable%20coffee%20capsules",
+        "status": 200,
+        "checkedAt": "2026-10-18T04:07:58.112Z",
+        "targetProducts": 10,
+        "productCount": 0,
+        "reviewCount": 0,
+        "candidateCount": 0,
+        "statusLabel": "入口可访问，但本次尚未取得可用评论",
+        "note": "本轮入口仅返回动态页面或未取得可读商品评论；需要继续验证公开详情入口，不代表没有相关商品。"
+      },
+      {
+        "id": "wildberries",
+        "market": "RU",
+        "url": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BA%D0%B0%D0%BF%D1%81%D1%83%D0%BB%D1%8B%20%D0%BA%D0%BE%D1%84%D0%B5",
+        "status": 498,
+        "checkedAt": "2026-10-18T04:07:59.112Z",
+        "targetProducts": 10,
+        "productCount": 0,
+        "reviewCount": 0,
+        "candidateCount": 0,
+        "statusLabel": "入口访问受限（HTTP 498）",
+        "note": "本轮请求被拒绝（HTTP 498），未取得商品评论；不代表平台无商品。"
+      },
+      {
+        "id": "emag",
+        "market": "RO",
+        "url": "https://www.emag.ro/search/capsule+cafea+reutilizabile",
+        "status": 200,
+        "checkedAt": "2026-10-18T04:08:00.026Z",
+        "targetProducts": 10,
+        "productCount": 10,
+        "reviewCount": 67,
+        "candidateCount": 10,
+        "statusLabel": "已核对10商品，部分评论已取得",
+        "note": "罗马尼亚站默认搜索的 10 个候选商品；9 个有可见文字评论。默认顺序不代表销量榜，评论不能推广为法国或德国市场结论。"
+      },
+      {
+        "id": "lazada",
+        "market": "SG",
+        "url": "https://www.lazada.sg/catalog/?q=reusable%20coffee%20capsules",
+        "status": 200,
+        "checkedAt": "2026-10-18T04:08:00.288Z",
+        "targetProducts": 10,
+        "productCount": 0,
+        "reviewCount": 0,
+        "candidateCount": 0,
+        "statusLabel": "入口可访问，但本次尚未取得可用评论",
+        "note": "本轮入口仅返回动态页面或未取得可读商品评论；需要继续验证公开详情入口，不代表没有相关商品。"
+      },
+      {
+        "id": "walmart",
+        "market": "US",
+        "url": "https://www.walmart.com/tp/reusable-coffee-filters",
+        "status": 200,
+        "checkedAt": "2026-10-18T04:08:00.289Z",
+        "targetProducts": 10,
+        "productCount": 6,
+        "reviewCount": 18,
+        "candidateCount": 6,
+        "statusLabel": "取得 6 个候选商品、18 条公开索引评论；尚缺 4 个商品",
+        "note": "直接请求遇验证页；公开索引可读取 6 个具体商品，索引滞后约 3 天至 3 个月。保留评论日期；不采用 AI 评论汇总或把推荐位当销量榜。"
+      },
+      {
+        "id": "rakuten",
+        "market": "FR",
+        "url": "https://fr.shopping.rakuten.com/s/capsule+cafe+reutilisable",
+        "status": 403,
+        "checkedAt": "2026-10-18T04:08:00.625Z",
+        "targetProducts": 10,
+        "productCount": 0,
+        "reviewCount": 0,
+        "candidateCount": 0,
+        "statusLabel": "入口访问受限（HTTP 403）",
+        "note": "本轮请求被拒绝（HTTP 403），未取得商品评论；不代表平台无商品。"
+      },
+      {
+        "id": "yandex",
+        "market": "RU",
+        "url": "https://market.yandex.ru/search?text=%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BA%D0%B0%D0%BF%D1%81%D1%83%D0%BB%D1%8B%20%D0%BA%D0%BE%D1%84%D0%B5",
+        "status": 200,
+        "checkedAt": "2026-10-18T04:08:01.312Z",
+        "targetProducts": 10,
+        "productCount": 0,
+        "reviewCount": 0,
+        "candidateCount": 0,
+        "statusLabel": "入口可访问，但本次尚未取得可用评论",
+        "note": "入口可访问，但未取得可复核的具体商品评论；动态页面体积大不代表评论已采集。"
+      },
+      {
+        "id": "coupang",
+        "market": "KR",
+        "url": "https://www.coupang.com/np/search?q=%EC%9E%AC%EC%82%AC%EC%9A%A9%20%EC%BB%A4%ED%94%BC%20%EC%BA%A1%EC%8A%90",
+        "status": 403,
+        "checkedAt": "2026-10-18T04:08:02.108Z",
+        "targetProducts": 10,
+        "productCount": 0,
+        "reviewCount": 0,
+        "candidateCount": 0,
+        "statusLabel": "入口访问受限（HTTP 403）",
+        "note": "本轮请求被拒绝（HTTP 403），未取得商品评论；不代表平台无商品。"
+      },
+      {
+        "id": "ozon",
+        "market": "RU",
+        "url": "https://www.ozon.ru/search/?text=%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BA%D0%B0%D0%BF%D1%81%D1%83%D0%BB%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%BA%D0%BE%D1%84%D0%B5",
+        "status": null,
+        "error": "fetch failed",
+        "checkedAt": "2026-10-18T04:08:03.031Z",
+        "targetProducts": 10,
+        "productCount": 0,
+        "reviewCount": 0,
+        "candidateCount": 0,
+        "statusLabel": "网络读取失败，等待补充公开证据",
+        "note": "本轮入口仅返回动态页面或未取得可读商品评论；需要继续验证公开详情入口，不代表没有相关商品。"
+      },
+      {
+        "id": "alibaba",
+        "market": "global",
+        "url": "https://www.alibaba.com/trade/search?SearchText=reusable%20coffee%20capsules",
+        "status": 200,
+        "checkedAt": "2026-10-18T04:08:03.522Z",
+        "targetProducts": 10,
+        "productCount": 0,
+        "reviewCount": 0,
+        "candidateCount": 0,
+        "statusLabel": "入口可访问，但本次尚未取得可用评论",
+        "note": "本轮找到 B2B 候选链接，尚未核对详情。交易／供应商反馈与零售商品使用评论分开，不混算消费者痛点。"
+      },
+      {
+        "id": "otto",
+        "market": "DE",
+        "url": "https://www.otto.de/suche/kaffeekapseln%20wiederverwendbar/",
+        "status": 200,
+        "checkedAt": "2026-10-18T04:08:04.832Z",
+        "targetProducts": 10,
+        "productCount": 0,
+        "reviewCount": 0,
+        "candidateCount": 10,
+        "statusLabel": "已发现10候选，详情页未成功读取",
+        "note": "已找到 10 个候选商品链接，详情页本轮返回 HTTP 400；尚未核对商品规格和评论，不计为已完成商品。"
+      },
+      {
+        "id": "google-ads",
+        "market": "global",
+        "url": "https://ads.google.com/",
+        "status": "not-applicable",
+        "checkedAt": "2026-10-18T04:08:04.832Z",
+        "targetProducts": 0,
+        "productCount": 0,
+        "reviewCount": 0,
+        "candidateCount": 0,
+        "statusLabel": "不适用：广告需求工具",
+        "note": "广告与关键词需求工具，不提供消费者商品评论榜，因此评论目标为 0。"
+      }
+    ],
+    "products": [
+      {
+        "id": "amazon-B07SMMH8G7",
+        "platform": "amazon",
+        "market": "US",
+        "itemId": "B07SMMH8G7",
+        "name": "Perfect Pod Café Save, 4 Pack",
+        "zh": "四只装可填充 K-Cup 滤杯",
+        "system": "k-cup",
+        "type": "reusable",
+        "originalTitle": "Perfect Pod Café Save Reusable Coffee Pod Filter Cups, 4 Pack",
+        "brandStore": "PERFECT POD",
+        "seller": "未核验实际销售主体；品牌店铺入口不等于当前卖家",
+        "source": "https://www.amazon.com/dp/B07SMMH8G7",
+        "ranking": {
+          "position": 1,
+          "category": "Reusable Coffee Filters",
+          "url": "https://www.amazon.com/gp/bestsellers/home-garden/14162591/",
+          "checkedOn": "2026-10-18"
+        },
+        "selection": "公开品类榜单前10个商品；不是店铺排名或精确销量排名。仅采集各商品详情页可见评论，包含平台跨国家／变体汇集，未登录、不翻过验证码。",
+        "reviewRecords": [],
+        "reviewAccess": "公开评论入口重定向，未登录获取更多评论",
+        "listedRating": 4.6,
+        "listedCount": 30187,
+        "price": null,
+        "priceNote": "本次未取得可核对的实时到手价，不以搜索缓存或其他变体报价代替。",
+        "checkedOn": "2026-10-18"
+      },
+      {
+        "id": "amazon-B09F8J3932",
+        "platform": "amazon",
+        "market": "US",
+        "itemId": "B09F8J3932",
+        "name": "NOALTO Stainless Steel K Cups, 2 Pack",
+        "zh": "不锈钢可填充 K-Cup，2只装",
+        "system": "k-cup",
+        "type": "reusable",
+        "originalTitle": "Noalto Reusable K Cups For Keurig,stainless steel k Cups for Keurig 2.0 and 1.0 (2pack)",
+        "brandStore": "NOALTO",
+        "seller": "未核验实际销售主体；品牌店铺入口不等于当前卖家",
+        "source": "https://www.amazon.com/dp/B09F8J3932",
+        "ranking": {
+          "position": 2,
+          "category": "Reusable Coffee Filters",
+          "url": "https://www.amazon.com/gp/bestsellers/home-garden/14162591/",
+          "checkedOn": "2026-10-18"
+        },
+        "selection": "公开品类榜单前10个商品；不是店铺排名或精确销量排名。仅采集各商品详情页可见评论，包含平台跨国家／变体汇集，未登录、不翻过验证码。",
+        "reviewRecords": [
+          {
+            "id": "R27I4P8GBKMR4J",
+            "date": "2026-10-03",
+            "rating": 5,
+            "variant": "Size: 2 stainless steel",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B09F8J3932#R27I4P8GBKMR4J"
+          },
+          {
+            "id": "R2M583AG1ZQ9YT",
+            "date": "2026-09-13",
+            "rating": 5,
+            "variant": "Size: 1PACK",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B09F8J3932#R2M583AG1ZQ9YT"
+          },
+          {
+            "id": "R153J030AEU125",
+            "date": "2026-09-28",
+            "rating": 5,
+            "variant": "Size: 4 PACK",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B09F8J3932#R153J030AEU125"
+          },
+          {
+            "id": "R2TIJKOMSO4YDR",
+            "date": "2026-09-24",
+            "rating": 4,
+            "variant": "Size: 2 PACK",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B09F8J3932#R2TIJKOMSO4YDR"
+          },
+          {
+            "id": "R37W9ECS6CB8SY",
+            "date": "2026-07-11",
+            "rating": 5,
+            "variant": "Size: 1PACK",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B09F8J3932#R37W9ECS6CB8SY"
+          },
+          {
+            "id": "R6U6A2097N31I",
+            "date": "2026-10-10",
+            "rating": 5,
+            "variant": "Size: 4 PACK",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B09F8J3932#R6U6A2097N31I"
+          },
+          {
+            "id": "R35E9M5W6WYPL0",
+            "date": "2026-10-12",
+            "rating": 5,
+            "variant": "Size: 2 PACK",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B09F8J3932#R35E9M5W6WYPL0"
+          },
+          {
+            "id": "RM0REFB71OML8",
+            "date": "2026-07-17",
+            "rating": 3,
+            "variant": "Size: 2 stainless steel",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B09F8J3932#RM0REFB71OML8"
+          },
+          {
+            "id": "R1MRIHNR64T4MZ",
+            "date": "2026-04-29",
+            "rating": 5,
+            "variant": "Size: 2 PACKSize: 2 PACK",
+            "verified": true,
+            "reviewCountry": "Canada",
+            "url": "https://www.amazon.com/dp/B09F8J3932#R1MRIHNR64T4MZ"
+          },
+          {
+            "id": "R1TO4SIHRY2R5C",
+            "date": "2026-05-16",
+            "rating": 5,
+            "variant": "Size: 2 PACK",
+            "verified": true,
+            "reviewCountry": "Canada",
+            "url": "https://www.amazon.com/dp/B09F8J3932#R1TO4SIHRY2R5C"
+          },
+          {
+            "id": "R35LUPEE5GL8TW",
+            "date": "2023-07-20",
+            "rating": 4,
+            "variant": "Size: 2 PACK",
+            "verified": true,
+            "reviewCountry": "Canada",
+            "url": "https://www.amazon.com/dp/B09F8J3932#R35LUPEE5GL8TW"
+          },
+          {
+            "id": "R2XPCNQ29915VD",
+            "date": "2023-03-13",
+            "rating": 5,
+            "variant": "Size: 2 PACKSize: 2 PACK",
+            "verified": true,
+            "reviewCountry": "Canada",
+            "url": "https://www.amazon.com/dp/B09F8J3932#R2XPCNQ29915VD"
+          },
+          {
+            "id": "R3KJP3Y207M7GL",
+            "date": "2026-07-24",
+            "rating": 5,
+            "variant": "Size: 1PACK",
+            "verified": true,
+            "reviewCountry": "Canada",
+            "url": "https://www.amazon.com/dp/B09F8J3932#R3KJP3Y207M7GL"
+          }
+        ],
+        "reviewAccess": "仅商品详情页可见评论；跨变体与跨国评论分别保留",
+        "listedRating": 4.5,
+        "listedCount": 21806,
+        "price": null,
+        "priceNote": "本次未取得可核对的实时到手价，不以搜索缓存或其他变体报价代替。",
+        "checkedOn": "2026-10-18"
+      },
+      {
+        "id": "amazon-B0DJNT4HY3",
+        "platform": "amazon",
+        "market": "US",
+        "itemId": "B0DJNT4HY3",
+        "name": "Fanativita Reusable K Cup, 2 Pack",
+        "zh": "可填充 K-Cup，2只装",
+        "system": "k-cup",
+        "type": "reusable",
+        "originalTitle": "Fanativita Reusable K Cup Coffee Filters for Keurig, 2 Pack",
+        "brandStore": "Fanativita",
+        "seller": "未核验实际销售主体；品牌店铺入口不等于当前卖家",
+        "source": "https://www.amazon.com/dp/B0DJNT4HY3",
+        "ranking": {
+          "position": 3,
+          "category": "Reusable Coffee Filters",
+          "url": "https://www.amazon.com/gp/bestsellers/home-garden/14162591/",
+          "checkedOn": "2026-10-18"
+        },
+        "selection": "公开品类榜单前10个商品；不是店铺排名或精确销量排名。仅采集各商品详情页可见评论，包含平台跨国家／变体汇集，未登录、不翻过验证码。",
+        "reviewRecords": [
+          {
+            "id": "R3C2J7NBL45P2Y",
+            "date": "2026-04-28",
+            "rating": 5,
+            "variant": "Color: Black - 2 Pack",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B0DJNT4HY3#R3C2J7NBL45P2Y"
+          },
+          {
+            "id": "R161IX2K5EXPWZ",
+            "date": "2026-04-01",
+            "rating": 5,
+            "variant": "Color: Black - 2 Pack",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B0DJNT4HY3#R161IX2K5EXPWZ"
+          },
+          {
+            "id": "R3GXHVA2V6WGS4",
+            "date": "2026-09-02",
+            "rating": 5,
+            "variant": "Color: Black - 4 Pack",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B0DJNT4HY3#R3GXHVA2V6WGS4"
+          },
+          {
+            "id": "R28M1Q1FC2FBP9",
+            "date": "2026-09-13",
+            "rating": 4,
+            "variant": "Color: Black - 2 Pack",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B0DJNT4HY3#R28M1Q1FC2FBP9"
+          },
+          {
+            "id": "RQ6TX91SZZA68",
+            "date": "2026-10-13",
+            "rating": 5,
+            "variant": "Color: Black - 2 Pack",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B0DJNT4HY3#RQ6TX91SZZA68"
+          },
+          {
+            "id": "R16Y7A7IJSKN4Z",
+            "date": "2026-08-24",
+            "rating": 5,
+            "variant": "Color: Black - 4 Pack",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B0DJNT4HY3#R16Y7A7IJSKN4Z"
+          },
+          {
+            "id": "R2017MR0XVZISO",
+            "date": "2026-08-30",
+            "rating": 5,
+            "variant": "Color: Black - 2 Pack",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B0DJNT4HY3#R2017MR0XVZISO"
+          },
+          {
+            "id": "RQMFQKZXN9B16",
+            "date": "2026-08-27",
+            "rating": 5,
+            "variant": "Color: Black - 2 Pack",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B0DJNT4HY3#RQMFQKZXN9B16"
+          },
+          {
+            "id": "R2MDYH8JXZCOWP",
+            "date": "2026-10-09",
+            "rating": 5,
+            "variant": "Color: Black - 4 Pack",
+            "verified": true,
+            "reviewCountry": "Canada",
+            "url": "https://www.amazon.com/dp/B0DJNT4HY3#R2MDYH8JXZCOWP"
+          },
+          {
+            "id": "R2GNXSL051BMFI",
+            "date": "2026-10-13",
+            "rating": 5,
+            "variant": "Color: Black - 4 Pack",
+            "verified": true,
+            "reviewCountry": "Canada",
+            "url": "https://www.amazon.com/dp/B0DJNT4HY3#R2GNXSL051BMFI"
+          },
+          {
+            "id": "R1FSMAR1NIHHWC",
+            "date": "2026-03-28",
+            "rating": 5,
+            "variant": "Color: Black - 4 Pack",
+            "verified": true,
+            "reviewCountry": "Canada",
+            "url": "https://www.amazon.com/dp/B0DJNT4HY3#R1FSMAR1NIHHWC"
+          },
+          {
+            "id": "R2SBVMG0VB0QHD",
+            "date": "2026-06-13",
+            "rating": 4,
+            "variant": "Color: Black - 4 Pack",
+            "verified": true,
+            "reviewCountry": "Canada",
+            "url": "https://www.amazon.com/dp/B0DJNT4HY3#R2SBVMG0VB0QHD"
+          },
+          {
+            "id": "R28ETK6SU9249B",
+            "date": "2026-08-29",
+            "rating": 5,
+            "variant": "Color: Black - 4 Pack",
+            "verified": true,
+            "reviewCountry": "Canada",
+            "url": "https://www.amazon.com/dp/B0DJNT4HY3#R28ETK6SU9249B"
+          }
+        ],
+        "reviewAccess": "仅商品详情页可见评论；跨变体与跨国评论分别保留",
+        "listedRating": 4.4,
+        "listedCount": 4433,
+        "price": null,
+        "priceNote": "本次未取得可核对的实时到手价，不以搜索缓存或其他变体报价代替。",
+        "checkedOn": "2026-10-18"
+      },
+      {
+        "id": "amazon-B0BZDDF2V4",
+        "platform": "amazon",
+        "market": "US",
+        "itemId": "B0BZDDF2V4",
+        "name": "NESSUS Vertuo Refill Kit, 100 Foils",
+        "zh": "Vertuo 填充工具与100张盖膜，不含胶囊",
+        "system": "vertuo",
+        "type": "accessories",
+        "originalTitle": "Nessus Reusable Pod Kit for Nespresso Pods Vertuo, Reuse Old Coffee Pods for Nespresso Vertuo: 100 Pcs Aluminum Foil Seal Lid, Holder, Brush, Refillable Vertuo Plus Next Capsule Machine(No Pods Come)",
+        "brandStore": "NESSUS",
+        "seller": "未核验实际销售主体；品牌店铺入口不等于当前卖家",
+        "source": "https://www.amazon.com/dp/B0BZDDF2V4",
+        "ranking": {
+          "position": 4,
+          "category": "Reusable Coffee Filters",
+          "url": "https://www.amazon.com/gp/bestsellers/home-garden/14162591/",
+          "checkedOn": "2026-10-18"
+        },
+        "selection": "公开品类榜单前10个商品；不是店铺排名或精确销量排名。仅采集各商品详情页可见评论，包含平台跨国家／变体汇集，未登录、不翻过验证码。",
+        "reviewRecords": [
+          {
+            "id": "RF8MDLKIP4EHP",
+            "date": "2026-09-11",
+            "rating": 5,
+            "variant": "Color: BlackSize: 1 Holder + 100 Foils + 1 Brush",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B0BZDDF2V4#RF8MDLKIP4EHP"
+          },
+          {
+            "id": "R35JW2XX9UDPOU",
+            "date": "2026-09-15",
+            "rating": 5,
+            "variant": "Color: BlackSize: 1 Holder + 100 Foils + 1 Brush",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B0BZDDF2V4#R35JW2XX9UDPOU"
+          },
+          {
+            "id": "R2S3Y6PXTKBBWB",
+            "date": "2025-09-18",
+            "rating": 4,
+            "variant": "Color: BlackSize: 1 Holder + 100 Foils + 1 Brush",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B0BZDDF2V4#R2S3Y6PXTKBBWB"
+          },
+          {
+            "id": "R3QAXX71OGZ4H6",
+            "date": "2026-10-13",
+            "rating": 5,
+            "variant": "Color: BlackSize: 1 Holder + 100 Foils + 1 Brush",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B0BZDDF2V4#R3QAXX71OGZ4H6"
+          },
+          {
+            "id": "REO2UBEE99C1C",
+            "date": "2026-07-22",
+            "rating": 5,
+            "variant": "Color: BlackSize: 1 Holder + 100 Foils + 1 Brush",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B0BZDDF2V4#REO2UBEE99C1C"
+          },
+          {
+            "id": "R2HBM29XOCEI4D",
+            "date": "2026-05-30",
+            "rating": 3,
+            "variant": "Color: BlackSize: 1 Holder + 100 Foils + 1 Brush",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B0BZDDF2V4#R2HBM29XOCEI4D"
+          },
+          {
+            "id": "R1LRLHIX8ZVBWA",
+            "date": "2026-04-19",
+            "rating": 5,
+            "variant": "Color: BlackSize: 1 Holder + 100 Foils + 1 Brush",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B0BZDDF2V4#R1LRLHIX8ZVBWA"
+          },
+          {
+            "id": "R2W9W5VIPGW7WR",
+            "date": "2026-08-11",
+            "rating": 5,
+            "variant": "Color: BlackSize: 1 Holder + 100 Foils + 1 Brush",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B0BZDDF2V4#R2W9W5VIPGW7WR"
+          },
+          {
+            "id": "R2HGRYSIW8R0ZI",
+            "date": "2026-09-14",
+            "rating": 5,
+            "variant": "Color: PurpleSize: 1 Holder + 100 Foils + 1 Brush",
+            "verified": true,
+            "reviewCountry": "Mexico",
+            "url": "https://www.amazon.com/dp/B0BZDDF2V4#R2HGRYSIW8R0ZI"
+          },
+          {
+            "id": "R3K6R7LMXW6VBN",
+            "date": "2026-06-12",
+            "rating": 5,
+            "variant": "Color: BlackSize: 1 Holder + 100 Foils + 1 Brush",
+            "verified": true,
+            "reviewCountry": "Japan",
+            "url": "https://www.amazon.com/dp/B0BZDDF2V4#R3K6R7LMXW6VBN"
+          },
+          {
+            "id": "REJDVPZC55MEW",
+            "date": "2026-08-02",
+            "rating": 5,
+            "variant": "Color: BlackSize: 1 Holder + 100 Foils + 1 Brush",
+            "verified": true,
+            "reviewCountry": "Canada",
+            "url": "https://www.amazon.com/dp/B0BZDDF2V4#REJDVPZC55MEW"
+          },
+          {
+            "id": "RUT45I7B1CY35",
+            "date": "2026-01-25",
+            "rating": 5,
+            "variant": "Color: BlackSize: 1 Holder + 100 Foils + 1 Brush",
+            "verified": true,
+            "reviewCountry": "Brazil",
+            "url": "https://www.amazon.com/dp/B0BZDDF2V4#RUT45I7B1CY35"
+          },
+          {
+            "id": "RXPIQZ1G7XNQK",
+            "date": "2024-11-02",
+            "rating": 5,
+            "variant": "Color: BlackSize: 1 Holder + 100 Foils + 1 Brush",
+            "verified": true,
+            "reviewCountry": "Mexico",
+            "url": "https://www.amazon.com/dp/B0BZDDF2V4#RXPIQZ1G7XNQK"
+          }
+        ],
+        "reviewAccess": "仅商品详情页可见评论；跨变体与跨国评论分别保留",
+        "listedRating": 4.3,
+        "listedCount": 2862,
+        "price": null,
+        "priceNote": "本次未取得可核对的实时到手价，不以搜索缓存或其他变体报价代替。",
+        "checkedOn": "2026-10-18"
+      },
+      {
+        "id": "amazon-B09NW83CRR",
+        "platform": "amazon",
+        "market": "US",
+        "itemId": "B09NW83CRR",
+        "name": "GoodCups MultiStream K Cups, 4 Pack",
+        "zh": "多针系统可填充滤杯，4只装",
+        "system": "k-cup",
+        "type": "reusable",
+        "originalTitle": "4 Reusable K Cups for Keurig K Supreme, K Supreme Plus, K Slim with Multistream Technology, K-Duo Hot & Iced Single Serve (Gen 2) - 4 Black Refillable Kcups Coffee Filters for Keurig Coffee Makers",
+        "brandStore": "GoodCups",
+        "seller": "未核验实际销售主体；品牌店铺入口不等于当前卖家",
+        "source": "https://www.amazon.com/dp/B09NW83CRR",
+        "ranking": {
+          "position": 5,
+          "category": "Reusable Coffee Filters",
+          "url": "https://www.amazon.com/gp/bestsellers/home-garden/14162591/",
+          "checkedOn": "2026-10-18"
+        },
+        "selection": "公开品类榜单前10个商品；不是店铺排名或精确销量排名。仅采集各商品详情页可见评论，包含平台跨国家／变体汇集，未登录、不翻过验证码。",
+        "reviewRecords": [
+          {
+            "id": "RCYIR9NAKCX9H",
+            "date": "2026-04-28",
+            "rating": 5,
+            "variant": "Style: 4 black k cups",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B09NW83CRR#RCYIR9NAKCX9H"
+          },
+          {
+            "id": "R2O085P1A634WT",
+            "date": "2026-09-30",
+            "rating": 5,
+            "variant": "Style: 4 black k cups",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B09NW83CRR#R2O085P1A634WT"
+          },
+          {
+            "id": "R2P83P1B3SZZWT",
+            "date": "2026-10-05",
+            "rating": 5,
+            "variant": "Style: 4 black k cups",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B09NW83CRR#R2P83P1B3SZZWT"
+          },
+          {
+            "id": "RWG9ETLPICDMW",
+            "date": "2026-09-19",
+            "rating": 4,
+            "variant": "Style: 4 black k cups",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B09NW83CRR#RWG9ETLPICDMW"
+          },
+          {
+            "id": "RKPIIV2EKTTDP",
+            "date": "2026-10-04",
+            "rating": 5,
+            "variant": "Style: 4 black k cups",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B09NW83CRR#RKPIIV2EKTTDP"
+          },
+          {
+            "id": "R3AXE9T76AJSYS",
+            "date": "2026-09-17",
+            "rating": 3,
+            "variant": "Style: 4 black k cups",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B09NW83CRR#R3AXE9T76AJSYS"
+          },
+          {
+            "id": "R13OP03WSS2UB6",
+            "date": "2026-09-06",
+            "rating": 5,
+            "variant": "Style: 4 black k cups",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B09NW83CRR#R13OP03WSS2UB6"
+          },
+          {
+            "id": "R1HEPEEBPPBBLM",
+            "date": "2026-09-05",
+            "rating": 4,
+            "variant": "Style: 4 black k cups",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B09NW83CRR#R1HEPEEBPPBBLM"
+          },
+          {
+            "id": "RL1I0WVWY3EHU",
+            "date": "2025-11-02",
+            "rating": 5,
+            "variant": "Style: 4 black k cups",
+            "verified": true,
+            "reviewCountry": "Mexico",
+            "url": "https://www.amazon.com/dp/B09NW83CRR#RL1I0WVWY3EHU"
+          },
+          {
+            "id": "R16TQ47C9G39DK",
+            "date": "2026-09-26",
+            "rating": 5,
+            "variant": "Style: 4 black k cups",
+            "verified": true,
+            "reviewCountry": "Canada",
+            "url": "https://www.amazon.com/dp/B09NW83CRR#R16TQ47C9G39DK"
+          },
+          {
+            "id": "R35OPFNB5OO9R1",
+            "date": "2026-08-04",
+            "rating": 5,
+            "variant": "Style: 4 black k cups",
+            "verified": true,
+            "reviewCountry": "Canada",
+            "url": "https://www.amazon.com/dp/B09NW83CRR#R35OPFNB5OO9R1"
+          },
+          {
+            "id": "R3MYHCXCX0RHS5",
+            "date": "2026-08-22",
+            "rating": 1,
+            "variant": "Style: 4 black k cups",
+            "verified": true,
+            "reviewCountry": "Canada",
+            "url": "https://www.amazon.com/dp/B09NW83CRR#R3MYHCXCX0RHS5"
+          },
+          {
+            "id": "R3D1KDQ4GXEENZ",
+            "date": "2026-10-04",
+            "rating": 5,
+            "variant": "Style: 4 black k cups",
+            "verified": true,
+            "reviewCountry": "Canada",
+            "url": "https://www.amazon.com/dp/B09NW83CRR#R3D1KDQ4GXEENZ"
+          }
+        ],
+        "reviewAccess": "仅商品详情页可见评论；跨变体与跨国评论分别保留",
+        "listedRating": 4.3,
+        "listedCount": 7836,
+        "price": null,
+        "priceNote": "本次未取得可核对的实时到手价，不以搜索缓存或其他变体报价代替。",
+        "checkedOn": "2026-10-18"
+      },
+      {
+        "id": "amazon-B0GLX6JXYC",
+        "platform": "amazon",
+        "market": "US",
+        "itemId": "B0GLX6JXYC",
+        "name": "HGIFZ Vertuo Refill Kit, 100 Foils",
+        "zh": "Vertuo 填充工具与100张盖膜，不含胶囊",
+        "system": "vertuo",
+        "type": "accessories",
+        "originalTitle": "Reusable Vertuo Pods Refill Kit for Nespresso, NO PODS",
+        "brandStore": "HGIFZ",
+        "seller": "未核验实际销售主体；品牌店铺入口不等于当前卖家",
+        "source": "https://www.amazon.com/dp/B0GLX6JXYC",
+        "ranking": {
+          "position": 6,
+          "category": "Reusable Coffee Filters",
+          "url": "https://www.amazon.com/gp/bestsellers/home-garden/14162591/",
+          "checkedOn": "2026-10-18"
+        },
+        "selection": "公开品类榜单前10个商品；不是店铺排名或精确销量排名。仅采集各商品详情页可见评论，包含平台跨国家／变体汇集，未登录、不翻过验证码。",
+        "reviewRecords": [
+          {
+            "id": "R27GZOFLU5YFNO",
+            "date": "2026-08-04",
+            "rating": 5,
+            "variant": "Size: Holder+100 PCS Foil Lids+Brush+Cutter",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B0GLX6JXYC#R27GZOFLU5YFNO"
+          },
+          {
+            "id": "R2PD76JYMI5MKR",
+            "date": "2026-09-14",
+            "rating": 5,
+            "variant": "Size: Holder+100 PCS Foil Lids+Brush+Cutter",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B0GLX6JXYC#R2PD76JYMI5MKR"
+          },
+          {
+            "id": "R2TCGJ7BH1L217",
+            "date": "2026-10-07",
+            "rating": 5,
+            "variant": "Size: Holder+100 PCS Foil Lids+Brush+Cutter",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B0GLX6JXYC#R2TCGJ7BH1L217"
+          },
+          {
+            "id": "RPP1DC7I3WFGZ",
+            "date": "2026-09-09",
+            "rating": 5,
+            "variant": "Size: Holder+100 PCS Foil Lids+Brush+CutterSize: Holder+100 PCS Foil Lids+Brush+Cutter",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B0GLX6JXYC#RPP1DC7I3WFGZ"
+          },
+          {
+            "id": "RUV6I9U34BO9L",
+            "date": "2026-10-09",
+            "rating": 4,
+            "variant": "Size: Holder+100 PCS Foil Lids+Brush+Cutter",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B0GLX6JXYC#RUV6I9U34BO9L"
+          },
+          {
+            "id": "R3LEKTX4DHQZ8S",
+            "date": "2026-07-17",
+            "rating": 5,
+            "variant": "Size: Holder+100 PCS Foil Lids+Brush+Cutter",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B0GLX6JXYC#R3LEKTX4DHQZ8S"
+          },
+          {
+            "id": "R3NR23O2YQ6V8U",
+            "date": "2026-08-22",
+            "rating": 5,
+            "variant": "Size: Holder+100 PCS Foil Lids+Brush+Cutter",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B0GLX6JXYC#R3NR23O2YQ6V8U"
+          },
+          {
+            "id": "R1K7IS6OSA350P",
+            "date": "2026-08-16",
+            "rating": 5,
+            "variant": "Size: Holder+100 PCS Foil Lids+Brush+Cutter",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B0GLX6JXYC#R1K7IS6OSA350P"
+          },
+          {
+            "id": "R3FRR3U23GDIYQ",
+            "date": "2026-07-15",
+            "rating": 5,
+            "variant": "Size: Holder+100 PCS Foil Lids+Brush+Cutter",
+            "verified": true,
+            "reviewCountry": "Canada",
+            "url": "https://www.amazon.com/dp/B0GLX6JXYC#R3FRR3U23GDIYQ"
+          },
+          {
+            "id": "R3H91L4BW05NHI",
+            "date": "2026-07-19",
+            "rating": 1,
+            "variant": "Size: Holder+100 PCS Foil Lids+Brush+Cutter",
+            "verified": true,
+            "reviewCountry": "the United Kingdom",
+            "url": "https://www.amazon.com/dp/B0GLX6JXYC#R3H91L4BW05NHI"
+          },
+          {
+            "id": "R3H2JYGOO9J8ZG",
+            "date": "2026-08-24",
+            "rating": 5,
+            "variant": "Size: Holder+100 PCS Foil Lids+Brush+Cutter",
+            "verified": true,
+            "reviewCountry": "Canada",
+            "url": "https://www.amazon.com/dp/B0GLX6JXYC#R3H2JYGOO9J8ZG"
+          },
+          {
+            "id": "R27MWQ72BT9XGV",
+            "date": "2026-09-03",
+            "rating": 5,
+            "variant": "Size: Holder+100 PCS Foil Lids+Brush+Cutter",
+            "verified": true,
+            "reviewCountry": "Canada",
+            "url": "https://www.amazon.com/dp/B0GLX6JXYC#R27MWQ72BT9XGV"
+          },
+          {
+            "id": "R2NFENLB4AES5F",
+            "date": "2026-10-02",
+            "rating": 5,
+            "variant": "Size: Holder+100 PCS Foil Lids+Brush+Cutter",
+            "verified": true,
+            "reviewCountry": "Canada",
+            "url": "https://www.amazon.com/dp/B0GLX6JXYC#R2NFENLB4AES5F"
+          }
+        ],
+        "reviewAccess": "仅商品详情页可见评论；跨变体与跨国评论分别保留",
+        "listedRating": 4.6,
+        "listedCount": 366,
+        "price": null,
+        "priceNote": "本次未取得可核对的实时到手价，不以搜索缓存或其他变体报价代替。",
+        "checkedOn": "2026-10-18"
+      },
+      {
+        "id": "amazon-B0CB3X4PKK",
+        "platform": "amazon",
+        "market": "US",
+        "itemId": "B0CB3X4PKK",
+        "name": "Fanativita Paper Filters with Lid, 100 Count",
+        "zh": "带盖纸滤杯，100只",
+        "system": "k-cup",
+        "type": "accessories",
+        "originalTitle": "Fanativita 100ct K Cup Coffee Filters with Genius Lid, Unbleached",
+        "brandStore": "Fanativita",
+        "seller": "未核验实际销售主体；品牌店铺入口不等于当前卖家",
+        "source": "https://www.amazon.com/dp/B0CB3X4PKK",
+        "ranking": {
+          "position": 7,
+          "category": "Reusable Coffee Filters",
+          "url": "https://www.amazon.com/gp/bestsellers/home-garden/14162591/",
+          "checkedOn": "2026-10-18"
+        },
+        "selection": "公开品类榜单前10个商品；不是店铺排名或精确销量排名。仅采集各商品详情页可见评论，包含平台跨国家／变体汇集，未登录、不翻过验证码。",
+        "reviewRecords": [
+          {
+            "id": "R12PFAC4X58OP9",
+            "date": "2026-08-01",
+            "rating": 5,
+            "variant": "Color: NaturalSize: 100 Count",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B0CB3X4PKK#R12PFAC4X58OP9"
+          },
+          {
+            "id": "R3C86220AZAWRV",
+            "date": "2026-10-04",
+            "rating": 5,
+            "variant": "Color: NaturalSize: 200 Count",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B0CB3X4PKK#R3C86220AZAWRV"
+          },
+          {
+            "id": "R2Q2SN0527MRMR",
+            "date": "2026-01-11",
+            "rating": 5,
+            "variant": "Color: NaturalSize: 100 Count",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B0CB3X4PKK#R2Q2SN0527MRMR"
+          },
+          {
+            "id": "R3D3LYJ46KSXBK",
+            "date": "2026-09-09",
+            "rating": 5,
+            "variant": "Color: NaturalSize: 100 Count",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B0CB3X4PKK#R3D3LYJ46KSXBK"
+          },
+          {
+            "id": "R22EXVCGQ8P50B",
+            "date": "2025-11-09",
+            "rating": 5,
+            "variant": "Color: WhiteSize: 100 Count",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B0CB3X4PKK#R22EXVCGQ8P50B"
+          },
+          {
+            "id": "RNLF2JO1OANR0",
+            "date": "2026-09-19",
+            "rating": 4,
+            "variant": "Color: NaturalSize: 100 Count",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B0CB3X4PKK#RNLF2JO1OANR0"
+          },
+          {
+            "id": "R2YR48Y6M3LH7D",
+            "date": "2026-10-06",
+            "rating": 5,
+            "variant": "Color: NaturalSize: 200 Count",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B0CB3X4PKK#R2YR48Y6M3LH7D"
+          },
+          {
+            "id": "R1ES7WOYV1PNUG",
+            "date": "2026-10-07",
+            "rating": 5,
+            "variant": "Color: NaturalSize: 100 Count",
+            "verified": true,
+            "reviewCountry": "the United States",
+            "url": "https://www.amazon.com/dp/B0CB3X4PKK#R1ES7WOYV1PNUG"
+          },
+          {
+            "id": "R3KZGZ8VDIMG8O",
+            "date": "2026-07-12",
+            "rating": 5,
+            "variant": "Color: NaturalSize: 200 Count",
+            "verified": true,
+            "reviewCountry": "Canada",
+            "url": "https://www.amazon.com/dp/B0CB3X4PKK#R3KZGZ8VDIMG8O"
+          },
+          {
+            "id": "R1M33DRRIKDWXB",
+            "date": "2026-06-01",
+            "rating": 5,
+            "variant": "Color: WhiteSize: 200 Count",
+            "verified": true,
+            "reviewCountry": "Canada",
+            "url": "https://www.amazon.com/dp/B0CB3X4PKK#R1M33DRRIKDWXB"
+          },
+          {
+            "id": "R2NU2W04A0K731",
+            "date": "2026-09-17",
+            "rating": 5,
+            "variant": "Color: NaturalSize: 300 Count",
+            "verified": true,
+            "reviewCountry": "Canada",
+            "url": "https://www.amazon.com/dp/B0CB3X4PKK#R2NU2W04A0K731"
+          },
+          {
+            "id": "R39C8O6QIX46QN",
+            "date": "2026-04-29",
+            "rating": 5,
+            "variant": "Color: NaturalSize: 200 Count",
+            "verified": true,
+            "reviewCountry": "Canada",
+            "url": "https://www.amazon.com/dp/B0CB3X4PKK#R39C8O6QIX46QN"
+          },
+          {
+            "id": "R37US29C176PC6",
+            "date": "2026-04-20",
+            "rating": 4,
+            "variant": "Color: WhiteSize: 200 Count",
+            "verified": true,
+            "reviewCountry": "Canada",
+            "url": "https://www.amazon.com/dp/B0CB3X4PKK#R37US29C176PC6"
+          }
+        ],
+        "reviewAccess": "仅商品详情页可见评论；跨变体与跨国评论分别保留",
+        "listedRating": 4.6,
+        "listedCount": 3045,
+        "price": null,
+        "priceNote": "本次未取得可核对的实时到手价，不以搜索缓存或其他变体报价代替。",
+        "checkedOn": "2026-10-18"
+      },
+      {
+        "id": "amazon-B0F99LMHLJ",
+        "platform": "amazon",
+        "market": "US",
+        "itemId": "B0F99LMHLJ",
+        "name": "NESSUS K Cups, 4 Pack",
+        "zh": "Keurig 1.0 可填充滤杯，4只装",
+        "system": "k-cup",
+        "type": "reusable",
+        "originalTitle": "4 Pack Reusable K Cups Coffee Pods for Keurig 1.0",
+        "brandStore": "NESSUS",
+        "seller": "未核验实际销售主体；品牌店铺入口不等于当前卖家",
+        "source": "https://www.amazon.com/dp/B0F99LMHLJ",
+        "ranking": {
+          "position": 8,
+          "category": "Reusable Coffee Filters",
+          "url": "https://www.amazon.com/gp/bestsellers/home-garden/14162591/",
+          "checkedOn": "2026-10-18"
+        },
+        "selection": "公开品类榜单前10个商品；不是店铺排名或精确销量排名。仅采集各商品详情页可见评论，包含平台跨国家／变体汇集，未登录、不翻过验证码。",
+        "reviewRecords": [],
+        "reviewAccess": "公开评论入口重定向，未登录获取更多评论",
+        "listedRating": 4.4,
+        "listedCount": 1971,
+        "price": null,
+        "priceNote": "本次未取得可核对的实时到手价，不以搜索缓存或其他变体报价代替。",
+        "checkedOn": "2026-10-18"
+      },
+      {
+        "id": "amazon-B0GVDK4VXT",
+        "platform": "amazon",
+        "market": "US",
+        "itemId": "B0GVDK4VXT",
+        "name": "CAPMESSO Stainless Steel K Cup, 2 Pack",
+        "zh": "双网不锈钢滤杯，2只装",
+        "system": "k-cup",
+        "type": "reusable",
+        "originalTitle": "CAPMESSO Reusable K Cups for Keurig: NO Grit Stainless Steel Coffee Pod 2PC",
+        "brandStore": "CAPMESSO",
+        "seller": "未核验实际销售主体；品牌店铺入口不等于当前卖家",
+        "source": "https://www.amazon.com/dp/B0GVDK4VXT",
+        "ranking": {
+          "position": 9,
+          "category": "Reusable Coffee Filters",
+          "url": "https://www.amazon.com/gp/bestsellers/home-garden/14162591/",
+          "checkedOn": "2026-10-18"
+        },
+        "selection": "公开品类榜单前10个商品；不是店铺排名或精确销量排名。仅采集各商品详情页可见评论，包含平台跨国家／变体汇集，未登录、不翻过验证码。",
+        "reviewRecords": [],
+        "reviewAccess": "公开评论入口重定向，未登录获取更多评论",
+        "listedRating": 4.7,
+        "listedCount": 232,
+        "price": null,
+        "priceNote": "本次未取得可核对的实时到手价，不以搜索缓存或其他变体报价代替。",
+        "checkedOn": "2026-10-18"
+      },
+      {
+        "id": "amazon-B07RL6HMVH",
+        "platform": "amazon",
+        "market": "US",
+        "itemId": "B07RL6HMVH",
+        "name": "CAPMESSO Vertuo Foil Lids, 100 Count",
+        "zh": "Vertuo 盖膜，100张",
+        "system": "vertuo",
+        "type": "accessories",
+        "originalTitle": "CAPMESSO Aluminum Foil Lids for Reusing All Nespresso Vertuo Pods (100pcs)",
+        "brandStore": "CAPMESSO",
+        "seller": "未核验实际销售主体；品牌店铺入口不等于当前卖家",
+        "source": "https://www.amazon.com/dp/B07RL6HMVH",
+        "ranking": {
+          "position": 10,
+          "category": "Reusable Coffee Filters",
+          "url": "https://www.amazon.com/gp/bestsellers/home-garden/14162591/",
+          "checkedOn": "2026-10-18"
+        },
+        "selection": "公开品类榜单前10个商品；不是店铺排名或精确销量排名。仅采集各商品详情页可见评论，包含平台跨国家／变体汇集，未登录、不翻过验证码。",
+        "reviewRecords": [],
+        "reviewAccess": "公开评论入口重定向，未登录获取更多评论",
+        "listedRating": 4.4,
+        "listedCount": 9901,
+        "price": null,
+        "priceNote": "本次未取得可核对的实时到手价，不以搜索缓存或其他变体报价代替。",
+        "checkedOn": "2026-10-18"
+      },
+      {
+        "id": "emag-DFVN9WBBM",
+        "platform": "emag",
+        "market": "RO",
+        "itemId": "DFVN9WBBM",
+        "name": "Dolce Gusto Refillable Capsules, 4 Pack",
+        "zh": "塑料／硅胶可填充胶囊，4只装",
+        "system": "dolce-gusto",
+        "type": "reusable",
+        "originalTitle": "Set 4 capsule reutilizabile cafea compatibile cu Dolce Gusto, Plastic/Silicon, 52 x 35 mm, Maro",
+        "brandStore": "平台商品，制造商身份按商品页逐项核验",
+        "seller": "未核验销售主体",
+        "source": "https://www.emag.ro/set-4-capsule-reutilizabile-cafea-compatibile-cu-dolce-gusto-plastic-silicon-52-x-35-mm-maro-4dolcekapszula/pd/DFVN9WBBM/",
+        "ranking": null,
+        "selection": "默认检索结果候选样本；无销量排名依据",
+        "reviewRecords": [
+          {
+            "id": "202365547",
+            "date": "2026-04-13",
+            "rating": 5,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/set-4-capsule-reutilizabile-cafea-compatibile-cu-dolce-gusto-plastic-silicon-52-x-35-mm-maro-4dolcekapszula/pd/DFVN9WBBM/review/202365547"
+          },
+          {
+            "id": "201651568",
+            "date": "2025-12-06",
+            "rating": 5,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/set-4-capsule-reutilizabile-cafea-compatibile-cu-dolce-gusto-plastic-silicon-52-x-35-mm-maro-4dolcekapszula/pd/DFVN9WBBM/review/201651568"
+          },
+          {
+            "id": "201471266",
+            "date": "2025-11-10",
+            "rating": 5,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/set-4-capsule-reutilizabile-cafea-compatibile-cu-dolce-gusto-plastic-silicon-52-x-35-mm-maro-4dolcekapszula/pd/DFVN9WBBM/review/201471266"
+          },
+          {
+            "id": "100156935",
+            "date": "2025-02-10",
+            "rating": 2,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/set-4-capsule-reutilizabile-cafea-compatibile-cu-dolce-gusto-plastic-silicon-52-x-35-mm-maro-4dolcekapszula/pd/DFVN9WBBM/review/100156935"
+          },
+          {
+            "id": "11014266",
+            "date": "2024-10-22",
+            "rating": 1,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/set-4-capsule-reutilizabile-cafea-compatibile-cu-dolce-gusto-plastic-silicon-52-x-35-mm-maro-4dolcekapszula/pd/DFVN9WBBM/review/11014266"
+          },
+          {
+            "id": "10510905",
+            "date": "2024-06-30",
+            "rating": 4,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/set-4-capsule-reutilizabile-cafea-compatibile-cu-dolce-gusto-plastic-silicon-52-x-35-mm-maro-4dolcekapszula/pd/DFVN9WBBM/review/10510905"
+          },
+          {
+            "id": "10472677",
+            "date": "2024-06-21",
+            "rating": 5,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/set-4-capsule-reutilizabile-cafea-compatibile-cu-dolce-gusto-plastic-silicon-52-x-35-mm-maro-4dolcekapszula/pd/DFVN9WBBM/review/10472677"
+          },
+          {
+            "id": "10449788",
+            "date": "2024-06-16",
+            "rating": 5,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/set-4-capsule-reutilizabile-cafea-compatibile-cu-dolce-gusto-plastic-silicon-52-x-35-mm-maro-4dolcekapszula/pd/DFVN9WBBM/review/10449788"
+          },
+          {
+            "id": "10209935",
+            "date": "2024-04-25",
+            "rating": 1,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/set-4-capsule-reutilizabile-cafea-compatibile-cu-dolce-gusto-plastic-silicon-52-x-35-mm-maro-4dolcekapszula/pd/DFVN9WBBM/review/10209935"
+          }
+        ],
+        "reviewAccess": "仅公开详情页可见评论，不代表全部评论",
+        "price": null,
+        "priceNote": "未记录可比实时价格",
+        "checkedOn": "2026-10-18"
+      },
+      {
+        "id": "emag-DM5N4SMBM",
+        "platform": "emag",
+        "market": "RO",
+        "itemId": "DM5N4SMBM",
+        "name": "Dolce Gusto Refillable Capsules, 10 Pack",
+        "zh": "Dolce Gusto 可填充胶囊，10只装",
+        "system": "dolce-gusto",
+        "type": "reusable",
+        "originalTitle": "Set 10 Capsule cafea reutilizabile, reincarcabile, lavabile compatibile Dolce Gusto d10, maro",
+        "brandStore": "平台商品，制造商身份按商品页逐项核验",
+        "seller": "未核验销售主体",
+        "source": "https://www.emag.ro/set-10-capsule-cafea-reutilizabile-reincarcabile-lavabile-compatibile-dolce-gusto-d10-maro-10x/pd/DM5N4SMBM/",
+        "ranking": null,
+        "selection": "默认检索结果候选样本；无销量排名依据",
+        "reviewRecords": [
+          {
+            "id": "203060510",
+            "date": "2026-09-11",
+            "rating": 5,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/set-10-capsule-cafea-reutilizabile-reincarcabile-lavabile-compatibile-dolce-gusto-d10-maro-10x/pd/DM5N4SMBM/review/203060510"
+          },
+          {
+            "id": "202972179",
+            "date": "2026-08-19",
+            "rating": 3,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/set-10-capsule-cafea-reutilizabile-reincarcabile-lavabile-compatibile-dolce-gusto-d10-maro-10x/pd/DM5N4SMBM/review/202972179"
+          },
+          {
+            "id": "202706205",
+            "date": "2026-06-16",
+            "rating": 4,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/set-10-capsule-cafea-reutilizabile-reincarcabile-lavabile-compatibile-dolce-gusto-d10-maro-10x/pd/DM5N4SMBM/review/202706205"
+          },
+          {
+            "id": "202421489",
+            "date": "2026-04-23",
+            "rating": 4,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/set-10-capsule-cafea-reutilizabile-reincarcabile-lavabile-compatibile-dolce-gusto-d10-maro-10x/pd/DM5N4SMBM/review/202421489"
+          },
+          {
+            "id": "202007219",
+            "date": "2026-02-06",
+            "rating": 1,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/set-10-capsule-cafea-reutilizabile-reincarcabile-lavabile-compatibile-dolce-gusto-d10-maro-10x/pd/DM5N4SMBM/review/202007219"
+          },
+          {
+            "id": "201698377",
+            "date": "2025-12-13",
+            "rating": 5,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/set-10-capsule-cafea-reutilizabile-reincarcabile-lavabile-compatibile-dolce-gusto-d10-maro-10x/pd/DM5N4SMBM/review/201698377"
+          },
+          {
+            "id": "201600078",
+            "date": "2025-11-28",
+            "rating": 5,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/set-10-capsule-cafea-reutilizabile-reincarcabile-lavabile-compatibile-dolce-gusto-d10-maro-10x/pd/DM5N4SMBM/review/201600078"
+          },
+          {
+            "id": "201163738",
+            "date": "2025-09-13",
+            "rating": 1,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/set-10-capsule-cafea-reutilizabile-reincarcabile-lavabile-compatibile-dolce-gusto-d10-maro-10x/pd/DM5N4SMBM/review/201163738"
+          },
+          {
+            "id": "201141782",
+            "date": "2025-09-09",
+            "rating": 5,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/set-10-capsule-cafea-reutilizabile-reincarcabile-lavabile-compatibile-dolce-gusto-d10-maro-10x/pd/DM5N4SMBM/review/201141782"
+          },
+          {
+            "id": "200956520",
+            "date": "2025-08-05",
+            "rating": 5,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/set-10-capsule-cafea-reutilizabile-reincarcabile-lavabile-compatibile-dolce-gusto-d10-maro-10x/pd/DM5N4SMBM/review/200956520"
+          }
+        ],
+        "reviewAccess": "仅公开详情页可见评论，不代表全部评论",
+        "price": null,
+        "priceNote": "未记录可比实时价格",
+        "checkedOn": "2026-10-18"
+      },
+      {
+        "id": "emag-DSVXSSYBM",
+        "platform": "emag",
+        "market": "RO",
+        "itemId": "DSVXSSYBM",
+        "name": "Tassimo Refillable Disc, 180 ml",
+        "zh": "Tassimo 可填充盘；标题标注不锈钢待核验",
+        "system": "tassimo",
+        "type": "reusable",
+        "originalTitle": "Capsule Cafea Reutilizabile din Otel Inoxidabil, compatibile cu Aparate Bosch Tassimo, Set, 180ml",
+        "brandStore": "平台商品，制造商身份按商品页逐项核验",
+        "seller": "未核验销售主体",
+        "source": "https://www.emag.ro/capsule-cafea-reutilizabile-din-otel-inoxidabil-compatibile-cu-aparate-bosch-tassimo-set-180ml-tassimo-180ml/pd/DSVXSSYBM/",
+        "ranking": null,
+        "selection": "默认检索结果候选样本；无销量排名依据",
+        "reviewRecords": [
+          {
+            "id": "202951185",
+            "date": "2026-08-13",
+            "rating": 1,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/capsule-cafea-reutilizabile-din-otel-inoxidabil-compatibile-cu-aparate-bosch-tassimo-set-180ml-tassimo-180ml/pd/DSVXSSYBM/review/202951185"
+          },
+          {
+            "id": "202611701",
+            "date": "2026-05-27",
+            "rating": 5,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/capsule-cafea-reutilizabile-din-otel-inoxidabil-compatibile-cu-aparate-bosch-tassimo-set-180ml-tassimo-180ml/pd/DSVXSSYBM/review/202611701"
+          },
+          {
+            "id": "202594380",
+            "date": "2026-05-23",
+            "rating": 5,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/capsule-cafea-reutilizabile-din-otel-inoxidabil-compatibile-cu-aparate-bosch-tassimo-set-180ml-tassimo-180ml/pd/DSVXSSYBM/review/202594380"
+          },
+          {
+            "id": "202494042",
+            "date": "2026-05-06",
+            "rating": 1,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/capsule-cafea-reutilizabile-din-otel-inoxidabil-compatibile-cu-aparate-bosch-tassimo-set-180ml-tassimo-180ml/pd/DSVXSSYBM/review/202494042"
+          },
+          {
+            "id": "202479861",
+            "date": "2026-05-03",
+            "rating": 5,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/capsule-cafea-reutilizabile-din-otel-inoxidabil-compatibile-cu-aparate-bosch-tassimo-set-180ml-tassimo-180ml/pd/DSVXSSYBM/review/202479861"
+          },
+          {
+            "id": "202423616",
+            "date": "2026-04-23",
+            "rating": 5,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/capsule-cafea-reutilizabile-din-otel-inoxidabil-compatibile-cu-aparate-bosch-tassimo-set-180ml-tassimo-180ml/pd/DSVXSSYBM/review/202423616"
+          },
+          {
+            "id": "202413006",
+            "date": "2026-04-21",
+            "rating": 5,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/capsule-cafea-reutilizabile-din-otel-inoxidabil-compatibile-cu-aparate-bosch-tassimo-set-180ml-tassimo-180ml/pd/DSVXSSYBM/review/202413006"
+          },
+          {
+            "id": "202400210",
+            "date": "2026-04-20",
+            "rating": 5,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/capsule-cafea-reutilizabile-din-otel-inoxidabil-compatibile-cu-aparate-bosch-tassimo-set-180ml-tassimo-180ml/pd/DSVXSSYBM/review/202400210"
+          },
+          {
+            "id": "202220241",
+            "date": "2026-03-17",
+            "rating": 3,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/capsule-cafea-reutilizabile-din-otel-inoxidabil-compatibile-cu-aparate-bosch-tassimo-set-180ml-tassimo-180ml/pd/DSVXSSYBM/review/202220241"
+          },
+          {
+            "id": "202107463",
+            "date": "2026-02-24",
+            "rating": 5,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/capsule-cafea-reutilizabile-din-otel-inoxidabil-compatibile-cu-aparate-bosch-tassimo-set-180ml-tassimo-180ml/pd/DSVXSSYBM/review/202107463"
+          }
+        ],
+        "reviewAccess": "仅公开详情页可见评论，不代表全部评论",
+        "price": null,
+        "priceNote": "未记录可比实时价格",
+        "checkedOn": "2026-10-18"
+      },
+      {
+        "id": "emag-DDC8QJMBM",
+        "platform": "emag",
+        "market": "RO",
+        "itemId": "DDC8QJMBM",
+        "name": "Nespresso Refillable Capsules, 5 Pack",
+        "zh": "平台宣称 Nespresso 适配；系统需另核验",
+        "system": "original",
+        "type": "reusable",
+        "originalTitle": "Set 5x Capsule Cafea Reincarcabile, Compatibile Nespresso, OEM, negru",
+        "brandStore": "平台商品，制造商身份按商品页逐项核验",
+        "seller": "未核验销售主体",
+        "source": "https://www.emag.ro/set-5x-capsule-cafea-reincarcabile-compatibile-nespresso-oem-negru-5feketekapszula/pd/DDC8QJMBM/",
+        "ranking": null,
+        "selection": "默认检索结果候选样本；无销量排名依据",
+        "reviewRecords": [
+          {
+            "id": "202837859",
+            "date": "2026-07-15",
+            "rating": 5,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/set-5x-capsule-cafea-reincarcabile-compatibile-nespresso-oem-negru-5feketekapszula/pd/DDC8QJMBM/review/202837859"
+          },
+          {
+            "id": "202702118",
+            "date": "2026-06-15",
+            "rating": 5,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/set-5x-capsule-cafea-reincarcabile-compatibile-nespresso-oem-negru-5feketekapszula/pd/DDC8QJMBM/review/202702118"
+          },
+          {
+            "id": "202198269",
+            "date": "2026-03-13",
+            "rating": 1,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/set-5x-capsule-cafea-reincarcabile-compatibile-nespresso-oem-negru-5feketekapszula/pd/DDC8QJMBM/review/202198269"
+          },
+          {
+            "id": "202091917",
+            "date": "2026-02-21",
+            "rating": 5,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/set-5x-capsule-cafea-reincarcabile-compatibile-nespresso-oem-negru-5feketekapszula/pd/DDC8QJMBM/review/202091917"
+          },
+          {
+            "id": "200502501",
+            "date": "2025-05-14",
+            "rating": 5,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/set-5x-capsule-cafea-reincarcabile-compatibile-nespresso-oem-negru-5feketekapszula/pd/DDC8QJMBM/review/200502501"
+          },
+          {
+            "id": "200404955",
+            "date": "2025-04-25",
+            "rating": 4,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/set-5x-capsule-cafea-reincarcabile-compatibile-nespresso-oem-negru-5feketekapszula/pd/DDC8QJMBM/review/200404955"
+          },
+          {
+            "id": "11414111",
+            "date": "2024-12-25",
+            "rating": 4,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/set-5x-capsule-cafea-reincarcabile-compatibile-nespresso-oem-negru-5feketekapszula/pd/DDC8QJMBM/review/11414111"
+          },
+          {
+            "id": "11109773",
+            "date": "2024-11-09",
+            "rating": 5,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/set-5x-capsule-cafea-reincarcabile-compatibile-nespresso-oem-negru-5feketekapszula/pd/DDC8QJMBM/review/11109773"
+          },
+          {
+            "id": "10870970",
+            "date": "2024-09-24",
+            "rating": 5,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/set-5x-capsule-cafea-reincarcabile-compatibile-nespresso-oem-negru-5feketekapszula/pd/DDC8QJMBM/review/10870970"
+          },
+          {
+            "id": "10011270",
+            "date": "2024-03-13",
+            "rating": 5,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/set-5x-capsule-cafea-reincarcabile-compatibile-nespresso-oem-negru-5feketekapszula/pd/DDC8QJMBM/review/10011270"
+          }
+        ],
+        "reviewAccess": "仅公开详情页可见评论，不代表全部评论",
+        "price": null,
+        "priceNote": "未记录可比实时价格",
+        "checkedOn": "2026-10-18"
+      },
+      {
+        "id": "emag-DC6VRPMBM",
+        "platform": "emag",
+        "market": "RO",
+        "itemId": "DC6VRPMBM",
+        "name": "Dolce Gusto Refillable Capsules, 3 Pack",
+        "zh": "可填充胶囊，3只装",
+        "system": "dolce-gusto",
+        "type": "reusable",
+        "originalTitle": "Set 3 capsule reutilizabile, Compatibil Dolce Gusto, Plastic, Maro",
+        "brandStore": "平台商品，制造商身份按商品页逐项核验",
+        "seller": "未核验销售主体",
+        "source": "https://www.emag.ro/set-3-capsule-reutilizabile-compatibil-dolce-gusto-plastic-maro-3-dolce-per-ling/pd/DC6VRPMBM/",
+        "ranking": null,
+        "selection": "默认检索结果候选样本；无销量排名依据",
+        "reviewRecords": [
+          {
+            "id": "202384741",
+            "date": "2026-04-16",
+            "rating": 5,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/set-3-capsule-reutilizabile-compatibil-dolce-gusto-plastic-maro-3-dolce-per-ling/pd/DC6VRPMBM/review/202384741"
+          }
+        ],
+        "reviewAccess": "仅公开详情页可见评论，不代表全部评论",
+        "price": null,
+        "priceNote": "未记录可比实时价格",
+        "checkedOn": "2026-10-18"
+      },
+      {
+        "id": "emag-D1R8BW3BM",
+        "platform": "emag",
+        "market": "RO",
+        "itemId": "D1R8BW3BM",
+        "name": "AjieQaQ Tassimo Refillable Disc, 60 ml",
+        "zh": "Tassimo 可填充盘，标注60毫升",
+        "system": "tassimo",
+        "type": "reusable",
+        "originalTitle": "Capsule de cafea reutilizabile, AjieQaQ, compatibile cu Bosch Tassimo, filtru de cafea DIY, sigure, fiabile si ecologice, fara BPA, usor de utilizat, pastreaza aroma originala, 60ml",
+        "brandStore": "平台商品，制造商身份按商品页逐项核验",
+        "seller": "未核验销售主体",
+        "source": "https://www.emag.ro/capsule-de-cafea-reutilizabile-ajieqaq-compatibile-cu-bosch-tassimo-filtru-de-cafea-diy-sigure-fiabile-si-ecologice-fara-bpa-usor-de-utilizat-pastreaza-aroma-originala-60ml-7b322/pd/D1R8BW3BM/",
+        "ranking": null,
+        "selection": "默认检索结果候选样本；无销量排名依据",
+        "reviewRecords": [
+          {
+            "id": "202982078",
+            "date": "2026-08-21",
+            "rating": 5,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/capsule-de-cafea-reutilizabile-ajieqaq-compatibile-cu-bosch-tassimo-filtru-de-cafea-diy-sigure-fiabile-si-ecologice-fara-bpa-usor-de-utilizat-pastreaza-aroma-originala-60ml-7b322/pd/D1R8BW3BM/review/202982078"
+          }
+        ],
+        "reviewAccess": "仅公开详情页可见评论，不代表全部评论",
+        "price": null,
+        "priceNote": "未记录可比实时价格",
+        "checkedOn": "2026-10-18"
+      },
+      {
+        "id": "emag-DW03KHMBM",
+        "platform": "emag",
+        "market": "RO",
+        "itemId": "DW03KHMBM",
+        "name": "Dolce Gusto Refillable Capsule",
+        "zh": "棕色可填充胶囊",
+        "system": "dolce-gusto",
+        "type": "reusable",
+        "originalTitle": "Capsula reutilizabila, Compatibil cu Dolce Gusto, Maro",
+        "brandStore": "平台商品，制造商身份按商品页逐项核验",
+        "seller": "未核验销售主体",
+        "source": "https://www.emag.ro/capsula-reutilizabila-compatibil-cu-dolce-gusto-maro-1-dg-maro-per-ling/pd/DW03KHMBM/",
+        "ranking": null,
+        "selection": "默认检索结果候选样本；无销量排名依据",
+        "reviewRecords": [
+          {
+            "id": "202647734",
+            "date": "2026-06-04",
+            "rating": 1,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/capsula-reutilizabila-compatibil-cu-dolce-gusto-maro-1-dg-maro-per-ling/pd/DW03KHMBM/review/202647734"
+          },
+          {
+            "id": "202342671",
+            "date": "2026-04-08",
+            "rating": 5,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/capsula-reutilizabila-compatibil-cu-dolce-gusto-maro-1-dg-maro-per-ling/pd/DW03KHMBM/review/202342671"
+          },
+          {
+            "id": "201684419",
+            "date": "2025-12-11",
+            "rating": 5,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/capsula-reutilizabila-compatibil-cu-dolce-gusto-maro-1-dg-maro-per-ling/pd/DW03KHMBM/review/201684419"
+          },
+          {
+            "id": "200427315",
+            "date": "2025-04-30",
+            "rating": 5,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/capsula-reutilizabila-compatibil-cu-dolce-gusto-maro-1-dg-maro-per-ling/pd/DW03KHMBM/review/200427315"
+          },
+          {
+            "id": "10273943",
+            "date": "2024-05-10",
+            "rating": 5,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/capsula-reutilizabila-compatibil-cu-dolce-gusto-maro-1-dg-maro-per-ling/pd/DW03KHMBM/review/10273943"
+          },
+          {
+            "id": "10018928",
+            "date": "2024-03-14",
+            "rating": 5,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/capsula-reutilizabila-compatibil-cu-dolce-gusto-maro-1-dg-maro-per-ling/pd/DW03KHMBM/review/10018928"
+          },
+          {
+            "id": "9945522",
+            "date": "2024-02-27",
+            "rating": 4,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/capsula-reutilizabila-compatibil-cu-dolce-gusto-maro-1-dg-maro-per-ling/pd/DW03KHMBM/review/9945522"
+          },
+          {
+            "id": "9661711",
+            "date": "2024-01-05",
+            "rating": 3,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/capsula-reutilizabila-compatibil-cu-dolce-gusto-maro-1-dg-maro-per-ling/pd/DW03KHMBM/review/9661711"
+          },
+          {
+            "id": "9381249",
+            "date": "2023-11-13",
+            "rating": 5,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/capsula-reutilizabila-compatibil-cu-dolce-gusto-maro-1-dg-maro-per-ling/pd/DW03KHMBM/review/9381249"
+          },
+          {
+            "id": "9052754",
+            "date": "2023-08-23",
+            "rating": 5,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/capsula-reutilizabila-compatibil-cu-dolce-gusto-maro-1-dg-maro-per-ling/pd/DW03KHMBM/review/9052754"
+          }
+        ],
+        "reviewAccess": "仅公开详情页可见评论，不代表全部评论",
+        "price": null,
+        "priceNote": "未记录可比实时价格",
+        "checkedOn": "2026-10-18"
+      },
+      {
+        "id": "emag-D6Q0DT2BM",
+        "platform": "emag",
+        "market": "RO",
+        "itemId": "D6Q0DT2BM",
+        "name": "TrioStore Dolce Gusto Refillable Capsules, 5 Pack",
+        "zh": "可填充胶囊，5只装",
+        "system": "dolce-gusto",
+        "type": "reusable",
+        "originalTitle": "Set 5 Capsule Dolce Gusto Reutilizabile TrioStore® Capsule Cafea Reincarcabile Refill Compatibile Dolce Gusto Plastic Universal Capsule Cafea Reutilizabile Set Capsule Dolce Gusto Reumplere Compatibile Cafea Dolce Gusto",
+        "brandStore": "平台商品，制造商身份按商品页逐项核验",
+        "seller": "未核验销售主体",
+        "source": "https://www.emag.ro/set-5-capsule-dolce-gusto-reutilizabile-triostorer-capsule-cafea-reincarcabile-refill-compatibile-dolce-gusto-plastic-universal-capsule-cafea-reutilizabile-set-capsule-dolce-gusto-reumplere-compatibil/pd/D6Q0DT2BM/",
+        "ranking": null,
+        "selection": "默认检索结果候选样本；无销量排名依据",
+        "reviewRecords": [],
+        "reviewAccess": "详情页未取得评论正文",
+        "price": null,
+        "priceNote": "未记录可比实时价格",
+        "checkedOn": "2026-10-18"
+      },
+      {
+        "id": "emag-D8X65SMBM",
+        "platform": "emag",
+        "market": "RO",
+        "itemId": "D8X65SMBM",
+        "name": "Dolce Gusto Refillable Capsules, 5 Pack",
+        "zh": "透明款可填充胶囊，5只装",
+        "system": "dolce-gusto",
+        "type": "reusable",
+        "originalTitle": "Set 5 Capsule cafea, reutilizabila, reincarcabila, compatibil Dolce Gusto, transparent",
+        "brandStore": "平台商品，制造商身份按商品页逐项核验",
+        "seller": "未核验销售主体",
+        "source": "https://www.emag.ro/set-5-capsule-cafea-reutilizabila-reincarcabila-compatibil-dolce-gusto-transparent-5xdolce-transparent/pd/D8X65SMBM/",
+        "ranking": null,
+        "selection": "默认检索结果候选样本；无销量排名依据",
+        "reviewRecords": [
+          {
+            "id": "200606832",
+            "date": "2025-06-01",
+            "rating": 5,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/set-5-capsule-cafea-reutilizabila-reincarcabila-compatibil-dolce-gusto-negru-5xdolce-negru/pd/DZWJ1SMBM/review/200606832"
+          },
+          {
+            "id": "200381581",
+            "date": "2025-04-22",
+            "rating": 3,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/set-5-capsule-cafea-reutilizabila-reincarcabila-compatibil-dolce-gusto-albastru-inchis-5xdolce-alb-inchis/pd/DXBS1SMBM/review/200381581"
+          },
+          {
+            "id": "11104219",
+            "date": "2024-11-08",
+            "rating": 3,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/set-5-capsule-cafea-reutilizabila-reincarcabila-compatibil-dolce-gusto-negru-5xdolce-negru/pd/DZWJ1SMBM/review/11104219"
+          },
+          {
+            "id": "11019126",
+            "date": "2024-10-23",
+            "rating": 5,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/set-5-capsule-cafea-reutilizabila-reincarcabila-compatibil-dolce-gusto-transparent-5xdolce-transparent/pd/D8X65SMBM/review/11019126"
+          },
+          {
+            "id": "10672103",
+            "date": "2024-08-07",
+            "rating": 5,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/set-5-capsule-cafea-reutilizabila-reincarcabila-compatibil-dolce-gusto-negru-5xdolce-negru/pd/DZWJ1SMBM/review/10672103"
+          },
+          {
+            "id": "10322330",
+            "date": "2024-05-19",
+            "rating": 5,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/set-5-capsule-cafea-reutilizabila-reincarcabila-compatibil-dolce-gusto-portocaliu-5xdolce-portocaliu/pd/DPBS1SMBM/review/10322330"
+          }
+        ],
+        "reviewAccess": "仅公开详情页可见评论，不代表全部评论",
+        "price": null,
+        "priceNote": "未记录可比实时价格",
+        "checkedOn": "2026-10-18"
+      },
+      {
+        "id": "emag-DZ9W23MBM",
+        "platform": "emag",
+        "market": "RO",
+        "itemId": "DZ9W23MBM",
+        "name": "Dolce Gusto Refillable Capsules, 5 Pack",
+        "zh": "可填充胶囊，5只装",
+        "system": "dolce-gusto",
+        "type": "reusable",
+        "originalTitle": "Set 5x Capsule Cafea Reincarcabile, Compatibile Dolce Gusto",
+        "brandStore": "平台商品，制造商身份按商品页逐项核验",
+        "seller": "未核验销售主体",
+        "source": "https://www.emag.ro/set-5x-capsule-cafea-reincarcabile-compatibile-dolce-gusto-5xdg-maro/pd/DZ9W23MBM/",
+        "ranking": null,
+        "selection": "默认检索结果候选样本；无销量排名依据",
+        "reviewRecords": [
+          {
+            "id": "203060014",
+            "date": "2026-09-10",
+            "rating": 5,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/set-5x-capsule-cafea-reincarcabile-compatibile-dolce-gusto-5xdg-maro/pd/DZ9W23MBM/review/203060014"
+          },
+          {
+            "id": "202866695",
+            "date": "2026-07-23",
+            "rating": 5,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/set-5x-capsule-cafea-reincarcabile-compatibile-dolce-gusto-5xdg-maro/pd/DZ9W23MBM/review/202866695"
+          },
+          {
+            "id": "202584712",
+            "date": "2026-05-21",
+            "rating": 5,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/set-5x-capsule-cafea-reincarcabile-compatibile-dolce-gusto-5xdg-maro/pd/DZ9W23MBM/review/202584712"
+          },
+          {
+            "id": "202435664",
+            "date": "2026-04-25",
+            "rating": 5,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/set-5x-capsule-cafea-reincarcabile-compatibile-dolce-gusto-5xdg-maro/pd/DZ9W23MBM/review/202435664"
+          },
+          {
+            "id": "202420152",
+            "date": "2026-04-22",
+            "rating": 1,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/set-5x-capsule-cafea-reincarcabile-compatibile-dolce-gusto-5xdg-maro/pd/DZ9W23MBM/review/202420152"
+          },
+          {
+            "id": "201443298",
+            "date": "2025-11-07",
+            "rating": 2,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/set-5x-capsule-cafea-reincarcabile-compatibile-dolce-gusto-5xdg-maro/pd/DZ9W23MBM/review/201443298"
+          },
+          {
+            "id": "201264237",
+            "date": "2025-10-03",
+            "rating": 5,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/set-5x-capsule-cafea-reincarcabile-compatibile-dolce-gusto-5xdg-maro/pd/DZ9W23MBM/review/201264237"
+          },
+          {
+            "id": "201212707",
+            "date": "2025-09-23",
+            "rating": 5,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/set-5x-capsule-cafea-reincarcabile-compatibile-dolce-gusto-5xdg-maro/pd/DZ9W23MBM/review/201212707"
+          },
+          {
+            "id": "200831047",
+            "date": "2025-07-11",
+            "rating": 5,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/set-5x-capsule-cafea-reincarcabile-compatibile-dolce-gusto-5xdg-maro/pd/DZ9W23MBM/review/200831047"
+          },
+          {
+            "id": "200788129",
+            "date": "2025-07-04",
+            "rating": 5,
+            "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+            "verified": true,
+            "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+            "url": "https://www.emag.ro/product-feedback/set-5x-capsule-cafea-reincarcabile-compatibile-dolce-gusto-5xdg-maro/pd/DZ9W23MBM/review/200788129"
+          }
+        ],
+        "reviewAccess": "仅公开详情页可见评论，不代表全部评论",
+        "price": null,
+        "priceNote": "未记录可比实时价格",
+        "checkedOn": "2026-10-18"
+      },
+      {
+        "id": "walmart-273373714",
+        "platform": "walmart",
+        "market": "US",
+        "itemId": "273373714",
+        "name": "Perfect Pod Café Save, 4 Pack",
+        "zh": "可填充 K-Cup 滤杯，4 只装",
+        "system": "k-cup",
+        "type": "reusable",
+        "originalTitle": "Perfect Pod Café Save, 4 Pack",
+        "brandStore": "Perfect Pod",
+        "seller": "原页面多卖家与历史评论销售方可能不同；未作当前成交卖家结论",
+        "source": "https://www.walmart.com/ip/Perfect-Pod-Cafe-Save-Reusable-K-Cup-Pod-Coffee-Filters-Refillable-Coffee-Pod-Capsules-Use-Keurig-Select-Single-Cup-Coffee-Machines-4-Pack/273373714",
+        "ranking": null,
+        "selection": "相关商品候选；来自公开商品页和相关推荐区域，不是销量前十。公开索引可能滞后：3 天前的公开索引快照，于 2026-10-18 读取；品牌推广标签不当作销量排名。",
+        "reviewRecords": [
+          {
+            "id": "local-273373714-2026-06-11",
+            "date": "2026-06-11",
+            "rating": 5,
+            "variant": "评论未完整注明子变体；以页面商品与评论中的规格为准",
+            "verified": true,
+            "incentivized": false,
+            "reviewCountry": "美国站；评论者国家未单独核验",
+            "url": "https://www.walmart.com/ip/Perfect-Pod-Cafe-Save-Reusable-K-Cup-Pod-Coffee-Filters-Refillable-Coffee-Pod-Capsules-Use-Keurig-Select-Single-Cup-Coffee-Machines-4-Pack/273373714",
+            "locator": "2026-06-11 · LOVE THESE! PERFECT!（按日期与标题定位，页面未返回单条评论 ID）"
+          },
+          {
+            "id": "local-273373714-2026-10-06",
+            "date": "2026-10-06",
+            "rating": 5,
+            "variant": "评论未完整注明子变体；以页面商品与评论中的规格为准",
+            "verified": true,
+            "incentivized": false,
+            "reviewCountry": "美国站；评论者国家未单独核验",
+            "url": "https://www.walmart.com/ip/Perfect-Pod-Cafe-Save-Reusable-K-Cup-Pod-Coffee-Filters-Refillable-Coffee-Pod-Capsules-Use-Keurig-Select-Single-Cup-Coffee-Machines-4-Pack/273373714",
+            "locator": "2026-10-06 · Convenient and Sturdy（按日期与标题定位，页面未返回单条评论 ID）"
+          },
+          {
+            "id": "local-273373714-2026-10-09",
+            "date": "2026-10-09",
+            "rating": 5,
+            "variant": "评论未完整注明子变体；以页面商品与评论中的规格为准",
+            "verified": true,
+            "incentivized": false,
+            "reviewCountry": "美国站；评论者国家未单独核验",
+            "url": "https://www.walmart.com/ip/Perfect-Pod-Cafe-Save-Reusable-K-Cup-Pod-Coffee-Filters-Refillable-Coffee-Pod-Capsules-Use-Keurig-Select-Single-Cup-Coffee-Machines-4-Pack/273373714",
+            "locator": "2026-10-09 · Pods（按日期与标题定位，页面未返回单条评论 ID）"
+          }
+        ],
+        "reviewAccess": "仅 3 条公开可见正文，未读取所有评论；不采用平台 AI 汇总作为消费者原话",
+        "listedRating": 4.6,
+        "listedCount": 963,
+        "listedWrittenCount": 342,
+        "price": null,
+        "priceNote": "索引有缓存时差，不作为本日实时价格",
+        "checkedOn": "2026-10-18"
+      },
+      {
+        "id": "walmart-612296205",
+        "platform": "walmart",
+        "market": "US",
+        "itemId": "612296205",
+        "name": "Perfect Pod Universal Reusable Coffee Filter",
+        "zh": "多针技术可重复使用滤杯",
+        "system": "k-cup",
+        "type": "reusable",
+        "originalTitle": "Perfect Pod Universal Reusable Coffee Filter",
+        "brandStore": "Perfect Pod",
+        "seller": "原页面多卖家与历史评论销售方可能不同；未作当前成交卖家结论",
+        "source": "https://www.walmart.com/ip/Perfect-Pod-Single-Serve-Universal-Reusable-Coffee-Filter-Cup-Multistream-Technology/612296205",
+        "ranking": null,
+        "selection": "相关商品候选；来自公开商品页和相关推荐区域，不是销量前十。公开索引可能滞后：约 1 个月前的公开索引快照，于 2026-10-18 读取；品牌推广标签不当作销量排名。",
+        "reviewRecords": [
+          {
+            "id": "local-612296205-2026-01-05",
+            "date": "2026-01-05",
+            "rating": 5,
+            "variant": "评论未完整注明子变体；以页面商品与评论中的规格为准",
+            "verified": true,
+            "incentivized": false,
+            "reviewCountry": "美国站；评论者国家未单独核验",
+            "url": "https://www.walmart.com/ip/Perfect-Pod-Single-Serve-Universal-Reusable-Coffee-Filter-Cup-Multistream-Technology/612296205",
+            "locator": "2026-01-05 · Don't listen to negative reviews（按日期与标题定位，页面未返回单条评论 ID）"
+          },
+          {
+            "id": "local-612296205-2026-07-10",
+            "date": "2026-07-10",
+            "rating": 5,
+            "variant": "评论未完整注明子变体；以页面商品与评论中的规格为准",
+            "verified": true,
+            "incentivized": false,
+            "reviewCountry": "美国站；评论者国家未单独核验",
+            "url": "https://www.walmart.com/ip/Perfect-Pod-Single-Serve-Universal-Reusable-Coffee-Filter-Cup-Multistream-Technology/612296205",
+            "locator": "2026-07-10 · Best Coffee Pod I've Ever Used For My Keurig（按日期与标题定位，页面未返回单条评论 ID）"
+          },
+          {
+            "id": "local-612296205-2026-05-22",
+            "date": "2026-05-22",
+            "rating": 5,
+            "variant": "评论未完整注明子变体；以页面商品与评论中的规格为准",
+            "verified": true,
+            "incentivized": false,
+            "reviewCountry": "美国站；评论者国家未单独核验",
+            "url": "https://www.walmart.com/ip/Perfect-Pod-Single-Serve-Universal-Reusable-Coffee-Filter-Cup-Multistream-Technology/612296205",
+            "locator": "2026-05-22 · great product, great value（按日期与标题定位，页面未返回单条评论 ID）"
+          }
+        ],
+        "reviewAccess": "仅 3 条公开可见正文，未读取所有评论；不采用平台 AI 汇总作为消费者原话",
+        "listedRating": 4.5,
+        "listedCount": 3393,
+        "listedWrittenCount": 847,
+        "price": null,
+        "priceNote": "索引有缓存时差，不作为本日实时价格",
+        "checkedOn": "2026-10-18"
+      },
+      {
+        "id": "walmart-16929464333",
+        "platform": "walmart",
+        "market": "US",
+        "itemId": "16929464333",
+        "name": "Perfect Pod Café Fill Value Pack",
+        "zh": "4 个滤杯与带漏斗装粉勺套装",
+        "system": "k-cup",
+        "type": "reusable",
+        "originalTitle": "Perfect Pod Café Fill Value Pack",
+        "brandStore": "Perfect Pod",
+        "seller": "原页面多卖家与历史评论销售方可能不同；未作当前成交卖家结论",
+        "source": "https://www.walmart.com/ip/Perfect-Pod-Cafe-Fill-Value-Pack-Reusable-K-Cup-Coffee-Filter-Pod-4-pack-EZ-Scoop-w-Built-Funnel-Works-Keurig-Single-Serve-1-Stream-Coffee-Brewers/16929464333",
+        "ranking": null,
+        "selection": "相关商品候选；来自公开商品页和相关推荐区域，不是销量前十。公开索引可能滞后：约 2 周前的公开索引快照，于 2026-10-18 读取；品牌推广标签不当作销量排名。",
+        "reviewRecords": [
+          {
+            "id": "local-16929464333-2026-07-29",
+            "date": "2026-07-29",
+            "rating": 5,
+            "variant": "评论未完整注明子变体；以页面商品与评论中的规格为准",
+            "verified": true,
+            "incentivized": true,
+            "reviewCountry": "美国站；评论者国家未单独核验",
+            "url": "https://www.walmart.com/ip/Perfect-Pod-Cafe-Fill-Value-Pack-Reusable-K-Cup-Coffee-Filter-Pod-4-pack-EZ-Scoop-w-Built-Funnel-Works-Keurig-Single-Serve-1-Stream-Coffee-Brewers/16929464333",
+            "locator": "2026-07-29 · Perfect off brand product（按日期与标题定位，页面未返回单条评论 ID）"
+          },
+          {
+            "id": "local-16929464333-2026-07-16",
+            "date": "2026-07-16",
+            "rating": 5,
+            "variant": "评论未完整注明子变体；以页面商品与评论中的规格为准",
+            "verified": true,
+            "incentivized": true,
+            "reviewCountry": "美国站；评论者国家未单独核验",
+            "url": "https://www.walmart.com/ip/Perfect-Pod-Cafe-Fill-Value-Pack-Reusable-K-Cup-Coffee-Filter-Pod-4-pack-EZ-Scoop-w-Built-Funnel-Works-Keurig-Single-Serve-1-Stream-Coffee-Brewers/16929464333",
+            "locator": "2026-07-16 · 无标题；喜欢紫色的简短反馈（按日期与标题定位，页面未返回单条评论 ID）"
+          },
+          {
+            "id": "local-16929464333-2026-08-03",
+            "date": "2026-08-03",
+            "rating": 5,
+            "variant": "评论未完整注明子变体；以页面商品与评论中的规格为准",
+            "verified": true,
+            "incentivized": true,
+            "reviewCountry": "美国站；评论者国家未单独核验",
+            "url": "https://www.walmart.com/ip/Perfect-Pod-Cafe-Fill-Value-Pack-Reusable-K-Cup-Coffee-Filter-Pod-4-pack-EZ-Scoop-w-Built-Funnel-Works-Keurig-Single-Serve-1-Stream-Coffee-Brewers/16929464333",
+            "locator": "2026-08-03 · 无标题；装粉勺与清洗的反馈（按日期与标题定位，页面未返回单条评论 ID）"
+          }
+        ],
+        "reviewAccess": "仅 3 条公开可见正文，未读取所有评论；不采用平台 AI 汇总作为消费者原话",
+        "listedRating": 4.7,
+        "listedCount": 21,
+        "listedWrittenCount": 11,
+        "price": null,
+        "priceNote": "索引有缓存时差，不作为本日实时价格",
+        "checkedOn": "2026-10-18"
+      },
+      {
+        "id": "walmart-16010257088",
+        "platform": "walmart",
+        "market": "US",
+        "itemId": "16010257088",
+        "name": "Keurig My K-Cup Universal Reusable Filter",
+        "zh": "克里格原厂多针可重复使用滤杯",
+        "system": "k-cup",
+        "type": "reusable",
+        "originalTitle": "Keurig My K-Cup Universal Reusable Filter",
+        "brandStore": "Keurig",
+        "seller": "原页面多卖家与历史评论销售方可能不同；未作当前成交卖家结论",
+        "source": "https://www.walmart.com/ip/Keurig-My-K-Cup-Universal-Reusable-Filter-MultiStream-Technology/16010257088",
+        "ranking": null,
+        "selection": "相关商品候选；来自公开商品页和相关推荐区域，不是销量前十。公开索引可能滞后：约 4 周前的公开索引快照，于 2026-10-18 读取；品牌推广标签不当作销量排名。",
+        "reviewRecords": [
+          {
+            "id": "local-16010257088-2025-12-14",
+            "date": "2025-12-14",
+            "rating": 5,
+            "variant": "评论未完整注明子变体；以页面商品与评论中的规格为准",
+            "verified": true,
+            "incentivized": false,
+            "reviewCountry": "美国站；评论者国家未单独核验",
+            "url": "https://www.walmart.com/ip/Keurig-My-K-Cup-Universal-Reusable-Filter-MultiStream-Technology/16010257088",
+            "locator": "2025-12-14 · Finally!!（按日期与标题定位，页面未返回单条评论 ID）"
+          },
+          {
+            "id": "local-16010257088-2025-12-01",
+            "date": "2025-12-01",
+            "rating": 5,
+            "variant": "评论未完整注明子变体；以页面商品与评论中的规格为准",
+            "verified": true,
+            "incentivized": false,
+            "reviewCountry": "美国站；评论者国家未单独核验",
+            "url": "https://www.walmart.com/ip/Keurig-My-K-Cup-Universal-Reusable-Filter-MultiStream-Technology/16010257088",
+            "locator": "2025-12-01 · 无标题；使用磨粉的节省反馈（按日期与标题定位，页面未返回单条评论 ID）"
+          },
+          {
+            "id": "local-16010257088-2025-12-12",
+            "date": "2025-12-12",
+            "rating": 5,
+            "variant": "评论未完整注明子变体；以页面商品与评论中的规格为准",
+            "verified": true,
+            "incentivized": false,
+            "reviewCountry": "美国站；评论者国家未单独核验",
+            "url": "https://www.walmart.com/ip/Keurig-My-K-Cup-Universal-Reusable-Filter-MultiStream-Technology/16010257088",
+            "locator": "2025-12-12 · 无标题；K-Express Essentials 适配反馈（按日期与标题定位，页面未返回单条评论 ID）"
+          }
+        ],
+        "reviewAccess": "仅 3 条公开可见正文，未读取所有评论；不采用平台 AI 汇总作为消费者原话",
+        "listedRating": 4.4,
+        "listedCount": 1127,
+        "listedWrittenCount": 288,
+        "price": null,
+        "priceNote": "索引有缓存时差，不作为本日实时价格",
+        "checkedOn": "2026-10-18"
+      },
+      {
+        "id": "walmart-698020372",
+        "platform": "walmart",
+        "market": "US",
+        "itemId": "698020372",
+        "name": "Perfect Pod Filter Cup & EZ-Scoop",
+        "zh": "单只可填充滤杯与装粉勺套装",
+        "system": "k-cup",
+        "type": "reusable",
+        "originalTitle": "Perfect Pod Filter Cup & EZ-Scoop",
+        "brandStore": "Perfect Pod",
+        "seller": "原页面多卖家与历史评论销售方可能不同；未作当前成交卖家结论",
+        "source": "https://www.walmart.com/ip/Perfect-Pod-Single-Serve-Filter-Cup-Value-Pack-with-1-Reusable-Filter-Cup-and-Bonus-EZ-Scoop-for-K-Cup-Brewers/698020372",
+        "ranking": null,
+        "selection": "相关商品候选；来自公开商品页和相关推荐区域，不是销量前十。公开索引可能滞后：约 3 个月前的公开索引快照，于 2026-10-18 读取；品牌推广标签不当作销量排名。",
+        "reviewRecords": [
+          {
+            "id": "local-698020372-2026-05-04",
+            "date": "2026-05-04",
+            "rating": 5,
+            "variant": "评论未完整注明子变体；以页面商品与评论中的规格为准",
+            "verified": true,
+            "incentivized": false,
+            "reviewCountry": "美国站；评论者国家未单独核验",
+            "url": "https://www.walmart.com/ip/Perfect-Pod-Single-Serve-Filter-Cup-Value-Pack-with-1-Reusable-Filter-Cup-and-Bonus-EZ-Scoop-for-K-Cup-Brewers/698020372",
+            "locator": "2026-05-04 · Coffee lovers add to cart!（按日期与标题定位，页面未返回单条评论 ID）"
+          },
+          {
+            "id": "local-698020372-2026-03-07",
+            "date": "2026-03-07",
+            "rating": 5,
+            "variant": "评论未完整注明子变体；以页面商品与评论中的规格为准",
+            "verified": true,
+            "incentivized": false,
+            "reviewCountry": "美国站；评论者国家未单独核验",
+            "url": "https://www.walmart.com/ip/Perfect-Pod-Single-Serve-Filter-Cup-Value-Pack-with-1-Reusable-Filter-Cup-and-Bonus-EZ-Scoop-for-K-Cup-Brewers/698020372",
+            "locator": "2026-03-07 · 无标题；装粉勺减少台面洒粉反馈（按日期与标题定位，页面未返回单条评论 ID）"
+          },
+          {
+            "id": "local-698020372-2026-02-04",
+            "date": "2026-02-04",
+            "rating": 5,
+            "variant": "评论未完整注明子变体；以页面商品与评论中的规格为准",
+            "verified": true,
+            "incentivized": false,
+            "reviewCountry": "美国站；评论者国家未单独核验",
+            "url": "https://www.walmart.com/ip/Perfect-Pod-Single-Serve-Filter-Cup-Value-Pack-with-1-Reusable-Filter-Cup-and-Bonus-EZ-Scoop-for-K-Cup-Brewers/698020372",
+            "locator": "2026-02-04 · Perfect! Great idea!（按日期与标题定位，页面未返回单条评论 ID）"
+          }
+        ],
+        "reviewAccess": "仅 3 条公开可见正文，未读取所有评论；不采用平台 AI 汇总作为消费者原话",
+        "listedRating": 4.7,
+        "listedCount": 95,
+        "listedWrittenCount": 39,
+        "price": null,
+        "priceNote": "索引有缓存时差，不作为本日实时价格",
+        "checkedOn": "2026-10-18"
+      },
+      {
+        "id": "walmart-493084265",
+        "platform": "walmart",
+        "market": "US",
+        "itemId": "493084265",
+        "name": "Hippie Hype Refillable Filter Pods, 2 Pack",
+        "zh": "紫色与黑色可重复使用滤杯，2 只装",
+        "system": "k-cup",
+        "type": "reusable",
+        "originalTitle": "Hippie Hype Refillable Filter Pods, 2 Pack",
+        "brandStore": "Hippie Hype",
+        "seller": "原页面多卖家与历史评论销售方可能不同；未作当前成交卖家结论",
+        "source": "https://www.walmart.com/ip/Reusable-Cups-for-Keurig-K-Cup-2-0-and-1-0-Coffee-Maker-Refillable-Filter-Pods-Pack-of-2-Purple-Black/493084265",
+        "ranking": null,
+        "selection": "相关商品候选；来自公开商品页和相关推荐区域，不是销量前十。公开索引可能滞后：约 3 周前的公开索引快照，于 2026-10-18 读取；品牌推广标签不当作销量排名。",
+        "reviewRecords": [
+          {
+            "id": "local-493084265-2022-02-08",
+            "date": "2022-02-08",
+            "rating": 5,
+            "variant": "评论未完整注明子变体；以页面商品与评论中的规格为准",
+            "verified": true,
+            "incentivized": false,
+            "reviewCountry": "美国站；评论者国家未单独核验",
+            "url": "https://www.walmart.com/ip/Reusable-Cups-for-Keurig-K-Cup-2-0-and-1-0-Coffee-Maker-Refillable-Filter-Pods-Pack-of-2-Purple-Black/493084265",
+            "locator": "2022-02-08 · Best reusable cup so far（按日期与标题定位，页面未返回单条评论 ID）"
+          },
+          {
+            "id": "local-493084265-2021-07-07",
+            "date": "2021-07-07",
+            "rating": 5,
+            "variant": "评论未完整注明子变体；以页面商品与评论中的规格为准",
+            "verified": true,
+            "incentivized": false,
+            "reviewCountry": "美国站；评论者国家未单独核验",
+            "url": "https://www.walmart.com/ip/Reusable-Cups-for-Keurig-K-Cup-2-0-and-1-0-Coffee-Maker-Refillable-Filter-Pods-Pack-of-2-Purple-Black/493084265",
+            "locator": "2021-07-07 · 无标题；重复使用滤杯的满意反馈（按日期与标题定位，页面未返回单条评论 ID）"
+          },
+          {
+            "id": "local-493084265-2022-01-15",
+            "date": "2022-01-15",
+            "rating": 5,
+            "variant": "评论未完整注明子变体；以页面商品与评论中的规格为准",
+            "verified": true,
+            "incentivized": false,
+            "reviewCountry": "美国站；评论者国家未单独核验",
+            "url": "https://www.walmart.com/ip/Reusable-Cups-for-Keurig-K-Cup-2-0-and-1-0-Coffee-Maker-Refillable-Filter-Pods-Pack-of-2-Purple-Black/493084265",
+            "locator": "2022-01-15 · 无标题；缺少保养说明的反馈（按日期与标题定位，页面未返回单条评论 ID）"
+          }
+        ],
+        "reviewAccess": "仅 3 条公开可见正文，未读取所有评论；不采用平台 AI 汇总作为消费者原话",
+        "listedRating": 3.9,
+        "listedCount": 34,
+        "listedWrittenCount": 16,
+        "price": null,
+        "priceNote": "索引有缓存时差，不作为本日实时价格",
+        "checkedOn": "2026-10-18"
+      }
+    ],
+    "painTypes": {
+      "sealing": "封口与漏水",
+      "fit": "机型适配／卡机",
+      "taste": "浓度、粉量与研磨",
+      "grounds": "咖啡渣与过滤",
+      "cleaning": "清洗与操作时间",
+      "material": "材料描述／气味待核验",
+      "package": "配件缺漏／规格描述",
+      "durability": "磨损／密封件／热形变",
+      "insufficient": "信息不足，暂不能诊断"
+    },
+    "cases": [
+      {
+        "id": "R2TIJKOMSO4YDR",
+        "product": "amazon-B09F8J3932",
+        "date": "2026-09-24",
+        "rating": 4,
+        "variant": "Size: 2 PACK",
+        "verified": true,
+        "reviewCountry": "the United States",
+        "url": "https://www.amazon.com/dp/B09F8J3932#R2TIJKOMSO4YDR",
+        "summary": "用户称杯底出现沉渣，加纸滤后改善。评论中的健康推测不作采纳。",
+        "tags": [
+          "grounds"
+        ],
+        "machine": "未说明型号",
+        "action": "比较原网杯与加纸滤的沉渣、清洗时间和每杯耗材成本，不能据用户反馈作健康结论。",
+        "evidence": "平台公开评论的中文转述，未经独立实测"
+      },
+      {
+        "id": "RM0REFB71OML8",
+        "product": "amazon-B09F8J3932",
+        "date": "2026-07-17",
+        "rating": 3,
+        "variant": "Size: 2 stainless steel",
+        "verified": true,
+        "reviewCountry": "the United States",
+        "url": "https://www.amazon.com/dp/B09F8J3932#RM0REFB71OML8",
+        "summary": "用户称减粉后偏淡，细磨并压紧又影响通水；机器仅写 K40 或 K45，型号不确定。",
+        "tags": [
+          "taste"
+        ],
+        "machine": "K40／K45（用户自己未确认）",
+        "action": "用同豆、同杯量逐项改变研磨和粉量，不能把此评论的装粉建议当所有机器参数。",
+        "evidence": "平台公开评论的中文转述，未经独立实测"
+      },
+      {
+        "id": "R2017MR0XVZISO",
+        "product": "amazon-B0DJNT4HY3",
+        "date": "2026-08-30",
+        "rating": 5,
+        "variant": "Color: Black - 2 Pack",
+        "verified": true,
+        "reviewCountry": "the United States",
+        "url": "https://www.amazon.com/dp/B0DJNT4HY3#R2017MR0XVZISO",
+        "summary": "用户总体满意，但认为需要找到适合的研磨度。",
+        "tags": [
+          "taste"
+        ],
+        "machine": "评论未明确完整机型",
+        "action": "按具体机器和产品版本复现，对照原厂耗材；此处为用户自述，尚未独立实测。",
+        "evidence": "平台公开评论的中文转述，未经独立实测"
+      },
+      {
+        "id": "R28M1Q1FC2FBP9",
+        "product": "amazon-B0DJNT4HY3",
+        "date": "2026-09-13",
+        "rating": 4,
+        "variant": "Color: Black - 2 Pack",
+        "verified": true,
+        "reviewCountry": "the United States",
+        "url": "https://www.amazon.com/dp/B0DJNT4HY3#R28M1Q1FC2FBP9",
+        "summary": "用户满意其适配老款机器，同时提到线下较难找到该类滤杯。",
+        "tags": [
+          "fit"
+        ],
+        "machine": "第一代 Keurig（完整型号未提供）",
+        "action": "区分老款单针和多针系统，商品页清楚列出已核对／排除机型。",
+        "evidence": "平台公开评论的中文转述，未经独立实测"
+      },
+      {
+        "id": "R2HBM29XOCEI4D",
+        "product": "amazon-B0BZDDF2V4",
+        "date": "2026-05-30",
+        "rating": 3,
+        "variant": "Color: BlackSize: 1 Holder + 100 Foils + 1 Brush",
+        "verified": true,
+        "reviewCountry": "the United States",
+        "url": "https://www.amazon.com/dp/B0BZDDF2V4#R2HBM29XOCEI4D",
+        "summary": "用户称反复尝试仍不能形成紧密封口。",
+        "tags": [
+          "sealing"
+        ],
+        "machine": "评论未明确完整机型",
+        "action": "按具体机器和产品版本复现，对照原厂耗材；此处为用户自述，尚未独立实测。",
+        "evidence": "平台公开评论的中文转述，未经独立实测"
+      },
+      {
+        "id": "R3QAXX71OGZ4H6",
+        "product": "amazon-B0BZDDF2V4",
+        "date": "2026-10-13",
+        "rating": 5,
+        "variant": "Color: BlackSize: 1 Holder + 100 Foils + 1 Brush",
+        "verified": true,
+        "reviewCountry": "the United States",
+        "url": "https://www.amazon.com/dp/B0BZDDF2V4#R3QAXX71OGZ4H6",
+        "summary": "用户满意使用自选豆的效果，但称批量准备约25杯需要约30分钟；仅为个人经验。",
+        "tags": [
+          "cleaning"
+        ],
+        "machine": "Nespresso Vertuo Pop（用户自述）",
+        "action": "实测单杯与批量装填时间，记录准备、封口、清洗各环节，不将该用户时间当行业平均值。",
+        "evidence": "平台公开评论的中文转述，未经独立实测"
+      },
+      {
+        "id": "R3AXE9T76AJSYS",
+        "product": "amazon-B09NW83CRR",
+        "date": "2026-09-17",
+        "rating": 3,
+        "variant": "Style: 4 black k cups",
+        "verified": true,
+        "reviewCountry": "the United States",
+        "url": "https://www.amazon.com/dp/B09NW83CRR#R3AXE9T76AJSYS",
+        "summary": "用户称冲煮时顶部溢出咖啡，同时自己不确定是否买对适配款。",
+        "tags": [
+          "sealing",
+          "fit"
+        ],
+        "machine": "评论未明确完整机型",
+        "action": "按具体机器和产品版本复现，对照原厂耗材；此处为用户自述，尚未独立实测。",
+        "evidence": "平台公开评论的中文转述，未经独立实测"
+      },
+      {
+        "id": "R3MYHCXCX0RHS5",
+        "product": "amazon-B09NW83CRR",
+        "date": "2026-08-22",
+        "rating": 1,
+        "variant": "Style: 4 black k cups",
+        "verified": true,
+        "reviewCountry": "Canada",
+        "url": "https://www.amazon.com/dp/B09NW83CRR#R3MYHCXCX0RHS5",
+        "summary": "加拿大评论者称 K-Duo 使用时溢水、咖啡变淡；未说明机器代际。",
+        "tags": [
+          "sealing",
+          "taste",
+          "fit"
+        ],
+        "machine": "K-Duo（代际未说明）",
+        "action": "按具体机器和产品版本复现，对照原厂耗材；此处为用户自述，尚未独立实测。",
+        "evidence": "平台公开评论的中文转述，未经独立实测"
+      },
+      {
+        "id": "R2P83P1B3SZZWT",
+        "product": "amazon-B09NW83CRR",
+        "date": "2026-10-05",
+        "rating": 5,
+        "variant": "Style: 4 black k cups",
+        "verified": true,
+        "reviewCountry": "the United States",
+        "url": "https://www.amazon.com/dp/B09NW83CRR#R2P83P1B3SZZWT",
+        "summary": "用户总体满意，但预填好的滤杯倾斜时会从开孔洒出粉，影响提前批量备杯。",
+        "tags": [
+          "package",
+          "cleaning"
+        ],
+        "machine": "评论未明确完整机型",
+        "action": "按具体机器和产品版本复现，对照原厂耗材；此处为用户自述，尚未独立实测。",
+        "evidence": "平台公开评论的中文转述，未经独立实测"
+      },
+      {
+        "id": "RWG9ETLPICDMW",
+        "product": "amazon-B09NW83CRR",
+        "date": "2026-09-19",
+        "rating": 4,
+        "variant": "Style: 4 black k cups",
+        "verified": true,
+        "reviewCountry": "the United States",
+        "url": "https://www.amazon.com/dp/B09NW83CRR#RWG9ETLPICDMW",
+        "summary": "用户认为初用较难掌握，且杯中可能残留咖啡渣。",
+        "tags": [
+          "grounds",
+          "cleaning"
+        ],
+        "machine": "评论未明确完整机型",
+        "action": "按具体机器和产品版本复现，对照原厂耗材；此处为用户自述，尚未独立实测。",
+        "evidence": "平台公开评论的中文转述，未经独立实测"
+      },
+      {
+        "id": "R3H91L4BW05NHI",
+        "product": "amazon-B0GLX6JXYC",
+        "date": "2026-07-19",
+        "rating": 1,
+        "variant": "Size: Holder+100 PCS Foil Lids+Brush+Cutter",
+        "verified": true,
+        "reviewCountry": "the United Kingdom",
+        "url": "https://www.amazon.com/dp/B0GLX6JXYC#R3H91L4BW05NHI",
+        "summary": "英国评论仅表示按说明仍未达到宣传效果，未说明机型或具体故障。",
+        "tags": [
+          "insufficient"
+        ],
+        "machine": "未提供",
+        "action": "不归入漏水、堵塞等具体故障；需先补机器型号、步骤和现象。",
+        "evidence": "平台公开评论的中文转述，未经独立实测"
+      },
+      {
+        "id": "RPP1DC7I3WFGZ",
+        "product": "amazon-B0GLX6JXYC",
+        "date": "2026-09-09",
+        "rating": 5,
+        "variant": "Size: Holder+100 PCS Foil Lids+Brush+CutterSize: Holder+100 PCS Foil Lids+Brush+Cutter",
+        "verified": true,
+        "reviewCountry": "the United States",
+        "url": "https://www.amazon.com/dp/B0GLX6JXYC#RPP1DC7I3WFGZ",
+        "summary": "用户满意产品，同时提醒套装不含胶囊本体，需要自行保留旧原厂胶囊。",
+        "tags": [
+          "package"
+        ],
+        "machine": "评论未明确完整机型",
+        "action": "按具体机器和产品版本复现，对照原厂耗材；此处为用户自述，尚未独立实测。",
+        "evidence": "平台公开评论的中文转述，未经独立实测"
+      },
+      {
+        "id": "RNLF2JO1OANR0",
+        "product": "amazon-B0CB3X4PKK",
+        "date": "2026-09-19",
+        "rating": 4,
+        "variant": "Color: NaturalSize: 100 Count",
+        "verified": true,
+        "reviewCountry": "the United States",
+        "url": "https://www.amazon.com/dp/B0CB3X4PKK#RNLF2JO1OANR0",
+        "summary": "用户称部分纸滤底部破裂，但不能确定是纸薄还是所用滤杯导致。",
+        "tags": [
+          "grounds",
+          "durability"
+        ],
+        "machine": "滤杯型号未提供",
+        "action": "比较纸滤尺寸、湿强度、滤杯底针与安装方式，保留原因未定状态。",
+        "evidence": "平台公开评论的中文转述，未经独立实测"
+      },
+      {
+        "id": "R22EXVCGQ8P50B",
+        "product": "amazon-B0CB3X4PKK",
+        "date": "2025-11-09",
+        "rating": 5,
+        "variant": "Color: WhiteSize: 100 Count",
+        "verified": true,
+        "reviewCountry": "the United States",
+        "url": "https://www.amazon.com/dp/B0CB3X4PKK#R22EXVCGQ8P50B",
+        "summary": "用户称原可填充滤杯盖内易积粉，使用带盖纸滤后更容易保持洁净。",
+        "tags": [
+          "cleaning",
+          "grounds"
+        ],
+        "machine": "评论未明确完整机型",
+        "action": "按具体机器和产品版本复现，对照原厂耗材；此处为用户自述，尚未独立实测。",
+        "evidence": "平台公开评论的中文转述，未经独立实测"
+      },
+      {
+        "id": "11014266",
+        "product": "emag-DFVN9WBBM",
+        "date": "2024-10-22",
+        "rating": 1,
+        "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+        "verified": true,
+        "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+        "url": "https://www.emag.ro/product-feedback/set-4-capsule-reutilizabile-cafea-compatibile-cu-dolce-gusto-plastic-silicon-52-x-35-mm-maro-4dolcekapszula/pd/DFVN9WBBM/review/11014266",
+        "summary": "用户称首次卡在机器内；另一个胶囊难对准进水孔，水从边缘流出。",
+        "tags": [
+          "fit",
+          "sealing"
+        ],
+        "machine": "评论未明确完整机型",
+        "action": "保留用户自述与核验缺口；按相同产品版本、机型与使用条件做对照，不据单条评论认定缺陷率。",
+        "evidence": "平台公开评论的中文转述，未经独立实测"
+      },
+      {
+        "id": "100156935",
+        "product": "emag-DFVN9WBBM",
+        "date": "2025-02-10",
+        "rating": 2,
+        "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+        "verified": true,
+        "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+        "url": "https://www.emag.ro/product-feedback/set-4-capsule-reutilizabile-cafea-compatibile-cu-dolce-gusto-plastic-silicon-52-x-35-mm-maro-4dolcekapszula/pd/DFVN9WBBM/review/100156935",
+        "summary": "用户认为口感不如一次性胶囊，并提到无泡沫。",
+        "tags": [
+          "taste"
+        ],
+        "machine": "评论未明确完整机型",
+        "action": "保留用户自述与核验缺口；按相同产品版本、机型与使用条件做对照，不据单条评论认定缺陷率。",
+        "evidence": "平台公开评论的中文转述，未经独立实测"
+      },
+      {
+        "id": "202972179",
+        "product": "emag-DM5N4SMBM",
+        "date": "2026-08-19",
+        "rating": 3,
+        "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+        "verified": true,
+        "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+        "url": "https://www.emag.ro/product-feedback/set-10-capsule-cafea-reutilizabile-reincarcabile-lavabile-compatibile-dolce-gusto-d10-maro-10x/pd/DM5N4SMBM/review/202972179",
+        "summary": "用户称合盖时难以将进水孔对准。",
+        "tags": [
+          "fit"
+        ],
+        "machine": "评论未明确完整机型",
+        "action": "保留用户自述与核验缺口；按相同产品版本、机型与使用条件做对照，不据单条评论认定缺陷率。",
+        "evidence": "平台公开评论的中文转述，未经独立实测"
+      },
+      {
+        "id": "202007219",
+        "product": "emag-DM5N4SMBM",
+        "date": "2026-02-06",
+        "rating": 1,
+        "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+        "verified": true,
+        "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+        "url": "https://www.emag.ro/product-feedback/set-10-capsule-cafea-reutilizabile-reincarcabile-lavabile-compatibile-dolce-gusto-d10-maro-10x/pd/DM5N4SMBM/review/202007219",
+        "summary": "用户称第二次使用后胶囊卡住并送修；客服说法仅由评论转述，未独立核实。",
+        "tags": [
+          "fit"
+        ],
+        "machine": "评论未明确完整机型",
+        "action": "保留用户自述与核验缺口；按相同产品版本、机型与使用条件做对照，不据单条评论认定缺陷率。",
+        "evidence": "平台公开评论的中文转述，未经独立实测"
+      },
+      {
+        "id": "201600078",
+        "product": "emag-DM5N4SMBM",
+        "date": "2025-11-28",
+        "rating": 5,
+        "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+        "verified": true,
+        "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+        "url": "https://www.emag.ro/product-feedback/set-10-capsule-cafea-reutilizabile-reincarcabile-lavabile-compatibile-dolce-gusto-d10-maro-10x/pd/DM5N4SMBM/review/201600078",
+        "summary": "用户总体满意，同时称多次使用后密封圈变松。",
+        "tags": [
+          "durability"
+        ],
+        "machine": "评论未明确完整机型",
+        "action": "保留用户自述与核验缺口；按相同产品版本、机型与使用条件做对照，不据单条评论认定缺陷率。",
+        "evidence": "平台公开评论的中文转述，未经独立实测"
+      },
+      {
+        "id": "202951185",
+        "product": "emag-DSVXSSYBM",
+        "date": "2026-08-13",
+        "rating": 1,
+        "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+        "verified": true,
+        "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+        "url": "https://www.emag.ro/product-feedback/capsule-cafea-reutilizabile-din-otel-inoxidabil-compatibile-cu-aparate-bosch-tassimo-set-180ml-tassimo-180ml/pd/DSVXSSYBM/review/202951185",
+        "summary": "用户质疑标题“不锈钢”与收到的塑料件不一致，并称高度与原厂盘不同；材质尚未检测。",
+        "tags": [
+          "material",
+          "package",
+          "fit"
+        ],
+        "machine": "评论未明确完整机型",
+        "action": "保留用户自述与核验缺口；按相同产品版本、机型与使用条件做对照，不据单条评论认定缺陷率。",
+        "evidence": "平台公开评论的中文转述，未经独立实测"
+      },
+      {
+        "id": "202494042",
+        "product": "emag-DSVXSSYBM",
+        "date": "2026-05-06",
+        "rating": 1,
+        "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+        "verified": true,
+        "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+        "url": "https://www.emag.ro/product-feedback/capsule-cafea-reutilizabile-din-otel-inoxidabil-compatibile-cu-aparate-bosch-tassimo-set-180ml-tassimo-180ml/pd/DSVXSSYBM/review/202494042",
+        "summary": "用户报告冲泡后仍有橡胶味；气味来源与材料安全未独立核验。",
+        "tags": [
+          "material"
+        ],
+        "machine": "评论未明确完整机型",
+        "action": "保留用户自述与核验缺口；按相同产品版本、机型与使用条件做对照，不据单条评论认定缺陷率。",
+        "evidence": "平台公开评论的中文转述，未经独立实测"
+      },
+      {
+        "id": "202220241",
+        "product": "emag-DSVXSSYBM",
+        "date": "2026-03-17",
+        "rating": 3,
+        "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+        "verified": true,
+        "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+        "url": "https://www.emag.ro/product-feedback/capsule-cafea-reutilizabile-din-otel-inoxidabil-compatibile-cu-aparate-bosch-tassimo-set-180ml-tassimo-180ml/pd/DSVXSSYBM/review/202220241",
+        "summary": "用户称买的两个盘中一个出水超过标注的180毫升，怀疑条码不正确。",
+        "tags": [
+          "fit",
+          "package"
+        ],
+        "machine": "Bosch Tassimo（完整型号未提供）",
+        "action": "保留用户自述与核验缺口；按相同产品版本、机型与使用条件做对照，不据单条评论认定缺陷率。",
+        "evidence": "平台公开评论的中文转述，未经独立实测"
+      },
+      {
+        "id": "200404955",
+        "product": "emag-DDC8QJMBM",
+        "date": "2025-04-25",
+        "rating": 4,
+        "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+        "verified": true,
+        "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+        "url": "https://www.emag.ro/product-feedback/set-5x-capsule-cafea-reincarcabile-compatibile-nespresso-oem-negru-5feketekapszula/pd/DDC8QJMBM/review/200404955",
+        "summary": "用户认为胶囊闭合和适配正常，但尚未找到合适研磨度，口感未达预期。",
+        "tags": [
+          "taste"
+        ],
+        "machine": "评论未明确完整机型",
+        "action": "保留用户自述与核验缺口；按相同产品版本、机型与使用条件做对照，不据单条评论认定缺陷率。",
+        "evidence": "平台公开评论的中文转述，未经独立实测"
+      },
+      {
+        "id": "11414111",
+        "product": "emag-DDC8QJMBM",
+        "date": "2024-12-25",
+        "rating": 4,
+        "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+        "verified": true,
+        "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+        "url": "https://www.emag.ro/product-feedback/set-5x-capsule-cafea-reincarcabile-compatibile-nespresso-oem-negru-5feketekapszula/pd/DDC8QJMBM/review/11414111",
+        "summary": "用户称安装时需小心扶住胶囊，认为更适合偶尔使用。",
+        "tags": [
+          "fit",
+          "cleaning"
+        ],
+        "machine": "评论未明确完整机型",
+        "action": "保留用户自述与核验缺口；按相同产品版本、机型与使用条件做对照，不据单条评论认定缺陷率。",
+        "evidence": "平台公开评论的中文转述，未经独立实测"
+      },
+      {
+        "id": "202647734",
+        "product": "emag-DW03KHMBM",
+        "date": "2026-06-04",
+        "rating": 1,
+        "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+        "verified": true,
+        "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+        "url": "https://www.emag.ro/product-feedback/capsula-reutilizabila-compatibil-cu-dolce-gusto-maro-1-dg-maro-per-ling/pd/DW03KHMBM/review/202647734",
+        "summary": "用户称胶囊卡在机器中，没有提供完整机器型号和操作过程。",
+        "tags": [
+          "fit"
+        ],
+        "machine": "评论未明确完整机型",
+        "action": "保留用户自述与核验缺口；按相同产品版本、机型与使用条件做对照，不据单条评论认定缺陷率。",
+        "evidence": "平台公开评论的中文转述，未经独立实测"
+      },
+      {
+        "id": "9661711",
+        "product": "emag-DW03KHMBM",
+        "date": "2024-01-05",
+        "rating": 3,
+        "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+        "verified": true,
+        "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+        "url": "https://www.emag.ro/product-feedback/capsula-reutilizabila-compatibil-cu-dolce-gusto-maro-1-dg-maro-per-ling/pd/DW03KHMBM/review/9661711",
+        "summary": "用户称照片中的刷子和量勺未随货附带。",
+        "tags": [
+          "package"
+        ],
+        "machine": "评论未明确完整机型",
+        "action": "保留用户自述与核验缺口；按相同产品版本、机型与使用条件做对照，不据单条评论认定缺陷率。",
+        "evidence": "平台公开评论的中文转述，未经独立实测"
+      },
+      {
+        "id": "200381581",
+        "product": "emag-D8X65SMBM",
+        "date": "2025-04-22",
+        "rating": 3,
+        "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+        "verified": true,
+        "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+        "url": "https://www.emag.ro/product-feedback/set-5-capsule-cafea-reutilizabila-reincarcabila-compatibil-dolce-gusto-albastru-inchis-5xdolce-alb-inchis/pd/DXBS1SMBM/review/200381581",
+        "summary": "用户称有颜色转移到手上，因而不敢使用；具体材料和原因未核验。",
+        "tags": [
+          "material"
+        ],
+        "machine": "评论未明确完整机型",
+        "action": "保留用户自述与核验缺口；按相同产品版本、机型与使用条件做对照，不据单条评论认定缺陷率。",
+        "evidence": "平台公开评论的中文转述，未经独立实测"
+      },
+      {
+        "id": "201443298",
+        "product": "emag-DZ9W23MBM",
+        "date": "2025-11-07",
+        "rating": 2,
+        "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+        "verified": true,
+        "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+        "url": "https://www.emag.ro/product-feedback/set-5x-capsule-cafea-reincarcabile-compatibile-dolce-gusto-5xdg-maro/pd/DZ9W23MBM/review/201443298",
+        "summary": "用户称流速过快且咖啡偏淡。",
+        "tags": [
+          "taste"
+        ],
+        "machine": "评论未明确完整机型",
+        "action": "保留用户自述与核验缺口；按相同产品版本、机型与使用条件做对照，不据单条评论认定缺陷率。",
+        "evidence": "平台公开评论的中文转述，未经独立实测"
+      },
+      {
+        "id": "201212707",
+        "product": "emag-DZ9W23MBM",
+        "date": "2025-09-23",
+        "rating": 5,
+        "variant": "平台评论未逐条注明规格；当前商品标题仅供定位",
+        "verified": true,
+        "reviewCountry": "未公开核验；罗马尼亚站点不等于评论者国籍",
+        "url": "https://www.emag.ro/product-feedback/set-5x-capsule-cafea-reincarcabile-compatibile-dolce-gusto-5xdg-maro/pd/DZ9W23MBM/review/201212707",
+        "summary": "用户给出好评，同时提到热水下材料会变软；不是材料寿命试验。",
+        "tags": [
+          "durability"
+        ],
+        "machine": "评论未明确完整机型",
+        "action": "保留用户自述与核验缺口；按相同产品版本、机型与使用条件做对照，不据单条评论认定缺陷率。",
+        "evidence": "平台公开评论的中文转述，未经独立实测"
+      },
+      {
+        "id": "local-612296205-2026-01-05",
+        "date": "2026-01-05",
+        "rating": 5,
+        "variant": "评论未完整注明子变体；以页面商品与评论中的规格为准",
+        "verified": true,
+        "incentivized": false,
+        "reviewCountry": "美国站；评论者国家未单独核验",
+        "url": "https://www.walmart.com/ip/Perfect-Pod-Single-Serve-Universal-Reusable-Coffee-Filter-Cup-Multistream-Technology/612296205",
+        "locator": "2026-01-05 · Don't listen to negative reviews（按日期与标题定位，页面未返回单条评论 ID）",
+        "product": "walmart-612296205",
+        "summary": "5 星用户认可使用效果，同时描述装粉时控制杯盖位置、不要把粉压得过紧；对铰链未来损坏只是其推测，未当作实际失效。",
+        "tags": [
+          "taste",
+          "durability"
+        ],
+        "machine": "Keurig；未写完整型号",
+        "action": "把杯盖打开角度、装粉方式与通水作为说明书步骤；寿命须用真实循环测试，不采用用户推测。",
+        "evidence": "平台公开索引中可见评论的中文转述，未经独立实测；保留原评论日期与索引滞后说明"
+      },
+      {
+        "id": "local-612296205-2026-05-22",
+        "date": "2026-05-22",
+        "rating": 5,
+        "variant": "评论未完整注明子变体；以页面商品与评论中的规格为准",
+        "verified": true,
+        "incentivized": false,
+        "reviewCountry": "美国站；评论者国家未单独核验",
+        "url": "https://www.walmart.com/ip/Perfect-Pod-Single-Serve-Universal-Reusable-Coffee-Filter-Cup-Multistream-Technology/612296205",
+        "locator": "2026-05-22 · great product, great value（按日期与标题定位，页面未返回单条评论 ID）",
+        "product": "walmart-612296205",
+        "summary": "5 星用户称在其 Keurig Elite 上使用方便，尤其认可不用反复取下机内滤杯座；这是个人体验，不是本站兼容认证。",
+        "tags": [
+          "fit",
+          "cleaning"
+        ],
+        "machine": "Keurig Elite（用户用语；未核对完整地区型号）",
+        "action": "对同一完整机型记录安装步骤和杯座保留条件，减少安装切换时间。",
+        "evidence": "平台公开索引中可见评论的中文转述，未经独立实测；保留原评论日期与索引滞后说明"
+      },
+      {
+        "id": "local-16929464333-2026-07-29",
+        "date": "2026-07-29",
+        "rating": 5,
+        "variant": "评论未完整注明子变体；以页面商品与评论中的规格为准",
+        "verified": true,
+        "incentivized": true,
+        "reviewCountry": "美国站；评论者国家未单独核验",
+        "url": "https://www.walmart.com/ip/Perfect-Pod-Cafe-Fill-Value-Pack-Reusable-K-Cup-Coffee-Filter-Pod-4-pack-EZ-Scoop-w-Built-Funnel-Works-Keurig-Single-Serve-1-Stream-Coffee-Brewers/16929464333",
+        "locator": "2026-07-29 · Perfect off brand product（按日期与标题定位，页面未返回单条评论 ID）",
+        "product": "walmart-16929464333",
+        "summary": "激励评论：用户称 K-Express 适配、收到四杯和装粉勺；勺口有助减少洒粉。其提到别人缺件，不能算作自身缺件案例。",
+        "tags": [
+          "package",
+          "grounds"
+        ],
+        "machine": "Keurig K-Express（用户声明）",
+        "action": "核对套装实发清单和装粉工具；保留激励标记，不把这条好评当作独立验证。",
+        "evidence": "平台公开索引中可见评论的中文转述，未经独立实测；保留原评论日期与索引滞后说明"
+      },
+      {
+        "id": "local-16010257088-2025-12-14",
+        "date": "2025-12-14",
+        "rating": 5,
+        "variant": "评论未完整注明子变体；以页面商品与评论中的规格为准",
+        "verified": true,
+        "incentivized": false,
+        "reviewCountry": "美国站；评论者国家未单独核验",
+        "url": "https://www.walmart.com/ip/Keurig-My-K-Cup-Universal-Reusable-Filter-MultiStream-Technology/16010257088",
+        "locator": "2025-12-14 · Finally!!（按日期与标题定位，页面未返回单条评论 ID）",
+        "product": "walmart-16010257088",
+        "summary": "用户升级到其所称 Chill Brew 后发现旧可填充杯不兼容，尝试错误产品后才找到本页适配件；未给完整机器型号。",
+        "tags": [
+          "fit"
+        ],
+        "machine": "Keurig Chill Brew（用户用语；完整型号未确认）",
+        "action": "商品适配表按代际和完整型号写明，附旧版／新版滤杯区别；不由此保证所有 Chill Brew 都兼容。",
+        "evidence": "平台公开索引中可见评论的中文转述，未经独立实测；保留原评论日期与索引滞后说明"
+      },
+      {
+        "id": "local-698020372-2026-03-07",
+        "date": "2026-03-07",
+        "rating": 5,
+        "variant": "评论未完整注明子变体；以页面商品与评论中的规格为准",
+        "verified": true,
+        "incentivized": false,
+        "reviewCountry": "美国站；评论者国家未单独核验",
+        "url": "https://www.walmart.com/ip/Perfect-Pod-Single-Serve-Filter-Cup-Value-Pack-with-1-Reusable-Filter-Cup-and-Bonus-EZ-Scoop-for-K-Cup-Brewers/698020372",
+        "locator": "2026-03-07 · 无标题；装粉勺减少台面洒粉反馈（按日期与标题定位，页面未返回单条评论 ID）",
+        "product": "walmart-698020372",
+        "summary": "5 星用户认为装粉勺配合滤杯减少了台面洒粉。此为配件价值线索，没有清洗时间或洒粉质量的实测数据。",
+        "tags": [
+          "grounds",
+          "cleaning"
+        ],
+        "machine": "未说明机型",
+        "action": "对比有无漏斗勺的装填耗时与台面洒粉量，优先验证是否值得加入套装。",
+        "evidence": "平台公开索引中可见评论的中文转述，未经独立实测；保留原评论日期与索引滞后说明"
+      },
+      {
+        "id": "local-493084265-2022-02-08",
+        "date": "2022-02-08",
+        "rating": 5,
+        "variant": "评论未完整注明子变体；以页面商品与评论中的规格为准",
+        "verified": true,
+        "incentivized": false,
+        "reviewCountry": "美国站；评论者国家未单独核验",
+        "url": "https://www.walmart.com/ip/Reusable-Cups-for-Keurig-K-Cup-2-0-and-1-0-Coffee-Maker-Refillable-Filter-Pods-Pack-of-2-Purple-Black/493084265",
+        "locator": "2022-02-08 · Best reusable cup so far（按日期与标题定位，页面未返回单条评论 ID）",
+        "product": "walmart-493084265",
+        "summary": "历史评论：5 星用户称 K25 合盖偏紧，使用时会手动辅助，并表示自己装粉至杯口；不能排除过量装填影响。",
+        "tags": [
+          "fit"
+        ],
+        "machine": "Keurig K25（用户声明）",
+        "action": "核对同型号的装粉上限和合盖力，出现阻力不要求用户强行闭合；此条不列入近一年。",
+        "evidence": "平台公开索引中可见评论的中文转述，未经独立实测；保留原评论日期与索引滞后说明"
+      },
+      {
+        "id": "local-493084265-2022-01-15",
+        "date": "2022-01-15",
+        "rating": 5,
+        "variant": "评论未完整注明子变体；以页面商品与评论中的规格为准",
+        "verified": true,
+        "incentivized": false,
+        "reviewCountry": "美国站；评论者国家未单独核验",
+        "url": "https://www.walmart.com/ip/Reusable-Cups-for-Keurig-K-Cup-2-0-and-1-0-Coffee-Maker-Refillable-Filter-Pods-Pack-of-2-Purple-Black/493084265",
+        "locator": "2022-01-15 · 无标题；缺少保养说明的反馈（按日期与标题定位，页面未返回单条评论 ID）",
+        "product": "walmart-493084265",
+        "summary": "历史评论：用户认可无渣、易清洗，但指出没有随附保养说明。",
+        "tags": [
+          "package",
+          "cleaning"
+        ],
+        "machine": "未说明机型",
+        "action": "补齐清洗、晾干、密封件检查与禁用条件；历史反馈仅作说明书设计线索。",
+        "evidence": "平台公开索引中可见评论的中文转述，未经独立实测；保留原评论日期与索引滞后说明"
+      }
+    ],
+    "findings": [
+      {
+        "name": "兼容性应写到完整型号与代际",
+        "action": "明确单针／多针、K-Duo 代际、Original／Vertuo 及 Tassimo 条码版本；把未核验型号列为待测。",
+        "tags": [
+          "fit"
+        ]
+      },
+      {
+        "name": "密封与萃取要一起测",
+        "action": "保持同豆与杯量，分别比较粉量、研磨、压实和封口；记录漏水路径，不能把所有弱咖啡归咎于豆粉。",
+        "tags": [
+          "sealing",
+          "taste"
+        ]
+      },
+      {
+        "name": "配件包的机会来自实际步骤",
+        "action": "把纸滤、封口支架、漏斗、备用密封圈与清洗工具按适配条件列清；套装图片与实发清单保持一致。",
+        "tags": [
+          "grounds",
+          "cleaning",
+          "package"
+        ]
+      },
+      {
+        "name": "材料说法需要证据",
+        "action": "材料标题、部件材质、涂层和气味分别核对；消费者的气味或掉色描述不是合规检测结果。",
+        "tags": [
+          "material",
+          "durability"
+        ]
+      }
+    ],
+    "reports": [
+      {
+        "id": "national-US",
+        "countries": [
+          "US"
+        ],
+        "title": "NCA（美国国家咖啡协会）2026 秋季调查",
+        "url": "https://www.ncausa.org/Newsroom/NCA-Coffee-tops-beverage-charts-again-specialty-coffee-hits-new-high",
+        "published": "2026-09-15",
+        "period": "2026 年 6 月调查",
+        "location": "官方公告",
+        "quality": "协会调查／行业统计；保留各指标分母",
+        "facts": [
+          {
+            "country": "US",
+            "label": "过去一天喝过咖啡",
+            "value": 66,
+            "unit": "%",
+            "note": "美国成年人；2026-06-08—2026-06-24；18 岁以上，样本 1,882；不是胶囊消费份额"
+          },
+          {
+            "country": "US",
+            "label": "在家喝咖啡",
+            "value": 83,
+            "unit": "%",
+            "note": "过去一天喝过咖啡者；2026-06；可同时在外饮用；不是仅在家准备的比例"
+          },
+          {
+            "country": "US",
+            "label": "在外喝咖啡",
+            "value": 38,
+            "unit": "%",
+            "note": "过去一天喝过咖啡者；2026-06；与在家场景可重叠，不与 83% 强制相加"
+          },
+          {
+            "country": "US",
+            "label": "食品杂货店购买渠道比例",
+            "value": 35,
+            "unit": "%",
+            "note": "NCA；2026 年 6 月调查；居家制作咖啡的购买渠道；1 月为 42%；不是全部饮用人数分母。"
+          },
+          {
+            "country": "US",
+            "label": "大众零售商购买渠道比例",
+            "value": 28,
+            "unit": "%",
+            "note": "NCA；2026 年 6 月调查；居家制作咖啡的购买渠道；1 月为 23%；不是电商份额。"
+          }
+        ],
+        "caveats": [
+          "本国全部咖啡消费不是胶囊销量；居家与在外场景可以重叠，不强制相加。"
+        ]
+      },
+      {
+        "id": "national-DE",
+        "countries": [
+          "DE"
+        ],
+        "title": "Deutscher Kaffeeverband（德国咖啡协会）2025 年度市场数据",
+        "url": "https://www.kaffeeverband.de/de/presse/deutscher-kaffeemarkt-2025-stabil-segment-ganze-bohne-in-zehn-jahren-mehr-als-verdoppelt-all-time-high-konsum-ausser-haus",
+        "published": "2026-04-02",
+        "period": "2025 全年",
+        "location": "官方公告",
+        "quality": "协会调查／行业统计；保留各指标分母",
+        "facts": [
+          {
+            "country": "DE",
+            "label": "年咖啡饮用量",
+            "value": 161,
+            "unit": "升/人/年",
+            "note": "全国人均；2025 全年；饮用升数，不等于生豆公斤或胶囊颗数"
+          },
+          {
+            "country": "DE",
+            "label": "销售量",
+            "value": 193800,
+            "unit": "吨",
+            "note": "整豆市场；2025 全年；整豆，不能用作胶囊销量"
+          }
+        ],
+        "caveats": [
+          "饮用升数、整豆吨数和胶囊颗数不同，不相互换算为可填充胶囊需求。"
+        ]
+      },
+      {
+        "id": "ecf-2024",
+        "countries": [
+          "DE",
+          "FR",
+          "IT",
+          "ES",
+          "NL"
+        ],
+        "title": "European Coffee Report 2024/2025（欧洲咖啡报告）",
+        "url": "https://www.ecf-coffee.org/wp-content/uploads/2025/05/European_Coffee_Report_2024-2025_v1.pdf",
+        "published": "2025-05（报告定稿月）",
+        "period": "2024 全年",
+        "location": "第 40—43 页；取表格 2024 列",
+        "quality": "ECF 汇编；底层为 Euromonitor 行业估计，非官方人口普查",
+        "facts": [
+          {
+            "country": "DE",
+            "label": "Coffee pods 按咖啡重量占比／零售金额占比",
+            "value": "13% / 27%",
+            "unit": "占各国全部咖啡的比例",
+            "note": "数量按咖啡吨数；金额按零售售价估计。"
+          },
+          {
+            "country": "FR",
+            "label": "Coffee pods 按咖啡重量占比／零售金额占比",
+            "value": "34% / 68%",
+            "unit": "占各国全部咖啡的比例",
+            "note": "数量按咖啡吨数；金额按零售售价估计。"
+          },
+          {
+            "country": "IT",
+            "label": "Coffee pods 按咖啡重量占比／零售金额占比",
+            "value": "18% / 61%",
+            "unit": "占各国全部咖啡的比例",
+            "note": "数量按咖啡吨数；金额按零售售价估计。"
+          },
+          {
+            "country": "ES",
+            "label": "Coffee pods 按咖啡重量占比／零售金额占比",
+            "value": "16% / 69%",
+            "unit": "占各国全部咖啡的比例",
+            "note": "数量按咖啡吨数；金额按零售售价估计。"
+          },
+          {
+            "country": "NL",
+            "label": "Coffee pods 按咖啡重量占比／零售金额占比",
+            "value": "35% / 56%",
+            "unit": "占各国全部咖啡的比例",
+            "note": "数量按咖啡吨数；金额按零售售价估计。"
+          }
+        ],
+        "caveats": [
+          "Coffee pods 同时包括软包（pads）与硬壳胶囊（capsules），不等于硬胶囊系统份额或可填充配件市场。",
+          "这组为 2024 年历史基准；不能当成近一年新发布的新闻，也不能用占比倒推出本店可销售量。"
+        ]
+      },
+      {
+        "id": "france-2024",
+        "countries": [
+          "FR"
+        ],
+        "title": "Syndicat Français du Café（法国咖啡行业协会）关键数据",
+        "url": "https://www.alliance7.com/wp-content/uploads/2019/09/Syndicat-du-CAFE-1.pdf",
+        "published": "2025-09（PDF 标注）",
+        "period": "2024 全年",
+        "location": "第 2 页",
+        "quality": "行业协会；Circana 零售渠道扫描与 Kantar 家庭／外出消费指标",
+        "facts": [
+          {
+            "country": "FR",
+            "label": "大型零售渠道咖啡销售金额",
+            "value": 3666,
+            "unit": "百万欧元",
+            "note": "Circana：大卖场、超市、邻近店、折扣店及电商口径。"
+          },
+          {
+            "country": "FR",
+            "label": "上述零售渠道咖啡销售量",
+            "value": 207121,
+            "unit": "吨",
+            "note": "咖啡各品类合计，不是胶囊吨数。"
+          },
+          {
+            "country": "FR",
+            "label": "家庭年度居家咖啡预算",
+            "value": 110.3,
+            "unit": "欧元／户",
+            "note": "Kantar 指标；不是单个胶囊用户客单价。"
+          }
+        ],
+        "caveats": [
+          "销售渠道、家庭预算与企业收入是不同分母；不合并成市场规模。",
+          "PDF 路径含 2019，但文件本身标注 2025 年 9 月；不用 URL 目录作为发布日期。"
+        ]
+      },
+      {
+        "id": "italy-2025",
+        "countries": [
+          "IT"
+        ],
+        "title": "Unione Italiana Food（意大利食品工业联合会）咖啡数据",
+        "url": "https://www.unioneitalianafood.it/en/coffee/",
+        "published": "页面未注明准确发布日",
+        "period": "2025 全年",
+        "location": "Coffee by numbers 栏目",
+        "quality": "行业协会公开数据；部分折算方法未在页面展开",
+        "facts": [
+          {
+            "country": "IT",
+            "label": "咖啡生产量",
+            "value": 424168,
+            "unit": "吨",
+            "note": "同比 -1.7%；不是胶囊产量。"
+          },
+          {
+            "country": "IT",
+            "label": "国内消费量",
+            "value": 287143,
+            "unit": "吨",
+            "note": "页面未展开生豆等价／烘焙重量折算方法，不与别国不同方法混排。"
+          },
+          {
+            "country": "IT",
+            "label": "人均年度消费",
+            "value": 4.9,
+            "unit": "公斤／人／年",
+            "note": "全国咖啡指标，不是胶囊颗数。"
+          },
+          {
+            "country": "IT",
+            "label": "咖啡出口金额",
+            "value": 3238,
+            "unit": "百万欧元",
+            "note": "出口金额不是国内零售收入；出口量另列 303914 吨。"
+          }
+        ],
+        "caveats": [
+          "贸易量、生产量与国内消费量的统计边界不同，不按简单加减推算可填充胶囊需求。"
+        ]
+      },
+      {
+        "id": "spain-2024",
+        "countries": [
+          "ES"
+        ],
+        "title": "AECafé（西班牙咖啡协会）2023/2024 行业报告",
+        "url": "https://www.asociacioncafe.com/wp-content/uploads/2025/09/AECafe_Informe-sectorial_Datos-2023_2024_final.pdf",
+        "published": "2025-09（发布文件路径；报告统计期另列）",
+        "period": "2024 全年",
+        "location": "第 15、18、24 页",
+        "quality": "行业协会汇编；多个底层来源和渠道边界",
+        "facts": [
+          {
+            "country": "ES",
+            "label": "AECafé 食品零售渠道销量",
+            "value": 106169,
+            "unit": "吨",
+            "note": "第 18 页，行业覆盖口径；不能与 MAPA 家庭面板混作一组。"
+          },
+          {
+            "country": "ES",
+            "label": "MAPA 家庭消费面板销量",
+            "value": 76144,
+            "unit": "吨",
+            "note": "第 18 页，居民主要住所家庭面板等覆盖条件，不是上述行业总量。"
+          }
+        ],
+        "caveats": [
+          "第 15 页转引胶囊占比 17%，第 24 页另称 14%；未给出可直接统一的边界。ECF 原报告 2024 列为 16%，本页保留差异，不选一个数冒充统一结论。",
+          "第 15 页的法国 35%、德国 14%、西班牙 17% 与 ECF 的 2023 列一致，不能不加说明地当成其 2024 列。",
+          "家庭面板、零售渠道、线上格式和 HORECA 不能使用同一个分母。"
+        ]
+      },
+      {
+        "id": "uk-headline",
+        "countries": [
+          "GB"
+        ],
+        "title": "British Coffee Association（英国咖啡协会）消费概览",
+        "url": "https://britishcoffeeassociation.org/media-centre/",
+        "published": "页面未标明调查期与准确发布日期",
+        "period": "调查期未公开；2026-10-18 核对网页",
+        "location": "媒体中心消费概览",
+        "quality": "协会网页摘要；未取得完整样本与方法",
+        "facts": [
+          {
+            "country": "GB",
+            "label": "日均咖啡饮用量",
+            "value": 103,
+            "unit": "百万杯／日",
+            "note": "协会当前网页概览；不标为 2026 年代表性调查，也不换算胶囊颗数。"
+          },
+          {
+            "country": "GB",
+            "label": "每日喝咖啡的成年人",
+            "value": 67,
+            "unit": "%",
+            "note": "调查期与样本细节未在该摘要展开，不能与美国的昨日饮用指标直接排名。"
+          }
+        ],
+        "caveats": [
+          "英国为非欧盟市场，保留 GBP 和英国站点；本页消费概览不能代表可填充胶囊销售额。"
+        ]
       }
     ]
   }

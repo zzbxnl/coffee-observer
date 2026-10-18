@@ -1,9 +1,9 @@
 // 由 scripts/build-coffee-year-data.ts 从 content/coffee-year-data.json 生成。
 window.COFFEE_YEAR_DATA = {
-  "checked_on": "2026-10-17",
+  "checked_on": "2026-10-18",
   "window": {
-    "from": "2025-10-17",
-    "to": "2026-10-17",
+    "from": "2025-10-18",
+    "to": "2026-10-18",
     "basis": "消费与企业记录按原始发布日期筛选；实际统计期另列。ICO 另列最近 12 个完整月的月均价格（2025-10—2026-09），2025-10 含日窗口之前的日期；2026-10 尚未完整，不补造月均值。"
   },
   "coverage": "首批人工整理的官方公开资料，不是全行业完整数据库。记录缺少准确发布日时保持为空；不购买受限数据库，不补造国家胶囊份额或产品销量。",
@@ -73,6 +73,12 @@ window.COFFEE_YEAR_DATA = {
       "url": "https://www.keurigdrpepper.com/kdp-leads-discussions-on-coffees-future-at-climate-week-nyc-2026/",
       "date": "2026-09-25",
       "type": "企业活动公告"
+    },
+    "kidisleRecall": {
+      "name": "CPSC（美国消费品安全委员会）KC101B 召回",
+      "url": "https://www.cpsc.gov/Recalls/2026/Coffeemakers-Recalled-Due-to-Risk-of-Serious-Injury-from-Burn-Hazard-Imported-by-Kidisle",
+      "date": "2026-06-11",
+      "type": "监管机构公告"
     }
   },
   "prices": [
@@ -785,6 +791,49 @@ window.COFFEE_YEAR_DATA = {
       "status": "原始资料已核验",
       "tags": [
         "胶囊系统"
+      ]
+    },
+    {
+      "id": "kidisle-recall-2026",
+      "date": "2026-06-11",
+      "period": "2026-06-11 官方召回公告",
+      "category": "政策回收",
+      "region": "美国",
+      "tags": [
+        "产品安全",
+        "咖啡机"
+      ],
+      "status": "监管原文已核验",
+      "title": "Kidisle KC101B（KC101B 型咖啡机）在美国召回约 17600 台",
+      "desc": "CPSC 指出堵塞可能导致热液或蒸汽意外释放；按具体型号核对官方处置指引。",
+      "impact": "兼容性研究也需先排除受召回设备。受影响机器和其他型号分开处理，不能把事故报告数当作所有机器的故障率。",
+      "source": "kidisleRecall",
+      "article": "system-comparison",
+      "images": [
+        "kidisle-kc101b"
+      ],
+      "sections": [
+        {
+          "title": "公告确认了什么",
+          "kind": "监管事实",
+          "text": "CPSC 公告涉及约 17600 台 KC101B：堵塞可能使热液或蒸汽意外释放。公告记录至少 107 起相关报告、至少 27 起伤害报告；报告数量不是故障发生率。",
+          "refs": [
+            "kidisleRecall"
+          ]
+        },
+        {
+          "title": "适用范围与处置",
+          "kind": "按具体型号核对",
+          "text": "公告对象为 Kidisle KC101B，型号在机身底部标签。官方列示 Amazon、Walmart、eBay 等销售渠道；消费者应按原公告核对受影响范围及停止使用、退款指引。",
+          "refs": [
+            "kidisleRecall"
+          ]
+        },
+        {
+          "title": "经营上怎样使用这条信息",
+          "kind": "本站分析",
+          "text": "售后表单和兼容测试记录应包含机器完整型号及批次。该召回不能证明任何第三方可填充胶囊导致事故，也不能用来推断其他型号的风险。"
+        }
       ]
     }
   ]

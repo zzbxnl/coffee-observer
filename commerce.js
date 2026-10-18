@@ -34,6 +34,7 @@ function renderCommerce() {
   const link=(url,label)=>`<a class="pill" href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(label)} ↗</a>`;
   page.innerHTML=heading('电商市场查询','研究可填充胶囊、预填充胶囊和配件。先选国家与系统，再进入官方商品或成交研究入口。','MARKET RESEARCH')+
   `<p class="scope-note">免费查询版 · 已收录图片中的 24 个平台入口。当前未连接全市场销量数据库；销量和金额只展示你导入且注明来源的竞品样本，不代表整个国家或平台。</p>
+  <p class="scope-note"><a href="#research/reviews">查看已采集的商品评论、痛点与 24 平台进度 →</a></p>
   <form id="commerce-query" class="commerce-form">
     <label>国家／市场<select name="country">${commerceOptions(commerce.countries,commerceState.country)}</select></label>
     <label>平台<select name="platform">${commerce.platforms.map(p=>`<option value="${p.id}" ${p.id===commerceState.platform?'selected':''}>${esc(p.name)}</option>`).join('')}</select></label>
