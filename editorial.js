@@ -10,7 +10,7 @@ function renderKnowledge(isSaved, hint) {
     + (isSaved ? filters(['全部',...dossiers.map(d => d.title)]) : `<div class="wiki-toolbar"><button class="pill ${state.filter === '全部' ? 'active' : ''}" data-filter="全部" aria-pressed="${state.filter === '全部'}">全部</button><span>${articles.length} 篇百科 · 按下方分类顺序阅读</span></div>` + dossierNav())
     + hint
     + (isSaved ? '' : '<p class="scope-note">从原理进入实际产品：<a href="#research/compatibility">机型兼容库 →</a> · <a href="#research/lab">问题假设与测试表 →</a> · <a href="#research/context">国家与集团档案 →</a></p>')
-    + (groups.map(d => `<section class="knowledge-group" aria-label="${esc(d.title)}词条"><div class="section-head"><div><h2>${esc(d.title)} <small>${d.entries.length} 篇</small></h2><p>${esc(d.desc)}</p></div></div><div class="card-grid">${d.entries.map(articleCard).join('')}</div></section>`).join('') || empty(isSaved ? '还没有收藏词条' : '没有找到相关词条', isSaved ? '点击百科卡片的星标即可收藏。' : '试试其他关键词或分类。'));
+    + (groups.map(d => `<section class="knowledge-group" aria-label="${esc(d.title)}词条"><div class="section-head"><div><h2>${esc(d.title)} <small>${d.entries.length} 篇</small></h2><p>${esc(d.desc)}</p></div></div>${officialCatalog(d.title)}<div class="card-grid">${d.entries.map(articleCard).join('')}</div></section>`).join('') || empty(isSaved ? '还没有收藏词条' : '没有找到相关词条', isSaved ? '点击百科卡片的星标即可收藏。' : '试试其他关键词或分类。'));
 }
 
 function renderHome(hint) {
@@ -75,6 +75,8 @@ function renderDocument() {
       <article class="document reader" aria-labelledby="document-title">
         <header class="document-header"><div class="news-meta"><span class="tag">${esc(item.category)}</span><span>${isEvent ? esc(item.region) + ' · ' + esc(item.status) : '专题解读 · ' + esc(item.time)}</span></div><h1 id="document-title">${esc(item.title)}</h1><p class="intro">${esc(item.desc)}</p><div class="document-meta">${isEvent ? `原始发布：<time datetime="${item.date}">${item.date}</time><span>统计／事件期：${esc(item.period)}</span>` : `核验：<time>${item.checked_on}</time><span>${keys.length} 个原始出处</span>`}</div></header>
         <div class="takeaway"><b>${item.automatic ? '自动收录说明' : isEvent ? '关注价值 · 本站解读' : '核心结论'}</b><p>${esc(isEvent ? item.impact : item.takeaway)}</p></div>
+        ${officialGallery(item.images || (item.image?[item.image]:[]))}
+        ${isEvent&&!item.automatic?eventBusinessReading(item):''}
         <nav class="mobile-toc" aria-label="本文目录">${sections.map((s,i) => `<button data-section="section-${i}">${i+1}. ${esc(s.title)}</button>`).join('')}</nav>
         ${sections.map((s,i) => `<div id="section-${i}" class="document-section">${sectionContent(s)}</div>`).join('')}
         <section class="sources"><h2>原始资料</h2><p>${item.automatic ? '以下链接指向发布者原文。自动摘要未经人工核验，AI 中文整理已另行标明。' : '以下链接指向资料发布者；本站提供摘要、整理与独立解读。'}</p>${refs(keys)}</section>

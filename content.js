@@ -327,7 +327,12 @@ window.COFFEE_CONTENT = {
           "kind": "原理与解读"
         }
       ],
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "images": [
+        "essenza-mini",
+        "tassimo-happy"
+      ],
+      "image": "essenza-mini"
     },
     {
       "id": "original-vertuo",
@@ -407,7 +412,12 @@ window.COFFEE_CONTENT = {
           "kind": "原理与解读"
         }
       ],
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "images": [
+        "essenza-mini",
+        "vertuo-pop"
+      ],
+      "image": "essenza-mini"
     },
     {
       "id": "alta-system",
@@ -471,6 +481,10 @@ window.COFFEE_CONTENT = {
           "kind": "本站分析",
           "text": "第一，用户采用新机器后，旧 K-Cup 使用是否仍然重要；第二，新咖啡片的购买渠道与长期供货是否方便；第三，识别、流路、清洗和操作步骤会产生什么新需求。新系统并不自动产生一种可售的第三方填充方案，机器对旧杯的支持也不等同于某个旧配件已获验证。应先建立具体机型和耗材路径，再观察配件机会。"
         }
+      ],
+      "image": "keurig-alta",
+      "images": [
+        "keurig-alta"
       ]
     },
     {
@@ -551,7 +565,13 @@ window.COFFEE_CONTENT = {
           "kind": "原理与解读"
         }
       ],
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "images": [
+        "lavazza-beans",
+        "illy-classico",
+        "ucc-beans"
+      ],
+      "image": "lavazza-beans"
     },
     {
       "id": "capsule-materials",
@@ -624,7 +644,12 @@ window.COFFEE_CONTENT = {
           "kind": "生命周期边界"
         }
       ],
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "images": [
+        "sealpod-starter",
+        "sealpod-lids"
+      ],
+      "image": "sealpod-starter"
     },
     {
       "id": "reusable-economics",
@@ -672,7 +697,11 @@ window.COFFEE_CONTENT = {
         }
       ],
       "time": "3 分钟",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "images": [
+        "sealpod-starter"
+      ],
+      "image": "sealpod-starter"
     },
     {
       "id": "capsule-compatibility",
@@ -754,7 +783,12 @@ window.COFFEE_CONTENT = {
           "kind": "原理与解读"
         }
       ],
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "images": [
+        "mycap-funnel",
+        "my-k-cup"
+      ],
+      "image": "mycap-funnel"
     },
     {
       "id": "coffee-history",
@@ -956,7 +990,12 @@ window.COFFEE_CONTENT = {
           "kind": "原理与解读"
         }
       ],
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "images": [
+        "jolie",
+        "illy-y33"
+      ],
+      "image": "jolie"
     },
     {
       "id": "group-history",
@@ -1068,7 +1107,12 @@ window.COFFEE_CONTENT = {
           "kind": "原理与解读"
         }
       ],
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "images": [
+        "lavazza-beans",
+        "k-supreme"
+      ],
+      "image": "lavazza-beans"
     },
     {
       "id": "us-consumption",
@@ -1523,12 +1567,12 @@ window.COFFEE_CONTENT = {
       },
       "ksmart": {
         "name": "Keurig K-Supreme SMART 官方手册",
-        "url": "https://dam.keurig.com/content/dam/keurig-canada/keurig/at-home/product-toolkit/coffee-makers/user-care-guide/k-supreme-smart/KSupreme_Smart_UCGuide_301_HR-EN.pdf",
+        "url": "https://dam.keurig.com/content/dam/public-assets/support/kcom/pdf/K_Supreme_Smart_Use_and_Care_Guide_Released.pdf",
         "type": "制造商手册"
       },
       "kcafe": {
         "name": "Keurig K-Café Essentials 官方手册",
-        "url": "https://dam.keurig.com/content/dam/public-assets/kcom_support/KCafeEssentialsUCG.pdf",
+        "url": "https://dam.keurig.com/content/dam/public-assets/support/kca/pdf/KCafe_Essentials_UCGuide_EN.pdf",
         "type": "制造商手册"
       },
       "tassimo": {
@@ -1627,21 +1671,41 @@ window.COFFEE_CONTENT = {
         "type": "行业协会"
       },
       "ppwr": {
-        "name": "欧盟包装与包装废弃物条例原文",
-        "url": "https://eur-lex.europa.eu/eli/reg/2025/40/oj/eng",
-        "type": "法规原文"
+        "name": "EUR-Lex（欧盟法律数据库）｜Regulation (EU) 2025/40",
+        "type": "欧盟法规原文",
+        "url": "https://eur-lex.europa.eu/eli/reg/2025/40/oj/eng"
       },
       "wcr": {
         "name": "World Coffee Research 科研资讯",
         "url": "https://worldcoffeeresearch.org/news",
         "type": "研究机构"
+      },
+      "foodcontact": {
+        "name": "European Commission（欧盟委员会）｜食品接触材料",
+        "type": "官方法规与监管入口",
+        "url": "https://food.ec.europa.eu/food-safety/chemical-safety/food-contact-materials_en"
+      },
+      "cpsc": {
+        "name": "CPSC（美国消费品安全委员会）｜召回与安全警告",
+        "type": "官方召回数据库",
+        "url": "https://www.cpsc.gov/Recalls"
+      },
+      "safetygate": {
+        "name": "Safety Gate（欧盟非食品危险产品通报）",
+        "type": "官方召回数据库",
+        "url": "https://ec.europa.eu/safety-gate-alerts/screen/webReport"
+      },
+      "espacenet": {
+        "name": "Espacenet（欧洲专利局专利检索）",
+        "type": "官方专利检索入口",
+        "url": "https://worldwide.espacenet.com/"
       }
     },
     "machines": [
       {
         "id": "essenza-mini",
         "name": "Essenza Mini",
-        "brand": "Nespresso 浓遇咖啡",
+        "brand": "Nespresso（浓遇咖啡）",
         "system": "original",
         "factory": "Original 胶囊",
         "boundary": "不能把 Original 机型归属扩大成对任意第三方可填充胶囊的认可。",
@@ -1649,24 +1713,28 @@ window.COFFEE_CONTENT = {
         "refs": [
           "essenza",
           "nespresso-faq"
-        ]
+        ],
+        "zh": "C30 迷你胶囊咖啡机",
+        "image": "essenza-mini"
       },
       {
         "id": "pixie",
         "name": "Pixie C62",
-        "brand": "Nespresso 浓遇咖啡",
+        "brand": "Nespresso（浓遇咖啡）",
         "system": "original",
         "factory": "Original 胶囊",
         "boundary": "档案对应官方 C62 页面；不能把旧 Pixie 和不同地区版本的机械细节视作完全相同。",
         "check": "拍摄机身铭牌、闭合机构与胶囊承托结构，再核对供应商版本声明。",
         "refs": [
           "pixie"
-        ]
+        ],
+        "zh": "C62 小型胶囊咖啡机",
+        "image": "pixie"
       },
       {
         "id": "vertuo-pop",
         "name": "Vertuo Pop",
-        "brand": "Nespresso 浓遇咖啡",
+        "brand": "Nespresso（浓遇咖啡）",
         "system": "vertuo",
         "factory": "Vertuo 条码胶囊",
         "boundary": "系统归属不代表每种杯量或第三方重填方案均适用。",
@@ -1674,133 +1742,155 @@ window.COFFEE_CONTENT = {
         "refs": [
           "pop",
           "nespresso-faq"
-        ]
+        ],
+        "zh": "馥旋 Pop 胶囊咖啡机",
+        "image": "vertuo-pop"
       },
       {
         "id": "vertuo-next",
         "name": "Vertuo Next",
-        "brand": "Nespresso 浓遇咖啡",
+        "brand": "Nespresso（浓遇咖啡）",
         "system": "vertuo",
         "factory": "Vertuo 胶囊；不使用 Original 胶囊",
         "boundary": "读取条码设置冲煮参数；不能按外观大小推断胶囊或重填组件兼容。",
         "check": "保存机器与原胶囊版本、所用盖组件型号及每次流量／漏水记录。",
         "refs": [
           "next"
-        ]
+        ],
+        "zh": "馥旋 Next 胶囊咖啡机",
+        "image": "vertuo-next"
       },
       {
         "id": "k-supreme",
         "name": "K-Supreme",
-        "brand": "Keurig 克里格",
+        "brand": "Keurig（克里格）",
         "system": "k-cup",
         "factory": "K-Cup 胶囊；手册指定新设计 My K-Cup Universal 可填充滤杯",
         "boundary": "手册明确排除其他可填充滤杯及旧版 My K-Cup Universal，不能只看产品名称相同。",
         "check": "对照滤杯版本和手册图示；本站未验证你的不锈钢胶囊是否适配。",
         "refs": [
           "ksupreme"
-        ]
+        ],
+        "zh": "多针单杯咖啡机",
+        "image": "k-supreme"
       },
       {
         "id": "k-supreme-smart",
         "name": "K-Supreme SMART",
-        "brand": "Keurig 克里格",
+        "brand": "Keurig（克里格）",
         "system": "k-cup",
         "factory": "K-Cup；手册对新设计 My K-Cup Universal 有专门限制",
         "boundary": "SMART 与普通 K-Supreme 分别记录；不能从一个机型的测试外推另一个。",
         "check": "记录机器与滤杯代际、底座组件和穿刺位置，先读对应手册。",
         "refs": [
           "ksmart"
-        ]
+        ],
+        "zh": "智能单杯咖啡机",
+        "image": "k-supreme-smart"
       },
       {
         "id": "k-cafe-essentials",
         "name": "K-Café Essentials",
-        "brand": "Keurig 克里格",
+        "brand": "Keurig（克里格）",
         "system": "k-cup",
         "factory": "K-Cup；官方手册列有 My K-Cup Universal 支持",
         "boundary": "官方滤杯支持不自动覆盖第三方滤杯。",
         "check": "分别核对所用滤杯版本、注水结构和粉量上限。",
         "refs": [
           "kcafe"
-        ]
+        ],
+        "zh": "带奶泡器的单杯咖啡机",
+        "image": "k-cafe-essentials"
       },
       {
         "id": "tassimo-happy",
         "name": "TASSIMO HAPPY TAS1002N",
-        "brand": "Bosch 博世",
+        "brand": "Bosch（博世）",
         "system": "tassimo",
         "factory": "带识别条码的 T DISC",
         "boundary": "规格表说明通过条码控制冲煮；能放入盘体不等于能正确识别。",
         "check": "保存完整 TAS 型号和盘体条码；未经实测的可填充盘不能标为已兼容。",
         "refs": [
           "tassimo"
-        ]
+        ],
+        "zh": "博世快乐系列胶囊咖啡机",
+        "image": "tassimo-happy"
       },
       {
         "id": "genio-s-plus",
         "name": "Genio S Plus De’Longhi",
-        "brand": "NESCAFÉ Dolce Gusto 多趣酷思",
+        "brand": "NESCAFÉ Dolce Gusto（多趣酷思）",
         "system": "dolce-gusto",
         "factory": "传统 Dolce Gusto 产品系列",
         "boundary": "此档案是 Genio S Plus；不扩大为 Neo 或其他胶囊系统。",
         "check": "记录制造商、完整型号与胶囊托架版本，逐项核对可填充产品声明。",
         "refs": [
           "genio"
-        ]
+        ],
+        "zh": "德龙精灵 S Plus 胶囊咖啡机",
+        "image": "genio-s-plus"
       },
       {
         "id": "jolie",
         "name": "A Modo Mio Jolie",
-        "brand": "Lavazza 拉瓦萨",
+        "brand": "Lavazza（拉瓦萨）",
         "system": "a-modo-mio",
         "factory": "A Modo Mio 家用胶囊系统",
         "boundary": "Lavazza 同一品牌下的不同系统不能因品牌名相同就视为互通。",
         "check": "商品详情要写明 A Modo Mio 及具体型号，不能只写 Lavazza compatible。",
         "refs": [
           "jolie"
-        ]
+        ],
+        "zh": "拉瓦萨 Jolie 胶囊咖啡机",
+        "image": "jolie"
       },
       {
         "id": "idola",
         "name": "A Modo Mio Idola",
-        "brand": "Lavazza 拉瓦萨",
+        "brand": "Lavazza（拉瓦萨）",
         "system": "a-modo-mio",
         "factory": "A Modo Mio；手册单列胶囊不兼容相关排查",
         "boundary": "手册提到兼容胶囊不代表对某个第三方不锈钢产品的认可。",
         "check": "记录闭合、出液、排渣与漏水，保留原厂胶囊对照。",
         "refs": [
           "idola"
-        ]
+        ],
+        "zh": "拉瓦萨 Idola 胶囊咖啡机",
+        "image": "idola"
       },
       {
         "id": "illy-y33",
         "name": "Y3.3 iperEspresso",
-        "brand": "illy 意利",
+        "brand": "illy（意利）",
         "system": "iperespresso",
         "factory": "iperEspresso 产品系列",
         "boundary": "不要与 illy 品牌的其他兼容胶囊、咖啡粉或 E.S.E. 粉包混在一个档案。",
         "check": "按产品系统及具体机器选耗材；第三方可填充支持尚未核验。",
         "refs": [
           "illy"
-        ]
+        ],
+        "zh": "意利 Y3.3 胶囊咖啡机",
+        "image": "illy-y33"
       },
       {
         "id": "senseo-csa210",
         "name": "Original Plus CSA210/21",
-        "brand": "Philips 飞利浦 SENSEO",
+        "brand": "Philips SENSEO（飞利浦软包系统）",
         "system": "senseo",
         "factory": "SENSEO 咖啡软包与对应包托",
         "boundary": "这是咖啡软包体系，单独列作对照，不统计为硬壳咖啡胶囊。",
         "check": "记录一杯／两杯包托及耗材规格，不根据 Original 一词联想到 Nespresso。",
         "refs": [
           "senseo"
-        ]
+        ],
+        "zh": "飞利浦软包咖啡机",
+        "image": "senseo-csa210"
       }
     ],
     "products": [
       {
         "id": "sealpod-starter",
-        "name": "Sealpod 1 颗胶囊＋100 张盖膜",
+        "name": "Sealpod Starter Pack（1 颗胶囊＋100 张盖膜）",
         "system": "original",
         "type": "可填充胶囊",
         "brand": "Sealpod 可填充胶囊品牌",
@@ -1810,11 +1900,14 @@ window.COFFEE_CONTENT = {
         "price": null,
         "refs": [
           "sealpod"
-        ]
+        ],
+        "en": "Sealpod Starter Pack",
+        "zh": "1 颗胶囊＋100 张盖膜",
+        "image": "sealpod-starter"
       },
       {
         "id": "sealpod-lids",
-        "name": "Sealpod 100 张铝制盖膜",
+        "name": "Sealpod Aluminum Sticker Lids（100 张铝制盖膜）",
         "system": "original",
         "type": "盖膜耗材",
         "brand": "Sealpod",
@@ -1824,11 +1917,14 @@ window.COFFEE_CONTENT = {
         "price": null,
         "refs": [
           "sealpod-lids"
-        ]
+        ],
+        "en": "Sealpod Aluminum Sticker Lids",
+        "zh": "100 张铝制盖膜",
+        "image": "sealpod-lids"
       },
       {
         "id": "bluecup",
-        "name": "Bluecup 可填充胶囊系统",
+        "name": "Bluecup Refillable System（可填充胶囊系统）",
         "system": "original",
         "type": "可填充胶囊",
         "brand": "Bluecup 可填充器具品牌",
@@ -1838,11 +1934,14 @@ window.COFFEE_CONTENT = {
         "price": null,
         "refs": [
           "bluecup"
-        ]
+        ],
+        "en": "Bluecup Refillable System",
+        "zh": "可填充胶囊系统",
+        "image": "bluecup"
       },
       {
         "id": "mycap-kit",
-        "name": "MyCap Vertuo 3 件盖组件及滤纸套装",
+        "name": "My-Cap Silicone Caps, Lids and Filters（Vertuo 3 件盖组件与滤纸套装）",
         "system": "vertuo",
         "type": "重填组件",
         "brand": "MyCap 重填胶囊与配件品牌",
@@ -1859,11 +1958,14 @@ window.COFFEE_CONTENT = {
         "refs": [
           "mycap-kit",
           "mycap-catalog"
-        ]
+        ],
+        "en": "My-Cap Silicone Caps, Lids and Filters",
+        "zh": "Vertuo 3 件盖组件与滤纸套装",
+        "image": "mycap-kit"
       },
       {
         "id": "mycap-foils",
-        "name": "MyCap Vertuo 100 张盖膜",
+        "name": "My-Cap Vertuo Foils（Vertuo 100 张盖膜）",
         "system": "vertuo",
         "type": "盖膜耗材",
         "brand": "MyCap",
@@ -1880,11 +1982,14 @@ window.COFFEE_CONTENT = {
         "refs": [
           "mycap-foils",
           "mycap-catalog"
-        ]
+        ],
+        "en": "My-Cap Vertuo Foils",
+        "zh": "Vertuo 100 张盖膜",
+        "image": "mycap-foils"
       },
       {
         "id": "mycap-tassimo",
-        "name": "MyCap Tassimo 硅胶盖可填充盘",
+        "name": "My-Cap Reusable Disc for Tassimo（Tassimo 硅胶盖可填充盘）",
         "system": "tassimo",
         "type": "可填充盘",
         "brand": "MyCap",
@@ -1901,11 +2006,14 @@ window.COFFEE_CONTENT = {
         "refs": [
           "mycap-tassimo",
           "mycap-catalog"
-        ]
+        ],
+        "en": "My-Cap Reusable Disc for Tassimo",
+        "zh": "Tassimo 硅胶盖可填充盘",
+        "image": "mycap-tassimo"
       },
       {
         "id": "mycap-funnel",
-        "name": "MyCap Vertuo 胶囊支架与填粉漏斗",
+        "name": "My-Cap Capsule Holder and Funnel（Vertuo 支架与填粉漏斗）",
         "system": "vertuo",
         "type": "填粉配件",
         "brand": "MyCap",
@@ -1921,11 +2029,14 @@ window.COFFEE_CONTENT = {
         },
         "refs": [
           "mycap-catalog"
-        ]
+        ],
+        "en": "My-Cap Capsule Holder and Funnel",
+        "zh": "Vertuo 支架与填粉漏斗",
+        "image": "mycap-funnel"
       },
       {
         "id": "my-k-cup",
-        "name": "Keurig My K-Cup 可填充滤杯",
+        "name": "Keurig My K-Cup Universal（通用可填充滤杯）",
         "system": "k-cup",
         "type": "原厂可填充滤杯",
         "brand": "Keurig 克里格",
@@ -1936,7 +2047,10 @@ window.COFFEE_CONTENT = {
         "refs": [
           "keurig-filter",
           "ksupreme"
-        ]
+        ],
+        "en": "Keurig My K-Cup Universal",
+        "zh": "通用可填充滤杯",
+        "image": "my-k-cup"
       }
     ],
     "issues": [
@@ -2145,7 +2259,7 @@ window.COFFEE_CONTENT = {
     ],
     "groups": [
       {
-        "name": "雀巢 Nestlé／Nespresso",
+        "name": "Nestlé（雀巢）",
         "focus": "胶囊产品、系统发展、财报中的销量／定价变化与渠道。",
         "boundary": "Nespresso 总销售额不能直接拆成 Original 与 Vertuo 份额。",
         "refs": [
@@ -2154,7 +2268,7 @@ window.COFFEE_CONTENT = {
         "companyId": "nestle"
       },
       {
-        "name": "Keurig Dr Pepper 克里格胡椒博士",
+        "name": "Keurig Dr Pepper（克里格胡椒博士集团）",
         "focus": "美国咖啡分部、K-Cup、机器与新系统、并购及分部统计变更。",
         "boundary": "区分宣布、协议、交割和统计重分类，不能把各阶段当成同一件事。",
         "refs": [
@@ -2163,7 +2277,7 @@ window.COFFEE_CONTENT = {
         "companyId": "kdp"
       },
       {
-        "name": "Lavazza 拉瓦萨",
+        "name": "Lavazza（拉瓦萨）",
         "focus": "A Modo Mio 及品牌下不同产品体系，按具体系统查看机器与耗材。",
         "boundary": "“Lavazza 兼容”不足以界定产品；先确认完整系统名。",
         "refs": [
@@ -2173,7 +2287,7 @@ window.COFFEE_CONTENT = {
         "companyId": "lavazza"
       },
       {
-        "name": "illy 意利",
+        "name": "illycaffè（意利咖啡）",
         "focus": "iperEspresso、其他胶囊产品及不同冲煮形态分别建档。",
         "boundary": "品牌相同不表示耗材系统互通；不使用集团总额代替系统规模。",
         "refs": [
@@ -2189,7 +2303,286 @@ window.COFFEE_CONTENT = {
       "每个数字保留国家、统计起止、币种、来源及核对日期；没有同比基期不写同比。",
       "100+ 购买提示是下限提示；累计订单、搜索量和评论数量都不能直接当月销量。",
       "市场规模不从平台大小或机器家庭数直接换算；缺少可比数据时保留未知。"
-    ]
+    ],
+    "catalog": [
+      {
+        "id": "lavazza-beans",
+        "image": "lavazza-beans",
+        "name": "Qualità Oro",
+        "zh": "欧罗金咖啡豆 · 500 g",
+        "category": "咖啡豆",
+        "note": "官方产品页的整豆包装；不能据此推定适合所有可填充胶囊。",
+        "source": "https://www.lavazza.com/en/coffee-beans/qualita-oro"
+      },
+      {
+        "id": "illy-classico",
+        "image": "illy-classico",
+        "name": "Classico Whole Bean",
+        "zh": "经典中度烘焙咖啡豆 · 250 g",
+        "category": "咖啡豆",
+        "note": "对应美国官网 SKU 8841ST；豆粉实验还需另记批次、烘焙和研磨设置。",
+        "source": "https://www.illy.com/en-us/eshop/coffee/whole-bean-coffee/whole-bean-classico-coffee-medium-roast/8841ST"
+      },
+      {
+        "id": "ucc-beans",
+        "image": "ucc-beans",
+        "name": "Gold Special Special Blend",
+        "zh": "黄金特选综合咖啡豆 · 230 g",
+        "category": "咖啡豆",
+        "note": "对应日本官方商店 GSP0600001；不是粉或胶囊版本。",
+        "source": "https://store.ucc.co.jp/item/GSP0600001.html"
+      },
+      {
+        "id": "fellow-ode",
+        "image": "fellow-ode",
+        "name": "Ode Brew Grinder Gen 2",
+        "zh": "二代电动磨豆机",
+        "category": "咖啡其他配件",
+        "note": "具体型号的官方图片；研磨用途和胶囊适配范围需查产品说明。",
+        "source": "https://fellowproducts.com/products/ode-brew-grinder-gen-2"
+      },
+      {
+        "id": "comandante-c40-product",
+        "image": "comandante-c40-product",
+        "name": "C40 MK4 Nitro Blade Black",
+        "zh": "黑色手摇磨豆机",
+        "category": "咖啡其他配件",
+        "note": "型号、磨芯与版本单独识别；不同磨豆机刻度不可直接互换。",
+        "source": "https://comandantegrinder.com/products/c40-mk4-nitro-blade-black"
+      },
+      {
+        "id": "timemore-c3",
+        "image": "timemore-c3",
+        "name": "CHESTNUT C3 Stone White",
+        "zh": "栗子 C3 白色手摇磨豆机",
+        "category": "咖啡其他配件",
+        "note": "使用官方白色 C3 产品页；不替代 C3s 或 C3 ESP 的型号资料。",
+        "source": "https://www.timemore.com/products/timemore-chestnut-c3-stone-white"
+      },
+      {
+        "id": "1zpresso-jultra",
+        "image": "1zpresso-jultra",
+        "name": "J-Ultra",
+        "zh": "手摇磨豆机",
+        "category": "咖啡其他配件",
+        "note": "官方对应型号；实验记录应保留每次刻度、粉量与豆批次。",
+        "source": "https://1zpresso.coffee/j-ultra/"
+      },
+      {
+        "id": "hario-v60",
+        "image": "hario-v60",
+        "name": "V60 VDC-02W",
+        "zh": "白色陶瓷滤杯 02",
+        "category": "咖啡其他配件",
+        "note": "与胶囊系统分开归类，作为其他冲煮器具资料。",
+        "source": "https://www.hario.com/product/coffee/dripper/VDC.html"
+      },
+      {
+        "id": "aeropress-original",
+        "image": "aeropress-original",
+        "name": "AeroPress Original",
+        "zh": "爱乐压原版咖啡器具",
+        "category": "咖啡其他配件",
+        "note": "原版器具官方图；不作为胶囊机或其他 AeroPress 型号配图。",
+        "source": "https://aeropress.com/products/aeropress-coffee-maker"
+      },
+      {
+        "id": "wpm-pitcher",
+        "image": "wpm-pitcher",
+        "name": "KIMERA 450 Tri-Spout Handleless Pitcher",
+        "zh": "450 毫升三嘴无柄奶缸",
+        "category": "咖啡其他配件",
+        "note": "用于辨识具体器具，不以照片证明拉花性能或用户评价。",
+        "source": "https://www.wpmcoffee.com/"
+      },
+      {
+        "id": "mhw-dripper",
+        "image": "mhw-dripper",
+        "name": "Fresh Ice Dripper",
+        "zh": "冰滴咖啡器具",
+        "category": "咖啡其他配件",
+        "note": "官方同名产品图，与填粉漏斗和胶囊盖膜分开归类。",
+        "source": "https://mhw3bomber.com/products/mhw-3bomber-fresh-ice-drip-coffee-maker"
+      },
+      {
+        "id": "wacaco-nanopresso",
+        "image": "wacaco-nanopresso",
+        "name": "Nanopresso Yellow Patrol",
+        "zh": "黄色便携咖啡机",
+        "category": "咖啡机",
+        "note": "对应便携机器本体；胶囊适配器需按另售配件和官方说明核对。",
+        "source": "https://www.wacaco.com/products/nanopresso"
+      },
+      {
+        "id": "gemilai-products",
+        "image": "gemilai-products",
+        "name": "G3006H Owl Pro",
+        "zh": "猫头鹰 Pro 半自动咖啡机",
+        "category": "咖啡机",
+        "note": "格米莱官网明确列出的 G3006H，不替代同系列 G3006A 或 G3006J。",
+        "source": "https://www.gemilai.com.hk/idol-3.html"
+      },
+      {
+        "id": "jetinno-jl60a",
+        "image": "jetinno-jl60a",
+        "name": "JL60A",
+        "zh": "带蒸汽棒的商用咖啡机",
+        "category": "咖啡机",
+        "note": "对应技诺官网 JL60A，不作为其他商用机型配图。",
+        "source": "https://www.jetinnovending.com/table-top-coffee-machine/fresh-coffee-machine/jl60a-milk-steam-wand-commercial-espresso.html"
+      },
+      {
+        "id": "tchibo-beans",
+        "image": "tchibo-beans",
+        "name": "coROAST #5 The Crew Coffee",
+        "zh": "第五期联名整豆咖啡",
+        "category": "咖啡豆",
+        "note": "Tchibo 2026-09-29 官方公告中的整豆包装图；包装规格和售价以原文为准。",
+        "source": "https://www.tchibo.com/de/de/news/neuer-specialty-coffee-co-roast-5-the-crew-coffee-noten-von-schokolade-treffen-auf-gerostete-nusse"
+      }
+    ],
+    "risks": [
+      {
+        "id": "food-contact",
+        "name": "食品接触材料与重复使用条件",
+        "area": "欧盟 · 胶囊本体／盖膜／密封圈",
+        "fact": "欧盟委员会将食品接触材料的安全与适用法规分开说明；金属、塑料、硅胶和涂层不能仅凭一个“不锈钢”名称推定均已合规。",
+        "action": "向供应商索取对应部件、配方和使用条件的资料；记录接触温度、时间、迁移测试、清洗与重复使用次数。",
+        "unknown": "尚未核验你的具体产品、材料报告和目的国要求，当前不标记任何商品“已合规”。",
+        "refs": [
+          "foodcontact"
+        ]
+      },
+      {
+        "id": "packaging",
+        "name": "PPWR（欧盟包装与包装废弃物法规）",
+        "area": "欧盟 · 预装胶囊／产品包装／环境宣传",
+        "fact": "Regulation (EU) 2025/40 第 71 条规定一般自 2026-08-12 适用；不同要求另有分阶段日期。第 14 条针对包装环境主张设定条件。",
+        "action": "先识别胶囊、盖膜和外包装分别属于什么产品／包装结构，再核对适用条款、分阶段日期和材料证据。",
+        "unknown": "不能把所有胶囊、可填充器具都归为同一种包装；尚未对你的 SKU 作产品分类与逐条适用性判断。",
+        "refs": [
+          "ppwr"
+        ]
+      },
+      {
+        "id": "recalls",
+        "name": "咖啡机与配件召回观察",
+        "area": "美国／欧盟 · 具体型号与批次",
+        "fact": "CPSC 与 Safety Gate 提供官方产品安全及召回检索入口。此卡是观察任务，不表示某品牌或本店产品发生了召回。",
+        "action": "用品牌、完整型号、销售国家和批次查找；命中后保存公告日期、风险描述、受影响数量及处理措施。",
+        "unknown": "未运行全站自动召回匹配，也没有“零风险”结论。",
+        "refs": [
+          "cpsc",
+          "safetygate"
+        ]
+      },
+      {
+        "id": "claims-ip",
+        "name": "兼容声明、原厂认可与专利边界",
+        "area": "各目标国 · 系统／结构／商品标题",
+        "fact": "能够装入、原厂耗材兼容和第三方产品获原厂认可，是不同层次的结论。专利检索入口可帮助收集公开资料。",
+        "action": "声明精确到产品版本、机器完整型号和证据来源；对检索出的专利记录申请人、国家、权利要求与法律状态。",
+        "unknown": "本站测试不等于原厂认证，专利检索也不等于可自由实施或无侵权结论。",
+        "refs": [
+          "essenza",
+          "espacenet"
+        ]
+      }
+    ],
+    "progress": [
+      {
+        "name": "胶囊系统与机型",
+        "status": "已上线 13 个档案",
+        "next": "按你的 SKU、机器完整型号和版本录入实测；原厂／供应商／本站实测分别记录。"
+      },
+      {
+        "name": "欧美竞品",
+        "status": "已上线 8 个产品样本与人工观察工具",
+        "next": "锁定目标国 ASIN、变体和包装，记录促销、评论与公开购买量提示；未接入全市场销量。"
+      },
+      {
+        "name": "消费者痛点",
+        "status": "已上线 6 个问题假设与真实问题记录",
+        "next": "导入匿名售后／退货或有原链接的评论；发生率必须另有总样本量。"
+      },
+      {
+        "name": "国家与集团",
+        "status": "已上线 7 国卡片、39 份企业档案与已核对数据",
+        "next": "法国、意大利、西班牙等继续补同口径报告；英国与欧盟分别列示。"
+      },
+      {
+        "name": "材料、政策与产品风险",
+        "status": "已增加法规／召回观察卡",
+        "next": "将具体产品和销售国家对应到文件、报告和批次，记录后续核验。"
+      },
+      {
+        "name": "豆粉实验与供应链",
+        "status": "已增加结构化录入与跨电脑导入／导出",
+        "next": "填写真实豆批次、研磨、粉量、出杯及耗材寿命；不预填虚构实验。"
+      },
+      {
+        "name": "经营简报与更新",
+        "status": "已上线首期人工经营简报与更新时间",
+        "next": "增加真实记录后继续编排；公网仍是发布快照，尚无云端采集排程。"
+      }
+    ],
+    "readings": {
+      "alta-preview-2026": {
+        "products": "Keurig Alta（新片系统）、K-Cup（杯式胶囊）及其配件",
+        "action": "分别记录机器上市状态、地区和耗材版本；向供应商索取明确排除的旧机清单。",
+        "unknown": "新系统的实际家庭保有量、你的产品兼容性和配件销量尚未确认。"
+      },
+      "nca-fall-2026": {
+        "products": "美国居家咖啡、胶囊、豆粉及零售渠道",
+        "action": "按同一报告版本比对购买渠道，分别建立食品杂货店、大众零售和线上竞品清单。",
+        "unknown": "调查比例不是可填充胶囊销量或电商渠道市场份额。"
+      },
+      "kdp-q2-2026": {
+        "products": "Keurig（克里格）与 Peet’s（皮爷）K-Cup 业务",
+        "action": "跟踪分部重分类与并购前后可比口径，再看量／组合和定价。",
+        "unknown": "分部净销售额无法直接拆成某个国家的胶囊配件需求。"
+      },
+      "nca-specialty-2026": {
+        "products": "美国精品咖啡饮用场景、豆粉和冲煮器具",
+        "action": "保存调查定义、统计期与受访对象；与胶囊使用研究分开。",
+        "unknown": "精品咖啡消费者比例不能推算某个胶囊系统的渗透率。"
+      },
+      "nca-spring-2026": {
+        "products": "美国成年人咖啡饮用与家庭消费背景",
+        "action": "同一时间窗口、同一调查版本比较趋势，另行追踪冲煮方式。",
+        "unknown": "过去一周与过去一天的比例不能直接作增长比较。"
+      },
+      "germany-market-2025": {
+        "products": "德国整豆、烘焙咖啡与胶囊产品层",
+        "action": "把金额、重量和价格分别存档；建立同规格整豆与胶囊的当地报价观察。",
+        "unknown": "整豆数据不能证明可填充胶囊增长，也不能代替目标国单品销量。"
+      },
+      "kdp-jde-acquisition": {
+        "products": "Keurig、Peet’s、L’OR（珞咖）及集团渠道",
+        "action": "保留并购完成公告日期和持股时点，单独跟进计划中的业务分拆。",
+        "unknown": "并购前后品牌归属有时间边界，渠道协同及配件需求并未由该公告量化。"
+      },
+      "lavazza-fy2025": {
+        "products": "Lavazza（拉瓦萨）集团、A Modo Mio（自有胶囊系统）与咖啡豆",
+        "action": "拆开收入、销量、定价、原料成本和 EBITDA 利润率；不把集团收入归为胶囊销售。",
+        "unknown": "报告未提供可填充胶囊市场规模或所有国家的系统销量。"
+      },
+      "nestle-fy2025": {
+        "products": "Nespresso Original（原版）与 Vertuo（馥旋）",
+        "action": "分别整理北美、欧洲及系统业务描述；区分 RIG、定价和有机增长。",
+        "unknown": "RIG 不是单一销量指标，集团增长不能直接用于你的某一配件。"
+      },
+      "canada-consumption-2025": {
+        "products": "加拿大家庭消费与每杯成本背景",
+        "action": "与美国报告并读时先核对成年人年龄范围、问题和统计窗口。",
+        "unknown": "加拿大样本不能直接套用为美国或欧盟可填充胶囊规模。"
+      },
+      "kdp-q3-2025": {
+        "products": "KDP（克里格胡椒博士集团）美国咖啡历史基线",
+        "action": "保留 2025 Q3 原披露，和后续同口径季度量／价组合比较。",
+        "unknown": "历史季度结果不是当前季度，不能据此计算当下单品销售额。"
+      }
+    }
   },
   "companies": {
     "checkedOn": "2026-10-18",
@@ -2280,7 +2673,7 @@ window.COFFEE_CONTENT = {
       },
       {
         "id": "manner",
-        "zh": "Manner 咖啡",
+        "zh": "咖啡连锁品牌",
         "en": "Manner Coffee",
         "region": "中国大陆",
         "scope": "domestic",
@@ -2405,7 +2798,8 @@ window.COFFEE_CONTENT = {
         "newsTerms": [
           "格米莱",
           "Gemilai"
-        ]
+        ],
+        "image": "gemilai-products"
       },
       {
         "id": "donlim",
@@ -2559,7 +2953,8 @@ window.COFFEE_CONTENT = {
         "newsTerms": [
           "技诺",
           "JETINNO"
-        ]
+        ],
+        "image": "jetinno-jl60a"
       },
       {
         "id": "wpm",
@@ -2592,7 +2987,8 @@ window.COFFEE_CONTENT = {
         "newsTerms": [
           "惠家",
           "WPM"
-        ]
+        ],
+        "image": "wpm-pitcher"
       },
       {
         "id": "bear",
@@ -2727,7 +3123,8 @@ window.COFFEE_CONTENT = {
         "newsTerms": [
           "泰摩",
           "TIMEMORE"
-        ]
+        ],
+        "image": "timemore-c3"
       },
       {
         "id": "mhw3bomber",
@@ -2759,11 +3156,12 @@ window.COFFEE_CONTENT = {
         "newsTerms": [
           "轰炸机",
           "MHW-3BOMBER"
-        ]
+        ],
+        "image": "mhw-dripper"
       },
       {
         "id": "1zpresso",
-        "zh": "1Zpresso 手摇磨豆机",
+        "zh": "手摇磨豆机品牌",
         "en": "1Zpresso",
         "region": "中国台湾",
         "scope": "domestic",
@@ -2790,11 +3188,12 @@ window.COFFEE_CONTENT = {
         ],
         "newsTerms": [
           "1Zpresso"
-        ]
+        ],
+        "image": "1zpresso-jultra"
       },
       {
         "id": "wacaco",
-        "zh": "Wacaco 便携咖啡器具",
+        "zh": "便携咖啡器具品牌",
         "en": "Wacaco",
         "region": "中国香港",
         "scope": "domestic",
@@ -2822,7 +3221,8 @@ window.COFFEE_CONTENT = {
         ],
         "newsTerms": [
           "Wacaco"
-        ]
+        ],
+        "image": "wacaco-nanopresso"
       },
       {
         "id": "nestle",
@@ -2871,7 +3271,8 @@ window.COFFEE_CONTENT = {
           "Nescafe",
           "Dolce Gusto"
         ],
-        "linkNote": "部分官方入口本轮限制自动访问，已保留官方地址；报告内容或新版本仍需进入原站复核。"
+        "linkNote": "部分官方入口本轮限制自动访问，已保留官方地址；报告内容或新版本仍需进入原站复核。",
+        "image": "essenza-mini"
       },
       {
         "id": "kdp",
@@ -2919,11 +3320,12 @@ window.COFFEE_CONTENT = {
           "Keurig",
           "KDP",
           "胡椒博士"
-        ]
+        ],
+        "image": "k-supreme"
       },
       {
         "id": "jde-peets",
-        "zh": "JDE Peet’s 咖啡集团",
+        "zh": "臻饮与皮爷咖啡集团",
         "en": "JDE Peet’s",
         "region": "荷兰起源",
         "scope": "foreign",
@@ -2962,6 +3364,11 @@ window.COFFEE_CONTENT = {
             "title": "2026-04-01 收购完成公告",
             "url": "https://news.keurigdrpepper.com/2026-04-01-Keurig-Dr-Pepper-Acquires-JDE-Peets-and-Announces-Rafael-Oliveira-as-CEO-of-Future-Global-Coffee-Co",
             "kind": "官方交割公告"
+          },
+          {
+            "title": "JDE Peet’s 中国官网公司信息：臻饮贸易（上海）有限公司",
+            "url": "https://careers-cn.jdepeets.com/zh/company-info/",
+            "kind": "官方中国关联实体资料"
           }
         ],
         "newsTerms": [
@@ -2972,7 +3379,8 @@ window.COFFEE_CONTENT = {
           "Jacobs",
           "L’OR",
           "L'OR"
-        ]
+        ],
+        "nameNote": "中文为便于阅读的释义，不是统一的官方中文集团名；臻饮为中国关联实体使用的称谓，Peet’s 品牌中文为皮爷。集团与关联法人应分别识别。"
       },
       {
         "id": "starbucks",
@@ -3054,7 +3462,8 @@ window.COFFEE_CONTENT = {
           "Tchibo",
           "奇堡",
           "Cafissimo"
-        ]
+        ],
+        "image": "tchibo-beans"
       },
       {
         "id": "lavazza",
@@ -3100,7 +3509,8 @@ window.COFFEE_CONTENT = {
         "newsTerms": [
           "拉瓦萨",
           "Lavazza"
-        ]
+        ],
+        "image": "lavazza-beans"
       },
       {
         "id": "illy",
@@ -3144,7 +3554,8 @@ window.COFFEE_CONTENT = {
           "illy",
           "iperEspresso"
         ],
-        "linkNote": "官方新闻室本轮返回暂时不可用；财务资料保留已核对的 2024 年报原文。新闻室可稍后从品牌官网进入复核。"
+        "linkNote": "官方新闻室本轮返回暂时不可用；财务资料保留已核对的 2024 年报原文。新闻室可稍后从品牌官网进入复核。",
+        "image": "illy-classico"
       },
       {
         "id": "ucc",
@@ -3185,7 +3596,8 @@ window.COFFEE_CONTENT = {
           "悠诗诗",
           "UCC"
         ],
-        "linkNote": "部分官方入口本轮限制自动访问，已保留官方地址；报告内容或新版本仍需进入原站复核。"
+        "linkNote": "部分官方入口本轮限制自动访问，已保留官方地址；报告内容或新版本仍需进入原站复核。",
+        "image": "ucc-beans"
       },
       {
         "id": "delonghi",
@@ -3232,7 +3644,8 @@ window.COFFEE_CONTENT = {
           "Delonghi",
           "La Marzocco",
           "Eversys"
-        ]
+        ],
+        "image": "genio-s-plus"
       },
       {
         "id": "breville",
@@ -3287,7 +3700,7 @@ window.COFFEE_CONTENT = {
       },
       {
         "id": "versuni",
-        "zh": "Versuni 家用电器公司",
+        "zh": "范颂尼",
         "en": "Versuni",
         "region": "荷兰",
         "scope": "foreign",
@@ -3318,6 +3731,11 @@ window.COFFEE_CONTENT = {
             "title": "飞利浦家用电器更名 Versuni 公告",
             "url": "https://www.versuni.com/newsroom/philips-domestic-appliances-becomes-versuni/",
             "kind": "官方品牌授权说明"
+          },
+          {
+            "title": "Versuni 中国销售条款：范颂尼（中国）投资有限公司",
+            "url": "https://assets.versuni.com/GTC_Sales_the_Mainland_of_China_v2023_Versuni_9cad6c85eb.pdf",
+            "kind": "官方中文实体名称"
           }
         ],
         "newsTerms": [
@@ -3326,7 +3744,8 @@ window.COFFEE_CONTENT = {
           "Philips",
           "Saeco",
           "喜客"
-        ]
+        ],
+        "image": "senseo-csa210"
       },
       {
         "id": "jura",
@@ -3453,7 +3872,8 @@ window.COFFEE_CONTENT = {
           "博世",
           "Siemens",
           "西门子"
-        ]
+        ],
+        "image": "tassimo-happy"
       },
       {
         "id": "melitta",
@@ -3498,7 +3918,7 @@ window.COFFEE_CONTENT = {
       },
       {
         "id": "hario",
-        "zh": "HARIO 玻璃与咖啡器具",
+        "zh": "日本耐热玻璃与咖啡器具品牌",
         "en": "HARIO",
         "region": "日本",
         "scope": "foreign",
@@ -3525,11 +3945,12 @@ window.COFFEE_CONTENT = {
         ],
         "newsTerms": [
           "HARIO"
-        ]
+        ],
+        "image": "hario-v60"
       },
       {
         "id": "kalita",
-        "zh": "Kalita 咖啡器具",
+        "zh": "日本手冲咖啡器具品牌",
         "en": "Kalita",
         "region": "日本",
         "scope": "foreign",
@@ -3560,7 +3981,7 @@ window.COFFEE_CONTENT = {
       },
       {
         "id": "fellow",
-        "zh": "Fellow 咖啡器具",
+        "zh": "美国咖啡器具品牌",
         "en": "Fellow",
         "region": "美国",
         "scope": "foreign",
@@ -3593,7 +4014,8 @@ window.COFFEE_CONTENT = {
           "Fellow Ode",
           "Fellow Opus",
           "Fellow Stagg"
-        ]
+        ],
+        "image": "fellow-ode"
       },
       {
         "id": "comandante",
@@ -3625,7 +4047,8 @@ window.COFFEE_CONTENT = {
         "newsTerms": [
           "司令官",
           "Comandante"
-        ]
+        ],
+        "image": "comandante-c40-product"
       },
       {
         "id": "aeropress",
@@ -3657,11 +4080,12 @@ window.COFFEE_CONTENT = {
         "newsTerms": [
           "爱乐压",
           "AeroPress"
-        ]
+        ],
+        "image": "aeropress-original"
       },
       {
         "id": "ims-filtri",
-        "zh": "IMS 精密过滤器具",
+        "zh": "意大利精密滤篮与滤网企业",
         "en": "IMS Filtri",
         "region": "意大利",
         "scope": "foreign",
@@ -3693,6 +4117,495 @@ window.COFFEE_CONTENT = {
         ]
       }
     ]
+  },
+  "visuals": {
+    "checkedOn": "2026-10-18",
+    "policy": "仅采用对应品牌官方网站、官方产品页或原厂说明书的图片；图片用于识别具体产品，保留品牌、型号、规格、原始图片地址与出处，不代表兼容性、销量或授权背书。",
+    "images": {
+      "pixie": {
+        "id": "pixie",
+        "subject": "Pixie C62（C62 小型胶囊咖啡机）",
+        "owner": "Nespresso",
+        "source": "https://www.nespresso.com/qa/en/coffee-machines/original/pixie-c62-qatar",
+        "imageURL": "https://www.nespresso.com/qa/en/media/catalog/product/p/i/pixie_dark_green-removebg-preview_1_2.png?optimize=high&fit=bounds&height=800&width=800",
+        "kind": "product",
+        "checkedOn": "2026-10-18",
+        "file": "images/pixie-df3753be64.png",
+        "width": 300,
+        "height": 300,
+        "sha256": "df3753be6468efecf4a07e81c03ba4195952fbc092d6347f0534eca63331f005"
+      },
+      "vertuo-pop": {
+        "id": "vertuo-pop",
+        "subject": "Vertuo Pop（馥旋 Pop 胶囊咖啡机）",
+        "owner": "Nespresso",
+        "source": "https://www.nespresso.com/se/en/vertuo-pop/",
+        "imageURL": "https://www.nespresso.com/shared_res/mos/free_html/nordics/vertuo-pop/pictures/BG220603_Vertuo_Pop_LandingPage_Bilder_Vertuo_Pop_Yellow.webp",
+        "kind": "product",
+        "checkedOn": "2026-10-18",
+        "file": "images/vertuo-pop-9e252e6932.webp",
+        "width": 450,
+        "height": 574,
+        "sha256": "9e252e693200dc5404f7c0f32b760e8627409be363c00078cc2766c006e59745"
+      },
+      "tassimo-happy": {
+        "id": "tassimo-happy",
+        "subject": "TASSIMO HAPPY TAS1002N（博世快乐系列胶囊咖啡机）",
+        "owner": "Bosch",
+        "source": "https://www.bosch-home.es/es/product/TAS1002N",
+        "imageURL": "https://media3.bsh-group.com/Product_Shots/MCSA02718980_TAS1002_HAPPYblack-Front-DownView1-NormalCupstand-Cappu_F39_def.webp",
+        "kind": "product",
+        "checkedOn": "2026-10-18",
+        "file": "images/tassimo-happy-0b4311beed.webp",
+        "width": 1876,
+        "height": 3093,
+        "sha256": "0b4311beed6789b758d9c89072e95bad5d3f145150d03de7f6742a99754d8f89"
+      },
+      "vertuo-next": {
+        "id": "vertuo-next",
+        "subject": "Vertuo Next（馥旋 Next 胶囊咖啡机）",
+        "owner": "Nespresso",
+        "source": "https://www.nespresso.com/uk/en/order/machines/vertuo/vertuo-next-white",
+        "imageURL": "https://www.nespresso.com/ecom/medias/sys_master/public/44163617161246/NextD-Contrast-White-Front-Nespresso-Coffee.png?impolicy=medium&imwidth=800&imdensity=1",
+        "kind": "product",
+        "checkedOn": "2026-10-18",
+        "file": "images/vertuo-next-294cb621e9.png",
+        "width": 800,
+        "height": 800,
+        "sha256": "294cb621e9986cdf323b126887c530246393b80c8dee5710c29f8eb4ee8c2b85"
+      },
+      "jolie": {
+        "id": "jolie",
+        "subject": "A Modo Mio Jolie（拉瓦萨 Jolie 胶囊咖啡机）",
+        "owner": "Lavazza",
+        "source": "https://www.lavazza.com/en/coffee-machines/a-modo-mio-jolie",
+        "imageURL": "https://www.lavazza.com/content/dam/lavazza-athena/b2c/pdp-pag-prodotto/machines/hero-banner-machines/2-main-asset/jolie/red/18000072-m-jolie-red.png",
+        "kind": "product",
+        "checkedOn": "2026-10-18",
+        "file": "images/jolie-8e918b2a9e.png",
+        "width": 375,
+        "height": 380,
+        "sha256": "8e918b2a9e96b889ae498477d07fe4d0d6decaa47a51bc140ef2abe592e379b6"
+      },
+      "idola": {
+        "id": "idola",
+        "subject": "A Modo Mio Idola（拉瓦萨 Idola 胶囊咖啡机）",
+        "owner": "Lavazza",
+        "source": "https://www.lavazza.com/en/coffee-machines/idola",
+        "imageURL": "https://www.lavazza.com/content/dam/lavazza-athena/b2c/pdp-pag-prodotto/machines/hero-banner-machines/2-main-asset/idola/black/18000396-m-idola-black.png",
+        "kind": "product",
+        "checkedOn": "2026-10-18",
+        "file": "images/idola-afaafc9297.png",
+        "width": 375,
+        "height": 380,
+        "sha256": "afaafc9297d190a2af60071fd06ff6fbb5e2c61d5ae13e788a2a4d4d0484176e"
+      },
+      "k-supreme": {
+        "id": "k-supreme",
+        "subject": "K-Supreme（多针单杯咖啡机）",
+        "owner": "Keurig",
+        "source": "https://www.keurig.com/pdp/p/K-Supreme-Single-Serve-Coffee-Maker",
+        "imageURL": "https://images.keurig.com/is/image/keurig/K-Supreme-Single-Serve-Coffee-Maker_5000368401_swatch?dpr=off&fmt=jpg&hei=668&wid=668",
+        "kind": "product",
+        "checkedOn": "2026-10-18",
+        "file": "images/k-supreme-1ffc5ec178.jpg",
+        "width": 668,
+        "height": 668,
+        "sha256": "1ffc5ec17831cfd47a80985114f94d5c543b10a950f98591beb5fd0f354993a3"
+      },
+      "genio-s-plus": {
+        "id": "genio-s-plus",
+        "subject": "Genio S Plus De’Longhi（德龙精灵 S Plus 胶囊咖啡机）",
+        "owner": "NESCAFÉ Dolce Gusto",
+        "source": "https://www.dolce-gusto.co.uk/genio-s-plus-black-delonghi",
+        "imageURL": "https://www.dolce-gusto.co.uk/media/catalog/product/cache/3600535d6fdf2baa3cfb47fcb7bd7ac5/g/e/geniosplusblack_gallery_image_0.png",
+        "kind": "product",
+        "checkedOn": "2026-10-18",
+        "file": "images/genio-s-plus-cfe806a986.png",
+        "width": 900,
+        "height": 900,
+        "sha256": "cfe806a9868e4a1e8d53297ac373c46f56fe6ad45b7abd18b925b895673fc7a7"
+      },
+      "illy-y33": {
+        "id": "illy-y33",
+        "subject": "Y3.3 iperEspresso（意利 Y3.3 胶囊咖啡机）",
+        "owner": "illycaffè",
+        "source": "https://www.illy.com/en-us/eshop/coffee-machines/iperespresso-capsules-coffee-machines/y3-3-iperespresso-espresso-coffee-machine/coffee-machines-y3-3-iperespresso-us-P",
+        "imageURL": "https://www.illy.com/dw/image/v2/BBDD_PRD/on/demandware.static/-/Sites-masterCatalog_illycaffe/default/dwb0046564/products/sfra/machines/High1x/60381_High_1x_01.png?q=75",
+        "kind": "product",
+        "checkedOn": "2026-10-18",
+        "file": "images/illy-y33-ea930f2e81.png",
+        "width": 700,
+        "height": 770,
+        "sha256": "ea930f2e813c7eef136cbfe430ea9ead25d8e0b976b8357435abbc49f0b932a2"
+      },
+      "sealpod-lids": {
+        "id": "sealpod-lids",
+        "subject": "Sealpod Aluminum Sticker Lids（100 张铝制盖膜）",
+        "owner": "Sealpod",
+        "source": "https://sealpod.com/products/aluminum-sticker-lids-100-lids",
+        "imageURL": "https://cdn.shopify.com/s/files/1/0450/5409/9616/products/nespresso-reusable-capsules-aluminum-sticker-lids-100-lidssealpod-652430_1307x.jpg?v=1690878942&width=900",
+        "kind": "product",
+        "checkedOn": "2026-10-18",
+        "file": "images/sealpod-lids-5c1d289e96.jpg",
+        "width": 1307,
+        "height": 1486,
+        "sha256": "5c1d289e96040eb09f0b02d55369a48bc9bbd4dfd8000d8593501d3d60d55a25"
+      },
+      "mycap-kit": {
+        "id": "mycap-kit",
+        "subject": "My-Cap Silicone Caps, Lids and Filters（Vertuo 3 件盖组件与滤纸套装）",
+        "owner": "My-Cap",
+        "source": "https://www.my-cap.com/products/my-caps-silicone-cap-lid-for-nespresso-vertuoline-brewers-3-pack",
+        "imageURL": "https://cdn.shopify.com/s/files/1/0731/4747/files/Frame_2147258758.webp?v=1756974720&width=900",
+        "kind": "product",
+        "checkedOn": "2026-10-18",
+        "file": "images/mycap-kit-309348c1a2.jpg",
+        "width": 900,
+        "height": 997,
+        "sha256": "309348c1a2b546316f167f44afce412c7e22559b95aa9f69dae16e2829b6befb"
+      },
+      "senseo-csa210": {
+        "id": "senseo-csa210",
+        "subject": "Original Plus CSA210/21（飞利浦软包咖啡机）",
+        "owner": "Philips",
+        "source": "https://www.philips.com/c-p/CSA210_21/original-plus-coffee-pad-machine",
+        "imageURL": "https://images.philips.com/is/image/philipsconsumer/f36a9fffcd8743f3b7baad250139f18c?wid=800&hei=800&fmt=png-alpha",
+        "kind": "product",
+        "checkedOn": "2026-10-18",
+        "file": "images/senseo-csa210-af6d6584ce.png",
+        "width": 800,
+        "height": 800,
+        "sha256": "af6d6584ce3d48fc453fa3387bd52094dd2caedc2898a117cb19445cc3fccb19"
+      },
+      "mycap-foils": {
+        "id": "mycap-foils",
+        "subject": "My-Cap Vertuo Foils（Vertuo 100 张盖膜）",
+        "owner": "My-Cap",
+        "source": "https://www.my-cap.com/products/foils-to-reuse-capsules-for-nespresso-vertuoline-brewers",
+        "imageURL": "https://cdn.shopify.com/s/files/1/0731/4747/files/Frame2147258779.webp?v=1756975157&width=900",
+        "kind": "product",
+        "checkedOn": "2026-10-18",
+        "file": "images/mycap-foils-8726bb27f5.jpg",
+        "width": 900,
+        "height": 997,
+        "sha256": "8726bb27f5f7f166b4cfec5393776ed27bf3d634a2a5d6e4e4966ffcb6d32bba"
+      },
+      "mycap-tassimo": {
+        "id": "mycap-tassimo",
+        "subject": "My-Cap Reusable Disc for Tassimo（Tassimo 硅胶盖可填充盘）",
+        "owner": "My-Cap",
+        "source": "https://www.my-cap.com/products/my-cap-reusable-coffee-disc-with-silicone-lid-for-bosch-tassimo-machine-make-your-favorite-coffee",
+        "imageURL": "https://cdn.shopify.com/s/files/1/0731/4747/files/Frame_2147258764.webp?v=1756974466&width=900",
+        "kind": "product",
+        "checkedOn": "2026-10-18",
+        "file": "images/mycap-tassimo-b5c2a2b798.jpg",
+        "width": 900,
+        "height": 997,
+        "sha256": "b5c2a2b79866d3872797dc294c36ef71b8a8af9aa9dc5199df9e19bef234370f"
+      },
+      "mycap-funnel": {
+        "id": "mycap-funnel",
+        "subject": "My-Cap Capsule Holder and Funnel（Vertuo 支架与填粉漏斗）",
+        "owner": "My-Cap",
+        "source": "https://www.my-cap.com/collections/my-cap-coffee-products",
+        "imageURL": "https://cdn.shopify.com/s/files/1/0731/4747/files/Frame2147258760.webp?v=1756975273&width=900",
+        "kind": "product",
+        "checkedOn": "2026-10-18",
+        "file": "images/mycap-funnel-f106c39cbb.jpg",
+        "width": 900,
+        "height": 997,
+        "sha256": "f106c39cbbd4f371961b98f5c5552fa553bb7bc2b831d61bfedddd73d64de8a6"
+      },
+      "my-k-cup": {
+        "id": "my-k-cup",
+        "subject": "Keurig My K-Cup Universal（通用可填充滤杯）",
+        "owner": "Keurig",
+        "source": "https://www.keurig.ca/Accessories/My-K-Cup%C2%AE-Universal-Reusable-Coffee-Filter/p/my-k-cup-universal-filter",
+        "imageURL": "https://images.keurig.com/is/image/keurig/keurig-universal-my-kcup_cab2c_en_14-275-8337-999?fmt=png-alpha&wid=800&hei=800",
+        "kind": "product",
+        "checkedOn": "2026-10-18",
+        "file": "images/my-k-cup-0aa4dada79.png",
+        "width": 800,
+        "height": 800,
+        "sha256": "0aa4dada79ec020b9275a6feb93783005ec5ac772427f7acc7bb187448fe161c"
+      },
+      "fellow-ode": {
+        "id": "fellow-ode",
+        "subject": "Ode Brew Grinder Gen 2（二代电动磨豆机）",
+        "owner": "Fellow",
+        "source": "https://fellowproducts.com/products/ode-brew-grinder-gen-2",
+        "imageURL": "https://cdn.shopify.com/s/files/1/0057/6235/1219/files/Web_PDP_OdeBrewGrinderGen2_Black_1.png?v=1773359064&width=900",
+        "kind": "product",
+        "checkedOn": "2026-10-18",
+        "file": "images/fellow-ode-f37d629e10.png",
+        "width": 900,
+        "height": 1126,
+        "sha256": "f37d629e10df5886f3f7da6c628c70084c03dc00d19c36c8318c53451929aff1"
+      },
+      "bluecup": {
+        "id": "bluecup",
+        "subject": "Bluecup Refillable System（可填充胶囊系统）",
+        "owner": "Bluecup",
+        "source": "https://bluecup.nl/",
+        "imageURL": "https://bluecup.nl/wp/wp-content/uploads/2016/07/all-in-one.png",
+        "kind": "product",
+        "checkedOn": "2026-10-18",
+        "file": "images/bluecup-5ce0920c35.png",
+        "width": 900,
+        "height": 728,
+        "sha256": "5ce0920c354ce2f71a2f495f8dd5e154e00b95a358cb7cca1f5bb3cd9cc7133b"
+      },
+      "aeropress-original": {
+        "id": "aeropress-original",
+        "subject": "AeroPress Original（爱乐压原版咖啡器具）",
+        "owner": "AeroPress",
+        "source": "https://aeropress.com/products/aeropress-coffee-maker",
+        "imageURL": "https://cdn.shopify.com/s/files/1/0601/8783/6659/files/AP_OG_PDP_ATF_1_1024x.png?v=1757095176&width=900",
+        "kind": "product",
+        "checkedOn": "2026-10-18",
+        "file": "images/aeropress-original-5bab114be6.png",
+        "width": 900,
+        "height": 900,
+        "sha256": "5bab114be6356076778d5f72cc9d469d94255bc3f01275e468f62a4ba477c8c6"
+      },
+      "wacaco-nanopresso": {
+        "id": "wacaco-nanopresso",
+        "subject": "Nanopresso Yellow Patrol（黄色便携咖啡机）",
+        "owner": "Wacaco",
+        "source": "https://www.wacaco.com/products/nanopresso",
+        "imageURL": "https://cdn.shopify.com/s/files/1/0732/0067/products/Nanopresso_PatrolYellow-PNG--001-LD.png?v=1698120089&width=900",
+        "kind": "product",
+        "checkedOn": "2026-10-18",
+        "file": "images/wacaco-nanopresso-f032c2ec2e.png",
+        "width": 600,
+        "height": 630,
+        "sha256": "f032c2ec2e38a913a303bd2cc3e8787e5bf4e06cfd1c2970a50123b1ccd84b27"
+      },
+      "1zpresso-jultra": {
+        "id": "1zpresso-jultra",
+        "subject": "J-Ultra（手摇磨豆机）",
+        "owner": "1Zpresso",
+        "source": "https://1zpresso.coffee/j-ultra/",
+        "imageURL": "https://1zpresso.coffee/wp-content/uploads/2023/10/J-Ultra-27-e1697700694360-1024x771.jpg",
+        "kind": "product",
+        "checkedOn": "2026-10-18",
+        "file": "images/1zpresso-jultra-0c0818e0cc.jpg",
+        "width": 1024,
+        "height": 771,
+        "sha256": "0c0818e0cca42992dc6c82927dd754c5558a92af4cd56d3cd1b9c36f22ac6278"
+      },
+      "wpm-pitcher": {
+        "id": "wpm-pitcher",
+        "subject": "KIMERA 450 Tri-Spout Handleless Pitcher（450 毫升三嘴无柄奶缸）",
+        "owner": "WPM",
+        "source": "https://www.wpmcoffee.com/",
+        "imageURL": "https://cdn.shopify.com/s/files/1/0684/7856/6686/files/Kimera_Pour_1800x1800_6dfbe2b8-1e6f-438a-906f-6ab233d6e644.webp?v=1791524973&width=900",
+        "kind": "product",
+        "checkedOn": "2026-10-18",
+        "file": "images/wpm-pitcher-3fe11bdf4e.jpg",
+        "width": 900,
+        "height": 900,
+        "sha256": "3fe11bdf4e2732459051c9926f0cbb1d9f915340751647476cccd3f82bf20e9a"
+      },
+      "sealpod-starter": {
+        "id": "sealpod-starter",
+        "subject": "Sealpod Starter Pack（1 颗胶囊＋100 张盖膜）",
+        "owner": "Sealpod",
+        "source": "https://sealpod.com/products/nespresso-reusable-pods-standard-pack-1-pods-100lids-sealpod",
+        "imageURL": "https://cdn.shopify.com/s/files/1/0450/5409/9616/products/Coffee1-107672_1500x.jpg?v=1639987470&width=900",
+        "kind": "product",
+        "checkedOn": "2026-10-18",
+        "file": "images/sealpod-starter-c76820ad82.jpg",
+        "width": 1500,
+        "height": 1500,
+        "sha256": "c76820ad82f6fe8168e081e4828e753ffd9da941e4df3aab89592b70978df939"
+      },
+      "jetinno-jl60a": {
+        "id": "jetinno-jl60a",
+        "subject": "JL60A（带蒸汽棒的商用咖啡机）",
+        "owner": "JETINNO",
+        "source": "https://www.jetinnovending.com/table-top-coffee-machine/fresh-coffee-machine/jl60a-milk-steam-wand-commercial-espresso.html",
+        "imageURL": "https://www.jetinnovending.com/uploads/14255/small/jl60a-milk-steam-wand-commercial-espresso2a2b5.jpg",
+        "kind": "product",
+        "checkedOn": "2026-10-18",
+        "file": "images/jetinno-jl60a-cb0d375ec2.webp",
+        "width": 400,
+        "height": 400,
+        "sha256": "cb0d375ec242d50de0ed6b2b8474abedc7d0475085eadcc9c11aa76213445a6d"
+      },
+      "mhw-dripper": {
+        "id": "mhw-dripper",
+        "subject": "Fresh Ice Dripper（冰滴咖啡器具）",
+        "owner": "MHW-3BOMBER",
+        "source": "https://mhw3bomber.com/products/mhw-3bomber-fresh-ice-drip-coffee-maker",
+        "imageURL": "https://cdn.shopify.com/s/files/1/0609/0381/7354/files/SKU_1500x1500_90a7c14c-9ca9-493e-9f05-5df4c084faf2.jpg?crop=center&v=1757049903&width=900",
+        "kind": "product",
+        "checkedOn": "2026-10-18",
+        "file": "images/mhw-dripper-59049bbf48.jpg",
+        "width": 900,
+        "height": 900,
+        "sha256": "59049bbf489ce0c1c7080c8d8db6e93f147a497c07e956b33356e1dff95e9673"
+      },
+      "essenza-mini": {
+        "id": "essenza-mini",
+        "subject": "Essenza Mini（C30 迷你胶囊咖啡机）",
+        "owner": "Nespresso",
+        "source": "https://www.nespresso.com/se/en/order/machines/original/essenza-mini-piano-black-coffee-machine",
+        "imageURL": "https://www.nespresso.com/shared_res/mos/free_html/nordics/img/EssenzaMini_PianoBlackFront.png",
+        "kind": "product",
+        "checkedOn": "2026-10-18",
+        "file": "images/essenza-mini-7f7a6d81fa.png",
+        "width": 990,
+        "height": 990,
+        "sha256": "7f7a6d81fa8c5a7765120fa79ff79f34d8597d763484ea4e01a115147bab84c5"
+      },
+      "hario-v60": {
+        "id": "hario-v60",
+        "subject": "V60 VDC-02W（白色陶瓷滤杯 02）",
+        "owner": "HARIO",
+        "source": "https://www.hario.com/product/coffee/dripper/VDC.html",
+        "imageURL": "https://www.hario.com/product/VDC-02W.jpg",
+        "kind": "product",
+        "checkedOn": "2026-10-18",
+        "file": "images/hario-v60-beb5ec564a.jpg",
+        "width": 400,
+        "height": 400,
+        "sha256": "beb5ec564ae332c4ce2735bc14258aebe20ee11d7265561dc510684b1a344367"
+      },
+      "tchibo-beans": {
+        "id": "tchibo-beans",
+        "subject": "coROAST #5 The Crew Coffee（第五期联名整豆咖啡）",
+        "owner": "Tchibo",
+        "source": "https://www.tchibo.com/de/de/news/kaffee/neuer-specialty-coffee-co-roast-5-the-crew-coffee-noten-von-schokolade-treffen-auf-gerostete-nusse",
+        "imageURL": "https://www.tchibo.com/media/pages/de/de/news/kaffee/2026/neuer-specialty-coffee-co-roast-5-the-crew-coffee-noten-von-schokolade-treffen-auf-gerostete-nusse/4cfc7abb21-1790686799/tchibo_roasted_coffee_crew_02-732x732-crop.png",
+        "kind": "product",
+        "checkedOn": "2026-10-18",
+        "file": "images/tchibo-beans-8c923c171c.png",
+        "width": 732,
+        "height": 732,
+        "sha256": "8c923c171cc59538d50ecc4f278f6abb116a805721e1209eca1f3e0b56cc8391"
+      },
+      "gemilai-products": {
+        "id": "gemilai-products",
+        "subject": "G3006H Owl Pro（猫头鹰 Pro 半自动咖啡机）",
+        "owner": "Gemilai",
+        "source": "https://www.gemilai.com.hk/idol-3.html",
+        "imageURL": "https://www.gemilai.com.hk/img/marv-c4-1.png",
+        "kind": "product",
+        "checkedOn": "2026-10-18",
+        "sha256": "987605cb2b6ef66c122d7677076edff9c8243d36fd471adbaf201f78bbbe72d0",
+        "width": 520,
+        "height": 400,
+        "file": "images/gemilai-products-987605cb2b.png"
+      },
+      "ucc-beans": {
+        "id": "ucc-beans",
+        "subject": "Gold Special Special Blend（黄金特选综合咖啡豆 · 230 g）",
+        "owner": "UCC",
+        "source": "https://store.ucc.co.jp/item/GSP0600001.html",
+        "imageURL": "https://store.ucc.co.jp/client_info/UCC/itemimage/GSP0600001/gsp0600001.jpg",
+        "kind": "product",
+        "checkedOn": "2026-10-18",
+        "sha256": "0540e88b4f0e77e795aed48e918df13e68414ef24b575e264a0f96fdd9ea7126",
+        "width": 800,
+        "height": 800,
+        "file": "images/ucc-beans-0540e88b4f.jpg"
+      },
+      "timemore-c3": {
+        "id": "timemore-c3",
+        "subject": "CHESTNUT C3 Stone White（栗子 C3 白色手摇磨豆机）",
+        "owner": "TIMEMORE",
+        "source": "https://www.timemore.com/products/timemore-chestnut-c3-stone-white",
+        "imageURL": "https://cdn.shopify.com/s/files/1/0642/9153/7138/files/3_c09570d7-4725-4a67-a08e-93e357f00d55.jpg?v=1761724022&width=900",
+        "kind": "product",
+        "checkedOn": "2026-10-18",
+        "sha256": "777c4dfe679fb1aea65afebcc99e91050efee1f20a22c2e88f32c7ea8b2a1c72",
+        "width": 900,
+        "height": 900,
+        "file": "images/timemore-c3-777c4dfe67.jpg"
+      },
+      "comandante-c40-product": {
+        "id": "comandante-c40-product",
+        "subject": "C40 MK4 Nitro Blade Black（黑色手摇磨豆机）",
+        "owner": "Comandante",
+        "source": "https://comandantegrinder.com/products/c40-mk4-nitro-blade-black",
+        "imageURL": "https://cdn.shopify.com/s/files/1/0875/2057/5818/files/c40-nitro-blade-mk4-black.jpg?v=1741195167&width=900",
+        "kind": "product",
+        "checkedOn": "2026-10-18",
+        "sha256": "eb222fe918726cdea48c5b43fd9e8be18ba869b1cd6589bb96e5271a1f984867",
+        "width": 900,
+        "height": 1191,
+        "file": "images/comandante-c40-product-eb222fe918.jpg"
+      },
+      "lavazza-beans": {
+        "id": "lavazza-beans",
+        "subject": "Qualità Oro（欧罗金咖啡豆 · 500 g）",
+        "owner": "Lavazza",
+        "source": "https://www.lavazza.com/en/coffee-beans/qualita-oro",
+        "imageURL": "https://www.lavazza.com/content/dam/lavazza-athena/it/b2c/pdp-pag-prodotto/coffee/hero-product-banner/2-main-assets-coffee/qualita_oro/new/beans/oro/1936-m-oro-beans_500-ita-%402.png",
+        "kind": "product",
+        "checkedOn": "2026-10-18",
+        "sha256": "a041923360c127f338e96838c353176d45f26570122184f0aee5c21efc9d9d25",
+        "width": 530,
+        "height": 500,
+        "file": "images/lavazza-beans-a041923360.png"
+      },
+      "illy-classico": {
+        "id": "illy-classico",
+        "subject": "Classico Whole Bean（经典中度烘焙咖啡豆 · 250 g）",
+        "owner": "illy",
+        "source": "https://www.illy.com/en-us/eshop/coffee/whole-bean-coffee/whole-bean-classico-coffee-medium-roast/8841ST",
+        "imageURL": "https://www.illy.com/dw/image/v2/BBDD_PRD/on/demandware.static/-/Sites-masterCatalog_illycaffe/default/dwd9107553/products/sfra/coffee/High1x/8841ST_High_1x_01.png?q=75",
+        "kind": "product",
+        "checkedOn": "2026-10-18",
+        "sha256": "191c89908777c17df4e69b9f253d4aa2a43844761a8ff2a989c82b28d67f9def",
+        "width": 700,
+        "height": 770,
+        "file": "images/illy-classico-191c899087.png"
+      },
+      "k-supreme-smart": {
+        "id": "k-supreme-smart",
+        "subject": "K-Supreme SMART（智能单杯咖啡机）· 原厂手册封面",
+        "owner": "Keurig",
+        "source": "https://dam.keurig.com/content/dam/public-assets/support/kcom/pdf/K_Supreme_Smart_Use_and_Care_Guide_Released.pdf",
+        "imageURL": "https://dam.keurig.com/content/dam/public-assets/support/kcom/pdf/K_Supreme_Smart_Use_and_Care_Guide_Released.pdf",
+        "kind": "manual",
+        "page": 1,
+        "checkedOn": "2026-10-18",
+        "file": "images/k-supreme-smart-d720c5d96f.png",
+        "width": 773,
+        "height": 1000,
+        "sha256": "d720c5d96f4c89a1d7fa70621419d07a111f05845d8167c39d97b5124e7f4a48"
+      },
+      "k-cafe-essentials": {
+        "id": "k-cafe-essentials",
+        "subject": "K-Café Essentials（奶咖单杯咖啡机）· 原厂手册封面",
+        "owner": "Keurig",
+        "source": "https://dam.keurig.com/content/dam/public-assets/support/kca/pdf/KCafe_Essentials_UCGuide_EN.pdf",
+        "imageURL": "https://dam.keurig.com/content/dam/public-assets/support/kca/pdf/KCafe_Essentials_UCGuide_EN.pdf",
+        "kind": "manual",
+        "page": 1,
+        "checkedOn": "2026-10-18",
+        "file": "images/k-cafe-essentials-3c0b7943d1.png",
+        "width": 773,
+        "height": 1000,
+        "sha256": "3c0b7943d151d6a32992246bbd2ebe4aaa210c71d498ba7b92604ab9dd002015"
+      },
+      "keurig-alta": {
+        "id": "keurig-alta",
+        "subject": "Keurig Alta Sandstone（砂岩色新系统咖啡机）",
+        "owner": "Keurig",
+        "source": "https://www.keurigalta.com/",
+        "imageURL": "https://www.keurigalta.com/cdn/shop/files/Alta_Brewer_Sandstone_Asset_05_Desktop_2x_cddee575-cc63-41c5-aa02-eff2d3d349f4.webp?v=1788842910&width=900",
+        "kind": "product",
+        "checkedOn": "2026-10-18",
+        "file": "images/keurig-alta-e5757cac69.webp",
+        "width": 900,
+        "height": 634,
+        "sha256": "e5757cac69aafe5a4ef850d75fdbc4f441729f0d1f83bda4cb885ec521abc78a"
+      }
+    }
   },
   "commerce": {
     "countries": {
