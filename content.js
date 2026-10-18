@@ -1477,6 +1477,2223 @@ window.COFFEE_CONTENT = {
       ]
     }
   ],
+  "research": {
+    "checkedOn": "2026-10-18",
+    "scope": "首批官方资料与品牌声明档案。机型系统归属、供应商兼容声明、本站实测是三类证据；本站尚未完成任何第三方可填充产品的机型实测。",
+    "systems": {
+      "original": "Nespresso Original 原始系列",
+      "vertuo": "Nespresso Vertuo 馥旋系列",
+      "k-cup": "Keurig K-Cup 克里格",
+      "tassimo": "Tassimo T DISC 条码系统",
+      "dolce-gusto": "Dolce Gusto 多趣酷思传统系统",
+      "a-modo-mio": "Lavazza A Modo Mio 拉瓦萨家用系统",
+      "iperespresso": "illy iperEspresso 意利系统",
+      "senseo": "SENSEO 咖啡软包（非硬壳胶囊）"
+    },
+    "sources": {
+      "nespresso-faq": {
+        "name": "Nespresso 官方系统兼容 FAQ",
+        "url": "https://www.contact.nespresso.com/faq-3/pl/en",
+        "type": "制造商资料"
+      },
+      "essenza": {
+        "name": "Nespresso Essenza Mini 官方资料",
+        "url": "https://www.nespresso.com/se/en/order/machines/original/essenza-mini-piano-black-coffee-machine",
+        "type": "制造商资料"
+      },
+      "pixie": {
+        "name": "Nespresso Pixie 官方资料",
+        "url": "https://www.nespresso.com/qa/en/coffee-machines/original/pixie-c62-qatar",
+        "type": "制造商资料"
+      },
+      "pop": {
+        "name": "Nespresso Vertuo Pop 官方资料",
+        "url": "https://www.nespresso.com/se/en/vertuo-pop/",
+        "type": "制造商资料"
+      },
+      "next": {
+        "name": "Nespresso Vertuo Next 官方资料",
+        "url": "https://www.nespresso.com/uk/en/order/machines/vertuo/vertuo-next-white",
+        "type": "制造商资料"
+      },
+      "ksupreme": {
+        "name": "Keurig K-Supreme 官方使用手册",
+        "url": "https://dam.keurig.com/content/dam/public-assets/kcom_support/FINAL_KDP_KSupreme_UCGuide.pdf",
+        "type": "制造商手册"
+      },
+      "ksmart": {
+        "name": "Keurig K-Supreme SMART 官方手册",
+        "url": "https://dam.keurig.com/content/dam/keurig-canada/keurig/at-home/product-toolkit/coffee-makers/user-care-guide/k-supreme-smart/KSupreme_Smart_UCGuide_301_HR-EN.pdf",
+        "type": "制造商手册"
+      },
+      "kcafe": {
+        "name": "Keurig K-Café Essentials 官方手册",
+        "url": "https://dam.keurig.com/content/dam/public-assets/kcom_support/KCafeEssentialsUCG.pdf",
+        "type": "制造商手册"
+      },
+      "tassimo": {
+        "name": "Bosch TAS1002N 官方规格表",
+        "url": "https://media3.bosch-home.com/Documents/specsheet/es-ES/TAS1002N.pdf",
+        "type": "制造商规格"
+      },
+      "genio": {
+        "name": "Dolce Gusto Genio S Plus 官方资料",
+        "url": "https://www.dolce-gusto.co.uk/genio-s-plus-black-delonghi",
+        "type": "制造商资料"
+      },
+      "jolie": {
+        "name": "Lavazza Jolie 官方资料",
+        "url": "https://www.lavazza.com/en/coffee-machines/a-modo-mio-jolie",
+        "type": "制造商资料"
+      },
+      "idola": {
+        "name": "Lavazza Idola 官方手册",
+        "url": "https://www.lavazza.com/content/dam/lavazza/products/manuale-paperless/Idola_Web_Rev%20E_0720_6L.pdf",
+        "type": "制造商手册"
+      },
+      "illy": {
+        "name": "illy Y3.3 官方产品资料",
+        "url": "https://www.illy.com/en-us/eshop/coffee-machines/iperespresso-capsules-coffee-machines/y3-3-iperespresso-espresso-coffee-machine/coffee-machines-y3-3-iperespresso-us-P",
+        "type": "制造商资料"
+      },
+      "senseo": {
+        "name": "Philips SENSEO CSA210/21 官方资料",
+        "url": "https://www.philips.com/c-p/CSA210_21/original-plus-coffee-pad-machine",
+        "type": "制造商资料"
+      },
+      "sealpod": {
+        "name": "Sealpod 1 颗胶囊＋100 盖膜产品页",
+        "url": "https://sealpod.com/products/nespresso-reusable-pods-standard-pack-1-pods-100lids-sealpod",
+        "type": "供应商品牌声明"
+      },
+      "sealpod-lids": {
+        "name": "Sealpod 100 张铝制盖膜产品页",
+        "url": "https://sealpod.com/products/aluminum-sticker-lids-100-lids",
+        "type": "供应商品牌声明"
+      },
+      "bluecup": {
+        "name": "Bluecup 官方兼容与使用 FAQ",
+        "url": "https://bluecup.nl/faq/",
+        "type": "供应商品牌声明"
+      },
+      "mycap-kit": {
+        "name": "MyCap Vertuo 3 件盖组件套装",
+        "url": "https://www.my-cap.com/products/my-caps-silicone-cap-lid-for-nespresso-vertuoline-brewers-3-pack",
+        "type": "供应商品牌声明"
+      },
+      "mycap-foils": {
+        "name": "MyCap Vertuo 100 张盖膜产品页",
+        "url": "https://www.my-cap.com/products/foils-to-reuse-capsules-for-nespresso-vertuoline-brewers",
+        "type": "供应商品牌声明"
+      },
+      "mycap-tassimo": {
+        "name": "MyCap Tassimo 可填充盘产品页",
+        "url": "https://www.my-cap.com/products/my-cap-reusable-coffee-disc-with-silicone-lid-for-bosch-tassimo-machine-make-your-favorite-coffee",
+        "type": "供应商品牌声明"
+      },
+      "mycap-catalog": {
+        "name": "MyCap 咖啡产品目录与美元标价",
+        "url": "https://www.my-cap.com/collections/my-cap-coffee-products",
+        "type": "供应商品牌目录"
+      },
+      "keurig-filter": {
+        "name": "Keurig My K-Cup 官方产品页",
+        "url": "https://www.keurig.com/My-K-Cup%C3%82%C2%AE-Reusable-Coffee-Filter/p/My-K-Cup-Universal-Reusable-Coffee-Filter",
+        "type": "制造商资料"
+      },
+      "nca": {
+        "name": "NCA 美国国家咖啡协会 2026 秋季调查",
+        "url": "https://www.ncausa.org/Newsroom/NCA-Coffee-tops-beverage-charts-again-specialty-coffee-hits-new-high",
+        "type": "协会调查"
+      },
+      "ico": {
+        "name": "ICO 国际咖啡组织月报目录",
+        "url": "https://ico.org/specialized-reports/",
+        "type": "国际组织"
+      },
+      "nestle": {
+        "name": "雀巢 Nestlé 财报中心",
+        "url": "https://www.nestle.com/investors/results",
+        "type": "企业原始披露"
+      },
+      "kdp": {
+        "name": "Keurig Dr Pepper 投资者中心",
+        "url": "https://investors.keurigdrpepper.com/",
+        "type": "企业原始披露"
+      },
+      "ecf": {
+        "name": "ECF 欧洲咖啡协会报告入口",
+        "url": "https://www.ecf-coffee.org/category/publications/european-coffee-reports/",
+        "type": "行业协会"
+      },
+      "ppwr": {
+        "name": "欧盟包装与包装废弃物条例原文",
+        "url": "https://eur-lex.europa.eu/eli/reg/2025/40/oj/eng",
+        "type": "法规原文"
+      },
+      "wcr": {
+        "name": "World Coffee Research 科研资讯",
+        "url": "https://worldcoffeeresearch.org/news",
+        "type": "研究机构"
+      }
+    },
+    "machines": [
+      {
+        "id": "essenza-mini",
+        "name": "Essenza Mini",
+        "brand": "Nespresso 浓遇咖啡",
+        "system": "original",
+        "factory": "Original 胶囊",
+        "boundary": "不能把 Original 机型归属扩大成对任意第三方可填充胶囊的认可。",
+        "check": "记录 C／D 外壳版本、底部完整型号与胶囊托架；试验前核对产品的机型清单。",
+        "refs": [
+          "essenza",
+          "nespresso-faq"
+        ]
+      },
+      {
+        "id": "pixie",
+        "name": "Pixie C62",
+        "brand": "Nespresso 浓遇咖啡",
+        "system": "original",
+        "factory": "Original 胶囊",
+        "boundary": "档案对应官方 C62 页面；不能把旧 Pixie 和不同地区版本的机械细节视作完全相同。",
+        "check": "拍摄机身铭牌、闭合机构与胶囊承托结构，再核对供应商版本声明。",
+        "refs": [
+          "pixie"
+        ]
+      },
+      {
+        "id": "vertuo-pop",
+        "name": "Vertuo Pop",
+        "brand": "Nespresso 浓遇咖啡",
+        "system": "vertuo",
+        "factory": "Vertuo 条码胶囊",
+        "boundary": "系统归属不代表每种杯量或第三方重填方案均适用。",
+        "check": "记录机型版本、原胶囊规格与条码完整性；第三方盖组件需独立实测。",
+        "refs": [
+          "pop",
+          "nespresso-faq"
+        ]
+      },
+      {
+        "id": "vertuo-next",
+        "name": "Vertuo Next",
+        "brand": "Nespresso 浓遇咖啡",
+        "system": "vertuo",
+        "factory": "Vertuo 胶囊；不使用 Original 胶囊",
+        "boundary": "读取条码设置冲煮参数；不能按外观大小推断胶囊或重填组件兼容。",
+        "check": "保存机器与原胶囊版本、所用盖组件型号及每次流量／漏水记录。",
+        "refs": [
+          "next"
+        ]
+      },
+      {
+        "id": "k-supreme",
+        "name": "K-Supreme",
+        "brand": "Keurig 克里格",
+        "system": "k-cup",
+        "factory": "K-Cup 胶囊；手册指定新设计 My K-Cup Universal 可填充滤杯",
+        "boundary": "手册明确排除其他可填充滤杯及旧版 My K-Cup Universal，不能只看产品名称相同。",
+        "check": "对照滤杯版本和手册图示；本站未验证你的不锈钢胶囊是否适配。",
+        "refs": [
+          "ksupreme"
+        ]
+      },
+      {
+        "id": "k-supreme-smart",
+        "name": "K-Supreme SMART",
+        "brand": "Keurig 克里格",
+        "system": "k-cup",
+        "factory": "K-Cup；手册对新设计 My K-Cup Universal 有专门限制",
+        "boundary": "SMART 与普通 K-Supreme 分别记录；不能从一个机型的测试外推另一个。",
+        "check": "记录机器与滤杯代际、底座组件和穿刺位置，先读对应手册。",
+        "refs": [
+          "ksmart"
+        ]
+      },
+      {
+        "id": "k-cafe-essentials",
+        "name": "K-Café Essentials",
+        "brand": "Keurig 克里格",
+        "system": "k-cup",
+        "factory": "K-Cup；官方手册列有 My K-Cup Universal 支持",
+        "boundary": "官方滤杯支持不自动覆盖第三方滤杯。",
+        "check": "分别核对所用滤杯版本、注水结构和粉量上限。",
+        "refs": [
+          "kcafe"
+        ]
+      },
+      {
+        "id": "tassimo-happy",
+        "name": "TASSIMO HAPPY TAS1002N",
+        "brand": "Bosch 博世",
+        "system": "tassimo",
+        "factory": "带识别条码的 T DISC",
+        "boundary": "规格表说明通过条码控制冲煮；能放入盘体不等于能正确识别。",
+        "check": "保存完整 TAS 型号和盘体条码；未经实测的可填充盘不能标为已兼容。",
+        "refs": [
+          "tassimo"
+        ]
+      },
+      {
+        "id": "genio-s-plus",
+        "name": "Genio S Plus De’Longhi",
+        "brand": "NESCAFÉ Dolce Gusto 多趣酷思",
+        "system": "dolce-gusto",
+        "factory": "传统 Dolce Gusto 产品系列",
+        "boundary": "此档案是 Genio S Plus；不扩大为 Neo 或其他胶囊系统。",
+        "check": "记录制造商、完整型号与胶囊托架版本，逐项核对可填充产品声明。",
+        "refs": [
+          "genio"
+        ]
+      },
+      {
+        "id": "jolie",
+        "name": "A Modo Mio Jolie",
+        "brand": "Lavazza 拉瓦萨",
+        "system": "a-modo-mio",
+        "factory": "A Modo Mio 家用胶囊系统",
+        "boundary": "Lavazza 同一品牌下的不同系统不能因品牌名相同就视为互通。",
+        "check": "商品详情要写明 A Modo Mio 及具体型号，不能只写 Lavazza compatible。",
+        "refs": [
+          "jolie"
+        ]
+      },
+      {
+        "id": "idola",
+        "name": "A Modo Mio Idola",
+        "brand": "Lavazza 拉瓦萨",
+        "system": "a-modo-mio",
+        "factory": "A Modo Mio；手册单列胶囊不兼容相关排查",
+        "boundary": "手册提到兼容胶囊不代表对某个第三方不锈钢产品的认可。",
+        "check": "记录闭合、出液、排渣与漏水，保留原厂胶囊对照。",
+        "refs": [
+          "idola"
+        ]
+      },
+      {
+        "id": "illy-y33",
+        "name": "Y3.3 iperEspresso",
+        "brand": "illy 意利",
+        "system": "iperespresso",
+        "factory": "iperEspresso 产品系列",
+        "boundary": "不要与 illy 品牌的其他兼容胶囊、咖啡粉或 E.S.E. 粉包混在一个档案。",
+        "check": "按产品系统及具体机器选耗材；第三方可填充支持尚未核验。",
+        "refs": [
+          "illy"
+        ]
+      },
+      {
+        "id": "senseo-csa210",
+        "name": "Original Plus CSA210/21",
+        "brand": "Philips 飞利浦 SENSEO",
+        "system": "senseo",
+        "factory": "SENSEO 咖啡软包与对应包托",
+        "boundary": "这是咖啡软包体系，单独列作对照，不统计为硬壳咖啡胶囊。",
+        "check": "记录一杯／两杯包托及耗材规格，不根据 Original 一词联想到 Nespresso。",
+        "refs": [
+          "senseo"
+        ]
+      }
+    ],
+    "products": [
+      {
+        "id": "sealpod-starter",
+        "name": "Sealpod 1 颗胶囊＋100 张盖膜",
+        "system": "original",
+        "type": "可填充胶囊",
+        "brand": "Sealpod 可填充胶囊品牌",
+        "claim": "品牌页面声明用于 Original，并明确排除 Nespresso C100。",
+        "gap": "缺少本站逐机型实测；页面选配会影响价格，尚未锁定最终变体和到手价。",
+        "focus": "机型排除清单、盖膜复购成本、封装步骤。",
+        "price": null,
+        "refs": [
+          "sealpod"
+        ]
+      },
+      {
+        "id": "sealpod-lids",
+        "name": "Sealpod 100 张铝制盖膜",
+        "system": "original",
+        "type": "盖膜耗材",
+        "brand": "Sealpod",
+        "claim": "品牌列为配套盖膜，包装数量为 100 张。",
+        "gap": "所读页面美元符号和变体不足以锁定统一到手价；不跨国比较报价。",
+        "focus": "规格匹配、边缘密封、每杯耗材成本；不沿用未经验证的健康或环保宣传。",
+        "price": null,
+        "refs": [
+          "sealpod-lids"
+        ]
+      },
+      {
+        "id": "bluecup",
+        "name": "Bluecup 可填充胶囊系统",
+        "system": "original",
+        "type": "可填充胶囊",
+        "brand": "Bluecup 可填充器具品牌",
+        "claim": "品牌 FAQ 提出生产时间与黑色塑料承托结构条件；铝制承托结构可能不适用。",
+        "gap": "这是供应商声明，不能变成所有 2010 年后机器通用的结论；本站未实测。",
+        "focus": "说明书识别图、填粉工具、用户清洗流程。",
+        "price": null,
+        "refs": [
+          "bluecup"
+        ]
+      },
+      {
+        "id": "mycap-kit",
+        "name": "MyCap Vertuo 3 件盖组件及滤纸套装",
+        "system": "vertuo",
+        "type": "重填组件",
+        "brand": "MyCap 重填胶囊与配件品牌",
+        "claim": "品牌列有硅胶盖组件、滤纸与说明；需另核对具体机器和原胶囊。",
+        "gap": "品牌方案不等于 Nespresso 认可；尚未取得本站寿命与出液测试。",
+        "focus": "套装组成、盖组件寿命、原胶囊条件。",
+        "price": {
+          "amount": 22.99,
+          "currency": "USD",
+          "pack": "3 件盖组件及配套滤纸套装",
+          "basis": "品牌站页面标价；不含本次核验未确认的税费、运费和促销",
+          "observedOn": "2026-10-18"
+        },
+        "refs": [
+          "mycap-kit",
+          "mycap-catalog"
+        ]
+      },
+      {
+        "id": "mycap-foils",
+        "name": "MyCap Vertuo 100 张盖膜",
+        "system": "vertuo",
+        "type": "盖膜耗材",
+        "brand": "MyCap",
+        "claim": "页面标题与部分功能文字指向 Vertuo；页面的 Compatible Brewers 清单却列有其他系统。",
+        "gap": "页面内部存在冲突：兼容结论待供应商澄清，不能直接写成已兼容。",
+        "focus": "同一商品的标题、兼容清单及说明是否一致；实测前先消除冲突。",
+        "price": {
+          "amount": 12.49,
+          "currency": "USD",
+          "pack": "100 张盖膜，一次购买标价",
+          "basis": "品牌站观察价；非订阅价，不代表成交价、税后价或销量",
+          "observedOn": "2026-10-18"
+        },
+        "refs": [
+          "mycap-foils",
+          "mycap-catalog"
+        ]
+      },
+      {
+        "id": "mycap-tassimo",
+        "name": "MyCap Tassimo 硅胶盖可填充盘",
+        "system": "tassimo",
+        "type": "可填充盘",
+        "brand": "MyCap",
+        "claim": "品牌有面向 Tassimo 的可填充盘产品。",
+        "gap": "具体盘体、条码及 TAS 机型需逐项核对，本站未实测。",
+        "focus": "条码版本、盘体识别、容量与清洗。",
+        "price": {
+          "amount": 16.99,
+          "currency": "USD",
+          "pack": "页面所列可填充盘商品",
+          "basis": "品牌目录标价；选项、税费与配送需到产品页确认",
+          "observedOn": "2026-10-18"
+        },
+        "refs": [
+          "mycap-tassimo",
+          "mycap-catalog"
+        ]
+      },
+      {
+        "id": "mycap-funnel",
+        "name": "MyCap Vertuo 胶囊支架与填粉漏斗",
+        "system": "vertuo",
+        "type": "填粉配件",
+        "brand": "MyCap",
+        "claim": "品牌目录单独销售胶囊支架与填粉漏斗，显示配件可独立成商品。",
+        "gap": "尚未核对具体规格和目标机型组合，不把目录标题当成通用性证明。",
+        "focus": "与盖膜／胶囊组合销售、撒粉损耗及操作时间。",
+        "price": {
+          "amount": 12.99,
+          "currency": "USD",
+          "pack": "目录中的支架与漏斗商品",
+          "basis": "品牌目录页面观察价；规格和到手价待复核",
+          "observedOn": "2026-10-18"
+        },
+        "refs": [
+          "mycap-catalog"
+        ]
+      },
+      {
+        "id": "my-k-cup",
+        "name": "Keurig My K-Cup 可填充滤杯",
+        "system": "k-cup",
+        "type": "原厂可填充滤杯",
+        "brand": "Keurig 克里格",
+        "claim": "原厂销售的可填充滤杯可作为产品结构与说明方式的对照。",
+        "gap": "不同代际和机型手册存在版本要求；不把新产品描述倒推到所有旧滤杯。",
+        "focus": "版本识别、结构说明、粉量与操作步骤、原厂替代方案。",
+        "price": null,
+        "refs": [
+          "keurig-filter",
+          "ksupreme"
+        ]
+      }
+    ],
+    "issues": [
+      {
+        "id": "leak",
+        "name": "漏水／边缘密封",
+        "hypothesis": "盖膜边缘污染、盖组件磨损、装配或机型不匹配都需要排查，现阶段没有发生率证据。",
+        "test": "同一机器、同一豆粉和杯量，以原厂胶囊为对照，分别记录每次漏水位置及出液重量。",
+        "business": "将问题定位图与可更换耗材纳入售后说明。",
+        "refs": [
+          "idola"
+        ]
+      },
+      {
+        "id": "weak",
+        "name": "咖啡淡／萃取不稳定",
+        "hypothesis": "研磨、粉量、压实与出液量可能共同影响结果，不能统一承诺某个粉量或研磨档位。",
+        "test": "一次只改变一个变量，记录豆粉批次、磨豆机档位、装粉质量、出液质量与时间；对照需一致。",
+        "business": "为你的具体胶囊和机型提供经过测试的参数区间。",
+        "refs": [
+          "bluecup"
+        ]
+      },
+      {
+        "id": "blocked",
+        "name": "不出液／流速过慢",
+        "hypothesis": "粉层阻力、胶囊结构或机器维护问题均可能影响出液。",
+        "test": "先按机器手册排查；无法正常闭合、出现异常或漏水时不继续强行运行。记录原厂对照结果。",
+        "business": "售前说明增加常见问题排查，避免把所有问题归咎于咖啡豆。",
+        "refs": [
+          "bluecup",
+          "idola"
+        ]
+      },
+      {
+        "id": "fit",
+        "name": "闭合、识别与代际差异",
+        "hypothesis": "同品牌名、同系统甚至同产品名称，不足以证明具体配件版本兼容。",
+        "test": "记录铭牌、序列号范围、滤杯版本和原厂图示；没有对应证据时保留待实测状态。",
+        "business": "维护明确的不适用清单，减少误购。",
+        "refs": [
+          "ksupreme",
+          "nespresso-faq"
+        ]
+      },
+      {
+        "id": "clean",
+        "name": "清洗与使用步骤",
+        "hypothesis": "清洗便利性和操作时间是需要实际观察的体验维度，尚无本店用户调研数据。",
+        "test": "记录填粉、封口、取出、清洗和晾干用时，保留清洁方法及零件更换记录。",
+        "business": "检验漏斗、支架、清洁工具组合是否减少操作负担。",
+        "refs": [
+          "mycap-catalog",
+          "bluecup"
+        ]
+      },
+      {
+        "id": "lifetime",
+        "name": "重复使用寿命与材料说法",
+        "hypothesis": "品牌宣传次数、材料可回收性和家庭实际寿命属于不同证据，不能互相替代。",
+        "test": "按单件器具追踪循环次数、密封件更换、失效原因与清洗方式；没有测试不写固定寿命。",
+        "business": "环保与省钱宣传使用有条件、可复核的表述。",
+        "refs": [
+          "bluecup",
+          "ppwr"
+        ]
+      }
+    ],
+    "briefs": [
+      {
+        "id": "2026-10-12",
+        "title": "胶囊经营周报 · 第 1 期",
+        "from": "2026-10-12",
+        "to": "2026-10-18",
+        "issuedOn": "2026-10-18",
+        "basis": "本周核对的官方与品牌资料，加本周已收录资讯。资料核对日期不等于事件发生日期；这期是研究简报，不是全市场销量报告。",
+        "stories": [
+          {
+            "title": "兼容声明应细化到排除型号和配件版本",
+            "fact": "Sealpod 页面排除 C100；K-Supreme 手册限制可填充滤杯版本。这是品牌／原厂资料，本次未做产品实测。",
+            "period": "资料未提供统一发布日期；本周核对",
+            "analysis": "对可填充胶囊，明确机型与配件版本可能比扩大品牌兼容口号更有经营价值。",
+            "action": "将你的 SKU 对应的已测机型、不适用型号与识别图整理成一张售前表。",
+            "unknown": "本店产品的具体兼容清单、退货分布和对应实测仍缺。",
+            "refs": [
+              "sealpod",
+              "ksupreme"
+            ]
+          },
+          {
+            "title": "一次性盖膜与可重复盖组件要分开算成本",
+            "fact": "MyCap 的品牌目录分别列有盖膜、硅胶盖组件与填粉配件；价格是页面观察值，未取得成交数据。",
+            "period": "2026-10-18 页面观察，非本周涨跌结论",
+            "analysis": "器具售价之外，盖膜补充、盖组件寿命和操作时间会改变实际使用成本。",
+            "action": "用本站每杯成本工具输入你自己的豆粉、盖膜、器具和清洗参数。",
+            "unknown": "未核验税运费、实际寿命与各国家到手价，不给统一环保或回本杯数。",
+            "refs": [
+              "mycap-catalog"
+            ]
+          },
+          {
+            "title": "商品页自身冲突值得列入竞品观察",
+            "fact": "MyCap 一款盖膜的标题、功能描述与 Compatible Brewers 栏存在系统不一致。",
+            "period": "2026-10-18 核对，网页后续可能修订",
+            "analysis": "照抄标题会把不确定兼容关系传入自己的产品档案；这也是改进详情页一致性的线索。",
+            "action": "复核自己的标题、图片、变体和适配表是否描述同一个产品版本。",
+            "unknown": "该商品的最终适用系统仍需品牌澄清，本站不据此判定实际不兼容。",
+            "refs": [
+              "mycap-foils"
+            ]
+          },
+          {
+            "title": "居家咖啡需求只能作为胶囊业务的上层背景",
+            "fact": "NCA 秋季调查披露：昨日咖啡饮用者中，83% 在家喝过咖啡；这不是胶囊使用率。",
+            "period": "2026-06 调查；2026-09-15 发布的背景资料",
+            "analysis": "居家场景支持继续研究便利性和使用成本，但不能从居家比例直接推算可填充胶囊市场。",
+            "action": "按机器系统、产品用途和具体国家观察竞品，寻找实际需求证据。",
+            "unknown": "国别可填充胶囊销量、渗透率及用户购买意愿仍缺可比数据。",
+            "refs": [
+              "nca"
+            ]
+          }
+        ]
+      }
+    ],
+    "countries": [
+      {
+        "code": "US",
+        "name": "美国",
+        "focus": "居家消费、K-Cup 与其他系统分别观察；平台站点与买家所在地分开。",
+        "known": "NCA 2026 秋季报告调查于 6 月，9 月发布；66% 是成年受访者昨日饮用咖啡比例，不是胶囊占比。",
+        "gap": "缺少统一口径的可填充胶囊销量与系统份额。",
+        "article": "us-consumption",
+        "refs": [
+          "nca"
+        ]
+      },
+      {
+        "code": "DE",
+        "name": "德国",
+        "focus": "区分整豆、研磨、胶囊和软包；比较配件需求时落实到具体机型。",
+        "known": "现有年度数据页收录德国协会披露，数字须连同原始统计期阅读。",
+        "gap": "整豆或全部咖啡增长不能代替可填充胶囊需求。",
+        "article": "market-reports",
+        "refs": [
+          "ecf"
+        ]
+      },
+      {
+        "code": "FR",
+        "name": "法国",
+        "focus": "按系统观察胶囊、可填充组件和品牌／零售渠道。",
+        "known": "欧洲协会资料作为国别消费和贸易的背景入口。",
+        "gap": "未取得可比的法国可填充胶囊销量或品牌份额，不用欧洲合计替代。",
+        "article": "market-reports",
+        "refs": [
+          "ecf"
+        ]
+      },
+      {
+        "code": "IT",
+        "name": "意大利",
+        "focus": "Lavazza、illy 等具体系统独立建档，区分家用、商用和软包。",
+        "known": "机型库已分列 A Modo Mio 与 iperEspresso 官方资料。",
+        "gap": "品牌总收入或咖啡消费传统都不能直接证明某个配件的销量。",
+        "article": "system-comparison",
+        "refs": [
+          "jolie",
+          "illy"
+        ]
+      },
+      {
+        "code": "ES",
+        "name": "西班牙",
+        "focus": "以当地站点商品、具体胶囊系统与配件需求建立样本。",
+        "known": "欧洲报告作为背景，商品观察保留统计期与来源。",
+        "gap": "暂无本站核验的西班牙可填充胶囊销量样本。",
+        "article": "market-reports",
+        "refs": [
+          "ecf"
+        ]
+      },
+      {
+        "code": "NL",
+        "name": "荷兰",
+        "focus": "咖啡软包和硬壳胶囊分列，观察 Bluecup 等产品的说明与工具配置。",
+        "known": "SENSEO 官方机型按软包体系列档，未与硬壳胶囊合并。",
+        "gap": "供应商品牌所在地不等于该国销售规模。",
+        "article": "system-comparison",
+        "refs": [
+          "senseo",
+          "bluecup"
+        ]
+      },
+      {
+        "code": "GB",
+        "name": "英国（非欧盟）",
+        "focus": "保留英镑与英国站点，不将英国作为欧盟成员国合计。",
+        "known": "机型与商品资料需按当地版本核对，跨境到手价另算。",
+        "gap": "暂无本站核验的英国可填充胶囊销量样本。",
+        "article": "market-reports",
+        "refs": [
+          "next"
+        ]
+      }
+    ],
+    "groups": [
+      {
+        "name": "雀巢 Nestlé／Nespresso",
+        "focus": "胶囊产品、系统发展、财报中的销量／定价变化与渠道。",
+        "boundary": "Nespresso 总销售额不能直接拆成 Original 与 Vertuo 份额。",
+        "refs": [
+          "nestle"
+        ],
+        "companyId": "nestle"
+      },
+      {
+        "name": "Keurig Dr Pepper 克里格胡椒博士",
+        "focus": "美国咖啡分部、K-Cup、机器与新系统、并购及分部统计变更。",
+        "boundary": "区分宣布、协议、交割和统计重分类，不能把各阶段当成同一件事。",
+        "refs": [
+          "kdp"
+        ],
+        "companyId": "kdp"
+      },
+      {
+        "name": "Lavazza 拉瓦萨",
+        "focus": "A Modo Mio 及品牌下不同产品体系，按具体系统查看机器与耗材。",
+        "boundary": "“Lavazza 兼容”不足以界定产品；先确认完整系统名。",
+        "refs": [
+          "jolie",
+          "idola"
+        ],
+        "companyId": "lavazza"
+      },
+      {
+        "name": "illy 意利",
+        "focus": "iperEspresso、其他胶囊产品及不同冲煮形态分别建档。",
+        "boundary": "品牌相同不表示耗材系统互通；不使用集团总额代替系统规模。",
+        "refs": [
+          "illy"
+        ],
+        "companyId": "illy"
+      }
+    ],
+    "metricsRules": [
+      "销量保留件、套、颗、盒，不将不同包装数量直接相加。",
+      "售价、销售额、平台 GMV 和企业营业收入分别记录，不互相替代。",
+      "明确实测值、官方披露、供应商声明、第三方估算、公开下限和未知。",
+      "每个数字保留国家、统计起止、币种、来源及核对日期；没有同比基期不写同比。",
+      "100+ 购买提示是下限提示；累计订单、搜索量和评论数量都不能直接当月销量。",
+      "市场规模不从平台大小或机器家庭数直接换算；缺少可比数据时保留未知。"
+    ]
+  },
+  "companies": {
+    "checkedOn": "2026-10-18",
+    "method": "按企业／品牌归属与起源地区分类，不按生产地分类；中国香港、中国台湾明确列示。同一企业只保留一份档案，允许多业务分类。本名单为资料索引，不是销量、营收或实力排名。",
+    "updatePolicy": "人工维护的公开资料索引；修改资料文件并重新构建发布后更新。不是自动拉取财报或实时新闻服务。核对日期不等于报告发布日期。",
+    "categories": {
+      "group": "咖啡集团与综合品牌",
+      "machines": "咖啡机",
+      "beans": "咖啡豆",
+      "accessories": "咖啡配件与器具"
+    },
+    "reportTypes": {
+      "financial": "财务报告",
+      "operating": "经营数据",
+      "sustainability": "可持续报告"
+    },
+    "entries": [
+      {
+        "id": "luckin",
+        "zh": "瑞幸咖啡",
+        "en": "Luckin Coffee",
+        "region": "中国大陆",
+        "scope": "domestic",
+        "categories": [
+          "group"
+        ],
+        "identity": "咖啡连锁与数字化零售企业。",
+        "business": "现磨咖啡门店、移动下单与包装咖啡产品。",
+        "relationship": null,
+        "brands": [],
+        "website": "https://www.luckincoffee.com/",
+        "reports": [
+          {
+            "type": "financial",
+            "title": "2025 财年 Form 20-F 年度报告公告",
+            "fiscalYear": "2025（截至 2025-12-31）",
+            "url": "https://investor.luckincoffee.com/news-releases/news-release-details/luckin-coffee-files-2025-annual-report-form-20-f/"
+          }
+        ],
+        "announcements": {
+          "title": "瑞幸投资者新闻公告",
+          "url": "https://investor.luckincoffee.com/news-releases/"
+        },
+        "checkedOn": "2026-10-18",
+        "sources": [
+          {
+            "title": "瑞幸投资者关系",
+            "url": "https://investor.luckincoffee.com/",
+            "kind": "官方投资者关系"
+          }
+        ],
+        "newsTerms": [
+          "瑞幸",
+          "Luckin"
+        ]
+      },
+      {
+        "id": "cotti",
+        "zh": "库迪咖啡",
+        "en": "Cotti Coffee",
+        "region": "中国大陆",
+        "scope": "domestic",
+        "categories": [
+          "group"
+        ],
+        "identity": "以咖啡门店为核心的连锁品牌。",
+        "business": "现磨咖啡与连锁零售服务。",
+        "relationship": null,
+        "brands": [],
+        "website": "https://www.cotti.com/",
+        "reports": [],
+        "announcements": {
+          "title": "官网（独立新闻栏目未单列）",
+          "url": "https://www.cotti.com/"
+        },
+        "checkedOn": "2026-10-18",
+        "sources": [
+          {
+            "title": "企业／品牌官方网站",
+            "url": "https://www.cotti.com/",
+            "kind": "官网"
+          }
+        ],
+        "newsTerms": [
+          "库迪",
+          "Cotti"
+        ]
+      },
+      {
+        "id": "manner",
+        "zh": "Manner 咖啡",
+        "en": "Manner Coffee",
+        "region": "中国大陆",
+        "scope": "domestic",
+        "categories": [
+          "group"
+        ],
+        "identity": "上海起源的咖啡连锁品牌。",
+        "business": "现磨咖啡门店及相关咖啡产品。",
+        "relationship": null,
+        "brands": [],
+        "website": "https://www.wearemanner.com/",
+        "reports": [],
+        "announcements": {
+          "title": "官网（独立新闻栏目未单列）",
+          "url": "https://www.wearemanner.com/"
+        },
+        "checkedOn": "2026-10-18",
+        "sources": [
+          {
+            "title": "企业／品牌官方网站",
+            "url": "https://www.wearemanner.com/",
+            "kind": "官网"
+          }
+        ],
+        "newsTerms": [
+          "Manner"
+        ]
+      },
+      {
+        "id": "saturnbird",
+        "zh": "三顿半",
+        "en": "Saturnbird",
+        "region": "中国大陆",
+        "scope": "domestic",
+        "categories": [
+          "group"
+        ],
+        "identity": "以包装咖啡为重点的消费品牌。",
+        "business": "精品即溶咖啡及相关饮用产品。",
+        "relationship": null,
+        "brands": [],
+        "website": "https://www.saturnbird.com/",
+        "reports": [],
+        "announcements": {
+          "title": "三顿半国际官网与品牌介绍",
+          "url": "https://www.saturnbird.com/"
+        },
+        "checkedOn": "2026-10-18",
+        "sources": [
+          {
+            "title": "三顿半国际官网",
+            "url": "https://www.saturnbird.com/",
+            "kind": "官网"
+          }
+        ],
+        "newsTerms": [
+          "三顿半",
+          "Saturnbird"
+        ],
+        "linkNote": "原提供的中文站入口本轮出现证书验证问题；改用可核对的三顿半国际官网。独立新闻栏目未单列。"
+      },
+      {
+        "id": "hogood",
+        "zh": "后谷咖啡",
+        "en": "Hogood Coffee",
+        "region": "中国大陆",
+        "scope": "domestic",
+        "categories": [
+          "group",
+          "beans"
+        ],
+        "identity": "云南咖啡产业企业与品牌。",
+        "business": "咖啡种植、原料加工、研发、咖啡产品及出口业务。",
+        "relationship": null,
+        "brands": [],
+        "website": "https://www.hogoodcoffee.com/",
+        "reports": [],
+        "announcements": {
+          "title": "官网（独立新闻栏目未单列）",
+          "url": "https://www.hogoodcoffee.com/"
+        },
+        "checkedOn": "2026-10-18",
+        "sources": [
+          {
+            "title": "企业／品牌官方网站",
+            "url": "https://www.hogoodcoffee.com/",
+            "kind": "官网"
+          }
+        ],
+        "newsTerms": [
+          "后谷",
+          "Hogood"
+        ]
+      },
+      {
+        "id": "gemilai",
+        "zh": "格米莱",
+        "en": "Gemilai",
+        "region": "中国大陆",
+        "scope": "domestic",
+        "categories": [
+          "machines"
+        ],
+        "identity": "咖啡设备品牌。",
+        "business": "家用和商用半自动意式咖啡机。",
+        "relationship": null,
+        "brands": [],
+        "website": "https://www.gemilai.com.hk/",
+        "reports": [],
+        "announcements": {
+          "title": "官网（独立新闻栏目未单列）",
+          "url": "https://www.gemilai.com.hk/"
+        },
+        "checkedOn": "2026-10-18",
+        "sources": [
+          {
+            "title": "企业／品牌官方网站",
+            "url": "https://www.gemilai.com.hk/",
+            "kind": "官网"
+          }
+        ],
+        "newsTerms": [
+          "格米莱",
+          "Gemilai"
+        ]
+      },
+      {
+        "id": "donlim",
+        "zh": "新宝股份",
+        "en": "Guangdong Xinbao Electrical Appliances",
+        "region": "中国大陆",
+        "scope": "domestic",
+        "categories": [
+          "machines"
+        ],
+        "identity": "广东新宝电器股份有限公司，小家电上市公司。",
+        "business": "咖啡设备与其他厨房小家电；按集团档案统一收录东菱和百胜图。",
+        "relationship": null,
+        "brands": [
+          "东菱 Donlim：厨房小家电品牌",
+          "百胜图 Barsetto：咖啡设备品牌"
+        ],
+        "website": "https://www.donlim.com/",
+        "reports": [
+          {
+            "type": "financial",
+            "title": "2025 年年度报告",
+            "fiscalYear": "2025",
+            "url": "https://www.donlim.com/dqbgs/38101.jhtml"
+          },
+          {
+            "type": "financial",
+            "title": "定期报告目录（进入后选择财年）",
+            "fiscalYear": null,
+            "url": "https://www.donlim.com/dqbgs.jhtml"
+          }
+        ],
+        "announcements": {
+          "title": "新宝新闻资讯",
+          "url": "https://www.donlim.com/new.jhtml"
+        },
+        "checkedOn": "2026-10-18",
+        "sources": [
+          {
+            "title": "企业／品牌官方网站",
+            "url": "https://www.donlim.com/",
+            "kind": "官网"
+          }
+        ],
+        "newsTerms": [
+          "新宝股份",
+          "东菱",
+          "百胜图",
+          "Donlim",
+          "Barsetto"
+        ]
+      },
+      {
+        "id": "kalerm",
+        "zh": "咖乐美",
+        "en": "Kalerm",
+        "region": "中国大陆",
+        "scope": "domestic",
+        "categories": [
+          "machines"
+        ],
+        "identity": "苏州咖啡设备企业与品牌。",
+        "business": "重点覆盖商用全自动咖啡机。",
+        "relationship": null,
+        "brands": [],
+        "website": "https://www.kalerm.com/",
+        "reports": [],
+        "announcements": {
+          "title": "咖乐美国际官网（含 News 栏目）",
+          "url": "https://www.kalerm.com/"
+        },
+        "checkedOn": "2026-10-18",
+        "sources": [
+          {
+            "title": "咖乐美国际官网",
+            "url": "https://www.kalerm.com/",
+            "kind": "官网"
+          },
+          {
+            "title": "咖乐美中文官网",
+            "url": "https://www.kalerm.cn/",
+            "kind": "官网（本轮证书验证受限）"
+          }
+        ],
+        "newsTerms": [
+          "咖乐美",
+          "Kalerm"
+        ],
+        "linkNote": "中文站本轮证书验证失败；国际站的公司地址与苏州主体一致，提供国际官网作为补充入口。"
+      },
+      {
+        "id": "drcoffee",
+        "zh": "咖博士",
+        "en": "Dr.Coffee",
+        "region": "中国大陆",
+        "scope": "domestic",
+        "categories": [
+          "machines"
+        ],
+        "identity": "苏州咖啡设备企业与品牌。",
+        "business": "商用、办公和家用全自动咖啡机。",
+        "relationship": null,
+        "brands": [],
+        "website": "https://www.dr-coffee.com/",
+        "reports": [],
+        "announcements": {
+          "title": "官网（独立新闻栏目未单列）",
+          "url": "https://www.dr-coffee.com/"
+        },
+        "checkedOn": "2026-10-18",
+        "sources": [
+          {
+            "title": "企业／品牌官方网站",
+            "url": "https://www.dr-coffee.com/",
+            "kind": "官网"
+          }
+        ],
+        "newsTerms": [
+          "咖博士",
+          "Dr.Coffee",
+          "Dr. Coffee"
+        ]
+      },
+      {
+        "id": "jetinno",
+        "zh": "技诺",
+        "en": "JETINNO",
+        "region": "中国大陆",
+        "scope": "domestic",
+        "categories": [
+          "machines"
+        ],
+        "identity": "广州咖啡设备企业。",
+        "business": "商用全自动咖啡机、自助咖啡和自动售卖设备。",
+        "relationship": null,
+        "brands": [],
+        "website": "https://www.jetinnovending.com/",
+        "reports": [],
+        "announcements": {
+          "title": "技诺新闻与展会",
+          "url": "https://www.jetinnovending.com/newslist-1"
+        },
+        "checkedOn": "2026-10-18",
+        "sources": [
+          {
+            "title": "技诺企业介绍",
+            "url": "https://www.jetinnovending.com/about-us",
+            "kind": "官方企业资料"
+          }
+        ],
+        "newsTerms": [
+          "技诺",
+          "JETINNO"
+        ]
+      },
+      {
+        "id": "wpm",
+        "zh": "惠家",
+        "en": "WPM",
+        "region": "中国香港",
+        "scope": "domestic",
+        "categories": [
+          "machines",
+          "accessories"
+        ],
+        "identity": "中国香港咖啡设备与器具品牌。",
+        "business": "意式咖啡机、磨豆机、拉花缸及相关器具。",
+        "relationship": null,
+        "brands": [],
+        "website": "https://www.wpmcoffee.com/",
+        "reports": [],
+        "announcements": {
+          "title": "官网（独立新闻栏目未单列）",
+          "url": "https://www.wpmcoffee.com/"
+        },
+        "checkedOn": "2026-10-18",
+        "sources": [
+          {
+            "title": "企业／品牌官方网站",
+            "url": "https://www.wpmcoffee.com/",
+            "kind": "官网"
+          }
+        ],
+        "newsTerms": [
+          "惠家",
+          "WPM"
+        ]
+      },
+      {
+        "id": "bear",
+        "zh": "小熊电器",
+        "en": "Bear Electric Appliance",
+        "region": "中国大陆",
+        "scope": "domestic",
+        "categories": [
+          "machines"
+        ],
+        "identity": "家用小家电上市企业。",
+        "business": "厨房和生活小家电，包含咖啡机产品线；集团营收不等同于咖啡机营收。",
+        "relationship": null,
+        "brands": [],
+        "website": "https://www.bears.com.cn/",
+        "reports": [
+          {
+            "type": "financial",
+            "title": "官方公告与报告目录（进入后选择财年）",
+            "fiscalYear": null,
+            "url": "https://www.bears.com.cn/invest/notice.html"
+          }
+        ],
+        "announcements": {
+          "title": "小熊投资者公告",
+          "url": "https://www.bears.com.cn/invest/notice.html"
+        },
+        "checkedOn": "2026-10-18",
+        "sources": [
+          {
+            "title": "企业／品牌官方网站",
+            "url": "https://www.bears.com.cn/",
+            "kind": "官网"
+          }
+        ],
+        "newsTerms": [
+          "小熊电器",
+          "Bear Electric"
+        ]
+      },
+      {
+        "id": "sinloy",
+        "zh": "中咖／辛鹿",
+        "en": "Sinloy",
+        "region": "中国大陆",
+        "scope": "domestic",
+        "categories": [
+          "beans"
+        ],
+        "identity": "保山中咖食品有限公司及辛鹿咖啡品牌；身份据保山政府网站刊载资料。",
+        "business": "云南咖啡加工、烘焙豆及咖啡零售。",
+        "relationship": "保山政府网站 2026-03-17 刊载的企业报道将保山中咖食品有限公司与辛鹿品牌关联。独立官网本轮未能核实。",
+        "brands": [],
+        "website": null,
+        "reports": [],
+        "announcements": null,
+        "checkedOn": "2026-10-18",
+        "sources": [
+          {
+            "title": "保山政府网站：一粒咖啡的远征——来自保山的“辛鹿”故事",
+            "url": "https://bssjw.gov.cn/info/1131/120854.htm",
+            "kind": "政府网站刊载资料"
+          }
+        ],
+        "newsTerms": [
+          "辛鹿",
+          "中咖",
+          "Sinloy"
+        ]
+      },
+      {
+        "id": "mqcoffee",
+        "zh": "明谦咖啡",
+        "en": "Mingqian Coffee",
+        "region": "中国大陆",
+        "scope": "domestic",
+        "categories": [
+          "beans"
+        ],
+        "identity": "咖啡烘焙及供应链品牌。",
+        "business": "意式拼配、精品咖啡豆、烘焙与供应链服务。",
+        "relationship": null,
+        "brands": [],
+        "website": "https://www.mqcoffee.com/",
+        "reports": [],
+        "announcements": {
+          "title": "官网（独立新闻栏目未单列）",
+          "url": "https://www.mqcoffee.com/"
+        },
+        "checkedOn": "2026-10-18",
+        "sources": [
+          {
+            "title": "企业／品牌官方网站",
+            "url": "https://www.mqcoffee.com/",
+            "kind": "官网"
+          }
+        ],
+        "newsTerms": [
+          "明谦",
+          "Mingqian",
+          "MQ Coffee"
+        ],
+        "linkNote": "原官网内容可通过网页索引核对；本轮直接连接出现证书验证问题。保留原入口并标注待人工访问复核，不建议忽略浏览器证书提示。"
+      },
+      {
+        "id": "timemore",
+        "zh": "泰摩",
+        "en": "TIMEMORE",
+        "region": "中国大陆",
+        "scope": "domestic",
+        "categories": [
+          "accessories"
+        ],
+        "identity": "上海起源的咖啡器具品牌。",
+        "business": "磨豆机、电子秤、手冲壶与滤杯。",
+        "relationship": null,
+        "brands": [],
+        "website": "https://www.timemore.cn/",
+        "reports": [],
+        "announcements": {
+          "title": "官网（独立新闻栏目未单列）",
+          "url": "https://www.timemore.cn/"
+        },
+        "checkedOn": "2026-10-18",
+        "sources": [
+          {
+            "title": "企业／品牌官方网站",
+            "url": "https://www.timemore.cn/",
+            "kind": "官网"
+          }
+        ],
+        "newsTerms": [
+          "泰摩",
+          "TIMEMORE"
+        ]
+      },
+      {
+        "id": "mhw3bomber",
+        "zh": "轰炸机",
+        "en": "MHW-3BOMBER",
+        "region": "中国大陆",
+        "scope": "domestic",
+        "categories": [
+          "accessories"
+        ],
+        "identity": "广东咖啡器具品牌。",
+        "business": "粉锤、布粉工具、拉花缸、电子秤等咖啡配件。",
+        "relationship": null,
+        "brands": [],
+        "website": "https://mhw3bomber.com/",
+        "reports": [],
+        "announcements": {
+          "title": "官网（独立新闻栏目未单列）",
+          "url": "https://mhw3bomber.com/"
+        },
+        "checkedOn": "2026-10-18",
+        "sources": [
+          {
+            "title": "企业／品牌官方网站",
+            "url": "https://mhw3bomber.com/",
+            "kind": "官网"
+          }
+        ],
+        "newsTerms": [
+          "轰炸机",
+          "MHW-3BOMBER"
+        ]
+      },
+      {
+        "id": "1zpresso",
+        "zh": "1Zpresso 手摇磨豆机",
+        "en": "1Zpresso",
+        "region": "中国台湾",
+        "scope": "domestic",
+        "categories": [
+          "accessories"
+        ],
+        "identity": "中国台湾手摇磨豆机品牌。",
+        "business": "手摇磨豆机及配件，型号按意式或手冲用途区分。",
+        "relationship": null,
+        "brands": [],
+        "website": "https://www.1zpresso.com.tw/",
+        "reports": [],
+        "announcements": {
+          "title": "官网（独立新闻栏目未单列）",
+          "url": "https://www.1zpresso.com.tw/"
+        },
+        "checkedOn": "2026-10-18",
+        "sources": [
+          {
+            "title": "企业／品牌官方网站",
+            "url": "https://www.1zpresso.com.tw/",
+            "kind": "官网"
+          }
+        ],
+        "newsTerms": [
+          "1Zpresso"
+        ]
+      },
+      {
+        "id": "wacaco",
+        "zh": "Wacaco 便携咖啡器具",
+        "en": "Wacaco",
+        "region": "中国香港",
+        "scope": "domestic",
+        "categories": [
+          "machines",
+          "accessories"
+        ],
+        "identity": "中国香港起源的便携咖啡器具品牌。",
+        "business": "旅行便携咖啡机及周边器具；胶囊适配须按型号核对。",
+        "relationship": null,
+        "brands": [],
+        "website": "https://www.wacaco.com/",
+        "reports": [],
+        "announcements": {
+          "title": "Wacaco 官方新闻与博客",
+          "url": "https://www.wacaco.com/blogs/news"
+        },
+        "checkedOn": "2026-10-18",
+        "sources": [
+          {
+            "title": "企业／品牌官方网站",
+            "url": "https://www.wacaco.com/",
+            "kind": "官网"
+          }
+        ],
+        "newsTerms": [
+          "Wacaco"
+        ]
+      },
+      {
+        "id": "nestle",
+        "zh": "雀巢",
+        "en": "Nestlé",
+        "region": "瑞士",
+        "scope": "foreign",
+        "categories": [
+          "group"
+        ],
+        "identity": "跨国食品与饮料集团。",
+        "business": "速溶、烘焙咖啡、胶囊与咖啡系统业务。",
+        "relationship": null,
+        "brands": [
+          "雀巢咖啡 Nescafé：咖啡品牌",
+          "浓遇咖啡 Nespresso：咖啡及胶囊系统",
+          "多趣酷思 Dolce Gusto：胶囊饮品系统"
+        ],
+        "website": "https://www.nestle.com/",
+        "reports": [
+          {
+            "type": "financial",
+            "title": "年报与财务报告目录",
+            "fiscalYear": null,
+            "url": "https://www.nestle.com/investors/annual-report"
+          }
+        ],
+        "announcements": {
+          "title": "雀巢新闻发布",
+          "url": "https://www.nestle.com/media/pressreleases"
+        },
+        "checkedOn": "2026-10-18",
+        "sources": [
+          {
+            "title": "企业／品牌官方网站",
+            "url": "https://www.nestle.com/",
+            "kind": "官网"
+          }
+        ],
+        "newsTerms": [
+          "雀巢",
+          "Nestlé",
+          "Nestle",
+          "Nespresso",
+          "Nescafé",
+          "Nescafe",
+          "Dolce Gusto"
+        ],
+        "linkNote": "部分官方入口本轮限制自动访问，已保留官方地址；报告内容或新版本仍需进入原站复核。"
+      },
+      {
+        "id": "kdp",
+        "zh": "克里格胡椒博士集团",
+        "en": "Keurig Dr Pepper",
+        "region": "美国",
+        "scope": "foreign",
+        "categories": [
+          "group"
+        ],
+        "identity": "咖啡与饮料上市集团，简称 KDP。",
+        "business": "Keurig 克里格单杯咖啡系统、咖啡品牌及其他饮料。",
+        "relationship": "2026-04-01 官方交割公告：KDP 已通过要约取得 JDE Peet’s 96.22% 股份。该比例是公告当日口径；后续持股须另核验。拟拆分全球咖啡公司与饮料公司当时仍为计划，不视为已完成拆分。",
+        "brands": [
+          "Keurig 克里格：单杯咖啡系统",
+          "JDE Peet’s：2026-04-01 公告完成收购，保留独立历史档案"
+        ],
+        "website": "https://www.keurigdrpepper.com/",
+        "reports": [
+          {
+            "type": "financial",
+            "title": "KDP 财务披露目录",
+            "fiscalYear": null,
+            "url": "https://investors.keurigdrpepper.com/financials"
+          }
+        ],
+        "announcements": {
+          "title": "KDP 投资者公告入口",
+          "url": "https://investors.keurigdrpepper.com/home"
+        },
+        "checkedOn": "2026-10-18",
+        "sources": [
+          {
+            "title": "KDP 企业官网",
+            "url": "https://www.keurigdrpepper.com/",
+            "kind": "官网"
+          },
+          {
+            "title": "2026-04-01 收购完成公告",
+            "url": "https://news.keurigdrpepper.com/2026-04-01-Keurig-Dr-Pepper-Acquires-JDE-Peets-and-Announces-Rafael-Oliveira-as-CEO-of-Future-Global-Coffee-Co",
+            "kind": "官方交割公告"
+          }
+        ],
+        "newsTerms": [
+          "Keurig",
+          "KDP",
+          "胡椒博士"
+        ]
+      },
+      {
+        "id": "jde-peets",
+        "zh": "JDE Peet’s 咖啡集团",
+        "en": "JDE Peet’s",
+        "region": "荷兰起源",
+        "scope": "foreign",
+        "categories": [
+          "group"
+        ],
+        "identity": "荷兰起源的综合咖啡企业；并入 KDP 后保留品牌和历史报告索引。",
+        "business": "包装咖啡、单杯系统、门店与商用咖啡业务。",
+        "relationship": "2026-04-01 官方交割公告：KDP 已通过要约取得 JDE Peet’s 96.22% 股份。该比例是公告当日口径；后续持股须另核验。拟拆分全球咖啡公司与饮料公司当时仍为计划，不视为已完成拆分。",
+        "brands": [
+          "皮爷 Peet’s：咖啡品牌及门店",
+          "L’OR：咖啡及胶囊品牌",
+          "Jacobs：包装咖啡品牌"
+        ],
+        "website": "https://www.jdepeets.com/",
+        "reports": [
+          {
+            "type": "financial",
+            "title": "JDE Peet’s 历史年度报告目录",
+            "fiscalYear": null,
+            "url": "https://www.jdepeets.com/investors/financial-reports/annual-reports/"
+          }
+        ],
+        "announcements": {
+          "title": "KDP 收购交割公告（2026-04-01）",
+          "url": "https://news.keurigdrpepper.com/2026-04-01-Keurig-Dr-Pepper-Acquires-JDE-Peets-and-Announces-Rafael-Oliveira-as-CEO-of-Future-Global-Coffee-Co"
+        },
+        "checkedOn": "2026-10-18",
+        "sources": [
+          {
+            "title": "JDE Peet’s 企业官网",
+            "url": "https://www.jdepeets.com/",
+            "kind": "官网"
+          },
+          {
+            "title": "2026-04-01 收购完成公告",
+            "url": "https://news.keurigdrpepper.com/2026-04-01-Keurig-Dr-Pepper-Acquires-JDE-Peets-and-Announces-Rafael-Oliveira-as-CEO-of-Future-Global-Coffee-Co",
+            "kind": "官方交割公告"
+          }
+        ],
+        "newsTerms": [
+          "JDE",
+          "Peet’s",
+          "Peet's",
+          "皮爷",
+          "Jacobs",
+          "L’OR",
+          "L'OR"
+        ]
+      },
+      {
+        "id": "starbucks",
+        "zh": "星巴克",
+        "en": "Starbucks",
+        "region": "美国",
+        "scope": "foreign",
+        "categories": [
+          "group",
+          "beans"
+        ],
+        "identity": "咖啡连锁与消费品牌。",
+        "business": "咖啡门店、咖啡豆及包装咖啡等相关产品。",
+        "relationship": null,
+        "brands": [],
+        "website": "https://www.starbucks.com/",
+        "reports": [
+          {
+            "type": "financial",
+            "title": "星巴克年度报告目录",
+            "fiscalYear": null,
+            "url": "https://investor.starbucks.com/financials/annual-reports/"
+          }
+        ],
+        "announcements": {
+          "title": "星巴克投资者关系",
+          "url": "https://investor.starbucks.com/"
+        },
+        "checkedOn": "2026-10-18",
+        "sources": [
+          {
+            "title": "企业／品牌官方网站",
+            "url": "https://www.starbucks.com/",
+            "kind": "官网"
+          }
+        ],
+        "newsTerms": [
+          "星巴克",
+          "Starbucks"
+        ],
+        "linkNote": "部分官方入口本轮限制自动访问，已保留官方地址；报告内容或新版本仍需进入原站复核。"
+      },
+      {
+        "id": "tchibo",
+        "zh": "奇堡咖啡",
+        "en": "Tchibo",
+        "region": "德国",
+        "scope": "foreign",
+        "categories": [
+          "group",
+          "beans"
+        ],
+        "identity": "德国咖啡与零售企业。",
+        "business": "烘焙咖啡、零售及 Cafissimo 单杯咖啡系统。",
+        "relationship": null,
+        "brands": [],
+        "website": "https://www.tchibo.com/",
+        "reports": [
+          {
+            "type": "operating",
+            "title": "Facts & Figures 经营数据（非财务年报）",
+            "fiscalYear": null,
+            "url": "https://www.tchibo.com/de/en/company/facts-figures"
+          }
+        ],
+        "announcements": {
+          "title": "Tchibo 企业官网及资讯入口",
+          "url": "https://www.tchibo.com/"
+        },
+        "checkedOn": "2026-10-18",
+        "sources": [
+          {
+            "title": "企业／品牌官方网站",
+            "url": "https://www.tchibo.com/",
+            "kind": "官网"
+          }
+        ],
+        "newsTerms": [
+          "Tchibo",
+          "奇堡",
+          "Cafissimo"
+        ]
+      },
+      {
+        "id": "lavazza",
+        "zh": "拉瓦萨",
+        "en": "Lavazza",
+        "region": "意大利",
+        "scope": "foreign",
+        "categories": [
+          "group",
+          "beans"
+        ],
+        "identity": "意大利综合咖啡集团。",
+        "business": "咖啡豆、咖啡粉、胶囊、A Modo Mio 系统及商用渠道。",
+        "relationship": null,
+        "brands": [],
+        "website": "https://www.lavazzagroup.com/",
+        "reports": [
+          {
+            "type": "financial",
+            "title": "2025 年集团年度报告（官网列示）",
+            "fiscalYear": "2025",
+            "url": "https://www.lavazzagroup.com/content/dam/lavazza-corporate/bilanci/LavazzaGroupBilanci2025_EN.1.pdf"
+          },
+          {
+            "type": "financial",
+            "title": "集团业绩及报告目录",
+            "fiscalYear": null,
+            "url": "https://www.lavazzagroup.com/en/who-we-are/results.html"
+          }
+        ],
+        "announcements": {
+          "title": "拉瓦萨新闻与媒体",
+          "url": "https://www.lavazzagroup.com/en/our-stories/news-and-media.html"
+        },
+        "checkedOn": "2026-10-18",
+        "sources": [
+          {
+            "title": "企业／品牌官方网站",
+            "url": "https://www.lavazzagroup.com/",
+            "kind": "官网"
+          }
+        ],
+        "newsTerms": [
+          "拉瓦萨",
+          "Lavazza"
+        ]
+      },
+      {
+        "id": "illy",
+        "zh": "意利咖啡",
+        "en": "illycaffè",
+        "region": "意大利",
+        "scope": "foreign",
+        "categories": [
+          "group",
+          "beans"
+        ],
+        "identity": "意大利咖啡企业与品牌。",
+        "business": "咖啡豆、咖啡粉、iperEspresso 胶囊系统和商用咖啡。",
+        "relationship": null,
+        "brands": [],
+        "website": "https://www.illy.com/",
+        "reports": [
+          {
+            "type": "financial",
+            "title": "2024 年年度报告（历史版本）",
+            "fiscalYear": "2024",
+            "url": "https://www.illy.com/content/dam/channels/website/consumer/italy/certificazioni/illy_Annual%20Report_2024_ENG.pdf"
+          }
+        ],
+        "announcements": {
+          "title": "意利官方新闻室",
+          "url": "https://pressroom.illy.com/"
+        },
+        "checkedOn": "2026-10-18",
+        "sources": [
+          {
+            "title": "企业／品牌官方网站",
+            "url": "https://www.illy.com/",
+            "kind": "官网"
+          }
+        ],
+        "newsTerms": [
+          "意利",
+          "illycaffè",
+          "illycaffe",
+          "illy",
+          "iperEspresso"
+        ],
+        "linkNote": "官方新闻室本轮返回暂时不可用；财务资料保留已核对的 2024 年报原文。新闻室可稍后从品牌官网进入复核。"
+      },
+      {
+        "id": "ucc",
+        "zh": "悠诗诗咖啡集团",
+        "en": "UCC",
+        "region": "日本起源",
+        "scope": "foreign",
+        "categories": [
+          "group",
+          "beans"
+        ],
+        "identity": "日本起源的综合咖啡集团；此处地区表示集团起源。",
+        "business": "咖啡采购、烘焙、零售、设备及商用服务。",
+        "relationship": null,
+        "brands": [],
+        "website": "https://www.ucc.co.jp/",
+        "reports": [
+          {
+            "type": "sustainability",
+            "title": "UCC 可持续报告目录（非财务年报）",
+            "fiscalYear": null,
+            "url": "https://www.ucc.co.jp/eng/company/sustainability/report/"
+          }
+        ],
+        "announcements": {
+          "title": "官网（独立新闻栏目未单列）",
+          "url": "https://www.ucc.co.jp/"
+        },
+        "checkedOn": "2026-10-18",
+        "sources": [
+          {
+            "title": "UCC 集团企业资料",
+            "url": "https://www.ucc.co.jp/eng/company/profile/group.html",
+            "kind": "官方企业资料"
+          }
+        ],
+        "newsTerms": [
+          "悠诗诗",
+          "UCC"
+        ],
+        "linkNote": "部分官方入口本轮限制自动访问，已保留官方地址；报告内容或新版本仍需进入原站复核。"
+      },
+      {
+        "id": "delonghi",
+        "zh": "德龙集团",
+        "en": "De’Longhi Group",
+        "region": "意大利",
+        "scope": "foreign",
+        "categories": [
+          "machines"
+        ],
+        "identity": "家用电器及专业咖啡设备集团。",
+        "business": "家用咖啡机及专业咖啡设备。",
+        "relationship": null,
+        "brands": [
+          "德龙 De’Longhi：家用咖啡机",
+          "辣妈 La Marzocco：专业意式咖啡设备",
+          "Eversys：专业全自动咖啡设备"
+        ],
+        "website": "https://www.delonghigroup.com/en",
+        "reports": [
+          {
+            "type": "financial",
+            "title": "2025 财年财务报告（官网列示；PDF 未逐页审阅）",
+            "fiscalYear": "2025",
+            "url": "https://www.delonghigroup.com/sites/default/files/2026-04/Financial%20Annual%20Report%202025_coutesy%20copy_0_0.pdf"
+          }
+        ],
+        "announcements": {
+          "title": "德龙投资者新闻与演示资料",
+          "url": "https://www.delonghigroup.com/en/investor/press-releases-and-presentations"
+        },
+        "checkedOn": "2026-10-18",
+        "sources": [
+          {
+            "title": "企业／品牌官方网站",
+            "url": "https://www.delonghigroup.com/en",
+            "kind": "官网"
+          }
+        ],
+        "newsTerms": [
+          "德龙",
+          "De’Longhi",
+          "De'Longhi",
+          "Delonghi",
+          "La Marzocco",
+          "Eversys"
+        ]
+      },
+      {
+        "id": "breville",
+        "zh": "铂富集团",
+        "en": "Breville Group",
+        "region": "澳大利亚",
+        "scope": "foreign",
+        "categories": [
+          "machines"
+        ],
+        "identity": "澳大利亚上市小家电集团。",
+        "business": "家用意式咖啡机、磨豆机及厨房电器。",
+        "relationship": null,
+        "brands": [
+          "Breville／Sage：按市场使用的电器品牌",
+          "Lelit：意式咖啡机品牌",
+          "Baratza：磨豆机品牌"
+        ],
+        "website": "https://brevillegroup.com/",
+        "reports": [
+          {
+            "type": "financial",
+            "title": "2026 财年年度报告（官网列示；PDF 未逐页审阅）",
+            "fiscalYear": "2026（截至 2026-06-30）",
+            "url": "https://brevillegroup.com/wp-content/uploads/2026/08/Year-Ended-30-June-2026-Appendix-4E-and-Annual-Report.pdf"
+          }
+        ],
+        "announcements": {
+          "title": "Breville ASX 公告目录",
+          "url": "https://brevillegroup.com/"
+        },
+        "checkedOn": "2026-10-18",
+        "sources": [
+          {
+            "title": "Breville 集团及公告目录",
+            "url": "https://brevillegroup.com/",
+            "kind": "官方投资者关系"
+          },
+          {
+            "title": "截至 2026-06-30 财年投资者演示资料",
+            "url": "https://brevillegroup.com/wp-content/uploads/2026/08/Year-Ended-30-June-2026-Investor-Presentation.pdf",
+            "kind": "官方经营披露"
+          }
+        ],
+        "newsTerms": [
+          "铂富",
+          "Breville",
+          "Lelit",
+          "Baratza",
+          "Sage Appliances"
+        ]
+      },
+      {
+        "id": "versuni",
+        "zh": "Versuni 家用电器公司",
+        "en": "Versuni",
+        "region": "荷兰",
+        "scope": "foreign",
+        "categories": [
+          "machines"
+        ],
+        "identity": "家用电器企业，前身为飞利浦家用电器业务。",
+        "business": "家用全自动咖啡机与其他生活电器。",
+        "relationship": "公司官方更名公告说明，Versuni 是 Royal Philips 的品牌被许可方。品牌授权经营与商标所有权分开记录，不据此认定 Versuni 拥有全部 Philips 或 Saeco 商标。",
+        "brands": [
+          "飞利浦 Philips：家用电器授权品牌",
+          "喜客 Saeco：家用咖啡机品牌组合之一"
+        ],
+        "website": "https://www.versuni.com/",
+        "reports": [],
+        "announcements": {
+          "title": "Versuni 新闻中心",
+          "url": "https://www.versuni.com/newsroom/"
+        },
+        "checkedOn": "2026-10-18",
+        "sources": [
+          {
+            "title": "Versuni 官方品牌组合",
+            "url": "https://www.versuni.com/about-us/brands/",
+            "kind": "官方品牌资料"
+          },
+          {
+            "title": "飞利浦家用电器更名 Versuni 公告",
+            "url": "https://www.versuni.com/newsroom/philips-domestic-appliances-becomes-versuni/",
+            "kind": "官方品牌授权说明"
+          }
+        ],
+        "newsTerms": [
+          "Versuni",
+          "飞利浦",
+          "Philips",
+          "Saeco",
+          "喜客"
+        ]
+      },
+      {
+        "id": "jura",
+        "zh": "优瑞",
+        "en": "JURA",
+        "region": "瑞士",
+        "scope": "foreign",
+        "categories": [
+          "machines"
+        ],
+        "identity": "瑞士全自动咖啡机企业与品牌。",
+        "business": "家用及专业场景全自动咖啡机。",
+        "relationship": null,
+        "brands": [],
+        "website": "https://www.jura.com/",
+        "reports": [
+          {
+            "type": "operating",
+            "title": "Figures 企业经营数据（非财务年报）",
+            "fiscalYear": null,
+            "url": "https://www.jura.com/en/about-jura/company-portrait/figures"
+          }
+        ],
+        "announcements": {
+          "title": "官网（独立新闻栏目未单列）",
+          "url": "https://www.jura.com/"
+        },
+        "checkedOn": "2026-10-18",
+        "sources": [
+          {
+            "title": "企业／品牌官方网站",
+            "url": "https://www.jura.com/",
+            "kind": "官网"
+          }
+        ],
+        "newsTerms": [
+          "优瑞",
+          "JURA"
+        ]
+      },
+      {
+        "id": "groupe-seb",
+        "zh": "赛博集团",
+        "en": "Groupe SEB",
+        "region": "法国",
+        "scope": "foreign",
+        "categories": [
+          "machines"
+        ],
+        "identity": "家用小电器与专业设备集团。",
+        "business": "家用和专业咖啡设备；专业品牌包含 WMF、Schaerer。",
+        "relationship": null,
+        "brands": [
+          "福腾宝 WMF：消费品与专业咖啡设备",
+          "莎瑞 Schaerer：专业全自动咖啡设备"
+        ],
+        "website": "https://www.groupeseb.com/",
+        "reports": [
+          {
+            "type": "financial",
+            "title": "财务资料与演示文稿目录",
+            "fiscalYear": null,
+            "url": "https://www.groupeseb.com/en/financial-informations-and-presentations"
+          }
+        ],
+        "announcements": {
+          "title": "官网（独立新闻栏目未单列）",
+          "url": "https://www.groupeseb.com/"
+        },
+        "checkedOn": "2026-10-18",
+        "sources": [
+          {
+            "title": "Groupe SEB 集团官网",
+            "url": "https://www.groupeseb.com/",
+            "kind": "官网"
+          },
+          {
+            "title": "WMF 与 Schaerer 官方品牌说明",
+            "url": "https://www.groupeseb.com/index.php/en/wmf",
+            "kind": "官方品牌资料"
+          }
+        ],
+        "newsTerms": [
+          "赛博集团",
+          "Groupe SEB",
+          "WMF",
+          "Schaerer"
+        ]
+      },
+      {
+        "id": "bsh",
+        "zh": "博西家电",
+        "en": "BSH Home Appliances Group",
+        "region": "德国",
+        "scope": "foreign",
+        "categories": [
+          "machines"
+        ],
+        "identity": "博世集团旗下家电企业。",
+        "business": "家用电器，包含 Bosch 与 Siemens 品牌咖啡机业务。",
+        "relationship": "BSH 官方公司介绍：自 2015 年起为博世集团全资子公司；Bosch 与 Siemens 品牌分别按 Robert Bosch GmbH 与 Siemens AG 的商标许可使用。",
+        "brands": [
+          "博世 Bosch：商标授权家电品牌",
+          "西门子 Siemens：商标授权家电品牌"
+        ],
+        "website": "https://www.bsh-group.com/",
+        "reports": [],
+        "announcements": {
+          "title": "官网（独立新闻栏目未单列）",
+          "url": "https://www.bsh-group.com/"
+        },
+        "checkedOn": "2026-10-18",
+        "sources": [
+          {
+            "title": "BSH 官方公司介绍与商标许可说明",
+            "url": "https://www.bsh-group.com/sg/en/about-bsh/company-portrait/",
+            "kind": "官方企业资料"
+          }
+        ],
+        "newsTerms": [
+          "博西",
+          "BSH",
+          "Bosch",
+          "博世",
+          "Siemens",
+          "西门子"
+        ]
+      },
+      {
+        "id": "melitta",
+        "zh": "美乐家",
+        "en": "Melitta",
+        "region": "德国",
+        "scope": "foreign",
+        "categories": [
+          "machines",
+          "beans",
+          "accessories"
+        ],
+        "identity": "德国咖啡与家居用品集团。",
+        "business": "家用及商用咖啡机、咖啡豆、滤纸和过滤用品。",
+        "relationship": null,
+        "brands": [],
+        "website": "https://www.melitta-group.com/",
+        "reports": [
+          {
+            "type": "financial",
+            "title": "官方报告下载目录（报告类型与年份请进入核对）",
+            "fiscalYear": null,
+            "url": "https://www.melitta-group.com/de/downloads"
+          }
+        ],
+        "announcements": {
+          "title": "美乐家集团新闻中心",
+          "url": "https://www.melitta-group.com/en/press"
+        },
+        "checkedOn": "2026-10-18",
+        "sources": [
+          {
+            "title": "企业／品牌官方网站",
+            "url": "https://www.melitta-group.com/",
+            "kind": "官网"
+          }
+        ],
+        "newsTerms": [
+          "美乐家",
+          "Melitta"
+        ]
+      },
+      {
+        "id": "hario",
+        "zh": "HARIO 玻璃与咖啡器具",
+        "en": "HARIO",
+        "region": "日本",
+        "scope": "foreign",
+        "categories": [
+          "accessories"
+        ],
+        "identity": "日本耐热玻璃与咖啡器具品牌。",
+        "business": "V60 滤杯、滤纸、分享壶与冲煮器具。",
+        "relationship": null,
+        "brands": [],
+        "website": "https://www.hario.com/",
+        "reports": [],
+        "announcements": {
+          "title": "官网（独立新闻栏目未单列）",
+          "url": "https://www.hario.com/"
+        },
+        "checkedOn": "2026-10-18",
+        "sources": [
+          {
+            "title": "企业／品牌官方网站",
+            "url": "https://www.hario.com/",
+            "kind": "官网"
+          }
+        ],
+        "newsTerms": [
+          "HARIO"
+        ]
+      },
+      {
+        "id": "kalita",
+        "zh": "Kalita 咖啡器具",
+        "en": "Kalita",
+        "region": "日本",
+        "scope": "foreign",
+        "categories": [
+          "accessories"
+        ],
+        "identity": "日本咖啡器具企业与品牌。",
+        "business": "手冲滤杯、滤纸及相关冲煮器具。",
+        "relationship": null,
+        "brands": [],
+        "website": "https://www.kalita.co.jp/",
+        "reports": [],
+        "announcements": {
+          "title": "官网（独立新闻栏目未单列）",
+          "url": "https://www.kalita.co.jp/"
+        },
+        "checkedOn": "2026-10-18",
+        "sources": [
+          {
+            "title": "企业／品牌官方网站",
+            "url": "https://www.kalita.co.jp/",
+            "kind": "官网"
+          }
+        ],
+        "newsTerms": [
+          "Kalita"
+        ]
+      },
+      {
+        "id": "fellow",
+        "zh": "Fellow 咖啡器具",
+        "en": "Fellow",
+        "region": "美国",
+        "scope": "foreign",
+        "categories": [
+          "accessories"
+        ],
+        "identity": "美国咖啡器具品牌。",
+        "business": "温控手冲壶、磨豆机、储豆罐及相关器具。",
+        "relationship": null,
+        "brands": [],
+        "website": "https://fellowproducts.com/",
+        "reports": [],
+        "announcements": {
+          "title": "官网（独立新闻栏目未单列）",
+          "url": "https://fellowproducts.com/"
+        },
+        "checkedOn": "2026-10-18",
+        "sources": [
+          {
+            "title": "企业／品牌官方网站",
+            "url": "https://fellowproducts.com/",
+            "kind": "官网"
+          }
+        ],
+        "newsTerms": [
+          "Fellow Products",
+          "Fellow coffee",
+          "Fellow espresso",
+          "Fellow Aiden",
+          "Fellow Ode",
+          "Fellow Opus",
+          "Fellow Stagg"
+        ]
+      },
+      {
+        "id": "comandante",
+        "zh": "司令官磨豆机",
+        "en": "Comandante",
+        "region": "德国",
+        "scope": "foreign",
+        "categories": [
+          "accessories"
+        ],
+        "identity": "德国手摇磨豆机品牌。",
+        "business": "手摇磨豆机及相关配件。",
+        "relationship": null,
+        "brands": [],
+        "website": "https://comandantegrinder.com/",
+        "reports": [],
+        "announcements": {
+          "title": "官网（独立新闻栏目未单列）",
+          "url": "https://comandantegrinder.com/"
+        },
+        "checkedOn": "2026-10-18",
+        "sources": [
+          {
+            "title": "企业／品牌官方网站",
+            "url": "https://comandantegrinder.com/",
+            "kind": "官网"
+          }
+        ],
+        "newsTerms": [
+          "司令官",
+          "Comandante"
+        ]
+      },
+      {
+        "id": "aeropress",
+        "zh": "爱乐压",
+        "en": "AeroPress",
+        "region": "美国",
+        "scope": "foreign",
+        "categories": [
+          "accessories"
+        ],
+        "identity": "美国手压咖啡器具品牌。",
+        "business": "手压咖啡器具、滤纸及配套用品。",
+        "relationship": null,
+        "brands": [],
+        "website": "https://aeropress.com/",
+        "reports": [],
+        "announcements": {
+          "title": "官网（独立新闻栏目未单列）",
+          "url": "https://aeropress.com/"
+        },
+        "checkedOn": "2026-10-18",
+        "sources": [
+          {
+            "title": "企业／品牌官方网站",
+            "url": "https://aeropress.com/",
+            "kind": "官网"
+          }
+        ],
+        "newsTerms": [
+          "爱乐压",
+          "AeroPress"
+        ]
+      },
+      {
+        "id": "ims-filtri",
+        "zh": "IMS 精密过滤器具",
+        "en": "IMS Filtri",
+        "region": "意大利",
+        "scope": "foreign",
+        "categories": [
+          "accessories"
+        ],
+        "identity": "意大利精密咖啡过滤器具企业。",
+        "business": "意式咖啡机精密滤篮、冲煮滤网及配件。",
+        "relationship": null,
+        "brands": [],
+        "website": "https://www.imsfiltri.com/",
+        "reports": [],
+        "announcements": {
+          "title": "官网（独立新闻栏目未单列）",
+          "url": "https://www.imsfiltri.com/"
+        },
+        "checkedOn": "2026-10-18",
+        "sources": [
+          {
+            "title": "企业／品牌官方网站",
+            "url": "https://www.imsfiltri.com/",
+            "kind": "官网"
+          }
+        ],
+        "newsTerms": [
+          "IMS Filtri",
+          "IMS filter",
+          "IMS basket"
+        ]
+      }
+    ]
+  },
   "commerce": {
     "countries": {
       "US": "美国",

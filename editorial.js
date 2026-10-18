@@ -9,6 +9,7 @@ function renderKnowledge(isSaved, hint) {
   page.innerHTML = heading(isSaved ? '我的收藏' : '咖啡百科', isSaved ? '保存在当前浏览器中的阅读资料。' : '从机器、咖啡豆和胶囊开始，再读配件、产业历史与市场经营。', 'KNOWLEDGE & EVIDENCE')
     + (isSaved ? filters(['全部',...dossiers.map(d => d.title)]) : `<div class="wiki-toolbar"><button class="pill ${state.filter === '全部' ? 'active' : ''}" data-filter="全部" aria-pressed="${state.filter === '全部'}">全部</button><span>${articles.length} 篇百科 · 按下方分类顺序阅读</span></div>` + dossierNav())
     + hint
+    + (isSaved ? '' : '<p class="scope-note">从原理进入实际产品：<a href="#research/compatibility">机型兼容库 →</a> · <a href="#research/lab">问题假设与测试表 →</a> · <a href="#research/context">国家与集团档案 →</a></p>')
     + (groups.map(d => `<section class="knowledge-group" aria-label="${esc(d.title)}词条"><div class="section-head"><div><h2>${esc(d.title)} <small>${d.entries.length} 篇</small></h2><p>${esc(d.desc)}</p></div></div><div class="card-grid">${d.entries.map(articleCard).join('')}</div></section>`).join('') || empty(isSaved ? '还没有收藏词条' : '没有找到相关词条', isSaved ? '点击百科卡片的星标即可收藏。' : '试试其他关键词或分类。'));
 }
 
@@ -19,6 +20,7 @@ function renderHome(hint) {
   const monthlyChange = (latestPrice.value / year.prices.at(-2).value - 1) * 100;
   page.innerHTML = `
     <header class="edition-head"><div><span class="eyebrow">COFFEE INDUSTRY OBSERVER</span><h1>产业精选</h1><p>关注胶囊、咖啡豆与配件背后的真实变化。</p></div><div class="edition-date"><time>${year.checked_on}</time><span>近一年资料选编 · 欧美市场</span></div></header>
+    <section class="research-entry" aria-label="胶囊经营研究台"><div><span class="eyebrow">资料核对 ${research.checkedOn}</span><h2>胶囊经营研究台</h2><p>${research.machines.length} 个机型档案 · ${research.products.length} 个竞品样本 · ${companies.entries.length} 份企业与财报档案</p></div><div><a href="#research/compatibility">查机型与兼容边界 →</a><a href="#research/watchlist">看竞品与记录价格 →</a><a href="#research/companies">查企业与财报 →</a><a href="#research/weekly">阅读本期经营简报 →</a></div></section>
     <div class="editorial-layout">
       <div class="editorial-main">
         <section class="lead-story">

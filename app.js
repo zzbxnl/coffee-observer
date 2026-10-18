@@ -12,7 +12,7 @@ let collection = null, feedError = '', feedLoaded = false;
 let newsLimit = 30;
 let newsMonth = '';
 let lastNewsRefresh=0;
-const names = { home: '发现首页', wiki: '咖啡百科', news: '热点追踪', markets: '年度数据', commerce: '电商查询', saved: '我的收藏' };
+const names = { home: '发现首页', wiki: '咖啡百科', news: '热点追踪', markets: '年度数据', research: '胶囊研究', commerce: '电商查询', saved: '我的收藏' };
 let state = { view: 'home', query: '', filter: '全部', detail: null };
 let saved = [];
 try { const value = JSON.parse(localStorage.getItem('coffee-prototype-saved') || '[]'); if (Array.isArray(value)) saved = value.filter(id => articles.some(a => a.id === id)); } catch {}
@@ -71,6 +71,7 @@ function render() {
   document.querySelectorAll('[data-view]').forEach(b => b.setAttribute('aria-current', b.dataset.view === state.view ? 'page' : 'false'));
   document.querySelector('#breadcrumb').textContent = '产业研究 / ' + names[state.view];
   const hint = state.query ? `<p class="search-hint">搜索：“${esc(state.query)}” <button data-clear class="text-link">清除</button></p>` : '';
+  if (state.view === 'research') { renderResearch(state.detail || 'compatibility'); return; }
   if (state.detail) { renderDocument(); return; }
   document.title = names[state.view] + ' · 咖啡产业观察';
   if (state.view === 'home') {
@@ -127,7 +128,14 @@ document.addEventListener('click', event => {
   if (b.dataset.download) download(b.dataset.download);
   if (b.dataset.save) { const id = b.dataset.save; saved = saved.includes(id) ? saved.filter(x => x !== id) : [...saved,id]; let persistent = true; try { localStorage.setItem('coffee-prototype-saved', JSON.stringify(saved)); } catch { persistent = false; } render(); toast(persistent ? (saved.includes(id) ? '已加入收藏' : '已取消收藏') : '本次收藏已更新，浏览器未允许持久保存'); }
 });
-search.addEventListener('input', () => { if (state.detail) { state.detail = null; history.replaceState(null, '', '#' + state.view); } state.query = search.value.trim(); newsLimit = 30; render(); });
+search.addEventListener('input', () => {
+  if (state.view === 'research') {
+    if (state.detail?.startsWith('company-')) state.detail = 'companies';
+    if (state.detail?.startsWith('machine-')) state.detail = 'compatibility';
+    history.replaceState(null, '', '#research/' + (state.detail || 'compatibility'));
+  } else if (state.detail) { state.detail = null; history.replaceState(null, '', '#' + state.view); }
+  state.query = search.value.trim(); newsLimit = 30; render();
+});
 document.addEventListener('change', event => { if (event.target.id === 'news-month') { newsMonth = event.target.value; newsLimit = 30; render(); } });
 window.addEventListener('hashchange', () => navigate(location.hash.slice(1)));
 window.addEventListener('pageshow', event => { if (event.persisted && ['http:', 'https:'].includes(location.protocol)) location.reload(); });
@@ -159,7 +167,7 @@ async function refreshNews() {
     if (footer) footer.textContent = '人工选编 + 自动采集 · 发布日期与统计期分开记录';
   } catch (error) { feedError = ['TimeoutError','AbortError'].includes(error.name) ? '资讯库响应超时，当前仅显示人工选编。' : error.message || '读取失败，请稍后重试。'; }
   feedLoaded = true;
-  if (state.view !== 'commerce') render();
+  if (state.view !== 'commerce' && !(state.view === 'research' && state.detail === 'watchlist')) render();
 }
 void refreshNews();
 // Refreshing only reads published records; collection runs independently in the server.
