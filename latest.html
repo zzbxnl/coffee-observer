@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>打开最新版 · 咖啡产业观察</title>
+  <script>
+    const latest = new URL('./', location.href);
+    latest.searchParams.set('v', String(Date.now()));
+    latest.hash = location.hash;
+    location.replace(latest.href);
+  </script>
+</head>
+<body><p>正在打开最新网页… <a href="./">返回咖啡产业观察</a></p></body>
+</html>

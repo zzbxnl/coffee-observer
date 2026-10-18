@@ -117,6 +117,7 @@ function download(kind) {
 }
 document.addEventListener('click', event => {
   const b = event.target.closest('button'); if (!b) return;
+  if (b.hasAttribute('data-check-update')) { const fresh = new URL('latest.html', location.href); fresh.hash = location.hash; location.assign(fresh.href); return; }
   if (b.dataset.view || b.dataset.go) { const view = b.dataset.view || b.dataset.go; if (location.hash === '#' + view) navigate(view); else location.hash = view; }
   if (b.dataset.filter) { state.filter = b.dataset.filter; newsLimit = 30; render(); }
   if (b.hasAttribute('data-more-news')) { newsLimit += 30; render(); }
