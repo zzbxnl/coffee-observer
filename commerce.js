@@ -13,7 +13,7 @@ function commerceLinks() {
   const p=commerce.platforms.find(p=>p.id===commerceState.platform);
   const template=p.search?.[commerceState.country];
   const url=template?.replace('{q}',encodeURIComponent(commerceKeyword()));
-  return {platform:p,url,sold:p.id==='ebay'&&url?url+'&LH_Sold=1&LH_Complete=1':null};
+  return {platform:p,url,notice:p.countryNotices?.[commerceState.country],sold:p.id==='ebay'&&url?url+'&LH_Sold=1&LH_Complete=1':null};
 }
 function commerceOptions(values, selected) { return Object.entries(values).map(([id,name])=>`<option value="${esc(id)}" ${selected===id?'selected':''}>${esc(name)}</option>`).join(''); }
 function commerceRows() {
@@ -48,8 +48,8 @@ function renderCommerce() {
   <section class="panel commerce-results" aria-label="当前市场查询结果">
     <h2>${esc(commerce.countries[commerceState.country])} · ${esc(links.platform.name)}</h2>
     <p class="data-note">${esc(commerce.products[commerceState.product])} · ${esc(commerce.systems[commerceState.system])} · ${esc(commerceState.start)}—${esc(commerceState.end)}</p>
-    <div class="download-row">${links.url?link(links.url,'打开该国商品检索'):link(links.platform.home,'进入平台官网')}${links.sold?link(links.sold,'查询已售商品'):''}${links.platform.research?link(links.platform.research,links.platform.id==='ebay'?'官方成交研究（需 eBay 登录）':'官方需求研究'):''}</div>
-    <p class="data-note">${links.url?'检索词：'+esc(keyword)+'。国家对应平台站点，不等于买家所在国家；请在平台继续筛选。':'尚未配置该国的直接商品检索；官网入口不会自动套用国家、日期或关键词。'} ${esc(links.platform.note)} 商品检索链接不携带统计日期，成交研究中需另设日期。</p>
+    <div class="download-row">${links.url?link(links.url,'打开该国商品检索'):link(links.notice?.url||links.platform.home,links.notice?'查看该国运营公告':'进入平台官网')}${links.sold?link(links.sold,'查询已售商品'):''}${links.platform.research?link(links.platform.research,links.platform.id==='ebay'?'官方成交研究（需 eBay 登录）':'官方需求研究'):''}</div>
+    <p class="data-note">${links.notice?esc(links.notice.text):links.url?'检索词：'+esc(keyword)+'。国家对应平台站点，不等于买家所在国家；请在平台继续筛选。':'尚未配置该国的直接商品检索；官网入口不会自动套用国家、日期或关键词。'} ${esc(links.platform.note)}${links.notice?'':' 商品检索链接不携带统计日期，成交研究中需另设日期。'}</p>
     <div class="commerce-metrics" aria-label="竞品样本统计">
     ${[['公开披露销量',commerceTotals(rows,'public',false)],['公开披露销售额',commerceTotals(rows,'public',true)],['第三方估算销量',commerceTotals(rows,'estimate',false)],['第三方估算销售额',commerceTotals(rows,'estimate',true)]].map(([name,value])=>`<div><span>${name}</span><strong>${value}</strong></div>`).join('')}</div>
     <p class="data-note">当前匹配 ${rows.length} 条样本（已导入 ${commerceState.records.length} 条）。仅统计起止日期完全一致的记录；金额保留原币种，件／套／颗／盒分别累计。合计只包含有值记录，未披露不补零，也不根据售价推算销售额；无值显示“—”。记录之间的重叠商品或变体仍需核验。</p>

@@ -1532,7 +1532,8 @@ window.COFFEE_CONTENT = {
       "dolce-gusto": "Dolce Gusto 多趣酷思传统系统",
       "a-modo-mio": "Lavazza A Modo Mio 拉瓦萨家用系统",
       "iperespresso": "illy iperEspresso 意利系统",
-      "senseo": "SENSEO 咖啡软包（非硬壳胶囊）"
+      "senseo": "SENSEO 咖啡软包（非硬壳胶囊）",
+      "cafissimo": "Tchibo Cafissimo（Cafissimo 系统）"
     },
     "sources": {
       "nespresso-faq": {
@@ -1709,6 +1710,11 @@ window.COFFEE_CONTENT = {
         "name": "Directive (EU) 2024/825（欧盟消费者环境主张指令）",
         "url": "https://eur-lex.europa.eu/eli/dir/2024/825/oj/eng",
         "type": "欧盟原始法律文件"
+      },
+      "rakuten-fr-closure": {
+        "name": "Rakuten France（乐天法国）官网停止运营公告",
+        "url": "https://fr.shopping.rakuten.com/?homescreen=1",
+        "type": "平台官方公告"
       }
     },
     "machines": [
@@ -2188,6 +2194,17 @@ window.COFFEE_CONTENT = {
             "refs": [
               "nca"
             ]
+          },
+          {
+            "title": "Rakuten France（乐天法国）已停止运营",
+            "period": "事件日期 2026-09-30；本周于 2026-10-18 核验官网",
+            "fact": "法国官网明确公告市场于 2026-09-30 停止运营；旧商品和榜单仍可能被搜索索引保留。",
+            "analysis": "法国可用销售渠道需要重新确认，不能把旧搜索结果、旧报价或法国评论当成持续经营的证明。",
+            "action": "法国查询入口改为官方运营公告；优先核对仍在经营的平台和具体商品，保留历史资料标签。",
+            "unknown": "本次只核对法国业务；日本及其他 Rakuten 业务的状态、份额和商品不据此推定。",
+            "refs": [
+              "rakuten-fr-closure"
+            ]
           }
         ]
       }
@@ -2541,7 +2558,7 @@ window.COFFEE_CONTENT = {
       },
       {
         "name": "消费者痛点",
-        "status": "已取得 26 个具体商品、163 条可见评论，整理 36 个案例；24 平台任务尚未完成。",
+        "status": "已取得 41 个具体商品／目录产品、203 条可见评论，整理 56 个案例；24 平台任务尚未完成。",
         "next": "继续公开可读平台；保留日期、变体和机器条件，真实售后与实测仍待补充。"
       },
       {
@@ -4883,10 +4900,15 @@ window.COFFEE_CONTENT = {
         "name": "乐天 Rakuten",
         "home": "https://global.rakuten.com/",
         "kind": "零售市场",
-        "search": {
-          "FR": "https://fr.shopping.rakuten.com/s/{q}"
-        },
-        "note": "法国站和日本站分别经营，不能合并成同一国家的销量。"
+        "note": "Rakuten France（乐天法国）已于 2026-09-30 停止运营。法国旧商品页面仅作历史参考；日本及其他站点需另行核验。",
+        "countryNotices": {
+          "FR": {
+            "status": "closed",
+            "text": "法国市场已于 2026-09-30 停止运营，当前不提供商品查询入口。旧索引价格与榜单不能作为在售证据。",
+            "url": "https://fr.shopping.rakuten.com/?homescreen=1",
+            "checkedOn": "2026-10-18"
+          }
+        }
       },
       {
         "id": "walmart",
@@ -4993,11 +5015,11 @@ window.COFFEE_CONTENT = {
         "status": 403,
         "checkedAt": "2026-10-18T04:07:54.581Z",
         "targetProducts": 10,
-        "productCount": 0,
-        "reviewCount": 0,
-        "candidateCount": 0,
-        "statusLabel": "入口访问受限（HTTP 403）",
-        "note": "本轮请求被拒绝（HTTP 403），未取得商品评论；不代表平台无商品。"
+        "productCount": 2,
+        "reviewCount": 20,
+        "candidateCount": 2,
+        "statusLabel": "取得 2 个目录产品、20 条可见评论；尚缺 8 个产品",
+        "note": "公开目录评论页可读；ePID／目录编号不是在售 Item ID，存在目录归并和变体差异。20 条中仅 1 条在近一年，保留历史补充；未将卖家反馈当商品评论。"
       },
       {
         "id": "tiktok",
@@ -5011,7 +5033,7 @@ window.COFFEE_CONTENT = {
         "reviewCount": 0,
         "candidateCount": 0,
         "statusLabel": "网络读取失败，等待补充公开证据",
-        "note": "本轮入口仅返回动态页面或未取得可读商品评论；需要继续验证公开详情入口，不代表没有相关商品。"
+        "note": "直接入口未取得可读评论；公开索引工具另报告 robots.txt 访问限制。未重试受限制页面，也未绕过验证或登录。"
       },
       {
         "id": "dhgate",
@@ -5037,7 +5059,7 @@ window.COFFEE_CONTENT = {
         "reviewCount": 0,
         "candidateCount": 0,
         "statusLabel": "入口访问受限（HTTP 403）",
-        "note": "本轮请求被拒绝（HTTP 403），未取得商品评论；不代表平台无商品。"
+        "note": "公开索引发现多个国家商品和短评，但详情读取有缓存缺失，尚未取得能逐条核对日期的完整证据；不纳入近一年评论。"
       },
       {
         "id": "allegro",
@@ -5046,11 +5068,11 @@ window.COFFEE_CONTENT = {
         "status": 403,
         "checkedAt": "2026-10-18T04:07:55.641Z",
         "targetProducts": 10,
-        "productCount": 0,
-        "reviewCount": 0,
-        "candidateCount": 0,
-        "statusLabel": "入口访问受限（HTTP 403）",
-        "note": "本轮请求被拒绝（HTTP 403），未取得商品评论；不代表平台无商品。"
+        "productCount": 2,
+        "reviewCount": 4,
+        "candidateCount": 2,
+        "statusLabel": "取得 2 个候选商品、4 条日期可定位评论；尚缺 8 个商品",
+        "note": "直接入口曾返回 403，公开索引可读少量商品评论；3 条为近一年。总评分与评论可聚合多卖家，未知单条星级留空，不以报价推算销售额。"
       },
       {
         "id": "jumia",
@@ -5085,11 +5107,11 @@ window.COFFEE_CONTENT = {
         "status": 200,
         "checkedAt": "2026-10-18T04:07:56.723Z",
         "targetProducts": 10,
-        "productCount": 0,
-        "reviewCount": 0,
-        "candidateCount": 0,
-        "statusLabel": "入口可访问，但本次尚未取得可用评论",
-        "note": "本轮入口仅返回动态页面或未取得可读商品评论；需要继续验证公开详情入口，不代表没有相关商品。"
+        "productCount": 10,
+        "reviewCount": 13,
+        "candidateCount": 10,
+        "statusLabel": "核对 10 个候选商品，取得 13 条历史评论",
+        "note": "通过公开索引读取具体详情；评论均早于 2025-10-18，不纳入近一年。部分详情无文字评论，旧索引最早约 1.5 年前，不作为实时价格或销量榜。"
       },
       {
         "id": "mercado-libre",
@@ -5163,24 +5185,25 @@ window.COFFEE_CONTENT = {
         "status": 200,
         "checkedAt": "2026-10-18T04:08:00.289Z",
         "targetProducts": 10,
-        "productCount": 6,
-        "reviewCount": 18,
-        "candidateCount": 6,
-        "statusLabel": "取得 6 个候选商品、18 条公开索引评论；尚缺 4 个商品",
+        "productCount": 7,
+        "reviewCount": 21,
+        "candidateCount": 7,
+        "statusLabel": "取得 7 个候选商品、21 条公开索引评论；尚缺 3 个商品",
         "note": "直接请求遇验证页；公开索引可读取 6 个具体商品，索引滞后约 3 天至 3 个月。保留评论日期；不采用 AI 评论汇总或把推荐位当销量榜。"
       },
       {
         "id": "rakuten",
         "market": "FR",
         "url": "https://fr.shopping.rakuten.com/s/capsule+cafe+reutilisable",
-        "status": 403,
+        "status": "FR-closed",
         "checkedAt": "2026-10-18T04:08:00.625Z",
         "targetProducts": 10,
         "productCount": 0,
         "reviewCount": 0,
         "candidateCount": 0,
-        "statusLabel": "入口访问受限（HTTP 403）",
-        "note": "本轮请求被拒绝（HTTP 403），未取得商品评论；不代表平台无商品。"
+        "statusLabel": "法国站于 2026-09-30 停止运营",
+        "note": "官网已确认法国市场停止运营；旧商品索引仅可作历史资料，不作为当前在售或销量依据。日本及其他业务须另外核验，不能据此声称全球集团停运。",
+        "noticeURL": "https://fr.shopping.rakuten.com/?homescreen=1"
       },
       {
         "id": "yandex",
@@ -5193,7 +5216,7 @@ window.COFFEE_CONTENT = {
         "reviewCount": 0,
         "candidateCount": 0,
         "statusLabel": "入口可访问，但本次尚未取得可用评论",
-        "note": "入口可访问，但未取得可复核的具体商品评论；动态页面体积大不代表评论已采集。"
+        "note": "未取得主站可复核商品评论；搜索结果中出现集成域名页面，未确认其为生产站数据，未纳入评论。"
       },
       {
         "id": "coupang",
@@ -5206,7 +5229,7 @@ window.COFFEE_CONTENT = {
         "reviewCount": 0,
         "candidateCount": 0,
         "statusLabel": "入口访问受限（HTTP 403）",
-        "note": "本轮请求被拒绝（HTTP 403），未取得商品评论；不代表平台无商品。"
+        "note": "直接入口未取得可读评论；公开索引工具另报告 robots.txt 访问限制。未重试受限制页面，也未绕过验证或登录。"
       },
       {
         "id": "ozon",
@@ -5220,7 +5243,7 @@ window.COFFEE_CONTENT = {
         "reviewCount": 0,
         "candidateCount": 0,
         "statusLabel": "网络读取失败，等待补充公开证据",
-        "note": "本轮入口仅返回动态页面或未取得可读商品评论；需要继续验证公开详情入口，不代表没有相关商品。"
+        "note": "本轮网络读取失败，未取得可核对页面；具体原因未确认，不能据此判断平台是否限制访问或没有相关商品。"
       },
       {
         "id": "alibaba",
@@ -5233,7 +5256,7 @@ window.COFFEE_CONTENT = {
         "reviewCount": 0,
         "candidateCount": 0,
         "statusLabel": "入口可访问，但本次尚未取得可用评论",
-        "note": "本轮找到 B2B 候选链接，尚未核对详情。交易／供应商反馈与零售商品使用评论分开，不混算消费者痛点。"
+        "note": "可发现 B2B 产品与供应商页，但尚未核对到可定位的商品使用评论；不采用 product-insights／ranking 文章中的假设案例或二手汇总作为消费者原始评论。"
       },
       {
         "id": "otto",
@@ -7420,6 +7443,762 @@ window.COFFEE_CONTENT = {
         "price": null,
         "priceNote": "索引有缓存时差，不作为本日实时价格",
         "checkedOn": "2026-10-18"
+      },
+      {
+        "id": "cdiscount-auc3512727739233",
+        "platform": "cdiscount",
+        "market": "FR",
+        "itemId": "auc3512727739233",
+        "name": "Refillable Stainless Steel Capsule",
+        "zh": "可填充不锈钢胶囊；平台未列品牌",
+        "system": "original",
+        "type": "reusable",
+        "brandStore": "制造商品牌未核验；不把零售商品名当作制造商",
+        "seller": "索引快照销售方可能随报价变化；未作当前成交卖家结论",
+        "source": "https://www.cdiscount.com/maison/art-de-la-table/capsule-de-cafe-reutilisable-rechargeable-d-acier/f-117902706-auc3512727739233.html",
+        "ranking": null,
+        "selection": "公开检索结果中可读取详情的相关候选；不属于销量榜前十。逐商品公开索引时间约为9 个月前，本轮读取 2026-10-18。不同商品链接不等于不同制造商或不同产品设计。",
+        "reviewRecords": [
+          {
+            "id": "local-auc3512727739233-2025-06-16",
+            "date": "2025-06-16",
+            "rating": 2,
+            "variant": "评论未逐条给出子变体；按商品 ID 定位",
+            "verified": true,
+            "reviewCountry": "法国站；未单独核验评论者国家",
+            "url": "https://www.cdiscount.com/maison/art-de-la-table/capsule-de-cafe-reutilisable-rechargeable-d-acier/f-117902706-auc3512727739233.html",
+            "locator": "2025-06-16 · Utilisation（按日期与标题定位，未取得平台单条评论 ID）"
+          }
+        ],
+        "reviewAccess": "公开详情／索引快照；本批所得文字评论均早于近一年窗口。页面总评数可能随索引时点不同。",
+        "listedRating": 2,
+        "listedCount": null,
+        "listedWrittenCount": 1,
+        "price": null,
+        "priceNote": "公开索引存在时差，不作为核对日实时标价；保留评论原始日期",
+        "checkedOn": "2026-10-18"
+      },
+      {
+        "id": "cdiscount-auc9776923648988",
+        "platform": "cdiscount",
+        "market": "FR",
+        "itemId": "auc9776923648988",
+        "name": "Refillable Capsule E815366532",
+        "zh": "E815366532 不锈钢可填充胶囊；品牌未核验",
+        "system": "original",
+        "type": "reusable",
+        "brandStore": "制造商品牌未核验；不把零售商品名当作制造商",
+        "seller": "索引快照销售方可能随报价变化；未作当前成交卖家结论",
+        "source": "https://www.cdiscount.com/electromenager/petit-dejeuner-cafe/cafe-filtres-capsules-de-cafe-reutilisables-pour-n/f-11017-auc9776923648988.html",
+        "ranking": null,
+        "selection": "公开检索结果中可读取详情的相关候选；不属于销量榜前十。逐商品公开索引时间约为约 1 周前，本轮读取 2026-10-18。不同商品链接不等于不同制造商或不同产品设计。",
+        "reviewRecords": [],
+        "reviewAccess": "公开详情／索引快照；本批所得文字评论均早于近一年窗口。页面总评数可能随索引时点不同。",
+        "listedRating": null,
+        "listedCount": null,
+        "listedWrittenCount": 0,
+        "price": null,
+        "priceNote": "公开索引存在时差，不作为核对日实时标价；保留评论原始日期",
+        "checkedOn": "2026-10-18"
+      },
+      {
+        "id": "cdiscount-aaaqh97264",
+        "platform": "cdiscount",
+        "market": "FR",
+        "itemId": "aaaqh97264",
+        "name": "Carte Noire Espresso Intense No. 9, 60 Capsules",
+        "zh": "黑卡 9 号浓缩咖啡预装胶囊，60 颗",
+        "system": "original",
+        "type": "prefilled",
+        "brandStore": "Carte Noire",
+        "seller": "索引快照销售方可能随报价变化；未作当前成交卖家结论",
+        "source": "https://www.cdiscount.com/au-quotidien/alimentaire/carte-noire-caf-capsules/f-12701050112-aaaqh97264.html",
+        "ranking": null,
+        "selection": "公开检索结果中可读取详情的相关候选；不属于销量榜前十。逐商品公开索引时间约为约 1 个月前，本轮读取 2026-10-18。不同商品链接不等于不同制造商或不同产品设计。",
+        "reviewRecords": [],
+        "reviewAccess": "公开详情／索引快照；本批所得文字评论均早于近一年窗口。页面总评数可能随索引时点不同。",
+        "listedRating": null,
+        "listedCount": null,
+        "listedWrittenCount": 0,
+        "price": null,
+        "priceNote": "公开索引存在时差，不作为核对日实时标价；保留评论原始日期",
+        "checkedOn": "2026-10-18"
+      },
+      {
+        "id": "cdiscount-auc9473253675096",
+        "platform": "cdiscount",
+        "market": "FR",
+        "itemId": "auc9473253675096",
+        "name": "Refillable Stainless Steel Capsules, 3 Pack",
+        "zh": "3 只可填充胶囊与刷勺套装；品牌未核验",
+        "system": "original",
+        "type": "reusable",
+        "brandStore": "制造商品牌未核验；不把零售商品名当作制造商",
+        "seller": "索引快照销售方可能随报价变化；未作当前成交卖家结论",
+        "source": "https://www.cdiscount.com/electromenager/petit-dejeuner-cafe/1-3-pieces-cafe-reutilisable-rechargeable-pour-nes/f-11017-auc9473253675096.html",
+        "ranking": null,
+        "selection": "公开检索结果中可读取详情的相关候选；不属于销量榜前十。逐商品公开索引时间约为约 1 个月前，本轮读取 2026-10-18。不同商品链接不等于不同制造商或不同产品设计。",
+        "reviewRecords": [],
+        "reviewAccess": "公开详情／索引快照；本批所得文字评论均早于近一年窗口。页面总评数可能随索引时点不同。",
+        "listedRating": null,
+        "listedCount": null,
+        "listedWrittenCount": 0,
+        "price": null,
+        "priceNote": "公开索引存在时差，不作为核对日实时标价；保留评论原始日期",
+        "checkedOn": "2026-10-18"
+      },
+      {
+        "id": "cdiscount-aaaou33253",
+        "platform": "cdiscount",
+        "market": "FR",
+        "itemId": "aaaou33253",
+        "name": "CAPS ME Black Starter Kit",
+        "zh": "黑色可填充胶囊入门套装",
+        "system": "original",
+        "type": "reusable",
+        "brandStore": "CAPS ME",
+        "seller": "索引快照销售方可能随报价变化；未作当前成交卖家结论",
+        "source": "https://www.cdiscount.com/au-quotidien/alimentaire/coffret-capsules/f-12701050112-aaaou33253.html",
+        "ranking": null,
+        "selection": "公开检索结果中可读取详情的相关候选；不属于销量榜前十。逐商品公开索引时间约为约 1 个月前，本轮读取 2026-10-18。不同商品链接不等于不同制造商或不同产品设计。",
+        "reviewRecords": [
+          {
+            "id": "local-aaaou33253-2025-08-09",
+            "date": "2025-08-09",
+            "rating": 1,
+            "variant": "评论未逐条给出子变体；按商品 ID 定位",
+            "verified": true,
+            "reviewCountry": "法国站；未单独核验评论者国家",
+            "url": "https://www.cdiscount.com/au-quotidien/alimentaire/coffret-capsules/f-12701050112-aaaou33253.html",
+            "locator": "2025-08-09 · Un peu déçu（按日期与标题定位，未取得平台单条评论 ID）"
+          }
+        ],
+        "reviewAccess": "公开详情／索引快照；本批所得文字评论均早于近一年窗口。页面总评数可能随索引时点不同。",
+        "listedRating": 1,
+        "listedCount": null,
+        "listedWrittenCount": 1,
+        "price": null,
+        "priceNote": "公开索引存在时差，不作为核对日实时标价；保留评论原始日期",
+        "checkedOn": "2026-10-18"
+      },
+      {
+        "id": "cdiscount-auc3512727907328",
+        "platform": "cdiscount",
+        "market": "FR",
+        "itemId": "auc3512727907328",
+        "name": "STR Refillable Stainless Steel Capsule",
+        "zh": "STR 标识可填充不锈钢胶囊；非原厂认可声明",
+        "system": "original",
+        "type": "reusable",
+        "brandStore": "制造商品牌未核验；不把零售商品名当作制造商",
+        "seller": "索引快照销售方可能随报价变化；未作当前成交卖家结论",
+        "source": "https://www.cdiscount.com/au-quotidien/alimentaire/capsule-de-cafe-reutilisable-capsule-rechargeable/f-12701050112-auc3512727907328.html",
+        "ranking": null,
+        "selection": "公开检索结果中可读取详情的相关候选；不属于销量榜前十。逐商品公开索引时间约为约 10 个月前，本轮读取 2026-10-18。不同商品链接不等于不同制造商或不同产品设计。",
+        "reviewRecords": [
+          {
+            "id": "local-auc3512727907328-2022-09-30",
+            "date": "2022-09-30",
+            "rating": 1,
+            "variant": "评论未逐条给出子变体；按商品 ID 定位",
+            "verified": true,
+            "reviewCountry": "法国站；未单独核验评论者国家",
+            "url": "https://www.cdiscount.com/au-quotidien/alimentaire/capsule-de-cafe-reutilisable-capsule-rechargeable/f-12701050112-auc3512727907328.html",
+            "locator": "2022-09-30 · Inutilisable（按日期与标题定位，未取得平台单条评论 ID）"
+          },
+          {
+            "id": "local-auc3512727907328-2021-12-06",
+            "date": "2021-12-06",
+            "rating": 4,
+            "variant": "评论未逐条给出子变体；按商品 ID 定位",
+            "verified": true,
+            "reviewCountry": "法国站；未单独核验评论者国家",
+            "url": "https://www.cdiscount.com/au-quotidien/alimentaire/capsule-de-cafe-reutilisable-capsule-rechargeable/f-12701050112-auc3512727907328.html",
+            "locator": "2021-12-06 · bien（按日期与标题定位，未取得平台单条评论 ID）"
+          },
+          {
+            "id": "local-auc3512727907328-2021-04-10",
+            "date": "2021-04-10",
+            "rating": 4,
+            "variant": "评论未逐条给出子变体；按商品 ID 定位",
+            "verified": true,
+            "reviewCountry": "法国站；未单独核验评论者国家",
+            "url": "https://www.cdiscount.com/au-quotidien/alimentaire/capsule-de-cafe-reutilisable-capsule-rechargeable/f-12701050112-auc3512727907328.html",
+            "locator": "2021-04-10 · Très bon（按日期与标题定位，未取得平台单条评论 ID）"
+          }
+        ],
+        "reviewAccess": "公开详情／索引快照；本批所得文字评论均早于近一年窗口。页面总评数可能随索引时点不同。",
+        "listedRating": 3,
+        "listedCount": null,
+        "listedWrittenCount": 3,
+        "price": null,
+        "priceNote": "公开索引存在时差，不作为核对日实时标价；保留评论原始日期",
+        "checkedOn": "2026-10-18"
+      },
+      {
+        "id": "cdiscount-auc2008422552945",
+        "platform": "cdiscount",
+        "market": "FR",
+        "itemId": "auc2008422552945",
+        "name": "SIB Refillable Stainless Steel Capsule",
+        "zh": "SIB 标识不锈钢可填充胶囊；品牌未核验",
+        "system": "original",
+        "type": "reusable",
+        "brandStore": "制造商品牌未核验；不把零售商品名当作制造商",
+        "seller": "索引快照销售方可能随报价变化；未作当前成交卖家结论",
+        "source": "https://www.cdiscount.com/maison/art-de-la-table/sib-tasse-de-capsule-de-cafe-reutilisable-reutilis/f-117902706-auc2008422552945.html",
+        "ranking": null,
+        "selection": "公开检索结果中可读取详情的相关候选；不属于销量榜前十。逐商品公开索引时间约为约 1.5 年前，本轮读取 2026-10-18。不同商品链接不等于不同制造商或不同产品设计。",
+        "reviewRecords": [
+          {
+            "id": "local-auc2008422552945-2023-11-06",
+            "date": "2023-11-06",
+            "rating": 1,
+            "variant": "评论未逐条给出子变体；按商品 ID 定位",
+            "verified": true,
+            "reviewCountry": "法国站；未单独核验评论者国家",
+            "url": "https://www.cdiscount.com/maison/art-de-la-table/sib-tasse-de-capsule-de-cafe-reutilisable-reutilis/f-117902706-auc2008422552945.html",
+            "locator": "2023-11-06 · nul（按日期与标题定位，未取得平台单条评论 ID）"
+          },
+          {
+            "id": "local-auc2008422552945-2023-10-20",
+            "date": "2023-10-20",
+            "rating": 5,
+            "variant": "评论未逐条给出子变体；按商品 ID 定位",
+            "verified": true,
+            "reviewCountry": "法国站；未单独核验评论者国家",
+            "url": "https://www.cdiscount.com/maison/art-de-la-table/sib-tasse-de-capsule-de-cafe-reutilisable-reutilis/f-117902706-auc2008422552945.html",
+            "locator": "2023-10-20 · TRES BIEN（按日期与标题定位，未取得平台单条评论 ID）"
+          }
+        ],
+        "reviewAccess": "公开详情／索引快照；本批所得文字评论均早于近一年窗口。页面总评数可能随索引时点不同。",
+        "listedRating": 3,
+        "listedCount": null,
+        "listedWrittenCount": 2,
+        "price": null,
+        "priceNote": "公开索引存在时差，不作为核对日实时标价；保留评论原始日期",
+        "checkedOn": "2026-10-18"
+      },
+      {
+        "id": "cdiscount-auc9473253646300",
+        "platform": "cdiscount",
+        "market": "FR",
+        "itemId": "auc9473253646300",
+        "name": "Refillable Capsules, 3 Pack",
+        "zh": "3 只可填充胶囊；品牌未核验",
+        "system": "original",
+        "type": "reusable",
+        "brandStore": "制造商品牌未核验；不把零售商品名当作制造商",
+        "seller": "索引快照销售方可能随报价变化；未作当前成交卖家结论",
+        "source": "https://www.cdiscount.com/electromenager/petit-dejeuner-cafe/capsules-de-cafe-reutilisables-emballage-ecologiq/f-11017-auc9473253646300.html",
+        "ranking": null,
+        "selection": "公开检索结果中可读取详情的相关候选；不属于销量榜前十。逐商品公开索引时间约为约 1.4 年前，本轮读取 2026-10-18。不同商品链接不等于不同制造商或不同产品设计。",
+        "reviewRecords": [
+          {
+            "id": "local-auc9473253646300-2023-01-22",
+            "date": "2023-01-22",
+            "rating": 5,
+            "variant": "评论未逐条给出子变体；按商品 ID 定位",
+            "verified": true,
+            "reviewCountry": "法国站；未单独核验评论者国家",
+            "url": "https://www.cdiscount.com/electromenager/petit-dejeuner-cafe/capsules-de-cafe-reutilisables-emballage-ecologiq/f-11017-auc9473253646300.html",
+            "locator": "2023-01-22 · Un produit utile（按日期与标题定位，未取得平台单条评论 ID）"
+          }
+        ],
+        "reviewAccess": "公开详情／索引快照；本批所得文字评论均早于近一年窗口。页面总评数可能随索引时点不同。",
+        "listedRating": 5,
+        "listedCount": null,
+        "listedWrittenCount": 1,
+        "price": null,
+        "priceNote": "公开索引存在时差，不作为核对日实时标价；保留评论原始日期",
+        "checkedOn": "2026-10-18"
+      },
+      {
+        "id": "cdiscount-lem0192596164188",
+        "platform": "cdiscount",
+        "market": "FR",
+        "itemId": "lem0192596164188",
+        "name": "Refillable Capsules with Spoon and Brush, 2 Pack",
+        "zh": "两只可填充胶囊与刷勺；品牌未核验",
+        "system": "original",
+        "type": "reusable",
+        "brandStore": "制造商品牌未核验；不把零售商品名当作制造商",
+        "seller": "索引快照销售方可能随报价变化；未作当前成交卖家结论",
+        "source": "https://www.cdiscount.com/electromenager/petit-dejeuner-cafe/2pcs-pour-nespresso-capsule-filtre-reutilisable-ca/f-11017-lem0192596164188.html",
+        "ranking": null,
+        "selection": "公开检索结果中可读取详情的相关候选；不属于销量榜前十。逐商品公开索引时间约为约 6 个月前，本轮读取 2026-10-18。不同商品链接不等于不同制造商或不同产品设计。",
+        "reviewRecords": [
+          {
+            "id": "local-lem0192596164188-2024-01-28",
+            "date": "2024-01-28",
+            "rating": null,
+            "variant": "评论未逐条给出子变体；按商品 ID 定位",
+            "verified": true,
+            "reviewCountry": "法国站；未单独核验评论者国家",
+            "url": "https://www.cdiscount.com/electromenager/petit-dejeuner-cafe/2pcs-pour-nespresso-capsule-filtre-reutilisable-ca/f-11017-lem0192596164188.html",
+            "locator": "2024-01-28 · Manque d’informations（按日期与标题定位，未取得平台单条评论 ID）"
+          },
+          {
+            "id": "local-lem0192596164188-2020-05-11",
+            "date": "2020-05-11",
+            "rating": null,
+            "variant": "评论未逐条给出子变体；按商品 ID 定位",
+            "verified": true,
+            "reviewCountry": "法国站；未单独核验评论者国家",
+            "url": "https://www.cdiscount.com/electromenager/petit-dejeuner-cafe/2pcs-pour-nespresso-capsule-filtre-reutilisable-ca/f-11017-lem0192596164188.html",
+            "locator": "2020-05-11 · Pas solide（按日期与标题定位，未取得平台单条评论 ID）"
+          },
+          {
+            "id": "local-lem0192596164188-2018-12-19",
+            "date": "2018-12-19",
+            "rating": null,
+            "variant": "评论未逐条给出子变体；按商品 ID 定位",
+            "verified": true,
+            "reviewCountry": "法国站；未单独核验评论者国家",
+            "url": "https://www.cdiscount.com/electromenager/petit-dejeuner-cafe/2pcs-pour-nespresso-capsule-filtre-reutilisable-ca/f-11017-lem0192596164188.html",
+            "locator": "2018-12-19 · bof !!（按日期与标题定位，未取得平台单条评论 ID）"
+          },
+          {
+            "id": "local-lem0192596164188-2018-10-31",
+            "date": "2018-10-31",
+            "rating": null,
+            "variant": "评论未逐条给出子变体；按商品 ID 定位",
+            "verified": true,
+            "reviewCountry": "法国站；未单独核验评论者国家",
+            "url": "https://www.cdiscount.com/electromenager/petit-dejeuner-cafe/2pcs-pour-nespresso-capsule-filtre-reutilisable-ca/f-11017-lem0192596164188.html",
+            "locator": "2018-10-31 · déception totale（按日期与标题定位，未取得平台单条评论 ID）"
+          },
+          {
+            "id": "local-lem0192596164188-2018-08-11",
+            "date": "2018-08-11",
+            "rating": null,
+            "variant": "评论未逐条给出子变体；按商品 ID 定位",
+            "verified": true,
+            "reviewCountry": "法国站；未单独核验评论者国家",
+            "url": "https://www.cdiscount.com/electromenager/petit-dejeuner-cafe/2pcs-pour-nespresso-capsule-filtre-reutilisable-ca/f-11017-lem0192596164188.html",
+            "locator": "2018-08-11 · Très bien（按日期与标题定位，未取得平台单条评论 ID）"
+          }
+        ],
+        "reviewAccess": "公开详情／索引快照；本批所得文字评论均早于近一年窗口。页面总评数可能随索引时点不同。",
+        "listedRating": 2.5,
+        "listedCount": null,
+        "listedWrittenCount": 6,
+        "price": null,
+        "priceNote": "公开索引存在时差，不作为核对日实时标价；保留评论原始日期",
+        "checkedOn": "2026-10-18"
+      },
+      {
+        "id": "cdiscount-aaapq47670",
+        "platform": "cdiscount",
+        "market": "FR",
+        "itemId": "aaapq47670",
+        "name": "CAPS ME Refillable Capsules, 3 Pack",
+        "zh": "3 只装可填充胶囊",
+        "system": "original",
+        "type": "reusable",
+        "brandStore": "CAPS ME",
+        "seller": "索引快照销售方可能随报价变化；未作当前成交卖家结论",
+        "source": "https://www.cdiscount.com/au-quotidien/alimentaire/capsule-caf-caps-me-3/f-12701050112-aaapq47670.html",
+        "ranking": null,
+        "selection": "公开检索结果中可读取详情的相关候选；不属于销量榜前十。逐商品公开索引时间约为约 1 个月前，本轮读取 2026-10-18。不同商品链接不等于不同制造商或不同产品设计。",
+        "reviewRecords": [],
+        "reviewAccess": "公开详情／索引快照；本批所得文字评论均早于近一年窗口。页面总评数可能随索引时点不同。",
+        "listedRating": null,
+        "listedCount": null,
+        "listedWrittenCount": 0,
+        "price": null,
+        "priceNote": "公开索引存在时差，不作为核对日实时标价；保留评论原始日期",
+        "checkedOn": "2026-10-18"
+      },
+      {
+        "id": "walmart-469192827",
+        "platform": "walmart",
+        "market": "US",
+        "itemId": "469192827",
+        "name": "Perfect Pod Paper Filters, 100 Count, No Lid",
+        "zh": "100 张无盖纸滤，配可重复使用滤杯",
+        "system": "k-cup",
+        "type": "accessories",
+        "brandStore": "Perfect Pod",
+        "seller": "未作当前成交卖家结论",
+        "source": "https://www.walmart.com/ip/Perfect-Pod-Single-Serve-Paper-Filters-100-Count-Pack-of-Paper-Filters-with-No-Lid/469192827",
+        "ranking": null,
+        "selection": "来自公开商品相关推荐的候选；不属于销量榜前十。公开索引约 1 个月前，本轮读取 2026-10-18。",
+        "reviewRecords": [
+          {
+            "id": "local-469192827-2026-07-28",
+            "date": "2026-07-28",
+            "rating": 5,
+            "variant": "100 张无盖纸滤；评论未给出所配滤杯完整型号",
+            "verified": true,
+            "reviewCountry": "美国站；未单独核验评论者国家",
+            "url": "https://www.walmart.com/ip/Perfect-Pod-Single-Serve-Paper-Filters-100-Count-Pack-of-Paper-Filters-with-No-Lid/469192827",
+            "locator": "2026-07-28 · Perfect pod filters（按日期与标题定位，未取得平台单条评论 ID）"
+          },
+          {
+            "id": "local-469192827-2026-05-20",
+            "date": "2026-05-20",
+            "rating": 5,
+            "variant": "100 张无盖纸滤；评论未给出所配滤杯完整型号",
+            "verified": true,
+            "reviewCountry": "美国站；未单独核验评论者国家",
+            "url": "https://www.walmart.com/ip/Perfect-Pod-Single-Serve-Paper-Filters-100-Count-Pack-of-Paper-Filters-with-No-Lid/469192827",
+            "locator": "2026-05-20 · 标题为个人环保感受；不采用为环境证据（按日期与标题定位，未取得平台单条评论 ID）"
+          },
+          {
+            "id": "local-469192827-2026-07-14",
+            "date": "2026-07-14",
+            "rating": 5,
+            "variant": "100 张无盖纸滤；评论未给出所配滤杯完整型号",
+            "verified": true,
+            "reviewCountry": "美国站；未单独核验评论者国家",
+            "url": "https://www.walmart.com/ip/Perfect-Pod-Single-Serve-Paper-Filters-100-Count-Pack-of-Paper-Filters-with-No-Lid/469192827",
+            "locator": "2026-07-14 · K-cup filters（按日期与标题定位，未取得平台单条评论 ID）"
+          }
+        ],
+        "reviewAccess": "仅 3 条公开索引中可见正文，不采用平台 AI 总结作为评论",
+        "listedRating": null,
+        "listedCount": null,
+        "listedWrittenCount": 534,
+        "price": null,
+        "priceNote": "索引存在时差，不作为核对日实时标价",
+        "checkedOn": "2026-10-18"
+      },
+      {
+        "id": "ebay-catalog-559853959",
+        "platform": "ebay",
+        "market": "US",
+        "itemId": "目录评论页 559853959",
+        "name": "BRBHOM Refillable Dolce Gusto Capsules, 3 Pack",
+        "zh": "3 只装可填充胶囊；目录声明 Dolce Gusto",
+        "system": "dolce-gusto",
+        "type": "reusable",
+        "brandStore": "以目录／商品标题定位，制造商及实际卖家需另核验",
+        "seller": "历史评论销售方与当前报价可能不同；不作为同店铺结论",
+        "source": "https://www.ebay.com/urw/BRBHOM-3-Reusable-Coffee-Capsules-Pod-for-Nescafe-Dolce-Gusto-Brewers-Refillable-2nd-Black/product-reviews/559853959",
+        "ranking": null,
+        "selection": "公开相关候选，非销量前十。约 4 个月前的公开索引；页面是目录商品评论，非具体卖家在售 Item ID。存在评论提及其他系统，保留归并疑点。",
+        "reviewRecords": [
+          {
+            "id": "local-catalog-559853959-2018-06-14",
+            "date": "2018-06-14",
+            "rating": null,
+            "variant": "目录／商品评论未逐条核对到当前报价的包装、版本与子变体",
+            "verified": true,
+            "reviewCountry": "评论者所在国家未核验；站点／界面语言不作为国籍依据",
+            "url": "https://www.ebay.com/urw/BRBHOM-3-Reusable-Coffee-Capsules-Pod-for-Nescafe-Dolce-Gusto-Brewers-Refillable-2nd-Black/product-reviews/559853959",
+            "locator": "2018-06-14 · Save Money（按日期和标题／正文开头定位；未取得单条评论 ID）"
+          },
+          {
+            "id": "local-catalog-559853959-2018-06-25",
+            "date": "2018-06-25",
+            "rating": null,
+            "variant": "目录／商品评论未逐条核对到当前报价的包装、版本与子变体",
+            "verified": true,
+            "reviewCountry": "评论者所在国家未核验；站点／界面语言不作为国籍依据",
+            "url": "https://www.ebay.com/urw/BRBHOM-3-Reusable-Coffee-Capsules-Pod-for-Nescafe-Dolce-Gusto-Brewers-Refillable-2nd-Black/product-reviews/559853959",
+            "locator": "2018-06-25 · Amazing（按日期和标题／正文开头定位；未取得单条评论 ID）"
+          },
+          {
+            "id": "local-catalog-559853959-2018-09-04",
+            "date": "2018-09-04",
+            "rating": null,
+            "variant": "目录／商品评论未逐条核对到当前报价的包装、版本与子变体",
+            "verified": true,
+            "reviewCountry": "评论者所在国家未核验；站点／界面语言不作为国籍依据",
+            "url": "https://www.ebay.com/urw/BRBHOM-3-Reusable-Coffee-Capsules-Pod-for-Nescafe-Dolce-Gusto-Brewers-Refillable-2nd-Black/product-reviews/559853959",
+            "locator": "2018-09-04 · 标题意为认可胶囊；含针孔定位步骤（按日期和标题／正文开头定位；未取得单条评论 ID）"
+          },
+          {
+            "id": "local-catalog-559853959-2018-02-07",
+            "date": "2018-02-07",
+            "rating": null,
+            "variant": "目录／商品评论未逐条核对到当前报价的包装、版本与子变体",
+            "verified": true,
+            "reviewCountry": "评论者所在国家未核验；站点／界面语言不作为国籍依据",
+            "url": "https://www.ebay.com/urw/BRBHOM-3-Reusable-Coffee-Capsules-Pod-for-Nescafe-Dolce-Gusto-Brewers-Refillable-2nd-Black/product-reviews/559853959",
+            "locator": "2018-02-07 · 标题意为开始节省费用（按日期和标题／正文开头定位；未取得单条评论 ID）"
+          },
+          {
+            "id": "local-catalog-559853959-2018-03-12",
+            "date": "2018-03-12",
+            "rating": null,
+            "variant": "目录／商品评论未逐条核对到当前报价的包装、版本与子变体",
+            "verified": true,
+            "reviewCountry": "评论者所在国家未核验；站点／界面语言不作为国籍依据",
+            "url": "https://www.ebay.com/urw/BRBHOM-3-Reusable-Coffee-Capsules-Pod-for-Nescafe-Dolce-Gusto-Brewers-Refillable-2nd-Black/product-reviews/559853959",
+            "locator": "2018-03-12 · 标题意为咖啡机配件不错（按日期和标题／正文开头定位；未取得单条评论 ID）"
+          },
+          {
+            "id": "local-catalog-559853959-2018-08-27",
+            "date": "2018-08-27",
+            "rating": null,
+            "variant": "目录／商品评论未逐条核对到当前报价的包装、版本与子变体",
+            "verified": true,
+            "reviewCountry": "评论者所在国家未核验；站点／界面语言不作为国籍依据",
+            "url": "https://www.ebay.com/urw/BRBHOM-3-Reusable-Coffee-Capsules-Pod-for-Nescafe-Dolce-Gusto-Brewers-Refillable-2nd-Black/product-reviews/559853959",
+            "locator": "2018-08-27 · Perfect!（按日期和标题／正文开头定位；未取得单条评论 ID）"
+          },
+          {
+            "id": "local-catalog-559853959-2018-09-01",
+            "date": "2018-09-01",
+            "rating": null,
+            "variant": "目录／商品评论未逐条核对到当前报价的包装、版本与子变体",
+            "verified": true,
+            "reviewCountry": "评论者所在国家未核验；站点／界面语言不作为国籍依据",
+            "url": "https://www.ebay.com/urw/BRBHOM-3-Reusable-Coffee-Capsules-Pod-for-Nescafe-Dolce-Gusto-Brewers-Refillable-2nd-Black/product-reviews/559853959",
+            "locator": "2018-09-01 · Open new coffee experience（按日期和标题／正文开头定位；未取得单条评论 ID）"
+          },
+          {
+            "id": "local-catalog-559853959-2018-01-16",
+            "date": "2018-01-16",
+            "rating": null,
+            "variant": "目录／商品评论未逐条核对到当前报价的包装、版本与子变体",
+            "verified": false,
+            "reviewCountry": "评论者所在国家未核验；站点／界面语言不作为国籍依据",
+            "url": "https://www.ebay.com/urw/BRBHOM-3-Reusable-Coffee-Capsules-Pod-for-Nescafe-Dolce-Gusto-Brewers-Refillable-2nd-Black/product-reviews/559853959",
+            "locator": "2018-01-16 · 标题意为还会购买备用（按日期和标题／正文开头定位；未取得单条评论 ID）"
+          },
+          {
+            "id": "local-catalog-559853959-2018-01-23",
+            "date": "2018-01-23",
+            "rating": null,
+            "variant": "目录／商品评论未逐条核对到当前报价的包装、版本与子变体",
+            "verified": true,
+            "reviewCountry": "评论者所在国家未核验；站点／界面语言不作为国籍依据",
+            "url": "https://www.ebay.com/urw/BRBHOM-3-Reusable-Coffee-Capsules-Pod-for-Nescafe-Dolce-Gusto-Brewers-Refillable-2nd-Black/product-reviews/559853959",
+            "locator": "2018-01-23 · 标题意为品质与咖啡表现不错（按日期和标题／正文开头定位；未取得单条评论 ID）"
+          },
+          {
+            "id": "local-catalog-559853959-2018-01-05",
+            "date": "2018-01-05",
+            "rating": null,
+            "variant": "目录／商品评论未逐条核对到当前报价的包装、版本与子变体",
+            "verified": true,
+            "reviewCountry": "评论者所在国家未核验；站点／界面语言不作为国籍依据",
+            "url": "https://www.ebay.com/urw/BRBHOM-3-Reusable-Coffee-Capsules-Pod-for-Nescafe-Dolce-Gusto-Brewers-Refillable-2nd-Black/product-reviews/559853959",
+            "locator": "2018-01-05 · USER FRIENDLY（按日期和标题／正文开头定位；未取得单条评论 ID）"
+          }
+        ],
+        "reviewAccess": "只计实际读到且日期可定位的正文；未取得单条星级，不用总评分代替",
+        "listedRating": 4.8,
+        "listedCount": 62,
+        "listedWrittenCount": 44,
+        "price": null,
+        "priceNote": "索引存在时差且目录聚合不同报价，不记录为核对日实时价格",
+        "checkedOn": "2026-10-18"
+      },
+      {
+        "id": "ebay-epid-22026746590",
+        "platform": "ebay",
+        "market": "US",
+        "itemId": "ePID 22026746590",
+        "name": "Perfect Pod Café-Flow K11200",
+        "zh": "K11200 可重复使用滤杯；目录内变体需另核对",
+        "system": "k-cup",
+        "type": "reusable",
+        "brandStore": "以目录／商品标题定位，制造商及实际卖家需另核验",
+        "seller": "历史评论销售方与当前报价可能不同；不作为同店铺结论",
+        "source": "https://www.ebay.com/p/22026746590",
+        "ranking": null,
+        "selection": "公开相关候选，非销量前十。约 2 个月前公开索引；ePID 是目录商品编号，非在售 Item ID。目录与所展示报价存在包装和标题差异，不把全部评语当作同一当前变体。",
+        "reviewRecords": [
+          {
+            "id": "local-epid-22026746590-2020-01-22",
+            "date": "2020-01-22",
+            "rating": null,
+            "variant": "目录／商品评论未逐条核对到当前报价的包装、版本与子变体",
+            "verified": true,
+            "reviewCountry": "评论者所在国家未核验；站点／界面语言不作为国籍依据",
+            "url": "https://www.ebay.com/p/22026746590",
+            "locator": "2020-01-22 · 标题意为认可可填充滤杯（按日期和标题／正文开头定位；未取得单条评论 ID）"
+          },
+          {
+            "id": "local-epid-22026746590-2021-11-15",
+            "date": "2021-11-15",
+            "rating": null,
+            "variant": "目录／商品评论未逐条核对到当前报价的包装、版本与子变体",
+            "verified": true,
+            "reviewCountry": "评论者所在国家未核验；站点／界面语言不作为国籍依据",
+            "url": "https://www.ebay.com/p/22026746590",
+            "locator": "2021-11-15 · No more plastic（按日期和标题／正文开头定位；未取得单条评论 ID）"
+          },
+          {
+            "id": "local-epid-22026746590-2021-08-31",
+            "date": "2021-08-31",
+            "rating": null,
+            "variant": "目录／商品评论未逐条核对到当前报价的包装、版本与子变体",
+            "verified": true,
+            "reviewCountry": "评论者所在国家未核验；站点／界面语言不作为国籍依据",
+            "url": "https://www.ebay.com/p/22026746590",
+            "locator": "2021-08-31 · 标题意为认可不锈钢滤杯（按日期和标题／正文开头定位；未取得单条评论 ID）"
+          },
+          {
+            "id": "local-epid-22026746590-2021-02-01",
+            "date": "2021-02-01",
+            "rating": null,
+            "variant": "目录／商品评论未逐条核对到当前报价的包装、版本与子变体",
+            "verified": true,
+            "reviewCountry": "评论者所在国家未核验；站点／界面语言不作为国籍依据",
+            "url": "https://www.ebay.com/p/22026746590",
+            "locator": "2021-02-01 · Very pleased（按日期和标题／正文开头定位；未取得单条评论 ID）"
+          },
+          {
+            "id": "local-epid-22026746590-2021-05-17",
+            "date": "2021-05-17",
+            "rating": null,
+            "variant": "目录／商品评论未逐条核对到当前报价的包装、版本与子变体",
+            "verified": true,
+            "reviewCountry": "评论者所在国家未核验；站点／界面语言不作为国籍依据",
+            "url": "https://www.ebay.com/p/22026746590",
+            "locator": "2021-05-17 · Awesome little gadget!（按日期和标题／正文开头定位；未取得单条评论 ID）"
+          },
+          {
+            "id": "local-epid-22026746590-2021-04-08",
+            "date": "2021-04-08",
+            "rating": null,
+            "variant": "目录／商品评论未逐条核对到当前报价的包装、版本与子变体",
+            "verified": true,
+            "reviewCountry": "评论者所在国家未核验；站点／界面语言不作为国籍依据",
+            "url": "https://www.ebay.com/p/22026746590",
+            "locator": "2021-04-08 · Excellent Cup of Coffee（按日期和标题／正文开头定位；未取得单条评论 ID）"
+          },
+          {
+            "id": "local-epid-22026746590-2021-05-31",
+            "date": "2021-05-31",
+            "rating": null,
+            "variant": "目录／商品评论未逐条核对到当前报价的包装、版本与子变体",
+            "verified": true,
+            "reviewCountry": "评论者所在国家未核验；站点／界面语言不作为国籍依据",
+            "url": "https://www.ebay.com/p/22026746590",
+            "locator": "2021-05-31 · 标题意为比丢弃塑料杯更好（按日期和标题／正文开头定位；未取得单条评论 ID）"
+          },
+          {
+            "id": "local-epid-22026746590-2021-02-23",
+            "date": "2021-02-23",
+            "rating": null,
+            "variant": "目录／商品评论未逐条核对到当前报价的包装、版本与子变体",
+            "verified": true,
+            "reviewCountry": "评论者所在国家未核验；站点／界面语言不作为国籍依据",
+            "url": "https://www.ebay.com/p/22026746590",
+            "locator": "2021-02-23 · 标题意为风味与清理方便（按日期和标题／正文开头定位；未取得单条评论 ID）"
+          },
+          {
+            "id": "local-epid-22026746590-2024-04-27",
+            "date": "2024-04-27",
+            "rating": null,
+            "variant": "目录／商品评论未逐条核对到当前报价的包装、版本与子变体",
+            "verified": true,
+            "reviewCountry": "评论者所在国家未核验；站点／界面语言不作为国籍依据",
+            "url": "https://www.ebay.com/p/22026746590",
+            "locator": "2024-04-27 · 标题意为发货快、效果好（按日期和标题／正文开头定位；未取得单条评论 ID）"
+          },
+          {
+            "id": "local-epid-22026746590-2026-04-21",
+            "date": "2026-04-21",
+            "rating": null,
+            "variant": "目录／商品评论未逐条核对到当前报价的包装、版本与子变体",
+            "verified": true,
+            "reviewCountry": "评论者所在国家未核验；站点／界面语言不作为国籍依据",
+            "url": "https://www.ebay.com/p/22026746590",
+            "locator": "2026-04-21 · 标题意为每天使用并满意（按日期和标题／正文开头定位；未取得单条评论 ID）"
+          }
+        ],
+        "reviewAccess": "只计实际读到且日期可定位的正文；未取得单条星级，不用总评分代替",
+        "listedRating": 4.8,
+        "listedCount": 83,
+        "listedWrittenCount": 75,
+        "price": null,
+        "priceNote": "索引存在时差且目录聚合不同报价，不记录为核对日实时价格",
+        "checkedOn": "2026-10-18"
+      },
+      {
+        "id": "allegro-13463394403",
+        "platform": "allegro",
+        "market": "PL",
+        "itemId": "Offer 13463394403",
+        "name": "Refillable Dolce Gusto Capsule, 40 ml",
+        "zh": "40 毫升可填充胶囊；平台声明 Dolce Gusto",
+        "system": "dolce-gusto",
+        "type": "reusable",
+        "brandStore": "以目录／商品标题定位，制造商及实际卖家需另核验",
+        "seller": "历史评论销售方与当前报价可能不同；不作为同店铺结论",
+        "source": "https://allegro.pl/oferta/kapsulka-wielokrotnego-uzytku-40ml-wielorazowa-do-dolce-gusto-ekspresu-kaw-13463394403",
+        "ranking": null,
+        "selection": "公开相关候选，非销量前十。约 3 周前公开索引；仅取得详情显示的一条评论。商品评论可聚合不同卖家，报价与评论销售方不强制等同。",
+        "reviewRecords": [
+          {
+            "id": "local-13463394403-2026-08-04",
+            "date": "2026-08-04",
+            "rating": null,
+            "variant": "目录／商品评论未逐条核对到当前报价的包装、版本与子变体",
+            "verified": true,
+            "reviewCountry": "评论者所在国家未核验；站点／界面语言不作为国籍依据",
+            "url": "https://allegro.pl/oferta/kapsulka-wielokrotnego-uzytku-40ml-wielorazowa-do-dolce-gusto-ekspresu-kaw-13463394403",
+            "locator": "2026-08-04 · 正文开头 Pasuje do ekspresu Dolce Gusto（按日期和标题／正文开头定位；未取得单条评论 ID）"
+          }
+        ],
+        "reviewAccess": "只计实际读到且日期可定位的正文；未取得单条星级，不用总评分代替",
+        "listedRating": 4.56,
+        "listedCount": 71,
+        "listedWrittenCount": 17,
+        "price": null,
+        "priceNote": "索引存在时差且目录聚合不同报价，不记录为核对日实时价格",
+        "checkedOn": "2026-10-18"
+      },
+      {
+        "id": "allegro-18044344801",
+        "platform": "allegro",
+        "market": "PL",
+        "itemId": "Offer 18044344801",
+        "name": "Refillable Tchibo Cafissimo Capsule",
+        "zh": "平台声明 Cafissimo 的不锈钢可填充胶囊",
+        "system": "cafissimo",
+        "type": "reusable",
+        "brandStore": "以目录／商品标题定位，制造商及实际卖家需另核验",
+        "seller": "历史评论销售方与当前报价可能不同；不作为同店铺结论",
+        "source": "https://allegro.pl/oferta/kapsulka-tchibo-cafissimo-wielokrotnego-uzytku-wielorazowe-stal-medyczna-18044344801",
+        "ranking": null,
+        "selection": "公开相关候选，非销量前十。公开索引约 2 周至 1 个月前；只记录索引中能将日期与正文对应的三条。没有将标题中的“医用钢”当作材料检测证据。",
+        "reviewRecords": [
+          {
+            "id": "local-18044344801-2026-01-07",
+            "date": "2026-01-07",
+            "rating": null,
+            "variant": "目录／商品评论未逐条核对到当前报价的包装、版本与子变体",
+            "verified": true,
+            "reviewCountry": "评论者所在国家未核验；站点／界面语言不作为国籍依据",
+            "url": "https://allegro.pl/oferta/kapsulka-tchibo-cafissimo-wielokrotnego-uzytku-wielorazowe-stal-medyczna-18044344801",
+            "locator": "2026-01-07 · 正文开头 Super sprawa（按日期和标题／正文开头定位；未取得单条评论 ID）"
+          },
+          {
+            "id": "local-18044344801-2025-03-11",
+            "date": "2025-03-11",
+            "rating": null,
+            "variant": "目录／商品评论未逐条核对到当前报价的包装、版本与子变体",
+            "verified": true,
+            "reviewCountry": "评论者所在国家未核验；站点／界面语言不作为国籍依据",
+            "url": "https://allegro.pl/oferta/kapsulka-tchibo-cafissimo-wielokrotnego-uzytku-wielorazowe-stal-medyczna-18044344801",
+            "locator": "2025-03-11 · 正文开头 W sumie to jestem（按日期和标题／正文开头定位；未取得单条评论 ID）"
+          },
+          {
+            "id": "local-18044344801-2026-07-29",
+            "date": "2026-07-29",
+            "rating": null,
+            "variant": "目录／商品评论未逐条核对到当前报价的包装、版本与子变体",
+            "verified": true,
+            "reviewCountry": "评论者所在国家未核验；站点／界面语言不作为国籍依据",
+            "url": "https://allegro.pl/oferta/kapsulka-tchibo-cafissimo-wielokrotnego-uzytku-wielorazowe-stal-medyczna-18044344801",
+            "locator": "2026-07-29 · 正文开头 Działa i sprawdza się（按日期和标题／正文开头定位；未取得单条评论 ID）"
+          }
+        ],
+        "reviewAccess": "只计实际读到且日期可定位的正文；未取得单条星级，不用总评分代替",
+        "listedRating": 4.83,
+        "listedCount": 184,
+        "listedWrittenCount": 66,
+        "price": null,
+        "priceNote": "索引存在时差且目录聚合不同报价，不记录为核对日实时价格",
+        "checkedOn": "2026-10-18"
       }
     ],
     "painTypes": {
@@ -7431,7 +8210,8 @@ window.COFFEE_CONTENT = {
       "material": "材料描述／气味待核验",
       "package": "配件缺漏／规格描述",
       "durability": "磨损／密封件／热形变",
-      "insufficient": "信息不足，暂不能诊断"
+      "insufficient": "信息不足，暂不能诊断",
+      "handling": "使用后温度／更换等待"
     },
     "cases": [
       {
@@ -8076,6 +8856,380 @@ window.COFFEE_CONTENT = {
         "machine": "未说明机型",
         "action": "补齐清洗、晾干、密封件检查与禁用条件；历史反馈仅作说明书设计线索。",
         "evidence": "平台公开索引中可见评论的中文转述，未经独立实测；保留原评论日期与索引滞后说明"
+      },
+      {
+        "id": "local-auc3512727739233-2025-06-16",
+        "date": "2025-06-16",
+        "rating": 2,
+        "variant": "评论未逐条给出子变体；按商品 ID 定位",
+        "verified": true,
+        "reviewCountry": "法国站；未单独核验评论者国家",
+        "url": "https://www.cdiscount.com/maison/art-de-la-table/capsule-de-cafe-reutilisable-rechargeable-d-acier/f-117902706-auc3512727739233.html",
+        "locator": "2025-06-16 · Utilisation（按日期与标题定位，未取得平台单条评论 ID）",
+        "product": "cdiscount-auc3512727739233",
+        "summary": "用户称装填配件不好用，且没有用于压粉的工具；尚未核对其所买变体应包含哪些配件。",
+        "tags": [
+          "package",
+          "cleaning"
+        ],
+        "machine": "未说明型号",
+        "action": "确认实发清单和装填流程；按具体胶囊说明验证是否需要压粉工具，不推广为通用压实建议。",
+        "evidence": "公开索引中可见评论的中文转述，属于历史资料，未经独立实测；未取得的单条星级保留为空"
+      },
+      {
+        "id": "local-aaaou33253-2025-08-09",
+        "date": "2025-08-09",
+        "rating": 1,
+        "variant": "评论未逐条给出子变体；按商品 ID 定位",
+        "verified": true,
+        "reviewCountry": "法国站；未单独核验评论者国家",
+        "url": "https://www.cdiscount.com/au-quotidien/alimentaire/coffret-capsules/f-12701050112-aaaou33253.html",
+        "locator": "2025-08-09 · Un peu déçu（按日期与标题定位，未取得平台单条评论 ID）",
+        "product": "cdiscount-aaaou33253",
+        "summary": "用户表示不喜欢冲出的咖啡，但没有说明机器、豆粉和设置，暂不能诊断为密封或兼容故障。",
+        "tags": [
+          "taste",
+          "insufficient"
+        ],
+        "machine": "未说明型号",
+        "action": "反馈表补充豆粉、粉量、杯量和机器信息，先排查条件，再判断是否需要改产品。",
+        "evidence": "公开索引中可见评论的中文转述，属于历史资料，未经独立实测；未取得的单条星级保留为空"
+      },
+      {
+        "id": "local-auc3512727907328-2022-09-30",
+        "date": "2022-09-30",
+        "rating": 1,
+        "variant": "评论未逐条给出子变体；按商品 ID 定位",
+        "verified": true,
+        "reviewCountry": "法国站；未单独核验评论者国家",
+        "url": "https://www.cdiscount.com/au-quotidien/alimentaire/capsule-de-cafe-reutilisable-capsule-rechargeable/f-12701050112-auc3512727907328.html",
+        "locator": "2022-09-30 · Inutilisable（按日期与标题定位，未取得平台单条评论 ID）",
+        "product": "cdiscount-auc3512727907328",
+        "summary": "用户称胶囊经常落到机器底部，未卡在正确位置，冲出效果也不满意；没有给出完整机型。",
+        "tags": [
+          "fit",
+          "taste"
+        ],
+        "machine": "未说明型号",
+        "action": "记录安装定位、锁紧与排出路径；不把其主观频率转为产品故障率，出现阻力或错位时停止测试。",
+        "evidence": "公开索引中可见评论的中文转述，属于历史资料，未经独立实测；未取得的单条星级保留为空"
+      },
+      {
+        "id": "local-auc3512727907328-2021-12-06",
+        "date": "2021-12-06",
+        "rating": 4,
+        "variant": "评论未逐条给出子变体；按商品 ID 定位",
+        "verified": true,
+        "reviewCountry": "法国站；未单独核验评论者国家",
+        "url": "https://www.cdiscount.com/au-quotidien/alimentaire/capsule-de-cafe-reutilisable-capsule-rechargeable/f-12701050112-auc3512727907328.html",
+        "locator": "2021-12-06 · bien（按日期与标题定位，未取得平台单条评论 ID）",
+        "product": "cdiscount-auc3512727907328",
+        "summary": "4 星用户询问哪里可以买替换密封圈。该反馈显示配件可获得性需求，未说明已经发生的密封圈故障。",
+        "tags": [
+          "durability",
+          "package"
+        ],
+        "machine": "未说明型号",
+        "action": "提供对应版本密封圈尺寸、替换步骤和补购入口；寿命仍要实测。",
+        "evidence": "公开索引中可见评论的中文转述，属于历史资料，未经独立实测；未取得的单条星级保留为空"
+      },
+      {
+        "id": "local-auc3512727907328-2021-04-10",
+        "date": "2021-04-10",
+        "rating": 4,
+        "variant": "评论未逐条给出子变体；按商品 ID 定位",
+        "verified": true,
+        "reviewCountry": "法国站；未单独核验评论者国家",
+        "url": "https://www.cdiscount.com/au-quotidien/alimentaire/capsule-de-cafe-reutilisable-capsule-rechargeable/f-12701050112-auc3512727907328.html",
+        "locator": "2021-04-10 · Très bon（按日期与标题定位，未取得平台单条评论 ID）",
+        "product": "cdiscount-auc3512727907328",
+        "summary": "4 星用户认可胶囊质量，但认为装填需要摸索，习惯后才容易使用。",
+        "tags": [
+          "cleaning"
+        ],
+        "machine": "未说明型号",
+        "action": "比较漏斗、装粉勺与简明教程能否减少试错和洒粉。",
+        "evidence": "公开索引中可见评论的中文转述，属于历史资料，未经独立实测；未取得的单条星级保留为空"
+      },
+      {
+        "id": "local-auc2008422552945-2023-11-06",
+        "date": "2023-11-06",
+        "rating": 1,
+        "variant": "评论未逐条给出子变体；按商品 ID 定位",
+        "verified": true,
+        "reviewCountry": "法国站；未单独核验评论者国家",
+        "url": "https://www.cdiscount.com/maison/art-de-la-table/sib-tasse-de-capsule-de-cafe-reutilisable-reutilis/f-117902706-auc2008422552945.html",
+        "locator": "2023-11-06 · nul（按日期与标题定位，未取得平台单条评论 ID）",
+        "product": "cdiscount-auc2008422552945",
+        "summary": "用户笼统表示缺少对咖啡的保护而无法使用，没有明确缺失的是哪一部件；不能直接判为漏发盖膜。",
+        "tags": [
+          "insufficient",
+          "package"
+        ],
+        "machine": "未说明型号",
+        "action": "先索取包装清单与缺件位置证据；给配件名称和安装示意对应编号。",
+        "evidence": "公开索引中可见评论的中文转述，属于历史资料，未经独立实测；未取得的单条星级保留为空"
+      },
+      {
+        "id": "local-lem0192596164188-2024-01-28",
+        "date": "2024-01-28",
+        "rating": null,
+        "variant": "评论未逐条给出子变体；按商品 ID 定位",
+        "verified": true,
+        "reviewCountry": "法国站；未单独核验评论者国家",
+        "url": "https://www.cdiscount.com/electromenager/petit-dejeuner-cafe/2pcs-pour-nespresso-capsule-filtre-reutilisable-ca/f-11017-lem0192596164188.html",
+        "locator": "2024-01-28 · Manque d’informations（按日期与标题定位，未取得平台单条评论 ID）",
+        "product": "cdiscount-lem0192596164188",
+        "summary": "用户提醒用后应及时倒出咖啡渣，否则会出现其所称的霉变；没有记录存放温度和时间，也没有检测资料。",
+        "tags": [
+          "cleaning"
+        ],
+        "machine": "未说明型号",
+        "action": "说明用后倒渣、清洗、充分晾干和存放步骤；不从评论推定材料不安全。",
+        "evidence": "公开索引中可见评论的中文转述，属于历史资料，未经独立实测；未取得的单条星级保留为空"
+      },
+      {
+        "id": "local-lem0192596164188-2020-05-11",
+        "date": "2020-05-11",
+        "rating": null,
+        "variant": "评论未逐条给出子变体；按商品 ID 定位",
+        "verified": true,
+        "reviewCountry": "法国站；未单独核验评论者国家",
+        "url": "https://www.cdiscount.com/electromenager/petit-dejeuner-cafe/2pcs-pour-nespresso-capsule-filtre-reutilisable-ca/f-11017-lem0192596164188.html",
+        "locator": "2020-05-11 · Pas solide（按日期与标题定位，未取得平台单条评论 ID）",
+        "product": "cdiscount-lem0192596164188",
+        "summary": "用户称使用数次后两只胶囊先后被机器压坏，并对是否操作错误表示不确定；可见正文有截断。",
+        "tags": [
+          "durability",
+          "fit"
+        ],
+        "machine": "未说明型号",
+        "action": "检查尺寸、合盖力与安装步骤；保留正文截断和操作不确定性，不据此认定失效原因。",
+        "evidence": "公开索引中可见评论的中文转述，属于历史资料，未经独立实测；未取得的单条星级保留为空"
+      },
+      {
+        "id": "local-lem0192596164188-2018-12-19",
+        "date": "2018-12-19",
+        "rating": null,
+        "variant": "评论未逐条给出子变体；按商品 ID 定位",
+        "verified": true,
+        "reviewCountry": "法国站；未单独核验评论者国家",
+        "url": "https://www.cdiscount.com/electromenager/petit-dejeuner-cafe/2pcs-pour-nespresso-capsule-filtre-reutilisable-ca/f-11017-lem0192596164188.html",
+        "locator": "2018-12-19 · bof !!（按日期与标题定位，未取得平台单条评论 ID）",
+        "product": "cdiscount-lem0192596164188",
+        "summary": "用户因尺寸太小而无法使用，并在评论中混用 Nespresso 与 Dolce Gusto 名称，目标系统不明确。",
+        "tags": [
+          "fit",
+          "package"
+        ],
+        "machine": "用户混用 Nespresso／Dolce Gusto；真实系统未确认",
+        "action": "标题和包装清晰区分两个系统，增加完整型号确认步骤和尺寸图，避免错购。",
+        "evidence": "公开索引中可见评论的中文转述，属于历史资料，未经独立实测；未取得的单条星级保留为空"
+      },
+      {
+        "id": "local-lem0192596164188-2018-10-31",
+        "date": "2018-10-31",
+        "rating": null,
+        "variant": "评论未逐条给出子变体；按商品 ID 定位",
+        "verified": true,
+        "reviewCountry": "法国站；未单独核验评论者国家",
+        "url": "https://www.cdiscount.com/electromenager/petit-dejeuner-cafe/2pcs-pour-nespresso-capsule-filtre-reutilisable-ca/f-11017-lem0192596164188.html",
+        "locator": "2018-10-31 · déception totale（按日期与标题定位，未取得平台单条评论 ID）",
+        "product": "cdiscount-lem0192596164188",
+        "summary": "用户用口语描述冲出的咖啡很淡；没有粉量、杯量和研磨信息，无法确定原因。",
+        "tags": [
+          "taste"
+        ],
+        "machine": "未说明型号",
+        "action": "用同豆同杯量逐项核对粉量、研磨和密封，不据此给出统一配方。",
+        "evidence": "公开索引中可见评论的中文转述，属于历史资料，未经独立实测；未取得的单条星级保留为空"
+      },
+      {
+        "id": "local-469192827-2026-07-28",
+        "date": "2026-07-28",
+        "rating": 5,
+        "variant": "100 张无盖纸滤；评论未给出所配滤杯完整型号",
+        "verified": true,
+        "reviewCountry": "美国站；未单独核验评论者国家",
+        "url": "https://www.walmart.com/ip/Perfect-Pod-Single-Serve-Paper-Filters-100-Count-Pack-of-Paper-Filters-with-No-Lid/469192827",
+        "locator": "2026-07-28 · Perfect pod filters（按日期与标题定位，未取得平台单条评论 ID）",
+        "product": "walmart-469192827",
+        "summary": "5 星用户称纸滤在其不锈钢可填充滤杯中减少沉渣、方便清理；本人没有遇到撕裂。其转述别人撕裂不算作本人故障。",
+        "tags": [
+          "grounds",
+          "cleaning"
+        ],
+        "machine": "不锈钢可填充 K-Cup 滤杯；未给完整机型",
+        "action": "核对纸滤尺寸与取出方法，比较沉渣、清洗时间和每杯耗材成本；不能从这条好评推出所有滤杯都适用。",
+        "evidence": "平台公开索引中可见评论的中文转述，未经独立实测；保留索引时差"
+      },
+      {
+        "id": "local-catalog-559853959-2018-06-14",
+        "date": "2018-06-14",
+        "rating": null,
+        "variant": "目录／商品评论未逐条核对到当前报价的包装、版本与子变体",
+        "verified": true,
+        "reviewCountry": "评论者所在国家未核验；站点／界面语言不作为国籍依据",
+        "url": "https://www.ebay.com/urw/BRBHOM-3-Reusable-Coffee-Capsules-Pod-for-Nescafe-Dolce-Gusto-Brewers-Refillable-2nd-Black/product-reviews/559853959",
+        "locator": "2018-06-14 · Save Money（按日期和标题／正文开头定位；未取得单条评论 ID）",
+        "product": "ebay-catalog-559853959",
+        "summary": "目录标题声明 Dolce Gusto，但这条评论提到 Keurig；可能存在目录归并或对象不一致，尚不能判定是哪一种。",
+        "tags": [
+          "insufficient"
+        ],
+        "machine": "评论提到 Keurig，与目录系统不一致",
+        "action": "核对评论所对应的产品版本和原始对象；不从这条评论推定 Dolce Gusto 与 K-Cup 可以通用。",
+        "evidence": "公开索引可见商品评论的中文转述，未经独立实测；单条星级未取得，目录评论不等于当前在售变体"
+      },
+      {
+        "id": "local-catalog-559853959-2018-09-04",
+        "date": "2018-09-04",
+        "rating": null,
+        "variant": "目录／商品评论未逐条核对到当前报价的包装、版本与子变体",
+        "verified": true,
+        "reviewCountry": "评论者所在国家未核验；站点／界面语言不作为国籍依据",
+        "url": "https://www.ebay.com/urw/BRBHOM-3-Reusable-Coffee-Capsules-Pod-for-Nescafe-Dolce-Gusto-Brewers-Refillable-2nd-Black/product-reviews/559853959",
+        "locator": "2018-09-04 · 标题意为认可胶囊；含针孔定位步骤（按日期和标题／正文开头定位；未取得单条评论 ID）",
+        "product": "ebay-catalog-559853959",
+        "summary": "用户认可重复使用效果，同时明确提醒装入时要把胶囊上方孔位对准机器下针位置。",
+        "tags": [
+          "fit"
+        ],
+        "machine": "Dolce Gusto（未给具体型号）",
+        "action": "说明书增加方向与孔位识别图；不把这条个人反馈改成所有型号通用的操作要求。",
+        "evidence": "公开索引可见商品评论的中文转述，未经独立实测；单条星级未取得，目录评论不等于当前在售变体"
+      },
+      {
+        "id": "local-catalog-559853959-2018-03-12",
+        "date": "2018-03-12",
+        "rating": null,
+        "variant": "目录／商品评论未逐条核对到当前报价的包装、版本与子变体",
+        "verified": true,
+        "reviewCountry": "评论者所在国家未核验；站点／界面语言不作为国籍依据",
+        "url": "https://www.ebay.com/urw/BRBHOM-3-Reusable-Coffee-Capsules-Pod-for-Nescafe-Dolce-Gusto-Brewers-Refillable-2nd-Black/product-reviews/559853959",
+        "locator": "2018-03-12 · 标题意为咖啡机配件不错（按日期和标题／正文开头定位；未取得单条评论 ID）",
+        "product": "ebay-catalog-559853959",
+        "summary": "用户表示不容易做出够浓的咖啡，并猜测还没找到合适研磨；没有报告具体粉量与出液量。",
+        "tags": [
+          "taste"
+        ],
+        "machine": "未说明型号",
+        "action": "把研磨、粉量、杯量和密封分开核对，不将用户猜测当成已证明原因。",
+        "evidence": "公开索引可见商品评论的中文转述，未经独立实测；单条星级未取得，目录评论不等于当前在售变体"
+      },
+      {
+        "id": "local-catalog-559853959-2018-09-01",
+        "date": "2018-09-01",
+        "rating": null,
+        "variant": "目录／商品评论未逐条核对到当前报价的包装、版本与子变体",
+        "verified": true,
+        "reviewCountry": "评论者所在国家未核验；站点／界面语言不作为国籍依据",
+        "url": "https://www.ebay.com/urw/BRBHOM-3-Reusable-Coffee-Capsules-Pod-for-Nescafe-Dolce-Gusto-Brewers-Refillable-2nd-Black/product-reviews/559853959",
+        "locator": "2018-09-01 · Open new coffee experience（按日期和标题／正文开头定位；未取得单条评论 ID）",
+        "product": "ebay-catalog-559853959",
+        "summary": "用户称可以装入原杯座，但定位没有明显标记；其提到的个人使用次数不作为寿命实测。",
+        "tags": [
+          "fit",
+          "cleaning"
+        ],
+        "machine": "未说明型号",
+        "action": "检查方向标记与安装步骤，记录不同用户首次装填耗时；寿命另用确定条件测试。",
+        "evidence": "公开索引可见商品评论的中文转述，未经独立实测；单条星级未取得，目录评论不等于当前在售变体"
+      },
+      {
+        "id": "local-epid-22026746590-2021-02-01",
+        "date": "2021-02-01",
+        "rating": null,
+        "variant": "目录／商品评论未逐条核对到当前报价的包装、版本与子变体",
+        "verified": true,
+        "reviewCountry": "评论者所在国家未核验；站点／界面语言不作为国籍依据",
+        "url": "https://www.ebay.com/p/22026746590",
+        "locator": "2021-02-01 · Very pleased（按日期和标题／正文开头定位；未取得单条评论 ID）",
+        "product": "ebay-epid-22026746590",
+        "summary": "用户为了较大杯量会分两次冲煮，并接受额外操作时间；评论中的健康、环境及其他品牌故障推测不作采纳。",
+        "tags": [
+          "taste",
+          "cleaning"
+        ],
+        "machine": "Keurig（未说明型号）",
+        "action": "记录杯量需求、每次粉量、重复冲煮和总操作时间；不把其个人配方当作机器通用建议。",
+        "evidence": "公开索引可见商品评论的中文转述，未经独立实测；单条星级未取得，目录评论不等于当前在售变体"
+      },
+      {
+        "id": "local-epid-22026746590-2021-05-31",
+        "date": "2021-05-31",
+        "rating": null,
+        "variant": "目录／商品评论未逐条核对到当前报价的包装、版本与子变体",
+        "verified": true,
+        "reviewCountry": "评论者所在国家未核验；站点／界面语言不作为国籍依据",
+        "url": "https://www.ebay.com/p/22026746590",
+        "locator": "2021-05-31 · 标题意为比丢弃塑料杯更好（按日期和标题／正文开头定位；未取得单条评论 ID）",
+        "product": "ebay-epid-22026746590",
+        "summary": "用户称装粉可能过多，湿粉膨胀时顶开杯盖并使渣进入杯中；本人对原因未确认，纸滤改善清理只是其设想。",
+        "tags": [
+          "sealing",
+          "grounds",
+          "taste"
+        ],
+        "machine": "未说明型号",
+        "action": "用同豆同杯量比较装粉上限、盖锁扣与加纸滤的条件；不将单一反馈当作结构缺陷定论。",
+        "evidence": "公开索引可见商品评论的中文转述，未经独立实测；单条星级未取得，目录评论不等于当前在售变体"
+      },
+      {
+        "id": "local-13463394403-2026-08-04",
+        "date": "2026-08-04",
+        "rating": null,
+        "variant": "目录／商品评论未逐条核对到当前报价的包装、版本与子变体",
+        "verified": true,
+        "reviewCountry": "评论者所在国家未核验；站点／界面语言不作为国籍依据",
+        "url": "https://allegro.pl/oferta/kapsulka-wielokrotnego-uzytku-40ml-wielorazowa-do-dolce-gusto-ekspresu-kaw-13463394403",
+        "locator": "2026-08-04 · 正文开头 Pasuje do ekspresu Dolce Gusto（按日期和标题／正文开头定位；未取得单条评论 ID）",
+        "product": "allegro-13463394403",
+        "summary": "用户认为该胶囊适配自己的 Dolce Gusto，清理和通水正常；为做出较浓咖啡，会选细磨并建议两只轮换。",
+        "tags": [
+          "taste",
+          "cleaning"
+        ],
+        "machine": "Dolce Gusto（未说明完整型号）",
+        "action": "按机器和胶囊说明验证粉量、研磨、杯量与轮换流程；细磨只是此用户经验，不适用于所有系统。",
+        "evidence": "公开索引可见商品评论的中文转述，未经独立实测；单条星级未取得，目录评论不等于当前在售变体"
+      },
+      {
+        "id": "local-18044344801-2025-03-11",
+        "date": "2025-03-11",
+        "rating": null,
+        "variant": "目录／商品评论未逐条核对到当前报价的包装、版本与子变体",
+        "verified": true,
+        "reviewCountry": "评论者所在国家未核验；站点／界面语言不作为国籍依据",
+        "url": "https://allegro.pl/oferta/kapsulka-tchibo-cafissimo-wielokrotnego-uzytku-wielorazowe-stal-medyczna-18044344801",
+        "locator": "2025-03-11 · 正文开头 W sumie to jestem（按日期和标题／正文开头定位；未取得单条评论 ID）",
+        "product": "allegro-18044344801",
+        "summary": "用户总体满意，但觉得咖啡稍淡，推测胶囊壁较厚使装粉空间较小；没有称量或尺寸实测。",
+        "tags": [
+          "taste"
+        ],
+        "machine": "Tchibo Cafissimo（未说明完整型号）",
+        "action": "测量实际装粉容量与出液量，保持同豆对照；不把用户的结构推测当成已验证原因。",
+        "evidence": "公开索引可见商品评论的中文转述，未经独立实测；单条星级未取得，目录评论不等于当前在售变体"
+      },
+      {
+        "id": "local-18044344801-2026-07-29",
+        "date": "2026-07-29",
+        "rating": null,
+        "variant": "目录／商品评论未逐条核对到当前报价的包装、版本与子变体",
+        "verified": true,
+        "reviewCountry": "评论者所在国家未核验；站点／界面语言不作为国籍依据",
+        "url": "https://allegro.pl/oferta/kapsulka-tchibo-cafissimo-wielokrotnego-uzytku-wielorazowe-stal-medyczna-18044344801",
+        "locator": "2026-07-29 · 正文开头 Działa i sprawdza się（按日期和标题／正文开头定位；未取得单条评论 ID）",
+        "product": "allegro-18044344801",
+        "summary": "用户称给两人连续做咖啡时，胶囊太热，无法立即重新装填，因此需要两只轮换；未给出冷却时间或温度。",
+        "tags": [
+          "handling",
+          "cleaning"
+        ],
+        "machine": "Tchibo Cafissimo（未说明完整型号）",
+        "action": "按产品说明记录取出、冷却、倒渣和重填的等待时间，评估双只套装；热状态下不要求用户立即徒手操作。",
+        "evidence": "公开索引可见商品评论的中文转述，未经独立实测；单条星级未取得，目录评论不等于当前在售变体"
       }
     ],
     "findings": [
@@ -8109,6 +9263,14 @@ window.COFFEE_CONTENT = {
         "tags": [
           "material",
           "durability"
+        ]
+      },
+      {
+        "name": "连续两杯的等待也值得记录",
+        "action": "测量取出、冷却、倒渣和重填所需时间，判断双只轮换套装、备用杯与取出工具的价值。评论中的热感和时间负担不是器具温度或寿命实测。",
+        "tags": [
+          "handling",
+          "cleaning"
         ]
       }
     ],
@@ -8399,6 +9561,31 @@ window.COFFEE_CONTENT = {
         ],
         "caveats": [
           "英国为非欧盟市场，保留 GBP 和英国站点；本页消费概览不能代表可填充胶囊销售额。"
+        ]
+      },
+      {
+        "id": "rakuten-fr-closure",
+        "countries": [
+          "FR"
+        ],
+        "title": "Rakuten France（乐天法国）官方运营公告",
+        "url": "https://fr.shopping.rakuten.com/?homescreen=1",
+        "published": "该公告页面未注明准确发布日；2026-10-18 核对",
+        "period": "2026-09-30 停止运营",
+        "location": "法国市场官网首页",
+        "quality": "平台官方运营声明",
+        "facts": [
+          {
+            "country": "FR",
+            "label": "法国市场运营状态",
+            "value": "已停止",
+            "unit": "新交易服务",
+            "note": "官方公告确认 2026-09-30 停止运营；旧商品索引不作为当前在售或销量证据。"
+          }
+        ],
+        "caveats": [
+          "这是法国市场业务的状态，不据此判断日本市场或全球 Rakuten 集团停运。",
+          "历史商品评论可作旧产品使用线索，不能代表停运后的实时价格和销售。"
         ]
       }
     ]
