@@ -72,6 +72,7 @@ function render() {
   document.querySelector('#breadcrumb').textContent = '产业研究 / ' + names[state.view];
   const hint = state.query ? `<p class="search-hint">搜索：“${esc(state.query)}” <button data-clear class="text-link">清除</button></p>` : '';
   if (state.view === 'research') { renderResearch(state.detail || 'compatibility'); return; }
+  if (state.view === 'commerce' && state.detail) { renderCommercePlatform(state.detail); return; }
   if (state.detail) { renderDocument(); return; }
   document.title = names[state.view] + ' · 咖啡产业观察';
   if (state.view === 'home') {

@@ -5039,7 +5039,1651 @@ window.COFFEE_CONTENT = {
         "name": "Google 关键词历史指标说明",
         "url": "https://developers.google.com/google-ads/api/docs/keyword-planning/generate-historical-metrics"
       }
-    ]
+    ],
+    "guidebook": {
+      "checkedOn": "2026-10-21",
+      "sortBasis": "按已核验完整财年的年度营收从高到低排序；财年、披露主体与业务范围可能不同，详情及原币种逐项注明。未取得单独或可核对收入的平台置后；广告工具不参与排序。",
+      "fx": {
+        "year": "2025",
+        "base": "EUR",
+        "rates": {
+          "EUR": 1,
+          "USD": 1.1299831372549
+        },
+        "name": "欧洲央行 2025 年均参考汇率",
+        "url": "https://data-api.ecb.europa.eu/service/data/EXR/A.USD.EUR.SP00.A?startPeriod=2025&endPeriod=2025&format=csvdata",
+        "note": "仅用于跨币种排序与参考折算；不是交易报价或各公司财报使用的实际汇率。跨至 2026 的财年亦沿用该固定参考，避免实时汇率改变排序。"
+      },
+      "sources": {
+        "amazon-fees": {
+          "name": "Amazon 德国定价与计划",
+          "url": "https://sell.amazon.de/en/preisgestaltung"
+        },
+        "amazon-start": {
+          "name": "Amazon 德国开店说明",
+          "url": "https://sell.amazon.de/en/online-verkaufen"
+        },
+        "ebay-start": {
+          "name": "eBay 官方跨境卖家入门手册（2023，历史参考）",
+          "url": "https://export.ebay.com/ebayhub_media/documents/eBay_Seller_Guide_2023%D1%81.pdf"
+        },
+        "ebay-fees": {
+          "name": "eBay 各站点费用目录",
+          "url": "https://developer.ebay.com/api-docs/user-guides/static/trading-user-guide/fees-by-marketplace.html"
+        },
+        "ebay-private": {
+          "name": "eBay 德国私人卖家费用",
+          "url": "https://www.ebay.de/help/selling/fees-credits/selling-fees?id=4822"
+        },
+        "temu-start": {
+          "name": "Temu 美国本地卖家中心及公开问答",
+          "url": "https://seller.temu.com/"
+        },
+        "shein-start": {
+          "name": "SHEIN 欧洲商家入口",
+          "url": "https://seller-eu.shein.com/get-started-shein-marketplac"
+        },
+        "shein-role": {
+          "name": "SHEIN 欧洲商家角色说明",
+          "url": "https://m.shein.com/eur/information-and-obligations-of-the-seller-a-3174.html"
+        },
+        "ali-start": {
+          "name": "AliExpress 商家入口（动态页面）",
+          "url": "https://sell.aliexpress.com/"
+        },
+        "ali-managed": {
+          "name": "AliExpress 全托管协议（2023，历史参考）",
+          "url": "https://terms.alicdn.com/legal-agreement/terms/b_end_product_protocol/20231011130622172/20231011130622172.pdf"
+        },
+        "tiktok-start": {
+          "name": "TikTok Shop 美国注册与主体类型",
+          "url": "https://seller-us.tiktok.com/university/course?content_id=3396404588660481&learning_id=6033035939809038"
+        },
+        "tiktok-terms": {
+          "name": "TikTok Shop 美国卖家条款",
+          "url": "https://seller-us.tiktok.com/university/essay?article_type=agreement&from=other&identity=1&knowledge_id=1331308753078058&role=1"
+        },
+        "tiktok-fees": {
+          "name": "TikTok Shop 美国佣金说明（2024 基础费率参考）",
+          "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=5982454398175018&lang=en"
+        },
+        "ads-budget": {
+          "name": "Google Ads 预算与费用说明",
+          "url": "https://ads.google.com/intl/en_us/intl/en_us/home/cost-tool/"
+        },
+        "ozon-start": {
+          "name": "Ozon 官方卖家入口",
+          "url": "https://seller.ozon.ru/"
+        },
+        "ozon-legal": {
+          "name": "Ozon 转售主体说明（俄罗斯本地）",
+          "url": "https://seller.ozon.ru/media/beginners/10-voprosov-pered-vyhodom-na-marketplejs/"
+        },
+        "ozon-fees": {
+          "name": "Ozon 2026-09-01 费用与销售模式说明",
+          "url": "https://seller.ozon.ru/media/beginners/za-chto-platyat-prodavcy-na-ozon/"
+        },
+        "dhgate-start": {
+          "name": "DHgate 官方商家入口（详细规则本轮未读到）",
+          "url": "https://seller.dhgate.com/"
+        },
+        "jumia-start": {
+          "name": "Jumia 尼日利亚卖家中心",
+          "url": "https://vendorhub.jumia.com.ng/"
+        },
+        "jumia-kyc": {
+          "name": "Jumia 尼日利亚身份资料要求",
+          "url": "https://vendorhub.jumia.com.ng/kyc-documents-mandatory/"
+        },
+        "allegro-start": {
+          "name": "Allegro 国际商家入驻介绍",
+          "url": "https://allegro.pl/help/sell-on-allegro"
+        },
+        "allegro-fees": {
+          "name": "Allegro 卖家费用与计算器",
+          "url": "https://help.allegro.com/en/fees/en"
+        },
+        "lazada-start": {
+          "name": "Lazada 中国当前招商页",
+          "url": "https://www.lazada.cn/store"
+        },
+        "lazada-deposit": {
+          "name": "Lazada 中国官方渠道与保证金说明（2022 历史参考）",
+          "url": "https://www.lazada.cn/newsdetail/170/5420"
+        },
+        "shopee-start": {
+          "name": "Shopee 中国入驻资料指南",
+          "url": "https://shopee.cn/cooperate/70/72/1329"
+        },
+        "shopee-managed": {
+          "name": "Shopee 2026 全托管招商说明",
+          "url": "https://shopee.cn/news/8/1599"
+        },
+        "meli-start": {
+          "name": "Mercado Libre 国际卖家 KYC（含中国）",
+          "url": "https://global-selling.mercadolibre.com/learning-center/news/what-you-should-know-about-the-kyc-process?guideKeyId=GE46"
+        },
+        "meli-fees": {
+          "name": "Mercado Libre Global Selling 费用",
+          "url": "https://global-selling.mercadolibre.com/landing/pricing"
+        },
+        "meli-managed": {
+          "name": "Mercado Libre 全托管定价方式",
+          "url": "https://global-selling.mercadolibre.com/devsite/en_us/size-chart-validation/fully-managed"
+        },
+        "cdiscount-start": {
+          "name": "Cdiscount 专业卖家费用与条件",
+          "url": "https://marketplace.cdiscount.com/en/prices/"
+        },
+        "wish-start": {
+          "name": "Wish 中国商家服务条款",
+          "url": "https://merchant.wish.com/terms-of-service?country=CN&version=6"
+        },
+        "wish-fees": {
+          "name": "Wish 商家政策与阶梯费率",
+          "url": "https://merchant.wish.com/policy"
+        },
+        "emag-start": {
+          "name": "eMAG 商家资料与开户步骤",
+          "url": "https://marketplace.emag.ro/infocenter/emag-academy/i-want-to-be-an-emag-marketplace-partner/?lang=en"
+        },
+        "emag-fees": {
+          "name": "eMAG 佣金与 FBE 费用",
+          "url": "https://marketplace.emag.ro/infocenter/start-selling/taxes-and-commissions/?lang=en"
+        },
+        "wb-start": {
+          "name": "Wildberries 合同与开户核验（白俄罗斯站点规则）",
+          "url": "https://seller.wildberries.ru/instructions/ru/by/material/contract-concluding-process"
+        },
+        "wb-fees": {
+          "name": "Wildberries 费用与服务说明（俄罗斯规则）",
+          "url": "https://seller.wildberries.ru/instructions/ru/ru/material/remuneration-and-ohter-payments"
+        },
+        "yandex-start": {
+          "name": "Yandex Market 跨境卖家入驻说明",
+          "url": "https://partner.market.yandex.com/welcome/crossborder"
+        },
+        "yandex-fees": {
+          "name": "Yandex Market 官方费用计算接口说明",
+          "url": "https://yandex.ru/dev/market/partner-api/doc/ru/reference/tariffs/calculateTariffs"
+        },
+        "rakuten-start": {
+          "name": "Rakuten 日本出店方案",
+          "url": "https://www.rakuten.co.jp/ec/plan/"
+        },
+        "rakuten-fees": {
+          "name": "Rakuten 日本各项收费说明",
+          "url": "https://www.rakuten.co.jp/ec/plan/cost_detail/"
+        },
+        "rakuten-fr": {
+          "name": "Rakuten France 官方停运公告",
+          "url": "https://fr.shopping.rakuten.com/?homescreen=1"
+        },
+        "walmart-start": {
+          "name": "Walmart 美国入驻要求（更新 2026-09-02）",
+          "url": "https://marketplacelearn.walmart.com/guides/Getting%20started/Onboarding/Before-you-start-selling-on-Walmart-Marketplace?locale=en-US"
+        },
+        "walmart-fees": {
+          "name": "Walmart 美国官方费用表",
+          "url": "https://marketplace.walmart.com/pricing/"
+        },
+        "otto-start": {
+          "name": "OTTO Market 入驻审核流程",
+          "url": "https://prd.otto.market/de/sofunktionierts/anmeldung.html"
+        },
+        "otto-fees": {
+          "name": "OTTO Market 官方费用与商家规则",
+          "url": "https://prd.otto.market/de/faq/faq.html"
+        },
+        "alibaba-start": {
+          "name": "Alibaba.com 卖家会员方案",
+          "url": "https://seller.alibaba.com/pricing?showAll=true"
+        },
+        "alibaba-us": {
+          "name": "Alibaba.com 美国会员推广页（不通用于中国方案）",
+          "url": "https://sale.alibaba.com/us/home"
+        },
+        "coupang-start": {
+          "name": "Coupang 国际卖家开户问答",
+          "url": "https://globalsellers.coupang.com/en/faq/"
+        },
+        "etsy-start": {
+          "name": "Etsy 卖家与原创／转售政策",
+          "url": "https://www.etsy.com/legal/sellers"
+        },
+        "etsy-china": {
+          "name": "Etsy Payments 国家与新店限制",
+          "url": "https://help.etsy.com/hc/en-us/articles/115015710408-Countries-Eligible-for-Etsy-Payments"
+        },
+        "etsy-fees": {
+          "name": "Etsy 官方收费政策",
+          "url": "https://www.etsy.com/legal/fees"
+        },
+        "vinted-start": {
+          "name": "Vinted 专业卖家规则与开放国家",
+          "url": "https://www.vinted.com/help/918-guide-pour-les-vendeurs-pro-sur-vinted"
+        },
+        "vinted-catalog": {
+          "name": "Vinted 所链接站点品类与商业销售规则",
+          "url": "https://www.vinted.com/catalog-rules"
+        },
+        "vinted-fees": {
+          "name": "Vinted 英国卖家免费说明",
+          "url": "https://www.vinted.co.uk/help/418/373-ar-det-gratis-att-salja-pa-vinted"
+        },
+        "olx-start": {
+          "name": "OLX 集团与各地品牌",
+          "url": "https://www.olxgroup.com/"
+        },
+        "olx-pl": {
+          "name": "OLX 波兰企业业务入口",
+          "url": "https://biznes.olx.pl/"
+        },
+        "olx-fees": {
+          "name": "OLX 波兰刊登方案计算器",
+          "url": "https://biznes.olx.pl/kalkulator-ofert/"
+        },
+        "zalando-start": {
+          "name": "Zalando 邀请制与入驻要求（更新 2026-09-29）",
+          "url": "https://partner.zalando.com/university/article/country-specific-onboarding-requirements"
+        },
+        "zalando-model": {
+          "name": "Zalando 合作模式与佣金结算说明",
+          "url": "https://partner.zalando.com/partnership/partnership-models"
+        },
+        "abebooks-start": {
+          "name": "AbeBooks 商家申请与 Basic／Premium 费用",
+          "url": "https://www.abebooks.com/books/sell/"
+        },
+        "stockx-start": {
+          "name": "StockX 个人与企业收款认证",
+          "url": "https://stockx.com/help/en-us/articles/how-do-i-verify-my-identity-for-seller-payouts"
+        },
+        "stockx-fees": {
+          "name": "StockX 卖家等级与交易费",
+          "url": "https://stockx.com/about/en-gb/selling-en-gb/"
+        },
+        "stockx-company": {
+          "name": "StockX 公司与公开业务资料",
+          "url": "https://stockx.com/about/company/"
+        },
+        "amazon-revenue": {
+          "name": "Amazon 2025 全年结果",
+          "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Fourth-Quarter-Results/default.aspx"
+        },
+        "walmart-revenue": {
+          "name": "Walmart FY2026 全年财报",
+          "url": "https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-26-000032/earningsreleasefy26q4.htm"
+        },
+        "coupang-revenue": {
+          "name": "Coupang 2025 全年结果",
+          "url": "https://ir.aboutcoupang.com/news-events/news/news-details/2026/Coupang-Announces-Results-for-Fourth-Quarter-2025/default.aspx"
+        },
+        "meli-revenue": {
+          "name": "MercadoLibre 2025 分部营收（SEC）",
+          "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000006/R16.htm"
+        },
+        "shopee-revenue": {
+          "name": "Sea 2025 Shopee 分部全年结果（SEC）",
+          "url": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526088151/d106475dex991.htm"
+        },
+        "zalando-revenue": {
+          "name": "Zalando 2025 全年财报",
+          "url": "https://corporate.zalando.com/en/investor-relations/zalando-full-year-2025-results"
+        },
+        "ebay-revenue": {
+          "name": "eBay 2025 全年结果",
+          "url": "https://investors.ebayinc.com/investor-news/press-release-details/2026/eBay-Inc--Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx"
+        },
+        "etsy-revenue": {
+          "name": "Etsy 2025 全年合并结果",
+          "url": "https://investors.etsy.com/news-events/press-releases/detail/218/etsy-inc-reports-fourth-quarter-and-full-year-2025-results"
+        },
+        "vinted-revenue": {
+          "name": "Vinted 2025 年度业绩",
+          "url": "https://company.vinted.com/newsroom/financial-results-2025"
+        },
+        "olx-revenue": {
+          "name": "OLX 截至 2026-03-31 财年业绩",
+          "url": "https://www.olxgroup.com/news/olx-group-continues-strong-performance-as-motors-real-estate-and-jobs-drive-growth/"
+        },
+        "jumia-revenue": {
+          "name": "Jumia 2025 全年结果",
+          "url": "https://investor.jumia.com/news/news-details/2026/Jumia-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx"
+        },
+        "alibaba-revenue": {
+          "name": "Alibaba FY2026 财报目录（合并业务，非单个平台）",
+          "url": "https://www.alibabagroup.com/en-US/ir-financial-reports-financial-results"
+        },
+        "allegro-revenue": {
+          "name": "Allegro 官方财报目录",
+          "url": "https://about.allegro.eu/investors/financial-results/"
+        },
+        "otto-revenue": {
+          "name": "OTTO 2025/26 公开 GMV 公告",
+          "url": "https://www.otto.de/unternehmen/de/presse/rund-7-5-milliarden-euro-otto-steigert-erneut-umsatz-und-treibt-ki-gest%C3%BCtzte-einkaufserlebnisse"
+        },
+        "rakuten-revenue": {
+          "name": "Rakuten 2025 合并业绩（非商城单独收入）",
+          "url": "https://global.rakuten.com/corp/news/press/2026/0212_01.html"
+        },
+        "yandex-revenue": {
+          "name": "Yandex 2025 财报（合并板块）",
+          "url": "https://ir.yandex.ru/financial-releases?report=q4&year=2025"
+        },
+        "cdiscount-revenue": {
+          "name": "Casino 2025 年度销售额公告",
+          "url": "https://www.groupe-casino.fr/wp-content/uploads/2026/02/2026-02-26-PR-Q4-and-FY-2025-net-sales.pdf"
+        }
+      },
+      "profiles": {
+        "amazon": {
+          "market": "德国／欧洲站；费用不含 VAT",
+          "individual": "有 Individual（个人销售计划）；计划名不等于中国自然人免执照资格。",
+          "business": "有 Professional（专业销售计划），企业及合法经营主体需通过验证。",
+          "china": "需按中国卖家通道核验营业主体；本页不把德国计划名称当作中国个人准入证明。",
+          "requirements": [
+            "核验身份、经营主体、收款账户与地址",
+            "按销售国及产品类目核对商品资料和税务要求"
+          ],
+          "models": [
+            "Marketplace（第三方卖家）",
+            "FBA（平台仓配）或卖家自行履约"
+          ],
+          "fees": [
+            {
+              "item": "月费／按件费",
+              "value": "Professional：€39/月；Individual：€0.99/件，均另加销售佣金。",
+              "refs": [
+                "amazon-fees"
+              ]
+            },
+            {
+              "item": "佣金与物流",
+              "value": "官方概述多数类目 8%—15%；胶囊、食品和配件须分别核对类目费率。FBA、仓储、广告另计。",
+              "refs": [
+                "amazon-fees"
+              ]
+            }
+          ],
+          "refs": [
+            "amazon-start",
+            "amazon-fees"
+          ],
+          "rulesRef": "amazon-start",
+          "limits": [],
+          "revenue": {
+            "amount": 716900000000,
+            "currency": "USD",
+            "entity": "Amazon.com, Inc.",
+            "scope": "集团合并净销售额，含 AWS、广告和零售；非单独 Marketplace 收入。",
+            "ref": "amazon-revenue",
+            "from": "2025-01-01",
+            "to": "2025-12-31",
+            "label": "2025"
+          }
+        },
+        "ebay": {
+          "market": "各站点、居住地与私人／商业身份分别定价",
+          "individual": "存在私人卖家与商业卖家；持续经营不能套用私人闲置销售规则。",
+          "business": "支持商业卖家；核验经营资料、收款和税务信息。",
+          "china": "跨境账户主体、收款和额度按中国卖家审核；不套用德国居民私人卖家的免费规则。",
+          "requirements": [
+            "个人／企业主体与收款资料验证",
+            "选择销售站点、刊登类目和店铺订阅后核算费用"
+          ],
+          "models": [
+            "拍卖或固定价",
+            "卖家自营、管理支付与自行履约"
+          ],
+          "fees": [
+            {
+              "item": "年费／订阅",
+              "value": "不同站点有非店铺与店铺订阅方案；没有可通用于所有地区的统一年费。",
+              "refs": [
+                "ebay-fees"
+              ]
+            },
+            {
+              "item": "平台抽点",
+              "value": "成交费、每单固定费、跨境与货币转换费依站点和主体而定；直接查看该站费用表。",
+              "refs": [
+                "ebay-fees"
+              ]
+            }
+          ],
+          "refs": [
+            "ebay-fees",
+            "ebay-private",
+            "ebay-start"
+          ],
+          "rulesRef": "ebay-fees",
+          "limits": [
+            "2023 跨境手册仅辅助解释流程，不作为 2026 当前费率。"
+          ],
+          "revenue": {
+            "amount": 11100000000,
+            "currency": "USD",
+            "entity": "eBay Inc.",
+            "scope": "全年集团收入；官方概述约 111 亿美元，不是 GMV。",
+            "ref": "ebay-revenue",
+            "from": "2025-01-01",
+            "to": "2025-12-31",
+            "label": "2025"
+          }
+        },
+        "temu": {
+          "market": "已核对美国本地卖家入口；不等于中国跨境招商",
+          "individual": "美国本地页面列有个人申请，须验证居住／身份资料。",
+          "business": "美国本地页面支持企业，需公司信息、EIN 与受益人／代表身份资料。",
+          "china": "中国跨境供货及托管模式须用相应招商合同，不能直接套用美国本地个人政策。",
+          "requirements": [
+            "选择注册地或个人居住地",
+            "身份或企业、地址与收款核验"
+          ],
+          "models": [
+            "美国本地卖家自营履约",
+            "跨境托管／供货模式需另核合同"
+          ],
+          "fees": [
+            {
+              "item": "注册费",
+              "value": "所链接美国本地入口明确免费注册。",
+              "refs": [
+                "temu-start"
+              ]
+            },
+            {
+              "item": "佣金／保证金",
+              "value": "以注册地区、招商模式与签约页面为准；本轮未取得可覆盖中国供货模式的统一费率表。",
+              "refs": [
+                "temu-start"
+              ]
+            }
+          ],
+          "refs": [
+            "temu-start"
+          ],
+          "rulesRef": "temu-start",
+          "limits": [],
+          "revenue": {
+            "amount": null,
+            "reason": "未取得 Temu 单独年度收入；不以 PDD 集团收入代替。",
+            "ref": "temu-start"
+          }
+        },
+        "shein": {
+          "market": "欧洲第三方 Marketplace（平台商家）",
+          "individual": "欧洲说明要求专业经营者；未验证纯私人闲置账户准入。",
+          "business": "支持专业商家，需提供企业登记、税务与身份核验资料。",
+          "china": "欧洲本地 Marketplace 与中国供应商／托管通道不同；中国主体申请须由招商审核。",
+          "requirements": [
+            "经营主体与税务资料",
+            "品类、商品合规、库存和履约审核"
+          ],
+          "models": [
+            "平台撮合第三方专业商家销售",
+            "本地商家与供货／托管的责任分工不同"
+          ],
+          "fees": [
+            {
+              "item": "注册／年费",
+              "value": "本轮未取得欧洲当前统一公开年费；不能据其他地区促销写成永久免费。",
+              "refs": [
+                "shein-start"
+              ]
+            },
+            {
+              "item": "佣金／履约",
+              "value": "费率、优惠期限和履约责任以欧洲商家合同为准；未录入未经核对的百分比。",
+              "refs": [
+                "shein-start"
+              ]
+            }
+          ],
+          "refs": [
+            "shein-start",
+            "shein-role"
+          ],
+          "rulesRef": "shein-start",
+          "limits": [],
+          "revenue": {
+            "amount": null,
+            "reason": "本轮未取得可核对的完整年度平台收入，不填零、不用成交额或母公司收入替代。",
+            "ref": "shein-start"
+          }
+        },
+        "aliexpress": {
+          "market": "中国跨境商家；自营与托管分别审核",
+          "individual": "本轮未从可读官方规则核实无执照自然人的新店资格。",
+          "business": "企业／经营主体资格须在官方招商入口核验；不同项目另有要求。",
+          "china": "使用中国商家官方入口；不将海外本地卖家的主体规则套用于中国跨境。",
+          "requirements": [
+            "选择自营／托管项目后查看资料清单",
+            "核对营业主体、类目、结算与交货责任"
+          ],
+          "models": [
+            "自营跨境店铺",
+            "Choice／全托管合同模式，供货结算不等于零售销售额"
+          ],
+          "fees": [
+            {
+              "item": "年费／保证金",
+              "value": "详细招商页面为动态入口，本轮未读到当前统一标准，保留待官方确认。",
+              "refs": [
+                "ali-start"
+              ]
+            },
+            {
+              "item": "抽点／结算",
+              "value": "自营佣金与托管供货结算不能混用；具体类目和合同费率待核对。",
+              "refs": [
+                "ali-managed"
+              ]
+            }
+          ],
+          "refs": [
+            "ali-start",
+            "ali-managed"
+          ],
+          "rulesRef": "ali-start",
+          "limits": [
+            "官方动态招商入口本轮未成功读取；2023 托管协议仅为模式参考，不作为当前费率。"
+          ],
+          "revenue": {
+            "amount": null,
+            "reason": "Alibaba 财报合并国际业务，未取得 AliExpress 单独全年收入。",
+            "ref": "alibaba-revenue"
+          }
+        },
+        "tiktok": {
+          "market": "美国本地 TikTok Shop；中国跨境与欧洲规则另核",
+          "individual": "美国注册流程有 Individual（个人）选项，须通过身份与地区核验。",
+          "business": "美国本地支持企业、合伙及独资经营类型。",
+          "china": "美国本地个人通道不等于中国自然人可入驻；中国跨境资格与保证金另按项目审核。",
+          "requirements": [
+            "身份／经营主体、收款与税务核验",
+            "目标国家、类目和物流服务要求"
+          ],
+          "models": [
+            "内容／直播带货与店铺",
+            "卖家自营、达人分销与平台物流服务"
+          ],
+          "fees": [
+            {
+              "item": "年费／保证金",
+              "value": "本轮未取得中国跨境及欧洲通用标准，按地区与项目确认。",
+              "refs": [
+                "tiktok-terms"
+              ]
+            },
+            {
+              "item": "佣金参考",
+              "value": "美国官方 2024 基础说明为合格订单 6%；这是带年份的参考，当前订单须以类目表和卖家中心为准。",
+              "refs": [
+                "tiktok-fees"
+              ]
+            },
+            {
+              "item": "其他成本",
+              "value": "达人佣金、广告、物流与退款处理须另计，不与平台基础佣金混合。",
+              "refs": [
+                "tiktok-terms"
+              ]
+            }
+          ],
+          "refs": [
+            "tiktok-start",
+            "tiktok-terms",
+            "tiktok-fees"
+          ],
+          "rulesRef": "tiktok-start",
+          "limits": [],
+          "revenue": {
+            "amount": null,
+            "reason": "本轮未取得可核对的完整年度平台收入，不填零、不用成交额或母公司收入替代。",
+            "ref": "tiktok-start"
+          }
+        },
+        "google-ads": {
+          "market": "广告账户，非商品交易市场",
+          "individual": "可创建符合地区及身份验证要求的广告账户；不属于电商开店资格。",
+          "business": "企业可开户并完成广告主身份验证。",
+          "china": "按广告账户所在地区、支付与广告政策核验。",
+          "requirements": [
+            "广告主与支付资料",
+            "可访问的落地页及合规广告内容"
+          ],
+          "models": [
+            "按广告竞价与预算投放，为自有店铺或网站引流"
+          ],
+          "fees": [
+            {
+              "item": "年费／抽点",
+              "value": "无商品交易佣金口径；广告预算和竞价费用不等于平台销售额。",
+              "refs": [
+                "ads-budget"
+              ]
+            },
+            {
+              "item": "广告成本",
+              "value": "预算由广告主设置，按广告计费方式消耗；不将代理商服务费算作 Google 平台年费。",
+              "refs": [
+                "ads-budget"
+              ]
+            }
+          ],
+          "refs": [
+            "ads-budget"
+          ],
+          "rulesRef": "ads-budget",
+          "limits": [],
+          "revenue": {
+            "amount": null,
+            "reason": "广告服务，不作为电商交易平台参与年度营收排序。",
+            "ref": "ads-budget"
+          }
+        },
+        "ozon": {
+          "market": "俄罗斯本地规则为参考；中国跨境需 Global 通道",
+          "individual": "俄罗斯自雇身份有范围限制；转售商品要求企业或个体经营者。",
+          "business": "当地企业与个体经营者可按规则申请。",
+          "china": "需确认 Ozon Global 当前接受的主体、银行与跨境物流，不能直接套本地自雇规则。",
+          "requirements": [
+            "经营与收款主体核验",
+            "按具体销售模式核对商品、结算和配送"
+          ],
+          "models": [
+            "FBO（平台仓）",
+            "FBS／realFBS（卖家库存与不同履约分工）"
+          ],
+          "fees": [
+            {
+              "item": "注册／年费",
+              "value": "所链接俄罗斯卖家首页说明免费注册；Premium 等可选服务另计，中国跨境费用另核。",
+              "refs": [
+                "ozon-start"
+              ]
+            },
+            {
+              "item": "抽点／物流",
+              "value": "佣金按类目及 FBO／FBS／realFBS 方案确定，物流、仓储及推广服务分别收费。",
+              "refs": [
+                "ozon-fees"
+              ]
+            }
+          ],
+          "refs": [
+            "ozon-start",
+            "ozon-legal",
+            "ozon-fees"
+          ],
+          "rulesRef": "ozon-start",
+          "limits": [],
+          "revenue": {
+            "amount": null,
+            "reason": "本轮未取得可核对的完整年度平台收入，不填零、不用成交额或母公司收入替代。",
+            "ref": "ozon-start"
+          }
+        },
+        "dhgate": {
+          "market": "中国跨境 B2B／零售商家入口；规则待补核验",
+          "individual": "本轮未核实当前自然人资格。",
+          "business": "本轮未读到当前可核对的主体清单，需官方商家后台确认。",
+          "china": "进入官方商家入口核对中国主体要求，未以第三方招商报价替代官方规则。",
+          "requirements": [
+            "营业主体、收款与类目要求待官方核实"
+          ],
+          "models": [
+            "跨境批发／零售；具体履约和结算责任依卖家协议"
+          ],
+          "fees": [
+            {
+              "item": "年费／保证金",
+              "value": "本轮未取得可读官方收费表。",
+              "refs": [
+                "dhgate-start"
+              ]
+            },
+            {
+              "item": "佣金",
+              "value": "未录入未经官方核对的百分比；请在正式商家规则或后台确认。",
+              "refs": [
+                "dhgate-start"
+              ]
+            }
+          ],
+          "refs": [
+            "dhgate-start"
+          ],
+          "rulesRef": "dhgate-start",
+          "limits": [
+            "该官方入口本轮无法自动读取，资格和费用保持“未核实”，不填零。"
+          ],
+          "revenue": {
+            "amount": null,
+            "reason": "本轮未取得可核对的完整年度平台收入，不填零、不用成交额或母公司收入替代。",
+            "ref": "dhgate-start"
+          }
+        },
+        "jumia": {
+          "market": "尼日利亚站点；其他国家和国际供货分别申请",
+          "individual": "本轮未确认该站可用的自然人身份类型，按 KYC 文件表核验。",
+          "business": "支持商家申请，需完成 KYC 及收款资料。",
+          "china": "中国国际供货项目与非洲本地卖家身份不同，本页不保证中国个人直开。",
+          "requirements": [
+            "提交站点要求的 KYC 文件",
+            "收款、商品资料与履约审核"
+          ],
+          "models": [
+            "第三方商家自营",
+            "可用仓配服务按国家申请"
+          ],
+          "fees": [
+            {
+              "item": "年费／固定费",
+              "value": "所链接官方页面强调成功售出后收取佣金；是否另有服务或账户费用按站点合同核实。",
+              "refs": [
+                "jumia-start"
+              ]
+            },
+            {
+              "item": "佣金／物流",
+              "value": "类目和国家决定费率，物流及仓储另核；不套用旧肯尼亚费表。",
+              "refs": [
+                "jumia-start"
+              ]
+            }
+          ],
+          "refs": [
+            "jumia-start",
+            "jumia-kyc"
+          ],
+          "rulesRef": "jumia-start",
+          "limits": [],
+          "revenue": {
+            "amount": 188900000,
+            "currency": "USD",
+            "entity": "Jumia Technologies AG",
+            "scope": "2025 全年收入；非 GMV。",
+            "ref": "jumia-revenue",
+            "from": "2025-01-01",
+            "to": "2025-12-31",
+            "label": "2025"
+          }
+        },
+        "allegro": {
+          "market": "波兰及其他已开放站点；国际商家",
+          "individual": "私人账户与商业经营不同，跨境经营以公司账户规则核验。",
+          "business": "官方国际招商使用公司账户；需完成企业与账户验证。",
+          "china": "中国注册主体是否可用的结算和配送安排须按公司注册国家选择并审核。",
+          "requirements": [
+            "公司和收款信息验证",
+            "产品、配送、退货及适用税务资料"
+          ],
+          "models": [
+            "第三方 Marketplace 自营",
+            "可选物流、Smart! 与广告服务"
+          ],
+          "fees": [
+            {
+              "item": "年费／订阅",
+              "value": "基础费用为销售佣金；可选订阅、推广和部分服务另计。新商家限期活动不作为常规费率。",
+              "refs": [
+                "allegro-fees"
+              ]
+            },
+            {
+              "item": "抽点",
+              "value": "按类目、成交金额与站点计算，使用官方费用计算器核算具体胶囊／配件。",
+              "refs": [
+                "allegro-fees"
+              ]
+            }
+          ],
+          "refs": [
+            "allegro-start",
+            "allegro-fees"
+          ],
+          "rulesRef": "allegro-start",
+          "limits": [],
+          "revenue": {
+            "amount": null,
+            "reason": "已定位 2025 官方年报，但下载与原表核对尚未完成，本轮未录入未验证的全年数字。",
+            "ref": "allegro-revenue"
+          }
+        },
+        "lazada": {
+          "market": "中国跨境招商入口，面向东南亚",
+          "individual": "当前招商页明确：个体工商户执照暂不支持；不推定自然人可入驻。",
+          "business": "当前招商页要求中国注册的企业营业执照。",
+          "china": "按当前中国招商页审核，旧博客主体表述不用于覆盖当前要求。",
+          "requirements": [
+            "企业营业执照及经营资料",
+            "收款与类目审核，按所选项目核对履约"
+          ],
+          "models": [
+            "跨境自营店铺",
+            "物流／托管项目按协议选择"
+          ],
+          "fees": [
+            {
+              "item": "保证金",
+              "value": "官方旧渠道说明出现人民币 3,000 元保证金；属于历史参考，当前金额和项目适用性须确认。",
+              "refs": [
+                "lazada-deposit"
+              ]
+            },
+            {
+              "item": "佣金／年费",
+              "value": "当前招商页展示 6%—7% 宣传口径；具体国家、类目及其他服务费需查当前合同，不能当全站综合成本。",
+              "refs": [
+                "lazada-start"
+              ]
+            }
+          ],
+          "refs": [
+            "lazada-start",
+            "lazada-deposit"
+          ],
+          "rulesRef": "lazada-start",
+          "limits": [],
+          "revenue": {
+            "amount": null,
+            "reason": "Alibaba 财报合并国际业务，未取得 Lazada 单独全年收入。",
+            "ref": "alibaba-revenue"
+          }
+        },
+        "shopee": {
+          "market": "中国跨境自营与全托管，面向东南亚／部分拉美",
+          "individual": "支持符合资料要求的个体工商户；不同于无执照自然人。",
+          "business": "企业可按中国招商流程申请。",
+          "china": "官方资料指南区分企业与个体工商户执照；经营者和收款核验按项目完成。",
+          "requirements": [
+            "合法营业执照与身份核验",
+            "确认自营或全托管，按站点补商品及履约资料"
+          ],
+          "models": [
+            "跨境自营店铺",
+            "全托管供货，费用及责任与自营不同"
+          ],
+          "fees": [
+            {
+              "item": "2026 全托管招商方案",
+              "value": "官方列出 0佣金、0保证金、0年费、0仓储费；仅限该全托管方案和适用条件，不代表自营全免费。",
+              "refs": [
+                "shopee-managed"
+              ]
+            },
+            {
+              "item": "自营费用",
+              "value": "销售、支付、物流与活动费按目的站及类目核算，本轮未填统一比例。",
+              "refs": [
+                "shopee-start"
+              ]
+            }
+          ],
+          "refs": [
+            "shopee-start",
+            "shopee-managed"
+          ],
+          "rulesRef": "shopee-start",
+          "limits": [],
+          "revenue": {
+            "amount": 16600000000,
+            "currency": "USD",
+            "entity": "Shopee（Sea 电商分部）",
+            "scope": "分部 GAAP 总收入，含 marketplace 及商品销售；不是 Sea 集团总收入。",
+            "ref": "shopee-revenue",
+            "from": "2025-01-01",
+            "to": "2025-12-31",
+            "label": "2025"
+          }
+        },
+        "mercado-libre": {
+          "market": "Global Selling（国际卖家）面向拉美",
+          "individual": "本轮未确认中国无执照自然人通道，不能套用当地个人账户。",
+          "business": "国际卖家须完成法律信息和经营主体验证。",
+          "china": "官方 KYC 说明明确涉及中国／香港／美国卖家；最终账号资格由审核决定。",
+          "requirements": [
+            "法律与公司信息 KYC",
+            "收款、商品、税务和所选配送模式资料"
+          ],
+          "models": [
+            "跨境店铺和当地仓储履约",
+            "中国全托管按供货净回款定价，不等于面向买家的零售价"
+          ],
+          "fees": [
+            {
+              "item": "年费／固定费",
+              "value": "所链接定价页未给可适用于全部国家的统一年费，按模式确认。",
+              "refs": [
+                "meli-fees"
+              ]
+            },
+            {
+              "item": "抽点／仓配",
+              "value": "佣金依市场及类目；仓储、配送、低价商品固定费用须另核。",
+              "refs": [
+                "meli-fees"
+              ]
+            }
+          ],
+          "refs": [
+            "meli-start",
+            "meli-fees",
+            "meli-managed"
+          ],
+          "rulesRef": "meli-start",
+          "limits": [],
+          "revenue": {
+            "amount": 16294000000,
+            "currency": "USD",
+            "entity": "MercadoLibre Commerce（电商分部）",
+            "scope": "电商业务收入，剔除 Fintech 金融分部；不是集团 288.93 亿美元合并收入。",
+            "ref": "meli-revenue",
+            "from": "2025-01-01",
+            "to": "2025-12-31",
+            "label": "2025"
+          }
+        },
+        "cdiscount": {
+          "market": "法国 Marketplace 专业卖家，费用不含 VAT",
+          "individual": "该服务面向专业经营者；不按私人闲置账户解释。",
+          "business": "支持专业卖家申请，新旧商品均需审核。",
+          "china": "中国经营主体、收款和法国履约条件须由招商确认；未保证自然人可用。",
+          "requirements": [
+            "专业经营与银行资料审核",
+            "类目、商品、配送和退货安排"
+          ],
+          "models": [
+            "第三方商家自营",
+            "可选仓配及 Premium 推广服务"
+          ],
+          "fees": [
+            {
+              "item": "月费",
+              "value": "€39.99/月，不含 VAT；连续 12 个月为 €479.88（计算值，并非另一项年费）。",
+              "refs": [
+                "cdiscount-start"
+              ]
+            },
+            {
+              "item": "平台抽点",
+              "value": "按商品类目另收佣金；不把商家会员费理解为佣金全包。",
+              "refs": [
+                "cdiscount-start"
+              ]
+            }
+          ],
+          "refs": [
+            "cdiscount-start"
+          ],
+          "rulesRef": "cdiscount-start",
+          "limits": [],
+          "revenue": {
+            "amount": 1027000000,
+            "currency": "EUR",
+            "entity": "Cdiscount（Casino 业绩公告中的电商业务）",
+            "scope": "2025 全年 net sales，含自营和 Marketplace；官方销售公告标注未审计，不是 GMV。",
+            "ref": "cdiscount-revenue",
+            "from": "2025-01-01",
+            "to": "2025-12-31",
+            "label": "2025（未审计销售公告）"
+          }
+        },
+        "wish": {
+          "market": "中国商家条款；欧盟与非欧盟订单费率不同",
+          "individual": "是否接受当前自然人申请需入口审核，未按旧教程保证开放。",
+          "business": "须具备合法经营、销售和履约资格，并通过平台审核。",
+          "china": "以中国商家服务条款与当前账户审核为准。",
+          "requirements": [
+            "合法经营与商品销售资格",
+            "收款、履约及目的国规则"
+          ],
+          "models": [
+            "跨境商家供货／零售",
+            "商家等级影响费率；可用履约与推广服务另计"
+          ],
+          "fees": [
+            {
+              "item": "刊登费",
+              "value": "活跃刊登超过等级免费额度后可能按月收费；不是所有商品均免固定费。",
+              "refs": [
+                "wish-fees"
+              ]
+            },
+            {
+              "item": "欧盟订单示例",
+              "value": "官方政策 All Others 的 Silver（银级）为 16.5%＋每件 USD0.30；其他等级、类目和目的地不同，须核对所属分类。",
+              "refs": [
+                "wish-fees"
+              ]
+            }
+          ],
+          "refs": [
+            "wish-start",
+            "wish-fees"
+          ],
+          "rulesRef": "wish-start",
+          "limits": [],
+          "revenue": {
+            "amount": null,
+            "reason": "本轮未取得可核对的完整年度平台收入，不填零、不用成交额或母公司收入替代。",
+            "ref": "wish-start"
+          }
+        },
+        "emag": {
+          "market": "罗马尼亚 Marketplace，可扩展匈牙利／保加利亚",
+          "individual": "资料指南包括 PFA 等当地经营者类型，不等于中国无执照自然人资格。",
+          "business": "支持公司及认可的合法经营实体。",
+          "china": "注册国家与跨境主体是否被接受由 eMAG 审核；不承诺中国个人直开。",
+          "requirements": [
+            "法人证件、公司登记、章程、银行和地址证明",
+            "VAT（如已登记）、商品 EAN 及配送／退货安排"
+          ],
+          "models": [
+            "自营店铺与卖家配送",
+            "FBE（平台仓配），处理和仓储另收费"
+          ],
+          "fees": [
+            {
+              "item": "年费／固定费",
+              "value": "本轮公开页面未核得统一年费；开户前查看合同。",
+              "refs": [
+                "emag-start"
+              ]
+            },
+            {
+              "item": "佣金与 FBE",
+              "value": "官方类目佣金 7%—25%；FBE 另有按库龄的仓储和按尺寸重量的处理费。",
+              "refs": [
+                "emag-fees"
+              ]
+            }
+          ],
+          "refs": [
+            "emag-start",
+            "emag-fees"
+          ],
+          "rulesRef": "emag-start",
+          "limits": [],
+          "revenue": {
+            "amount": null,
+            "reason": "本轮未取得可核对的完整年度平台收入，不填零、不用成交额或母公司收入替代。",
+            "ref": "emag-start"
+          }
+        },
+        "wildberries": {
+          "market": "集团多国家规则；本页仅已核对俄语合同条款",
+          "individual": "本地个体／自雇与中国跨境主体规则不同，资格依注册国家核对。",
+          "business": "企业可按所选国家的主体和识别信息审核。",
+          "china": "本轮未核得当前中国卖家许可费和完整资料表，不引用第三方人民币报价。",
+          "requirements": [
+            "注册资料、税号及主体核验",
+            "签订对应国家合同，商品和结算安排审核"
+          ],
+          "models": [
+            "第三方商家与平台物流服务",
+            "销售、仓储、退货、推广分别计费"
+          ],
+          "fees": [
+            {
+              "item": "入驻许可费",
+              "value": "所链接开户条款含一次许可／身份付款机制，当前金额以注册页面为准；白俄罗斯条款不能当作中国统一标准。",
+              "refs": [
+                "wb-start"
+              ]
+            },
+            {
+              "item": "抽点与仓配",
+              "value": "佣金依商品及适用规则；配送、仓储、处理和退货另计。",
+              "refs": [
+                "wb-fees"
+              ]
+            }
+          ],
+          "refs": [
+            "wb-start",
+            "wb-fees"
+          ],
+          "rulesRef": "wb-start",
+          "limits": [],
+          "revenue": {
+            "amount": null,
+            "reason": "本轮未取得可核对的完整年度平台收入，不填零、不用成交额或母公司收入替代。",
+            "ref": "wb-start"
+          }
+        },
+        "yandex": {
+          "market": "跨境商家入口；俄罗斯本地政策另核",
+          "individual": "本轮未确认中国无执照自然人的资格。",
+          "business": "企业主体、所支持国家和结算方式按跨境申请审核。",
+          "china": "需从官方跨境入口核验接受的中国主体和发货条件。",
+          "requirements": [
+            "经营与收款身份审核",
+            "所售商品、交付及退货安排"
+          ],
+          "models": [
+            "所链接跨境页面目前说明 FBS，由卖家储存、包装并送至交接点"
+          ],
+          "fees": [
+            {
+              "item": "年费／保证金",
+              "value": "本轮未取得中国跨境统一公开标准，不能填为零。",
+              "refs": [
+                "yandex-start"
+              ]
+            },
+            {
+              "item": "抽点／履约",
+              "value": "官方提供费用计算能力，实际按商品和销售方式报价，未用整站统一百分比替代。",
+              "refs": [
+                "yandex-fees"
+              ]
+            }
+          ],
+          "refs": [
+            "yandex-start",
+            "yandex-fees"
+          ],
+          "rulesRef": "yandex-start",
+          "limits": [],
+          "revenue": {
+            "amount": null,
+            "reason": "相关电商服务与其他业务合并披露，本轮未核得 Market 单独全年收入。",
+            "ref": "yandex-revenue"
+          }
+        },
+        "rakuten": {
+          "market": "本页费用入口为日本 Rakuten Ichiba；法国站已停运",
+          "individual": "日本申请主体是否允许及海外个人资格须按官方招商核验。",
+          "business": "日本及海外经营者需按当地出店流程审核。",
+          "china": "海外主体的申请路径、当地服务及结算条件须向日本招商确认。",
+          "requirements": [
+            "选择有效运营的国家站点",
+            "经营、收款、商品、配送与客服能力审核"
+          ],
+          "models": [
+            "日本商城店铺经营",
+            "法国站 2026-09-30 起停止运营，不提供新店铺查询"
+          ],
+          "fees": [
+            {
+              "item": "月费／初期费",
+              "value": "日本有多个出店方案及初期、月度费用，依官方方案页选择；这些费用不适用于法国。",
+              "refs": [
+                "rakuten-start"
+              ]
+            },
+            {
+              "item": "抽点／其他费用",
+              "value": "日本系统服务、支付和其他服务费按方案分别计算，本轮不转录未核对的金额。",
+              "refs": [
+                "rakuten-fees"
+              ]
+            }
+          ],
+          "refs": [
+            "rakuten-start",
+            "rakuten-fees",
+            "rakuten-fr"
+          ],
+          "rulesRef": "rakuten-start",
+          "limits": [
+            "Rakuten France 已停止运营；不得把日本的开店方案描述成法国可入驻。"
+          ],
+          "revenue": {
+            "amount": null,
+            "reason": "Rakuten 集团含金融和移动通信，未取得对应商城的单独完整年度收入，不以集团代替。",
+            "ref": "rakuten-revenue"
+          }
+        },
+        "walmart": {
+          "market": "美国 Walmart Marketplace",
+          "individual": "不接受只用 SSN 的无经营资料个人申请；需合法经营和商业税号／执照。",
+          "business": "支持通过审核的经营实体；有电商成功记录等门槛。",
+          "china": "中国主体申请需审核，不能因国际卖家开放就认为所有自然人可入驻。",
+          "requirements": [
+            "商业税号／执照、主体与地址支持文件",
+            "电商经验、GS1 商品标识、美国退货仓或 WFS 等"
+          ],
+          "models": [
+            "第三方店铺自营",
+            "卖家履约或 WFS（平台仓配）"
+          ],
+          "fees": [
+            {
+              "item": "固定费",
+              "value": "官方说明零开通费、零月费；不等于没有佣金或仓配支出。",
+              "refs": [
+                "walmart-fees"
+              ]
+            },
+            {
+              "item": "相关类目佣金",
+              "value": "Home／Kitchen 为 15%；Grocery 为售价 ≤USD15 时 8%，高于 USD15 时 15%。机型等其他类目按表另核。",
+              "refs": [
+                "walmart-fees"
+              ]
+            }
+          ],
+          "refs": [
+            "walmart-start",
+            "walmart-fees"
+          ],
+          "rulesRef": "walmart-start",
+          "limits": [],
+          "revenue": {
+            "amount": 713163000000,
+            "currency": "USD",
+            "entity": "Walmart Inc.",
+            "scope": "集团合并收入，含线下零售、会员等；非单独 Marketplace 收入。",
+            "ref": "walmart-revenue",
+            "from": "2025-02-01",
+            "to": "2026-01-31",
+            "label": "FY2026"
+          }
+        },
+        "otto": {
+          "market": "德国 OTTO Market，依接受的经营国家审核",
+          "individual": "面向经营商家；未验证私人闲置卖家通道。",
+          "business": "企业／经营者须通过个别申请及税务、账户审核。",
+          "china": "中国公司直接申请资格本轮未确认，不能用已开放的欧洲主体条件代替。",
+          "requirements": [
+            "申请通过后开通 Partner Connect",
+            "公司、税务、支付与商品类目要求"
+          ],
+          "models": [
+            "第三方商家经营",
+            "按销售价格及配送金额收取相关服务费用"
+          ],
+          "fees": [
+            {
+              "item": "月费",
+              "value": "€99.90/月，另加 VAT；连续 12 个月 €1,198.80（计算值，并非另收年费）。",
+              "refs": [
+                "otto-fees"
+              ]
+            },
+            {
+              "item": "佣金与支付",
+              "value": "类目佣金另加 2.7% 支付手续费；费率基数含售价及运费，具体类目查看官方表。",
+              "refs": [
+                "otto-fees"
+              ]
+            }
+          ],
+          "refs": [
+            "otto-start",
+            "otto-fees"
+          ],
+          "rulesRef": "otto-start",
+          "limits": [],
+          "revenue": {
+            "amount": null,
+            "reason": "所核对 2025/26 官方公告的 75 亿欧元是 GMV，未将它作为平台营收。",
+            "ref": "otto-revenue"
+          }
+        },
+        "alibaba": {
+          "market": "B2B 国际批发平台；中国与美国会员方案不同",
+          "individual": "免费账号不等于通过核验的出口经营店铺；自然人销售资格须审核。",
+          "business": "企业供应商按经营资料与认证要求申请。",
+          "china": "中国供应商会员费用与美国推广方案不通用；按官方中国报价和合同确认。",
+          "requirements": [
+            "营业主体和供应商验证",
+            "产品资料、报价、付款与履约安排"
+          ],
+          "models": [
+            "会员店铺、询盘与批发",
+            "可选认证、广告及交易服务"
+          ],
+          "fees": [
+            {
+              "item": "会员／年费",
+              "value": "有不同付费会员与认证方案，地区和权益影响报价；本轮未核对中国统一年费金额。",
+              "refs": [
+                "alibaba-start"
+              ]
+            },
+            {
+              "item": "抽点／交易服务",
+              "value": "美国会员页宣传 0% commission，不据此推定中国所有交易、支付或增值服务费为零。",
+              "refs": [
+                "alibaba-us"
+              ]
+            }
+          ],
+          "refs": [
+            "alibaba-start",
+            "alibaba-us"
+          ],
+          "rulesRef": "alibaba-start",
+          "limits": [],
+          "revenue": {
+            "amount": null,
+            "reason": "国际站与其他国际业务合并披露，未取得 Alibaba.com 单独全年收入。",
+            "ref": "alibaba-revenue"
+          }
+        },
+        "coupang": {
+          "market": "韩国 Marketplace 国际卖家",
+          "individual": "官方国际申请要求营业执照，不将其解释为无执照个人通道。",
+          "business": "支持按注册地区提交的合法经营主体。",
+          "china": "官方说明提供中国卖家相关服务；需通过国际主体审核。",
+          "requirements": [
+            "营业执照、身份证明、所有权证明、银行对账单",
+            "按注册地区及所售商品提交补充资料"
+          ],
+          "models": [
+            "跨境商家自行发货",
+            "中国卖家可咨询平台仓配项目，具体条件另核"
+          ],
+          "fees": [
+            {
+              "item": "注册费",
+              "value": "官方 FAQ 明确无注册费；不等于免所有经营费用。",
+              "refs": [
+                "coupang-start"
+              ]
+            },
+            {
+              "item": "抽点／物流",
+              "value": "佣金依官方 Pricing 类目表；仓配和其他服务另核，未录入未经核对的百分比。",
+              "refs": [
+                "coupang-start"
+              ]
+            }
+          ],
+          "refs": [
+            "coupang-start"
+          ],
+          "rulesRef": "coupang-start",
+          "limits": [],
+          "revenue": {
+            "amount": 34500000000,
+            "currency": "USD",
+            "entity": "Coupang, Inc.",
+            "scope": "集团全年净收入，官方概述四舍五入至十亿美元一位小数，含非韩国零售业务。",
+            "ref": "coupang-revenue",
+            "from": "2025-01-01",
+            "to": "2025-12-31",
+            "label": "2025"
+          }
+        },
+        "etsy": {
+          "market": "支持的 Etsy Payments 注册国家；中国新店受限",
+          "individual": "支持合格地区的个人经营者，仍须身份、支付与税务验证。",
+          "business": "支持合法企业账户及需要披露的生产合作方。",
+          "china": "当前官方国家页明确中国不能开新店；中国已有店铺另按支付迁移规则。",
+          "requirements": [
+            "确认注册国家允许新店",
+            "产品满足原创／设计／合规采购标准；普通成品转售受限制"
+          ],
+          "models": [
+            "原创／设计商品自营",
+            "卖家定价、履约，可使用合规披露的生产合作方"
+          ],
+          "fees": [
+            {
+              "item": "开户／刊登",
+              "value": "可能收取一次开店设置费，金额在流程展示；刊登费 USD0.20/条，不等于年费。",
+              "refs": [
+                "etsy-fees"
+              ]
+            },
+            {
+              "item": "成交与其他费用",
+              "value": "交易费 6.5%，另有按银行国家的支付处理、广告等费用，不能仅按 6.5% 估总成本。",
+              "refs": [
+                "etsy-fees"
+              ]
+            }
+          ],
+          "refs": [
+            "etsy-start",
+            "etsy-china",
+            "etsy-fees"
+          ],
+          "rulesRef": "etsy-start",
+          "limits": [],
+          "revenue": {
+            "amount": 2883501000,
+            "currency": "USD",
+            "entity": "Etsy, Inc.",
+            "scope": "合并收入，含 Depop 和出售前的 Reverb；不是 Etsy 主站单独收入。",
+            "ref": "etsy-revenue",
+            "from": "2025-01-01",
+            "to": "2025-12-31",
+            "label": "2025"
+          }
+        },
+        "vinted": {
+          "market": "欧洲各国 C2C 与 Vinted Pro，费用示例为英国",
+          "individual": "普通账户为私人非商业用途，不能当作经营库存转售账号。",
+          "business": "Pro 支持符合开放国家及二手品类条件的注册经营者。",
+          "china": "所链接 Pro 开放国家清单不含中国；不认为中国主体可直接使用当地个人通道。",
+          "requirements": [
+            "确认居住／企业注册国家属于开放范围",
+            "专业主体及身份验证；二手属性和允许品类审核"
+          ],
+          "models": [
+            "私人二手交易",
+            "Pro 专业二手商家；付费曝光可选"
+          ],
+          "fees": [
+            {
+              "item": "卖家基本费用",
+              "value": "所链接英国说明刊登及售出不收卖家费用；买家保护费由买家承担，付费推广另计。",
+              "refs": [
+                "vinted-fees"
+              ]
+            },
+            {
+              "item": "经营门槛",
+              "value": "Pro 是有地区和品类限制的二手业务，不适合作为新品胶囊库存的默认销售通道。",
+              "refs": [
+                "vinted-start"
+              ]
+            }
+          ],
+          "refs": [
+            "vinted-start",
+            "vinted-catalog",
+            "vinted-fees"
+          ],
+          "rulesRef": "vinted-start",
+          "limits": [],
+          "revenue": {
+            "amount": 1100000000,
+            "currency": "EUR",
+            "entity": "Vinted Group",
+            "scope": "集团各业务收入，官方公布约 11 亿欧元；不是 108 亿欧元 GMV。",
+            "ref": "vinted-revenue",
+            "from": "2025-01-01",
+            "to": "2025-12-31",
+            "label": "2025"
+          }
+        },
+        "olx-group": {
+          "market": "集团入口；已补波兰 OLX 企业规则入口",
+          "individual": "各地品牌有个人分类交易规则，不能推定集团统一开放。",
+          "business": "波兰 OLX 提供企业账号与付费方案，其他国家分别审核。",
+          "china": "中国主体能否申请、付款和本地履约需按国家品牌确认。",
+          "requirements": [
+            "先选具体国家品牌与商品分类",
+            "身份／经营及本地发布条件审核"
+          ],
+          "models": [
+            "分类广告、企业展示与增值刊登",
+            "集团还覆盖汽车、房产和招聘等，非统一商品成交平台"
+          ],
+          "fees": [
+            {
+              "item": "年费／刊登",
+              "value": "波兰按广告类目与套餐计算，官方计算器展示价格；没有可覆盖整个集团的统一年费。",
+              "refs": [
+                "olx-fees"
+              ]
+            },
+            {
+              "item": "平台抽点",
+              "value": "刊登与服务收费不等于统一成交佣金；需看具体品牌和交易功能。",
+              "refs": [
+                "olx-pl"
+              ]
+            }
+          ],
+          "refs": [
+            "olx-pl",
+            "olx-fees",
+            "olx-start"
+          ],
+          "rulesRef": "olx-pl",
+          "limits": [],
+          "revenue": {
+            "amount": 992000000,
+            "currency": "USD",
+            "entity": "OLX Group",
+            "scope": "截至 2026-03-31 的集团全年收入，涵盖多个国家和分类业务。",
+            "ref": "olx-revenue",
+            "from": "2025-04-01",
+            "to": "2026-03-31",
+            "label": "FY2026"
+          }
+        },
+        "zalando": {
+          "market": "欧洲时尚 Partner Program；官方主动邀请",
+          "individual": "支持的独资经营者须提供居住国税号，不是开放私人闲置通道。",
+          "business": "企业合作伙伴需经邀请并完成 KYC、税务与商品审核。",
+          "china": "官方当前说明无法自行报名／申请，由 Zalando 主动联系邀请；中国主体与品类资格需单独审核。",
+          "requirements": [
+            "官方邀请与合同",
+            "KYC、VAT／OSS、商品 EAN、适用商品安全及包装责任资料"
+          ],
+          "models": [
+            "Wholesale（批发）与 Partner Program（第三方）不同",
+            "自有履约或 ZFS（平台仓配）"
+          ],
+          "fees": [
+            {
+              "item": "年费／准入",
+              "value": "没有本轮可核对的统一公开入驻年费；条件由具体合作合同确定。",
+              "refs": [
+                "zalando-start"
+              ]
+            },
+            {
+              "item": "抽点／物流",
+              "value": "Partner Program 扣佣后结算；比例与物流方案依合同，未编造统一百分比。",
+              "refs": [
+                "zalando-model"
+              ]
+            }
+          ],
+          "refs": [
+            "zalando-start",
+            "zalando-model"
+          ],
+          "rulesRef": "zalando-start",
+          "limits": [
+            "平台以时尚为主，尚未验证咖啡胶囊类目；不能因榜单入选就推定允许售卖。"
+          ],
+          "revenue": {
+            "amount": 12346100000,
+            "currency": "EUR",
+            "entity": "Zalando SE",
+            "scope": "集团收入，含 B2C／B2B 及自 2025-07-11 起并表的 ABOUT YOU。",
+            "ref": "zalando-revenue",
+            "from": "2025-01-01",
+            "to": "2025-12-31",
+            "label": "2025"
+          }
+        },
+        "abebooks": {
+          "market": "AbeBooks.com 美元方案；专业书商与收藏品经营",
+          "individual": "可申请的经营者需满足专业书商标准；不是任意私人杂货平台。",
+          "business": "专业经营者提交企业、税务、银行与业务资料。",
+          "china": "中国主体是否接受需账户审核；主营书籍、艺术与收藏品，不用于卖普通咖啡胶囊。",
+          "requirements": [
+            "接受国际配送与退货、按要求处理订单和答复",
+            "提交业务、支付、银行和税务资料"
+          ],
+          "models": [
+            "书籍、艺术与收藏品店铺",
+            "Basic（按单）与 Premium（订阅）"
+          ],
+          "fees": [
+            {
+              "item": "Basic 方案",
+              "value": "无月费；每件 USD1；前 USD500 部分佣金 15%，超出部分 10%；无另收支付处理费。",
+              "refs": [
+                "abebooks-start"
+              ]
+            },
+            {
+              "item": "Premium 方案",
+              "value": "USD25—500/月（按刊登量）；佣金 8%（每件最低 USD0.50、最高 USD40）；每单前 USD500 支付费 5.5%，超出部分 3.5%。",
+              "refs": [
+                "abebooks-start"
+              ]
+            }
+          ],
+          "refs": [
+            "abebooks-start"
+          ],
+          "rulesRef": "abebooks-start",
+          "limits": [],
+          "revenue": {
+            "amount": null,
+            "reason": "本轮未取得可核对的完整年度平台收入，不填零、不用成交额或母公司收入替代。",
+            "ref": "abebooks-start"
+          }
+        },
+        "stockx": {
+          "market": "所支持的卖家地区；EEA 收款审核规则另有说明",
+          "individual": "支持个人及独资等账户类型，需按地区和阈值完成收款核验。",
+          "business": "支持企业收款身份；EEA 企业须提交商业登记资料。",
+          "china": "中国所在地区、收款方式和商品资格须核验；本轮不保证任意咖啡商品可上架。",
+          "requirements": [
+            "收款账户、身份及匹配地址",
+            "企业登记（如适用）、商品目录与鉴别要求"
+          ],
+          "models": [
+            "Bid／Ask（出价／要价）撮合",
+            "Verified Marketplace（验证交易）与其他地区产品服务分开"
+          ],
+          "fees": [
+            {
+              "item": "月费／年费",
+              "value": "所链接卖家费用说明以成交费用为主；没有本轮可核对的统一店铺年费。",
+              "refs": [
+                "stockx-fees"
+              ]
+            },
+            {
+              "item": "成交费用",
+              "value": "卖家等级基础交易费 9%—7%，另加 3% 支付处理费；运输等具体费用另核。",
+              "refs": [
+                "stockx-fees"
+              ]
+            }
+          ],
+          "refs": [
+            "stockx-start",
+            "stockx-fees"
+          ],
+          "rulesRef": "stockx-start",
+          "limits": [],
+          "revenue": {
+            "amount": null,
+            "reason": "本轮未取得可核对的完整年度平台收入，不填零、不用成交额或母公司收入替代。",
+            "ref": "stockx-start"
+          }
+        }
+      }
+    }
   },
   "evidence": {
     "checkedOn": "2026-10-18",
