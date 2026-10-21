@@ -7240,7 +7240,18 @@ window.COFFEE_CONTENT = {
               "url": "https://www.amazon.com/dp/B07SMMH8G7",
               "variant": "按当前商品编号展示；卖家自定义 SKU 未公开，未将多变体合并为一个已验证 SKU",
               "image": "store-amazon-b07smmh8g7",
-              "price": null,
+              "price": {
+                "amount": 8.99,
+                "currency": "USD",
+                "offerType": "普通购买标价",
+                "promotions": [],
+                "basis": "同一 ASIN、同一卖家主报价；USD 为美国站美元显示偏好，不经本站汇率换算。未计地址相关税费／运费，不是历史成交均价",
+                "pack": "4 只滤杯／包",
+                "observedAt": "2026-10-21T12:35:25.749Z",
+                "source": "https://www.amazon.com/dp/B07SMMH8G7",
+                "quality": "live",
+                "shipping": "未指定美国邮编；运费及税费需按收货地址确认"
+              },
               "sales": {
                 "text": "10K+ bought in past month",
                 "scope": "product",
@@ -7289,7 +7300,18 @@ window.COFFEE_CONTENT = {
               "url": "https://www.amazon.com/dp/B09F8J3932",
               "variant": "按当前商品编号展示；卖家自定义 SKU 未公开，未将多变体合并为一个已验证 SKU",
               "image": "store-amazon-b09f8j3932",
-              "price": null,
+              "price": {
+                "amount": 11.69,
+                "currency": "USD",
+                "offerType": "普通购买标价",
+                "promotions": [],
+                "basis": "同一 ASIN、同一卖家主报价；USD 为美国站美元显示偏好，不经本站汇率换算。未计地址相关税费／运费，不是历史成交均价",
+                "pack": "2 只不锈钢滤杯／包",
+                "observedAt": "2026-10-21T12:35:25.759Z",
+                "source": "https://www.amazon.com/dp/B09F8J3932",
+                "quality": "live",
+                "shipping": "未指定美国邮编；运费及税费需按收货地址确认"
+              },
               "sales": {
                 "text": "8K+ bought in past month",
                 "scope": "product",
@@ -7351,7 +7373,25 @@ window.COFFEE_CONTENT = {
               "url": "https://www.amazon.com/dp/B0BZDDF2V4",
               "variant": "按当前商品编号展示；卖家自定义 SKU 未公开，未将多变体合并为一个已验证 SKU",
               "image": "store-amazon-b0bzddf2v4",
-              "price": null,
+              "price": {
+                "amount": 12.99,
+                "currency": "USD",
+                "offerType": "普通购买标价",
+                "promotions": [
+                  {
+                    "amount": 9.99,
+                    "currency": "USD",
+                    "label": "Prime 会员价",
+                    "condition": "需满足平台会员资格；未视为所有买家的到手价"
+                  }
+                ],
+                "basis": "同一 ASIN、同一卖家主报价；USD 为美国站美元显示偏好，不经本站汇率换算。未计地址相关税费／运费，不是历史成交均价",
+                "pack": "100 张盖膜＋填充工具／套；不含胶囊",
+                "observedAt": "2026-10-21T12:35:25.760Z",
+                "source": "https://www.amazon.com/dp/B0BZDDF2V4",
+                "quality": "live",
+                "shipping": "未指定美国邮编；运费及税费需按收货地址确认"
+              },
               "sales": {
                 "text": "4K+ bought in past month",
                 "scope": "product",
@@ -7399,7 +7439,18 @@ window.COFFEE_CONTENT = {
               "url": "https://www.amazon.com/dp/B0F99LMHLJ",
               "variant": "按当前商品编号展示；卖家自定义 SKU 未公开，未将多变体合并为一个已验证 SKU",
               "image": "store-amazon-b0f99lmhlj",
-              "price": null,
+              "price": {
+                "amount": 17.98,
+                "currency": "USD",
+                "offerType": "普通购买标价",
+                "promotions": [],
+                "basis": "同一 ASIN、同一卖家主报价；USD 为美国站美元显示偏好，不经本站汇率换算。未计地址相关税费／运费，不是历史成交均价",
+                "pack": "4 只滤杯／包",
+                "observedAt": "2026-10-21T12:35:25.761Z",
+                "source": "https://www.amazon.com/dp/B0F99LMHLJ",
+                "quality": "live",
+                "shipping": "未指定美国邮编；运费及税费需按收货地址确认"
+              },
               "sales": {
                 "text": "2K+ bought in past month",
                 "scope": "product",
@@ -7448,7 +7499,18 @@ window.COFFEE_CONTENT = {
               "url": "https://www.amazon.com/dp/B09NW83CRR",
               "variant": "按当前商品编号展示；卖家自定义 SKU 未公开，未将多变体合并为一个已验证 SKU",
               "image": "store-amazon-b09nw83crr",
-              "price": null,
+              "price": {
+                "amount": 13.95,
+                "currency": "USD",
+                "offerType": "普通购买标价",
+                "promotions": [],
+                "basis": "同一 ASIN、同一卖家主报价；USD 为美国站美元显示偏好，不经本站汇率换算。未计地址相关税费／运费，不是历史成交均价",
+                "pack": "4 只滤杯／包",
+                "observedAt": "2026-10-21T12:35:29.454Z",
+                "source": "https://www.amazon.com/dp/B09NW83CRR",
+                "quality": "live",
+                "shipping": "未指定美国邮编；运费及税费需按收货地址确认"
+              },
               "sales": {
                 "text": "3K+ bought in past month",
                 "scope": "product",
@@ -7510,7 +7572,18 @@ window.COFFEE_CONTENT = {
               "url": "https://www.amazon.com/dp/B0GLX6JXYC",
               "variant": "按当前商品编号展示；卖家自定义 SKU 未公开，未将多变体合并为一个已验证 SKU",
               "image": "store-amazon-b0glx6jxyc",
-              "price": null,
+              "price": {
+                "amount": 9.99,
+                "currency": "USD",
+                "offerType": "普通购买标价",
+                "promotions": [],
+                "basis": "同一 ASIN、同一卖家主报价；USD 为美国站美元显示偏好，不经本站汇率换算。未计地址相关税费／运费，不是历史成交均价",
+                "pack": "填充工具套装；不含胶囊，耗材数量见具体选项",
+                "observedAt": "2026-10-21T12:35:29.565Z",
+                "source": "https://www.amazon.com/dp/B0GLX6JXYC",
+                "quality": "live",
+                "shipping": "未指定美国邮编；运费及税费需按收货地址确认"
+              },
               "sales": {
                 "text": "3K+ bought in past month",
                 "scope": "product",
@@ -7572,7 +7645,18 @@ window.COFFEE_CONTENT = {
               "url": "https://www.amazon.com/dp/B0CB3X4PKK",
               "variant": "按当前商品编号展示；卖家自定义 SKU 未公开，未将多变体合并为一个已验证 SKU",
               "image": "store-amazon-b0cb3x4pkk",
-              "price": null,
+              "price": {
+                "amount": 8.96,
+                "currency": "USD",
+                "offerType": "普通购买标价",
+                "promotions": [],
+                "basis": "同一 ASIN、同一卖家主报价；USD 为美国站美元显示偏好，不经本站汇率换算。未计地址相关税费／运费，不是历史成交均价",
+                "pack": "100 张纸滤＋辅助盖／包",
+                "observedAt": "2026-10-21T12:35:29.853Z",
+                "source": "https://www.amazon.com/dp/B0CB3X4PKK",
+                "quality": "live",
+                "shipping": "未指定美国邮编；运费及税费需按收货地址确认"
+              },
               "sales": {
                 "text": "2K+ bought in past month",
                 "scope": "product",
@@ -7634,7 +7718,18 @@ window.COFFEE_CONTENT = {
               "url": "https://www.amazon.com/dp/B0GVDK4VXT",
               "variant": "按当前商品编号展示；卖家自定义 SKU 未公开，未将多变体合并为一个已验证 SKU",
               "image": "store-amazon-b0gvdk4vxt",
-              "price": null,
+              "price": {
+                "amount": 11.69,
+                "currency": "USD",
+                "offerType": "普通购买标价",
+                "promotions": [],
+                "basis": "同一 ASIN、同一卖家主报价；USD 为美国站美元显示偏好，不经本站汇率换算。未计地址相关税费／运费，不是历史成交均价",
+                "pack": "2 只不锈钢滤杯／包",
+                "observedAt": "2026-10-21T12:35:31.538Z",
+                "source": "https://www.amazon.com/dp/B0GVDK4VXT",
+                "quality": "live",
+                "shipping": "未指定美国邮编；运费及税费需按收货地址确认"
+              },
               "sales": {
                 "text": "2K+ bought in past month",
                 "scope": "product",
@@ -7669,7 +7764,18 @@ window.COFFEE_CONTENT = {
               "url": "https://www.amazon.com/dp/B07RL6HMVH",
               "variant": "按当前商品编号展示；卖家自定义 SKU 未公开，未将多变体合并为一个已验证 SKU",
               "image": "store-amazon-b07rl6hmvh",
-              "price": null,
+              "price": {
+                "amount": 7.98,
+                "currency": "USD",
+                "offerType": "普通购买标价",
+                "promotions": [],
+                "basis": "同一 ASIN、同一卖家主报价；USD 为美国站美元显示偏好，不经本站汇率换算。未计地址相关税费／运费，不是历史成交均价",
+                "pack": "100 张铝制盖膜／包",
+                "observedAt": "2026-10-21T12:35:32.449Z",
+                "source": "https://www.amazon.com/dp/B07RL6HMVH",
+                "quality": "live",
+                "shipping": "未指定美国邮编；运费及税费需按收货地址确认"
+              },
               "sales": {
                 "text": "2K+ bought in past month",
                 "scope": "product",
@@ -8327,7 +8433,18 @@ window.COFFEE_CONTENT = {
               "url": "https://www.amazon.com/dp/B0BRTCKPTF",
               "variant": "来自具体刊登的展示图；卖家 SKU 未公开，颜色／容量／包装等子变体尚未逐一核验",
               "image": "store-amazon-b0brtckptf",
-              "price": null,
+              "price": {
+                "amount": 19.99,
+                "currency": "USD",
+                "offerType": "普通购买标价",
+                "promotions": [],
+                "basis": "同一 ASIN、同一卖家主报价；USD 为美国站美元显示偏好，不经本站汇率换算。未计地址相关税费／运费，不是历史成交均价",
+                "pack": "42 只可填充空杯／包",
+                "observedAt": "2026-10-21T12:35:33.004Z",
+                "source": "https://www.amazon.com/dp/B0BRTCKPTF",
+                "quality": "live",
+                "shipping": "未指定美国邮编；运费及税费需按收货地址确认"
+              },
               "sales": null,
               "revenue": null,
               "rating": null,
@@ -8372,7 +8489,18 @@ window.COFFEE_CONTENT = {
               "url": "https://www.amazon.com/dp/B074CK3QSH",
               "variant": "来自具体刊登的展示图；卖家 SKU 未公开，颜色／容量／包装等子变体尚未逐一核验",
               "image": "store-amazon-b074ck3qsh",
-              "price": null,
+              "price": {
+                "amount": 9.99,
+                "currency": "USD",
+                "offerType": "普通购买标价",
+                "promotions": [],
+                "basis": "同一 ASIN、同一卖家主报价；USD 为美国站美元显示偏好，不经本站汇率换算。未计地址相关税费／运费，不是历史成交均价",
+                "pack": "6 只清洁胶囊／包",
+                "observedAt": "2026-10-21T12:35:33.405Z",
+                "source": "https://www.amazon.com/dp/B074CK3QSH",
+                "quality": "live",
+                "shipping": "未指定美国邮编；运费及税费需按收货地址确认"
+              },
               "sales": null,
               "revenue": null,
               "rating": null,
@@ -8434,7 +8562,8 @@ window.COFFEE_CONTENT = {
               "freshness": "indexed",
               "freshnessNote": "2026-10-21 读取；工具报告约一周前抓取的公开索引。不作为即时报价或当前销售量。",
               "selection": "公开相关店铺候选，不是店铺销量前十；按卖家标识去重",
-              "painRefs": []
+              "painRefs": [],
+              "priceGap": "该商品对当前未指定邮编的访问地区不提供可购买主报价；需选择收货地区后查看"
             }
           ]
         },
@@ -8967,7 +9096,18 @@ window.COFFEE_CONTENT = {
               "url": "https://www.ebay.com/itm/168280152762",
               "variant": "按该刊登原图定位，卖家 SKU 与子规格未公开／未核验",
               "image": "store-ebay-168280152762",
-              "price": null,
+              "price": {
+                "amount": 14.26,
+                "currency": "USD",
+                "basis": "商品原页的历史索引报价；工具报告约两个月前抓取。不是当前报价或已成交均价",
+                "pack": "页面未选择 Product Model 子变体；显示起报价，套装数量待确认",
+                "observedAt": "2026-10-21T12:37:15.636Z",
+                "source": "https://www.ebay.com/itm/168280152762",
+                "quality": "indexed",
+                "offerType": "历史起报价",
+                "promotions": [],
+                "shipping": "历史页面：免运费；当前运费、税费与库存未核验"
+              },
               "sales": null,
               "revenue": null,
               "rating": null,
@@ -9017,7 +9157,18 @@ window.COFFEE_CONTENT = {
               "url": "https://www.ebay.com/itm/366309356130",
               "variant": "按该刊登原图定位，卖家 SKU 与子规格未公开／未核验",
               "image": "store-ebay-366309356130",
-              "price": null,
+              "price": {
+                "amount": 40.93,
+                "currency": "USD",
+                "basis": "商品原页的历史索引报价；工具报告约两个月前抓取。不是当前报价或已成交均价",
+                "pack": "1 只胶囊＋10 只硅胶圈（商品页规格声明）",
+                "observedAt": "2026-10-21T12:37:15.637Z",
+                "source": "https://www.ebay.com/itm/366309356130",
+                "quality": "indexed",
+                "offerType": "历史展示报价",
+                "promotions": [],
+                "shipping": "历史页面：免运费；当前运费、税费与库存未核验"
+              },
               "sales": null,
               "revenue": null,
               "rating": null,
