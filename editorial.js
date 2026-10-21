@@ -14,25 +14,25 @@ function renderKnowledge(isSaved, hint) {
 }
 
 function renderHome(hint) {
-  const editorialOrder = ['alta-preview-2026','nca-fall-2026','kdp-q2-2026','germany-market-2025','nestle-fy2025','kdp-jde-acquisition','lavazza-fy2025','canada-consumption-2025','kdp-q3-2025','nca-specialty-2026','nca-spring-2026'];
+  const editorialOrder = ['nespresso-paper-exit-2026','kdp-coffee-ceo-2026','recipe-greece-2026','goodnews-uk-2026','twosome-us-2026','kdp-liquid-espresso-2026','alta-preview-2026','nca-fall-2026','kdp-q2-2026','germany-market-2025','nestle-fy2025','kdp-jde-acquisition','lavazza-fy2025','canada-consumption-2025','kdp-q3-2025','nca-specialty-2026','nca-spring-2026'];
   const featured = editorialOrder.map(id => news.find(n => n.id === id)).filter(n => match(n) && (state.filter === '全部' || n.category === state.filter || n.tags?.includes(state.filter)));
   const latestPrice = year.prices.at(-1);
   const monthlyChange = (latestPrice.value / year.prices.at(-2).value - 1) * 100;
   page.innerHTML = `
-    <header class="edition-head"><div><span class="eyebrow">COFFEE INDUSTRY OBSERVER</span><h1>产业精选</h1><p>关注胶囊、咖啡豆与配件背后的真实变化。</p></div><div class="edition-date"><time>${year.checked_on}</time><span>近一年资料选编 · 欧美市场</span></div></header>
+    <header class="edition-head"><div><span class="eyebrow">COFFEE INDUSTRY OBSERVER</span><h1>产业精选</h1><p>关注胶囊、咖啡豆与配件背后的真实变化。</p></div><div class="edition-date"><time>${year.news_checked_on || year.checked_on}</time><span>资讯核对 · 各篇保留原始发布日期</span></div></header>
     <section class="research-entry" aria-label="胶囊经营研究台"><div><span class="eyebrow">资料核对 ${research.checkedOn}</span><h2>胶囊经营研究台</h2><p>${research.machines.length} 个机型档案 · ${research.products.length} 个品牌样本 · ${reviewEvidence.products.length} 个平台商品 · ${companies.entries.length} 份企业与财报档案</p></div><div><a href="#research/compatibility">查机型与兼容边界 →</a><a href="#research/watchlist">看竞品与记录价格 →</a><a href="#research/reviews">读真实评论与产品痛点 →</a><a href="#research/companies">查企业与财报 →</a><a href="#research/weekly">阅读本期经营简报 →</a></div></section>
     <div class="editorial-layout">
       <div class="editorial-main">
         <section class="lead-story">
-          <div class="news-meta"><span class="tag gold">本期观察</span><span>消费 × 企业 × 成本</span></div>
-          <h2><a href="#wiki/price-transmission">咖啡涨价之后，增长藏在哪里？</a></h2>
-          <p class="lead-deck">德国烘焙咖啡销售额增长 <b>23.5%</b>，销量却下降 <b>1.5%</b>；Nespresso 的 <b>6.0%</b> 有机增长中，定价贡献 <b>4.4%</b>。看懂行业，要先拆开量、价与产品结构。</p>
-          <div class="lead-reading"><b>对胶囊业务意味着什么</b><p>每杯价值值得重新计算，系统和地区则要分别看。北美 Vertuo、德国整豆，以及可填充器具的使用成本，指向的是不同的产品问题。</p></div>
-          <div class="lead-bottom"><span>依据：德国咖啡协会、雀巢 2025 年披露</span><a href="#wiki/price-transmission">读完整分析 →</a></div>
+          <div class="news-meta"><span class="tag gold">本期观察</span><span>胶囊 × 材料 × 使用体验</span></div>
+          <h2><a href="#news/nespresso-paper-exit-2026">纸基胶囊退出之后，哪些产品问题更值得做？</a></h2>
+          <p class="lead-deck">Nespresso（浓遇咖啡）官方 FAQ 已确认退出纸基胶囊系列，重新聚焦铝胶囊，并强调保鲜和风味保护。<b>10 月 8 日报道，10 月 21 日复核官方说明。</b></p>
+          <div class="lead-reading"><b>对可填充胶囊的经营解读</b><p>把兼容机型、出杯稳定性、清洗时间与盖膜寿命的证据做扎实，才能回应实际使用问题。材料路线变化本身，不能证明客户会迁移或销量会增长。</p></div>
+          <div class="lead-bottom"><span>依据：Nespresso 德国站 FAQ、Daily Coffee News</span><a href="#news/nespresso-paper-exit-2026">读事件、证据与解读 →</a></div>
         </section>
         <div class="insight-strip">
-          <a href="#news/nca-fall-2026"><small>美国 · 消费渠道</small><b>居家需求稳，买咖啡的渠道在变</b><span>食品杂货店 42% → 35%；大众零售商 23% → 28%。</span></a>
-          <a href="#news/kdp-q2-2026"><small>集团 · 并购后续</small><b>KDP 分部下降，先读统计边界</b><span>Peet’s K-Cup 归属改变，影响美国咖啡分部同比。</span></a>
+          <a href="#news/recipe-greece-2026"><small>10 月 20 日 · 欧洲渠道</small><b>加拿大餐饮集团收购希腊咖啡连锁</b><span>收购到渠道采购之间，还有哪些事项待核验？</span></a>
+          <a href="#news/kdp-coffee-ceo-2026"><small>10 月 1 日 · 集团整合</small><b>KDP 公布未来咖啡公司 CEO 人选</b><span>11 月 3 日拟到任，2027 年初分拆仍为计划。</span></a>
           <a href="#wiki/reusable-economics"><small>胶囊 · 使用成本</small><b>可填充到底省多少？代入参数看</b><span>把豆粉、盖膜、清洗与器具分摊分别算清楚。</span></a>
         </div>
         <section class="home-feed"><div class="section-head"><div><h2>值得跟踪的变化</h2><p>原始资料、事件事实与本站解读一起读。</p></div><a href="#news" class="text-link">全部动态 →</a></div>

@@ -122,6 +122,12 @@ window.COFFEE_CONTENT = {
       "url": "https://www.keurigalta.com/",
       "type": "制造商产品与预售说明",
       "checked_on": "2026-10-17"
+    },
+    "nespressoPaperFAQ": {
+      "name": "Nespresso（浓遇咖啡）德国站英文 FAQ｜纸基系列退出；核验于 2026-10-21",
+      "url": "https://www.contact.nespresso.com/faq-3/de/en/1000",
+      "type": "制造商官方 FAQ；未标首次更新日",
+      "checked_on": "2026-10-21"
     }
   },
   "systems": [
@@ -3347,7 +3353,7 @@ window.COFFEE_CONTENT = {
         ],
         "identity": "咖啡与饮料上市集团，简称 KDP。",
         "business": "Keurig 克里格单杯咖啡系统、咖啡品牌及其他饮料。",
-        "relationship": "2026-04-01 官方交割公告：KDP 已通过要约取得 JDE Peet’s 96.22% 股份。该比例是公告当日口径；后续持股须另核验。拟拆分全球咖啡公司与饮料公司当时仍为计划，不视为已完成拆分。",
+        "relationship": "2026-04-01 官方交割公告：KDP 已通过要约取得 JDE Peet’s 96.22% 股份。该比例是公告当日口径；后续持股须另核验。拟拆分全球咖啡公司与饮料公司当时仍为计划，不视为已完成拆分。 2026-10-01 后续官方公告拟由 Russ Torres 于 11 月 3 日加入，分拆目标为 2027 年初；截至 10 月 21 日不视为已到任或已分拆。",
         "brands": [
           "Keurig 克里格：单杯咖啡系统",
           "JDE Peet’s：2026-04-01 公告完成收购，保留独立历史档案"
@@ -3365,7 +3371,7 @@ window.COFFEE_CONTENT = {
           "title": "KDP 投资者公告入口",
           "url": "https://investors.keurigdrpepper.com/home"
         },
-        "checkedOn": "2026-10-18",
+        "checkedOn": "2026-10-21",
         "sources": [
           {
             "title": "KDP 企业官网",
@@ -3376,6 +3382,11 @@ window.COFFEE_CONTENT = {
             "title": "2026-04-01 收购完成公告",
             "url": "https://news.keurigdrpepper.com/2026-04-01-Keurig-Dr-Pepper-Acquires-JDE-Peets-and-Announces-Rafael-Oliveira-as-CEO-of-Future-Global-Coffee-Co",
             "kind": "官方交割公告"
+          },
+          {
+            "title": "2026-10-01 未来全球咖啡公司 CEO 任命公告",
+            "url": "https://www.keurigdrpepper.com/keurig-dr-pepper-names-russ-torres-chief-executive-officer-of-future-global-coffee-co/",
+            "kind": "官方人事与分拆计划公告"
           }
         ],
         "newsTerms": [
@@ -3396,7 +3407,7 @@ window.COFFEE_CONTENT = {
         ],
         "identity": "荷兰起源的综合咖啡企业；并入 KDP 后保留品牌和历史报告索引。",
         "business": "包装咖啡、单杯系统、门店与商用咖啡业务。",
-        "relationship": "2026-04-01 官方交割公告：KDP 已通过要约取得 JDE Peet’s 96.22% 股份。该比例是公告当日口径；后续持股须另核验。拟拆分全球咖啡公司与饮料公司当时仍为计划，不视为已完成拆分。",
+        "relationship": "2026-04-01 官方交割公告：KDP 已通过要约取得 JDE Peet’s 96.22% 股份。该比例是公告当日口径；后续持股须另核验。拟拆分全球咖啡公司与饮料公司当时仍为计划，不视为已完成拆分。 2026-10-01 后续官方公告拟由 Russ Torres 于 11 月 3 日加入，分拆目标为 2027 年初；截至 10 月 21 日不视为已到任或已分拆。",
         "brands": [
           "皮爷 Peet’s：咖啡品牌及门店",
           "L’OR：咖啡及胶囊品牌",
@@ -3415,7 +3426,7 @@ window.COFFEE_CONTENT = {
           "title": "KDP 收购交割公告（2026-04-01）",
           "url": "https://news.keurigdrpepper.com/2026-04-01-Keurig-Dr-Pepper-Acquires-JDE-Peets-and-Announces-Rafael-Oliveira-as-CEO-of-Future-Global-Coffee-Co"
         },
-        "checkedOn": "2026-10-18",
+        "checkedOn": "2026-10-21",
         "sources": [
           {
             "title": "JDE Peet’s 企业官网",
@@ -3431,6 +3442,11 @@ window.COFFEE_CONTENT = {
             "title": "JDE Peet’s 中国官网公司信息：臻饮贸易（上海）有限公司",
             "url": "https://careers-cn.jdepeets.com/zh/company-info/",
             "kind": "官方中国关联实体资料"
+          },
+          {
+            "title": "2026-10-01 未来全球咖啡公司 CEO 任命公告",
+            "url": "https://www.keurigdrpepper.com/keurig-dr-pepper-names-russ-torres-chief-executive-officer-of-future-global-coffee-co/",
+            "kind": "官方人事与分拆计划公告"
           }
         ],
         "newsTerms": [

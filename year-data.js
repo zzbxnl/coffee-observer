@@ -2,8 +2,8 @@
 window.COFFEE_YEAR_DATA = {
   "checked_on": "2026-10-18",
   "window": {
-    "from": "2025-10-18",
-    "to": "2026-10-18",
+    "from": "2025-10-21",
+    "to": "2026-10-21",
     "basis": "消费与企业记录按原始发布日期筛选；实际统计期另列。ICO 另列最近 12 个完整月的月均价格（2025-10—2026-09），2025-10 含日窗口之前的日期；2026-10 尚未完整，不补造月均值。"
   },
   "coverage": "首批人工整理的官方公开资料，不是全行业完整数据库。记录缺少准确发布日时保持为空；不购买受限数据库，不补造国家胶囊份额或产品销量。",
@@ -79,6 +79,42 @@ window.COFFEE_YEAR_DATA = {
       "url": "https://www.cpsc.gov/Recalls/2026/Coffeemakers-Recalled-Due-to-Risk-of-Serious-Injury-from-Burn-Hazard-Imported-by-Kidisle",
       "date": "2026-06-11",
       "type": "监管机构公告"
+    },
+    "recipeGreece": {
+      "name": "World Coffee Portal｜Recipe Unlimited 收购希腊连锁",
+      "url": "https://www.worldcoffeeportal.com/news/two-greek-coffee-chains-become-part-of-canadas-recipe-unlimited-corporation/",
+      "date": "2026-10-20",
+      "type": "专业媒体公开报道"
+    },
+    "goodnewsUK": {
+      "name": "World Coffee Portal｜GoodNews 英国首店",
+      "url": "https://www.worldcoffeeportal.com/news/spains-goodnews-launches-in-third-european-market/",
+      "date": "2026-10-19",
+      "type": "专业媒体公开报道"
+    },
+    "twosomeUS": {
+      "name": "World Coffee Portal｜A Twosome Place 美国首店",
+      "url": "https://www.worldcoffeeportal.com/news/south-koreas-a-twosome-place-makes-long-awaited-us-debut/",
+      "date": "2026-10-19",
+      "type": "专业媒体公开报道"
+    },
+    "nespressoPaperExit": {
+      "name": "Daily Coffee News｜Nespresso 退出纸基胶囊",
+      "url": "https://dailycoffeenews.com/2026/10/08/citing-quality-nespresso-discontinues-compostable-capsules/",
+      "date": "2026-10-08",
+      "type": "专业媒体公开报道"
+    },
+    "kdpCoffeeCEO": {
+      "name": "Keurig Dr Pepper｜未来全球咖啡公司 CEO 任命",
+      "url": "https://www.keurigdrpepper.com/keurig-dr-pepper-names-russ-torres-chief-executive-officer-of-future-global-coffee-co/",
+      "date": "2026-10-01",
+      "type": "企业原始披露"
+    },
+    "kdpLiquidEspresso": {
+      "name": "Keurig Dr Pepper｜液体浓缩咖啡跨品牌推广",
+      "url": "https://www.keurigdrpepper.com/liquid-espresso-concentrate-goes-global/",
+      "date": "2026-09-28",
+      "type": "企业原始披露"
     }
   },
   "prices": [
@@ -393,6 +429,220 @@ window.COFFEE_YEAR_DATA = {
   ],
   "events": [
     {
+      "id": "recipe-greece-2026",
+      "date": "2026-10-20",
+      "period": "2026-10-20 媒体报道；具体交易条款未在免费正文披露",
+      "category": "企业动态",
+      "region": "希腊／加拿大",
+      "tags": [],
+      "status": "公开报道已核对；非独立审计",
+      "title": "Recipe Unlimited（加拿大餐饮集团）收购两家希腊咖啡连锁",
+      "desc": "10 月 20 日报道确认，Everest 与 Flocafe Espresso Room 两个希腊连锁品牌被 Recipe Unlimited 收购，为该集团带来欧洲业务据点。",
+      "impact": "连锁渠道的股权变化值得跟踪，但不能据收购新闻推导胶囊采购量或供应商订单。",
+      "source": "recipeGreece",
+      "article": "group-history",
+      "sections": [
+        {
+          "title": "公开资料确认了什么",
+          "kind": "来源事实与日期",
+          "text": "World Coffee Portal 的公开导语披露了收购方与两个目标品牌。付费正文后的信息未读取，本条不填交易金额、持股比例或门店数量。",
+          "refs": [
+            "recipeGreece"
+          ]
+        },
+        {
+          "title": "对胶囊、豆类与配件经营的意义",
+          "kind": "本站分析；非销量证据",
+          "text": "对咖啡豆和周边业务，可把两品牌列入渠道观察名单，随后核验采购主体、供货地区与产品目录。对于可填充胶囊，先确认是否存在相关零售渠道，再判断商业机会。"
+        },
+        {
+          "title": "下一步验证什么",
+          "kind": "范围与待核验事项",
+          "text": "待核验：官方交割公告、采购与经销安排，以及是否涉及胶囊产品。跨区域集团扩张并不等于各国采购标准已经统一。"
+        }
+      ]
+    },
+    {
+      "id": "goodnews-uk-2026",
+      "date": "2026-10-19",
+      "period": "2026-10-19 报道；伦敦门店开业",
+      "category": "企业动态",
+      "region": "英国／欧洲",
+      "tags": [],
+      "status": "公开报道已核对；非独立审计",
+      "title": "GoodNews（西班牙咖啡连锁品牌）进入英国，落点伦敦 Cheapside",
+      "desc": "继巴黎和阿姆斯特丹之后，GoodNews 在伦敦金融城开店，继续扩展欧洲城市布局。",
+      "impact": "新渠道可以进入观察名单；单店开业与英国整体咖啡需求增长应分开判断。",
+      "source": "goodnewsUK",
+      "article": "group-history",
+      "sections": [
+        {
+          "title": "公开资料确认了什么",
+          "kind": "来源事实与日期",
+          "text": "10 月 19 日公开报道写明英国首店位于伦敦 Cheapside，并提及此前进入巴黎和阿姆斯特丹。公开部分没有提供英国营收、杯量或胶囊销量。",
+          "refs": [
+            "goodnewsUK"
+          ]
+        },
+        {
+          "title": "对胶囊、豆类与配件经营的意义",
+          "kind": "本站分析；非销量证据",
+          "text": "先研究其客群、咖啡豆与配件零售组合及线上渠道，再判断是否适合合作。连锁扩张是渠道信号，不能直接作为家庭胶囊市场规模的证据。"
+        },
+        {
+          "title": "下一步验证什么",
+          "kind": "范围与待核验事项",
+          "text": "后续看英国官网产品目录、经销或采购联络方式、开店后的持续经营情况；本条未把其他国家的经营数据套用到英国。"
+        }
+      ]
+    },
+    {
+      "id": "twosome-us-2026",
+      "date": "2026-10-19",
+      "period": "2026-10-17 开业；2026-10-19 报道",
+      "category": "企业动态",
+      "region": "美国",
+      "tags": [],
+      "status": "公开报道已核对；非独立审计",
+      "title": "A Twosome Place（韩国咖啡连锁品牌）在美国弗吉尼亚州开出首店",
+      "desc": "首店落在 Alexandria（亚历山德里亚市）。报道记录开业排队与蛋糕热销，尚无可比较的长期经营数据。",
+      "impact": "咖啡与甜点组合是美国线下渠道观察点，首日热度不能替代持续复购或咖啡胶囊需求。",
+      "source": "twosomeUS",
+      "article": "us-consumption",
+      "sections": [
+        {
+          "title": "公开资料确认了什么",
+          "kind": "来源事实与日期",
+          "text": "公开报道把美国首店位置列为弗吉尼亚州 Alexandria，并将首日经营日期写为 10 月 17 日；新闻发布日期为 10 月 19 日。报道未公开可复核的首日销售金额。",
+          "refs": [
+            "twosomeUS"
+          ]
+        },
+        {
+          "title": "对胶囊、豆类与配件经营的意义",
+          "kind": "本站分析；非销量证据",
+          "text": "对咖啡豆和配件业务，这提供了一个研究新进入者定位与搭配销售的样本；对可填充胶囊，应另查家用系统与实际零售商品，不能把门店排队转成胶囊销量。"
+        },
+        {
+          "title": "下一步验证什么",
+          "kind": "范围与待核验事项",
+          "text": "后续关注美国本地供应链、线上商品与持续开店公告；关于首日销售的描述属于品牌经媒体转述，未作为量化指标录入。"
+        }
+      ]
+    },
+    {
+      "id": "nespresso-paper-exit-2026",
+      "date": "2026-10-08",
+      "period": "2026 年 9 月末确认决定；10 月 8 日报道；10 月 21 日复核官方 FAQ",
+      "category": "胶囊系统",
+      "region": "欧洲",
+      "tags": [
+        "材料回收",
+        "Nespresso Original"
+      ],
+      "status": "媒体报道与官方 FAQ 已核对",
+      "title": "Nespresso（浓遇咖啡）退出纸基可堆肥胶囊，重新聚焦铝胶囊",
+      "desc": "德国站官方 FAQ 已确认停用 Paper-Based Collection（纸基胶囊系列），并把保鲜与风味保护列为重新聚焦铝胶囊的理由。各地清库存进度仍需分市场核实。",
+      "impact": "环保材料路线需要与保鲜、使用体验和当地回收条件一起评估；这次退出不等于可重复填充胶囊自动获得销量。",
+      "source": "nespressoPaperExit",
+      "article": "system-comparison",
+      "sections": [
+        {
+          "title": "公开资料确认了什么",
+          "kind": "来源事实与日期",
+          "text": "Daily Coffee News 于 10 月 8 日报道退出决定。本次 10 月 21 日读取 Nespresso 德国站英文 FAQ，确认品牌决定停止纸基系列并转向铝胶囊。FAQ 未标首次更新日，不能把核验日当作新闻首发日。",
+          "refs": [
+            "nespressoPaperExit",
+            "nespressoPaperFAQ"
+          ]
+        },
+        {
+          "title": "对胶囊、豆类与配件经营的意义",
+          "kind": "本站分析；非销量证据",
+          "text": "经营可填充胶囊时，更值得准备粉量、出杯一致性、清洗时间和盖膜寿命的实测记录。材料标签不能单独证明消费者会迁移，也不能替代特定机型兼容测试。"
+        },
+        {
+          "title": "下一步验证什么",
+          "kind": "范围与待核验事项",
+          "text": "这属于预填充胶囊的包装路线调整，不是对所有可堆肥材料的监管禁令。不同市场的停售与库存消化时间、真实回收条件，以及环保比较的生命周期边界仍需分别核对。"
+        }
+      ]
+    },
+    {
+      "id": "kdp-coffee-ceo-2026",
+      "date": "2026-10-01",
+      "period": "2026-10-01 公告；计划 2026-11-03 到任；分拆目标为 2027 年初",
+      "category": "企业动态",
+      "region": "欧美",
+      "tags": [
+        "胶囊系统",
+        "集团整合"
+      ],
+      "status": "官方公告已核对",
+      "title": "KDP（克里格胡椒博士）任命 Russ Torres，拟领导未来全球咖啡公司",
+      "desc": "官方公告计划由 Russ Torres（拉斯·托雷斯）11 月 3 日加入，先领导咖啡运营单元并推进整合，后于计划中的分拆后担任 Global Coffee Co. 首席执行官。",
+      "impact": "Keurig 与 JDE Peet’s 的品牌组合继续整合，后续需看具体渠道、供应链与产品计划；集团整合不改变机器适配边界。",
+      "source": "kdpCoffeeCEO",
+      "article": "group-history",
+      "sections": [
+        {
+          "title": "公开资料确认了什么",
+          "kind": "来源事实与日期",
+          "text": "10 月 1 日官方公告写明：Torres 计划于 11 月 3 日加入，分拆目标时间为 2027 年初。截至本次核验日期 10 月 21 日，到任日尚未到来，分拆也不能写成已完成。",
+          "refs": [
+            "kdpCoffeeCEO"
+          ]
+        },
+        {
+          "title": "对胶囊、豆类与配件经营的意义",
+          "kind": "本站分析；非销量证据",
+          "text": "关注旗下单杯系统与咖啡品牌的渠道协同，以及分部统计口径变化。对于可填充胶囊供应商，合作资格、专利边界与兼容声明仍需按品牌、国家和机型分别确认。"
+        },
+        {
+          "title": "下一步验证什么",
+          "kind": "范围与待核验事项",
+          "text": "4 月的收购公告记录当时管理安排，不能继续充当未来 CEO 的最新依据。后续跟踪实际到任、分拆审批和正式交割公告；不把公司规划营收当作已实现业绩。"
+        }
+      ]
+    },
+    {
+      "id": "kdp-liquid-espresso-2026",
+      "date": "2026-09-28",
+      "period": "2026-09-28 企业产品进展说明；20 国为公司披露的覆盖范围",
+      "category": "企业动态",
+      "region": "全球／欧洲",
+      "tags": [
+        "产品形态",
+        "居家咖啡"
+      ],
+      "status": "官方公告已核对",
+      "title": "KDP 将液体浓缩咖啡平台扩至四品牌，披露覆盖 20 个国家",
+      "desc": "9 月 28 日公司说明列出 L’OR、Jacobs、Kenco 与 Douwe Egberts 四个品牌，推出液体浓缩咖啡，面向居家冷热饮场景。",
+      "impact": "胶囊的竞争也来自其他便利咖啡形态；比较应包含每杯成本、制作时间、储存条件与口味选择。",
+      "source": "kdpLiquidEspresso",
+      "article": "reusable-economics",
+      "sections": [
+        {
+          "title": "公开资料确认了什么",
+          "kind": "来源事实与日期",
+          "text": "公司披露该平台覆盖四品牌与 20 国，并称开封冷藏后可保鲜最长四周。这里是制造商说明，不是本网站实测，也未披露各国的销量或份额。",
+          "refs": [
+            "kdpLiquidEspresso"
+          ]
+        },
+        {
+          "title": "对胶囊、豆类与配件经营的意义",
+          "kind": "本站分析；非销量证据",
+          "text": "做可填充胶囊，除预填充胶囊外，可把液体浓缩咖啡作为便利性对照：记录首次投入、每杯用量、冷藏要求与清洗操作，结合实际客户使用条件比较。"
+        },
+        {
+          "title": "下一步验证什么",
+          "kind": "范围与待核验事项",
+          "text": "四个品牌的不同国家商品、规格和标签需分别核验。液体浓缩咖啡不是胶囊，不与胶囊销量相加；公司内部消费者研究不外推为欧美整体比例。"
+        }
+      ]
+    },
+    {
       "id": "alta-preview-2026",
       "date": "2026-09-25",
       "period": "2026 纽约气候周；预售状态另于 2026-10-17 核验",
@@ -640,6 +890,14 @@ window.COFFEE_YEAR_DATA = {
             "kdpQ2"
           ],
           "kind": "后续证据与跟踪"
+        },
+        {
+          "title": "2026 年 10 月的人事后续",
+          "kind": "后续官方公告；尚未到任",
+          "text": "10 月 1 日 KDP 宣布拟由 Russ Torres 11 月 3 日加入并领导咖啡运营单元，后于计划中的分拆后担任未来全球咖啡公司 CEO。4 月公告仍作为交易当日的历史记录；最新人事安排以 10 月公告为准。",
+          "refs": [
+            "kdpCoffeeCEO"
+          ]
         }
       ],
       "status": "原始资料已核验",
@@ -836,5 +1094,6 @@ window.COFFEE_YEAR_DATA = {
         }
       ]
     }
-  ]
+  ],
+  "news_checked_on": "2026-10-21"
 };
