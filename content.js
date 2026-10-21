@@ -4260,7 +4260,7 @@ window.COFFEE_CONTENT = {
     ]
   },
   "visuals": {
-    "checkedOn": "2026-10-18",
+    "checkedOn": "2026-10-21",
     "policy": "百科图取对应品牌官网、说明书或监管公告；店铺 SKU 表可用对应平台商品原图，并明确标为平台商品图。所有图片记录原始出处和具体商品，不使用相似型号替代，不据图片推定兼容性或性能。",
     "images": {
       "pixie": {
@@ -5239,6 +5239,240 @@ window.COFFEE_CONTENT = {
         "width": 140,
         "height": 140,
         "sha256": "0166cd300338dff060614437c8d21287d92e5cf02354a1a8c04590ab507bf765"
+      },
+      "store-alibaba-1601382216870": {
+        "id": "store-alibaba-1601382216870",
+        "subject": "Reusable Coffee Capsule Filter Cup For Models Refillable Filters Baskets Pod Cafe Capsules",
+        "owner": "Ningbo Haoshiji Plastic Industry Co., Ltd. · Alibaba.com",
+        "source": "https://www.alibaba.com/product-detail/Reusable-Coffee-Capsule-Filter-Cup-For_1601382216870.html",
+        "imageURL": "https://s.alicdn.com/@sc04/kf/Hca034d444123409b9dd18cc31782a037o.jpg_300x300.jpg",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-alibaba-1601382216870-214a844a43.jpg",
+        "width": 300,
+        "height": 300,
+        "sha256": "214a844a4308872c5567217649ec70b45330fbbe31ca2d99d7e1a4adaf070375"
+      },
+      "store-alibaba-1601203407784": {
+        "id": "store-alibaba-1601203407784",
+        "subject": "Stainless Steel Refillable Coffee Espresso Capsules Reusable Coffee Pods Compatible Nespresso Original Line Stainless Steel Cups",
+        "owner": "Chaozhou Caitang Lihong Hardware Equipment Factory · Alibaba.com",
+        "source": "https://www.alibaba.com/product-detail/Stainless-Steel-Refillable-Coffee-Espresso-Capsules_1601203407784.html",
+        "imageURL": "https://s.alicdn.com/@sc04/kf/H451255067ea345f4976d86ec881bb5d15.jpg_300x300.jpg",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-alibaba-1601203407784-389939709a.jpg",
+        "width": 300,
+        "height": 300,
+        "sha256": "389939709a094000907752fb04b481b95f821793f8059bbd2405c4008a2bfa56"
+      },
+      "store-alibaba-1601384889586": {
+        "id": "store-alibaba-1601384889586",
+        "subject": "Cheap Price 58mm Vertuo line Reusable Coffee Capsule Stainless Steel coffee capsule set with Brushes and Spoon",
+        "owner": "Zhengzhou Laiwosi Aluminum Co., Ltd. · Alibaba.com",
+        "source": "https://www.alibaba.com/product-detail/Cheap-Price-58mm-Vertuo-line-Reusable_1601384889586.html",
+        "imageURL": "https://s.alicdn.com/@sc04/kf/H5bc8f9b751a441d3aa3818712d353c45m.jpg_300x300.jpg",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-alibaba-1601384889586-58b6b90e53.jpg",
+        "width": 300,
+        "height": 300,
+        "sha256": "58b6b90e53fb4932efae98fdfc6e36367799a3a07916d1ebb5e9c76912af499b"
+      },
+      "store-alibaba-1600644726362": {
+        "id": "store-alibaba-1600644726362",
+        "subject": "Reusable Fit Coffee Pod Maker Stainless Steel Coffee Capsule Reusable Universal BPA FREE Refillable Reusable Capsules",
+        "owner": "Chaozhou Chaoan Ikitchen Stainless Steel Co., Ltd. · Alibaba.com",
+        "source": "https://www.alibaba.com/product-detail/Reusable-Fit-Coffee-Pod-Maker-Stainless_1600644726362.html",
+        "imageURL": "https://s.alicdn.com/@sc04/kf/H9f09e8640373472688df51f5f16e0ff0j.jpg_300x300.jpg",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-alibaba-1600644726362-d074628a43.jpg",
+        "width": 300,
+        "height": 300,
+        "sha256": "d074628a438d8b668684cd63171b0071ee7b7d538e29f4cffed15af3dea18ee9"
+      },
+      "store-alibaba-62089452375": {
+        "id": "store-alibaba-62089452375",
+        "subject": "1 Pod 1 Tamper Wareset Factory Sale Drable Portatil Stainless Steel Reusable Espresso Coffee Refillable Capsules for NESPRESSO",
+        "owner": "Dongguan Esunse Metal Plastic Product Co., Ltd. · Alibaba.com",
+        "source": "https://www.alibaba.com/product-detail/1-Pod-1-Tamper-Wareset-Factory_62089452375.html",
+        "imageURL": "https://s.alicdn.com/@sc04/kf/H037e2c6b66e14600a15e48bbd793b7a1j.jpg_300x300.jpg",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-alibaba-62089452375-c944c1edf3.jpg",
+        "width": 300,
+        "height": 300,
+        "sha256": "c944c1edf33f96726b71e13439fd7e6d64cc6ba8bea677c0ccef863ae1f68db6"
+      },
+      "store-alibaba-1600814304068": {
+        "id": "store-alibaba-1600814304068",
+        "subject": "ICafilas OEM Service Eco-Friendly Stainless Steel Reusable for Coffee Capsules Refillable Filter for Cafe Use",
+        "owner": "Guangzhou Belr Housewares Co., Ltd. · Alibaba.com",
+        "source": "https://www.alibaba.com/product-detail/ICafilas-OEM-Service-Eco-Friendly-Stainless_1600814304068.html",
+        "imageURL": "https://s.alicdn.com/@sc04/kf/H99e68f1dd47e4adb8222daa774172ddaY.jpg_300x300.jpg",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-alibaba-1600814304068-e1a2b9bde1.jpg",
+        "width": 300,
+        "height": 300,
+        "sha256": "e1a2b9bde18fedfee8ad55922a26b76e94bcbb27f19bf11d9e2498d74109d380"
+      },
+      "store-alibaba-1601265475705": {
+        "id": "store-alibaba-1601265475705",
+        "subject": "3 Pack Reusable Cups Filter Plastic Coffee Capsule with One Spoon and One Brush, Refillable Coffee Pods for Nespresso Machines",
+        "owner": "Chengdu Jiadiman International Trading Co., Ltd. · Alibaba.com",
+        "source": "https://www.alibaba.com/product-detail/3-Pack-Reusable-Cups-Filter-Plastic_1601265475705.html",
+        "imageURL": "https://s.alicdn.com/@sc04/kf/Hd984ff0835a24f35833f6ddabfcb89faM.jpg_300x300.jpg",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-alibaba-1601265475705-302a68737a.jpg",
+        "width": 300,
+        "height": 300,
+        "sha256": "302a68737a8d28bebfdfc7e83e8320f8aa8f08014ac23a95e7f1a4b2b1a4bf28"
+      },
+      "store-alibaba-1601595088206": {
+        "id": "store-alibaba-1601595088206",
+        "subject": "Reusable Plastic Capsule Adapter for Dolce Gusto Brewer Converts Nespresso Capsules to Coffee Capsules",
+        "owner": "Jinhua Mingde Commodity Co., Ltd. · Alibaba.com",
+        "source": "https://www.alibaba.com/product-detail/Reusable-Plastic-Capsule-Adapter-for-Dolce_1601595088206.html",
+        "imageURL": "https://s.alicdn.com/@sc04/kf/Haea5d0040178443a919d8e7785a77ae0C.png_300x300.png",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-alibaba-1601595088206-d1b2681922.png",
+        "width": 300,
+        "height": 300,
+        "sha256": "d1b26819223709f5bad6de61e082adfcb347f1cc1e0744fab1276701502e0bf5"
+      },
+      "store-alibaba-62417964252": {
+        "id": "store-alibaba-62417964252",
+        "subject": "ICafilas Stainless Steel Reusable Capsules Refillable Crema Coffee Capsules Pods With Reusabale Lids Compatible for Nespreso-s",
+        "owner": "Dongguan Blue Coast Coffee Appliances Co., Ltd. · Alibaba.com",
+        "source": "https://www.alibaba.com/product-detail/ICafilas-Stainless-Steel-Reusable-Capsules-Refillable_62417964252.html",
+        "imageURL": "https://s.alicdn.com/@sc04/kf/H6d43b8f21e4542c488db5213bf03370cy.jpg_300x300.jpg",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-alibaba-62417964252-dd4c8e38b1.jpg",
+        "width": 300,
+        "height": 300,
+        "sha256": "dd4c8e38b188e4754f4258c5feacb3e59d3f6c72569869b256d9acd4d8f2b551"
+      },
+      "store-alibaba-1600616440416": {
+        "id": "store-alibaba-1600616440416",
+        "subject": "Stainless Steel Compatible Nespresso Reusable Refillable Filters Pods Vertuo Coffee Capsule with Lid Custom for Cafe Restaurant",
+        "owner": "Chaozhou Chaoan Caitang Guangcheng Stainless Steel Product Factory · Alibaba.com",
+        "source": "https://www.alibaba.com/product-detail/Stainless-Steel-Compatible-Nespresso-Reusable-Refillable_1600616440416.html",
+        "imageURL": "https://s.alicdn.com/@sc04/kf/H7010f7ee0cec4d259f5efc8e6036b757G.png_300x300.png",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-alibaba-1600616440416-e4ec714949.png",
+        "width": 300,
+        "height": 300,
+        "sha256": "e4ec714949106b1d6e5a7bdba21fe57980e7764b73adc4429955e335bf9790d6"
+      },
+      "store-yandex-103183235423": {
+        "id": "store-yandex-103183235423",
+        "subject": "iCafilas Triple Set Refillable Capsules, 3 Pack",
+        "owner": "Yandex Market · seller 4506428",
+        "source": "https://market.yandex.ru/card/mnogorazovyye-kapsuly-icafilas-triple-set-dlya-kofemashiny-nespresso-nespresso-3-shtuki/103183235423?do-waremd5=JWlcuy62diVYZ6MaUvOx9Q",
+        "imageURL": "https://avatars.mds.yandex.net/get-mpic/14671832/2a000001989de4baa1731cf2295482dc6e5e/orig",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-yandex-103183235423-514041e700.jpg",
+        "width": 1035,
+        "height": 1380,
+        "sha256": "514041e7004f0985fecea55a6a3988660a0bb0c040e747b38eeb62c3a422caee"
+      },
+      "store-yandex-6083174844": {
+        "id": "store-yandex-6083174844",
+        "subject": "Reusable Coffee Capsules, 3 Pack, Black",
+        "owner": "Yandex Market · seller 216909717",
+        "source": "https://market.yandex.ru/card/mnogorazovyye-kofeynyye-kapsuly-dlya-kofemashiny-3-sht-chernyye/6083174844?do-waremd5=lzOQwra2S5vQqglg1Kl28w",
+        "imageURL": "https://avatars.mds.yandex.net/get-mpic/20732622/2a0000019f7edaa4e04053af287db177918b/orig",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-yandex-6083174844-a8918d7d91.jpg",
+        "width": 1000,
+        "height": 1000,
+        "sha256": "a8918d7d91c3fcd03fe6c391b173c697d6be3a740d09224116bc7540e48e1388"
+      },
+      "store-yandex-103183235422": {
+        "id": "store-yandex-103183235422",
+        "subject": "iCafilas Dolce Gusto Refillable Capsules, 3 Pack",
+        "owner": "Yandex Market · seller 4506428",
+        "source": "https://market.yandex.ru/card/mnogorazovyye-kapsuly-icafilas-dlya-kofemashiny-dolce-gusto-rich-crema-nasyshchennyy-vkus-i-penka-3-shtuki/103183235422?do-waremd5=Fi7qOhgp1Zk_qsttHVX60g",
+        "imageURL": "https://avatars.mds.yandex.net/get-mpic/15049620/2a000001989ddecdf5538d6e191b9345d8ee/orig",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-yandex-103183235422-13bbb3ebca.jpg",
+        "width": 1035,
+        "height": 1380,
+        "sha256": "13bbb3ebcaadb8950348569618a0ac8bb52df1646f2e072762f8603dbcbe1080"
+      },
+      "store-yandex-103143744730": {
+        "id": "store-yandex-103143744730",
+        "subject": "MyPads Dolce Gusto Refillable Capsules, 3 Pack",
+        "owner": "Yandex Market · seller 4851750",
+        "source": "https://market.yandex.ru/card/mnogorazovyye-kapsuly-mypads-dlya-kofemashiny-dolce-gusto-nabor-3-sht/103143744730?do-waremd5=IiOsK5Bw2Bkp1gablCZwxA",
+        "imageURL": "https://avatars.mds.yandex.net/get-mpic/19935643/2a0000019ca40cc9466349c65f4fe043cffc/orig",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-yandex-103143744730-c285fe3dc5.png",
+        "width": 1600,
+        "height": 1585,
+        "sha256": "c285fe3dc5cdd8ebdd971de2320cf22407ea65815e2bb5df05c2f9066b552d80"
+      },
+      "store-yandex-6132990431": {
+        "id": "store-yandex-6132990431",
+        "subject": "Empty Refillable Coffee Capsule, 1 Piece, Black",
+        "owner": "Yandex Market · seller 216961140",
+        "source": "https://market.yandex.ru/card/pustyye-mnogorazovyye-kapsuly-dlya-kofe-1-sht-chernyy-tsvet-dlya-samostoyatelnogo-zapolneniya-molotym-kofe/6132990431?do-waremd5=78XDBbUky57ArebeWo7cpw",
+        "imageURL": "https://avatars.mds.yandex.net/get-mpic/18103307/pica5e3a94a1cff16c988854f714d3fd855/orig",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-yandex-6132990431-9b6520d808.jpg",
+        "width": 800,
+        "height": 800,
+        "sha256": "9b6520d808e5f49d09988e9dfdbb7cd8239dd1e3526acef7edc2ae5e9eec4145"
+      },
+      "store-yandex-103174582811": {
+        "id": "store-yandex-103174582811",
+        "subject": "Nespresso Vertuo Refill Kit, 230 ml, 2 Pods and 100 Foils",
+        "owner": "Yandex Market · seller 12967375",
+        "source": "https://market.yandex.ru/card/kapsuly-dlya-kofemashin-nespresso-vertuo-230ml-mnogorazovyye-2-sht-filtry-nakleyki-100sht-mernaya-lozhechka/103174582811?do-waremd5=EOVzB_oS2soPkPHv8Uo1BQ",
+        "imageURL": "https://avatars.mds.yandex.net/get-mpic/5022937/2a0000019664b7c3d35292c7c3a64422b8b7/orig",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-yandex-103174582811-93d8003e8c.jpg",
+        "width": 900,
+        "height": 1200,
+        "sha256": "93d8003e8cb0f328bb7bfc15af9b033aee4a6243cc0fa2a033520c8039d28813"
+      },
+      "store-yandex-5405975557": {
+        "id": "store-yandex-5405975557",
+        "subject": "Tassimo Refillable Disc, 60 ml, Green",
+        "owner": "Yandex Market · seller 12967375",
+        "source": "https://market.yandex.ru/card/mnogorazovaya-kapsula-tassimo-60-ml-zelenaya-dlya-kofemashiny-bosch-kapsuly-dlya-kofe-tassimo/5405975557?do-waremd5=B-OxVtak15rt-HHQCZO78Q",
+        "imageURL": "https://avatars.mds.yandex.net/get-mpic/19390271/2a0000019d238ee79da99fac4093f4b60ddb/orig",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-yandex-5405975557-7f2a9d303d.jpg",
+        "width": 900,
+        "height": 1200,
+        "sha256": "7f2a9d303d7bc362d7fde208d57d28231217a1e2b1b02fd152829dcd9622e053"
+      },
+      "store-yandex-6030233923": {
+        "id": "store-yandex-6030233923",
+        "subject": "Dolce Gusto Refillable Capsule, Green",
+        "owner": "Yandex Market · seller 216909844",
+        "source": "https://market.yandex.ru/card/mnogorazovaya-kapsula-dlya-kofe-dolce-gusto-zelenaya-dlya-samostoyatelnogo-napolneniya-molotym-kofe/6030233923?do-waremd5=oageManYYguMOcBn292YNw",
+        "imageURL": "https://avatars.mds.yandex.net/get-mpic/18524694/2a0000019f92f453ea1288f7894d35a1900f/orig",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-yandex-6030233923-7ff5e72127.jpg",
+        "width": 800,
+        "height": 800,
+        "sha256": "7ff5e721273ed7ac86d1c594509649bc4a6ac1f90d8679f98d307bc6d222247a"
       }
     }
   },
@@ -7213,7 +7447,7 @@ window.COFFEE_CONTENT = {
     "storeResearch": {
       "checkedOn": "2026-10-21",
       "targetStoresPerPlatform": 10,
-      "method": "每个平台目标 10 家不同销售店铺。同平台优先按卖家 ID／店铺链接去重；TikTok 本批按商品原页披露的经营主体分别去重，平台编号与独立店铺链接缺失时明示。当前为公开相关候选，不是销量前十。广告分类只描述有证据的商品展示位，不代表店铺全部流量来源、投放金额或广告占比。",
+      "method": "全部26个平台均以10家不同店铺为目标。同平台优先按卖家 ID／店铺链接去重；未取得平台编号时，仅按原页明确披露的不同经营主体记录并标注。俄罗斯本批取得真实卖家编号但未取得店名，明确显示店名待核；Alibaba 为全球批发采购，不能当作欧美零售销量。相关候选不是销量前十，推广分类仅描述取得证据的商品展示位。",
       "imagePolicy": "SKU 表只用对应平台商品页原图，保留商品编号、来源和核对时间；未公开卖家 SKU 或未核验子变体时明确标注，不以相似产品图替代。",
       "stores": [
         {
@@ -9648,6 +9882,1063 @@ window.COFFEE_CONTENT = {
               ]
             }
           ]
+        },
+        {
+          "id": "alibaba-239559546",
+          "platform": "alibaba",
+          "market": "WW",
+          "sellerId": "239559546",
+          "name": "Ningbo Haoshiji Plastic Industry Co., Ltd.",
+          "url": "https://hsjfilters.en.alibaba.com/company_profile.html",
+          "identitySource": "https://www.alibaba.com/trade/search?SearchText=reusable%20coffee%20capsule",
+          "checkedAt": "2026-10-21T15:40:53.133Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "alibaba-1601382216870",
+              "listingId": "1601382216870",
+              "listingIdType": "Alibaba 商品编号",
+              "sellerSKU": null,
+              "name": "Reusable Coffee Capsule Filter Cup For Models Refillable Filters Baskets Pod Cafe Capsules",
+              "zh": "可填充胶囊滤杯；具体胶囊系统待核对",
+              "system": "unconfirmed",
+              "type": "reusable",
+              "url": "https://www.alibaba.com/product-detail/Reusable-Coffee-Capsule-Filter-Cup-For_1601382216870.html",
+              "variant": "检索页对应商品；Min. order: 500 pieces；具体数量阶梯、材质、容量与子规格尚需详情页或供应商确认",
+              "image": "store-alibaba-1601382216870",
+              "price": {
+                "amount": 3.66,
+                "currency": "CNY",
+                "starting": true,
+                "offerType": "批发区间下限（未选阶梯）",
+                "quality": "live",
+                "pack": "Min. order: 500 pieces；按页面 pieces／sets／box 单位报价，不按零售整包价比较",
+                "source": "https://www.alibaba.com/trade/search?SearchText=reusable%20coffee%20capsule",
+                "observedAt": "2026-10-21T15:40:53.133Z",
+                "basis": "同一商品编号、供应商编号的公开检索报价 CN¥3.66-3.86。人民币显示价，未换算汇率；起订量和阶梯条件适用，未取得对应详情报价。不是美国／欧洲零售成交价",
+                "shipping": "未指定目的国、税费和运费；批量采购到手成本需另核对",
+                "promotions": []
+              },
+              "sales": {
+                "text": "1,180 sold",
+                "scope": "product",
+                "period": "unspecified",
+                "basis": "Alibaba 公开商品检索卡片已售提示，统计期、取消／退款口径未披露；不是月销量，也不是美国／欧洲国家销量"
+              },
+              "revenue": null,
+              "rating": null,
+              "ratingCount": null,
+              "reviewScope": "检索卡片评分未确认是商品还是供应商评价，未填为商品评分",
+              "placement": {
+                "type": "paid",
+                "source": "https://www.alibaba.com/trade/search?SearchText=reusable%20coffee%20capsule",
+                "observedAt": "2026-10-21T15:40:53.133Z",
+                "evidence": "该商品公开检索结果带平台推广标记；仅说明此展示位"
+              },
+              "shipping": "供应商批发／跨境采购；目的国、样品费、起订量、税运费及交期需按具体订单确认",
+              "checkedAt": "2026-10-21T15:40:53.133Z",
+              "freshness": "live",
+              "freshnessNote": "公开检索页核对到供应商 ID、商品编号、报价、MOQ 和对应原图；具体详情页返回空壳，未声称完成详情／子规格复核",
+              "selection": "按不同供应商 ID 选取10个相关候选；不是销量前十，不把工业空壳或一次性胶囊填成家用可重复胶囊",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "alibaba-233283543",
+          "platform": "alibaba",
+          "market": "WW",
+          "sellerId": "233283543",
+          "name": "Chaozhou Caitang Lihong Hardware Equipment Factory",
+          "url": "https://yalida.en.alibaba.com/company_profile.html",
+          "identitySource": "https://www.alibaba.com/trade/search?SearchText=reusable%20coffee%20capsule",
+          "checkedAt": "2026-10-21T15:40:53.133Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "alibaba-1601203407784",
+              "listingId": "1601203407784",
+              "listingIdType": "Alibaba 商品编号",
+              "sellerSKU": null,
+              "name": "Stainless Steel Refillable Coffee Espresso Capsules Reusable Coffee Pods Compatible Nespresso Original Line Stainless Steel Cups",
+              "zh": "Original 系列不锈钢可填充胶囊；卖家兼容声明未实测",
+              "system": "original",
+              "type": "reusable",
+              "url": "https://www.alibaba.com/product-detail/Stainless-Steel-Refillable-Coffee-Espresso-Capsules_1601203407784.html",
+              "variant": "检索页对应商品；Min. order: 100 pieces；具体数量阶梯、材质、容量与子规格尚需详情页或供应商确认",
+              "image": "store-alibaba-1601203407784",
+              "price": {
+                "amount": 23.25,
+                "currency": "CNY",
+                "starting": false,
+                "offerType": "批发检索报价",
+                "quality": "live",
+                "pack": "Min. order: 100 pieces；按页面 pieces／sets／box 单位报价，不按零售整包价比较",
+                "source": "https://www.alibaba.com/trade/search?SearchText=reusable%20coffee%20capsule",
+                "observedAt": "2026-10-21T15:40:53.133Z",
+                "basis": "同一商品编号、供应商编号的公开检索报价 CN¥23.25。人民币显示价，未换算汇率；起订量和阶梯条件适用，未取得对应详情报价。不是美国／欧洲零售成交价",
+                "shipping": "未指定目的国、税费和运费；批量采购到手成本需另核对",
+                "promotions": []
+              },
+              "sales": {
+                "text": "8 sold",
+                "scope": "product",
+                "period": "unspecified",
+                "basis": "Alibaba 公开商品检索卡片已售提示，统计期、取消／退款口径未披露；不是月销量，也不是美国／欧洲国家销量"
+              },
+              "revenue": null,
+              "rating": null,
+              "ratingCount": null,
+              "reviewScope": "检索卡片评分未确认是商品还是供应商评价，未填为商品评分",
+              "placement": {
+                "type": "organic",
+                "source": "https://www.alibaba.com/trade/search?SearchText=reusable%20coffee%20capsule",
+                "observedAt": "2026-10-21T15:40:53.133Z",
+                "evidence": "该商品公开检索结果未标为推广；只说明本次展示，不表示该供应商没有投放广告"
+              },
+              "shipping": "供应商批发／跨境采购；目的国、样品费、起订量、税运费及交期需按具体订单确认",
+              "checkedAt": "2026-10-21T15:40:53.133Z",
+              "freshness": "live",
+              "freshnessNote": "公开检索页核对到供应商 ID、商品编号、报价、MOQ 和对应原图；具体详情页返回空壳，未声称完成详情／子规格复核",
+              "selection": "按不同供应商 ID 选取10个相关候选；不是销量前十，不把工业空壳或一次性胶囊填成家用可重复胶囊",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "alibaba-235157642",
+          "platform": "alibaba",
+          "market": "WW",
+          "sellerId": "235157642",
+          "name": "Zhengzhou Laiwosi Aluminum Co., Ltd.",
+          "url": "https://laiwosialuminum.en.alibaba.com/company_profile.html",
+          "identitySource": "https://www.alibaba.com/trade/search?SearchText=reusable%20coffee%20capsule",
+          "checkedAt": "2026-10-21T15:40:53.133Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "alibaba-1601384889586",
+              "listingId": "1601384889586",
+              "listingIdType": "Alibaba 商品编号",
+              "sellerSKU": null,
+              "name": "Cheap Price 58mm Vertuo line Reusable Coffee Capsule Stainless Steel coffee capsule set with Brushes and Spoon",
+              "zh": "58mm Vertuo 系列不锈钢可填充胶囊套装；具体机型待核对",
+              "system": "vertuo",
+              "type": "reusable",
+              "url": "https://www.alibaba.com/product-detail/Cheap-Price-58mm-Vertuo-line-Reusable_1601384889586.html",
+              "variant": "检索页对应商品；Min. order: 100 pieces；具体数量阶梯、材质、容量与子规格尚需详情页或供应商确认",
+              "image": "store-alibaba-1601384889586",
+              "price": {
+                "amount": 59.77,
+                "currency": "CNY",
+                "starting": true,
+                "offerType": "批发区间下限（未选阶梯）",
+                "quality": "live",
+                "pack": "Min. order: 100 pieces；按页面 pieces／sets／box 单位报价，不按零售整包价比较",
+                "source": "https://www.alibaba.com/trade/search?SearchText=reusable%20coffee%20capsule",
+                "observedAt": "2026-10-21T15:40:53.133Z",
+                "basis": "同一商品编号、供应商编号的公开检索报价 CN¥59.77-79.69。人民币显示价，未换算汇率；起订量和阶梯条件适用，未取得对应详情报价。不是美国／欧洲零售成交价",
+                "shipping": "未指定目的国、税费和运费；批量采购到手成本需另核对",
+                "promotions": []
+              },
+              "sales": null,
+              "revenue": null,
+              "rating": null,
+              "ratingCount": null,
+              "reviewScope": "检索卡片评分未确认是商品还是供应商评价，未填为商品评分",
+              "placement": {
+                "type": "organic",
+                "source": "https://www.alibaba.com/trade/search?SearchText=reusable%20coffee%20capsule",
+                "observedAt": "2026-10-21T15:40:53.133Z",
+                "evidence": "该商品公开检索结果未标为推广；只说明本次展示，不表示该供应商没有投放广告"
+              },
+              "shipping": "供应商批发／跨境采购；目的国、样品费、起订量、税运费及交期需按具体订单确认",
+              "checkedAt": "2026-10-21T15:40:53.133Z",
+              "freshness": "live",
+              "freshnessNote": "公开检索页核对到供应商 ID、商品编号、报价、MOQ 和对应原图；具体详情页返回空壳，未声称完成详情／子规格复核",
+              "selection": "按不同供应商 ID 选取10个相关候选；不是销量前十，不把工业空壳或一次性胶囊填成家用可重复胶囊",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "alibaba-255585286",
+          "platform": "alibaba",
+          "market": "WW",
+          "sellerId": "255585286",
+          "name": "Chaozhou Chaoan Ikitchen Stainless Steel Co., Ltd.",
+          "url": "https://ikitchen01.en.alibaba.com/company_profile.html",
+          "identitySource": "https://www.alibaba.com/trade/search?SearchText=reusable%20coffee%20capsule",
+          "checkedAt": "2026-10-21T15:40:53.133Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "alibaba-1600644726362",
+              "listingId": "1600644726362",
+              "listingIdType": "Alibaba 商品编号",
+              "sellerSKU": null,
+              "name": "Reusable Fit Coffee Pod Maker Stainless Steel Coffee Capsule Reusable Universal BPA FREE Refillable Reusable Capsules",
+              "zh": "不锈钢可填充胶囊；未采纳标题中的通用兼容承诺",
+              "system": "unconfirmed",
+              "type": "reusable",
+              "url": "https://www.alibaba.com/product-detail/Reusable-Fit-Coffee-Pod-Maker-Stainless_1600644726362.html",
+              "variant": "检索页对应商品；Min. order: 100 pieces；具体数量阶梯、材质、容量与子规格尚需详情页或供应商确认",
+              "image": "store-alibaba-1600644726362",
+              "price": {
+                "amount": 23.25,
+                "currency": "CNY",
+                "starting": false,
+                "offerType": "批发检索报价",
+                "quality": "live",
+                "pack": "Min. order: 100 pieces；按页面 pieces／sets／box 单位报价，不按零售整包价比较",
+                "source": "https://www.alibaba.com/trade/search?SearchText=reusable%20coffee%20capsule",
+                "observedAt": "2026-10-21T15:40:53.133Z",
+                "basis": "同一商品编号、供应商编号的公开检索报价 CN¥23.25。人民币显示价，未换算汇率；起订量和阶梯条件适用，未取得对应详情报价。不是美国／欧洲零售成交价",
+                "shipping": "未指定目的国、税费和运费；批量采购到手成本需另核对",
+                "promotions": []
+              },
+              "sales": {
+                "text": "10 sold",
+                "scope": "product",
+                "period": "unspecified",
+                "basis": "Alibaba 公开商品检索卡片已售提示，统计期、取消／退款口径未披露；不是月销量，也不是美国／欧洲国家销量"
+              },
+              "revenue": null,
+              "rating": null,
+              "ratingCount": null,
+              "reviewScope": "检索卡片评分未确认是商品还是供应商评价，未填为商品评分",
+              "placement": {
+                "type": "organic",
+                "source": "https://www.alibaba.com/trade/search?SearchText=reusable%20coffee%20capsule",
+                "observedAt": "2026-10-21T15:40:53.133Z",
+                "evidence": "该商品公开检索结果未标为推广；只说明本次展示，不表示该供应商没有投放广告"
+              },
+              "shipping": "供应商批发／跨境采购；目的国、样品费、起订量、税运费及交期需按具体订单确认",
+              "checkedAt": "2026-10-21T15:40:53.133Z",
+              "freshness": "live",
+              "freshnessNote": "公开检索页核对到供应商 ID、商品编号、报价、MOQ 和对应原图；具体详情页返回空壳，未声称完成详情／子规格复核",
+              "selection": "按不同供应商 ID 选取10个相关候选；不是销量前十，不把工业空壳或一次性胶囊填成家用可重复胶囊",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "alibaba-246149487",
+          "platform": "alibaba",
+          "market": "WW",
+          "sellerId": "246149487",
+          "name": "Dongguan Esunse Metal Plastic Product Co., Ltd.",
+          "url": "https://esunse.en.alibaba.com/company_profile.html",
+          "identitySource": "https://www.alibaba.com/trade/search?SearchText=reusable%20coffee%20capsule",
+          "checkedAt": "2026-10-21T15:40:53.133Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "alibaba-62089452375",
+              "listingId": "62089452375",
+              "listingIdType": "Alibaba 商品编号",
+              "sellerSKU": null,
+              "name": "1 Pod 1 Tamper Wareset Factory Sale Drable Portatil Stainless Steel Reusable Espresso Coffee Refillable Capsules for NESPRESSO",
+              "zh": "1只不锈钢胶囊与1只压粉器套装；Nespresso 具体系列待核对",
+              "system": "nespresso-unconfirmed",
+              "type": "reusable",
+              "url": "https://www.alibaba.com/product-detail/1-Pod-1-Tamper-Wareset-Factory_62089452375.html",
+              "variant": "检索页对应商品；Min. order: 14 sets；具体数量阶梯、材质、容量与子规格尚需详情页或供应商确认",
+              "image": "store-alibaba-62089452375",
+              "price": {
+                "amount": 31.48,
+                "currency": "CNY",
+                "starting": false,
+                "offerType": "批发检索报价",
+                "quality": "live",
+                "pack": "Min. order: 14 sets；按页面 pieces／sets／box 单位报价，不按零售整包价比较",
+                "source": "https://www.alibaba.com/trade/search?SearchText=reusable%20coffee%20capsule",
+                "observedAt": "2026-10-21T15:40:53.133Z",
+                "basis": "同一商品编号、供应商编号的公开检索报价 CN¥31.48。人民币显示价，未换算汇率；起订量和阶梯条件适用，未取得对应详情报价。不是美国／欧洲零售成交价",
+                "shipping": "未指定目的国、税费和运费；批量采购到手成本需另核对",
+                "promotions": []
+              },
+              "sales": null,
+              "revenue": null,
+              "rating": null,
+              "ratingCount": null,
+              "reviewScope": "检索卡片评分未确认是商品还是供应商评价，未填为商品评分",
+              "placement": {
+                "type": "organic",
+                "source": "https://www.alibaba.com/trade/search?SearchText=reusable%20coffee%20capsule",
+                "observedAt": "2026-10-21T15:40:53.133Z",
+                "evidence": "该商品公开检索结果未标为推广；只说明本次展示，不表示该供应商没有投放广告"
+              },
+              "shipping": "供应商批发／跨境采购；目的国、样品费、起订量、税运费及交期需按具体订单确认",
+              "checkedAt": "2026-10-21T15:40:53.133Z",
+              "freshness": "live",
+              "freshnessNote": "公开检索页核对到供应商 ID、商品编号、报价、MOQ 和对应原图；具体详情页返回空壳，未声称完成详情／子规格复核",
+              "selection": "按不同供应商 ID 选取10个相关候选；不是销量前十，不把工业空壳或一次性胶囊填成家用可重复胶囊",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "alibaba-239561071",
+          "platform": "alibaba",
+          "market": "WW",
+          "sellerId": "239561071",
+          "name": "Guangzhou Belr Housewares Co., Ltd.",
+          "url": "https://belr.en.alibaba.com/company_profile.html",
+          "identitySource": "https://www.alibaba.com/trade/search?SearchText=reusable%20coffee%20capsule",
+          "checkedAt": "2026-10-21T15:40:53.133Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "alibaba-1600814304068",
+              "listingId": "1600814304068",
+              "listingIdType": "Alibaba 商品编号",
+              "sellerSKU": null,
+              "name": "ICafilas OEM Service Eco-Friendly Stainless Steel Reusable for Coffee Capsules Refillable Filter for Cafe Use",
+              "zh": "iCafilas 不锈钢可填充胶囊；具体系统、机型待核对",
+              "system": "unconfirmed",
+              "type": "reusable",
+              "url": "https://www.alibaba.com/product-detail/ICafilas-OEM-Service-Eco-Friendly-Stainless_1600814304068.html",
+              "variant": "检索页对应商品；Min. order: 2 pieces；具体数量阶梯、材质、容量与子规格尚需详情页或供应商确认",
+              "image": "store-alibaba-1600814304068",
+              "price": {
+                "amount": 57.77,
+                "currency": "CNY",
+                "starting": false,
+                "offerType": "批发检索报价",
+                "quality": "live",
+                "pack": "Min. order: 2 pieces；按页面 pieces／sets／box 单位报价，不按零售整包价比较",
+                "source": "https://www.alibaba.com/trade/search?SearchText=reusable%20coffee%20capsule",
+                "observedAt": "2026-10-21T15:40:53.133Z",
+                "basis": "同一商品编号、供应商编号的公开检索报价 CN¥57.77。人民币显示价，未换算汇率；起订量和阶梯条件适用，未取得对应详情报价。不是美国／欧洲零售成交价",
+                "shipping": "未指定目的国、税费和运费；批量采购到手成本需另核对",
+                "promotions": []
+              },
+              "sales": {
+                "text": "6 sold",
+                "scope": "product",
+                "period": "unspecified",
+                "basis": "Alibaba 公开商品检索卡片已售提示，统计期、取消／退款口径未披露；不是月销量，也不是美国／欧洲国家销量"
+              },
+              "revenue": null,
+              "rating": null,
+              "ratingCount": null,
+              "reviewScope": "检索卡片评分未确认是商品还是供应商评价，未填为商品评分",
+              "placement": {
+                "type": "organic",
+                "source": "https://www.alibaba.com/trade/search?SearchText=reusable%20coffee%20capsule",
+                "observedAt": "2026-10-21T15:40:53.133Z",
+                "evidence": "该商品公开检索结果未标为推广；只说明本次展示，不表示该供应商没有投放广告"
+              },
+              "shipping": "供应商批发／跨境采购；目的国、样品费、起订量、税运费及交期需按具体订单确认",
+              "checkedAt": "2026-10-21T15:40:53.133Z",
+              "freshness": "live",
+              "freshnessNote": "公开检索页核对到供应商 ID、商品编号、报价、MOQ 和对应原图；具体详情页返回空壳，未声称完成详情／子规格复核",
+              "selection": "按不同供应商 ID 选取10个相关候选；不是销量前十，不把工业空壳或一次性胶囊填成家用可重复胶囊",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "alibaba-244651177",
+          "platform": "alibaba",
+          "market": "WW",
+          "sellerId": "244651177",
+          "name": "Chengdu Jiadiman International Trading Co., Ltd.",
+          "url": "https://jiadiman.en.alibaba.com/company_profile.html",
+          "identitySource": "https://www.alibaba.com/trade/search?SearchText=reusable%20coffee%20capsule",
+          "checkedAt": "2026-10-21T15:40:53.133Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "alibaba-1601265475705",
+              "listingId": "1601265475705",
+              "listingIdType": "Alibaba 商品编号",
+              "sellerSKU": null,
+              "name": "3 Pack Reusable Cups Filter Plastic Coffee Capsule with One Spoon and One Brush, Refillable Coffee Pods for Nespresso Machines",
+              "zh": "Nespresso 三只装可填充塑料胶囊，附勺、刷；具体系列待核对",
+              "system": "nespresso-unconfirmed",
+              "type": "reusable",
+              "url": "https://www.alibaba.com/product-detail/3-Pack-Reusable-Cups-Filter-Plastic_1601265475705.html",
+              "variant": "检索页对应商品；Min. order: 60 sets；具体数量阶梯、材质、容量与子规格尚需详情页或供应商确认",
+              "image": "store-alibaba-1601265475705",
+              "price": {
+                "amount": 8.31,
+                "currency": "CNY",
+                "starting": true,
+                "offerType": "批发区间下限（未选阶梯）",
+                "quality": "live",
+                "pack": "Min. order: 60 sets；按页面 pieces／sets／box 单位报价，不按零售整包价比较",
+                "source": "https://www.alibaba.com/trade/search?SearchText=reusable%20coffee%20capsule",
+                "observedAt": "2026-10-21T15:40:53.133Z",
+                "basis": "同一商品编号、供应商编号的公开检索报价 CN¥8.31-8.50。人民币显示价，未换算汇率；起订量和阶梯条件适用，未取得对应详情报价。不是美国／欧洲零售成交价",
+                "shipping": "未指定目的国、税费和运费；批量采购到手成本需另核对",
+                "promotions": []
+              },
+              "sales": null,
+              "revenue": null,
+              "rating": null,
+              "ratingCount": null,
+              "reviewScope": "检索卡片评分未确认是商品还是供应商评价，未填为商品评分",
+              "placement": {
+                "type": "organic",
+                "source": "https://www.alibaba.com/trade/search?SearchText=reusable%20coffee%20capsule",
+                "observedAt": "2026-10-21T15:40:53.133Z",
+                "evidence": "该商品公开检索结果未标为推广；只说明本次展示，不表示该供应商没有投放广告"
+              },
+              "shipping": "供应商批发／跨境采购；目的国、样品费、起订量、税运费及交期需按具体订单确认",
+              "checkedAt": "2026-10-21T15:40:53.133Z",
+              "freshness": "live",
+              "freshnessNote": "公开检索页核对到供应商 ID、商品编号、报价、MOQ 和对应原图；具体详情页返回空壳，未声称完成详情／子规格复核",
+              "selection": "按不同供应商 ID 选取10个相关候选；不是销量前十，不把工业空壳或一次性胶囊填成家用可重复胶囊",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "alibaba-243808432",
+          "platform": "alibaba",
+          "market": "WW",
+          "sellerId": "243808432",
+          "name": "Jinhua Mingde Commodity Co., Ltd.",
+          "url": "https://mingdcoffee.en.alibaba.com/company_profile.html",
+          "identitySource": "https://www.alibaba.com/trade/search?SearchText=reusable%20coffee%20capsule",
+          "checkedAt": "2026-10-21T15:40:53.133Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "alibaba-1601595088206",
+              "listingId": "1601595088206",
+              "listingIdType": "Alibaba 商品编号",
+              "sellerSKU": null,
+              "name": "Reusable Plastic Capsule Adapter for Dolce Gusto Brewer Converts Nespresso Capsules to Coffee Capsules",
+              "zh": "Dolce Gusto 与 Nespresso 胶囊转换配件；兼容性未实测",
+              "system": "dolce-gusto",
+              "type": "accessories",
+              "url": "https://www.alibaba.com/product-detail/Reusable-Plastic-Capsule-Adapter-for-Dolce_1601595088206.html",
+              "variant": "检索页对应商品；Min. order: 1 piece；具体数量阶梯、材质、容量与子规格尚需详情页或供应商确认",
+              "image": "store-alibaba-1601595088206",
+              "price": {
+                "amount": 39.18,
+                "currency": "CNY",
+                "starting": false,
+                "offerType": "批发检索报价",
+                "quality": "live",
+                "pack": "Min. order: 1 piece；按页面 pieces／sets／box 单位报价，不按零售整包价比较",
+                "source": "https://www.alibaba.com/trade/search?SearchText=reusable%20coffee%20capsule",
+                "observedAt": "2026-10-21T15:40:53.133Z",
+                "basis": "同一商品编号、供应商编号的公开检索报价 CN¥39.18。人民币显示价，未换算汇率；起订量和阶梯条件适用，未取得对应详情报价。不是美国／欧洲零售成交价",
+                "shipping": "未指定目的国、税费和运费；批量采购到手成本需另核对",
+                "promotions": []
+              },
+              "sales": {
+                "text": "12 sold",
+                "scope": "product",
+                "period": "unspecified",
+                "basis": "Alibaba 公开商品检索卡片已售提示，统计期、取消／退款口径未披露；不是月销量，也不是美国／欧洲国家销量"
+              },
+              "revenue": null,
+              "rating": null,
+              "ratingCount": null,
+              "reviewScope": "检索卡片评分未确认是商品还是供应商评价，未填为商品评分",
+              "placement": {
+                "type": "organic",
+                "source": "https://www.alibaba.com/trade/search?SearchText=reusable%20coffee%20capsule",
+                "observedAt": "2026-10-21T15:40:53.133Z",
+                "evidence": "该商品公开检索结果未标为推广；只说明本次展示，不表示该供应商没有投放广告"
+              },
+              "shipping": "供应商批发／跨境采购；目的国、样品费、起订量、税运费及交期需按具体订单确认",
+              "checkedAt": "2026-10-21T15:40:53.133Z",
+              "freshness": "live",
+              "freshnessNote": "公开检索页核对到供应商 ID、商品编号、报价、MOQ 和对应原图；具体详情页返回空壳，未声称完成详情／子规格复核",
+              "selection": "按不同供应商 ID 选取10个相关候选；不是销量前十，不把工业空壳或一次性胶囊填成家用可重复胶囊",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "alibaba-230788081",
+          "platform": "alibaba",
+          "market": "WW",
+          "sellerId": "230788081",
+          "name": "Dongguan Blue Coast Coffee Appliances Co., Ltd.",
+          "url": "https://bluecoast-coffee.en.alibaba.com/company_profile.html",
+          "identitySource": "https://www.alibaba.com/trade/search?SearchText=reusable%20coffee%20capsule",
+          "checkedAt": "2026-10-21T15:40:53.133Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "alibaba-62417964252",
+              "listingId": "62417964252",
+              "listingIdType": "Alibaba 商品编号",
+              "sellerSKU": null,
+              "name": "ICafilas Stainless Steel Reusable Capsules Refillable Crema Coffee Capsules Pods With Reusabale Lids Compatible for Nespreso-s",
+              "zh": "iCafilas 可填充钢制胶囊及可重复使用盖；具体系列待核对",
+              "system": "nespresso-unconfirmed",
+              "type": "reusable",
+              "url": "https://www.alibaba.com/product-detail/ICafilas-Stainless-Steel-Reusable-Capsules-Refillable_62417964252.html",
+              "variant": "检索页对应商品；Min. order: 1 box；具体数量阶梯、材质、容量与子规格尚需详情页或供应商确认",
+              "image": "store-alibaba-62417964252",
+              "price": {
+                "amount": 45.82,
+                "currency": "CNY",
+                "starting": false,
+                "offerType": "批发检索报价",
+                "quality": "live",
+                "pack": "Min. order: 1 box；按页面 pieces／sets／box 单位报价，不按零售整包价比较",
+                "source": "https://www.alibaba.com/trade/search?SearchText=reusable%20coffee%20capsule",
+                "observedAt": "2026-10-21T15:40:53.133Z",
+                "basis": "同一商品编号、供应商编号的公开检索报价 CN¥45.82。人民币显示价，未换算汇率；起订量和阶梯条件适用，未取得对应详情报价。不是美国／欧洲零售成交价",
+                "shipping": "未指定目的国、税费和运费；批量采购到手成本需另核对",
+                "promotions": []
+              },
+              "sales": {
+                "text": "1 sold",
+                "scope": "product",
+                "period": "unspecified",
+                "basis": "Alibaba 公开商品检索卡片已售提示，统计期、取消／退款口径未披露；不是月销量，也不是美国／欧洲国家销量"
+              },
+              "revenue": null,
+              "rating": null,
+              "ratingCount": null,
+              "reviewScope": "检索卡片评分未确认是商品还是供应商评价，未填为商品评分",
+              "placement": {
+                "type": "organic",
+                "source": "https://www.alibaba.com/trade/search?SearchText=reusable%20coffee%20capsule",
+                "observedAt": "2026-10-21T15:40:53.133Z",
+                "evidence": "该商品公开检索结果未标为推广；只说明本次展示，不表示该供应商没有投放广告"
+              },
+              "shipping": "供应商批发／跨境采购；目的国、样品费、起订量、税运费及交期需按具体订单确认",
+              "checkedAt": "2026-10-21T15:40:53.133Z",
+              "freshness": "live",
+              "freshnessNote": "公开检索页核对到供应商 ID、商品编号、报价、MOQ 和对应原图；具体详情页返回空壳，未声称完成详情／子规格复核",
+              "selection": "按不同供应商 ID 选取10个相关候选；不是销量前十，不把工业空壳或一次性胶囊填成家用可重复胶囊",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "alibaba-247317998",
+          "platform": "alibaba",
+          "market": "WW",
+          "sellerId": "247317998",
+          "name": "Chaozhou Chaoan Caitang Guangcheng Stainless Steel Product Factory",
+          "url": "https://gcbxg.en.alibaba.com/company_profile.html",
+          "identitySource": "https://www.alibaba.com/trade/search?SearchText=reusable%20coffee%20capsule",
+          "checkedAt": "2026-10-21T15:40:53.133Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "alibaba-1600616440416",
+              "listingId": "1600616440416",
+              "listingIdType": "Alibaba 商品编号",
+              "sellerSKU": null,
+              "name": "Stainless Steel Compatible Nespresso Reusable Refillable Filters Pods Vertuo Coffee Capsule with Lid Custom for Cafe Restaurant",
+              "zh": "不锈钢可填充胶囊；标题同时提 Nespresso 与 Vertuo，系统待澄清",
+              "system": "unconfirmed",
+              "type": "reusable",
+              "url": "https://www.alibaba.com/product-detail/Stainless-Steel-Compatible-Nespresso-Reusable-Refillable_1600616440416.html",
+              "variant": "检索页对应商品；Min. order: 10 sets；具体数量阶梯、材质、容量与子规格尚需详情页或供应商确认",
+              "image": "store-alibaba-1600616440416",
+              "price": {
+                "amount": 35.86,
+                "currency": "CNY",
+                "starting": true,
+                "offerType": "批发区间下限（未选阶梯）",
+                "quality": "live",
+                "pack": "Min. order: 10 sets；按页面 pieces／sets／box 单位报价，不按零售整包价比较",
+                "source": "https://www.alibaba.com/trade/search?SearchText=reusable%20coffee%20capsule",
+                "observedAt": "2026-10-21T15:40:53.133Z",
+                "basis": "同一商品编号、供应商编号的公开检索报价 CN¥35.86-185.93。人民币显示价，未换算汇率；起订量和阶梯条件适用，未取得对应详情报价。不是美国／欧洲零售成交价",
+                "shipping": "未指定目的国、税费和运费；批量采购到手成本需另核对",
+                "promotions": []
+              },
+              "sales": null,
+              "revenue": null,
+              "rating": null,
+              "ratingCount": null,
+              "reviewScope": "检索卡片评分未确认是商品还是供应商评价，未填为商品评分",
+              "placement": {
+                "type": "organic",
+                "source": "https://www.alibaba.com/trade/search?SearchText=reusable%20coffee%20capsule",
+                "observedAt": "2026-10-21T15:40:53.133Z",
+                "evidence": "该商品公开检索结果未标为推广；只说明本次展示，不表示该供应商没有投放广告"
+              },
+              "shipping": "供应商批发／跨境采购；目的国、样品费、起订量、税运费及交期需按具体订单确认",
+              "checkedAt": "2026-10-21T15:40:53.133Z",
+              "freshness": "live",
+              "freshnessNote": "公开检索页核对到供应商 ID、商品编号、报价、MOQ 和对应原图；具体详情页返回空壳，未声称完成详情／子规格复核",
+              "selection": "按不同供应商 ID 选取10个相关候选；不是销量前十，不把工业空壳或一次性胶囊填成家用可重复胶囊",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "yandex-4506428",
+          "platform": "yandex",
+          "market": "RU",
+          "sellerId": "4506428",
+          "businessId": "1185980",
+          "name": "Seller 4506428（店名待核）",
+          "url": "https://market.yandex.ru/card/mnogorazovyye-kapsuly-icafilas-triple-set-dlya-kofemashiny-nespresso-nespresso-3-shtuki/103183235423?do-waremd5=JWlcuy62diVYZ6MaUvOx9Q",
+          "urlKind": "listing",
+          "identitySource": "https://market.yandex.ru/search?text=%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BA%D0%B0%D0%BF%D1%81%D1%83%D0%BB%D1%8B%20%D0%BA%D0%BE%D1%84%D0%B5",
+          "checkedAt": "2026-10-21T15:40:51.863Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "yandex-103183235423",
+              "listingId": "103183235423",
+              "listingIdType": "Yandex 商品编号",
+              "sellerSKU": "8",
+              "name": "iCafilas Triple Set Refillable Capsules, 3 Pack",
+              "zh": "iCafilas 塑料可填充胶囊，三只装；卖家称用于 Nespresso，具体系列待核对",
+              "system": "nespresso-unconfirmed",
+              "type": "reusable",
+              "url": "https://market.yandex.ru/card/mnogorazovyye-kapsuly-icafilas-triple-set-dlya-kofemashiny-nespresso-nespresso-3-shtuki/103183235423?do-waremd5=JWlcuy62diVYZ6MaUvOx9Q",
+              "variant": "3只塑料胶囊；俄文原标题：Многоразовые капсулы iCafilas Triple Set для кофемашины Неспрессо Nespresso, 3 штуки。仅检索卡片核对，兼容性未实测。",
+              "image": "store-yandex-103183235423",
+              "price": {
+                "amount": 284,
+                "currency": "RUB",
+                "offerType": "Yandex Pay 条件价（非普通价）",
+                "quality": "live",
+                "pack": "3只塑料胶囊",
+                "source": "https://market.yandex.ru/search?text=%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BA%D0%B0%D0%BF%D1%81%D1%83%D0%BB%D1%8B%20%D0%BA%D0%BE%D1%84%D0%B5",
+                "observedAt": "2026-10-21T15:40:51.863Z",
+                "basis": "同一商品与卖家 ID 的公开检索卡片显示“Цена с картой Яндекс Пэй”；需符合平台 Yandex Pay 银行卡／支付条件。普通支付价未核实，不用内部划线价当普通售价。人民币／美元未换算。",
+                "shipping": "俄罗斯站点与支付条件适用；目的地区、进口税运费未核实",
+                "promotions": []
+              },
+              "sales": {
+                "text": "1114 купили（购买提示）",
+                "scope": "product",
+                "period": "unspecified",
+                "basis": "平台检索卡片商品级购买提示，统计期间及跨卖家汇总未披露，非该卖家精确月销量"
+              },
+              "revenue": null,
+              "rating": 4.4,
+              "ratingCount": 263,
+              "reviewScope": "公开检索结果商品评分，可能合并卖家／变体；不是店铺评分",
+              "placement": {
+                "type": "organic",
+                "source": "https://market.yandex.ru/search?text=%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BA%D0%B0%D0%BF%D1%81%D1%83%D0%BB%D1%8B%20%D0%BA%D0%BE%D1%84%D0%B5",
+                "observedAt": "2026-10-21T15:40:51.863Z",
+                "evidence": "该商品检索结果未标为推广；不代表该店没有投放广告"
+              },
+              "shipping": "俄罗斯公开检索候选；具体发货仓、运费与时效未核对",
+              "checkedAt": "2026-10-21T15:40:51.863Z",
+              "freshness": "live",
+              "freshnessNote": "检索页核对商品编号、平台卖家 ID、对应原图及条件报价；独立店名和店铺网址尚未取得；详情页返回验证码，未绕过验证。",
+              "selection": "按检索页真实 shopId 去重，店铺名称未取得时用实际编号显示，不以品牌名冒充卖家；不是销量前十",
+              "painRefs": []
+            },
+            {
+              "id": "yandex-103183235422",
+              "listingId": "103183235422",
+              "listingIdType": "Yandex 商品编号",
+              "sellerSKU": "18",
+              "name": "iCafilas Dolce Gusto Refillable Capsules, 3 Pack",
+              "zh": "iCafilas Dolce Gusto 棕色可填充胶囊，三只装",
+              "system": "dolce-gusto",
+              "type": "reusable",
+              "url": "https://market.yandex.ru/card/mnogorazovyye-kapsuly-icafilas-dlya-kofemashiny-dolce-gusto-rich-crema-nasyshchennyy-vkus-i-penka-3-shtuki/103183235422?do-waremd5=Fi7qOhgp1Zk_qsttHVX60g",
+              "variant": "3只，棕色；俄文原标题：Многоразовые капсулы iCafilas для кофемашины Dolce Gusto (Rich crema, насыщенный вкус и пенка), 3 штуки。仅检索卡片核对，兼容性未实测。",
+              "image": "store-yandex-103183235422",
+              "price": {
+                "amount": 489,
+                "currency": "RUB",
+                "offerType": "Yandex Pay 条件价（非普通价）",
+                "quality": "live",
+                "pack": "3只，棕色",
+                "source": "https://market.yandex.ru/search?text=%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BA%D0%B0%D0%BF%D1%81%D1%83%D0%BB%D1%8B%20%D0%BA%D0%BE%D1%84%D0%B5",
+                "observedAt": "2026-10-21T15:40:51.863Z",
+                "basis": "同一商品与卖家 ID 的公开检索卡片显示“Цена с картой Яндекс Пэй”；需符合平台 Yandex Pay 银行卡／支付条件。普通支付价未核实，不用内部划线价当普通售价。人民币／美元未换算。",
+                "shipping": "俄罗斯站点与支付条件适用；目的地区、进口税运费未核实",
+                "promotions": []
+              },
+              "sales": {
+                "text": "493 купили（购买提示）",
+                "scope": "product",
+                "period": "unspecified",
+                "basis": "平台检索卡片商品级购买提示，统计期间及跨卖家汇总未披露，非该卖家精确月销量"
+              },
+              "revenue": null,
+              "rating": 4.2,
+              "ratingCount": 276,
+              "reviewScope": "公开检索结果商品评分，可能合并卖家／变体；不是店铺评分",
+              "placement": {
+                "type": "organic",
+                "source": "https://market.yandex.ru/search?text=%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BA%D0%B0%D0%BF%D1%81%D1%83%D0%BB%D1%8B%20%D0%BA%D0%BE%D1%84%D0%B5",
+                "observedAt": "2026-10-21T15:40:51.863Z",
+                "evidence": "该商品检索结果未标为推广；不代表该店没有投放广告"
+              },
+              "shipping": "俄罗斯公开检索候选；具体发货仓、运费与时效未核对",
+              "checkedAt": "2026-10-21T15:40:51.863Z",
+              "freshness": "live",
+              "freshnessNote": "检索页核对商品编号、平台卖家 ID、对应原图及条件报价；独立店名和店铺网址尚未取得；详情页返回验证码，未绕过验证。",
+              "selection": "按检索页真实 shopId 去重，店铺名称未取得时用实际编号显示，不以品牌名冒充卖家；不是销量前十",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "yandex-216909717",
+          "platform": "yandex",
+          "market": "RU",
+          "sellerId": "216909717",
+          "businessId": "216909718",
+          "name": "Seller 216909717（店名待核）",
+          "url": "https://market.yandex.ru/card/mnogorazovyye-kofeynyye-kapsuly-dlya-kofemashiny-3-sht-chernyye/6083174844?do-waremd5=lzOQwra2S5vQqglg1Kl28w",
+          "urlKind": "listing",
+          "identitySource": "https://market.yandex.ru/search?text=%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BA%D0%B0%D0%BF%D1%81%D1%83%D0%BB%D1%8B%20%D0%BA%D0%BE%D1%84%D0%B5",
+          "checkedAt": "2026-10-21T15:40:51.863Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "yandex-6083174844",
+              "listingId": "6083174844",
+              "listingIdType": "Yandex 商品编号",
+              "sellerSKU": "sc_FjQaZtRq8Q9c7HS017592465512046",
+              "name": "Reusable Coffee Capsules, 3 Pack, Black",
+              "zh": "黑色三只装可填充胶囊；系统未明确",
+              "system": "unconfirmed",
+              "type": "reusable",
+              "url": "https://market.yandex.ru/card/mnogorazovyye-kofeynyye-kapsuly-dlya-kofemashiny-3-sht-chernyye/6083174844?do-waremd5=lzOQwra2S5vQqglg1Kl28w",
+              "variant": "3只，黑色；俄文原标题：Многоразовые кофейные капсулы для кофемашины, 3 шт, черные。仅检索卡片核对，兼容性未实测。",
+              "image": "store-yandex-6083174844",
+              "price": {
+                "amount": 553,
+                "currency": "RUB",
+                "offerType": "Yandex Pay 条件价（非普通价）",
+                "quality": "live",
+                "pack": "3只，黑色",
+                "source": "https://market.yandex.ru/search?text=%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BA%D0%B0%D0%BF%D1%81%D1%83%D0%BB%D1%8B%20%D0%BA%D0%BE%D1%84%D0%B5",
+                "observedAt": "2026-10-21T15:40:51.863Z",
+                "basis": "同一商品与卖家 ID 的公开检索卡片显示“Цена с картой Яндекс Пэй”；需符合平台 Yandex Pay 银行卡／支付条件。普通支付价未核实，不用内部划线价当普通售价。人民币／美元未换算。",
+                "shipping": "俄罗斯站点与支付条件适用；目的地区、进口税运费未核实",
+                "promotions": []
+              },
+              "sales": null,
+              "revenue": null,
+              "rating": null,
+              "ratingCount": null,
+              "reviewScope": "公开检索结果商品评分，可能合并卖家／变体；不是店铺评分",
+              "placement": {
+                "type": "paid",
+                "source": "https://market.yandex.ru/search?text=%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BA%D0%B0%D0%BF%D1%81%D1%83%D0%BB%D1%8B%20%D0%BA%D0%BE%D1%84%D0%B5",
+                "observedAt": "2026-10-21T15:40:51.863Z",
+                "evidence": "该商品检索结果带平台 sponsored 推广标记；只说明当前展示位"
+              },
+              "shipping": "公开检索标为跨境发货；实际运费与时效按俄罗斯收货地区确认",
+              "checkedAt": "2026-10-21T15:40:51.863Z",
+              "freshness": "live",
+              "freshnessNote": "检索页核对商品编号、平台卖家 ID、对应原图及条件报价；独立店名和店铺网址尚未取得；详情页返回验证码，未绕过验证。",
+              "selection": "按检索页真实 shopId 去重，店铺名称未取得时用实际编号显示，不以品牌名冒充卖家；不是销量前十",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "yandex-4851750",
+          "platform": "yandex",
+          "market": "RU",
+          "sellerId": "4851750",
+          "businessId": "2571950",
+          "name": "Seller 4851750（店名待核）",
+          "url": "https://market.yandex.ru/card/mnogorazovyye-kapsuly-mypads-dlya-kofemashiny-dolce-gusto-nabor-3-sht/103143744730?do-waremd5=IiOsK5Bw2Bkp1gablCZwxA",
+          "urlKind": "listing",
+          "identitySource": "https://market.yandex.ru/search?text=%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BA%D0%B0%D0%BF%D1%81%D1%83%D0%BB%D1%8B%20%D0%BA%D0%BE%D1%84%D0%B5",
+          "checkedAt": "2026-10-21T15:40:51.863Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "yandex-103143744730",
+              "listingId": "103143744730",
+              "listingIdType": "Yandex 商品编号",
+              "sellerSKU": "227867",
+              "name": "MyPads Dolce Gusto Refillable Capsules, 3 Pack",
+              "zh": "MyPads Dolce Gusto 三只装，附勺和刷；材质需复核",
+              "system": "dolce-gusto",
+              "type": "reusable",
+              "url": "https://market.yandex.ru/card/mnogorazovyye-kapsuly-mypads-dlya-kofemashiny-dolce-gusto-nabor-3-sht/103143744730?do-waremd5=IiOsK5Bw2Bkp1gablCZwxA",
+              "variant": "3只，附勺和刷；俄文原标题：Многоразовые капсулы MyPads для кофемашин Dolce Gusto, набор из 3 шт, с ложечкой и щеточкой。仅检索卡片核对，兼容性未实测。",
+              "image": "store-yandex-103143744730",
+              "price": {
+                "amount": 586,
+                "currency": "RUB",
+                "offerType": "Yandex Pay 条件价（非普通价）",
+                "quality": "live",
+                "pack": "3只，附勺和刷",
+                "source": "https://market.yandex.ru/search?text=%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BA%D0%B0%D0%BF%D1%81%D1%83%D0%BB%D1%8B%20%D0%BA%D0%BE%D1%84%D0%B5",
+                "observedAt": "2026-10-21T15:40:51.863Z",
+                "basis": "同一商品与卖家 ID 的公开检索卡片显示“Цена с картой Яндекс Пэй”；需符合平台 Yandex Pay 银行卡／支付条件。普通支付价未核实，不用内部划线价当普通售价。人民币／美元未换算。",
+                "shipping": "俄罗斯站点与支付条件适用；目的地区、进口税运费未核实",
+                "promotions": []
+              },
+              "sales": {
+                "text": "21 купили（购买提示）",
+                "scope": "product",
+                "period": "unspecified",
+                "basis": "平台检索卡片商品级购买提示，统计期间及跨卖家汇总未披露，非该卖家精确月销量"
+              },
+              "revenue": null,
+              "rating": 5,
+              "ratingCount": 9,
+              "reviewScope": "公开检索结果商品评分，可能合并卖家／变体；不是店铺评分",
+              "placement": {
+                "type": "paid",
+                "source": "https://market.yandex.ru/search?text=%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BA%D0%B0%D0%BF%D1%81%D1%83%D0%BB%D1%8B%20%D0%BA%D0%BE%D1%84%D0%B5",
+                "observedAt": "2026-10-21T15:40:51.863Z",
+                "evidence": "该商品检索结果带平台 sponsored 推广标记；只说明当前展示位"
+              },
+              "shipping": "俄罗斯公开检索候选；具体发货仓、运费与时效未核对",
+              "checkedAt": "2026-10-21T15:40:51.863Z",
+              "freshness": "live",
+              "freshnessNote": "检索页核对商品编号、平台卖家 ID、对应原图及条件报价；独立店名和店铺网址尚未取得；详情页返回验证码，未绕过验证。",
+              "selection": "按检索页真实 shopId 去重，店铺名称未取得时用实际编号显示，不以品牌名冒充卖家；不是销量前十",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "yandex-216961140",
+          "platform": "yandex",
+          "market": "RU",
+          "sellerId": "216961140",
+          "businessId": "216961141",
+          "name": "Seller 216961140（店名待核）",
+          "url": "https://market.yandex.ru/card/pustyye-mnogorazovyye-kapsuly-dlya-kofe-1-sht-chernyy-tsvet-dlya-samostoyatelnogo-zapolneniya-molotym-kofe/6132990431?do-waremd5=78XDBbUky57ArebeWo7cpw",
+          "urlKind": "listing",
+          "identitySource": "https://market.yandex.ru/search?text=%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BA%D0%B0%D0%BF%D1%81%D1%83%D0%BB%D1%8B%20%D0%BA%D0%BE%D1%84%D0%B5",
+          "checkedAt": "2026-10-21T15:40:51.863Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "yandex-6132990431",
+              "listingId": "6132990431",
+              "listingIdType": "Yandex 商品编号",
+              "sellerSKU": "sc_icETFQpTcVFUyzg017592290909602",
+              "name": "Empty Refillable Coffee Capsule, 1 Piece, Black",
+              "zh": "黑色空胶囊一只；标题未指明系统，包装尺寸不能当胶囊尺寸",
+              "system": "unconfirmed",
+              "type": "reusable",
+              "url": "https://market.yandex.ru/card/pustyye-mnogorazovyye-kapsuly-dlya-kofe-1-sht-chernyy-tsvet-dlya-samostoyatelnogo-zapolneniya-molotym-kofe/6132990431?do-waremd5=78XDBbUky57ArebeWo7cpw",
+              "variant": "1只，黑色；俄文原标题：Пустые многоразовые капсулы для кофе, 1 шт, черный цвет, для самостоятельного заполнения молотым кофе。仅检索卡片核对，兼容性未实测。",
+              "image": "store-yandex-6132990431",
+              "price": {
+                "amount": 172,
+                "currency": "RUB",
+                "offerType": "Yandex Pay 条件价（非普通价）",
+                "quality": "live",
+                "pack": "1只，黑色",
+                "source": "https://market.yandex.ru/search?text=%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BA%D0%B0%D0%BF%D1%81%D1%83%D0%BB%D1%8B%20%D0%BA%D0%BE%D1%84%D0%B5",
+                "observedAt": "2026-10-21T15:40:51.863Z",
+                "basis": "同一商品与卖家 ID 的公开检索卡片显示“Цена с картой Яндекс Пэй”；需符合平台 Yandex Pay 银行卡／支付条件。普通支付价未核实，不用内部划线价当普通售价。人民币／美元未换算。",
+                "shipping": "俄罗斯站点与支付条件适用；目的地区、进口税运费未核实",
+                "promotions": []
+              },
+              "sales": null,
+              "revenue": null,
+              "rating": null,
+              "ratingCount": null,
+              "reviewScope": "公开检索结果商品评分，可能合并卖家／变体；不是店铺评分",
+              "placement": {
+                "type": "paid",
+                "source": "https://market.yandex.ru/search?text=%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BA%D0%B0%D0%BF%D1%81%D1%83%D0%BB%D1%8B%20%D0%BA%D0%BE%D1%84%D0%B5",
+                "observedAt": "2026-10-21T15:40:51.863Z",
+                "evidence": "该商品检索结果带平台 sponsored 推广标记；只说明当前展示位"
+              },
+              "shipping": "公开检索标为跨境发货；实际运费与时效按俄罗斯收货地区确认",
+              "checkedAt": "2026-10-21T15:40:51.863Z",
+              "freshness": "live",
+              "freshnessNote": "检索页核对商品编号、平台卖家 ID、对应原图及条件报价；独立店名和店铺网址尚未取得；详情页返回验证码，未绕过验证。",
+              "selection": "按检索页真实 shopId 去重，店铺名称未取得时用实际编号显示，不以品牌名冒充卖家；不是销量前十",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "yandex-12967375",
+          "platform": "yandex",
+          "market": "RU",
+          "sellerId": "12967375",
+          "businessId": "2563470",
+          "name": "Seller 12967375（店名待核）",
+          "url": "https://market.yandex.ru/card/kapsuly-dlya-kofemashin-nespresso-vertuo-230ml-mnogorazovyye-2-sht-filtry-nakleyki-100sht-mernaya-lozhechka/103174582811?do-waremd5=EOVzB_oS2soPkPHv8Uo1BQ",
+          "urlKind": "listing",
+          "identitySource": "https://market.yandex.ru/search?text=%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BA%D0%B0%D0%BF%D1%81%D1%83%D0%BB%D1%8B%20%D0%BA%D0%BE%D1%84%D0%B5",
+          "checkedAt": "2026-10-21T15:40:51.863Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "yandex-103174582811",
+              "listingId": "103174582811",
+              "listingIdType": "Yandex 商品编号",
+              "sellerSKU": "vertuo230",
+              "name": "Nespresso Vertuo Refill Kit, 230 ml, 2 Pods and 100 Foils",
+              "zh": "Vertuo 230ml 两只装，附100张盖膜及量勺；具体机型待核对",
+              "system": "vertuo",
+              "type": "reusable",
+              "url": "https://market.yandex.ru/card/kapsuly-dlya-kofemashin-nespresso-vertuo-230ml-mnogorazovyye-2-sht-filtry-nakleyki-100sht-mernaya-lozhechka/103174582811?do-waremd5=EOVzB_oS2soPkPHv8Uo1BQ",
+              "variant": "230ml，2只胶囊、100张盖膜及量勺；俄文原标题：Капсулы для кофемашин NESPRESSO VERTUO 230мл многоразовые 2 шт, фильтры наклейки 100шт, мерная ложечка。仅检索卡片核对，兼容性未实测。",
+              "image": "store-yandex-103174582811",
+              "price": {
+                "amount": 758,
+                "currency": "RUB",
+                "offerType": "Yandex Pay 条件价（非普通价）",
+                "quality": "live",
+                "pack": "230ml，2只胶囊、100张盖膜及量勺",
+                "source": "https://market.yandex.ru/search?text=%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BA%D0%B0%D0%BF%D1%81%D1%83%D0%BB%D1%8B%20%D0%BA%D0%BE%D1%84%D0%B5",
+                "observedAt": "2026-10-21T15:40:51.863Z",
+                "basis": "同一商品与卖家 ID 的公开检索卡片显示“Цена с картой Яндекс Пэй”；需符合平台 Yandex Pay 银行卡／支付条件。普通支付价未核实，不用内部划线价当普通售价。人民币／美元未换算。",
+                "shipping": "俄罗斯站点与支付条件适用；目的地区、进口税运费未核实",
+                "promotions": []
+              },
+              "sales": {
+                "text": "177 купили（购买提示）",
+                "scope": "product",
+                "period": "unspecified",
+                "basis": "平台检索卡片商品级购买提示，统计期间及跨卖家汇总未披露，非该卖家精确月销量"
+              },
+              "revenue": null,
+              "rating": 3.1,
+              "ratingCount": 35,
+              "reviewScope": "公开检索结果商品评分，可能合并卖家／变体；不是店铺评分",
+              "placement": {
+                "type": "organic",
+                "source": "https://market.yandex.ru/search?text=%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BA%D0%B0%D0%BF%D1%81%D1%83%D0%BB%D1%8B%20%D0%BA%D0%BE%D1%84%D0%B5",
+                "observedAt": "2026-10-21T15:40:51.863Z",
+                "evidence": "该商品检索结果未标为推广；不代表该店没有投放广告"
+              },
+              "shipping": "俄罗斯公开检索候选；具体发货仓、运费与时效未核对",
+              "checkedAt": "2026-10-21T15:40:51.863Z",
+              "freshness": "live",
+              "freshnessNote": "检索页核对商品编号、平台卖家 ID、对应原图及条件报价；独立店名和店铺网址尚未取得；详情页返回验证码，未绕过验证。",
+              "selection": "按检索页真实 shopId 去重，店铺名称未取得时用实际编号显示，不以品牌名冒充卖家；不是销量前十",
+              "painRefs": []
+            },
+            {
+              "id": "yandex-5405975557",
+              "listingId": "5405975557",
+              "listingIdType": "Yandex 商品编号",
+              "sellerSKU": "dcmp-16891035849958795679",
+              "name": "Tassimo Refillable Disc, 60 ml, Green",
+              "zh": "Tassimo 60ml 绿色可填充碟；标题为空胶囊，烘焙等参数疑似模板，需卖家澄清",
+              "system": "tassimo",
+              "type": "reusable",
+              "url": "https://market.yandex.ru/card/mnogorazovaya-kapsula-tassimo-60-ml-zelenaya-dlya-kofemashiny-bosch-kapsuly-dlya-kofe-tassimo/5405975557?do-waremd5=B-OxVtak15rt-HHQCZO78Q",
+              "variant": "60ml，绿色；俄文原标题：Многоразовая капсула Tassimo 60 мл зеленая для кофемашины Bosch капсулы для кофе Тассимо。仅检索卡片核对，兼容性未实测。",
+              "image": "store-yandex-5405975557",
+              "price": {
+                "amount": 830,
+                "currency": "RUB",
+                "offerType": "Yandex Pay 条件价（非普通价）",
+                "quality": "live",
+                "pack": "60ml，绿色",
+                "source": "https://market.yandex.ru/search?text=%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BA%D0%B0%D0%BF%D1%81%D1%83%D0%BB%D1%8B%20%D0%BA%D0%BE%D1%84%D0%B5",
+                "observedAt": "2026-10-21T15:40:51.863Z",
+                "basis": "同一商品与卖家 ID 的公开检索卡片显示“Цена с картой Яндекс Пэй”；需符合平台 Yandex Pay 银行卡／支付条件。普通支付价未核实，不用内部划线价当普通售价。人民币／美元未换算。",
+                "shipping": "俄罗斯站点与支付条件适用；目的地区、进口税运费未核实",
+                "promotions": []
+              },
+              "sales": {
+                "text": "6 купили（购买提示）",
+                "scope": "product",
+                "period": "unspecified",
+                "basis": "平台检索卡片商品级购买提示，统计期间及跨卖家汇总未披露，非该卖家精确月销量"
+              },
+              "revenue": null,
+              "rating": 5,
+              "ratingCount": 4,
+              "reviewScope": "公开检索结果商品评分，可能合并卖家／变体；不是店铺评分",
+              "placement": {
+                "type": "organic",
+                "source": "https://market.yandex.ru/search?text=%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BA%D0%B0%D0%BF%D1%81%D1%83%D0%BB%D1%8B%20%D0%BA%D0%BE%D1%84%D0%B5",
+                "observedAt": "2026-10-21T15:40:51.863Z",
+                "evidence": "该商品检索结果未标为推广；不代表该店没有投放广告"
+              },
+              "shipping": "俄罗斯公开检索候选；具体发货仓、运费与时效未核对",
+              "checkedAt": "2026-10-21T15:40:51.863Z",
+              "freshness": "live",
+              "freshnessNote": "检索页核对商品编号、平台卖家 ID、对应原图及条件报价；独立店名和店铺网址尚未取得；详情页返回验证码，未绕过验证。",
+              "selection": "按检索页真实 shopId 去重，店铺名称未取得时用实际编号显示，不以品牌名冒充卖家；不是销量前十",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "yandex-216909844",
+          "platform": "yandex",
+          "market": "RU",
+          "sellerId": "216909844",
+          "businessId": "216909845",
+          "name": "Seller 216909844（店名待核）",
+          "url": "https://market.yandex.ru/card/mnogorazovaya-kapsula-dlya-kofe-dolce-gusto-zelenaya-dlya-samostoyatelnogo-napolneniya-molotym-kofe/6030233923?do-waremd5=oageManYYguMOcBn292YNw",
+          "urlKind": "listing",
+          "identitySource": "https://market.yandex.ru/search?text=%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BA%D0%B0%D0%BF%D1%81%D1%83%D0%BB%D1%8B%20%D0%BA%D0%BE%D1%84%D0%B5",
+          "checkedAt": "2026-10-21T15:40:51.863Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "yandex-6030233923",
+              "listingId": "6030233923",
+              "listingIdType": "Yandex 商品编号",
+              "sellerSKU": "sc_BVU3pI78IManOA3017592290909614",
+              "name": "Dolce Gusto Refillable Capsule, Green",
+              "zh": "Dolce Gusto 绿色可填充胶囊；包装尺寸不能当胶囊尺寸",
+              "system": "dolce-gusto",
+              "type": "reusable",
+              "url": "https://market.yandex.ru/card/mnogorazovaya-kapsula-dlya-kofe-dolce-gusto-zelenaya-dlya-samostoyatelnogo-napolneniya-molotym-kofe/6030233923?do-waremd5=oageManYYguMOcBn292YNw",
+              "variant": "绿色，数量待详情核对；俄文原标题：Многоразовая капсула для кофе Dolce Gusto, зеленая, для самостоятельного наполнения молотым кофе。仅检索卡片核对，兼容性未实测。",
+              "image": "store-yandex-6030233923",
+              "price": {
+                "amount": 305,
+                "currency": "RUB",
+                "offerType": "Yandex Pay 条件价（非普通价）",
+                "quality": "live",
+                "pack": "绿色，数量待详情核对",
+                "source": "https://market.yandex.ru/search?text=%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BA%D0%B0%D0%BF%D1%81%D1%83%D0%BB%D1%8B%20%D0%BA%D0%BE%D1%84%D0%B5",
+                "observedAt": "2026-10-21T15:40:51.863Z",
+                "basis": "同一商品与卖家 ID 的公开检索卡片显示“Цена с картой Яндекс Пэй”；需符合平台 Yandex Pay 银行卡／支付条件。普通支付价未核实，不用内部划线价当普通售价。人民币／美元未换算。",
+                "shipping": "俄罗斯站点与支付条件适用；目的地区、进口税运费未核实",
+                "promotions": []
+              },
+              "sales": null,
+              "revenue": null,
+              "rating": null,
+              "ratingCount": null,
+              "reviewScope": "公开检索结果商品评分，可能合并卖家／变体；不是店铺评分",
+              "placement": {
+                "type": "paid",
+                "source": "https://market.yandex.ru/search?text=%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BA%D0%B0%D0%BF%D1%81%D1%83%D0%BB%D1%8B%20%D0%BA%D0%BE%D1%84%D0%B5",
+                "observedAt": "2026-10-21T15:40:51.863Z",
+                "evidence": "该商品检索结果带平台 sponsored 推广标记；只说明当前展示位"
+              },
+              "shipping": "公开检索标为跨境发货；实际运费与时效按俄罗斯收货地区确认",
+              "checkedAt": "2026-10-21T15:40:51.863Z",
+              "freshness": "live",
+              "freshnessNote": "检索页核对商品编号、平台卖家 ID、对应原图及条件报价；独立店名和店铺网址尚未取得；详情页返回验证码，未绕过验证。",
+              "selection": "按检索页真实 shopId 去重，店铺名称未取得时用实际编号显示，不以品牌名冒充卖家；不是销量前十",
+              "painRefs": []
+            }
+          ]
         }
       ],
       "platforms": [
@@ -9659,7 +10950,7 @@ window.COFFEE_CONTENT = {
           "market": "US",
           "checkedAt": "2026-10-21T11:10:45.148Z",
           "status": 503,
-          "accessNote": "已录入 10/10 家销售店铺／主体；每条保留价格、图片及主体核验状态，公开索引不当作实时数据"
+          "accessNote": "已录入 10/10 家销售店铺／主体；各条保留主体、价格、图片及来源日期；历史索引不当作实时数据"
         },
         {
           "id": "ebay",
@@ -9669,7 +10960,7 @@ window.COFFEE_CONTENT = {
           "market": "US",
           "checkedAt": "2026-10-21T11:10:44.983Z",
           "status": 403,
-          "accessNote": "已录入 2/10 家销售店铺／主体；每条保留价格、图片及主体核验状态，公开索引不当作实时数据"
+          "accessNote": "已录入 2/10 家销售店铺／主体；各条保留主体、价格、图片及来源日期；历史索引不当作实时数据"
         },
         {
           "id": "temu",
@@ -9677,9 +10968,9 @@ window.COFFEE_CONTENT = {
           "queryURL": "https://www.temu.com/search_result.html?search_key=reusable%20coffee%20capsule",
           "query": "reusable coffee capsule",
           "market": "US",
-          "checkedAt": "2026-10-21T11:10:44.797Z",
+          "checkedAt": "2026-10-21T15:40:38.932Z",
           "status": 200,
-          "accessNote": "已尝试公开入口，未取得能同时确认店铺、商品编号和对应原图的记录"
+          "accessNote": "公开入口可返回页面，但未取得能同时核对卖家、商品、规格、价格及原图的完整记录"
         },
         {
           "id": "shein",
@@ -9687,9 +10978,9 @@ window.COFFEE_CONTENT = {
           "queryURL": "https://us.shein.com/pdsearch/reusable%20coffee%20capsule/",
           "query": "reusable coffee capsule",
           "market": "US",
-          "checkedAt": "2026-10-21T11:10:45.230Z",
+          "checkedAt": "2026-10-21T15:40:40.203Z",
           "status": 403,
-          "accessNote": "公开入口访问受限（HTTP 403），未绕过限制"
+          "accessNote": "后台公开入口返回 HTTP 403；未取得可核对的店铺、商品与报价"
         },
         {
           "id": "aliexpress",
@@ -9697,9 +10988,9 @@ window.COFFEE_CONTENT = {
           "queryURL": "https://www.aliexpress.com/w/wholesale-reusable-coffee-capsule.html",
           "query": "reusable coffee capsule",
           "market": "WW",
-          "checkedAt": "2026-10-21T11:10:45.038Z",
+          "checkedAt": "2026-10-21T15:40:38.610Z",
           "status": 200,
-          "accessNote": "已尝试公开入口，未取得能同时确认店铺、商品编号和对应原图的记录"
+          "accessNote": "公开入口可返回页面，但未取得能同时核对卖家、商品、规格、价格及原图的完整记录"
         },
         {
           "id": "tiktok",
@@ -9707,9 +10998,9 @@ window.COFFEE_CONTENT = {
           "queryURL": "https://shop.tiktok.com/us/k/reusable-coffee-capsule",
           "query": "reusable coffee capsule",
           "market": "US",
-          "checkedAt": "2026-10-21T11:10:55.313Z",
+          "checkedAt": "2026-10-21T15:40:48.991Z",
           "status": null,
-          "accessNote": "已录入 4/10 家销售店铺／主体；每条保留价格、图片及主体核验状态，公开索引不当作实时数据"
+          "accessNote": "已录入 4/10 家销售店铺／主体；各条保留主体、价格、图片及来源日期；历史索引不当作实时数据"
         },
         {
           "id": "ozon",
@@ -9717,9 +11008,9 @@ window.COFFEE_CONTENT = {
           "queryURL": "https://www.ozon.ru/search/?text=%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BA%D0%B0%D0%BF%D1%81%D1%83%D0%BB%D1%8B%20%D0%BA%D0%BE%D1%84%D0%B5",
           "query": "многоразовые капсулы кофе",
           "market": "RU",
-          "checkedAt": "2026-10-21T11:10:57.047Z",
+          "checkedAt": "2026-10-21T15:40:50.621Z",
           "status": null,
-          "accessNote": "公开入口读取失败（TimeoutError），尚缺可核对店铺与商品证据"
+          "accessNote": "后台公开入口读取超时／连接失败；尚缺可核对的店铺与 SKU"
         },
         {
           "id": "jumia",
@@ -9727,9 +11018,9 @@ window.COFFEE_CONTENT = {
           "queryURL": "https://www.jumia.com.ng/catalog/?q=reusable%20coffee%20capsule",
           "query": "reusable coffee capsule",
           "market": "NG",
-          "checkedAt": "2026-10-21T11:10:46.507Z",
+          "checkedAt": "2026-10-21T15:40:39.538Z",
           "status": 403,
-          "accessNote": "公开入口访问受限（HTTP 403），未绕过限制"
+          "accessNote": "后台公开入口返回 HTTP 403；未取得可核对的店铺、商品与报价"
         },
         {
           "id": "allegro",
@@ -9737,9 +11028,9 @@ window.COFFEE_CONTENT = {
           "queryURL": "https://allegro.pl/listing?string=kapsulki%20wielokrotnego%20uzytku",
           "query": "kapsulki wielokrotnego uzytku",
           "market": "PL",
-          "checkedAt": "2026-10-21T11:10:47.063Z",
+          "checkedAt": "2026-10-21T15:40:40.382Z",
           "status": 403,
-          "accessNote": "公开入口访问受限（HTTP 403），未绕过限制"
+          "accessNote": "后台公开入口返回 HTTP 403；未取得可核对的店铺、商品与报价"
         },
         {
           "id": "lazada",
@@ -9747,9 +11038,9 @@ window.COFFEE_CONTENT = {
           "queryURL": "https://www.lazada.sg/catalog/?q=reusable%20coffee%20capsule",
           "query": "reusable coffee capsule",
           "market": "SG",
-          "checkedAt": "2026-10-21T11:10:56.823Z",
-          "status": null,
-          "accessNote": "公开入口读取失败（TypeError），尚缺可核对店铺与商品证据"
+          "checkedAt": "2026-10-21T15:40:43.877Z",
+          "status": 200,
+          "accessNote": "公开入口可返回页面，但未取得能同时核对卖家、商品、规格、价格及原图的完整记录"
         },
         {
           "id": "shopee",
@@ -9757,9 +11048,9 @@ window.COFFEE_CONTENT = {
           "queryURL": "https://shopee.sg/search?keyword=reusable%20coffee%20capsule",
           "query": "reusable coffee capsule",
           "market": "SG",
-          "checkedAt": "2026-10-21T11:10:47.474Z",
+          "checkedAt": "2026-10-21T15:40:42.902Z",
           "status": 200,
-          "accessNote": "已尝试公开入口，未取得能同时确认店铺、商品编号和对应原图的记录"
+          "accessNote": "公开入口可返回页面，但未取得能同时核对卖家、商品、规格、价格及原图的完整记录"
         },
         {
           "id": "mercado-libre",
@@ -9767,9 +11058,9 @@ window.COFFEE_CONTENT = {
           "queryURL": "https://listado.mercadolibre.com.mx/reusable-coffee-capsule",
           "query": "reusable coffee capsule",
           "market": "MX",
-          "checkedAt": "2026-10-21T11:10:48.204Z",
-          "status": 403,
-          "accessNote": "公开入口访问受限（HTTP 403），未绕过限制"
+          "checkedAt": "2026-10-21T15:40:45.998Z",
+          "status": 200,
+          "accessNote": "公开入口要求登录，未取得店铺商品详情"
         },
         {
           "id": "cdiscount",
@@ -9777,9 +11068,9 @@ window.COFFEE_CONTENT = {
           "queryURL": "https://www.cdiscount.com/search/10/reusable%20coffee%20capsule.html",
           "query": "reusable coffee capsule",
           "market": "FR",
-          "checkedAt": "2026-10-21T11:10:48.918Z",
+          "checkedAt": "2026-10-21T15:40:44.540Z",
           "status": 200,
-          "accessNote": "已尝试公开入口，未取得能同时确认店铺、商品编号和对应原图的记录"
+          "accessNote": "公开入口可返回页面，但未取得能同时核对卖家、商品、规格、价格及原图的完整记录"
         },
         {
           "id": "wish",
@@ -9787,9 +11078,9 @@ window.COFFEE_CONTENT = {
           "queryURL": "https://www.wish.com/search/reusable%20coffee%20capsule",
           "query": "reusable coffee capsule",
           "market": "WW",
-          "checkedAt": "2026-10-21T11:11:00.927Z",
-          "status": null,
-          "accessNote": "公开入口读取失败（TimeoutError），尚缺可核对店铺与商品证据"
+          "checkedAt": "2026-10-21T15:40:46.681Z",
+          "status": 200,
+          "accessNote": "公开入口可返回页面，但未取得能同时核对卖家、商品、规格、价格及原图的完整记录"
         },
         {
           "id": "emag",
@@ -9799,7 +11090,7 @@ window.COFFEE_CONTENT = {
           "market": "RO",
           "checkedAt": "2026-10-21T11:10:58.445Z",
           "status": 200,
-          "accessNote": "已录入 10/10 家销售店铺／主体；每条保留价格、图片及主体核验状态，公开索引不当作实时数据"
+          "accessNote": "已录入 10/10 家销售店铺／主体；各条保留主体、价格、图片及来源日期；历史索引不当作实时数据"
         },
         {
           "id": "wildberries",
@@ -9807,9 +11098,9 @@ window.COFFEE_CONTENT = {
           "queryURL": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BA%D0%B0%D0%BF%D1%81%D1%83%D0%BB%D1%8B%20%D0%BA%D0%BE%D1%84%D0%B5",
           "query": "многоразовые капсулы кофе",
           "market": "RU",
-          "checkedAt": "2026-10-21T11:10:57.599Z",
+          "checkedAt": "2026-10-21T15:40:46.805Z",
           "status": 498,
-          "accessNote": "已尝试公开入口，未取得能同时确认店铺、商品编号和对应原图的记录"
+          "accessNote": "后台公开入口返回 HTTP 498；未取得可核对的店铺、商品与报价"
         },
         {
           "id": "yandex",
@@ -9817,9 +11108,9 @@ window.COFFEE_CONTENT = {
           "queryURL": "https://market.yandex.ru/search?text=%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BA%D0%B0%D0%BF%D1%81%D1%83%D0%BB%D1%8B%20%D0%BA%D0%BE%D1%84%D0%B5",
           "query": "многоразовые капсулы кофе",
           "market": "RU",
-          "checkedAt": "2026-10-21T11:11:00.215Z",
+          "checkedAt": "2026-10-21T15:40:51.863Z",
           "status": 200,
-          "accessNote": "已尝试公开入口，未取得能同时确认店铺、商品编号和对应原图的记录"
+          "accessNote": "已录入 6/10 家销售店铺／主体；6 个平台卖家 ID、8 个商品；店名与独立店铺链接未取得；仅有 Yandex Pay 条件价，详情页要求验证码"
         },
         {
           "id": "rakuten",
@@ -9827,9 +11118,9 @@ window.COFFEE_CONTENT = {
           "queryURL": "https://search.rakuten.co.jp/search/mall/%E5%86%8D%E5%88%A9%E7%94%A8%20%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%20%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB/",
           "query": "再利用 コーヒー カプセル",
           "market": "JP",
-          "checkedAt": "2026-10-21T11:11:07.911Z",
+          "checkedAt": "2026-10-21T15:40:57.141Z",
           "status": null,
-          "accessNote": "公开入口读取失败（TypeError），尚缺可核对店铺与商品证据"
+          "accessNote": "后台公开入口读取超时／连接失败；尚缺可核对的店铺与 SKU"
         },
         {
           "id": "walmart",
@@ -9837,9 +11128,9 @@ window.COFFEE_CONTENT = {
           "queryURL": "https://www.walmart.com/search?q=reusable%20coffee%20capsule",
           "query": "reusable coffee capsule",
           "market": "US",
-          "checkedAt": "2026-10-21T11:11:01.052Z",
+          "checkedAt": "2026-10-21T15:40:50.871Z",
           "status": 200,
-          "accessNote": "已录入 1/10 家销售店铺／主体；每条保留价格、图片及主体核验状态，公开索引不当作实时数据"
+          "accessNote": "已录入 1/10 家销售店铺／主体；各条保留主体、价格、图片及来源日期；历史索引不当作实时数据"
         },
         {
           "id": "otto",
@@ -9847,9 +11138,9 @@ window.COFFEE_CONTENT = {
           "queryURL": "https://www.otto.de/suche/wiederverwendbare%20kaffeekapseln/",
           "query": "wiederverwendbare kaffeekapseln",
           "market": "DE",
-          "checkedAt": "2026-10-21T11:11:02.342Z",
+          "checkedAt": "2026-10-21T15:40:51.270Z",
           "status": 400,
-          "accessNote": "已尝试公开入口，未取得能同时确认店铺、商品编号和对应原图的记录"
+          "accessNote": "后台公开入口返回 HTTP 400；未取得可核对的店铺、商品与报价"
         },
         {
           "id": "alibaba",
@@ -9857,9 +11148,9 @@ window.COFFEE_CONTENT = {
           "queryURL": "https://www.alibaba.com/trade/search?SearchText=reusable%20coffee%20capsule",
           "query": "reusable coffee capsule",
           "market": "WW",
-          "checkedAt": "2026-10-21T11:11:02.938Z",
+          "checkedAt": "2026-10-21T15:40:53.133Z",
           "status": 200,
-          "accessNote": "已尝试公开入口，未取得能同时确认店铺、商品编号和对应原图的记录"
+          "accessNote": "已录入 10/10 家销售店铺／主体；公开检索页核对供应商 ID、批发报价、起订量与原图；详情页为空壳，尚未核验具体数量阶梯"
         },
         {
           "id": "coupang",
@@ -9867,9 +11158,9 @@ window.COFFEE_CONTENT = {
           "queryURL": "https://www.coupang.com/np/search?q=%EC%9E%AC%EC%82%AC%EC%9A%A9%20%EC%BB%A4%ED%94%BC%20%EC%BA%A1%EC%8A%90",
           "query": "재사용 커피 캡슐",
           "market": "KR",
-          "checkedAt": "2026-10-21T11:11:02.237Z",
-          "status": 403,
-          "accessNote": "公开入口访问受限（HTTP 403），未绕过限制"
+          "checkedAt": "2026-10-21T15:40:58.731Z",
+          "status": 200,
+          "accessNote": "公开入口返回验证／错误页，不能把 HTTP 200 当作成功采集"
         },
         {
           "id": "etsy",
@@ -9879,7 +11170,7 @@ window.COFFEE_CONTENT = {
           "market": "WW",
           "checkedAt": "2026-10-21T11:11:12.446Z",
           "status": null,
-          "accessNote": "已录入 10/10 家销售店铺／主体；每条保留价格、图片及主体核验状态，公开索引不当作实时数据"
+          "accessNote": "已录入 10/10 家销售店铺／主体；各条保留主体、价格、图片及来源日期；历史索引不当作实时数据"
         },
         {
           "id": "vinted",
@@ -9887,9 +11178,9 @@ window.COFFEE_CONTENT = {
           "queryURL": "https://www.vinted.com/catalog?search_text=reusable%20coffee%20capsule",
           "query": "reusable coffee capsule",
           "market": "US",
-          "checkedAt": "2026-10-21T11:11:03.007Z",
+          "checkedAt": "2026-10-21T15:40:53.106Z",
           "status": 403,
-          "accessNote": "公开入口访问受限（HTTP 403），未绕过限制"
+          "accessNote": "后台公开入口返回 HTTP 403；未取得可核对的店铺、商品与报价"
         },
         {
           "id": "zalando",
@@ -9897,9 +11188,9 @@ window.COFFEE_CONTENT = {
           "queryURL": "https://www.zalando.de/katalog/?q=reusable%20coffee%20capsule",
           "query": "reusable coffee capsule",
           "market": "DE",
-          "checkedAt": "2026-10-21T11:11:05.472Z",
+          "checkedAt": "2026-10-21T15:40:55.808Z",
           "status": 403,
-          "accessNote": "公开入口访问受限（HTTP 403），未绕过限制"
+          "accessNote": "后台公开入口返回 HTTP 403；未取得可核对的店铺、商品与报价"
         },
         {
           "id": "stockx",
@@ -9907,9 +11198,9 @@ window.COFFEE_CONTENT = {
           "queryURL": "https://stockx.com/search?s=reusable%20coffee%20capsule",
           "query": "reusable coffee capsule",
           "market": "WW",
-          "checkedAt": "2026-10-21T11:11:03.963Z",
+          "checkedAt": "2026-10-21T15:40:54.347Z",
           "status": 403,
-          "accessNote": "公开入口访问受限（HTTP 403），未绕过限制"
+          "accessNote": "后台公开入口返回 HTTP 403；未取得可核对的店铺、商品与报价"
         }
       ],
       "candidates": [
