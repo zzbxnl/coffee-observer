@@ -5042,7 +5042,7 @@ window.COFFEE_CONTENT = {
     ],
     "guidebook": {
       "checkedOn": "2026-10-21",
-      "sortBasis": "按已核验完整财年的年度营收从高到低排序；财年、披露主体与业务范围可能不同，详情及原币种逐项注明。未取得单独或可核对收入的平台置后；广告工具不参与排序。",
+      "sortBasis": "按已核验完整年度的 GMV／GMS 折算参考美元后降序排列，缺值后置。优先官方披露，另纳入明确标注的机构估算；财年、地区、税费、退货与业务范围有差异，不是统一欧洲或咖啡类目排名。",
       "fx": {
         "year": "2025",
         "base": "EUR",
@@ -5052,7 +5052,7 @@ window.COFFEE_CONTENT = {
         },
         "name": "欧洲央行 2025 年均参考汇率",
         "url": "https://data-api.ecb.europa.eu/service/data/EXR/A.USD.EUR.SP00.A?startPeriod=2025&endPeriod=2025&format=csvdata",
-        "note": "仅用于跨币种排序与参考折算；不是交易报价或各公司财报使用的实际汇率。跨至 2026 的财年亦沿用该固定参考，避免实时汇率改变排序。"
+        "note": "仅用于跨币种排序与参考折算；不是交易报价或公司实际财报汇率。FY2025/26 也沿用 2025 年均参考汇率。"
       },
       "sources": {
         "amazon-fees": {
@@ -5307,73 +5307,121 @@ window.COFFEE_CONTENT = {
           "name": "StockX 公司与公开业务资料",
           "url": "https://stockx.com/about/company/"
         },
-        "amazon-revenue": {
+        "amazon-results": {
           "name": "Amazon 2025 全年结果",
           "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Fourth-Quarter-Results/default.aspx"
         },
-        "walmart-revenue": {
+        "walmart-results": {
           "name": "Walmart FY2026 全年财报",
           "url": "https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-26-000032/earningsreleasefy26q4.htm"
         },
-        "coupang-revenue": {
+        "coupang-results": {
           "name": "Coupang 2025 全年结果",
           "url": "https://ir.aboutcoupang.com/news-events/news/news-details/2026/Coupang-Announces-Results-for-Fourth-Quarter-2025/default.aspx"
         },
-        "meli-revenue": {
-          "name": "MercadoLibre 2025 分部营收（SEC）",
-          "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000006/R16.htm"
+        "meli-results": {
+          "name": "Mercado Libre 2025 全年股东信与指标定义",
+          "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000003/meli-20260224xex991.htm"
         },
-        "shopee-revenue": {
+        "shopee-results": {
           "name": "Sea 2025 Shopee 分部全年结果（SEC）",
           "url": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526088151/d106475dex991.htm"
         },
-        "zalando-revenue": {
+        "zalando-results": {
           "name": "Zalando 2025 全年财报",
           "url": "https://corporate.zalando.com/en/investor-relations/zalando-full-year-2025-results"
         },
-        "ebay-revenue": {
+        "ebay-results": {
           "name": "eBay 2025 全年结果",
           "url": "https://investors.ebayinc.com/investor-news/press-release-details/2026/eBay-Inc--Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx"
         },
-        "etsy-revenue": {
-          "name": "Etsy 2025 全年合并结果",
-          "url": "https://investors.etsy.com/news-events/press-releases/detail/218/etsy-inc-reports-fourth-quarter-and-full-year-2025-results"
+        "etsy-results": {
+          "name": "Etsy 2025 Form 10-K：主站 GMS 与定义",
+          "url": "https://investors.etsy.com/sec-filings/all-sec-filings/content/0001370637-26-000019/etsy-20251231.htm"
         },
-        "vinted-revenue": {
+        "vinted-results": {
           "name": "Vinted 2025 年度业绩",
           "url": "https://company.vinted.com/newsroom/financial-results-2025"
         },
-        "olx-revenue": {
+        "olx-results": {
           "name": "OLX 截至 2026-03-31 财年业绩",
           "url": "https://www.olxgroup.com/news/olx-group-continues-strong-performance-as-motors-real-estate-and-jobs-drive-growth/"
         },
-        "jumia-revenue": {
+        "jumia-results": {
           "name": "Jumia 2025 全年结果",
           "url": "https://investor.jumia.com/news/news-details/2026/Jumia-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx"
         },
-        "alibaba-revenue": {
+        "alibaba-results": {
           "name": "Alibaba FY2026 财报目录（合并业务，非单个平台）",
           "url": "https://www.alibabagroup.com/en-US/ir-financial-reports-financial-results"
         },
-        "allegro-revenue": {
+        "allegro-results": {
           "name": "Allegro 官方财报目录",
           "url": "https://about.allegro.eu/investors/financial-results/"
         },
-        "otto-revenue": {
+        "otto-results": {
           "name": "OTTO 2025/26 公开 GMV 公告",
           "url": "https://www.otto.de/unternehmen/de/presse/rund-7-5-milliarden-euro-otto-steigert-erneut-umsatz-und-treibt-ki-gest%C3%BCtzte-einkaufserlebnisse"
         },
-        "rakuten-revenue": {
+        "rakuten-results": {
           "name": "Rakuten 2025 合并业绩（非商城单独收入）",
           "url": "https://global.rakuten.com/corp/news/press/2026/0212_01.html"
         },
-        "yandex-revenue": {
+        "yandex-results": {
           "name": "Yandex 2025 财报（合并板块）",
           "url": "https://ir.yandex.ru/financial-releases?report=q4&year=2025"
         },
-        "cdiscount-revenue": {
+        "cdiscount-results": {
           "name": "Casino 2025 年度销售额公告",
           "url": "https://www.groupe-casino.fr/wp-content/uploads/2026/02/2026-02-26-PR-Q4-and-FY-2025-net-sales.pdf"
+        },
+        "otto-period": {
+          "name": "Otto Group 官方财年起止说明",
+          "url": "https://www.ottogroup.com/en/ueber-uns/creditor-relations.php"
+        },
+        "ecdb-methodology": {
+          "name": "ECDB 研究方法与数据范围",
+          "url": "https://ecdb.com/methodology"
+        },
+        "ecdb-amazon": {
+          "name": "ECDB：Amazon 2025 年度 GMV 估算（读取 2026-10-21）",
+          "url": "https://ecdb.com/resources/sample-data/retailer/amazon"
+        },
+        "ecdb-walmart": {
+          "name": "ECDB：Walmart 2025 年度 GMV 估算（读取 2026-10-21）",
+          "url": "https://ecdb.com/resources/sample-data/retailer/walmart"
+        },
+        "ecdb-temu": {
+          "name": "ECDB：Temu 2025 年度 GMV 估算（读取 2026-10-21）",
+          "url": "https://ecdb.com/resources/sample-data/retailer/temu"
+        },
+        "ecdb-aliexpress": {
+          "name": "ECDB：AliExpress 2025 年度 GMV 估算（读取 2026-10-21）",
+          "url": "https://ecdb.com/resources/sample-data/retailer/aliexpress"
+        },
+        "ecdb-shein": {
+          "name": "ECDB：SHEIN 2025 年度 GMV 估算（读取 2026-10-21）",
+          "url": "https://ecdb.com/resources/sample-data/retailer/shein"
+        },
+        "ecdb-ozon": {
+          "name": "ECDB：Ozon 2025 年度 GMV 估算（读取 2026-10-21）",
+          "url": "https://ecdb.com/resources/sample-data/retailer/ozon"
+        },
+        "ecdb-wildberries": {
+          "name": "ECDB：Wildberries 2025 年度 GMV 估算（读取 2026-10-21）",
+          "url": "https://ecdb.com/resources/sample-data/retailer/wildberries"
+        },
+        "ecdb-yandex": {
+          "name": "ECDB：Yandex 电商（ECDB retailer 口径） 2025 年度 GMV 估算（读取 2026-10-21）",
+          "url": "https://ecdb.com/resources/sample-data/retailer/yandex"
+        },
+        "tiktok-gmv": {
+          "name": "TNGlobal：Momentum Works／Tabcut 2025 TikTok Shop 报告（2026-02-11）",
+          "url": "https://technode.global/2026/02/11/tiktoks-southeast-asia-doubles-gmv-year-on-year-to-45-6b-in-2025/"
+        },
+        "ecdb-pinduoduo": {
+          "name": "ECDB：Pinduoduo（拼多多中国业务）2025 GMV 估算",
+          "url": "https://ecdb.com/resources/sample-data/retailer/Pinduoduo"
         }
       },
       "profiles": {
@@ -5412,15 +5460,21 @@ window.COFFEE_CONTENT = {
           ],
           "rulesRef": "amazon-start",
           "limits": [],
-          "revenue": {
-            "amount": 716900000000,
+          "gmv": {
+            "amount": 847350000000,
             "currency": "USD",
-            "entity": "Amazon.com, Inc.",
-            "scope": "集团合并净销售额，含 AWS、广告和零售；非单独 Marketplace 收入。",
-            "ref": "amazon-revenue",
+            "entity": "Amazon",
+            "region": "全球",
+            "scope": "ECDB 电商平台年度 GMV 估算，含自营与第三方；不是 Amazon 集团净销售额，不含 AWS 财报收入。",
+            "ref": "ecdb-amazon",
+            "extraRefs": [
+              "ecdb-methodology"
+            ],
+            "metric": "GMV",
             "from": "2025-01-01",
             "to": "2025-12-31",
-            "label": "2025"
+            "label": "2025",
+            "quality": "机构估算 · ECDB"
           }
         },
         "ebay": {
@@ -5461,15 +5515,18 @@ window.COFFEE_CONTENT = {
           "limits": [
             "2023 跨境手册仅辅助解释流程，不作为 2026 当前费率。"
           ],
-          "revenue": {
-            "amount": 11100000000,
+          "gmv": {
+            "amount": 79600000000,
             "currency": "USD",
             "entity": "eBay Inc.",
-            "scope": "全年集团收入；官方概述约 111 亿美元，不是 GMV。",
-            "ref": "ebay-revenue",
-            "from": "2025-01-01",
+            "region": "全球",
+            "scope": "官方全年 GMV，包含全品类，并非咖啡或单一国家成交额。",
+            "ref": "ebay-results",
+            "metric": "GMV",
             "to": "2025-12-31",
-            "label": "2025"
+            "label": "2025",
+            "quality": "官方披露",
+            "from": "2025-01-01"
           }
         },
         "temu": {
@@ -5506,10 +5563,23 @@ window.COFFEE_CONTENT = {
           ],
           "rulesRef": "temu-start",
           "limits": [],
-          "revenue": {
-            "amount": null,
-            "reason": "未取得 Temu 单独年度收入；不以 PDD 集团收入代替。",
-            "ref": "temu-start"
+          "gmv": {
+            "amount": 92514000000,
+            "currency": "USD",
+            "entity": "Temu",
+            "region": "全球",
+            "scope": "ECDB 2025 年度平台 GMV 估算，仅 Temu；不含同集团 Pinduoduo（拼多多中国业务），不以 PDD 集团收入代替。机构会修订历史估算，此处保留本轮读取版本。",
+            "ref": "ecdb-temu",
+            "extraRefs": [
+              "ecdb-methodology",
+              "ecdb-pinduoduo"
+            ],
+            "metric": "GMV",
+            "from": "2025-01-01",
+            "to": "2025-12-31",
+            "label": "2025",
+            "quality": "机构估算 · ECDB",
+            "context": "同集团业务对照：Pinduoduo（拼多多中国业务）2025 年 GMV 为 ECDB 机构估算 7,804.5 亿 USD，覆盖大中华区。它与 Temu 的全球 GMV 是两个独立口径，此处不相加，不用于 Temu 的排序。"
           }
         },
         "shein": {
@@ -5547,10 +5617,21 @@ window.COFFEE_CONTENT = {
           ],
           "rulesRef": "shein-start",
           "limits": [],
-          "revenue": {
-            "amount": null,
-            "reason": "本轮未取得可核对的完整年度平台收入，不填零、不用成交额或母公司收入替代。",
-            "ref": "shein-start"
+          "gmv": {
+            "amount": 71221000000,
+            "currency": "USD",
+            "entity": "SHEIN",
+            "region": "全球",
+            "scope": "ECDB 全年电商 GMV 模型估算；不是 SHEIN 财报营收，不仅限第三方 Marketplace。不同机构或旧版报告可能有口径及修订差异。",
+            "ref": "ecdb-shein",
+            "extraRefs": [
+              "ecdb-methodology"
+            ],
+            "metric": "GMV",
+            "from": "2025-01-01",
+            "to": "2025-12-31",
+            "label": "2025",
+            "quality": "机构估算 · ECDB"
           }
         },
         "aliexpress": {
@@ -5590,10 +5671,21 @@ window.COFFEE_CONTENT = {
           "limits": [
             "官方动态招商入口本轮未成功读取；2023 托管协议仅为模式参考，不作为当前费率。"
           ],
-          "revenue": {
-            "amount": null,
-            "reason": "Alibaba 财报合并国际业务，未取得 AliExpress 单独全年收入。",
-            "ref": "alibaba-revenue"
+          "gmv": {
+            "amount": 76500000000,
+            "currency": "USD",
+            "entity": "AliExpress",
+            "region": "全球",
+            "scope": "ECDB 全年平台 GMV 估算，含其跟踪的不同域名；不是 Alibaba 集团或国际商业分部营收。",
+            "ref": "ecdb-aliexpress",
+            "extraRefs": [
+              "ecdb-methodology"
+            ],
+            "metric": "GMV",
+            "from": "2025-01-01",
+            "to": "2025-12-31",
+            "label": "2025",
+            "quality": "机构估算 · ECDB"
           }
         },
         "tiktok": {
@@ -5639,10 +5731,18 @@ window.COFFEE_CONTENT = {
           ],
           "rulesRef": "tiktok-start",
           "limits": [],
-          "revenue": {
-            "amount": null,
-            "reason": "本轮未取得可核对的完整年度平台收入，不填零、不用成交额或母公司收入替代。",
-            "ref": "tiktok-start"
+          "gmv": {
+            "amount": 64300000000,
+            "currency": "USD",
+            "entity": "TikTok Shop",
+            "region": "全球 16 个运营市场",
+            "scope": "Momentum Works／Tabcut 报告估算，经 TNGlobal 报道；仅 TikTok Shop，不含抖音中国业务。不是 ByteDance 集团营收，不用 2026 半年或预测值代替 2025 全年。",
+            "ref": "tiktok-gmv",
+            "metric": "GMV",
+            "from": "2025-01-01",
+            "to": "2025-12-31",
+            "label": "2025",
+            "quality": "机构估算 · Momentum Works／Tabcut"
           }
         },
         "google-ads": {
@@ -5678,9 +5778,9 @@ window.COFFEE_CONTENT = {
           ],
           "rulesRef": "ads-budget",
           "limits": [],
-          "revenue": {
+          "gmv": {
             "amount": null,
-            "reason": "广告服务，不作为电商交易平台参与年度营收排序。",
+            "reason": "Google Ads 为广告及关键词需求工具，不是商品交易平台，不适用商品年度 GMV。",
             "ref": "ads-budget"
           }
         },
@@ -5720,10 +5820,21 @@ window.COFFEE_CONTENT = {
           ],
           "rulesRef": "ozon-start",
           "limits": [],
-          "revenue": {
-            "amount": null,
-            "reason": "本轮未取得可核对的完整年度平台收入，不填零、不用成交额或母公司收入替代。",
-            "ref": "ozon-start"
+          "gmv": {
+            "amount": 49330000000,
+            "currency": "USD",
+            "entity": "Ozon",
+            "region": "平台运营市场（主要为俄罗斯）",
+            "scope": "ECDB 全年电商 GMV 美元口径估算；并非从卢布金额按实时汇率换算，也不是集团营收。",
+            "ref": "ecdb-ozon",
+            "extraRefs": [
+              "ecdb-methodology"
+            ],
+            "metric": "GMV",
+            "from": "2025-01-01",
+            "to": "2025-12-31",
+            "label": "2025",
+            "quality": "机构估算 · ECDB"
           }
         },
         "dhgate": {
@@ -5760,9 +5871,9 @@ window.COFFEE_CONTENT = {
           "limits": [
             "该官方入口本轮无法自动读取，资格和费用保持“未核实”，不填零。"
           ],
-          "revenue": {
+          "gmv": {
             "amount": null,
-            "reason": "本轮未取得可核对的完整年度平台收入，不填零、不用成交额或母公司收入替代。",
+            "reason": "本次未取得可核验、单独披露的完整年度 GMV；未披露不填零，也不按营收或季度数字推算。",
             "ref": "dhgate-start"
           }
         },
@@ -5801,15 +5912,18 @@ window.COFFEE_CONTENT = {
           ],
           "rulesRef": "jumia-start",
           "limits": [],
-          "revenue": {
-            "amount": 188900000,
+          "gmv": {
+            "amount": 818600000,
             "currency": "USD",
             "entity": "Jumia Technologies AG",
-            "scope": "2025 全年收入；非 GMV。",
-            "ref": "jumia-revenue",
-            "from": "2025-01-01",
+            "region": "非洲运营市场",
+            "scope": "按全年财务亮点列示的 GMV；不使用剔除特定退出市场的增长率替代总额。",
+            "ref": "jumia-results",
+            "metric": "GMV",
             "to": "2025-12-31",
-            "label": "2025"
+            "label": "2025",
+            "quality": "官方披露",
+            "from": "2025-01-01"
           }
         },
         "allegro": {
@@ -5847,10 +5961,10 @@ window.COFFEE_CONTENT = {
           ],
           "rulesRef": "allegro-start",
           "limits": [],
-          "revenue": {
+          "gmv": {
             "amount": null,
-            "reason": "已定位 2025 官方年报，但下载与原表核对尚未完成，本轮未录入未验证的全年数字。",
-            "ref": "allegro-revenue"
+            "reason": "已找到 2025 官方业绩入口，但本轮未完成完整年度原表的读取核验；不把搜索摘要、近 700 亿兹罗提标题或季度数字作为精确全年数值。",
+            "ref": "allegro-results"
           }
         },
         "lazada": {
@@ -5888,10 +6002,10 @@ window.COFFEE_CONTENT = {
           ],
           "rulesRef": "lazada-start",
           "limits": [],
-          "revenue": {
+          "gmv": {
             "amount": null,
-            "reason": "Alibaba 财报合并国际业务，未取得 Lazada 单独全年收入。",
-            "ref": "alibaba-revenue"
+            "reason": "本次未取得 Lazada 单独完整年度 GMV；不使用 Alibaba 国际业务营收或季度数据代替。",
+            "ref": "alibaba-results"
           }
         },
         "shopee": {
@@ -5929,15 +6043,18 @@ window.COFFEE_CONTENT = {
           ],
           "rulesRef": "shopee-start",
           "limits": [],
-          "revenue": {
-            "amount": 16600000000,
+          "gmv": {
+            "amount": 127400000000,
             "currency": "USD",
-            "entity": "Shopee（Sea 电商分部）",
-            "scope": "分部 GAAP 总收入，含 marketplace 及商品销售；不是 Sea 集团总收入。",
-            "ref": "shopee-revenue",
-            "from": "2025-01-01",
+            "entity": "Shopee（Sea 电商业务）",
+            "region": "各运营市场",
+            "scope": "全年平台 GMV；不使用 Sea 集团或 Shopee 营收替代。",
+            "ref": "shopee-results",
+            "metric": "GMV",
             "to": "2025-12-31",
-            "label": "2025"
+            "label": "2025",
+            "quality": "官方披露",
+            "from": "2025-01-01"
           }
         },
         "mercado-libre": {
@@ -5976,15 +6093,18 @@ window.COFFEE_CONTENT = {
           ],
           "rulesRef": "meli-start",
           "limits": [],
-          "revenue": {
-            "amount": 16294000000,
+          "gmv": {
+            "amount": 65037000000,
             "currency": "USD",
-            "entity": "MercadoLibre Commerce（电商分部）",
-            "scope": "电商业务收入，剔除 Fintech 金融分部；不是集团 288.93 亿美元合并收入。",
-            "ref": "meli-revenue",
-            "from": "2025-01-01",
+            "entity": "MercadoLibre Marketplace",
+            "region": "拉丁美洲运营市场",
+            "scope": "按官方定义排除分类信息交易；自 2025 年第二季度起包含外卖交易；不是 Mercado Pago 支付总额。",
+            "ref": "meli-results",
+            "metric": "GMV",
             "to": "2025-12-31",
-            "label": "2025"
+            "label": "2025",
+            "quality": "官方披露",
+            "from": "2025-01-01"
           }
         },
         "cdiscount": {
@@ -6021,15 +6141,18 @@ window.COFFEE_CONTENT = {
           ],
           "rulesRef": "cdiscount-start",
           "limits": [],
-          "revenue": {
-            "amount": 1027000000,
+          "gmv": {
+            "amount": 2751000000,
             "currency": "EUR",
-            "entity": "Cdiscount（Casino 业绩公告中的电商业务）",
-            "scope": "2025 全年 net sales，含自营和 Marketplace；官方销售公告标注未审计，不是 GMV。",
-            "ref": "cdiscount-revenue",
-            "from": "2025-01-01",
+            "entity": "Cdiscount",
+            "region": "法国及其网站运营范围",
+            "scope": "自营网站与第三方 Marketplace 含税成交额；官方全年业绩公告中的未审计数据。",
+            "ref": "cdiscount-results",
+            "metric": "GMV",
             "to": "2025-12-31",
-            "label": "2025（未审计销售公告）"
+            "label": "2025",
+            "quality": "官方披露（未审计）",
+            "from": "2025-01-01"
           }
         },
         "wish": {
@@ -6067,9 +6190,9 @@ window.COFFEE_CONTENT = {
           ],
           "rulesRef": "wish-start",
           "limits": [],
-          "revenue": {
+          "gmv": {
             "amount": null,
-            "reason": "本轮未取得可核对的完整年度平台收入，不填零、不用成交额或母公司收入替代。",
+            "reason": "本次未取得可核验、单独披露的完整年度 GMV；未披露不填零，也不按营收或季度数字推算。",
             "ref": "wish-start"
           }
         },
@@ -6108,9 +6231,9 @@ window.COFFEE_CONTENT = {
           ],
           "rulesRef": "emag-start",
           "limits": [],
-          "revenue": {
+          "gmv": {
             "amount": null,
-            "reason": "本轮未取得可核对的完整年度平台收入，不填零、不用成交额或母公司收入替代。",
+            "reason": "本次未取得可核验、单独披露的完整年度 GMV；未披露不填零，也不按营收或季度数字推算。",
             "ref": "emag-start"
           }
         },
@@ -6149,10 +6272,21 @@ window.COFFEE_CONTENT = {
           ],
           "rulesRef": "wb-start",
           "limits": [],
-          "revenue": {
-            "amount": null,
-            "reason": "本轮未取得可核对的完整年度平台收入，不填零、不用成交额或母公司收入替代。",
-            "ref": "wb-start"
+          "gmv": {
+            "amount": 72281000000,
+            "currency": "USD",
+            "entity": "Wildberries",
+            "region": "平台运营市场（主要为俄罗斯）",
+            "scope": "ECDB 全年电商 GMV 估算；不把 RWB 集团全部广告与其他业务营业收入当作成交额。",
+            "ref": "ecdb-wildberries",
+            "extraRefs": [
+              "ecdb-methodology"
+            ],
+            "metric": "GMV",
+            "from": "2025-01-01",
+            "to": "2025-12-31",
+            "label": "2025",
+            "quality": "机构估算 · ECDB"
           }
         },
         "yandex": {
@@ -6189,10 +6323,21 @@ window.COFFEE_CONTENT = {
           ],
           "rulesRef": "yandex-start",
           "limits": [],
-          "revenue": {
-            "amount": null,
-            "reason": "相关电商服务与其他业务合并披露，本轮未核得 Market 单独全年收入。",
-            "ref": "yandex-revenue"
+          "gmv": {
+            "amount": 13714000000,
+            "currency": "USD",
+            "entity": "Yandex 电商（ECDB retailer 口径）",
+            "region": "以俄罗斯为主",
+            "scope": "ECDB Yandex 电商零售商口径；其主域名标为 Yandex Market, OOO，不代表整个 Yandex 集团。非 Market 官方单独披露值；域名、退款与服务范围以研究机构定义为准。",
+            "ref": "ecdb-yandex",
+            "extraRefs": [
+              "ecdb-methodology"
+            ],
+            "metric": "GMV",
+            "from": "2025-01-01",
+            "to": "2025-12-31",
+            "label": "2025",
+            "quality": "机构估算 · ECDB"
           }
         },
         "rakuten": {
@@ -6233,10 +6378,10 @@ window.COFFEE_CONTENT = {
           "limits": [
             "Rakuten France 已停止运营；不得把日本的开店方案描述成法国可入驻。"
           ],
-          "revenue": {
+          "gmv": {
             "amount": null,
-            "reason": "Rakuten 集团含金融和移动通信，未取得对应商城的单独完整年度收入，不以集团代替。",
-            "ref": "rakuten-revenue"
+            "reason": "官方披露的日本国内 EC GMS 合并 Ichiba、旅游、图书等服务，不能代表单一商城或法国市场；本轮未取得可比商城单独年度 GMV。",
+            "ref": "rakuten-results"
           }
         },
         "walmart": {
@@ -6274,15 +6419,21 @@ window.COFFEE_CONTENT = {
           ],
           "rulesRef": "walmart-start",
           "limits": [],
-          "revenue": {
-            "amount": 713163000000,
+          "gmv": {
+            "amount": 185505000000,
             "currency": "USD",
-            "entity": "Walmart Inc.",
-            "scope": "集团合并收入，含线下零售、会员等；非单独 Marketplace 收入。",
-            "ref": "walmart-revenue",
-            "from": "2025-02-01",
-            "to": "2026-01-31",
-            "label": "FY2026"
+            "entity": "Walmart",
+            "region": "全球电商业务",
+            "scope": "ECDB 电商年度 GMV 估算；非含线下门店的 Walmart 集团营收，也不是单独第三方卖家成交额。",
+            "ref": "ecdb-walmart",
+            "extraRefs": [
+              "ecdb-methodology"
+            ],
+            "metric": "GMV",
+            "from": "2025-01-01",
+            "to": "2025-12-31",
+            "label": "2025",
+            "quality": "机构估算 · ECDB"
           }
         },
         "otto": {
@@ -6320,10 +6471,21 @@ window.COFFEE_CONTENT = {
           ],
           "rulesRef": "otto-start",
           "limits": [],
-          "revenue": {
-            "amount": null,
-            "reason": "所核对 2025/26 官方公告的 75 亿欧元是 GMV，未将它作为平台营收。",
-            "ref": "otto-revenue"
+          "gmv": {
+            "amount": 7500000000,
+            "currency": "EUR",
+            "entity": "OTTO 平台",
+            "region": "德国",
+            "scope": "官方披露约 75 亿欧元 GMV，含自营及第三方交易；按原公告近似值保留，不使用 Otto Group 集团营收。",
+            "ref": "otto-results",
+            "metric": "GMV",
+            "to": "2026-02-28",
+            "label": "FY2025/26",
+            "quality": "官方披露约数",
+            "from": "2025-03-01",
+            "extraRefs": [
+              "otto-period"
+            ]
           }
         },
         "alibaba": {
@@ -6361,10 +6523,10 @@ window.COFFEE_CONTENT = {
           ],
           "rulesRef": "alibaba-start",
           "limits": [],
-          "revenue": {
+          "gmv": {
             "amount": null,
-            "reason": "国际站与其他国际业务合并披露，未取得 Alibaba.com 单独全年收入。",
-            "ref": "alibaba-revenue"
+            "reason": "本次未取得 Alibaba.com 国际站单独完整年度 GMV；不以 Alibaba 集团或中国零售平台数据代替。",
+            "ref": "alibaba-results"
           }
         },
         "coupang": {
@@ -6401,15 +6563,10 @@ window.COFFEE_CONTENT = {
           ],
           "rulesRef": "coupang-start",
           "limits": [],
-          "revenue": {
-            "amount": 34500000000,
-            "currency": "USD",
-            "entity": "Coupang, Inc.",
-            "scope": "集团全年净收入，官方概述四舍五入至十亿美元一位小数，含非韩国零售业务。",
-            "ref": "coupang-revenue",
-            "from": "2025-01-01",
-            "to": "2025-12-31",
-            "label": "2025"
+          "gmv": {
+            "amount": null,
+            "reason": "本次未取得可核验的全年 GMV；不把集团 net revenues（净营收）改写为成交额。",
+            "ref": "coupang-results"
           }
         },
         "etsy": {
@@ -6448,15 +6605,18 @@ window.COFFEE_CONTENT = {
           ],
           "rulesRef": "etsy-start",
           "limits": [],
-          "revenue": {
-            "amount": 2883501000,
+          "gmv": {
+            "amount": 10460700000,
             "currency": "USD",
-            "entity": "Etsy, Inc.",
-            "scope": "合并收入，含 Depop 和出售前的 Reverb；不是 Etsy 主站单独收入。",
-            "ref": "etsy-revenue",
-            "from": "2025-01-01",
+            "entity": "Etsy marketplace（主站）",
+            "region": "全球",
+            "scope": "主站 GMS，剔除 Depop 与 Reverb；商品销售价值扣退款、不含运费，不能当作 Etsy 集团合并口径。",
+            "ref": "etsy-results",
+            "metric": "GMS",
             "to": "2025-12-31",
-            "label": "2025"
+            "label": "2025",
+            "quality": "官方披露",
+            "from": "2025-01-01"
           }
         },
         "vinted": {
@@ -6495,15 +6655,18 @@ window.COFFEE_CONTENT = {
           ],
           "rulesRef": "vinted-start",
           "limits": [],
-          "revenue": {
-            "amount": 1100000000,
+          "gmv": {
+            "amount": 10800000000,
             "currency": "EUR",
-            "entity": "Vinted Group",
-            "scope": "集团各业务收入，官方公布约 11 亿欧元；不是 108 亿欧元 GMV。",
-            "ref": "vinted-revenue",
-            "from": "2025-01-01",
+            "entity": "Vinted Marketplace",
+            "region": "平台全部运营市场",
+            "scope": "会员全年交易 GMV，非 Vinted 物流、支付等业务的合并收入。",
+            "ref": "vinted-results",
+            "metric": "GMV",
             "to": "2025-12-31",
-            "label": "2025"
+            "label": "2025",
+            "quality": "官方披露",
+            "from": "2025-01-01"
           }
         },
         "olx-group": {
@@ -6542,15 +6705,10 @@ window.COFFEE_CONTENT = {
           ],
           "rulesRef": "olx-pl",
           "limits": [],
-          "revenue": {
-            "amount": 992000000,
-            "currency": "USD",
-            "entity": "OLX Group",
-            "scope": "截至 2026-03-31 的集团全年收入，涵盖多个国家和分类业务。",
-            "ref": "olx-revenue",
-            "from": "2025-04-01",
-            "to": "2026-03-31",
-            "label": "FY2026"
+          "gmv": {
+            "amount": null,
+            "reason": "分类信息集团覆盖汽车、地产、招聘等业务，交易不一定在平台结算；本轮未取得可比商品年度 GMV，不用集团营收代替。",
+            "ref": "olx-results"
           }
         },
         "zalando": {
@@ -6590,15 +6748,18 @@ window.COFFEE_CONTENT = {
           "limits": [
             "平台以时尚为主，尚未验证咖啡胶囊类目；不能因榜单入选就推定允许售卖。"
           ],
-          "revenue": {
-            "amount": 12346100000,
+          "gmv": {
+            "amount": 17560200000,
             "currency": "EUR",
-            "entity": "Zalando SE",
-            "scope": "集团收入，含 B2C／B2B 及自 2025-07-11 起并表的 ABOUT YOU。",
-            "ref": "zalando-revenue",
-            "from": "2025-01-01",
+            "entity": "Zalando Group",
+            "region": "欧洲运营市场",
+            "scope": "集团 GMV，包含 Zalando、Lounge 等业务及自 2025-07-11 起并表的 ABOUT YOU；不是单一 Zalando 主站口径。",
+            "ref": "zalando-results",
+            "metric": "GMV",
             "to": "2025-12-31",
-            "label": "2025"
+            "label": "2025",
+            "quality": "官方披露",
+            "from": "2025-01-01"
           }
         },
         "abebooks": {
@@ -6635,9 +6796,9 @@ window.COFFEE_CONTENT = {
           ],
           "rulesRef": "abebooks-start",
           "limits": [],
-          "revenue": {
+          "gmv": {
             "amount": null,
-            "reason": "本轮未取得可核对的完整年度平台收入，不填零、不用成交额或母公司收入替代。",
+            "reason": "本次未取得可核验、单独披露的完整年度 GMV；未披露不填零，也不按营收或季度数字推算。",
             "ref": "abebooks-start"
           }
         },
@@ -6676,9 +6837,9 @@ window.COFFEE_CONTENT = {
           ],
           "rulesRef": "stockx-start",
           "limits": [],
-          "revenue": {
+          "gmv": {
             "amount": null,
-            "reason": "本轮未取得可核对的完整年度平台收入，不填零、不用成交额或母公司收入替代。",
+            "reason": "本次未取得可核验、单独披露的完整年度 GMV；未披露不填零，也不按营收或季度数字推算。",
             "ref": "stockx-start"
           }
         }
