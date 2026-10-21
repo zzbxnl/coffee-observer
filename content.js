@@ -4714,20 +4714,9 @@ window.COFFEE_CONTENT = {
       "CY": "塞浦路斯",
       "GB": "英国（非欧盟）"
     },
-    "products": {
-      "reusable": "可重复填充胶囊",
-      "prefilled": "预填充咖啡胶囊",
-      "accessories": "胶囊配件"
-    },
-    "systems": {
-      "all": "全部系统",
-      "original": "Nespresso Original 原始系列",
-      "vertuo": "Nespresso Vertuo 馥旋系列",
-      "dolce-gusto": "Dolce Gusto 多趣酷思传统系统",
-      "k-cup": "Keurig K-Cup 克里格系统",
-      "tassimo": "Tassimo T DISC 系统",
-      "senseo": "Senseo 软包系统",
-      "other": "其他／尚未确认"
+    "productQuery": {
+      "label": "可重复填充咖啡胶囊",
+      "keyword": "reusable coffee capsule"
     },
     "platforms": [
       {
@@ -4796,26 +4785,11 @@ window.COFFEE_CONTENT = {
         "note": "具体站点及数据权限以官网为准；未接入第三方销量估算。"
       },
       {
-        "id": "google-ads",
-        "name": "Google Ads（谷歌广告）",
-        "home": "https://ads.google.com/",
-        "kind": "广告与搜索需求",
-        "research": "https://ads.google.com/home/tools/keyword-planner/",
-        "note": "关键词搜索量、点击量和广告竞争度用于研究需求，不是商品销量或销售金额。"
-      },
-      {
         "id": "ozon",
         "name": "Ozon（俄罗斯电商平台）",
         "home": "https://www.ozon.ru/",
         "kind": "区域平台入口",
         "note": "保留图片中的平台入口；未建立美国或欧盟国家查询映射。"
-      },
-      {
-        "id": "dhgate",
-        "name": "DHgate（敦煌网）",
-        "home": "https://www.dhgate.com/",
-        "kind": "跨境批发与零售",
-        "note": "批发采购、零售订单和最小起订量需分别阅读。"
       },
       {
         "id": "jumia",
@@ -4970,18 +4944,6 @@ window.COFFEE_CONTENT = {
         "checkedOn": "2026-10-21"
       },
       {
-        "id": "olx-group",
-        "name": "OLX Group（OLX 集团）",
-        "home": "https://www.olxgroup.com/",
-        "kind": "本地分类信息集团",
-        "note": "这是集团入口，旗下品牌与国家市场各有定位。可沿官方品牌入口研究当地二手机器与配件；不等于一个统一的欧洲胶囊商城。",
-        "reference": {
-          "name": "OLX Group 官方集团与品牌入口",
-          "url": "https://www.olxgroup.com/"
-        },
-        "checkedOn": "2026-10-21"
-      },
-      {
         "id": "zalando",
         "name": "Zalando（时尚与生活方式平台）",
         "home": "https://www.zalando.com/",
@@ -4990,18 +4952,6 @@ window.COFFEE_CONTENT = {
         "reference": {
           "name": "Zalando 官方业务定位",
           "url": "https://corporate.zalando.com/en/about-us/who-we-are"
-        },
-        "checkedOn": "2026-10-21"
-      },
-      {
-        "id": "abebooks",
-        "name": "AbeBooks（图书与收藏品平台）",
-        "home": "https://www.abebooks.co.uk/",
-        "kind": "图书与收藏品",
-        "note": "用于寻找咖啡历史、烘焙和萃取书籍及收藏资料；官方主营图书、艺术与收藏品，不能用其排名判断咖啡胶囊需求。",
-        "reference": {
-          "name": "AbeBooks 官方平台介绍",
-          "url": "https://www.abebooks.co.uk/about/"
         },
         "checkedOn": "2026-10-21"
       },
@@ -5034,10 +4984,6 @@ window.COFFEE_CONTENT = {
       {
         "name": "亚马逊欧洲站点说明",
         "url": "https://sell.amazon.com/global-selling/europe"
-      },
-      {
-        "name": "Google 关键词历史指标说明",
-        "url": "https://developers.google.com/google-ads/api/docs/keyword-planning/generate-historical-metrics"
       }
     ],
     "guidebook": {
@@ -5107,10 +5053,6 @@ window.COFFEE_CONTENT = {
           "name": "TikTok Shop 美国佣金说明（2024 基础费率参考）",
           "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=5982454398175018&lang=en"
         },
-        "ads-budget": {
-          "name": "Google Ads 预算与费用说明",
-          "url": "https://ads.google.com/intl/en_us/intl/en_us/home/cost-tool/"
-        },
         "ozon-start": {
           "name": "Ozon 官方卖家入口",
           "url": "https://seller.ozon.ru/"
@@ -5122,10 +5064,6 @@ window.COFFEE_CONTENT = {
         "ozon-fees": {
           "name": "Ozon 2026-09-01 费用与销售模式说明",
           "url": "https://seller.ozon.ru/media/beginners/za-chto-platyat-prodavcy-na-ozon/"
-        },
-        "dhgate-start": {
-          "name": "DHgate 官方商家入口（详细规则本轮未读到）",
-          "url": "https://seller.dhgate.com/"
         },
         "jumia-start": {
           "name": "Jumia 尼日利亚卖家中心",
@@ -5271,18 +5209,6 @@ window.COFFEE_CONTENT = {
           "name": "Vinted 英国卖家免费说明",
           "url": "https://www.vinted.co.uk/help/418/373-ar-det-gratis-att-salja-pa-vinted"
         },
-        "olx-start": {
-          "name": "OLX 集团与各地品牌",
-          "url": "https://www.olxgroup.com/"
-        },
-        "olx-pl": {
-          "name": "OLX 波兰企业业务入口",
-          "url": "https://biznes.olx.pl/"
-        },
-        "olx-fees": {
-          "name": "OLX 波兰刊登方案计算器",
-          "url": "https://biznes.olx.pl/kalkulator-ofert/"
-        },
         "zalando-start": {
           "name": "Zalando 邀请制与入驻要求（更新 2026-09-29）",
           "url": "https://partner.zalando.com/university/article/country-specific-onboarding-requirements"
@@ -5291,10 +5217,6 @@ window.COFFEE_CONTENT = {
           "name": "Zalando 合作模式与佣金结算说明",
           "url": "https://partner.zalando.com/partnership/partnership-models"
         },
-        "abebooks-start": {
-          "name": "AbeBooks 商家申请与 Basic／Premium 费用",
-          "url": "https://www.abebooks.com/books/sell/"
-        },
         "stockx-start": {
           "name": "StockX 个人与企业收款认证",
           "url": "https://stockx.com/help/en-us/articles/how-do-i-verify-my-identity-for-seller-payouts"
@@ -5302,18 +5224,6 @@ window.COFFEE_CONTENT = {
         "stockx-fees": {
           "name": "StockX 卖家等级与交易费",
           "url": "https://stockx.com/about/en-gb/selling-en-gb/"
-        },
-        "stockx-company": {
-          "name": "StockX 公司与公开业务资料",
-          "url": "https://stockx.com/about/company/"
-        },
-        "amazon-results": {
-          "name": "Amazon 2025 全年结果",
-          "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Fourth-Quarter-Results/default.aspx"
-        },
-        "walmart-results": {
-          "name": "Walmart FY2026 全年财报",
-          "url": "https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-26-000032/earningsreleasefy26q4.htm"
         },
         "coupang-results": {
           "name": "Coupang 2025 全年结果",
@@ -5343,10 +5253,6 @@ window.COFFEE_CONTENT = {
           "name": "Vinted 2025 年度业绩",
           "url": "https://company.vinted.com/newsroom/financial-results-2025"
         },
-        "olx-results": {
-          "name": "OLX 截至 2026-03-31 财年业绩",
-          "url": "https://www.olxgroup.com/news/olx-group-continues-strong-performance-as-motors-real-estate-and-jobs-drive-growth/"
-        },
         "jumia-results": {
           "name": "Jumia 2025 全年结果",
           "url": "https://investor.jumia.com/news/news-details/2026/Jumia-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx"
@@ -5366,10 +5272,6 @@ window.COFFEE_CONTENT = {
         "rakuten-results": {
           "name": "Rakuten 2025 合并业绩（非商城单独收入）",
           "url": "https://global.rakuten.com/corp/news/press/2026/0212_01.html"
-        },
-        "yandex-results": {
-          "name": "Yandex 2025 财报（合并板块）",
-          "url": "https://ir.yandex.ru/financial-releases?report=q4&year=2025"
         },
         "cdiscount-results": {
           "name": "Casino 2025 年度销售额公告",
@@ -5745,45 +5647,6 @@ window.COFFEE_CONTENT = {
             "quality": "机构估算 · Momentum Works／Tabcut"
           }
         },
-        "google-ads": {
-          "market": "广告账户，非商品交易市场",
-          "individual": "可创建符合地区及身份验证要求的广告账户；不属于电商开店资格。",
-          "business": "企业可开户并完成广告主身份验证。",
-          "china": "按广告账户所在地区、支付与广告政策核验。",
-          "requirements": [
-            "广告主与支付资料",
-            "可访问的落地页及合规广告内容"
-          ],
-          "models": [
-            "按广告竞价与预算投放，为自有店铺或网站引流"
-          ],
-          "fees": [
-            {
-              "item": "年费／抽点",
-              "value": "无商品交易佣金口径；广告预算和竞价费用不等于平台销售额。",
-              "refs": [
-                "ads-budget"
-              ]
-            },
-            {
-              "item": "广告成本",
-              "value": "预算由广告主设置，按广告计费方式消耗；不将代理商服务费算作 Google 平台年费。",
-              "refs": [
-                "ads-budget"
-              ]
-            }
-          ],
-          "refs": [
-            "ads-budget"
-          ],
-          "rulesRef": "ads-budget",
-          "limits": [],
-          "gmv": {
-            "amount": null,
-            "reason": "Google Ads 为广告及关键词需求工具，不是商品交易平台，不适用商品年度 GMV。",
-            "ref": "ads-budget"
-          }
-        },
         "ozon": {
           "market": "俄罗斯本地规则为参考；中国跨境需 Global 通道",
           "individual": "俄罗斯自雇身份有范围限制；转售商品要求企业或个体经营者。",
@@ -5835,46 +5698,6 @@ window.COFFEE_CONTENT = {
             "to": "2025-12-31",
             "label": "2025",
             "quality": "机构估算 · ECDB"
-          }
-        },
-        "dhgate": {
-          "market": "中国跨境 B2B／零售商家入口；规则待补核验",
-          "individual": "本轮未核实当前自然人资格。",
-          "business": "本轮未读到当前可核对的主体清单，需官方商家后台确认。",
-          "china": "进入官方商家入口核对中国主体要求，未以第三方招商报价替代官方规则。",
-          "requirements": [
-            "营业主体、收款与类目要求待官方核实"
-          ],
-          "models": [
-            "跨境批发／零售；具体履约和结算责任依卖家协议"
-          ],
-          "fees": [
-            {
-              "item": "年费／保证金",
-              "value": "本轮未取得可读官方收费表。",
-              "refs": [
-                "dhgate-start"
-              ]
-            },
-            {
-              "item": "佣金",
-              "value": "未录入未经官方核对的百分比；请在正式商家规则或后台确认。",
-              "refs": [
-                "dhgate-start"
-              ]
-            }
-          ],
-          "refs": [
-            "dhgate-start"
-          ],
-          "rulesRef": "dhgate-start",
-          "limits": [
-            "该官方入口本轮无法自动读取，资格和费用保持“未核实”，不填零。"
-          ],
-          "gmv": {
-            "amount": null,
-            "reason": "本次未取得可核验、单独披露的完整年度 GMV；未披露不填零，也不按营收或季度数字推算。",
-            "ref": "dhgate-start"
           }
         },
         "jumia": {
@@ -6669,48 +6492,6 @@ window.COFFEE_CONTENT = {
             "from": "2025-01-01"
           }
         },
-        "olx-group": {
-          "market": "集团入口；已补波兰 OLX 企业规则入口",
-          "individual": "各地品牌有个人分类交易规则，不能推定集团统一开放。",
-          "business": "波兰 OLX 提供企业账号与付费方案，其他国家分别审核。",
-          "china": "中国主体能否申请、付款和本地履约需按国家品牌确认。",
-          "requirements": [
-            "先选具体国家品牌与商品分类",
-            "身份／经营及本地发布条件审核"
-          ],
-          "models": [
-            "分类广告、企业展示与增值刊登",
-            "集团还覆盖汽车、房产和招聘等，非统一商品成交平台"
-          ],
-          "fees": [
-            {
-              "item": "年费／刊登",
-              "value": "波兰按广告类目与套餐计算，官方计算器展示价格；没有可覆盖整个集团的统一年费。",
-              "refs": [
-                "olx-fees"
-              ]
-            },
-            {
-              "item": "平台抽点",
-              "value": "刊登与服务收费不等于统一成交佣金；需看具体品牌和交易功能。",
-              "refs": [
-                "olx-pl"
-              ]
-            }
-          ],
-          "refs": [
-            "olx-pl",
-            "olx-fees",
-            "olx-start"
-          ],
-          "rulesRef": "olx-pl",
-          "limits": [],
-          "gmv": {
-            "amount": null,
-            "reason": "分类信息集团覆盖汽车、地产、招聘等业务，交易不一定在平台结算；本轮未取得可比商品年度 GMV，不用集团营收代替。",
-            "ref": "olx-results"
-          }
-        },
         "zalando": {
           "market": "欧洲时尚 Partner Program；官方主动邀请",
           "individual": "支持的独资经营者须提供居住国税号，不是开放私人闲置通道。",
@@ -6762,46 +6543,6 @@ window.COFFEE_CONTENT = {
             "from": "2025-01-01"
           }
         },
-        "abebooks": {
-          "market": "AbeBooks.com 美元方案；专业书商与收藏品经营",
-          "individual": "可申请的经营者需满足专业书商标准；不是任意私人杂货平台。",
-          "business": "专业经营者提交企业、税务、银行与业务资料。",
-          "china": "中国主体是否接受需账户审核；主营书籍、艺术与收藏品，不用于卖普通咖啡胶囊。",
-          "requirements": [
-            "接受国际配送与退货、按要求处理订单和答复",
-            "提交业务、支付、银行和税务资料"
-          ],
-          "models": [
-            "书籍、艺术与收藏品店铺",
-            "Basic（按单）与 Premium（订阅）"
-          ],
-          "fees": [
-            {
-              "item": "Basic 方案",
-              "value": "无月费；每件 USD1；前 USD500 部分佣金 15%，超出部分 10%；无另收支付处理费。",
-              "refs": [
-                "abebooks-start"
-              ]
-            },
-            {
-              "item": "Premium 方案",
-              "value": "USD25—500/月（按刊登量）；佣金 8%（每件最低 USD0.50、最高 USD40）；每单前 USD500 支付费 5.5%，超出部分 3.5%。",
-              "refs": [
-                "abebooks-start"
-              ]
-            }
-          ],
-          "refs": [
-            "abebooks-start"
-          ],
-          "rulesRef": "abebooks-start",
-          "limits": [],
-          "gmv": {
-            "amount": null,
-            "reason": "本次未取得可核验、单独披露的完整年度 GMV；未披露不填零，也不按营收或季度数字推算。",
-            "ref": "abebooks-start"
-          }
-        },
         "stockx": {
           "market": "所支持的卖家地区；EEA 收款审核规则另有说明",
           "individual": "支持个人及独资等账户类型，需按地区和阈值完成收款核验。",
@@ -6848,7 +6589,7 @@ window.COFFEE_CONTENT = {
   },
   "evidence": {
     "checkedOn": "2026-10-18",
-    "scope": "研究范围：24个平台，每个平台目标10个咖啡胶囊相关商品；优先公开榜单，否则明确标为候选样本。",
+    "scope": "研究范围：22个平台，每个平台目标10个咖啡胶囊相关商品；优先公开榜单，否则明确标为候选样本。",
     "method": "仅公开页面可见评论；不登录、不绕过验证码、不使用收费数据。公开索引有滞后时逐商品标明；激励评论保留标记。评论不代表全部购买者；保留商品市场、评论日期、评论国家与变体，不把站点或好评率当成销量。",
     "window": {
       "from": "2025-10-18",
@@ -6920,19 +6661,6 @@ window.COFFEE_CONTENT = {
         "candidateCount": 0,
         "statusLabel": "网络读取失败，等待补充公开证据",
         "note": "直接入口未取得可读评论；公开索引工具另报告 robots.txt 访问限制。未重试受限制页面，也未绕过验证或登录。"
-      },
-      {
-        "id": "dhgate",
-        "market": "global",
-        "url": "https://www.dhgate.com/wholesale/reusable+coffee+capsules.html",
-        "status": 404,
-        "checkedAt": "2026-10-18T04:07:54.791Z",
-        "targetProducts": 10,
-        "productCount": 0,
-        "reviewCount": 0,
-        "candidateCount": 0,
-        "statusLabel": "入口访问受限（HTTP 404）",
-        "note": "本轮检索路径返回 404，仅说明该入口失效；尚未取得可核对商品，不能据此判断全平台无数据。"
       },
       {
         "id": "shein",
@@ -7156,19 +6884,6 @@ window.COFFEE_CONTENT = {
         "candidateCount": 10,
         "statusLabel": "已发现10候选，详情页未成功读取",
         "note": "已找到 10 个候选商品链接，详情页本轮返回 HTTP 400；尚未核对商品规格和评论，不计为已完成商品。"
-      },
-      {
-        "id": "google-ads",
-        "market": "global",
-        "url": "https://ads.google.com/",
-        "status": "not-applicable",
-        "checkedAt": "2026-10-18T04:08:04.832Z",
-        "targetProducts": 0,
-        "productCount": 0,
-        "reviewCount": 0,
-        "candidateCount": 0,
-        "statusLabel": "不适用：广告需求工具",
-        "note": "广告与关键词需求工具，不提供消费者商品评论榜，因此评论目标为 0。"
       }
     ],
     "products": [
