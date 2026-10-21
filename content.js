@@ -7213,7 +7213,7 @@ window.COFFEE_CONTENT = {
     "storeResearch": {
       "checkedOn": "2026-10-21",
       "targetStoresPerPlatform": 10,
-      "method": "每个平台目标 10 家不同店铺，按平台卖家 ID／店铺链接去重；同店多个商品不重复计店铺。当前为公开相关候选，不是销量前十。广告分类只描述取得证据时的商品展示位，不代表店铺全部流量来源、投放金额或广告占比。",
+      "method": "每个平台目标 10 家不同销售店铺。同平台优先按卖家 ID／店铺链接去重；TikTok 本批按商品原页披露的经营主体分别去重，平台编号与独立店铺链接缺失时明示。当前为公开相关候选，不是销量前十。广告分类只描述有证据的商品展示位，不代表店铺全部流量来源、投放金额或广告占比。",
       "imagePolicy": "SKU 表只用对应平台商品页原图，保留商品编号、来源和核对时间；未公开卖家 SKU 或未核验子变体时明确标注，不以相似产品图替代。",
       "stores": [
         {
@@ -7932,7 +7932,17 @@ window.COFFEE_CONTENT = {
               "url": "https://www.emag.ro/set-4-capsule-reutilizabile-cafea-compatibile-cu-dolce-gusto-plastic-silicon-52-x-35-mm-maro-4dolcekapszula/pd/DFVN9WBBM/",
               "variant": "按当前商品编号展示；卖家自定义 SKU 未公开，未将多变体合并为一个已验证 SKU",
               "image": "store-emag-dfvn9wbbm",
-              "price": null,
+              "price": {
+                "amount": 10.89,
+                "currency": "RON",
+                "basis": "同一商品编号公开页的主标价 DOM 快照；结构化报价缺失时读取主商品价格，未计地址相关税费和运费",
+                "observedAt": "2026-10-21T11:09:29.078Z",
+                "source": "https://www.emag.ro/set-4-capsule-reutilizabile-cafea-compatibile-cu-dolce-gusto-plastic-silicon-52-x-35-mm-maro-4dolcekapszula/pd/DFVN9WBBM/",
+                "pack": "4 只胶囊／组",
+                "offerType": "公开页标价快照",
+                "quality": "live",
+                "promotions": []
+              },
               "sales": null,
               "revenue": null,
               "rating": null,
@@ -8105,7 +8115,17 @@ window.COFFEE_CONTENT = {
               "url": "https://www.emag.ro/set-2-capsule-de-cafea-reutilizabile-si-lavabile-super-trendsr-de-150-ml-maro-si-230-ml-negru-compatibile-cu-nespresso-vertuo-si-30-folii-de-aluminiu-sptrcapsule150ml230ml/pd/DYHBV83BM/",
               "variant": "按当前商品编号展示；卖家自定义 SKU 未公开，未将多变体合并为一个已验证 SKU",
               "image": "store-emag-dyhbv83bm",
-              "price": null,
+              "price": {
+                "amount": 60.5,
+                "currency": "RON",
+                "basis": "同一商品编号公开页的主标价 DOM 快照；结构化报价缺失时读取主商品价格，未计地址相关税费和运费",
+                "observedAt": "2026-10-21T11:13:32.060Z",
+                "source": "https://www.emag.ro/set-2-capsule-de-cafea-reutilizabile-si-lavabile-super-trendsr-de-150-ml-maro-si-230-ml-negru-compatibile-cu-nespresso-vertuo-si-30-folii-de-aluminiu-sptrcapsule150ml230ml/pd/DYHBV83BM/",
+                "pack": "2 只胶囊／组",
+                "offerType": "公开页标价快照",
+                "quality": "live",
+                "promotions": []
+              },
               "sales": null,
               "revenue": null,
               "rating": null,
@@ -8149,7 +8169,17 @@ window.COFFEE_CONTENT = {
               "url": "https://www.emag.ro/capsule-reutilizabile-cafea-ajieqaq-inox-180ml-maro-7b321/pd/D6VVBW3BM/",
               "variant": "按当前商品编号展示；卖家自定义 SKU 未公开，未将多变体合并为一个已验证 SKU",
               "image": "store-emag-d6vvbw3bm",
-              "price": null,
+              "price": {
+                "amount": 54.45,
+                "currency": "RON",
+                "basis": "同一商品编号公开页的主标价 DOM 快照；结构化报价缺失时读取主商品价格，未计地址相关税费和运费",
+                "observedAt": "2026-10-21T11:13:31.293Z",
+                "source": "https://www.emag.ro/capsule-reutilizabile-cafea-ajieqaq-inox-180ml-maro-7b321/pd/D6VVBW3BM/",
+                "pack": "单个180ml胶囊款；数量以选项核对",
+                "offerType": "公开页标价快照",
+                "quality": "live",
+                "promotions": []
+              },
               "sales": null,
               "revenue": null,
               "rating": null,
@@ -8588,7 +8618,7 @@ window.COFFEE_CONTENT = {
               "id": "etsy-1725343347",
               "listingId": "1725343347",
               "listingIdType": "Etsy 刊登编号",
-              "sellerSKU": null,
+              "sellerSKU": "K-CUPMETALNESPRESSO",
               "name": "Reusable Capsule Nespresso Coffee Pod Stainless Steel",
               "zh": "Nespresso Original 不锈钢可填充胶囊",
               "system": "original",
@@ -8596,7 +8626,19 @@ window.COFFEE_CONTENT = {
               "url": "https://www.etsy.com/listing/1725343347",
               "variant": "来自具体刊登的展示图；卖家 SKU 未公开，颜色／容量／包装等子变体尚未逐一核验",
               "image": "store-etsy-1725343347",
-              "price": null,
+              "price": {
+                "amount": 9.99,
+                "currency": "USD",
+                "offerType": "历史展示报价",
+                "starting": false,
+                "quality": "indexed",
+                "pack": "1 只不锈钢可填充胶囊",
+                "observedAt": "2026-10-21T12:47:20.466Z",
+                "source": "https://www.etsy.com/listing/1725343347/reusable-capsule-nespresso-coffee-pod",
+                "basis": "对应商品原页公开索引，工具报告约六天前抓取；非当前成交价。未指定颜色／数量时，不作同规格精确比较",
+                "shipping": "运费及税费按目标国家与选项核对；促销时限未作为今天仍有效的优惠",
+                "promotions": []
+              },
               "sales": null,
               "revenue": null,
               "rating": null,
@@ -8646,7 +8688,19 @@ window.COFFEE_CONTENT = {
               "url": "https://www.etsy.com/listing/4522199082",
               "variant": "来自具体刊登的展示图；卖家 SKU 未公开，颜色／容量／包装等子变体尚未逐一核验",
               "image": "store-etsy-4522199082",
-              "price": null,
+              "price": {
+                "amount": 11.79,
+                "currency": "USD",
+                "offerType": "历史起报价（未选规格）",
+                "starting": true,
+                "quality": "indexed",
+                "pack": "旋转收纳架；颜色未选择",
+                "observedAt": "2026-10-21T12:47:20.466Z",
+                "source": "https://www.etsy.com/listing/4522199082/3d-printed-rotating-coffee-capsule",
+                "basis": "对应商品原页公开索引，工具报告约两个月前抓取；非当前成交价。未指定颜色／数量时，不作同规格精确比较",
+                "shipping": "运费及税费按目标国家与选项核对；促销时限未作为今天仍有效的优惠",
+                "promotions": []
+              },
               "sales": null,
               "revenue": null,
               "rating": null,
@@ -8696,7 +8750,19 @@ window.COFFEE_CONTENT = {
               "url": "https://www.etsy.com/listing/4480803482",
               "variant": "来自具体刊登的展示图；卖家 SKU 未公开，颜色／容量／包装等子变体尚未逐一核验",
               "image": "store-etsy-4480803482",
-              "price": null,
+              "price": {
+                "amount": 21,
+                "currency": "USD",
+                "offerType": "历史起报价（未选规格）",
+                "starting": true,
+                "quality": "indexed",
+                "pack": "收纳架；单／双槽与颜色未选择",
+                "observedAt": "2026-10-21T12:47:20.466Z",
+                "source": "https://www.etsy.com/listing/4480803482/3d-printed-coffee-capsule-holder",
+                "basis": "对应商品原页公开索引，工具报告约两周前抓取；非当前成交价。未指定颜色／数量时，不作同规格精确比较",
+                "shipping": "运费及税费按目标国家与选项核对；促销时限未作为今天仍有效的优惠",
+                "promotions": []
+              },
               "sales": null,
               "revenue": null,
               "rating": null,
@@ -8746,7 +8812,19 @@ window.COFFEE_CONTENT = {
               "url": "https://www.etsy.com/listing/1501413651",
               "variant": "来自具体刊登的展示图；卖家 SKU 未公开，颜色／容量／包装等子变体尚未逐一核验",
               "image": "store-etsy-1501413651",
-              "price": null,
+              "price": {
+                "amount": 8.26,
+                "currency": "USD",
+                "offerType": "历史起报价（未选规格）",
+                "starting": true,
+                "quality": "indexed",
+                "pack": "壁挂收纳架；数量和颜色未选择",
+                "observedAt": "2026-10-21T12:47:20.466Z",
+                "source": "https://www.etsy.com/listing/1501413651/nespresso-coffee-capsule-holder-with",
+                "basis": "对应商品原页公开索引，工具报告约两周前抓取；非当前成交价。未指定颜色／数量时，不作同规格精确比较",
+                "shipping": "运费及税费按目标国家与选项核对；促销时限未作为今天仍有效的优惠",
+                "promotions": []
+              },
               "sales": null,
               "revenue": null,
               "rating": null,
@@ -8796,7 +8874,19 @@ window.COFFEE_CONTENT = {
               "url": "https://www.etsy.com/listing/1854550485",
               "variant": "来自具体刊登的展示图；卖家 SKU 未公开，颜色／容量／包装等子变体尚未逐一核验",
               "image": "store-etsy-1854550485",
-              "price": null,
+              "price": {
+                "amount": 15.12,
+                "currency": "USD",
+                "offerType": "历史展示报价",
+                "starting": false,
+                "quality": "indexed",
+                "pack": "1 只收纳架，容纳20颗胶囊；颜色未选择",
+                "observedAt": "2026-10-21T12:47:20.466Z",
+                "source": "https://www.etsy.com/listing/1854550485/capsule-holder-space-for-20-nespresso",
+                "basis": "对应商品原页公开索引，工具报告约五天前抓取；非当前成交价。未指定颜色／数量时，不作同规格精确比较",
+                "shipping": "运费及税费按目标国家与选项核对；促销时限未作为今天仍有效的优惠",
+                "promotions": []
+              },
               "sales": null,
               "revenue": null,
               "rating": null,
@@ -8846,7 +8936,19 @@ window.COFFEE_CONTENT = {
               "url": "https://www.etsy.com/listing/1862405965",
               "variant": "来自具体刊登的展示图；卖家 SKU 未公开，颜色／容量／包装等子变体尚未逐一核验",
               "image": "store-etsy-1862405965",
-              "price": null,
+              "price": {
+                "amount": 11.14,
+                "currency": "USD",
+                "offerType": "历史起报价（未选规格）",
+                "starting": true,
+                "quality": "indexed",
+                "pack": "收纳架；三种尺寸与颜色未选择",
+                "observedAt": "2026-10-21T12:47:20.466Z",
+                "source": "https://www.etsy.com/listing/1862405965/coffee-pod-holder-for-dolce-gusto-pods",
+                "basis": "对应商品原页公开索引，工具报告约四天前抓取；非当前成交价。未指定颜色／数量时，不作同规格精确比较",
+                "shipping": "运费及税费按目标国家与选项核对；促销时限未作为今天仍有效的优惠",
+                "promotions": []
+              },
               "sales": null,
               "revenue": null,
               "rating": null,
@@ -8858,7 +8960,7 @@ window.COFFEE_CONTENT = {
                 "observedAt": "2026-10-21T11:28:42.498Z",
                 "evidence": "只取得公开商品详情索引，未取得可核对广告标识的展示位；搜索引擎结果不当作平台免费流量"
               },
-              "shipping": "配送、运费、时效及售后未按指定收货地区核验",
+              "shipping": "历史页面提示不向美国配送；其他国家及当前配送资格需向卖家确认",
               "checkedAt": "2026-10-21T11:28:42.498Z",
               "freshness": "indexed",
               "freshnessNote": "2026-10-21 读取；工具报告约四天前抓取的公开索引。不作为即时报价或当前销售量。",
@@ -8896,7 +8998,19 @@ window.COFFEE_CONTENT = {
               "url": "https://www.etsy.com/listing/1747045251",
               "variant": "来自具体刊登的展示图；卖家 SKU 未公开，颜色／容量／包装等子变体尚未逐一核验",
               "image": "store-etsy-1747045251",
-              "price": null,
+              "price": {
+                "amount": 18.5,
+                "currency": "USD",
+                "offerType": "历史起报价（未选规格）",
+                "starting": true,
+                "quality": "indexed",
+                "pack": "1 只15颗容量收纳架；颜色未选择",
+                "observedAt": "2026-10-21T12:47:20.466Z",
+                "source": "https://www.etsy.com/listing/1747045251/nespresso-original-capsule-holder-coffee",
+                "basis": "对应商品原页公开索引，工具报告约一周前抓取；非当前成交价。未指定颜色／数量时，不作同规格精确比较",
+                "shipping": "运费及税费按目标国家与选项核对；促销时限未作为今天仍有效的优惠",
+                "promotions": []
+              },
               "sales": null,
               "revenue": null,
               "rating": null,
@@ -8946,7 +9060,19 @@ window.COFFEE_CONTENT = {
               "url": "https://www.etsy.com/listing/1748803648",
               "variant": "来自具体刊登的展示图；卖家 SKU 未公开，颜色／容量／包装等子变体尚未逐一核验",
               "image": "store-etsy-1748803648",
-              "price": null,
+              "price": {
+                "amount": 223.76,
+                "currency": "USD",
+                "offerType": "历史展示报价",
+                "starting": false,
+                "quality": "indexed",
+                "pack": "1 只手工树脂收纳架；非普通塑料架",
+                "observedAt": "2026-10-21T12:47:20.466Z",
+                "source": "https://www.etsy.com/listing/1748803648/resin-beach-coffee-pod-holder-coastal",
+                "basis": "对应商品原页公开索引，工具报告约两个月前抓取；非当前成交价。未指定颜色／数量时，不作同规格精确比较",
+                "shipping": "运费及税费按目标国家与选项核对；促销时限未作为今天仍有效的优惠",
+                "promotions": []
+              },
               "sales": null,
               "revenue": null,
               "rating": null,
@@ -8996,7 +9122,19 @@ window.COFFEE_CONTENT = {
               "url": "https://www.etsy.com/listing/4460907837",
               "variant": "来自具体刊登的展示图；卖家 SKU 未公开，颜色／容量／包装等子变体尚未逐一核验",
               "image": "store-etsy-4460907837",
-              "price": null,
+              "price": {
+                "amount": 14.05,
+                "currency": "USD",
+                "offerType": "历史展示报价",
+                "starting": false,
+                "quality": "indexed",
+                "pack": "1 只16颗容量收纳架",
+                "observedAt": "2026-10-21T12:47:20.466Z",
+                "source": "https://www.etsy.com/listing/4460907837/dolce-gusto-wavy-capsule-holder-coffee",
+                "basis": "对应商品原页公开索引，工具报告约两周前抓取；非当前成交价。未指定颜色／数量时，不作同规格精确比较",
+                "shipping": "运费及税费按目标国家与选项核对；促销时限未作为今天仍有效的优惠",
+                "promotions": []
+              },
               "sales": null,
               "revenue": null,
               "rating": null,
@@ -9188,6 +9326,328 @@ window.COFFEE_CONTENT = {
               "painRefs": []
             }
           ]
+        },
+        {
+          "id": "tiktok-hongkong-wy",
+          "platform": "tiktok",
+          "market": "US",
+          "sellerId": null,
+          "identityKind": "business-name",
+          "businessName": "HONGKONG W.Y INTERNATIONAL CO., LIMITED",
+          "name": "MyKEEPOW US",
+          "url": "https://shop.tiktok.com/us/pdp/keepow-reusable-coffee-capsules-6-pack-bpa-free-eco-friendly/1732426425256219401",
+          "identitySource": "https://shop.tiktok.com/us/pdp/keepow-reusable-coffee-capsules-6-pack-bpa-free-eco-friendly/1732426425256219401",
+          "checkedAt": "2026-10-21T12:47:20.466Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "tiktok-1732426425256219401",
+              "listingId": "1732426425256219401",
+              "listingIdType": "TikTok 商品编号",
+              "sellerSKU": null,
+              "name": "KEEPOW Reusable Coffee Capsules Compatible with Nescafe Dolce Gusto, 6 Pack",
+              "zh": "Dolce Gusto 六只装可填充胶囊，附勺及刷",
+              "system": "dolce-gusto",
+              "type": "reusable",
+              "url": "https://shop.tiktok.com/us/pdp/keepow-reusable-coffee-capsules-6-pack-bpa-free-eco-friendly/1732426425256219401",
+              "variant": "6 只胶囊：黑／棕／紫各2只，附勺和刷",
+              "image": null,
+              "imageGap": "对应平台商品原图尚未取得，未用其他商家或相似规格图片代替",
+              "price": {
+                "amount": 15.57,
+                "currency": "USD",
+                "pack": "6 只胶囊：黑／棕／紫各2只，附勺和刷",
+                "offerType": "历史展示报价",
+                "quality": "indexed",
+                "observedAt": "2026-10-21T12:47:20.466Z",
+                "source": "https://shop.tiktok.com/us/pdp/keepow-reusable-coffee-capsules-6-pack-bpa-free-eco-friendly/1732426425256219401",
+                "basis": "对应平台原页的公开索引，工具报告约一月前抓取；非即时价格、非成交均价",
+                "shipping": "历史索引免运费，未核验当前收货地区",
+                "promotions": []
+              },
+              "sales": {
+                "text": "0 sold",
+                "scope": "product",
+                "period": "cumulative",
+                "basis": "历史索引中的商品累计售出提示，统计起点未公开；不是近30天或整店销量"
+              },
+              "revenue": null,
+              "rating": null,
+              "ratingCount": null,
+              "reviewScope": "商品评分暂未收录，不使用全店评分替代",
+              "placement": {
+                "type": "unknown",
+                "source": "https://shop.tiktok.com/us/pdp/keepow-reusable-coffee-capsules-6-pack-bpa-free-eco-friendly/1732426425256219401",
+                "observedAt": "2026-10-21T12:47:20.466Z",
+                "evidence": "只取得商品公开索引，没有可核对的商品推广展示标记"
+              },
+              "shipping": "历史索引免运费，未核验当前收货地区",
+              "checkedAt": "2026-10-21T12:47:20.466Z",
+              "freshness": "indexed",
+              "freshnessNote": "2026-10-21 核对；工具报告约一月前抓取的公开索引，未作为即时销量或报价。",
+              "selection": "公开相关销售主体候选，不是销量前十；按原商品页公开经营主体去重；平台卖家编号及独立店铺链接未取得",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "tiktok-huizhou-yizhu",
+          "platform": "tiktok",
+          "market": "US",
+          "sellerId": null,
+          "identityKind": "business-name",
+          "businessName": "Huizhou Yizhu Jewelry Co Ltd",
+          "name": "beautiful guy",
+          "url": "https://shop.tiktok.com/us/pdp/coffee-pod-holder-360-degree-rotation-holds-27-pods-black/1732396044402659750",
+          "identitySource": "https://shop.tiktok.com/us/pdp/coffee-pod-holder-360-degree-rotation-holds-27-pods-black/1732396044402659750",
+          "checkedAt": "2026-10-21T12:47:20.466Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "tiktok-1732396044402659750",
+              "listingId": "1732396044402659750",
+              "listingIdType": "TikTok 商品编号",
+              "sellerSKU": null,
+              "name": "Coffee Pod Holder for K Cups, 27 Pods, 360-Degree Rotation, Black",
+              "zh": "黑色27颗容量旋转式 K-Cup 收纳架",
+              "system": "k-cup",
+              "type": "accessories",
+              "url": "https://shop.tiktok.com/us/pdp/coffee-pod-holder-360-degree-rotation-holds-27-pods-black/1732396044402659750",
+              "variant": "1 只黑色27颗容量收纳架，不含胶囊",
+              "image": null,
+              "imageGap": "对应平台商品原图尚未取得，未用其他商家或相似规格图片代替",
+              "price": {
+                "amount": 24.77,
+                "currency": "USD",
+                "pack": "1 只黑色27颗容量收纳架，不含胶囊",
+                "offerType": "历史展示报价",
+                "quality": "indexed",
+                "observedAt": "2026-10-21T12:47:20.466Z",
+                "source": "https://shop.tiktok.com/us/pdp/coffee-pod-holder-360-degree-rotation-holds-27-pods-black/1732396044402659750",
+                "basis": "对应平台原页的公开索引，工具报告约三周前抓取；非即时价格、非成交均价",
+                "shipping": "历史索引免运费，未核验当前收货地区",
+                "promotions": []
+              },
+              "sales": {
+                "text": "0 sold",
+                "scope": "product",
+                "period": "cumulative",
+                "basis": "历史索引中的商品累计售出提示，统计起点未公开；不是近30天或整店销量"
+              },
+              "revenue": null,
+              "rating": null,
+              "ratingCount": null,
+              "reviewScope": "商品评分暂未收录，不使用全店评分替代",
+              "placement": {
+                "type": "unknown",
+                "source": "https://shop.tiktok.com/us/pdp/coffee-pod-holder-360-degree-rotation-holds-27-pods-black/1732396044402659750",
+                "observedAt": "2026-10-21T12:47:20.466Z",
+                "evidence": "只取得商品公开索引，没有可核对的商品推广展示标记"
+              },
+              "shipping": "历史索引免运费，未核验当前收货地区",
+              "checkedAt": "2026-10-21T12:47:20.466Z",
+              "freshness": "indexed",
+              "freshnessNote": "2026-10-21 核对；工具报告约三周前抓取的公开索引，未作为即时销量或报价。",
+              "selection": "公开相关销售主体候选，不是销量前十；按原商品页公开经营主体去重；平台卖家编号及独立店铺链接未取得",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "tiktok-hefei-taoshu",
+          "platform": "tiktok",
+          "market": "US",
+          "sellerId": null,
+          "identityKind": "business-name",
+          "businessName": "Hefei Taoshu Trading Co., Ltd",
+          "name": "yaobie-shop",
+          "url": "https://shop.tiktok.com/us/pdp/coffee-pod-holder-by-unspecified-brand-iron-k-cup-storage-basket/1730870238648243064",
+          "identitySource": "https://shop.tiktok.com/us/pdp/coffee-pod-holder-by-unspecified-brand-iron-k-cup-storage-basket/1730870238648243064",
+          "checkedAt": "2026-10-21T12:47:20.466Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "tiktok-1730870238648243064",
+              "listingId": "1730870238648243064",
+              "listingIdType": "TikTok 商品编号",
+              "sellerSKU": null,
+              "name": "Coffee Pod Holder, Coffee Capsule Basket, K Cup Storage Container",
+              "zh": "杯形铁艺胶囊收纳篮",
+              "system": "k-cup",
+              "type": "accessories",
+              "url": "https://shop.tiktok.com/us/pdp/coffee-pod-holder-by-unspecified-brand-iron-k-cup-storage-basket/1730870238648243064",
+              "variant": "1 只收纳篮；卖家称约容纳24颗 K-Cup",
+              "image": null,
+              "imageGap": "对应平台商品原图尚未取得，未用其他商家或相似规格图片代替",
+              "price": {
+                "amount": 28.58,
+                "currency": "USD",
+                "pack": "1 只收纳篮；卖家称约容纳24颗 K-Cup",
+                "offerType": "历史展示报价",
+                "quality": "indexed",
+                "observedAt": "2026-10-21T12:47:20.466Z",
+                "source": "https://shop.tiktok.com/us/pdp/coffee-pod-holder-by-unspecified-brand-iron-k-cup-storage-basket/1730870238648243064",
+                "basis": "对应平台原页的公开索引，工具报告约五个月前抓取；非即时价格、非成交均价",
+                "shipping": "历史索引免运费，未核验当前收货地区",
+                "promotions": []
+              },
+              "sales": {
+                "text": "1 sold",
+                "scope": "product",
+                "period": "cumulative",
+                "basis": "历史索引中的商品累计售出提示，统计起点未公开；不是近30天或整店销量"
+              },
+              "revenue": null,
+              "rating": null,
+              "ratingCount": null,
+              "reviewScope": "商品评分暂未收录，不使用全店评分替代",
+              "placement": {
+                "type": "unknown",
+                "source": "https://shop.tiktok.com/us/pdp/coffee-pod-holder-by-unspecified-brand-iron-k-cup-storage-basket/1730870238648243064",
+                "observedAt": "2026-10-21T12:47:20.466Z",
+                "evidence": "只取得商品公开索引，没有可核对的商品推广展示标记"
+              },
+              "shipping": "历史索引免运费，未核验当前收货地区",
+              "checkedAt": "2026-10-21T12:47:20.466Z",
+              "freshness": "indexed",
+              "freshnessNote": "2026-10-21 核对；工具报告约五个月前抓取的公开索引，未作为即时销量或报价。",
+              "selection": "公开相关销售主体候选，不是销量前十；按原商品页公开经营主体去重；平台卖家编号及独立店铺链接未取得",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "tiktok-xiamen-wanzhicheng",
+          "platform": "tiktok",
+          "market": "US",
+          "sellerId": null,
+          "identityKind": "business-name",
+          "businessName": "Xiamen Wanzhicheng Trading Co Ltd",
+          "name": "YLK Shop",
+          "url": "https://shop.tiktok.com/us/pdp/1732581066256716229",
+          "identitySource": "https://shop.tiktok.com/us/pdp/1732581066256716229",
+          "checkedAt": "2026-10-21T12:47:20.466Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "tiktok-1732581066256716229",
+              "listingId": "1732581066256716229",
+              "listingIdType": "TikTok 商品编号",
+              "sellerSKU": null,
+              "name": "Simple Trending Coffee Pod Holder, 2-Tier Sliding Drawer, Black Metal",
+              "zh": "双层抽屉式胶囊收纳架，黑色金属款",
+              "system": "k-cup",
+              "type": "accessories",
+              "url": "https://shop.tiktok.com/us/pdp/1732581066256716229",
+              "variant": "2 Tier Black-Metal（双层黑色金属）选项",
+              "image": null,
+              "imageGap": "对应平台商品原图尚未取得，未用其他商家或相似规格图片代替",
+              "price": {
+                "amount": 13.8,
+                "currency": "USD",
+                "pack": "2 Tier Black-Metal（双层黑色金属）选项",
+                "offerType": "历史展示报价",
+                "quality": "indexed",
+                "observedAt": "2026-10-21T12:47:20.466Z",
+                "source": "https://shop.tiktok.com/us/pdp/1732581066256716229",
+                "basis": "对应平台原页的公开索引，工具报告约一月前抓取；非即时价格、非成交均价",
+                "shipping": "历史索引运费 43.92 USD，商品加运费 57.72 USD，未含未披露税费；不能只比较13.80美元标价",
+                "promotions": []
+              },
+              "sales": {
+                "text": "0 sold",
+                "scope": "product",
+                "period": "cumulative",
+                "basis": "历史索引中的商品累计售出提示，统计起点未公开；不是近30天或整店销量"
+              },
+              "revenue": null,
+              "rating": null,
+              "ratingCount": null,
+              "reviewScope": "商品评分暂未收录，不使用全店评分替代",
+              "placement": {
+                "type": "unknown",
+                "source": "https://shop.tiktok.com/us/pdp/1732581066256716229",
+                "observedAt": "2026-10-21T12:47:20.466Z",
+                "evidence": "只取得商品公开索引，没有可核对的商品推广展示标记"
+              },
+              "shipping": "历史索引运费 43.92 USD，商品加运费 57.72 USD，未含未披露税费；不能只比较13.80美元标价",
+              "checkedAt": "2026-10-21T12:47:20.466Z",
+              "freshness": "indexed",
+              "freshnessNote": "2026-10-21 核对；工具报告约一月前抓取的公开索引，未作为即时销量或报价。",
+              "selection": "公开相关销售主体候选，不是销量前十；按原商品页公开经营主体去重；平台卖家编号及独立店铺链接未取得",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "walmart-102535183",
+          "platform": "walmart",
+          "market": "US",
+          "sellerId": "102535183",
+          "identityKind": "seller-id",
+          "businessName": null,
+          "name": "E-Commercial Life",
+          "url": "https://www.walmart.com/global/seller/102535183",
+          "identitySource": "https://www.walmart.com/ip/15303406078",
+          "checkedAt": "2026-10-21T12:47:20.466Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "walmart-15303406078",
+              "listingId": "15303406078",
+              "listingIdType": "Walmart 商品编号",
+              "sellerSKU": null,
+              "name": "Reusable K Cups for Keurig, 8 Pack Refillable Coffee Pods",
+              "zh": "Keurig 1.0／2.0 八只装可填充滤杯",
+              "system": "k-cup",
+              "type": "reusable",
+              "url": "https://www.walmart.com/ip/15303406078",
+              "variant": "8 只可填充滤杯／包",
+              "image": null,
+              "imageGap": "对应平台商品原图尚未取得，未用其他商家或相似规格图片代替",
+              "price": {
+                "amount": 14.88,
+                "currency": "USD",
+                "pack": "8 只可填充滤杯／包",
+                "offerType": "历史展示报价",
+                "quality": "indexed",
+                "observedAt": "2026-10-21T12:47:20.466Z",
+                "source": "https://www.walmart.com/ip/15303406078",
+                "basis": "对应平台原页的公开索引，工具报告约一天前抓取；非即时价格、非成交均价",
+                "shipping": "历史索引免运费，页面收货邮编50307，实际时效与税费未核验",
+                "promotions": []
+              },
+              "sales": null,
+              "revenue": null,
+              "rating": null,
+              "ratingCount": null,
+              "reviewScope": "商品评分暂未收录，不使用全店评分替代",
+              "placement": {
+                "type": "unknown",
+                "source": "https://www.walmart.com/ip/15303406078",
+                "observedAt": "2026-10-21T12:47:20.466Z",
+                "evidence": "只取得商品公开索引，没有可核对的商品推广展示标记"
+              },
+              "shipping": "历史索引免运费，页面收货邮编50307，实际时效与税费未核验",
+              "checkedAt": "2026-10-21T12:47:20.466Z",
+              "freshness": "indexed",
+              "freshnessNote": "2026-10-21 核对；工具报告约一天前抓取的公开索引，未作为即时销量或报价。",
+              "selection": "公开相关销售主体候选，不是销量前十；原商品页链接可核对平台卖家编号",
+              "painRefs": [
+                {
+                  "summary": "一位用户称杯盖过紧、难以掀开，建议增大开盖舌；该条带激励评论标记。",
+                  "action": "对盖舌和开盖力做对照测试，记录条件；单条评论不代表总体投诉率。",
+                  "url": "https://www.walmart.com/ip/15303406078",
+                  "date": "2026-07-26"
+                }
+              ]
+            }
+          ]
         }
       ],
       "platforms": [
@@ -9199,7 +9659,7 @@ window.COFFEE_CONTENT = {
           "market": "US",
           "checkedAt": "2026-10-21T11:10:45.148Z",
           "status": 503,
-          "accessNote": "已核对 10/10 家不同店铺；包含直接页面与标明时间缺口的公开索引，非销量排名"
+          "accessNote": "已录入 10/10 家销售店铺／主体；每条保留价格、图片及主体核验状态，公开索引不当作实时数据"
         },
         {
           "id": "ebay",
@@ -9209,7 +9669,7 @@ window.COFFEE_CONTENT = {
           "market": "US",
           "checkedAt": "2026-10-21T11:10:44.983Z",
           "status": 403,
-          "accessNote": "已从公开详情索引核对 2/10 家不同店铺及刊登原图；直连详情仍返回 HTTP 403，尚缺 8 家；索引未作为实时价格。"
+          "accessNote": "已录入 2/10 家销售店铺／主体；每条保留价格、图片及主体核验状态，公开索引不当作实时数据"
         },
         {
           "id": "temu",
@@ -9249,7 +9709,7 @@ window.COFFEE_CONTENT = {
           "market": "US",
           "checkedAt": "2026-10-21T11:10:55.313Z",
           "status": null,
-          "accessNote": "公开入口读取失败（TypeError），尚缺可核对店铺与商品证据"
+          "accessNote": "已录入 4/10 家销售店铺／主体；每条保留价格、图片及主体核验状态，公开索引不当作实时数据"
         },
         {
           "id": "ozon",
@@ -9339,7 +9799,7 @@ window.COFFEE_CONTENT = {
           "market": "RO",
           "checkedAt": "2026-10-21T11:10:58.445Z",
           "status": 200,
-          "accessNote": "已核对 10/10 家不同店铺；包含直接页面与标明时间缺口的公开索引，非销量排名"
+          "accessNote": "已录入 10/10 家销售店铺／主体；每条保留价格、图片及主体核验状态，公开索引不当作实时数据"
         },
         {
           "id": "wildberries",
@@ -9379,7 +9839,7 @@ window.COFFEE_CONTENT = {
           "market": "US",
           "checkedAt": "2026-10-21T11:11:01.052Z",
           "status": 200,
-          "accessNote": "公开入口返回验证／错误页，未取得可核对店铺"
+          "accessNote": "已录入 1/10 家销售店铺／主体；每条保留价格、图片及主体核验状态，公开索引不当作实时数据"
         },
         {
           "id": "otto",
@@ -9419,7 +9879,7 @@ window.COFFEE_CONTENT = {
           "market": "WW",
           "checkedAt": "2026-10-21T11:11:12.446Z",
           "status": null,
-          "accessNote": "已核对 10/10 家不同店铺；包含直接页面与标明时间缺口的公开索引，非销量排名"
+          "accessNote": "已录入 10/10 家销售店铺／主体；每条保留价格、图片及主体核验状态，公开索引不当作实时数据"
         },
         {
           "id": "vinted",
