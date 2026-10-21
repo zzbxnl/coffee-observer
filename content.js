@@ -4712,7 +4712,14 @@ window.COFFEE_CONTENT = {
       "LU": "卢森堡",
       "MT": "马耳他",
       "CY": "塞浦路斯",
-      "GB": "英国（非欧盟）"
+      "GB": "英国（非欧盟）",
+      "RU": "俄罗斯（非欧盟）",
+      "SG": "新加坡",
+      "MX": "墨西哥",
+      "NG": "尼日利亚",
+      "KR": "韩国",
+      "JP": "日本",
+      "WW": "国际站"
     },
     "productQuery": {
       "label": "可重复填充咖啡胶囊",
@@ -4761,42 +4768,60 @@ window.COFFEE_CONTENT = {
         "name": "Temu（拼多多海外平台）",
         "home": "https://www.temu.com/",
         "kind": "零售市场",
-        "note": "进入官网后选择收货国家；页面展示的已售数量可能没有明确统计期。"
+        "note": "直接进入胶囊商品搜索；收货国家仍按平台账号或地区设置，已售提示可能没有明确统计期。",
+        "search": {
+          "US": "https://www.temu.com/search_result.html?search_key={q}"
+        }
       },
       {
         "id": "shein",
         "name": "SHEIN（希音）",
         "home": "https://www.shein.com/",
         "kind": "零售市场",
-        "note": "仅提供平台入口；未接入可核验的胶囊销量数据。"
+        "note": "直接进入美国站胶囊商品检索；未接入真实销量报表。",
+        "search": {
+          "US": "https://us.shein.com/pdsearch/{q}/"
+        }
       },
       {
         "id": "aliexpress",
         "name": "AliExpress（速卖通）",
         "home": "https://www.aliexpress.com/",
         "kind": "零售市场",
-        "note": "进入官网后选择收货国家；累计订单和近月销量不能混用。"
+        "note": "直接检索可重复填充咖啡胶囊；配送国家沿用平台账号设置，累计订单和近月销量不能混用。",
+        "search": {
+          "WW": "https://www.aliexpress.com/w/wholesale-{slug}.html"
+        }
       },
       {
         "id": "tiktok",
         "name": "TikTok Shop（TikTok 电商）",
         "home": "https://shop.tiktok.com/",
         "kind": "零售市场",
-        "note": "具体站点及数据权限以官网为准；未接入第三方销量估算。"
+        "note": "具体站点及数据权限以官网为准；未接入第三方销量估算。",
+        "search": {
+          "US": "https://shop.tiktok.com/us/k/{slug}"
+        }
       },
       {
         "id": "ozon",
         "name": "Ozon（俄罗斯电商平台）",
         "home": "https://www.ozon.ru/",
         "kind": "区域平台入口",
-        "note": "保留图片中的平台入口；未建立美国或欧盟国家查询映射。"
+        "note": "已配置其运营市场的胶囊商品检索；站点国家标在按钮下方，不能当作美国／欧盟成交数据。",
+        "search": {
+          "RU": "https://www.ozon.ru/search/?text={q}"
+        }
       },
       {
         "id": "jumia",
         "name": "Jumia（非洲电商平台）",
         "home": "https://group.jumia.com/",
         "kind": "区域平台入口",
-        "note": "通过官方集团入口选择站点；未建立美国或欧盟国家查询映射。"
+        "note": "直接进入尼日利亚站胶囊商品检索；没有取得该平台真实销量报表。",
+        "search": {
+          "NG": "https://www.jumia.com.ng/catalog/?q={q}"
+        }
       },
       {
         "id": "allegro",
@@ -4813,21 +4838,30 @@ window.COFFEE_CONTENT = {
         "name": "Lazada（来赞达）",
         "home": "https://www.lazada.com/",
         "kind": "区域平台入口",
-        "note": "保留平台入口；未建立美国或欧盟国家查询映射。"
+        "note": "已配置其运营市场的胶囊商品检索；站点国家标在按钮下方，不能当作美国／欧盟成交数据。",
+        "search": {
+          "SG": "https://www.lazada.sg/catalog/?q={q}"
+        }
       },
       {
         "id": "shopee",
         "name": "Shopee（虾皮）",
         "home": "https://shopee.com/",
         "kind": "区域平台入口",
-        "note": "保留平台入口；未建立美国或欧盟国家查询映射。"
+        "note": "已配置其运营市场的胶囊商品检索；站点国家标在按钮下方，不能当作美国／欧盟成交数据。",
+        "search": {
+          "SG": "https://shopee.sg/search?keyword={q}"
+        }
       },
       {
         "id": "mercado-libre",
         "name": "Mercado Libre（美客多）",
         "home": "https://www.mercadolibre.com/",
         "kind": "区域平台入口",
-        "note": "保留官方地区入口；未建立美国或欧盟国家查询映射。"
+        "note": "已配置其运营市场的胶囊商品检索；站点国家标在按钮下方，不能当作美国／欧盟成交数据。",
+        "search": {
+          "MX": "https://listado.mercadolibre.com.mx/{slug}"
+        }
       },
       {
         "id": "cdiscount",
@@ -4844,7 +4878,10 @@ window.COFFEE_CONTENT = {
         "name": "Wish（跨境电商平台）",
         "home": "https://www.wish.com/",
         "kind": "平台入口",
-        "note": "平台可访问性和商品情况以官网为准；未接入销量。"
+        "note": "直接进入胶囊商品检索；平台可能要求登录，公开商品不等于已取得真实销量。",
+        "search": {
+          "WW": "https://www.wish.com/search/{q}"
+        }
       },
       {
         "id": "emag",
@@ -4861,14 +4898,20 @@ window.COFFEE_CONTENT = {
         "name": "Wildberries（俄罗斯电商平台）",
         "home": "https://www.wildberries.ru/",
         "kind": "区域平台入口",
-        "note": "保留平台入口；未建立美国或欧盟国家查询映射。"
+        "note": "已配置其运营市场的胶囊商品检索；站点国家标在按钮下方，不能当作美国／欧盟成交数据。",
+        "search": {
+          "RU": "https://www.wildberries.ru/catalog/0/search.aspx?search={q}"
+        }
       },
       {
         "id": "yandex",
         "name": "Yandex Market（Yandex 电商）",
         "home": "https://market.yandex.ru/",
         "kind": "区域平台入口",
-        "note": "保留图片中的市场平台入口；未建立美国或欧盟国家查询映射。"
+        "note": "已配置其运营市场的胶囊商品检索；站点国家标在按钮下方，不能当作美国／欧盟成交数据。",
+        "search": {
+          "RU": "https://market.yandex.ru/search?text={q}"
+        }
       },
       {
         "id": "rakuten",
@@ -4883,6 +4926,9 @@ window.COFFEE_CONTENT = {
             "url": "https://fr.shopping.rakuten.com/?homescreen=1",
             "checkedOn": "2026-10-18"
           }
+        },
+        "search": {
+          "JP": "https://search.rakuten.co.jp/search/mall/{q}/"
         }
       },
       {
@@ -4910,14 +4956,20 @@ window.COFFEE_CONTENT = {
         "name": "Alibaba.com（阿里巴巴国际站）",
         "home": "https://www.alibaba.com/",
         "kind": "B2B 批发",
-        "note": "供应商报价与起订量用于采购研究，不代表终端消费者成交。"
+        "note": "供应商报价与起订量用于采购研究，不代表终端消费者成交。",
+        "search": {
+          "WW": "https://www.alibaba.com/trade/search?SearchText={q}"
+        }
       },
       {
         "id": "coupang",
         "name": "Coupang（酷澎）",
         "home": "https://www.coupang.com/",
         "kind": "区域平台入口",
-        "note": "保留平台入口；未建立美国或欧盟国家查询映射。"
+        "note": "已配置其运营市场的胶囊商品检索；站点国家标在按钮下方，不能当作美国／欧盟成交数据。",
+        "search": {
+          "KR": "https://www.coupang.com/np/search?q={q}"
+        }
       },
       {
         "id": "etsy",
@@ -4929,7 +4981,10 @@ window.COFFEE_CONTENT = {
           "name": "Etsy 官方卖家规则",
           "url": "https://www.etsy.com/legal/sellers"
         },
-        "checkedOn": "2026-10-21"
+        "checkedOn": "2026-10-21",
+        "search": {
+          "WW": "https://www.etsy.com/search?q={q}"
+        }
       },
       {
         "id": "vinted",
@@ -4941,7 +4996,10 @@ window.COFFEE_CONTENT = {
           "name": "Vinted 官方品类规则（所链接站点）",
           "url": "https://www.vinted.com/catalog-rules"
         },
-        "checkedOn": "2026-10-21"
+        "checkedOn": "2026-10-21",
+        "search": {
+          "US": "https://www.vinted.com/catalog?search_text={q}"
+        }
       },
       {
         "id": "zalando",
@@ -4953,7 +5011,10 @@ window.COFFEE_CONTENT = {
           "name": "Zalando 官方业务定位",
           "url": "https://corporate.zalando.com/en/about-us/who-we-are"
         },
-        "checkedOn": "2026-10-21"
+        "checkedOn": "2026-10-21",
+        "search": {
+          "DE": "https://www.zalando.de/katalog/?q={q}"
+        }
       },
       {
         "id": "stockx",
@@ -4965,7 +5026,10 @@ window.COFFEE_CONTENT = {
           "name": "StockX 官方交易说明",
           "url": "https://stockx.com/about/how-it-works/"
         },
-        "checkedOn": "2026-10-21"
+        "checkedOn": "2026-10-21",
+        "search": {
+          "WW": "https://stockx.com/search?s={q}"
+        }
       }
     ],
     "references": [
