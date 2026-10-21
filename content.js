@@ -4776,7 +4776,7 @@ window.COFFEE_CONTENT = {
       },
       {
         "id": "shein",
-        "name": "希音 SHEIN",
+        "name": "SHEIN（希音）",
         "home": "https://www.shein.com/",
         "kind": "零售市场",
         "note": "仅提供平台入口；未接入可核验的胶囊销量数据。"
@@ -4790,14 +4790,14 @@ window.COFFEE_CONTENT = {
       },
       {
         "id": "tiktok",
-        "name": "TikTok Shop 电商",
+        "name": "TikTok Shop（TikTok 电商）",
         "home": "https://shop.tiktok.com/",
         "kind": "零售市场",
         "note": "具体站点及数据权限以官网为准；未接入第三方销量估算。"
       },
       {
         "id": "google-ads",
-        "name": "谷歌广告 Google Ads",
+        "name": "Google Ads（谷歌广告）",
         "home": "https://ads.google.com/",
         "kind": "广告与搜索需求",
         "research": "https://ads.google.com/home/tools/keyword-planner/",
@@ -4805,28 +4805,28 @@ window.COFFEE_CONTENT = {
       },
       {
         "id": "ozon",
-        "name": "Ozon 电商",
+        "name": "Ozon（俄罗斯电商平台）",
         "home": "https://www.ozon.ru/",
         "kind": "区域平台入口",
         "note": "保留图片中的平台入口；未建立美国或欧盟国家查询映射。"
       },
       {
         "id": "dhgate",
-        "name": "敦煌网 DHgate",
+        "name": "DHgate（敦煌网）",
         "home": "https://www.dhgate.com/",
         "kind": "跨境批发与零售",
         "note": "批发采购、零售订单和最小起订量需分别阅读。"
       },
       {
         "id": "jumia",
-        "name": "Jumia 电商",
+        "name": "Jumia（非洲电商平台）",
         "home": "https://group.jumia.com/",
         "kind": "区域平台入口",
         "note": "通过官方集团入口选择站点；未建立美国或欧盟国家查询映射。"
       },
       {
         "id": "allegro",
-        "name": "Allegro 电商",
+        "name": "Allegro（波兰电商平台）",
         "home": "https://allegro.pl/",
         "kind": "零售市场",
         "search": {
@@ -4836,28 +4836,28 @@ window.COFFEE_CONTENT = {
       },
       {
         "id": "lazada",
-        "name": "来赞达 Lazada",
+        "name": "Lazada（来赞达）",
         "home": "https://www.lazada.com/",
         "kind": "区域平台入口",
         "note": "保留平台入口；未建立美国或欧盟国家查询映射。"
       },
       {
         "id": "shopee",
-        "name": "虾皮 Shopee",
+        "name": "Shopee（虾皮）",
         "home": "https://shopee.com/",
         "kind": "区域平台入口",
         "note": "保留平台入口；未建立美国或欧盟国家查询映射。"
       },
       {
         "id": "mercado-libre",
-        "name": "美客多 Mercado Libre",
+        "name": "Mercado Libre（美客多）",
         "home": "https://www.mercadolibre.com/",
         "kind": "区域平台入口",
         "note": "保留官方地区入口；未建立美国或欧盟国家查询映射。"
       },
       {
         "id": "cdiscount",
-        "name": "Cdiscount 电商",
+        "name": "Cdiscount（法国电商平台）",
         "home": "https://www.cdiscount.com/",
         "kind": "零售市场",
         "search": {
@@ -4867,14 +4867,14 @@ window.COFFEE_CONTENT = {
       },
       {
         "id": "wish",
-        "name": "Wish 电商",
+        "name": "Wish（跨境电商平台）",
         "home": "https://www.wish.com/",
         "kind": "平台入口",
         "note": "平台可访问性和商品情况以官网为准；未接入销量。"
       },
       {
         "id": "emag",
-        "name": "eMAG 电商",
+        "name": "eMAG（中东欧电商平台）",
         "home": "https://www.emag.ro/",
         "kind": "零售市场",
         "search": {
@@ -4884,21 +4884,21 @@ window.COFFEE_CONTENT = {
       },
       {
         "id": "wildberries",
-        "name": "Wildberries 电商",
+        "name": "Wildberries（俄罗斯电商平台）",
         "home": "https://www.wildberries.ru/",
         "kind": "区域平台入口",
         "note": "保留平台入口；未建立美国或欧盟国家查询映射。"
       },
       {
         "id": "yandex",
-        "name": "Yandex Market 电商",
+        "name": "Yandex Market（Yandex 电商）",
         "home": "https://market.yandex.ru/",
         "kind": "区域平台入口",
         "note": "保留图片中的市场平台入口；未建立美国或欧盟国家查询映射。"
       },
       {
         "id": "rakuten",
-        "name": "乐天 Rakuten",
+        "name": "Rakuten（乐天）",
         "home": "https://global.rakuten.com/",
         "kind": "零售市场",
         "note": "Rakuten France（乐天法国）已于 2026-09-30 停止运营。法国旧商品页面仅作历史参考；日本及其他站点需另行核验。",
@@ -4913,7 +4913,7 @@ window.COFFEE_CONTENT = {
       },
       {
         "id": "walmart",
-        "name": "沃尔玛 Walmart",
+        "name": "Walmart（沃尔玛）",
         "home": "https://www.walmart.com/",
         "kind": "零售市场",
         "search": {
@@ -4923,7 +4923,7 @@ window.COFFEE_CONTENT = {
       },
       {
         "id": "otto",
-        "name": "奥托 OTTO",
+        "name": "OTTO（奥托）",
         "home": "https://www.otto.de/",
         "kind": "零售市场",
         "search": {
@@ -4933,14 +4933,14 @@ window.COFFEE_CONTENT = {
       },
       {
         "id": "alibaba",
-        "name": "阿里巴巴国际站 Alibaba.com",
+        "name": "Alibaba.com（阿里巴巴国际站）",
         "home": "https://www.alibaba.com/",
         "kind": "B2B 批发",
         "note": "供应商报价与起订量用于采购研究，不代表终端消费者成交。"
       },
       {
         "id": "coupang",
-        "name": "酷澎 Coupang",
+        "name": "Coupang（酷澎）",
         "home": "https://www.coupang.com/",
         "kind": "区域平台入口",
         "note": "保留平台入口；未建立美国或欧盟国家查询映射。"
