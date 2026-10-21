@@ -1722,6 +1722,21 @@ window.COFFEE_CONTENT = {
         "name": "Rakuten France（乐天法国）官网停止运营公告",
         "url": "https://fr.shopping.rakuten.com/?homescreen=1",
         "type": "平台官方公告"
+      },
+      "eu-parcel-duty": {
+        "name": "European Commission（欧盟委员会）：小包裹临时关税说明",
+        "url": "https://commission.europa.eu/news-and-media/news/ensuring-fairness-and-safety-eur3-customs-duty-low-value-parcels-2026-06-29_en",
+        "type": "官方说明 · 发布 2026-06-29 · 核对 2026-10-21"
+      },
+      "eu-parcel-guidance": {
+        "name": "DG TAXUD（欧盟税务与关税总司）：低价值进口问答",
+        "url": "https://taxation-customs.ec.europa.eu/news/guidance-and-legal-text-temporary-flat-fee-low-value-imports-which-will-apply-until-1-july-2028-2026-06-08_en",
+        "type": "官方问答 · 发布 2026-06-08 · 核对 2026-10-21"
+      },
+      "eu-parcel-vat": {
+        "name": "European Commission（欧盟委员会）：3 欧元关税及 2 欧元处理费的 VAT 指引",
+        "url": "https://vat-one-stop-shop.ec.europa.eu/document/download/3086db0e-7b4a-4202-9f38-d32bd774f5a8_en?filename=VAT+treatment+of+the+EUR+3+customs+duty+and+of+the+EUR+2+Customs+Union+handling+fee+%E2%80%93+Revised+version+06+October+2026.pdf",
+        "type": "官方解释指引（不是税率表）· 修订 2026-10-06 · 核对 2026-10-21"
       }
     },
     "machines": [
@@ -2650,7 +2665,55 @@ window.COFFEE_CONTENT = {
         "action": "核对完整型号和官方范围，将召回机器从正常兼容试验中排除。",
         "unknown": "没有本店胶囊与本次召回的因果证据；其他机型不据此类推。"
       }
-    }
+    },
+    "policies": [
+      {
+        "id": "eu-low-value-duty",
+        "area": "EU（欧盟）· 跨境税费",
+        "name": "低价值进口：按关税分类计收 3 欧元",
+        "status": "已生效的临时措施",
+        "publishedOn": "2026-06-29",
+        "effectiveOn": "2026-07-01—2028-06-30（暂定期间）",
+        "checkedOn": "2026-10-21",
+        "fact": "适用的欧盟境外远程销售进口，包裹内在价值不超过 150 欧元，按不同关税分类各计 3 欧元，不按商品件数逐件计收。70 美元不是欧盟统一免税门槛；该关税也不包含 VAT。",
+        "action": "经营推论：可填充胶囊、盖膜、毛刷等组合发货先核对 HS 分类、申报价值及清关方式；同类多件与不同类别组合不要套用同一个税费假设。",
+        "unknown": "本站未核定你的具体产品 HS 编码、海关折算汇率、原产地优惠和到岸成本；欧盟本地仓配送与境外直邮的进口环节不同。",
+        "refs": [
+          "eu-parcel-duty",
+          "eu-parcel-guidance"
+        ]
+      },
+      {
+        "id": "eu-import-vat",
+        "area": "EU（欧盟）· VAT / IOSS",
+        "name": "VAT（增值税）与 IOSS（进口一站式申报）",
+        "status": "现行规则 · 指引已修订",
+        "publishedOn": "2026-10-06",
+        "effectiveOn": "本卡采用 2026-10-06 修订指引",
+        "checkedOn": "2026-10-21",
+        "fact": "IOSS 在销售时收取 VAT，进口环节免征进口 VAT；若卖家销售时把 3 欧元关税转收给消费者，该收费进入销售 VAT 税基。特殊安排／普通进口下，该关税计入进口 VAT 税基。",
+        "action": "经营推论：报价分别记录商品、税费、运费与平台代收项目；先确定目的国、产品税率、IOSS 及物流报价，再核算利润，不统一写成“70 美元以下收 X%”。",
+        "unknown": "本卡未提供各国／各产品的适用 VAT 税率，未核验卖家或平台的 IOSS 资格，不生成自动报税结果。",
+        "refs": [
+          "eu-parcel-vat"
+        ]
+      },
+      {
+        "id": "eu-handling-fee",
+        "area": "EU（欧盟）· 即将变化",
+        "name": "Union handling fee（欧盟处理费）：与关税分开",
+        "status": "预计实施 · 尚未到计划日期",
+        "publishedOn": "2026-10-06",
+        "effectiveOn": "指引预计自 2026-11-01 起适用",
+        "checkedOn": "2026-10-21",
+        "fact": "10 月 6 日官方 VAT 指引列出 2 欧元欧盟处理费，预计 11 月 1 日起用于远程销售进口，并包括超过 150 欧元的供应。这不是上述 3 欧元关税。",
+        "action": "经营推论：预留单独成本项；正式发货前核对海关实施文件与物流账单，避免把处理费误当平台佣金或与临时关税合并成一个税率。",
+        "unknown": "该解释指引使用 expected（预计）表述；本站未确认最终实施文件与具体渠道计费，不能标为今天已征收。",
+        "refs": [
+          "eu-parcel-vat"
+        ]
+      }
+    ]
   },
   "companies": {
     "checkedOn": "2026-10-18",
@@ -4198,7 +4261,7 @@ window.COFFEE_CONTENT = {
   },
   "visuals": {
     "checkedOn": "2026-10-18",
-    "policy": "仅采用对应品牌官网、原厂说明书或监管机构公告中的对应产品图片；逐图标记出处与类别，不用相似型号代替，也不据图片推定兼容性或性能。",
+    "policy": "百科图取对应品牌官网、说明书或监管公告；店铺 SKU 表可用对应平台商品原图，并明确标为平台商品图。所有图片记录原始出处和具体商品，不使用相似型号替代，不据图片推定兼容性或性能。",
     "images": {
       "pixie": {
         "id": "pixie",
@@ -4695,6 +4758,487 @@ window.COFFEE_CONTENT = {
         "width": 284,
         "height": 382,
         "sha256": "12949aff7497702890424b6ea2395490f343ba300e7670ea3268ae7482bb0d3e"
+      },
+      "store-amazon-b09f8j3932": {
+        "id": "store-amazon-b09f8j3932",
+        "subject": "Reusable K Cups For Keurig,Stainless Steel reusable coffee pods (2pack)",
+        "owner": "Noalto Direct · Amazon（亚马逊）",
+        "source": "https://www.amazon.com/dp/B09F8J3932",
+        "imageURL": "https://m.media-amazon.com/images/I/71xaKJjgPZL._AC_SY300_SX300_QL70_ML2_.jpg",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-amazon-b09f8j3932-6a2d1ccab8.jpg",
+        "width": 268,
+        "height": 300,
+        "sha256": "6a2d1ccab857e5043d9e8a9ebeb66bd0d7aae46c26ac628b61873b3fe89f1ef8"
+      },
+      "store-amazon-b0bzddf2v4": {
+        "id": "store-amazon-b0bzddf2v4",
+        "subject": "Nessus Reusable Pod Kit for Nespresso Pods Vertuo, Reuse Old Coffee Pods for Nespresso Vertuo: 100 Pcs Aluminum Foil Seal Lid, Holder, Brush, Refillable Vertuo Plus Next Capsule Machine(No Pods Come)",
+        "owner": "NESSUS-US · Amazon（亚马逊）",
+        "source": "https://www.amazon.com/dp/B0BZDDF2V4",
+        "imageURL": "https://m.media-amazon.com/images/I/81ayIMxa+hL._AC_SY300_SX300_QL70_ML2_.jpg",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-amazon-b0bzddf2v4-d8d654bf42.jpg",
+        "width": 300,
+        "height": 290,
+        "sha256": "d8d654bf42ba49dfd02db765ac3cb2d84caa5e4a47e06dbb93085a70210fce51"
+      },
+      "store-amazon-b07smmh8g7": {
+        "id": "store-amazon-b07smmh8g7",
+        "subject": "Perfect Pod Café Save Reusable Coffee Pod Filter Cups, 4 Pack",
+        "owner": "Perfect Pod. · Amazon（亚马逊）",
+        "source": "https://www.amazon.com/dp/B07SMMH8G7",
+        "imageURL": "https://m.media-amazon.com/images/I/71COMOWdXnL._AC_SY300_SX300_QL70_ML2_.jpg",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-amazon-b07smmh8g7-55eab202aa.jpg",
+        "width": 300,
+        "height": 288,
+        "sha256": "55eab202aa8fdef908c4be959eedbcb99ae88e4d347149af838152fa4fec0bdd"
+      },
+      "store-amazon-b0f99lmhlj": {
+        "id": "store-amazon-b0f99lmhlj",
+        "subject": "4 Pack Reusable K Cups Coffee Pods for Keurig 1.0",
+        "owner": "NESSUS-US · Amazon（亚马逊）",
+        "source": "https://www.amazon.com/dp/B0F99LMHLJ",
+        "imageURL": "https://m.media-amazon.com/images/I/819zP3V0T8L._AC_SY300_SX300_QL70_ML2_.jpg",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-amazon-b0f99lmhlj-d619de689f.jpg",
+        "width": 300,
+        "height": 278,
+        "sha256": "d619de689fc88f6835c2fdabcb9a5f60d6206e2b962b3b26bf8753d1914ec2db"
+      },
+      "store-amazon-b09nw83crr": {
+        "id": "store-amazon-b09nw83crr",
+        "subject": "4 Reusable K Cups for Keurig K Supreme, K Supreme Plus, K Slim with Multistream Technology, K-Duo Hot & Iced Single Serve (Gen 2) - 4 Black Refillable Kcups Coffee Filters for Keurig Coffee Makers",
+        "owner": "GoodCups · Amazon（亚马逊）",
+        "source": "https://www.amazon.com/dp/B09NW83CRR",
+        "imageURL": "https://m.media-amazon.com/images/I/81H64zKz7dL._AC_SY300_SX300_QL70_ML2_.jpg",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-amazon-b09nw83crr-fc2e225093.jpg",
+        "width": 300,
+        "height": 256,
+        "sha256": "fc2e22509308d8989419caff82c9f97b3aa5e521c3c971f7ee68e68400bec52c"
+      },
+      "store-amazon-b0glx6jxyc": {
+        "id": "store-amazon-b0glx6jxyc",
+        "subject": "Reusable Vertuo Pods Refill Kit for Nespresso, NO PODS",
+        "owner": "HGIFZ · Amazon（亚马逊）",
+        "source": "https://www.amazon.com/dp/B0GLX6JXYC",
+        "imageURL": "https://m.media-amazon.com/images/I/711hu2mHpRL._AC_SY300_SX300_QL70_ML2_.jpg",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-amazon-b0glx6jxyc-0202743d0b.jpg",
+        "width": 287,
+        "height": 300,
+        "sha256": "0202743d0b33786fc004ac50bb5a79106d8b69768b50139d8c2656576909f85f"
+      },
+      "store-amazon-b07rl6hmvh": {
+        "id": "store-amazon-b07rl6hmvh",
+        "subject": "CAPMESSO Aluminum Foil Lids for Reusing All Nespresso Vertuo Pods (100pcs)",
+        "owner": "CAPMESSO · Amazon（亚马逊）",
+        "source": "https://www.amazon.com/dp/B07RL6HMVH",
+        "imageURL": "https://m.media-amazon.com/images/I/81h2M1ECflL._AC_SY300_SX300_QL70_ML2_.jpg",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-amazon-b07rl6hmvh-a3b5534057.jpg",
+        "width": 300,
+        "height": 289,
+        "sha256": "a3b55340579cca593d7f27d6631b8adf0ac3f44b4f63b53a92b9ef91727ea6b4"
+      },
+      "store-amazon-b0gvdk4vxt": {
+        "id": "store-amazon-b0gvdk4vxt",
+        "subject": "CAPMESSO Reusable K Cups for Keurig: NO Grit Stainless Steel Coffee Pod 2PC",
+        "owner": "CAPMESSO · Amazon（亚马逊）",
+        "source": "https://www.amazon.com/dp/B0GVDK4VXT",
+        "imageURL": "https://m.media-amazon.com/images/I/81lIgCIT-jL._AC_SY300_SX300_QL70_ML2_.jpg",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-amazon-b0gvdk4vxt-b7d4c9af23.jpg",
+        "width": 300,
+        "height": 299,
+        "sha256": "b7d4c9af23a04fb52c7083e10e0240256c02660ce459a3446677522d0b01299a"
+      },
+      "store-amazon-b0cb3x4pkk": {
+        "id": "store-amazon-b0cb3x4pkk",
+        "subject": "Fanativita 100ct K Cup Coffee Filters with Genius Lid, Unbleached",
+        "owner": "Fanativita · Amazon（亚马逊）",
+        "source": "https://www.amazon.com/dp/B0CB3X4PKK",
+        "imageURL": "https://m.media-amazon.com/images/I/7138P1spp+L._AC_SY300_SX300_QL70_ML2_.jpg",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-amazon-b0cb3x4pkk-5c44a68acc.jpg",
+        "width": 300,
+        "height": 300,
+        "sha256": "5c44a68accb3644f97fe63ec42a45d23053491c5041fdceeae13d02d0dc46a8c"
+      },
+      "store-emag-dsvxssybm": {
+        "id": "store-emag-dsvxssybm",
+        "subject": "Capsule Cafea Reutilizabile din Otel Inoxidabil, compatibile cu Aparate Bosch Tassimo, Set, 180ml",
+        "owner": "QIAN YUE · eMAG（中东欧电商平台）",
+        "source": "https://www.emag.ro/capsule-cafea-reutilizabile-din-otel-inoxidabil-compatibile-cu-aparate-bosch-tassimo-set-180ml-tassimo-180ml/pd/DSVXSSYBM/",
+        "imageURL": "https://s13emagst.akamaized.net/products/73478/73477674/images/res_8b618438252121e09a5632b697a86e6a.jpg?width=450&height=450&hash=3313D8F800AD9B9F0AE6F763AE366AA3",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-emag-dsvxssybm-35c8432a20.jpg",
+        "width": 450,
+        "height": 450,
+        "sha256": "35c8432a20a41d91aae8f014e8c2a4b1b07b53e6470fc8f6e186167a7641bf7c"
+      },
+      "store-emag-dfvn9wbbm": {
+        "id": "store-emag-dfvn9wbbm",
+        "subject": "Set 4 capsule reutilizabile cafea compatibile cu Dolce Gusto, Plastic/Silicon, 52 x 35 mm, Maro",
+        "owner": "MOTOR STARTER · eMAG（中东欧电商平台）",
+        "source": "https://www.emag.ro/set-4-capsule-reutilizabile-cafea-compatibile-cu-dolce-gusto-plastic-silicon-52-x-35-mm-maro-4dolcekapszula/pd/DFVN9WBBM/",
+        "imageURL": "https://s13emagst.akamaized.net/products/28132/28131926/images/res_a9d980e296f3e221a75e3a618e14b20c.jpg?width=450&height=450&hash=7F27CF997B9CD85296A210FF8B40469D",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-emag-dfvn9wbbm-fe375bb714.jpg",
+        "width": 450,
+        "height": 450,
+        "sha256": "fe375bb71463075f4028eaf515d95a6e35e288ad732cd4d500c379fa33cb8d67"
+      },
+      "store-emag-dm5n4smbm": {
+        "id": "store-emag-dm5n4smbm",
+        "subject": "Set 10 Capsule cafea reutilizabile, reincarcabile, lavabile compatibile Dolce Gusto d10, maro",
+        "owner": "MOTOR STARTER · eMAG（中东欧电商平台）",
+        "source": "https://www.emag.ro/set-10-capsule-cafea-reutilizabile-reincarcabile-lavabile-compatibile-dolce-gusto-d10-maro-10x/pd/DM5N4SMBM/",
+        "imageURL": "https://s13emagst.akamaized.net/products/34888/34887968/images/res_b3c0c3f60e7c3060d46da0c91f518431.jpg?width=450&height=450&hash=62561A4FC2A5DB4D6B8A8AEE6B514C8F",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-emag-dm5n4smbm-1118738747.jpg",
+        "width": 450,
+        "height": 450,
+        "sha256": "1118738747c48f9dcb8e30cbac2c07362dbdc6db9c43e6d57ba369b6bf662eaa"
+      },
+      "store-emag-dtr2rn2bm": {
+        "id": "store-emag-dtr2rn2bm",
+        "subject": "Adaptor pentru Capsule de Cafea Reutilizabile, Convertor Compatibil cu Dolce Gusto Piccolo XS / Genio S / Mini Me / EDG 305 / EDG 606 / EDG 466, Alternativa Ecologica si Economica, 1 Bucata",
+        "owner": "Digital Brew · eMAG（中东欧电商平台）",
+        "source": "https://www.emag.ro/adaptor-pentru-capsule-de-cafea-reutilizabile-convertor-compatibil-cu-dolce-gusto-piccolo-xs-genio-s-mini-me-edg-305-edg-606-edg-466-alternativa-ecologica-si-economica-1-bucata-yt-hlb04-21/pd/DTR2RN2BM/",
+        "imageURL": "https://s13emagst.akamaized.net/products/123578/123577694/images/res_f8a3052d604ad0adcc0a5d778e110bcd.png?width=450&height=450&hash=62A6B6CE28786AC60DC1DF86A75A661D",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-emag-dtr2rn2bm-858730519c.jpg",
+        "width": 450,
+        "height": 450,
+        "sha256": "858730519ca86dc6f6a623b2a45becc3bfba5a4a31cf8f25e385c40e588d9f55"
+      },
+      "store-emag-dyhbv83bm": {
+        "id": "store-emag-dyhbv83bm",
+        "subject": "Set 2 Capsule de Cafea Reutilizabile si Lavabile SUPER TRENDS® de 150 ml (Maro) si 230 ml (Negru), compatibile cu Nespresso Vertuo si 30 Folii de Aluminiu",
+        "owner": "Sptr International · eMAG（中东欧电商平台）",
+        "source": "https://www.emag.ro/set-2-capsule-de-cafea-reutilizabile-si-lavabile-super-trendsr-de-150-ml-maro-si-230-ml-negru-compatibile-cu-nespresso-vertuo-si-30-folii-de-aluminiu-sptrcapsule150ml230ml/pd/DYHBV83BM/",
+        "imageURL": "https://s13emagst.akamaized.net/products/112283/112282622/images/res_b12bbf5a0c4bbde1abd631d92d862b04.png?width=450&height=450&hash=CEA7D74D5AE3F611ADC23C7B20B179B1",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-emag-dyhbv83bm-276d9b4eae.jpg",
+        "width": 450,
+        "height": 450,
+        "sha256": "276d9b4eae54484c09b9af7a93304db3922ee2219989d9542f98d4d18c921fb5"
+      },
+      "store-emag-d1ylqn2bm": {
+        "id": "store-emag-d1ylqn2bm",
+        "subject": "Capsule reutilizabile BLISSBUZZ, compatibile cu aparate Nespresso Vertuo Next, Pop si Plus, 80 ml, set 2 buc., silicon, 4 coduri de bare, lingura si periuta, argintiu",
+        "owner": "Digital Brew · eMAG（中东欧电商平台）",
+        "source": "https://www.emag.ro/capsule-reutilizabile-blissbuzz-compatibile-cu-aparate-nespresso-vertuo-next-pop-si-plus-80-ml-set-2-buc-silicon-4-coduri-de-bare-lingura-si-periuta-argintiu-yt-g9-80/pd/D1YLQN2BM/",
+        "imageURL": "https://s13emagst.akamaized.net/products/123564/123563543/images/res_ef8ce7df5c3063c245deab053c4fffa1.png?width=450&height=450&hash=7D95DC7D9FDEB57A3436AF00AECDB59B",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-emag-d1ylqn2bm-58ca55a978.jpg",
+        "width": 450,
+        "height": 450,
+        "sha256": "58ca55a978e4ca52e3095c84712562cdf8616dd3c7993d936e8f5e7f56e31e0d"
+      },
+      "store-emag-d7jc18mbm": {
+        "id": "store-emag-d7jc18mbm",
+        "subject": "Suport 50 capsule de cafea, Bukate, 41x26.5x7.3, Compatibil cu Nespresso, Tchibo, etc, Negru, Metal",
+        "owner": "BUKATE STORE · eMAG（中东欧电商平台）",
+        "source": "https://www.emag.ro/suport-50-capsule-de-cafea-bukate-41x26-5x7-3-compatibil-cu-nespresso-tchibo-etc-negru-metal-0701220743691/pd/D7JC18MBM/",
+        "imageURL": "https://s13emagst.akamaized.net/products/55193/55192653/images/res_32aeae24a2663a5d273984a70a33d649.jpg?width=450&height=450&hash=BBCF8F9DBBFD4F4BF6AEFAE5967A7FF1",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-emag-d7jc18mbm-6a0360b1fe.jpg",
+        "width": 450,
+        "height": 450,
+        "sha256": "6a0360b1fe961d3224398c3351b208ad7e1c8d95e66032538464cea64d1db326"
+      },
+      "store-emag-d7yftg3bm": {
+        "id": "store-emag-d7yftg3bm",
+        "subject": "Set 2 Capsule Reutilizabile din Otel Inoxidabil pentru Keurig 1.0/2.0 - Filtre Cafea K-Cup Refillabile, Leccik®，Ecologice, Fara BPA, Usor de Curatat, Alternative Eco la Capsule Unica Folosinta",
+        "owner": "Fiecare are povestea lui · eMAG（中东欧电商平台）",
+        "source": "https://www.emag.ro/set-2-capsule-reutilizabile-din-otel-inoxidabil-pentru-keurig-1-0-2-0-filtre-cafea-k-cup-refillabile-leccikr-ecologice-fara-bpa-usor-de-curatat-alternative-eco-la-capsule-unica-folosinta-zd-274/pd/D7YFTG3BM/",
+        "imageURL": "https://s13emagst.akamaized.net/products/112893/112892581/images/res_46b5ed78a7fec63356da4c52b70fe350.jpg?width=450&height=450&hash=F2E3369982E575963F1D61C821D89084",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-emag-d7yftg3bm-d583b103e2.jpg",
+        "width": 450,
+        "height": 450,
+        "sha256": "d583b103e2823dd46375c5ca0334905b52e54e1a462bac06d2eeae6d6eb6bae4"
+      },
+      "store-emag-d6vvbw3bm": {
+        "id": "store-emag-d6vvbw3bm",
+        "subject": "Capsule reutilizabile cafea, AjieQaQ, inox, 180ml, maro",
+        "owner": "Dong gang Department Store · eMAG（中东欧电商平台）",
+        "source": "https://www.emag.ro/capsule-reutilizabile-cafea-ajieqaq-inox-180ml-maro-7b321/pd/D6VVBW3BM/",
+        "imageURL": "https://s13emagst.akamaized.net/products/113611/113610966/images/res_006b0ccb2c5fb4629482e05bb7bbb3d7.png?width=450&height=450&hash=C350DC7118FF0D445D2193A40FD764D5",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-emag-d6vvbw3bm-4a57e244b4.jpg",
+        "width": 450,
+        "height": 450,
+        "sha256": "4a57e244b4d59c90eb8f1e6ad863b7651cdbb081a4e6b7d18667a7a936d69dfb"
+      },
+      "store-emag-d32khw3bm": {
+        "id": "store-emag-d32khw3bm",
+        "subject": "Sertar organizator capsule cafea HASEPE, compatibil capsule DOLCE GUSTO, capsule universale, Multifunctional pentu zahar si accesorii, Suport aparat cafea, Capacitate mare 30 capsule, 35x7,5x34CM cm, Negru",
+        "owner": "Kamaia Store · eMAG（中东欧电商平台）",
+        "source": "https://www.emag.ro/sertar-organizator-capsule-cafea-hasepe-compatibil-capsule-dolce-gusto-capsule-universale-multifunctional-pentu-zahar-si-accesorii-suport-aparat-cafea-capacitate-mare-30-capsule-35x7-5x34cm-cm-negru-k/pd/D32KHW3BM/",
+        "imageURL": "https://s13emagst.akamaized.net/products/113929/113928599/images/res_dc43415d13327a4c3fde94243c6f3ea0.png?width=450&height=450&hash=121714EFECC7A83E513FC73756DD12FB",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-emag-d32khw3bm-b8dd9eb5c9.jpg",
+        "width": 450,
+        "height": 450,
+        "sha256": "b8dd9eb5c99f3a7e6be5422abf29cf9ced50bfac30de5a5cfcae7edb948f9633"
+      },
+      "store-emag-d4wgdr2bm": {
+        "id": "store-emag-d4wgdr2bm",
+        "subject": "Set 5 Capsule Cafea Reincarcabile URBAN TRENDS®, Compatibile Dolce Gusto, Maro",
+        "owner": "Advertising Creativ Production · eMAG（中东欧电商平台）",
+        "source": "https://www.emag.ro/set-5-capsule-cafea-reincarcabile-urban-trendsr-compatibile-dolce-gusto-maro-urbancapsule5x/pd/D4WGDR2BM/",
+        "imageURL": "https://s13emagst.akamaized.net/products/137813/137812193/images/res_ebd68748feb640b6833396d3a1d11ee9.png?width=450&height=450&hash=4F51713963446252609E44200A705E94",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-emag-d4wgdr2bm-6382a303e1.jpg",
+        "width": 450,
+        "height": 450,
+        "sha256": "6382a303e16d498d24092a2fdf542f3dc00543c53abc6250771fc5548eaf209e"
+      },
+      "store-emag-dhjgh02bm": {
+        "id": "store-emag-dhjgh02bm",
+        "subject": "Set 5 capsule cafea reutilizabile Nespresso Vertuo, 230ml, cu 2 capace silicon, compatibile, portabile, anti-scurgeri",
+        "owner": "BTSHOP · eMAG（中东欧电商平台）",
+        "source": "https://www.emag.ro/set-5-capsule-cafea-reutilizabile-nespresso-vertuo-230ml-cu-2-capace-silicon-compatibile-portabile-anti-scurgeri-bt-capsulebox-5-pack-230/pd/DHJGH02BM/",
+        "imageURL": "https://s13emagst.akamaized.net/products/124108/124107891/images/res_b9545c0c03846f9d29398be64025a027.png?width=450&height=450&hash=28EEF9FA2354E351F9EEE28E707A3102",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-emag-dhjgh02bm-2e0ac519dc.jpg",
+        "width": 450,
+        "height": 450,
+        "sha256": "2e0ac519dc16ab3c7de35ff60d80b0cd734c2bf6fcfdbbbe26e702c4ce9c2e2d"
+      },
+      "store-emag-dz89683bm": {
+        "id": "store-emag-dz89683bm",
+        "subject": "Set 5X Capsule Cafea SUPER TRENDS®, Reincarcabile, Compatibile Dolce Gusto, Maro",
+        "owner": "Sptr International · eMAG（中东欧电商平台）",
+        "source": "https://www.emag.ro/set-5x-capsule-cafea-super-trendsr-reincarcabile-compatibile-dolce-gusto-maro-sptrcapsuledolce/pd/DZ89683BM/",
+        "imageURL": "https://s13emagst.akamaized.net/products/112565/112564742/images/res_4fa0307cc10de9842298b9e3d73f80e7.png?width=450&height=450&hash=DB574ACE76A33BFE63578C06341975E6",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-emag-dz89683bm-38bf30bd99.jpg",
+        "width": 450,
+        "height": 450,
+        "sha256": "38bf30bd999d61237aac390c2a0dc65098d704af6a6eb03ed94d46275f8a5a5c"
+      },
+      "store-amazon-b0brtckptf": {
+        "id": "store-amazon-b0brtckptf",
+        "subject": "42 iFillCup Fillable K Cups, White",
+        "owner": "iFill Systems · amazon",
+        "source": "https://www.amazon.com/dp/B0BRTCKPTF",
+        "imageURL": "https://m.media-amazon.com/images/I/71xjvaAJrLL._AC_SY300_SX300_QL70_ML2_.jpg",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-amazon-b0brtckptf-7f6364ff01.jpg",
+        "width": 292,
+        "height": 300,
+        "sha256": "7f6364ff0151caf9a2aaadb1e708c0cffb70ac652a71f66026d993656b8719e4"
+      },
+      "store-amazon-b074ck3qsh": {
+        "id": "store-amazon-b074ck3qsh",
+        "subject": "Quick & Clean Keurig Cleaning Pods, 6 Pack",
+        "owner": "Quick & Clean Beverages · amazon",
+        "source": "https://www.amazon.com/dp/B074CK3QSH",
+        "imageURL": "https://m.media-amazon.com/images/I/91aUMnWFt1L._AC_SY300_SX300_QL70_ML2_.jpg",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-amazon-b074ck3qsh-ae609e547f.jpg",
+        "width": 281,
+        "height": 300,
+        "sha256": "ae609e547ff0bfb34c62870d1b38227b01f1095286bac22e3dcf529326e92807"
+      },
+      "store-amazon-b07z4mlygr": {
+        "id": "store-amazon-b07z4mlygr",
+        "subject": "Aieve 120 Pcs Aluminum Foil Seal Lids for Reusable Nespresso Pods Vertuo",
+        "owner": "Aieve · amazon",
+        "source": "https://www.amazon.com/dp/B07Z4MLYGR",
+        "imageURL": "https://m.media-amazon.com/images/I/610rTChUxQL._AC_SY300_SX300_QL70_ML2_.jpg",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-amazon-b07z4mlygr-8050304356.jpg",
+        "width": 255,
+        "height": 300,
+        "sha256": "80503043565e04c8db2e8e1ca53d68913a34915459ecdc7cdb3e15448332c884"
+      },
+      "store-etsy-1725343347": {
+        "id": "store-etsy-1725343347",
+        "subject": "Reusable Capsule Nespresso Coffee Pod Stainless Steel",
+        "owner": "ColombianCoffeeShop · etsy",
+        "source": "https://www.etsy.com/listing/1725343347",
+        "imageURL": "https://i.etsystatic.com/46219314/r/il/e4dec2/7779884862/il_794xN.7779884862_nw5w.jpg",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-etsy-1725343347-88ec80591d.jpg",
+        "width": 794,
+        "height": 794,
+        "sha256": "88ec80591d07ff2ab433daac6ae48420c2259f3934c52594bd73ac0b87b6fbf7"
+      },
+      "store-etsy-4522199082": {
+        "id": "store-etsy-4522199082",
+        "subject": "3D Printed Rotating Coffee Capsule Holder, Any Brand Pod Organizer",
+        "owner": "SanHel3DGifts · etsy",
+        "source": "https://www.etsy.com/listing/4522199082",
+        "imageURL": "https://i.etsystatic.com/63043514/r/il/d85c69/8186411327/il_300x300.8186411327_2r19.jpg",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-etsy-4522199082-df9758c6f1.jpg",
+        "width": 300,
+        "height": 300,
+        "sha256": "df9758c6f13b5108bd1702b54b32c718815672790ee6d9267bfa0af305ab6220"
+      },
+      "store-etsy-4480803482": {
+        "id": "store-etsy-4480803482",
+        "subject": "3D Printed Coffee Capsule Holder, Nespresso Pod Organizer",
+        "owner": "PrintFoundryCA · etsy",
+        "source": "https://www.etsy.com/listing/4480803482",
+        "imageURL": "https://i.etsystatic.com/64825449/r/il/237e07/7863468138/il_794xN.7863468138_m0nn.jpg",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-etsy-4480803482-3631b97bd3.jpg",
+        "width": 794,
+        "height": 635,
+        "sha256": "3631b97bd3e684c4ecadfc66c1e9f82e76045aebaec161b066ce71b46f72a8c9"
+      },
+      "store-etsy-1501413651": {
+        "id": "store-etsy-1501413651",
+        "subject": "Nespresso Coffee Capsule Holder with Automatic Repositioning",
+        "owner": "KS3DUK · etsy",
+        "source": "https://www.etsy.com/listing/1501413651",
+        "imageURL": "https://i.etsystatic.com/42686598/c/2250/2250/375/0/il/91134f/5189807595/il_300x300.5189807595_czmt.jpg",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-etsy-1501413651-f7190425b0.jpg",
+        "width": 300,
+        "height": 300,
+        "sha256": "f7190425b03acbc63d6d5837f4a6c31a71631ea56b99adbcd13d0a6ee1ad2f74"
+      },
+      "store-etsy-1854550485": {
+        "id": "store-etsy-1854550485",
+        "subject": "Capsule Holder, Space for 20 Nespresso Capsules, Self-adhesive Mounting",
+        "owner": "LupynDE · etsy",
+        "source": "https://www.etsy.com/listing/1854550485",
+        "imageURL": "https://i.etsystatic.com/55997725/r/il/a70dca/6548222760/il_300x300.6548222760_cwsm.jpg",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-etsy-1854550485-2f812089a5.jpg",
+        "width": 300,
+        "height": 300,
+        "sha256": "2f812089a5d18a0a3a7ec7418251b5a8aa82386a5d6c922e327208849639bf2b"
+      },
+      "store-etsy-1862405965": {
+        "id": "store-etsy-1862405965",
+        "subject": "Coffee Pod Holder for Dolce Gusto Pods in 3 Sizes, 3D Printed",
+        "owner": "JPPRINTGB · etsy",
+        "source": "https://www.etsy.com/listing/1862405965",
+        "imageURL": "https://i.etsystatic.com/51071711/r/il/8d9f06/6877190289/il_300x300.6877190289_mkut.jpg",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-etsy-1862405965-ba7da007c7.jpg",
+        "width": 300,
+        "height": 300,
+        "sha256": "ba7da007c74394d109fba5c2a492ec835f45df4a5f44cce5fb67041a1c489336"
+      },
+      "store-etsy-1747045251": {
+        "id": "store-etsy-1747045251",
+        "subject": "Nespresso Original Capsule Holder, Coffee Pod Organizer",
+        "owner": "DesignWorksFDM · etsy",
+        "source": "https://www.etsy.com/listing/1747045251",
+        "imageURL": "https://i.etsystatic.com/40859436/r/il/add0cf/6106077965/il_300x300.6106077965_ogv5.jpg",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-etsy-1747045251-d3b934e104.jpg",
+        "width": 300,
+        "height": 300,
+        "sha256": "d3b934e104c492549fcd795018b5df344e2e487a131f9dcfa49aaa151533777a"
+      },
+      "store-etsy-1748803648": {
+        "id": "store-etsy-1748803648",
+        "subject": "Luxury Resin Coffee Pod Holder, Ocean Wave Capsule Rack",
+        "owner": "AnnaMillerArtSpain · etsy",
+        "source": "https://www.etsy.com/listing/1748803648",
+        "imageURL": "https://i.etsystatic.com/26865980/r/il/95fae9/6178017965/il_300x300.6178017965_ed1j.jpg",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-etsy-1748803648-1c13741db1.jpg",
+        "width": 300,
+        "height": 300,
+        "sha256": "1c13741db1d4f66e10aba9023d9386d3c2ec543ff672f03894e71c6d2171f693"
+      },
+      "store-etsy-4460907837": {
+        "id": "store-etsy-4460907837",
+        "subject": "Dolce Gusto Wavy Capsule Holder, Coffee Capsule Stand",
+        "owner": "UnicornPrint3D · etsy",
+        "source": "https://www.etsy.com/listing/4460907837",
+        "imageURL": "https://i.etsystatic.com/64643025/r/il/653423/7779893941/il_300x300.7779893941_25u6.jpg",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-etsy-4460907837-2ba44e2485.jpg",
+        "width": 300,
+        "height": 300,
+        "sha256": "2ba44e24857c50da3dc70f0c004e82cd8684dafb148f28ab8b41bca93aa6347f"
+      },
+      "store-etsy-4535495268": {
+        "id": "store-etsy-4535495268",
+        "subject": "BrewSpin Rotating Coffee Pod Holder, Nespresso & Dolce Gusto Organizer",
+        "owner": "RealWorldDesigns3D · etsy",
+        "source": "https://www.etsy.com/listing/4535495268",
+        "imageURL": "https://i.etsystatic.com/64009691/r/il/772558/8275000788/il_794xN.8275000788_dn9n.jpg",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-etsy-4535495268-94b200df1e.jpg",
+        "width": 794,
+        "height": 794,
+        "sha256": "94b200df1e0a4ffe623b6c2fd0f587cc1b4af8ce68c053c5d9b2a0a03637c838"
+      },
+      "store-ebay-168280152762": {
+        "id": "store-ebay-168280152762",
+        "subject": "Reusable Refillable Stainless Steel Coffee Capsule For Nesspresso U Machine",
+        "owner": "beautiful1010 · eBay",
+        "source": "https://www.ebay.com/itm/168280152762",
+        "imageURL": "https://i.ebayimg.com/images/g/0ZgAAeSw3JRpzcaz/s-l140.webp",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-ebay-168280152762-e9cbce33df.webp",
+        "width": 140,
+        "height": 140,
+        "sha256": "e9cbce33df5b7499b0f414fb7c0389df7b070749c87eb11cf2b8c4278d833f68"
+      },
+      "store-ebay-366309356130": {
+        "id": "store-ebay-366309356130",
+        "subject": "Stainless Steel Reusable Coffee Capsule for Nespresso VertuoLine Machines",
+        "owner": "True North Wholesale · eBay",
+        "source": "https://www.ebay.com/itm/366309356130",
+        "imageURL": "https://i.ebayimg.com/images/g/5bsAAeSwrudpxxgt/s-l140.webp",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-21",
+        "file": "images/store-ebay-366309356130-0166cd3003.webp",
+        "width": 140,
+        "height": 140,
+        "sha256": "0166cd300338dff060614437c8d21287d92e5cf02354a1a8c04590ab507bf765"
       }
     }
   },
@@ -6665,6 +7209,2110 @@ window.COFFEE_CONTENT = {
           }
         }
       }
+    },
+    "storeResearch": {
+      "checkedOn": "2026-10-21",
+      "targetStoresPerPlatform": 10,
+      "method": "每个平台目标 10 家不同店铺，按平台卖家 ID／店铺链接去重；同店多个商品不重复计店铺。当前为公开相关候选，不是销量前十。广告分类只描述取得证据时的商品展示位，不代表店铺全部流量来源、投放金额或广告占比。",
+      "imagePolicy": "SKU 表只用对应平台商品页原图，保留商品编号、来源和核对时间；未公开卖家 SKU 或未核验子变体时明确标注，不以相似产品图替代。",
+      "stores": [
+        {
+          "id": "amazon-A3ACRG4Y16ELOD",
+          "platform": "amazon",
+          "market": "US",
+          "sellerId": "A3ACRG4Y16ELOD",
+          "name": "Perfect Pod.",
+          "url": "https://www.amazon.com/gp/help/seller/at-a-glance.html/ref=dp_merchant_link?ie=UTF8&seller=A3ACRG4Y16ELOD&asin=B07SMMH8G7&ref_=dp_merchant_link&isAmazonFulfilled=1",
+          "identitySource": "https://www.amazon.com/dp/B07SMMH8G7",
+          "checkedAt": "2026-10-21T11:09:20.837Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "amazon-B07SMMH8G7",
+              "listingId": "B07SMMH8G7",
+              "listingIdType": "ASIN",
+              "sellerSKU": null,
+              "name": "Perfect Pod Café Save Reusable Coffee Pod Filter Cups, 4 Pack",
+              "zh": "四只装可填充 K-Cup 滤杯",
+              "system": "k-cup",
+              "type": "reusable",
+              "url": "https://www.amazon.com/dp/B07SMMH8G7",
+              "variant": "按当前商品编号展示；卖家自定义 SKU 未公开，未将多变体合并为一个已验证 SKU",
+              "image": "store-amazon-b07smmh8g7",
+              "price": null,
+              "sales": {
+                "text": "10K+ bought in past month",
+                "scope": "product",
+                "period": "past-month",
+                "basis": "平台商品级宽泛购买趋势提示，可能跨卖家／变体；不是该店铺精确月销量"
+              },
+              "revenue": null,
+              "rating": 4.6,
+              "ratingCount": 30216,
+              "reviewScope": "商品页汇总，可能合并不同变体；非店铺评分",
+              "placement": {
+                "type": "unknown",
+                "source": "https://www.amazon.com/dp/B07SMMH8G7",
+                "observedAt": "2026-10-21T11:09:20.837Z",
+                "evidence": "只取得商品详情，未取得可判断该商品推广属性的展示位"
+              },
+              "shipping": "Amazon Amazon Ships from Amazon",
+              "checkedAt": "2026-10-21T11:09:20.837Z",
+              "freshness": "live",
+              "selection": "公开相关候选，不是店铺销量前十；按同平台实际卖家 ID 去重",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "amazon-ACTBV1NF153HT",
+          "platform": "amazon",
+          "market": "US",
+          "sellerId": "ACTBV1NF153HT",
+          "name": "Noalto Direct",
+          "url": "https://www.amazon.com/gp/help/seller/at-a-glance.html/ref=dp_merchant_link?ie=UTF8&seller=ACTBV1NF153HT&asin=B09F8J3932&ref_=dp_merchant_link&isAmazonFulfilled=1",
+          "identitySource": "https://www.amazon.com/dp/B09F8J3932",
+          "checkedAt": "2026-10-21T11:09:19.496Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "amazon-B09F8J3932",
+              "listingId": "B09F8J3932",
+              "listingIdType": "ASIN",
+              "sellerSKU": null,
+              "name": "Reusable K Cups For Keurig,Stainless Steel reusable coffee pods (2pack)",
+              "zh": "不锈钢可填充 K-Cup，2只装",
+              "system": "k-cup",
+              "type": "reusable",
+              "url": "https://www.amazon.com/dp/B09F8J3932",
+              "variant": "按当前商品编号展示；卖家自定义 SKU 未公开，未将多变体合并为一个已验证 SKU",
+              "image": "store-amazon-b09f8j3932",
+              "price": null,
+              "sales": {
+                "text": "8K+ bought in past month",
+                "scope": "product",
+                "period": "past-month",
+                "basis": "平台商品级宽泛购买趋势提示，可能跨卖家／变体；不是该店铺精确月销量"
+              },
+              "revenue": null,
+              "rating": 4.5,
+              "ratingCount": 21848,
+              "reviewScope": "商品页汇总，可能合并不同变体；非店铺评分",
+              "placement": {
+                "type": "unknown",
+                "source": "https://www.amazon.com/dp/B09F8J3932",
+                "observedAt": "2026-10-21T11:09:19.496Z",
+                "evidence": "只取得商品详情，未取得可判断该商品推广属性的展示位"
+              },
+              "shipping": "Amazon Amazon Ships from Amazon",
+              "checkedAt": "2026-10-21T11:09:19.496Z",
+              "freshness": "live",
+              "selection": "公开相关候选，不是店铺销量前十；按同平台实际卖家 ID 去重",
+              "painRefs": [
+                {
+                  "summary": "用户称杯底出现沉渣，加纸滤后改善。评论中的健康推测不作采纳。",
+                  "action": "比较原网杯与加纸滤的沉渣、清洗时间和每杯耗材成本，不能据用户反馈作健康结论。",
+                  "url": "https://www.amazon.com/dp/B09F8J3932#R2TIJKOMSO4YDR",
+                  "date": "2026-09-24"
+                },
+                {
+                  "summary": "用户称减粉后偏淡，细磨并压紧又影响通水；机器仅写 K40 或 K45，型号不确定。",
+                  "action": "用同豆、同杯量逐项改变研磨和粉量，不能把此评论的装粉建议当所有机器参数。",
+                  "url": "https://www.amazon.com/dp/B09F8J3932#RM0REFB71OML8",
+                  "date": "2026-07-17"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "amazon-A1IXX8N43O7NIG",
+          "platform": "amazon",
+          "market": "US",
+          "sellerId": "A1IXX8N43O7NIG",
+          "name": "NESSUS-US",
+          "url": "https://www.amazon.com/gp/help/seller/at-a-glance.html/ref=dp_merchant_link?ie=UTF8&seller=A1IXX8N43O7NIG&asin=B0BZDDF2V4&ref_=dp_merchant_link&isAmazonFulfilled=1",
+          "identitySource": "https://www.amazon.com/dp/B0BZDDF2V4",
+          "checkedAt": "2026-10-21T11:09:24.148Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "amazon-B0BZDDF2V4",
+              "listingId": "B0BZDDF2V4",
+              "listingIdType": "ASIN",
+              "sellerSKU": null,
+              "name": "Nessus Reusable Pod Kit for Nespresso Pods Vertuo, Reuse Old Coffee Pods for Nespresso Vertuo: 100 Pcs Aluminum Foil Seal Lid, Holder, Brush, Refillable Vertuo Plus Next Capsule Machine(No Pods Come)",
+              "zh": "Vertuo 填充工具与100张盖膜，不含胶囊",
+              "system": "vertuo",
+              "type": "accessories",
+              "url": "https://www.amazon.com/dp/B0BZDDF2V4",
+              "variant": "按当前商品编号展示；卖家自定义 SKU 未公开，未将多变体合并为一个已验证 SKU",
+              "image": "store-amazon-b0bzddf2v4",
+              "price": null,
+              "sales": {
+                "text": "4K+ bought in past month",
+                "scope": "product",
+                "period": "past-month",
+                "basis": "平台商品级宽泛购买趋势提示，可能跨卖家／变体；不是该店铺精确月销量"
+              },
+              "revenue": null,
+              "rating": 4.3,
+              "ratingCount": 2866,
+              "reviewScope": "商品页汇总，可能合并不同变体；非店铺评分",
+              "placement": {
+                "type": "unknown",
+                "source": "https://www.amazon.com/dp/B0BZDDF2V4",
+                "observedAt": "2026-10-21T11:09:24.148Z",
+                "evidence": "只取得商品详情，未取得可判断该商品推广属性的展示位"
+              },
+              "shipping": "Amazon Amazon Ships from Amazon",
+              "checkedAt": "2026-10-21T11:09:24.148Z",
+              "freshness": "live",
+              "selection": "公开相关候选，不是店铺销量前十；按同平台实际卖家 ID 去重",
+              "painRefs": [
+                {
+                  "summary": "用户称反复尝试仍不能形成紧密封口。",
+                  "action": "按具体机器和产品版本复现，对照原厂耗材；此处为用户自述，尚未独立实测。",
+                  "url": "https://www.amazon.com/dp/B0BZDDF2V4#R2HBM29XOCEI4D",
+                  "date": "2026-05-30"
+                },
+                {
+                  "summary": "用户满意使用自选豆的效果，但称批量准备约25杯需要约30分钟；仅为个人经验。",
+                  "action": "实测单杯与批量装填时间，记录准备、封口、清洗各环节，不将该用户时间当行业平均值。",
+                  "url": "https://www.amazon.com/dp/B0BZDDF2V4#R3QAXX71OGZ4H6",
+                  "date": "2026-10-13"
+                }
+              ]
+            },
+            {
+              "id": "amazon-B0F99LMHLJ",
+              "listingId": "B0F99LMHLJ",
+              "listingIdType": "ASIN",
+              "sellerSKU": null,
+              "name": "4 Pack Reusable K Cups Coffee Pods for Keurig 1.0",
+              "zh": "Keurig 1.0 可填充滤杯，4只装",
+              "system": "k-cup",
+              "type": "reusable",
+              "url": "https://www.amazon.com/dp/B0F99LMHLJ",
+              "variant": "按当前商品编号展示；卖家自定义 SKU 未公开，未将多变体合并为一个已验证 SKU",
+              "image": "store-amazon-b0f99lmhlj",
+              "price": null,
+              "sales": {
+                "text": "2K+ bought in past month",
+                "scope": "product",
+                "period": "past-month",
+                "basis": "平台商品级宽泛购买趋势提示，可能跨卖家／变体；不是该店铺精确月销量"
+              },
+              "revenue": null,
+              "rating": 4.4,
+              "ratingCount": 1980,
+              "reviewScope": "商品页汇总，可能合并不同变体；非店铺评分",
+              "placement": {
+                "type": "unknown",
+                "source": "https://www.amazon.com/dp/B0F99LMHLJ",
+                "observedAt": "2026-10-21T11:09:34.490Z",
+                "evidence": "只取得商品详情，未取得可判断该商品推广属性的展示位"
+              },
+              "shipping": "Amazon Amazon Ships from Amazon",
+              "checkedAt": "2026-10-21T11:09:34.490Z",
+              "freshness": "live",
+              "selection": "公开相关候选，不是店铺销量前十；按同平台实际卖家 ID 去重",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "amazon-A20LF8ZE9S4I26",
+          "platform": "amazon",
+          "market": "US",
+          "sellerId": "A20LF8ZE9S4I26",
+          "name": "GoodCups",
+          "url": "https://www.amazon.com/gp/help/seller/at-a-glance.html/ref=dp_merchant_link?ie=UTF8&seller=A20LF8ZE9S4I26&asin=B09NW83CRR&ref_=dp_merchant_link&isAmazonFulfilled=1",
+          "identitySource": "https://www.amazon.com/dp/B09NW83CRR",
+          "checkedAt": "2026-10-21T11:09:23.243Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "amazon-B09NW83CRR",
+              "listingId": "B09NW83CRR",
+              "listingIdType": "ASIN",
+              "sellerSKU": null,
+              "name": "4 Reusable K Cups for Keurig K Supreme, K Supreme Plus, K Slim with Multistream Technology, K-Duo Hot & Iced Single Serve (Gen 2) - 4 Black Refillable Kcups Coffee Filters for Keurig Coffee Makers",
+              "zh": "多针系统可填充滤杯，4只装",
+              "system": "k-cup",
+              "type": "reusable",
+              "url": "https://www.amazon.com/dp/B09NW83CRR",
+              "variant": "按当前商品编号展示；卖家自定义 SKU 未公开，未将多变体合并为一个已验证 SKU",
+              "image": "store-amazon-b09nw83crr",
+              "price": null,
+              "sales": {
+                "text": "3K+ bought in past month",
+                "scope": "product",
+                "period": "past-month",
+                "basis": "平台商品级宽泛购买趋势提示，可能跨卖家／变体；不是该店铺精确月销量"
+              },
+              "revenue": null,
+              "rating": 4.3,
+              "ratingCount": 7846,
+              "reviewScope": "商品页汇总，可能合并不同变体；非店铺评分",
+              "placement": {
+                "type": "unknown",
+                "source": "https://www.amazon.com/dp/B09NW83CRR",
+                "observedAt": "2026-10-21T11:09:23.243Z",
+                "evidence": "只取得商品详情，未取得可判断该商品推广属性的展示位"
+              },
+              "shipping": "Amazon Amazon Ships from Amazon",
+              "checkedAt": "2026-10-21T11:09:23.243Z",
+              "freshness": "live",
+              "selection": "公开相关候选，不是店铺销量前十；按同平台实际卖家 ID 去重",
+              "painRefs": [
+                {
+                  "summary": "用户称冲煮时顶部溢出咖啡，同时自己不确定是否买对适配款。",
+                  "action": "按具体机器和产品版本复现，对照原厂耗材；此处为用户自述，尚未独立实测。",
+                  "url": "https://www.amazon.com/dp/B09NW83CRR#R3AXE9T76AJSYS",
+                  "date": "2026-09-17"
+                },
+                {
+                  "summary": "加拿大评论者称 K-Duo 使用时溢水、咖啡变淡；未说明机器代际。",
+                  "action": "按具体机器和产品版本复现，对照原厂耗材；此处为用户自述，尚未独立实测。",
+                  "url": "https://www.amazon.com/dp/B09NW83CRR#R3MYHCXCX0RHS5",
+                  "date": "2026-08-22"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "amazon-AJ02A09NAIE5A",
+          "platform": "amazon",
+          "market": "US",
+          "sellerId": "AJ02A09NAIE5A",
+          "name": "HGIFZ",
+          "url": "https://www.amazon.com/gp/help/seller/at-a-glance.html/ref=dp_merchant_link?ie=UTF8&seller=AJ02A09NAIE5A&asin=B0GLX6JXYC&ref_=dp_merchant_link&isAmazonFulfilled=1",
+          "identitySource": "https://www.amazon.com/dp/B0GLX6JXYC",
+          "checkedAt": "2026-10-21T11:09:25.720Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "amazon-B0GLX6JXYC",
+              "listingId": "B0GLX6JXYC",
+              "listingIdType": "ASIN",
+              "sellerSKU": null,
+              "name": "Reusable Vertuo Pods Refill Kit for Nespresso, NO PODS",
+              "zh": "Vertuo 填充工具与100张盖膜，不含胶囊",
+              "system": "vertuo",
+              "type": "accessories",
+              "url": "https://www.amazon.com/dp/B0GLX6JXYC",
+              "variant": "按当前商品编号展示；卖家自定义 SKU 未公开，未将多变体合并为一个已验证 SKU",
+              "image": "store-amazon-b0glx6jxyc",
+              "price": null,
+              "sales": {
+                "text": "3K+ bought in past month",
+                "scope": "product",
+                "period": "past-month",
+                "basis": "平台商品级宽泛购买趋势提示，可能跨卖家／变体；不是该店铺精确月销量"
+              },
+              "revenue": null,
+              "rating": 4.6,
+              "ratingCount": 385,
+              "reviewScope": "商品页汇总，可能合并不同变体；非店铺评分",
+              "placement": {
+                "type": "unknown",
+                "source": "https://www.amazon.com/dp/B0GLX6JXYC",
+                "observedAt": "2026-10-21T11:09:25.720Z",
+                "evidence": "只取得商品详情，未取得可判断该商品推广属性的展示位"
+              },
+              "shipping": "Amazon Amazon Ships from Amazon",
+              "checkedAt": "2026-10-21T11:09:25.720Z",
+              "freshness": "live",
+              "selection": "公开相关候选，不是店铺销量前十；按同平台实际卖家 ID 去重",
+              "painRefs": [
+                {
+                  "summary": "英国评论仅表示按说明仍未达到宣传效果，未说明机型或具体故障。",
+                  "action": "不归入漏水、堵塞等具体故障；需先补机器型号、步骤和现象。",
+                  "url": "https://www.amazon.com/dp/B0GLX6JXYC#R3H91L4BW05NHI",
+                  "date": "2026-07-19"
+                },
+                {
+                  "summary": "用户满意产品，同时提醒套装不含胶囊本体，需要自行保留旧原厂胶囊。",
+                  "action": "按具体机器和产品版本复现，对照原厂耗材；此处为用户自述，尚未独立实测。",
+                  "url": "https://www.amazon.com/dp/B0GLX6JXYC#RPP1DC7I3WFGZ",
+                  "date": "2026-09-09"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "amazon-A1ADT02AIROOYU",
+          "platform": "amazon",
+          "market": "US",
+          "sellerId": "A1ADT02AIROOYU",
+          "name": "Fanativita",
+          "url": "https://www.amazon.com/gp/help/seller/at-a-glance.html/ref=dp_merchant_link?ie=UTF8&seller=A1ADT02AIROOYU&asin=B0CB3X4PKK&ref_=dp_merchant_link&isAmazonFulfilled=1",
+          "identitySource": "https://www.amazon.com/dp/B0CB3X4PKK",
+          "checkedAt": "2026-10-21T11:09:27.053Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "amazon-B0CB3X4PKK",
+              "listingId": "B0CB3X4PKK",
+              "listingIdType": "ASIN",
+              "sellerSKU": null,
+              "name": "Fanativita 100ct K Cup Coffee Filters with Genius Lid, Unbleached",
+              "zh": "带盖纸滤杯，100只",
+              "system": "k-cup",
+              "type": "accessories",
+              "url": "https://www.amazon.com/dp/B0CB3X4PKK",
+              "variant": "按当前商品编号展示；卖家自定义 SKU 未公开，未将多变体合并为一个已验证 SKU",
+              "image": "store-amazon-b0cb3x4pkk",
+              "price": null,
+              "sales": {
+                "text": "2K+ bought in past month",
+                "scope": "product",
+                "period": "past-month",
+                "basis": "平台商品级宽泛购买趋势提示，可能跨卖家／变体；不是该店铺精确月销量"
+              },
+              "revenue": null,
+              "rating": 4.6,
+              "ratingCount": 3055,
+              "reviewScope": "商品页汇总，可能合并不同变体；非店铺评分",
+              "placement": {
+                "type": "unknown",
+                "source": "https://www.amazon.com/dp/B0CB3X4PKK",
+                "observedAt": "2026-10-21T11:09:27.053Z",
+                "evidence": "只取得商品详情，未取得可判断该商品推广属性的展示位"
+              },
+              "shipping": "Amazon Amazon Ships from Amazon",
+              "checkedAt": "2026-10-21T11:09:27.053Z",
+              "freshness": "live",
+              "selection": "公开相关候选，不是店铺销量前十；按同平台实际卖家 ID 去重",
+              "painRefs": [
+                {
+                  "summary": "用户称部分纸滤底部破裂，但不能确定是纸薄还是所用滤杯导致。",
+                  "action": "比较纸滤尺寸、湿强度、滤杯底针与安装方式，保留原因未定状态。",
+                  "url": "https://www.amazon.com/dp/B0CB3X4PKK#RNLF2JO1OANR0",
+                  "date": "2026-09-19"
+                },
+                {
+                  "summary": "用户称原可填充滤杯盖内易积粉，使用带盖纸滤后更容易保持洁净。",
+                  "action": "按具体机器和产品版本复现，对照原厂耗材；此处为用户自述，尚未独立实测。",
+                  "url": "https://www.amazon.com/dp/B0CB3X4PKK#R22EXVCGQ8P50B",
+                  "date": "2025-11-09"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "amazon-A2N75U69Q40RK2",
+          "platform": "amazon",
+          "market": "US",
+          "sellerId": "A2N75U69Q40RK2",
+          "name": "CAPMESSO",
+          "url": "https://www.amazon.com/gp/help/seller/at-a-glance.html/ref=dp_merchant_link?ie=UTF8&seller=A2N75U69Q40RK2&asin=B0GVDK4VXT&ref_=dp_merchant_link&isAmazonFulfilled=1",
+          "identitySource": "https://www.amazon.com/dp/B0GVDK4VXT",
+          "checkedAt": "2026-10-21T11:09:30.268Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "amazon-B0GVDK4VXT",
+              "listingId": "B0GVDK4VXT",
+              "listingIdType": "ASIN",
+              "sellerSKU": null,
+              "name": "CAPMESSO Reusable K Cups for Keurig: NO Grit Stainless Steel Coffee Pod 2PC",
+              "zh": "双网不锈钢滤杯，2只装",
+              "system": "k-cup",
+              "type": "reusable",
+              "url": "https://www.amazon.com/dp/B0GVDK4VXT",
+              "variant": "按当前商品编号展示；卖家自定义 SKU 未公开，未将多变体合并为一个已验证 SKU",
+              "image": "store-amazon-b0gvdk4vxt",
+              "price": null,
+              "sales": {
+                "text": "2K+ bought in past month",
+                "scope": "product",
+                "period": "past-month",
+                "basis": "平台商品级宽泛购买趋势提示，可能跨卖家／变体；不是该店铺精确月销量"
+              },
+              "revenue": null,
+              "rating": 4.7,
+              "ratingCount": 240,
+              "reviewScope": "商品页汇总，可能合并不同变体；非店铺评分",
+              "placement": {
+                "type": "unknown",
+                "source": "https://www.amazon.com/dp/B0GVDK4VXT",
+                "observedAt": "2026-10-21T11:09:30.268Z",
+                "evidence": "只取得商品详情，未取得可判断该商品推广属性的展示位"
+              },
+              "shipping": "Amazon Amazon Ships from Amazon",
+              "checkedAt": "2026-10-21T11:09:30.268Z",
+              "freshness": "live",
+              "selection": "公开相关候选，不是店铺销量前十；按同平台实际卖家 ID 去重",
+              "painRefs": []
+            },
+            {
+              "id": "amazon-B07RL6HMVH",
+              "listingId": "B07RL6HMVH",
+              "listingIdType": "ASIN",
+              "sellerSKU": null,
+              "name": "CAPMESSO Aluminum Foil Lids for Reusing All Nespresso Vertuo Pods (100pcs)",
+              "zh": "Vertuo 盖膜，100张",
+              "system": "vertuo",
+              "type": "accessories",
+              "url": "https://www.amazon.com/dp/B07RL6HMVH",
+              "variant": "按当前商品编号展示；卖家自定义 SKU 未公开，未将多变体合并为一个已验证 SKU",
+              "image": "store-amazon-b07rl6hmvh",
+              "price": null,
+              "sales": {
+                "text": "2K+ bought in past month",
+                "scope": "product",
+                "period": "past-month",
+                "basis": "平台商品级宽泛购买趋势提示，可能跨卖家／变体；不是该店铺精确月销量"
+              },
+              "revenue": null,
+              "rating": 4.4,
+              "ratingCount": 9906,
+              "reviewScope": "商品页汇总，可能合并不同变体；非店铺评分",
+              "placement": {
+                "type": "unknown",
+                "source": "https://www.amazon.com/dp/B07RL6HMVH",
+                "observedAt": "2026-10-21T11:09:32.403Z",
+                "evidence": "只取得商品详情，未取得可判断该商品推广属性的展示位"
+              },
+              "shipping": "Amazon Amazon Ships from Amazon",
+              "checkedAt": "2026-10-21T11:09:32.403Z",
+              "freshness": "live",
+              "selection": "公开相关候选，不是店铺销量前十；按同平台实际卖家 ID 去重",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "emag-277976",
+          "platform": "emag",
+          "market": "RO",
+          "sellerId": "277976",
+          "name": "QIAN YUE",
+          "url": "https://www.emag.ro/qianyygw/277976/v?ref=see_vendor_page",
+          "identitySource": "https://www.emag.ro/capsule-cafea-reutilizabile-din-otel-inoxidabil-compatibile-cu-aparate-bosch-tassimo-set-180ml-tassimo-180ml/pd/DSVXSSYBM/",
+          "checkedAt": "2026-10-21T11:09:33.881Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "emag-DSVXSSYBM",
+              "listingId": "DSVXSSYBM",
+              "listingIdType": "eMAG 商品编号",
+              "sellerSKU": null,
+              "name": "Capsule Cafea Reutilizabile din Otel Inoxidabil, compatibile cu Aparate Bosch Tassimo, Set, 180ml",
+              "zh": "Tassimo 可填充盘；标题标注不锈钢待核验",
+              "system": "tassimo",
+              "type": "reusable",
+              "url": "https://www.emag.ro/capsule-cafea-reutilizabile-din-otel-inoxidabil-compatibile-cu-aparate-bosch-tassimo-set-180ml-tassimo-180ml/pd/DSVXSSYBM/",
+              "variant": "按当前商品编号展示；卖家自定义 SKU 未公开，未将多变体合并为一个已验证 SKU",
+              "image": "store-emag-dsvxssybm",
+              "price": {
+                "amount": 50.05,
+                "currency": "RON",
+                "basis": "商品页结构化报价，未含未披露运费／到手税费；核对日快照"
+              },
+              "sales": null,
+              "revenue": null,
+              "rating": 4.15,
+              "ratingCount": null,
+              "reviewScope": "商品页汇总，可能合并不同变体；非店铺评分",
+              "placement": {
+                "type": "organic",
+                "source": "https://www.emag.ro/search/capsule%20cafea%20reutilizabile",
+                "observedAt": "2026-10-21T11:09:33.881Z",
+                "evidence": "已读到完整检索卡片，未带 Promovat／Sponsored 标识；仅作本次自然展示观察"
+              },
+              "shipping": "当前报价配送及运费以商品页、收货地区为准",
+              "checkedAt": "2026-10-21T11:09:33.881Z",
+              "freshness": "live",
+              "selection": "公开相关候选，不是店铺销量前十；按同平台实际卖家 ID 去重",
+              "painRefs": [
+                {
+                  "summary": "用户质疑标题“不锈钢”与收到的塑料件不一致，并称高度与原厂盘不同；材质尚未检测。",
+                  "action": "保留用户自述与核验缺口；按相同产品版本、机型与使用条件做对照，不据单条评论认定缺陷率。",
+                  "url": "https://www.emag.ro/product-feedback/capsule-cafea-reutilizabile-din-otel-inoxidabil-compatibile-cu-aparate-bosch-tassimo-set-180ml-tassimo-180ml/pd/DSVXSSYBM/review/202951185",
+                  "date": "2026-08-13"
+                },
+                {
+                  "summary": "用户报告冲泡后仍有橡胶味；气味来源与材料安全未独立核验。",
+                  "action": "保留用户自述与核验缺口；按相同产品版本、机型与使用条件做对照，不据单条评论认定缺陷率。",
+                  "url": "https://www.emag.ro/product-feedback/capsule-cafea-reutilizabile-din-otel-inoxidabil-compatibile-cu-aparate-bosch-tassimo-set-180ml-tassimo-180ml/pd/DSVXSSYBM/review/202494042",
+                  "date": "2026-05-06"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "emag-7656",
+          "platform": "emag",
+          "market": "RO",
+          "sellerId": "7656",
+          "name": "MOTOR STARTER",
+          "url": "https://www.emag.ro/motorghu/7656/v?ref=see_vendor_page",
+          "identitySource": "https://www.emag.ro/set-10-capsule-cafea-reutilizabile-reincarcabile-lavabile-compatibile-dolce-gusto-d10-maro-10x/pd/DM5N4SMBM/",
+          "checkedAt": "2026-10-21T11:09:30.932Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "emag-DM5N4SMBM",
+              "listingId": "DM5N4SMBM",
+              "listingIdType": "eMAG 商品编号",
+              "sellerSKU": null,
+              "name": "Set 10 Capsule cafea reutilizabile, reincarcabile, lavabile compatibile Dolce Gusto d10, maro",
+              "zh": "Dolce Gusto 可填充胶囊，10只装",
+              "system": "dolce-gusto",
+              "type": "reusable",
+              "url": "https://www.emag.ro/set-10-capsule-cafea-reutilizabile-reincarcabile-lavabile-compatibile-dolce-gusto-d10-maro-10x/pd/DM5N4SMBM/",
+              "variant": "按当前商品编号展示；卖家自定义 SKU 未公开，未将多变体合并为一个已验证 SKU",
+              "image": "store-emag-dm5n4smbm",
+              "price": {
+                "amount": 20.34,
+                "currency": "RON",
+                "basis": "商品页结构化报价，未含未披露运费／到手税费；核对日快照"
+              },
+              "sales": null,
+              "revenue": null,
+              "rating": 4.22,
+              "ratingCount": null,
+              "reviewScope": "商品页汇总，可能合并不同变体；非店铺评分",
+              "placement": {
+                "type": "organic",
+                "source": "https://www.emag.ro/search/capsule%20cafea%20reutilizabile",
+                "observedAt": "2026-10-21T11:09:30.932Z",
+                "evidence": "已读到完整检索卡片，未带 Promovat／Sponsored 标识；仅作本次自然展示观察"
+              },
+              "shipping": "当前报价配送及运费以商品页、收货地区为准",
+              "checkedAt": "2026-10-21T11:09:30.932Z",
+              "freshness": "live",
+              "selection": "公开相关候选，不是店铺销量前十；按同平台实际卖家 ID 去重",
+              "painRefs": [
+                {
+                  "summary": "用户称合盖时难以将进水孔对准。",
+                  "action": "保留用户自述与核验缺口；按相同产品版本、机型与使用条件做对照，不据单条评论认定缺陷率。",
+                  "url": "https://www.emag.ro/product-feedback/set-10-capsule-cafea-reutilizabile-reincarcabile-lavabile-compatibile-dolce-gusto-d10-maro-10x/pd/DM5N4SMBM/review/202972179",
+                  "date": "2026-08-19"
+                },
+                {
+                  "summary": "用户称第二次使用后胶囊卡住并送修；客服说法仅由评论转述，未独立核实。",
+                  "action": "保留用户自述与核验缺口；按相同产品版本、机型与使用条件做对照，不据单条评论认定缺陷率。",
+                  "url": "https://www.emag.ro/product-feedback/set-10-capsule-cafea-reutilizabile-reincarcabile-lavabile-compatibile-dolce-gusto-d10-maro-10x/pd/DM5N4SMBM/review/202007219",
+                  "date": "2026-02-06"
+                }
+              ]
+            },
+            {
+              "id": "emag-DFVN9WBBM",
+              "listingId": "DFVN9WBBM",
+              "listingIdType": "eMAG 商品编号",
+              "sellerSKU": null,
+              "name": "Set 4 capsule reutilizabile cafea compatibile cu Dolce Gusto, Plastic/Silicon, 52 x 35 mm, Maro",
+              "zh": "塑料／硅胶可填充胶囊，4只装",
+              "system": "dolce-gusto",
+              "type": "reusable",
+              "url": "https://www.emag.ro/set-4-capsule-reutilizabile-cafea-compatibile-cu-dolce-gusto-plastic-silicon-52-x-35-mm-maro-4dolcekapszula/pd/DFVN9WBBM/",
+              "variant": "按当前商品编号展示；卖家自定义 SKU 未公开，未将多变体合并为一个已验证 SKU",
+              "image": "store-emag-dfvn9wbbm",
+              "price": null,
+              "sales": null,
+              "revenue": null,
+              "rating": null,
+              "ratingCount": null,
+              "reviewScope": "商品页汇总，可能合并不同变体；非店铺评分",
+              "placement": {
+                "type": "organic",
+                "source": "https://www.emag.ro/search/capsule%20cafea%20reutilizabile",
+                "observedAt": "2026-10-21T11:09:29.078Z",
+                "evidence": "已读到完整检索卡片，未带 Promovat／Sponsored 标识；仅作本次自然展示观察"
+              },
+              "shipping": "当前报价配送及运费以商品页、收货地区为准",
+              "checkedAt": "2026-10-21T11:09:29.078Z",
+              "freshness": "live",
+              "selection": "公开相关候选，不是店铺销量前十；按同平台实际卖家 ID 去重",
+              "painRefs": [
+                {
+                  "summary": "用户称首次卡在机器内；另一个胶囊难对准进水孔，水从边缘流出。",
+                  "action": "保留用户自述与核验缺口；按相同产品版本、机型与使用条件做对照，不据单条评论认定缺陷率。",
+                  "url": "https://www.emag.ro/product-feedback/set-4-capsule-reutilizabile-cafea-compatibile-cu-dolce-gusto-plastic-silicon-52-x-35-mm-maro-4dolcekapszula/pd/DFVN9WBBM/review/11014266",
+                  "date": "2024-10-22"
+                },
+                {
+                  "summary": "用户认为口感不如一次性胶囊，并提到无泡沫。",
+                  "action": "保留用户自述与核验缺口；按相同产品版本、机型与使用条件做对照，不据单条评论认定缺陷率。",
+                  "url": "https://www.emag.ro/product-feedback/set-4-capsule-reutilizabile-cafea-compatibile-cu-dolce-gusto-plastic-silicon-52-x-35-mm-maro-4dolcekapszula/pd/DFVN9WBBM/review/100156935",
+                  "date": "2025-02-10"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "emag-247060",
+          "platform": "emag",
+          "market": "RO",
+          "sellerId": "247060",
+          "name": "Digital Brew",
+          "url": "https://www.emag.ro/shenzfhd/247060/v?ref=see_vendor_page",
+          "identitySource": "https://www.emag.ro/adaptor-pentru-capsule-de-cafea-reutilizabile-convertor-compatibil-cu-dolce-gusto-piccolo-xs-genio-s-mini-me-edg-305-edg-606-edg-466-alternativa-ecologica-si-economica-1-bucata-yt-hlb04-21/pd/DTR2RN2BM/",
+          "checkedAt": "2026-10-21T11:13:30.043Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "emag-DTR2RN2BM",
+              "listingId": "DTR2RN2BM",
+              "listingIdType": "eMAG 商品编号",
+              "sellerSKU": null,
+              "name": "Adaptor pentru Capsule de Cafea Reutilizabile, Convertor Compatibil cu Dolce Gusto Piccolo XS / Genio S / Mini Me / EDG 305 / EDG 606 / EDG 466, Alternativa Ecologica si Economica, 1 Bucata",
+              "zh": "咖啡胶囊周边配件；规格见原文",
+              "system": "dolce-gusto",
+              "type": "accessories",
+              "url": "https://www.emag.ro/adaptor-pentru-capsule-de-cafea-reutilizabile-convertor-compatibil-cu-dolce-gusto-piccolo-xs-genio-s-mini-me-edg-305-edg-606-edg-466-alternativa-ecologica-si-economica-1-bucata-yt-hlb04-21/pd/DTR2RN2BM/",
+              "variant": "按当前商品编号展示；卖家自定义 SKU 未公开，未将多变体合并为一个已验证 SKU",
+              "image": "store-emag-dtr2rn2bm",
+              "price": {
+                "amount": 56.9,
+                "currency": "RON",
+                "basis": "商品页结构化报价，未含未披露运费／到手税费；核对日快照"
+              },
+              "sales": null,
+              "revenue": null,
+              "rating": 5,
+              "ratingCount": null,
+              "reviewScope": "商品页汇总，可能合并不同变体；非店铺评分",
+              "placement": {
+                "type": "organic",
+                "source": "https://www.emag.ro/search/capsule%20cafea%20reutilizabile",
+                "observedAt": "2026-10-21T11:13:30.043Z",
+                "evidence": "已读到完整检索卡片，未带 Promovat／Sponsored 标识；仅作本次自然展示观察"
+              },
+              "shipping": "当前报价配送及运费以商品页、收货地区为准",
+              "checkedAt": "2026-10-21T11:13:30.043Z",
+              "freshness": "live",
+              "selection": "公开相关候选，不是店铺销量前十；按同平台实际卖家 ID 去重",
+              "painRefs": []
+            },
+            {
+              "id": "emag-D1YLQN2BM",
+              "listingId": "D1YLQN2BM",
+              "listingIdType": "eMAG 商品编号",
+              "sellerSKU": null,
+              "name": "Capsule reutilizabile BLISSBUZZ, compatibile cu aparate Nespresso Vertuo Next, Pop si Plus, 80 ml, set 2 buc., silicon, 4 coduri de bare, lingura si periuta, argintiu",
+              "zh": "可重复填充咖啡胶囊；规格见原文",
+              "system": "vertuo",
+              "type": "reusable",
+              "url": "https://www.emag.ro/capsule-reutilizabile-blissbuzz-compatibile-cu-aparate-nespresso-vertuo-next-pop-si-plus-80-ml-set-2-buc-silicon-4-coduri-de-bare-lingura-si-periuta-argintiu-yt-g9-80/pd/D1YLQN2BM/",
+              "variant": "按当前商品编号展示；卖家自定义 SKU 未公开，未将多变体合并为一个已验证 SKU",
+              "image": "store-emag-d1ylqn2bm",
+              "price": {
+                "amount": 69.9,
+                "currency": "RON",
+                "basis": "商品页结构化报价，未含未披露运费／到手税费；核对日快照"
+              },
+              "sales": null,
+              "revenue": null,
+              "rating": null,
+              "ratingCount": null,
+              "reviewScope": "商品页汇总，可能合并不同变体；非店铺评分",
+              "placement": {
+                "type": "organic",
+                "source": "https://www.emag.ro/search/capsule%20cafea%20reutilizabile",
+                "observedAt": "2026-10-21T11:13:30.443Z",
+                "evidence": "已读到完整检索卡片，未带 Promovat／Sponsored 标识；仅作本次自然展示观察"
+              },
+              "shipping": "当前报价配送及运费以商品页、收货地区为准",
+              "checkedAt": "2026-10-21T11:13:30.443Z",
+              "freshness": "live",
+              "selection": "公开相关候选，不是店铺销量前十；按同平台实际卖家 ID 去重",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "emag-177951",
+          "platform": "emag",
+          "market": "RO",
+          "sellerId": "177951",
+          "name": "Sptr International",
+          "url": "https://www.emag.ro/sptrirep/177951/v?ref=see_vendor_page",
+          "identitySource": "https://www.emag.ro/set-5x-capsule-cafea-super-trendsr-reincarcabile-compatibile-dolce-gusto-maro-sptrcapsuledolce/pd/DZ89683BM/",
+          "checkedAt": "2026-10-21T11:13:31.135Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "emag-DZ89683BM",
+              "listingId": "DZ89683BM",
+              "listingIdType": "eMAG 商品编号",
+              "sellerSKU": null,
+              "name": "Set 5X Capsule Cafea SUPER TRENDS®, Reincarcabile, Compatibile Dolce Gusto, Maro",
+              "zh": "可重复填充咖啡胶囊；规格见原文",
+              "system": "dolce-gusto",
+              "type": "reusable",
+              "url": "https://www.emag.ro/set-5x-capsule-cafea-super-trendsr-reincarcabile-compatibile-dolce-gusto-maro-sptrcapsuledolce/pd/DZ89683BM/",
+              "variant": "按当前商品编号展示；卖家自定义 SKU 未公开，未将多变体合并为一个已验证 SKU",
+              "image": "store-emag-dz89683bm",
+              "price": {
+                "amount": 30.25,
+                "currency": "RON",
+                "basis": "商品页结构化报价，未含未披露运费／到手税费；核对日快照"
+              },
+              "sales": null,
+              "revenue": null,
+              "rating": 4,
+              "ratingCount": null,
+              "reviewScope": "商品页汇总，可能合并不同变体；非店铺评分",
+              "placement": {
+                "type": "organic",
+                "source": "https://www.emag.ro/search/capsule%20cafea%20reutilizabile",
+                "observedAt": "2026-10-21T11:13:31.135Z",
+                "evidence": "已读到完整检索卡片，未带 Promovat／Sponsored 标识；仅作本次自然展示观察"
+              },
+              "shipping": "当前报价配送及运费以商品页、收货地区为准",
+              "checkedAt": "2026-10-21T11:13:31.135Z",
+              "freshness": "live",
+              "selection": "公开相关候选，不是店铺销量前十；按同平台实际卖家 ID 去重",
+              "painRefs": []
+            },
+            {
+              "id": "emag-DYHBV83BM",
+              "listingId": "DYHBV83BM",
+              "listingIdType": "eMAG 商品编号",
+              "sellerSKU": null,
+              "name": "Set 2 Capsule de Cafea Reutilizabile si Lavabile SUPER TRENDS® de 150 ml (Maro) si 230 ml (Negru), compatibile cu Nespresso Vertuo si 30 Folii de Aluminiu",
+              "zh": "可重复填充咖啡胶囊；规格见原文",
+              "system": "vertuo",
+              "type": "reusable",
+              "url": "https://www.emag.ro/set-2-capsule-de-cafea-reutilizabile-si-lavabile-super-trendsr-de-150-ml-maro-si-230-ml-negru-compatibile-cu-nespresso-vertuo-si-30-folii-de-aluminiu-sptrcapsule150ml230ml/pd/DYHBV83BM/",
+              "variant": "按当前商品编号展示；卖家自定义 SKU 未公开，未将多变体合并为一个已验证 SKU",
+              "image": "store-emag-dyhbv83bm",
+              "price": null,
+              "sales": null,
+              "revenue": null,
+              "rating": null,
+              "ratingCount": null,
+              "reviewScope": "商品页汇总，可能合并不同变体；非店铺评分",
+              "placement": {
+                "type": "organic",
+                "source": "https://www.emag.ro/search/capsule%20cafea%20reutilizabile",
+                "observedAt": "2026-10-21T11:13:32.060Z",
+                "evidence": "已读到完整检索卡片，未带 Promovat／Sponsored 标识；仅作本次自然展示观察"
+              },
+              "shipping": "当前报价配送及运费以商品页、收货地区为准",
+              "checkedAt": "2026-10-21T11:13:32.060Z",
+              "freshness": "live",
+              "selection": "公开相关候选，不是店铺销量前十；按同平台实际卖家 ID 去重",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "emag-250994",
+          "platform": "emag",
+          "market": "RO",
+          "sellerId": "250994",
+          "name": "Dong gang Department Store",
+          "url": "https://www.emag.ro/donggond/250994/v?ref=see_vendor_page",
+          "identitySource": "https://www.emag.ro/capsule-reutilizabile-cafea-ajieqaq-inox-180ml-maro-7b321/pd/D6VVBW3BM/",
+          "checkedAt": "2026-10-21T11:13:31.293Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "emag-D6VVBW3BM",
+              "listingId": "D6VVBW3BM",
+              "listingIdType": "eMAG 商品编号",
+              "sellerSKU": null,
+              "name": "Capsule reutilizabile cafea, AjieQaQ, inox, 180ml, maro",
+              "zh": "可重复填充咖啡胶囊；规格见原文",
+              "system": "unconfirmed",
+              "type": "reusable",
+              "url": "https://www.emag.ro/capsule-reutilizabile-cafea-ajieqaq-inox-180ml-maro-7b321/pd/D6VVBW3BM/",
+              "variant": "按当前商品编号展示；卖家自定义 SKU 未公开，未将多变体合并为一个已验证 SKU",
+              "image": "store-emag-d6vvbw3bm",
+              "price": null,
+              "sales": null,
+              "revenue": null,
+              "rating": null,
+              "ratingCount": null,
+              "reviewScope": "商品页汇总，可能合并不同变体；非店铺评分",
+              "placement": {
+                "type": "organic",
+                "source": "https://www.emag.ro/search/capsule%20cafea%20reutilizabile",
+                "observedAt": "2026-10-21T11:13:31.293Z",
+                "evidence": "已读到完整检索卡片，未带 Promovat／Sponsored 标识；仅作本次自然展示观察"
+              },
+              "shipping": "当前报价配送及运费以商品页、收货地区为准",
+              "checkedAt": "2026-10-21T11:13:31.293Z",
+              "freshness": "live",
+              "selection": "公开相关候选，不是店铺销量前十；按同平台实际卖家 ID 去重",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "emag-242450",
+          "platform": "emag",
+          "market": "RO",
+          "sellerId": "242450",
+          "name": "Fiecare are povestea lui",
+          "url": "https://www.emag.ro/trapoajl/242450/v?ref=see_vendor_page",
+          "identitySource": "https://www.emag.ro/set-2-capsule-reutilizabile-din-otel-inoxidabil-pentru-keurig-1-0-2-0-filtre-cafea-k-cup-refillabile-leccikr-ecologice-fara-bpa-usor-de-curatat-alternative-eco-la-capsule-unica-folosinta-zd-274/pd/D7YFTG3BM/",
+          "checkedAt": "2026-10-21T11:13:32.851Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "emag-D7YFTG3BM",
+              "listingId": "D7YFTG3BM",
+              "listingIdType": "eMAG 商品编号",
+              "sellerSKU": null,
+              "name": "Set 2 Capsule Reutilizabile din Otel Inoxidabil pentru Keurig 1.0/2.0 - Filtre Cafea K-Cup Refillabile, Leccik®，Ecologice, Fara BPA, Usor de Curatat, Alternative Eco la Capsule Unica Folosinta",
+              "zh": "可重复填充咖啡胶囊；规格见原文",
+              "system": "k-cup",
+              "type": "reusable",
+              "url": "https://www.emag.ro/set-2-capsule-reutilizabile-din-otel-inoxidabil-pentru-keurig-1-0-2-0-filtre-cafea-k-cup-refillabile-leccikr-ecologice-fara-bpa-usor-de-curatat-alternative-eco-la-capsule-unica-folosinta-zd-274/pd/D7YFTG3BM/",
+              "variant": "按当前商品编号展示；卖家自定义 SKU 未公开，未将多变体合并为一个已验证 SKU",
+              "image": "store-emag-d7yftg3bm",
+              "price": {
+                "amount": 83,
+                "currency": "RON",
+                "basis": "商品页结构化报价，未含未披露运费／到手税费；核对日快照"
+              },
+              "sales": null,
+              "revenue": null,
+              "rating": null,
+              "ratingCount": null,
+              "reviewScope": "商品页汇总，可能合并不同变体；非店铺评分",
+              "placement": {
+                "type": "organic",
+                "source": "https://www.emag.ro/search/capsule%20cafea%20reutilizabile",
+                "observedAt": "2026-10-21T11:13:32.851Z",
+                "evidence": "已读到完整检索卡片，未带 Promovat／Sponsored 标识；仅作本次自然展示观察"
+              },
+              "shipping": "当前报价配送及运费以商品页、收货地区为准",
+              "checkedAt": "2026-10-21T11:13:32.851Z",
+              "freshness": "live",
+              "selection": "公开相关候选，不是店铺销量前十；按同平台实际卖家 ID 去重",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "emag-145251",
+          "platform": "emag",
+          "market": "RO",
+          "sellerId": "145251",
+          "name": "BUKATE STORE",
+          "url": "https://www.emag.ro/bukattmx/145251/v?ref=see_vendor_page",
+          "identitySource": "https://www.emag.ro/suport-50-capsule-de-cafea-bukate-41x26-5x7-3-compatibil-cu-nespresso-tchibo-etc-negru-metal-0701220743691/pd/D7JC18MBM/",
+          "checkedAt": "2026-10-21T11:13:33.151Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "emag-D7JC18MBM",
+              "listingId": "D7JC18MBM",
+              "listingIdType": "eMAG 商品编号",
+              "sellerSKU": null,
+              "name": "Suport 50 capsule de cafea, Bukate, 41x26.5x7.3, Compatibil cu Nespresso, Tchibo, etc, Negru, Metal",
+              "zh": "咖啡胶囊周边配件；规格见原文",
+              "system": "nespresso-unconfirmed",
+              "type": "accessories",
+              "url": "https://www.emag.ro/suport-50-capsule-de-cafea-bukate-41x26-5x7-3-compatibil-cu-nespresso-tchibo-etc-negru-metal-0701220743691/pd/D7JC18MBM/",
+              "variant": "按当前商品编号展示；卖家自定义 SKU 未公开，未将多变体合并为一个已验证 SKU",
+              "image": "store-emag-d7jc18mbm",
+              "price": {
+                "amount": 149,
+                "currency": "RON",
+                "basis": "商品页结构化报价，未含未披露运费／到手税费；核对日快照"
+              },
+              "sales": null,
+              "revenue": null,
+              "rating": 4.72,
+              "ratingCount": null,
+              "reviewScope": "商品页汇总，可能合并不同变体；非店铺评分",
+              "placement": {
+                "type": "organic",
+                "source": "https://www.emag.ro/search/capsule%20cafea%20reutilizabile",
+                "observedAt": "2026-10-21T11:13:33.151Z",
+                "evidence": "已读到完整检索卡片，未带 Promovat／Sponsored 标识；仅作本次自然展示观察"
+              },
+              "shipping": "当前报价配送及运费以商品页、收货地区为准",
+              "checkedAt": "2026-10-21T11:13:33.151Z",
+              "freshness": "live",
+              "selection": "公开相关候选，不是店铺销量前十；按同平台实际卖家 ID 去重",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "emag-233364",
+          "platform": "emag",
+          "market": "RO",
+          "sellerId": "233364",
+          "name": "Kamaia Store",
+          "url": "https://www.emag.ro/kamaiqwx/233364/v?ref=see_vendor_page",
+          "identitySource": "https://www.emag.ro/sertar-organizator-capsule-cafea-hasepe-compatibil-capsule-dolce-gusto-capsule-universale-multifunctional-pentu-zahar-si-accesorii-suport-aparat-cafea-capacitate-mare-30-capsule-35x7-5x34cm-cm-negru-k/pd/D32KHW3BM/",
+          "checkedAt": "2026-10-21T11:13:35.886Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "emag-D32KHW3BM",
+              "listingId": "D32KHW3BM",
+              "listingIdType": "eMAG 商品编号",
+              "sellerSKU": null,
+              "name": "Sertar organizator capsule cafea HASEPE, compatibil capsule DOLCE GUSTO, capsule universale, Multifunctional pentu zahar si accesorii, Suport aparat cafea, Capacitate mare 30 capsule, 35x7,5x34CM cm, Negru",
+              "zh": "咖啡胶囊周边配件；规格见原文",
+              "system": "dolce-gusto",
+              "type": "accessories",
+              "url": "https://www.emag.ro/sertar-organizator-capsule-cafea-hasepe-compatibil-capsule-dolce-gusto-capsule-universale-multifunctional-pentu-zahar-si-accesorii-suport-aparat-cafea-capacitate-mare-30-capsule-35x7-5x34cm-cm-negru-k/pd/D32KHW3BM/",
+              "variant": "按当前商品编号展示；卖家自定义 SKU 未公开，未将多变体合并为一个已验证 SKU",
+              "image": "store-emag-d32khw3bm",
+              "price": {
+                "amount": 136.09,
+                "currency": "RON",
+                "basis": "商品页结构化报价，未含未披露运费／到手税费；核对日快照"
+              },
+              "sales": null,
+              "revenue": null,
+              "rating": 5,
+              "ratingCount": null,
+              "reviewScope": "商品页汇总，可能合并不同变体；非店铺评分",
+              "placement": {
+                "type": "organic",
+                "source": "https://www.emag.ro/search/capsule%20cafea%20reutilizabile",
+                "observedAt": "2026-10-21T11:13:35.886Z",
+                "evidence": "已读到完整检索卡片，未带 Promovat／Sponsored 标识；仅作本次自然展示观察"
+              },
+              "shipping": "当前报价配送及运费以商品页、收货地区为准",
+              "checkedAt": "2026-10-21T11:13:35.886Z",
+              "freshness": "live",
+              "selection": "公开相关候选，不是店铺销量前十；按同平台实际卖家 ID 去重",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "emag-272537",
+          "platform": "emag",
+          "market": "RO",
+          "sellerId": "272537",
+          "name": "Advertising Creativ Production",
+          "url": "https://www.emag.ro/advergyl/272537/v?ref=see_vendor_page",
+          "identitySource": "https://www.emag.ro/set-5-capsule-cafea-reincarcabile-urban-trendsr-compatibile-dolce-gusto-maro-urbancapsule5x/pd/D4WGDR2BM/",
+          "checkedAt": "2026-10-21T11:13:35.854Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "emag-D4WGDR2BM",
+              "listingId": "D4WGDR2BM",
+              "listingIdType": "eMAG 商品编号",
+              "sellerSKU": null,
+              "name": "Set 5 Capsule Cafea Reincarcabile URBAN TRENDS®, Compatibile Dolce Gusto, Maro",
+              "zh": "可重复填充咖啡胶囊；规格见原文",
+              "system": "dolce-gusto",
+              "type": "reusable",
+              "url": "https://www.emag.ro/set-5-capsule-cafea-reincarcabile-urban-trendsr-compatibile-dolce-gusto-maro-urbancapsule5x/pd/D4WGDR2BM/",
+              "variant": "按当前商品编号展示；卖家自定义 SKU 未公开，未将多变体合并为一个已验证 SKU",
+              "image": "store-emag-d4wgdr2bm",
+              "price": {
+                "amount": 35.1,
+                "currency": "RON",
+                "basis": "商品页结构化报价，未含未披露运费／到手税费；核对日快照"
+              },
+              "sales": null,
+              "revenue": null,
+              "rating": null,
+              "ratingCount": null,
+              "reviewScope": "商品页汇总，可能合并不同变体；非店铺评分",
+              "placement": {
+                "type": "organic",
+                "source": "https://www.emag.ro/search/capsule%20cafea%20reutilizabile",
+                "observedAt": "2026-10-21T11:13:35.854Z",
+                "evidence": "已读到完整检索卡片，未带 Promovat／Sponsored 标识；仅作本次自然展示观察"
+              },
+              "shipping": "当前报价配送及运费以商品页、收货地区为准",
+              "checkedAt": "2026-10-21T11:13:35.854Z",
+              "freshness": "live",
+              "selection": "公开相关候选，不是店铺销量前十；按同平台实际卖家 ID 去重",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "emag-251935",
+          "platform": "emag",
+          "market": "RO",
+          "sellerId": "251935",
+          "name": "BTSHOP",
+          "url": "https://www.emag.ro/hkbennvh/251935/v?ref=see_vendor_page",
+          "identitySource": "https://www.emag.ro/set-5-capsule-cafea-reutilizabile-nespresso-vertuo-230ml-cu-2-capace-silicon-compatibile-portabile-anti-scurgeri-bt-capsulebox-5-pack-230/pd/DHJGH02BM/",
+          "checkedAt": "2026-10-21T11:13:36.063Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "emag-DHJGH02BM",
+              "listingId": "DHJGH02BM",
+              "listingIdType": "eMAG 商品编号",
+              "sellerSKU": null,
+              "name": "Set 5 capsule cafea reutilizabile Nespresso Vertuo, 230ml, cu 2 capace silicon, compatibile, portabile, anti-scurgeri",
+              "zh": "可重复填充咖啡胶囊；规格见原文",
+              "system": "vertuo",
+              "type": "reusable",
+              "url": "https://www.emag.ro/set-5-capsule-cafea-reutilizabile-nespresso-vertuo-230ml-cu-2-capace-silicon-compatibile-portabile-anti-scurgeri-bt-capsulebox-5-pack-230/pd/DHJGH02BM/",
+              "variant": "按当前商品编号展示；卖家自定义 SKU 未公开，未将多变体合并为一个已验证 SKU",
+              "image": "store-emag-dhjgh02bm",
+              "price": {
+                "amount": 71.39,
+                "currency": "RON",
+                "basis": "商品页结构化报价，未含未披露运费／到手税费；核对日快照"
+              },
+              "sales": null,
+              "revenue": null,
+              "rating": null,
+              "ratingCount": null,
+              "reviewScope": "商品页汇总，可能合并不同变体；非店铺评分",
+              "placement": {
+                "type": "organic",
+                "source": "https://www.emag.ro/search/capsule%20cafea%20reutilizabile",
+                "observedAt": "2026-10-21T11:13:36.063Z",
+                "evidence": "已读到完整检索卡片，未带 Promovat／Sponsored 标识；仅作本次自然展示观察"
+              },
+              "shipping": "当前报价配送及运费以商品页、收货地区为准",
+              "checkedAt": "2026-10-21T11:13:36.063Z",
+              "freshness": "live",
+              "selection": "公开相关候选，不是店铺销量前十；按同平台实际卖家 ID 去重",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "amazon-A2DIM3FVNOPYU4",
+          "platform": "amazon",
+          "market": "US",
+          "sellerId": "A2DIM3FVNOPYU4",
+          "name": "iFill Systems",
+          "url": "https://www.amazon.com/sp?seller=A2DIM3FVNOPYU4",
+          "identitySource": "https://www.amazon.com/dp/B0BRTCKPTF",
+          "checkedAt": "2026-10-21T11:28:39.981Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "amazon-B0BRTCKPTF",
+              "listingId": "B0BRTCKPTF",
+              "listingIdType": "ASIN",
+              "sellerSKU": null,
+              "name": "42 iFillCup Fillable K Cups, White",
+              "zh": "42 只白色可填充空杯；未核实可重复使用寿命",
+              "system": "k-cup",
+              "type": "accessories",
+              "url": "https://www.amazon.com/dp/B0BRTCKPTF",
+              "variant": "来自具体刊登的展示图；卖家 SKU 未公开，颜色／容量／包装等子变体尚未逐一核验",
+              "image": "store-amazon-b0brtckptf",
+              "price": null,
+              "sales": null,
+              "revenue": null,
+              "rating": null,
+              "ratingCount": null,
+              "reviewScope": "索引未核验本商品当前汇总评分，不用店铺评分代替",
+              "placement": {
+                "type": "unknown",
+                "source": "https://www.amazon.com/dp/B0BRTCKPTF",
+                "observedAt": "2026-10-21T11:28:39.981Z",
+                "evidence": "只取得公开商品详情索引，未取得可核对广告标识的展示位；搜索引擎结果不当作平台免费流量"
+              },
+              "shipping": "配送、运费、时效及售后未按指定收货地区核验",
+              "checkedAt": "2026-10-21T11:28:39.981Z",
+              "freshness": "indexed",
+              "freshnessNote": "2026-10-21 读取；工具报告约一月前抓取的公开索引。不作为即时报价或当前销售量。",
+              "selection": "公开相关店铺候选，不是店铺销量前十；按卖家标识去重",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "amazon-A34FBPBDCJH46E",
+          "platform": "amazon",
+          "market": "US",
+          "sellerId": "A34FBPBDCJH46E",
+          "name": "Quick & Clean Beverages",
+          "url": "https://www.amazon.com/sp?seller=A34FBPBDCJH46E",
+          "identitySource": "https://www.amazon.com/dp/B074CK3QSH",
+          "checkedAt": "2026-10-21T11:28:39.980Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "amazon-B074CK3QSH",
+              "listingId": "B074CK3QSH",
+              "listingIdType": "ASIN",
+              "sellerSKU": null,
+              "name": "Quick & Clean Keurig Cleaning Pods, 6 Pack",
+              "zh": "Keurig 咖啡机清洁胶囊，6 只装；不是饮用咖啡",
+              "system": "k-cup",
+              "type": "accessories",
+              "url": "https://www.amazon.com/dp/B074CK3QSH",
+              "variant": "来自具体刊登的展示图；卖家 SKU 未公开，颜色／容量／包装等子变体尚未逐一核验",
+              "image": "store-amazon-b074ck3qsh",
+              "price": null,
+              "sales": null,
+              "revenue": null,
+              "rating": null,
+              "ratingCount": null,
+              "reviewScope": "索引未核验本商品当前汇总评分，不用店铺评分代替",
+              "placement": {
+                "type": "unknown",
+                "source": "https://www.amazon.com/dp/B074CK3QSH",
+                "observedAt": "2026-10-21T11:28:39.980Z",
+                "evidence": "只取得公开商品详情索引，未取得可核对广告标识的展示位；搜索引擎结果不当作平台免费流量"
+              },
+              "shipping": "配送、运费、时效及售后未按指定收货地区核验",
+              "checkedAt": "2026-10-21T11:28:39.980Z",
+              "freshness": "indexed",
+              "freshnessNote": "2026-10-21 读取；工具报告约三周前抓取的公开索引。不作为即时报价或当前销售量。",
+              "selection": "公开相关店铺候选，不是店铺销量前十；按卖家标识去重",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "amazon-A3TAMZIM29DE6T",
+          "platform": "amazon",
+          "market": "US",
+          "sellerId": "A3TAMZIM29DE6T",
+          "name": "Aieve",
+          "url": "https://www.amazon.com/sp?seller=A3TAMZIM29DE6T",
+          "identitySource": "https://www.amazon.com/dp/B07Z4MLYGR",
+          "checkedAt": "2026-10-21T11:28:39.952Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "amazon-B07Z4MLYGR",
+              "listingId": "B07Z4MLYGR",
+              "listingIdType": "ASIN",
+              "sellerSKU": null,
+              "name": "Aieve 120 Pcs Aluminum Foil Seal Lids for Reusable Nespresso Pods Vertuo",
+              "zh": "Vertuo 胶囊铝制封口膜，120 张",
+              "system": "vertuo",
+              "type": "accessories",
+              "url": "https://www.amazon.com/dp/B07Z4MLYGR",
+              "variant": "来自具体刊登的展示图；卖家 SKU 未公开，颜色／容量／包装等子变体尚未逐一核验",
+              "image": "store-amazon-b07z4mlygr",
+              "price": null,
+              "sales": null,
+              "revenue": null,
+              "rating": null,
+              "ratingCount": null,
+              "reviewScope": "索引未核验本商品当前汇总评分，不用店铺评分代替",
+              "placement": {
+                "type": "unknown",
+                "source": "https://www.amazon.com/dp/B07Z4MLYGR",
+                "observedAt": "2026-10-21T11:28:39.952Z",
+                "evidence": "只取得公开商品详情索引，未取得可核对广告标识的展示位；搜索引擎结果不当作平台免费流量"
+              },
+              "shipping": "配送、运费、时效及售后未按指定收货地区核验",
+              "checkedAt": "2026-10-21T11:28:39.952Z",
+              "freshness": "indexed",
+              "freshnessNote": "2026-10-21 读取；工具报告约一周前抓取的公开索引。不作为即时报价或当前销售量。",
+              "selection": "公开相关店铺候选，不是店铺销量前十；按卖家标识去重",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "etsy-ColombianCoffeeShop",
+          "platform": "etsy",
+          "market": "WW",
+          "sellerId": "ColombianCoffeeShop",
+          "name": "ColombianCoffeeShop",
+          "url": "https://www.etsy.com/shop/ColombianCoffeeShop",
+          "identitySource": "https://www.etsy.com/listing/1725343347",
+          "checkedAt": "2026-10-21T11:28:39.982Z",
+          "shopSales": {
+            "text": "820 sales",
+            "scope": "shop",
+            "period": "cumulative",
+            "basis": "全店累计公开销售计数，可能有取整；不是本商品销量或月销量"
+          },
+          "shopRating": null,
+          "items": [
+            {
+              "id": "etsy-1725343347",
+              "listingId": "1725343347",
+              "listingIdType": "Etsy 刊登编号",
+              "sellerSKU": null,
+              "name": "Reusable Capsule Nespresso Coffee Pod Stainless Steel",
+              "zh": "Nespresso Original 不锈钢可填充胶囊",
+              "system": "original",
+              "type": "reusable",
+              "url": "https://www.etsy.com/listing/1725343347",
+              "variant": "来自具体刊登的展示图；卖家 SKU 未公开，颜色／容量／包装等子变体尚未逐一核验",
+              "image": "store-etsy-1725343347",
+              "price": null,
+              "sales": null,
+              "revenue": null,
+              "rating": null,
+              "ratingCount": null,
+              "reviewScope": "索引未核验本商品当前汇总评分，不用店铺评分代替",
+              "placement": {
+                "type": "unknown",
+                "source": "https://www.etsy.com/listing/1725343347",
+                "observedAt": "2026-10-21T11:28:39.982Z",
+                "evidence": "只取得公开商品详情索引，未取得可核对广告标识的展示位；搜索引擎结果不当作平台免费流量"
+              },
+              "shipping": "配送、运费、时效及售后未按指定收货地区核验",
+              "checkedAt": "2026-10-21T11:28:39.982Z",
+              "freshness": "indexed",
+              "freshnessNote": "2026-10-21 读取；工具报告约六天前抓取的公开索引。不作为即时报价或当前销售量。",
+              "selection": "公开相关店铺候选，不是店铺销量前十；按卖家标识去重",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "etsy-SanHel3DGifts",
+          "platform": "etsy",
+          "market": "WW",
+          "sellerId": "SanHel3DGifts",
+          "name": "SanHel3DGifts",
+          "url": "https://www.etsy.com/shop/SanHel3DGifts",
+          "identitySource": "https://www.etsy.com/listing/4522199082",
+          "checkedAt": "2026-10-21T11:28:41.089Z",
+          "shopSales": {
+            "text": "90 sales",
+            "scope": "shop",
+            "period": "cumulative",
+            "basis": "全店累计公开销售计数，可能有取整；不是本商品销量或月销量"
+          },
+          "shopRating": null,
+          "items": [
+            {
+              "id": "etsy-4522199082",
+              "listingId": "4522199082",
+              "listingIdType": "Etsy 刊登编号",
+              "sellerSKU": null,
+              "name": "3D Printed Rotating Coffee Capsule Holder, Any Brand Pod Organizer",
+              "zh": "旋转式胶囊收纳架；兼容范围为卖家声明，未实测",
+              "system": "unconfirmed",
+              "type": "accessories",
+              "url": "https://www.etsy.com/listing/4522199082",
+              "variant": "来自具体刊登的展示图；卖家 SKU 未公开，颜色／容量／包装等子变体尚未逐一核验",
+              "image": "store-etsy-4522199082",
+              "price": null,
+              "sales": null,
+              "revenue": null,
+              "rating": null,
+              "ratingCount": null,
+              "reviewScope": "索引未核验本商品当前汇总评分，不用店铺评分代替",
+              "placement": {
+                "type": "unknown",
+                "source": "https://www.etsy.com/listing/4522199082",
+                "observedAt": "2026-10-21T11:28:41.089Z",
+                "evidence": "只取得公开商品详情索引，未取得可核对广告标识的展示位；搜索引擎结果不当作平台免费流量"
+              },
+              "shipping": "配送、运费、时效及售后未按指定收货地区核验",
+              "checkedAt": "2026-10-21T11:28:41.089Z",
+              "freshness": "indexed",
+              "freshnessNote": "2026-10-21 读取；工具报告约两月前抓取的公开索引。不作为即时报价或当前销售量。",
+              "selection": "公开相关店铺候选，不是店铺销量前十；按卖家标识去重",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "etsy-PrintFoundryCA",
+          "platform": "etsy",
+          "market": "WW",
+          "sellerId": "PrintFoundryCA",
+          "name": "PrintFoundryCA",
+          "url": "https://www.etsy.com/shop/PrintFoundryCA",
+          "identitySource": "https://www.etsy.com/listing/4480803482",
+          "checkedAt": "2026-10-21T11:28:40.851Z",
+          "shopSales": {
+            "text": "1k sales",
+            "scope": "shop",
+            "period": "cumulative",
+            "basis": "全店累计公开销售计数，可能有取整；不是本商品销量或月销量"
+          },
+          "shopRating": null,
+          "items": [
+            {
+              "id": "etsy-4480803482",
+              "listingId": "4480803482",
+              "listingIdType": "Etsy 刊登编号",
+              "sellerSKU": null,
+              "name": "3D Printed Coffee Capsule Holder, Nespresso Pod Organizer",
+              "zh": "3D 打印胶囊收纳架；单／双槽及颜色需单独选定",
+              "system": "unconfirmed",
+              "type": "accessories",
+              "url": "https://www.etsy.com/listing/4480803482",
+              "variant": "来自具体刊登的展示图；卖家 SKU 未公开，颜色／容量／包装等子变体尚未逐一核验",
+              "image": "store-etsy-4480803482",
+              "price": null,
+              "sales": null,
+              "revenue": null,
+              "rating": null,
+              "ratingCount": null,
+              "reviewScope": "索引未核验本商品当前汇总评分，不用店铺评分代替",
+              "placement": {
+                "type": "unknown",
+                "source": "https://www.etsy.com/listing/4480803482",
+                "observedAt": "2026-10-21T11:28:40.851Z",
+                "evidence": "只取得公开商品详情索引，未取得可核对广告标识的展示位；搜索引擎结果不当作平台免费流量"
+              },
+              "shipping": "配送、运费、时效及售后未按指定收货地区核验",
+              "checkedAt": "2026-10-21T11:28:40.851Z",
+              "freshness": "indexed",
+              "freshnessNote": "2026-10-21 读取；工具报告约两周前抓取的公开索引。不作为即时报价或当前销售量。",
+              "selection": "公开相关店铺候选，不是店铺销量前十；按卖家标识去重",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "etsy-KS3DUK",
+          "platform": "etsy",
+          "market": "WW",
+          "sellerId": "KS3DUK",
+          "name": "KS3DUK",
+          "url": "https://www.etsy.com/shop/KS3DUK",
+          "identitySource": "https://www.etsy.com/listing/1501413651",
+          "checkedAt": "2026-10-21T11:28:41.711Z",
+          "shopSales": {
+            "text": "604 sales",
+            "scope": "shop",
+            "period": "cumulative",
+            "basis": "全店累计公开销售计数，可能有取整；不是本商品销量或月销量"
+          },
+          "shopRating": null,
+          "items": [
+            {
+              "id": "etsy-1501413651",
+              "listingId": "1501413651",
+              "listingIdType": "Etsy 刊登编号",
+              "sellerSKU": null,
+              "name": "Nespresso Coffee Capsule Holder with Automatic Repositioning",
+              "zh": "壁挂式胶囊收纳架；容量与颜色按选项核对",
+              "system": "nespresso-unconfirmed",
+              "type": "accessories",
+              "url": "https://www.etsy.com/listing/1501413651",
+              "variant": "来自具体刊登的展示图；卖家 SKU 未公开，颜色／容量／包装等子变体尚未逐一核验",
+              "image": "store-etsy-1501413651",
+              "price": null,
+              "sales": null,
+              "revenue": null,
+              "rating": null,
+              "ratingCount": null,
+              "reviewScope": "索引未核验本商品当前汇总评分，不用店铺评分代替",
+              "placement": {
+                "type": "unknown",
+                "source": "https://www.etsy.com/listing/1501413651",
+                "observedAt": "2026-10-21T11:28:41.711Z",
+                "evidence": "只取得公开商品详情索引，未取得可核对广告标识的展示位；搜索引擎结果不当作平台免费流量"
+              },
+              "shipping": "配送、运费、时效及售后未按指定收货地区核验",
+              "checkedAt": "2026-10-21T11:28:41.711Z",
+              "freshness": "indexed",
+              "freshnessNote": "2026-10-21 读取；工具报告约两周前抓取的公开索引。不作为即时报价或当前销售量。",
+              "selection": "公开相关店铺候选，不是店铺销量前十；按卖家标识去重",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "etsy-LupynDE",
+          "platform": "etsy",
+          "market": "WW",
+          "sellerId": "LupynDE",
+          "name": "LupynDE",
+          "url": "https://www.etsy.com/shop/LupynDE",
+          "identitySource": "https://www.etsy.com/listing/1854550485",
+          "checkedAt": "2026-10-21T11:28:41.892Z",
+          "shopSales": {
+            "text": "169 sales",
+            "scope": "shop",
+            "period": "cumulative",
+            "basis": "全店累计公开销售计数，可能有取整；不是本商品销量或月销量"
+          },
+          "shopRating": null,
+          "items": [
+            {
+              "id": "etsy-1854550485",
+              "listingId": "1854550485",
+              "listingIdType": "Etsy 刊登编号",
+              "sellerSKU": null,
+              "name": "Capsule Holder, Space for 20 Nespresso Capsules, Self-adhesive Mounting",
+              "zh": "自粘式胶囊收纳架；卖家标题称容纳 20 颗",
+              "system": "nespresso-unconfirmed",
+              "type": "accessories",
+              "url": "https://www.etsy.com/listing/1854550485",
+              "variant": "来自具体刊登的展示图；卖家 SKU 未公开，颜色／容量／包装等子变体尚未逐一核验",
+              "image": "store-etsy-1854550485",
+              "price": null,
+              "sales": null,
+              "revenue": null,
+              "rating": null,
+              "ratingCount": null,
+              "reviewScope": "索引未核验本商品当前汇总评分，不用店铺评分代替",
+              "placement": {
+                "type": "unknown",
+                "source": "https://www.etsy.com/listing/1854550485",
+                "observedAt": "2026-10-21T11:28:41.892Z",
+                "evidence": "只取得公开商品详情索引，未取得可核对广告标识的展示位；搜索引擎结果不当作平台免费流量"
+              },
+              "shipping": "配送、运费、时效及售后未按指定收货地区核验",
+              "checkedAt": "2026-10-21T11:28:41.892Z",
+              "freshness": "indexed",
+              "freshnessNote": "2026-10-21 读取；工具报告约五天前抓取的公开索引。不作为即时报价或当前销售量。",
+              "selection": "公开相关店铺候选，不是店铺销量前十；按卖家标识去重",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "etsy-JPPRINTGB",
+          "platform": "etsy",
+          "market": "WW",
+          "sellerId": "JPPRINTGB",
+          "name": "JPPRINTGB",
+          "url": "https://www.etsy.com/shop/JPPRINTGB",
+          "identitySource": "https://www.etsy.com/listing/1862405965",
+          "checkedAt": "2026-10-21T11:28:42.498Z",
+          "shopSales": {
+            "text": "961 sales",
+            "scope": "shop",
+            "period": "cumulative",
+            "basis": "全店累计公开销售计数，可能有取整；不是本商品销量或月销量"
+          },
+          "shopRating": null,
+          "items": [
+            {
+              "id": "etsy-1862405965",
+              "listingId": "1862405965",
+              "listingIdType": "Etsy 刊登编号",
+              "sellerSKU": null,
+              "name": "Coffee Pod Holder for Dolce Gusto Pods in 3 Sizes, 3D Printed",
+              "zh": "Dolce Gusto 胶囊收纳架，三个尺寸选项未逐一核验",
+              "system": "dolce-gusto",
+              "type": "accessories",
+              "url": "https://www.etsy.com/listing/1862405965",
+              "variant": "来自具体刊登的展示图；卖家 SKU 未公开，颜色／容量／包装等子变体尚未逐一核验",
+              "image": "store-etsy-1862405965",
+              "price": null,
+              "sales": null,
+              "revenue": null,
+              "rating": null,
+              "ratingCount": null,
+              "reviewScope": "索引未核验本商品当前汇总评分，不用店铺评分代替",
+              "placement": {
+                "type": "unknown",
+                "source": "https://www.etsy.com/listing/1862405965",
+                "observedAt": "2026-10-21T11:28:42.498Z",
+                "evidence": "只取得公开商品详情索引，未取得可核对广告标识的展示位；搜索引擎结果不当作平台免费流量"
+              },
+              "shipping": "配送、运费、时效及售后未按指定收货地区核验",
+              "checkedAt": "2026-10-21T11:28:42.498Z",
+              "freshness": "indexed",
+              "freshnessNote": "2026-10-21 读取；工具报告约四天前抓取的公开索引。不作为即时报价或当前销售量。",
+              "selection": "公开相关店铺候选，不是店铺销量前十；按卖家标识去重",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "etsy-DesignWorksFDM",
+          "platform": "etsy",
+          "market": "WW",
+          "sellerId": "DesignWorksFDM",
+          "name": "DesignWorksFDM",
+          "url": "https://www.etsy.com/shop/DesignWorksFDM",
+          "identitySource": "https://www.etsy.com/listing/1747045251",
+          "checkedAt": "2026-10-21T11:28:43.550Z",
+          "shopSales": {
+            "text": "925 sales",
+            "scope": "shop",
+            "period": "cumulative",
+            "basis": "全店累计公开销售计数，可能有取整；不是本商品销量或月销量"
+          },
+          "shopRating": null,
+          "items": [
+            {
+              "id": "etsy-1747045251",
+              "listingId": "1747045251",
+              "listingIdType": "Etsy 刊登编号",
+              "sellerSKU": null,
+              "name": "Nespresso Original Capsule Holder, Coffee Pod Organizer",
+              "zh": "Original 胶囊收纳架；原图可能展示其他颜色／容量选项，子变体待核验",
+              "system": "original",
+              "type": "accessories",
+              "url": "https://www.etsy.com/listing/1747045251",
+              "variant": "来自具体刊登的展示图；卖家 SKU 未公开，颜色／容量／包装等子变体尚未逐一核验",
+              "image": "store-etsy-1747045251",
+              "price": null,
+              "sales": null,
+              "revenue": null,
+              "rating": null,
+              "ratingCount": null,
+              "reviewScope": "索引未核验本商品当前汇总评分，不用店铺评分代替",
+              "placement": {
+                "type": "unknown",
+                "source": "https://www.etsy.com/listing/1747045251",
+                "observedAt": "2026-10-21T11:28:43.550Z",
+                "evidence": "只取得公开商品详情索引，未取得可核对广告标识的展示位；搜索引擎结果不当作平台免费流量"
+              },
+              "shipping": "配送、运费、时效及售后未按指定收货地区核验",
+              "checkedAt": "2026-10-21T11:28:43.550Z",
+              "freshness": "indexed",
+              "freshnessNote": "2026-10-21 读取；工具报告约一周前抓取的公开索引。不作为即时报价或当前销售量。",
+              "selection": "公开相关店铺候选，不是店铺销量前十；按卖家标识去重",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "etsy-AnnaMillerArtSpain",
+          "platform": "etsy",
+          "market": "WW",
+          "sellerId": "AnnaMillerArtSpain",
+          "name": "AnnaMillerArtSpain",
+          "url": "https://www.etsy.com/shop/AnnaMillerArtSpain",
+          "identitySource": "https://www.etsy.com/listing/1748803648",
+          "checkedAt": "2026-10-21T11:28:43.303Z",
+          "shopSales": {
+            "text": "737 sales",
+            "scope": "shop",
+            "period": "cumulative",
+            "basis": "全店累计公开销售计数，可能有取整；不是本商品销量或月销量"
+          },
+          "shopRating": null,
+          "items": [
+            {
+              "id": "etsy-1748803648",
+              "listingId": "1748803648",
+              "listingIdType": "Etsy 刊登编号",
+              "sellerSKU": null,
+              "name": "Luxury Resin Coffee Pod Holder, Ocean Wave Capsule Rack",
+              "zh": "海浪树脂装饰胶囊收纳架；图片为对应刊登图",
+              "system": "unconfirmed",
+              "type": "accessories",
+              "url": "https://www.etsy.com/listing/1748803648",
+              "variant": "来自具体刊登的展示图；卖家 SKU 未公开，颜色／容量／包装等子变体尚未逐一核验",
+              "image": "store-etsy-1748803648",
+              "price": null,
+              "sales": null,
+              "revenue": null,
+              "rating": null,
+              "ratingCount": null,
+              "reviewScope": "索引未核验本商品当前汇总评分，不用店铺评分代替",
+              "placement": {
+                "type": "unknown",
+                "source": "https://www.etsy.com/listing/1748803648",
+                "observedAt": "2026-10-21T11:28:43.303Z",
+                "evidence": "只取得公开商品详情索引，未取得可核对广告标识的展示位；搜索引擎结果不当作平台免费流量"
+              },
+              "shipping": "配送、运费、时效及售后未按指定收货地区核验",
+              "checkedAt": "2026-10-21T11:28:43.303Z",
+              "freshness": "indexed",
+              "freshnessNote": "2026-10-21 读取；工具报告约两月前抓取的公开索引。不作为即时报价或当前销售量。",
+              "selection": "公开相关店铺候选，不是店铺销量前十；按卖家标识去重",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "etsy-UnicornPrint3D",
+          "platform": "etsy",
+          "market": "WW",
+          "sellerId": "UnicornPrint3D",
+          "name": "UnicornPrint3D",
+          "url": "https://www.etsy.com/shop/UnicornPrint3D",
+          "identitySource": "https://www.etsy.com/listing/4460907837",
+          "checkedAt": "2026-10-21T11:28:44.211Z",
+          "shopSales": {
+            "text": "25 sales",
+            "scope": "shop",
+            "period": "cumulative",
+            "basis": "全店累计公开销售计数，可能有取整；不是本商品销量或月销量"
+          },
+          "shopRating": null,
+          "items": [
+            {
+              "id": "etsy-4460907837",
+              "listingId": "4460907837",
+              "listingIdType": "Etsy 刊登编号",
+              "sellerSKU": null,
+              "name": "Dolce Gusto Wavy Capsule Holder, Coffee Capsule Stand",
+              "zh": "波浪形双面胶囊收纳架；容量按卖家具体选项核对",
+              "system": "dolce-gusto",
+              "type": "accessories",
+              "url": "https://www.etsy.com/listing/4460907837",
+              "variant": "来自具体刊登的展示图；卖家 SKU 未公开，颜色／容量／包装等子变体尚未逐一核验",
+              "image": "store-etsy-4460907837",
+              "price": null,
+              "sales": null,
+              "revenue": null,
+              "rating": null,
+              "ratingCount": null,
+              "reviewScope": "索引未核验本商品当前汇总评分，不用店铺评分代替",
+              "placement": {
+                "type": "unknown",
+                "source": "https://www.etsy.com/listing/4460907837",
+                "observedAt": "2026-10-21T11:28:44.211Z",
+                "evidence": "只取得公开商品详情索引，未取得可核对广告标识的展示位；搜索引擎结果不当作平台免费流量"
+              },
+              "shipping": "配送、运费、时效及售后未按指定收货地区核验",
+              "checkedAt": "2026-10-21T11:28:44.211Z",
+              "freshness": "indexed",
+              "freshnessNote": "2026-10-21 读取；工具报告约两周前抓取的公开索引。不作为即时报价或当前销售量。",
+              "selection": "公开相关店铺候选，不是店铺销量前十；按卖家标识去重",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "etsy-RealWorldDesigns3D",
+          "platform": "etsy",
+          "market": "WW",
+          "sellerId": "RealWorldDesigns3D",
+          "name": "RealWorldDesigns3D",
+          "url": "https://www.etsy.com/shop/RealWorldDesigns3D",
+          "identitySource": "https://www.etsy.com/listing/4535495268",
+          "checkedAt": "2026-10-21T11:28:44.214Z",
+          "shopSales": {
+            "text": "372 sales",
+            "scope": "shop",
+            "period": "cumulative",
+            "basis": "全店累计公开销售计数，可能有取整；不是本商品销量或月销量"
+          },
+          "shopRating": null,
+          "items": [
+            {
+              "id": "etsy-4535495268",
+              "listingId": "4535495268",
+              "listingIdType": "Etsy 刊登编号",
+              "sellerSKU": null,
+              "name": "BrewSpin Rotating Coffee Pod Holder, Nespresso & Dolce Gusto Organizer",
+              "zh": "BrewSpin 旋转式胶囊收纳架；颜色、材质与适配选项待分别核验",
+              "system": "unconfirmed",
+              "type": "accessories",
+              "url": "https://www.etsy.com/listing/4535495268",
+              "variant": "来自具体刊登的展示图；卖家 SKU 未公开，颜色／容量／包装等子变体尚未逐一核验",
+              "image": "store-etsy-4535495268",
+              "price": null,
+              "sales": null,
+              "revenue": null,
+              "rating": null,
+              "ratingCount": null,
+              "reviewScope": "索引未核验本商品当前汇总评分，不用店铺评分代替",
+              "placement": {
+                "type": "unknown",
+                "source": "https://www.etsy.com/listing/4535495268",
+                "observedAt": "2026-10-21T11:28:44.214Z",
+                "evidence": "只取得公开商品详情索引，未取得可核对广告标识的展示位；搜索引擎结果不当作平台免费流量"
+              },
+              "shipping": "配送、运费、时效及售后未按指定收货地区核验",
+              "checkedAt": "2026-10-21T11:28:44.214Z",
+              "freshness": "indexed",
+              "freshnessNote": "2026-10-21 读取；工具报告约三天前抓取的公开索引。不作为即时报价或当前销售量。",
+              "selection": "公开相关店铺候选，不是店铺销量前十；按卖家标识去重",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "ebay-beautiful1010",
+          "platform": "ebay",
+          "market": "US",
+          "sellerId": "beautiful1010",
+          "name": "beautiful1010",
+          "url": "https://www.ebay.com/str/beautiful1010",
+          "identitySource": "https://www.ebay.com/itm/168280152762",
+          "checkedAt": "2026-10-21T11:33:07.317Z",
+          "shopSales": {
+            "text": "8.8K items sold",
+            "scope": "shop",
+            "period": "cumulative",
+            "basis": "原文 About this seller 的全店累计计数，存在取整与索引时差，非本商品销量"
+          },
+          "shopRating": null,
+          "items": [
+            {
+              "id": "ebay-168280152762",
+              "listingId": "168280152762",
+              "listingIdType": "eBay Item ID",
+              "sellerSKU": null,
+              "name": "Reusable Refillable Stainless Steel Coffee Capsule For Nesspresso U Machine",
+              "zh": "不锈钢可填充胶囊；刊登声称适配 Nespresso U，尚未实测",
+              "system": "nespresso-unconfirmed",
+              "type": "reusable",
+              "url": "https://www.ebay.com/itm/168280152762",
+              "variant": "按该刊登原图定位，卖家 SKU 与子规格未公开／未核验",
+              "image": "store-ebay-168280152762",
+              "price": null,
+              "sales": null,
+              "revenue": null,
+              "rating": null,
+              "ratingCount": null,
+              "reviewScope": "未取得该商品可核对评分，不将卖家好评率当成商品评分",
+              "placement": {
+                "type": "unknown",
+                "source": "https://www.ebay.com/itm/168280152762",
+                "observedAt": "2026-10-21T11:33:07.317Z",
+                "evidence": "公开详情索引不提供足以判断推广属性的展示位；不推断店铺免费流量"
+              },
+              "shipping": "运费、目的国、进口费用及实际时效待按收货地址核验",
+              "checkedAt": "2026-10-21T11:33:07.317Z",
+              "freshness": "indexed",
+              "freshnessNote": "2026-10-21 读取；工具报告约两月前抓取的公开索引。未将旧报价和销售计数视为当前数据。",
+              "selection": "公开相关候选，不是店铺销量前十",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "ebay-truenorthwholesale",
+          "platform": "ebay",
+          "market": "US",
+          "sellerId": "truenorthwholesale",
+          "name": "True North Wholesale",
+          "url": "https://www.ebay.com/str/truenorthwholesale",
+          "identitySource": "https://www.ebay.com/itm/366309356130",
+          "checkedAt": "2026-10-21T11:33:08.673Z",
+          "shopSales": {
+            "text": "2.0K items sold",
+            "scope": "shop",
+            "period": "cumulative",
+            "basis": "原文 About this seller 的全店累计计数，存在取整与索引时差，非本商品销量"
+          },
+          "shopRating": null,
+          "items": [
+            {
+              "id": "ebay-366309356130",
+              "listingId": "366309356130",
+              "listingIdType": "eBay Item ID",
+              "sellerSKU": null,
+              "name": "Stainless Steel Reusable Coffee Capsule for Nespresso VertuoLine Machines",
+              "zh": "不锈钢可填充胶囊；刊登声称适配 VertuoLine，具体机型待核验",
+              "system": "vertuo",
+              "type": "reusable",
+              "url": "https://www.ebay.com/itm/366309356130",
+              "variant": "按该刊登原图定位，卖家 SKU 与子规格未公开／未核验",
+              "image": "store-ebay-366309356130",
+              "price": null,
+              "sales": null,
+              "revenue": null,
+              "rating": null,
+              "ratingCount": null,
+              "reviewScope": "未取得该商品可核对评分，不将卖家好评率当成商品评分",
+              "placement": {
+                "type": "unknown",
+                "source": "https://www.ebay.com/itm/366309356130",
+                "observedAt": "2026-10-21T11:33:08.673Z",
+                "evidence": "公开详情索引不提供足以判断推广属性的展示位；不推断店铺免费流量"
+              },
+              "shipping": "运费、目的国、进口费用及实际时效待按收货地址核验",
+              "checkedAt": "2026-10-21T11:33:08.673Z",
+              "freshness": "indexed",
+              "freshnessNote": "2026-10-21 读取；工具报告约两月前抓取的公开索引。未将旧报价和销售计数视为当前数据。",
+              "selection": "公开相关候选，不是店铺销量前十",
+              "painRefs": []
+            }
+          ]
+        }
+      ],
+      "platforms": [
+        {
+          "id": "amazon",
+          "targetStores": 10,
+          "queryURL": "https://www.amazon.com/s?k=reusable%20coffee%20capsule",
+          "query": "reusable coffee capsule",
+          "market": "US",
+          "checkedAt": "2026-10-21T11:10:45.148Z",
+          "status": 503,
+          "accessNote": "已核对 10/10 家不同店铺；包含直接页面与标明时间缺口的公开索引，非销量排名"
+        },
+        {
+          "id": "ebay",
+          "targetStores": 10,
+          "queryURL": "https://www.ebay.com/sch/i.html?_nkw=reusable%20coffee%20capsule",
+          "query": "reusable coffee capsule",
+          "market": "US",
+          "checkedAt": "2026-10-21T11:10:44.983Z",
+          "status": 403,
+          "accessNote": "已从公开详情索引核对 2/10 家不同店铺及刊登原图；直连详情仍返回 HTTP 403，尚缺 8 家；索引未作为实时价格。"
+        },
+        {
+          "id": "temu",
+          "targetStores": 10,
+          "queryURL": "https://www.temu.com/search_result.html?search_key=reusable%20coffee%20capsule",
+          "query": "reusable coffee capsule",
+          "market": "US",
+          "checkedAt": "2026-10-21T11:10:44.797Z",
+          "status": 200,
+          "accessNote": "已尝试公开入口，未取得能同时确认店铺、商品编号和对应原图的记录"
+        },
+        {
+          "id": "shein",
+          "targetStores": 10,
+          "queryURL": "https://us.shein.com/pdsearch/reusable%20coffee%20capsule/",
+          "query": "reusable coffee capsule",
+          "market": "US",
+          "checkedAt": "2026-10-21T11:10:45.230Z",
+          "status": 403,
+          "accessNote": "公开入口访问受限（HTTP 403），未绕过限制"
+        },
+        {
+          "id": "aliexpress",
+          "targetStores": 10,
+          "queryURL": "https://www.aliexpress.com/w/wholesale-reusable-coffee-capsule.html",
+          "query": "reusable coffee capsule",
+          "market": "WW",
+          "checkedAt": "2026-10-21T11:10:45.038Z",
+          "status": 200,
+          "accessNote": "已尝试公开入口，未取得能同时确认店铺、商品编号和对应原图的记录"
+        },
+        {
+          "id": "tiktok",
+          "targetStores": 10,
+          "queryURL": "https://shop.tiktok.com/us/k/reusable-coffee-capsule",
+          "query": "reusable coffee capsule",
+          "market": "US",
+          "checkedAt": "2026-10-21T11:10:55.313Z",
+          "status": null,
+          "accessNote": "公开入口读取失败（TypeError），尚缺可核对店铺与商品证据"
+        },
+        {
+          "id": "ozon",
+          "targetStores": 10,
+          "queryURL": "https://www.ozon.ru/search/?text=%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BA%D0%B0%D0%BF%D1%81%D1%83%D0%BB%D1%8B%20%D0%BA%D0%BE%D1%84%D0%B5",
+          "query": "многоразовые капсулы кофе",
+          "market": "RU",
+          "checkedAt": "2026-10-21T11:10:57.047Z",
+          "status": null,
+          "accessNote": "公开入口读取失败（TimeoutError），尚缺可核对店铺与商品证据"
+        },
+        {
+          "id": "jumia",
+          "targetStores": 10,
+          "queryURL": "https://www.jumia.com.ng/catalog/?q=reusable%20coffee%20capsule",
+          "query": "reusable coffee capsule",
+          "market": "NG",
+          "checkedAt": "2026-10-21T11:10:46.507Z",
+          "status": 403,
+          "accessNote": "公开入口访问受限（HTTP 403），未绕过限制"
+        },
+        {
+          "id": "allegro",
+          "targetStores": 10,
+          "queryURL": "https://allegro.pl/listing?string=kapsulki%20wielokrotnego%20uzytku",
+          "query": "kapsulki wielokrotnego uzytku",
+          "market": "PL",
+          "checkedAt": "2026-10-21T11:10:47.063Z",
+          "status": 403,
+          "accessNote": "公开入口访问受限（HTTP 403），未绕过限制"
+        },
+        {
+          "id": "lazada",
+          "targetStores": 10,
+          "queryURL": "https://www.lazada.sg/catalog/?q=reusable%20coffee%20capsule",
+          "query": "reusable coffee capsule",
+          "market": "SG",
+          "checkedAt": "2026-10-21T11:10:56.823Z",
+          "status": null,
+          "accessNote": "公开入口读取失败（TypeError），尚缺可核对店铺与商品证据"
+        },
+        {
+          "id": "shopee",
+          "targetStores": 10,
+          "queryURL": "https://shopee.sg/search?keyword=reusable%20coffee%20capsule",
+          "query": "reusable coffee capsule",
+          "market": "SG",
+          "checkedAt": "2026-10-21T11:10:47.474Z",
+          "status": 200,
+          "accessNote": "已尝试公开入口，未取得能同时确认店铺、商品编号和对应原图的记录"
+        },
+        {
+          "id": "mercado-libre",
+          "targetStores": 10,
+          "queryURL": "https://listado.mercadolibre.com.mx/reusable-coffee-capsule",
+          "query": "reusable coffee capsule",
+          "market": "MX",
+          "checkedAt": "2026-10-21T11:10:48.204Z",
+          "status": 403,
+          "accessNote": "公开入口访问受限（HTTP 403），未绕过限制"
+        },
+        {
+          "id": "cdiscount",
+          "targetStores": 10,
+          "queryURL": "https://www.cdiscount.com/search/10/reusable%20coffee%20capsule.html",
+          "query": "reusable coffee capsule",
+          "market": "FR",
+          "checkedAt": "2026-10-21T11:10:48.918Z",
+          "status": 200,
+          "accessNote": "已尝试公开入口，未取得能同时确认店铺、商品编号和对应原图的记录"
+        },
+        {
+          "id": "wish",
+          "targetStores": 10,
+          "queryURL": "https://www.wish.com/search/reusable%20coffee%20capsule",
+          "query": "reusable coffee capsule",
+          "market": "WW",
+          "checkedAt": "2026-10-21T11:11:00.927Z",
+          "status": null,
+          "accessNote": "公开入口读取失败（TimeoutError），尚缺可核对店铺与商品证据"
+        },
+        {
+          "id": "emag",
+          "targetStores": 10,
+          "queryURL": "https://www.emag.ro/search/capsule%20cafea%20reutilizabile",
+          "query": "capsule cafea reutilizabile",
+          "market": "RO",
+          "checkedAt": "2026-10-21T11:10:58.445Z",
+          "status": 200,
+          "accessNote": "已核对 10/10 家不同店铺；包含直接页面与标明时间缺口的公开索引，非销量排名"
+        },
+        {
+          "id": "wildberries",
+          "targetStores": 10,
+          "queryURL": "https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BA%D0%B0%D0%BF%D1%81%D1%83%D0%BB%D1%8B%20%D0%BA%D0%BE%D1%84%D0%B5",
+          "query": "многоразовые капсулы кофе",
+          "market": "RU",
+          "checkedAt": "2026-10-21T11:10:57.599Z",
+          "status": 498,
+          "accessNote": "已尝试公开入口，未取得能同时确认店铺、商品编号和对应原图的记录"
+        },
+        {
+          "id": "yandex",
+          "targetStores": 10,
+          "queryURL": "https://market.yandex.ru/search?text=%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BA%D0%B0%D0%BF%D1%81%D1%83%D0%BB%D1%8B%20%D0%BA%D0%BE%D1%84%D0%B5",
+          "query": "многоразовые капсулы кофе",
+          "market": "RU",
+          "checkedAt": "2026-10-21T11:11:00.215Z",
+          "status": 200,
+          "accessNote": "已尝试公开入口，未取得能同时确认店铺、商品编号和对应原图的记录"
+        },
+        {
+          "id": "rakuten",
+          "targetStores": 10,
+          "queryURL": "https://search.rakuten.co.jp/search/mall/%E5%86%8D%E5%88%A9%E7%94%A8%20%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%20%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB/",
+          "query": "再利用 コーヒー カプセル",
+          "market": "JP",
+          "checkedAt": "2026-10-21T11:11:07.911Z",
+          "status": null,
+          "accessNote": "公开入口读取失败（TypeError），尚缺可核对店铺与商品证据"
+        },
+        {
+          "id": "walmart",
+          "targetStores": 10,
+          "queryURL": "https://www.walmart.com/search?q=reusable%20coffee%20capsule",
+          "query": "reusable coffee capsule",
+          "market": "US",
+          "checkedAt": "2026-10-21T11:11:01.052Z",
+          "status": 200,
+          "accessNote": "公开入口返回验证／错误页，未取得可核对店铺"
+        },
+        {
+          "id": "otto",
+          "targetStores": 10,
+          "queryURL": "https://www.otto.de/suche/wiederverwendbare%20kaffeekapseln/",
+          "query": "wiederverwendbare kaffeekapseln",
+          "market": "DE",
+          "checkedAt": "2026-10-21T11:11:02.342Z",
+          "status": 400,
+          "accessNote": "已尝试公开入口，未取得能同时确认店铺、商品编号和对应原图的记录"
+        },
+        {
+          "id": "alibaba",
+          "targetStores": 10,
+          "queryURL": "https://www.alibaba.com/trade/search?SearchText=reusable%20coffee%20capsule",
+          "query": "reusable coffee capsule",
+          "market": "WW",
+          "checkedAt": "2026-10-21T11:11:02.938Z",
+          "status": 200,
+          "accessNote": "已尝试公开入口，未取得能同时确认店铺、商品编号和对应原图的记录"
+        },
+        {
+          "id": "coupang",
+          "targetStores": 10,
+          "queryURL": "https://www.coupang.com/np/search?q=%EC%9E%AC%EC%82%AC%EC%9A%A9%20%EC%BB%A4%ED%94%BC%20%EC%BA%A1%EC%8A%90",
+          "query": "재사용 커피 캡슐",
+          "market": "KR",
+          "checkedAt": "2026-10-21T11:11:02.237Z",
+          "status": 403,
+          "accessNote": "公开入口访问受限（HTTP 403），未绕过限制"
+        },
+        {
+          "id": "etsy",
+          "targetStores": 10,
+          "queryURL": "https://www.etsy.com/search?q=reusable%20coffee%20capsule",
+          "query": "reusable coffee capsule",
+          "market": "WW",
+          "checkedAt": "2026-10-21T11:11:12.446Z",
+          "status": null,
+          "accessNote": "已核对 10/10 家不同店铺；包含直接页面与标明时间缺口的公开索引，非销量排名"
+        },
+        {
+          "id": "vinted",
+          "targetStores": 10,
+          "queryURL": "https://www.vinted.com/catalog?search_text=reusable%20coffee%20capsule",
+          "query": "reusable coffee capsule",
+          "market": "US",
+          "checkedAt": "2026-10-21T11:11:03.007Z",
+          "status": 403,
+          "accessNote": "公开入口访问受限（HTTP 403），未绕过限制"
+        },
+        {
+          "id": "zalando",
+          "targetStores": 10,
+          "queryURL": "https://www.zalando.de/katalog/?q=reusable%20coffee%20capsule",
+          "query": "reusable coffee capsule",
+          "market": "DE",
+          "checkedAt": "2026-10-21T11:11:05.472Z",
+          "status": 403,
+          "accessNote": "公开入口访问受限（HTTP 403），未绕过限制"
+        },
+        {
+          "id": "stockx",
+          "targetStores": 10,
+          "queryURL": "https://stockx.com/search?s=reusable%20coffee%20capsule",
+          "query": "reusable coffee capsule",
+          "market": "WW",
+          "checkedAt": "2026-10-21T11:11:03.963Z",
+          "status": 403,
+          "accessNote": "公开入口访问受限（HTTP 403），未绕过限制"
+        }
+      ],
+      "candidates": [
+        {
+          "platform": "amazon",
+          "url": "https://www.amazon.com/dp/B0DJNT4HY3",
+          "reason": "未取得可去重的实际销售店铺链接"
+        },
+        {
+          "platform": "emag",
+          "url": "https://www.emag.ro/set-5-capsule-dolce-gusto-reutilizabile-triostorer-capsule-cafea-reincarcabile-refill-compatibile-dolce-gusto-plastic-universal-capsule-cafea-reutilizabile-set-capsule-dolce-gusto-reumplere-compatibil/pd/D6Q0DT2BM/",
+          "reason": "未取得可去重的实际销售店铺链接"
+        }
+      ]
     }
   },
   "evidence": {

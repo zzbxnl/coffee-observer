@@ -72,7 +72,11 @@ function render() {
   document.querySelector('#breadcrumb').textContent = '产业研究 / ' + names[state.view];
   const hint = state.query ? `<p class="search-hint">搜索：“${esc(state.query)}” <button data-clear class="text-link">清除</button></p>` : '';
   if (state.view === 'research') { renderResearch(state.detail || 'compatibility'); return; }
-  if (state.view === 'commerce' && state.detail) { renderCommercePlatform(state.detail); return; }
+  if (state.view === 'commerce' && state.detail) {
+    if (state.detail === 'stores' || state.detail.startsWith('stores-')) renderCommerceStores(state.detail === 'stores' ? 'all' : state.detail.slice(7));
+    else renderCommercePlatform(state.detail);
+    return;
+  }
   if (state.detail) { renderDocument(); return; }
   document.title = names[state.view] + ' · 咖啡产业观察';
   if (state.view === 'home') {
@@ -135,7 +139,7 @@ search.addEventListener('input', () => {
     if (state.detail?.startsWith('company-')) state.detail = 'companies';
     if (state.detail?.startsWith('machine-')) state.detail = 'compatibility';
     history.replaceState(null, '', '#research/' + (state.detail || 'compatibility'));
-  } else if (state.detail) { state.detail = null; history.replaceState(null, '', '#' + state.view); }
+  } else if (state.detail && !(state.view === 'commerce' && (state.detail === 'stores' || state.detail.startsWith('stores-')))) { state.detail = null; history.replaceState(null, '', '#' + state.view); }
   state.query = search.value.trim(); newsLimit = 30; render();
 });
 document.addEventListener('change', event => { if (event.target.id === 'news-month') { newsMonth = event.target.value; newsLimit = 30; render(); } });
