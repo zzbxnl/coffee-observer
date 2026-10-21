@@ -5018,69 +5018,15 @@ window.COFFEE_CONTENT = {
         "checkedOn": "2026-10-21"
       }
     ],
-    "europeanRanking": {
-      "title": "2026 欧洲跨境电商 TOP 10",
-      "publisher": "Cross-Border Commerce Europe（欧洲跨境电商研究机构）",
-      "report": "TOP 100 Cross-Border Marketplaces Europe（欧洲跨境电商平台百强），第七版",
-      "announcedOn": "2026-10-15",
-      "checkedOn": "2026-10-21",
-      "url": "https://www.cbcommerce.eu/blog/2026/10/14/seventh-edition-of-the-top-100-cross-border-marketplaces-europe-report-european-marketplace-commerce-enters-a-new-era/",
-      "submittedArticleURL": "https://mp.weixin.qq.com/s/jtMmnxANcKQHJl_v3aRUAQ",
-      "submittedArticleTitle": "欧洲跨境电商平台前十出炉：中国两大平台跻身前三！",
-      "submittedArticlePublisher": "跨境电商物流百晓生",
-      "submittedArticleOn": "2026-10-19",
-      "scope": "面向欧洲市场的跨境电商综合相关性排名；覆盖 28 个欧洲国家，含英国、瑞士和挪威。",
-      "methodology": [
-        "跨境线上销售",
-        "跨境搜索表现（SEO）",
-        "跨国覆盖程度",
-        "跨境访问量及占比"
-      ],
-      "caveat": "榜单还结合商业模式等次级指标加权。名次反映平台整体跨境相关性；咖啡胶囊需求、品类销量和中国卖家准入需要另行核实。",
-      "entries": [
-        {
-          "platform": "amazon",
-          "use": "重点观察咖啡胶囊、机器和配件；按欧洲各站及具体系统比较公开商品与评论。"
-        },
-        {
-          "platform": "temu",
-          "use": "观察可填充胶囊和配件的价格、套装与描述；先选择收货国家，再核对商品。"
-        },
-        {
-          "platform": "aliexpress",
-          "use": "观察跨境长尾配件、可填充胶囊和耗材；区分累计订单与带统计期的购买量。"
-        },
-        {
-          "platform": "ebay",
-          "use": "研究新旧机器、胶囊和配件；已售入口与官方成交研究可辅助人工核查。"
-        },
-        {
-          "platform": "etsy",
-          "use": "适合观察原创咖啡配件、收纳与礼赠设计；普通批发成品转售受限制，不能把现成胶囊直接视为可入驻商品。"
-        },
-        {
-          "platform": "vinted",
-          "use": "可研究二手机器及家居用品的流转与定价；可售品类、专业卖家资格依国家规则核对，普通账户不能用于经营转售业务。"
-        },
-        {
-          "platform": "olx-group",
-          "use": "这是集团入口，旗下品牌与国家市场各有定位。可沿官方品牌入口研究当地二手机器与配件；不等于一个统一的欧洲胶囊商城。"
-        },
-        {
-          "platform": "zalando",
-          "use": "官方定位为时尚与生活方式平台，主要用于跨境渠道背景观察；尚未核实咖啡胶囊品类或相关卖家准入。"
-        },
-        {
-          "platform": "abebooks",
-          "use": "用于寻找咖啡历史、烘焙和萃取书籍及收藏资料；官方主营图书、艺术与收藏品，不能用其排名判断咖啡胶囊需求。"
-        },
-        {
-          "platform": "stockx",
-          "use": "官方重点为球鞋、服装、电子产品、收藏品等；保留跨境渠道观察入口，尚未核实咖啡胶囊品类或可用销量资料。"
-        }
-      ]
-    },
     "references": [
+      {
+        "name": "补充平台来源：CBCommerce 2026 欧洲跨境平台报告",
+        "url": "https://www.cbcommerce.eu/blog/2026/10/14/seventh-edition-of-the-top-100-cross-border-marketplaces-europe-report-european-marketplace-commerce-enters-a-new-era/"
+      },
+      {
+        "name": "欧洲跨境电商平台前十出炉：中国两大平台跻身前三！（跨境电商物流百晓生，2026-10-19）",
+        "url": "https://mp.weixin.qq.com/s/jtMmnxANcKQHJl_v3aRUAQ"
+      },
       {
         "name": "eBay 官方 Product Research 说明",
         "url": "https://www.ebay.com/help/selling/selling-tools/terapeak-research-and-SEO?id=4853"
