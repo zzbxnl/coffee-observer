@@ -29,12 +29,17 @@ function commerceTotals(rows, evidence, amount) {
   }
   return groups.size?[...groups].map(([unit,value])=>`${Number(value.toFixed(2)).toLocaleString('zh-CN')} ${esc(unit)}`).join('<br>'):'—';
 }
+function commerceRanking() {
+  const ranking=commerce.europeanRanking;
+  return `<section class="commerce-europe" aria-label="欧洲跨境电商平台排名"><div class="section-head"><div><span class="eyebrow">EUROPEAN MARKETPLACES · ${esc(ranking.checkedOn)}</span><h2>${esc(ranking.title)}</h2><p>${esc(ranking.scope)}</p></div></div><p class="data-note">${esc(ranking.publisher)} · ${esc(ranking.report)} · 公告 ${esc(ranking.announcedOn)}</p><ol class="commerce-ranking">${ranking.entries.map((entry,index)=>{const p=commerce.platforms.find(p=>p.id===entry.platform);return `<li class="panel"><span class="tag">第 ${index+1} 名 · ${esc(p.kind)}</span><h3>${esc(p.name)}</h3><p>${esc(entry.use)}</p><div class="download-row"><button class="text-link" data-commerce-platform="${p.id}">在查询中选择</button><a class="text-link" href="${esc(p.home)}" target="_blank" rel="noopener noreferrer">官网 ↗</a>${p.reference?`<a class="text-link" href="${esc(p.reference.url)}" target="_blank" rel="noopener noreferrer">官方业务／规则 ↗</a>`:''}</div></li>`;}).join('')}</ol><details class="panel commerce-ranking-source"><summary>排名依据与原文出处</summary><p>${esc(ranking.methodology.join('、'))}，以及商业模式等次级指标。${esc(ranking.caveat)}</p><div class="download-row"><a class="text-link" href="${esc(ranking.url)}" target="_blank" rel="noopener noreferrer">发布方官方榜单与方法 ↗</a><a class="text-link" href="${esc(ranking.submittedArticleURL)}" target="_blank" rel="noopener noreferrer">${esc(ranking.submittedArticleTitle)} ↗</a></div><p class="data-note">微信文章：${esc(ranking.submittedArticlePublisher)} · ${esc(ranking.submittedArticleOn)}；本网站已对照发布方名单核验。</p></details></section>`;
+}
 function renderCommerce() {
   const links=commerceLinks(),rows=commerceRows(),keyword=commerceKeyword();
   const link=(url,label)=>`<a class="pill" href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(label)} ↗</a>`;
   page.innerHTML=heading('电商市场查询','研究可填充胶囊、预填充胶囊和配件。先选国家与系统，再进入官方商品或成交研究入口。','MARKET RESEARCH')+
-  `<p class="scope-note">免费查询版 · 已收录图片中的 24 个平台入口。当前未连接全市场销量数据库；销量和金额只展示你导入且注明来源的竞品样本，不代表整个国家或平台。</p>
-  <p class="scope-note"><a href="#research/reviews">查看已采集的商品评论、痛点与 24 平台进度 →</a></p>
+  `<p class="scope-note">免费查询版 · 已收录 ${commerce.platforms.length} 个平台入口，包含欧洲跨境电商 TOP 10。当前未连接全市场销量数据库；销量和金额只展示你导入且注明来源的竞品样本，不代表整个国家或平台。</p>
+  <p class="scope-note"><a href="#research/reviews">查看已采集的商品评论、痛点与原 ${window.COFFEE_CONTENT.evidence.platforms.length} 平台进度 →</a> · 另有 ${commerce.platforms.filter(p=>!window.COFFEE_CONTENT.evidence.platforms.some(e=>e.id===p.id)).length} 个平台尚未纳入评论采集。</p>
+  ${commerceRanking()}
   <form id="commerce-query" class="commerce-form">
     <label>国家／市场<select name="country">${commerceOptions(commerce.countries,commerceState.country)}</select></label>
     <label>平台<select name="platform">${commerce.platforms.map(p=>`<option value="${p.id}" ${p.id===commerceState.platform?'selected':''}>${esc(p.name)}</option>`).join('')}</select></label>
