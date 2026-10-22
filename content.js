@@ -6144,17 +6144,18 @@ window.COFFEE_CONTENT = {
     ],
     "guidebook": {
       "checkedOn": "2026-10-21",
-      "sortBasis": "按已核验完整年度的 GMV／GMS 折算参考美元后降序排列，缺值后置。优先官方披露，另纳入明确标注的机构估算；财年、地区、税费、退货与业务范围有差异，不是统一欧洲或咖啡类目排名。",
+      "sortBasis": "按已核验完整年度的GMV／GMS折算参考美元后降序，GMV缺值后置。优先官方披露，机构估算明确标注；相关业务营收只作背景、不参与GMV排序。财年、地区、税费、退货和业务范围有差异，不是统一欧洲或咖啡类目排名。",
       "fx": {
         "year": "2025",
         "base": "EUR",
         "rates": {
           "EUR": 1,
-          "USD": 1.1299831372549
+          "USD": 1.1299831372549,
+          "PLN": 4.2396576470588
         },
         "name": "欧洲央行 2025 年均参考汇率",
         "url": "https://data-api.ecb.europa.eu/service/data/EXR/A.USD.EUR.SP00.A?startPeriod=2025&endPeriod=2025&format=csvdata",
-        "note": "仅用于跨币种排序与参考折算；不是交易报价或公司实际财报汇率。FY2025/26 也沿用 2025 年均参考汇率。"
+        "note": "美元／欧元、波兰兹罗提／欧元均采用欧洲央行2025年均参考汇率，仅用于GMV跨币种排序。FY2025/26沿用2025年均值；不是交易报价或公司实际财报汇率。"
       },
       "sources": {
         "amazon-fees": {
@@ -6480,6 +6481,51 @@ window.COFFEE_CONTENT = {
         "ecdb-pinduoduo": {
           "name": "ECDB：Pinduoduo（拼多多中国业务）2025 GMV 估算",
           "url": "https://ecdb.com/resources/sample-data/retailer/Pinduoduo"
+        },
+        "ecdb-lazada": {
+          "name": "ECDB：Lazada 2025 GMV 估算（核对 2026-10-22）",
+          "url": "https://ecdb.com/resources/sample-data/retailer/lazada",
+          "checkedOn": "2026-10-22"
+        },
+        "ecdb-wish": {
+          "name": "ECDB：Wish 2025 GMV 估算（核对 2026-10-22）",
+          "url": "https://ecdb.com/resources/sample-data/retailer/wish",
+          "checkedOn": "2026-10-22"
+        },
+        "ecdb-emag": {
+          "name": "ECDB：eMAG 2025 GMV 估算（核对 2026-10-22）",
+          "url": "https://ecdb.com/resources/sample-data/retailer/emag",
+          "checkedOn": "2026-10-22"
+        },
+        "ecdb-rakuten": {
+          "name": "ECDB：Rakuten 日本主域名 2025 GMV 估算（核对 2026-10-22）",
+          "url": "https://ecdb.com/resources/sample-data/retailer/rakuten",
+          "checkedOn": "2026-10-22"
+        },
+        "ecdb-coupang": {
+          "name": "ECDB：Coupang 2025 GMV 估算（核对 2026-10-22）",
+          "url": "https://ecdb.com/resources/sample-data/retailer/coupang",
+          "checkedOn": "2026-10-22"
+        },
+        "ecdb-stockx": {
+          "name": "ECDB：StockX 2025 GMV 估算（核对 2026-10-22）",
+          "url": "https://ecdb.com/resources/sample-data/retailer/stockx",
+          "checkedOn": "2026-10-22"
+        },
+        "ecb-pln-2025": {
+          "name": "欧洲央行2025年均 PLN/EUR 参考汇率",
+          "url": "https://data-api.ecb.europa.eu/service/data/EXR/A.PLN.EUR.SP00.A?startPeriod=2025&endPeriod=2025&format=csvdata",
+          "checkedOn": "2026-10-22"
+        },
+        "allegro-2025-annual": {
+          "name": "Allegro 2025 合并年报：全年GMV业务指标表",
+          "url": "https://about.allegro.eu/wp-content/uploads/2026/03/ALLEGRO-Annual-Consolidated-Report-2025.pdf",
+          "checkedOn": "2026-10-22"
+        },
+        "alibaba-fy2026-results": {
+          "name": "Alibaba FY2026 年度业绩公告：国际商业批发收入（港交所，第18页）",
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0513/2026051300653.pdf#page=18",
+          "checkedOn": "2026-10-22"
         }
       },
       "profiles": {
@@ -6941,9 +6987,22 @@ window.COFFEE_CONTENT = {
           "rulesRef": "allegro-start",
           "limits": [],
           "gmv": {
-            "amount": null,
-            "reason": "已找到 2025 官方业绩入口，但本轮未完成完整年度原表的读取核验；不把搜索摘要、近 700 亿兹罗提标题或季度数字作为精确全年数值。",
-            "ref": "allegro-results"
+            "amount": 69163100000,
+            "currency": "PLN",
+            "entity": "Allegro.eu Group（合并集团）",
+            "region": "波兰及集团国际运营市场",
+            "scope": "2025合并管理报告全年GMV业务指标表列示PLN69,163.1m，含自营与第三方；表注明业务指标未经审计，报告口径排除已处置Mall South。不是集团营业收入，不限于波兰或咖啡品类。",
+            "ref": "allegro-2025-annual",
+            "extraRefs": [
+              "allegro-results",
+              "ecb-pln-2025"
+            ],
+            "metric": "GMV",
+            "from": "2025-01-01",
+            "to": "2025-12-31",
+            "label": "2025",
+            "quality": "官方披露（业务指标表未经审计）",
+            "checkedOn": "2026-10-22"
           }
         },
         "lazada": {
@@ -6982,9 +7041,21 @@ window.COFFEE_CONTENT = {
           "rulesRef": "lazada-start",
           "limits": [],
           "gmv": {
-            "amount": null,
-            "reason": "本次未取得 Lazada 单独完整年度 GMV；不使用 Alibaba 国际业务营收或季度数据代替。",
-            "ref": "alibaba-results"
+            "amount": 31553000000,
+            "currency": "USD",
+            "entity": "Lazada（ECDB retailer 口径）",
+            "region": "各运营市场；以东南亚为主",
+            "scope": "ECDB 2025 全年平台电商 GMV 模型估算，包含自营及第三方交易；不是 Alibaba 集团或国际数字商业分部收入。 研究机构可能修订历史估算，本项保留本轮公开页面读取值，不把2026预测值或月度值混入全年。",
+            "ref": "ecdb-lazada",
+            "extraRefs": [
+              "ecdb-methodology"
+            ],
+            "metric": "GMV",
+            "from": "2025-01-01",
+            "to": "2025-12-31",
+            "label": "2025",
+            "quality": "机构估算 · ECDB",
+            "checkedOn": "2026-10-22"
           }
         },
         "shopee": {
@@ -7170,9 +7241,21 @@ window.COFFEE_CONTENT = {
           "rulesRef": "wish-start",
           "limits": [],
           "gmv": {
-            "amount": null,
-            "reason": "本次未取得可核验、单独披露的完整年度 GMV；未披露不填零，也不按营收或季度数字推算。",
-            "ref": "wish-start"
+            "amount": 65000000,
+            "currency": "USD",
+            "entity": "Wish（ECDB retailer 口径）",
+            "region": "全球运营市场",
+            "scope": "ECDB 2025 全年平台电商 GMV 模型估算；不是原母公司或现运营主体的营业收入，也不是历史累计成交额。 研究机构可能修订历史估算，本项保留本轮公开页面读取值，不把2026预测值或月度值混入全年。",
+            "ref": "ecdb-wish",
+            "extraRefs": [
+              "ecdb-methodology"
+            ],
+            "metric": "GMV",
+            "from": "2025-01-01",
+            "to": "2025-12-31",
+            "label": "2025",
+            "quality": "机构估算 · ECDB",
+            "checkedOn": "2026-10-22"
           }
         },
         "emag": {
@@ -7211,9 +7294,21 @@ window.COFFEE_CONTENT = {
           "rulesRef": "emag-start",
           "limits": [],
           "gmv": {
-            "amount": null,
-            "reason": "本次未取得可核验、单独披露的完整年度 GMV；未披露不填零，也不按营收或季度数字推算。",
-            "ref": "emag-start"
+            "amount": 3391000000,
+            "currency": "USD",
+            "entity": "eMAG（ECDB retailer 口径）",
+            "region": "中东欧运营市场",
+            "scope": "ECDB 2025 全年平台电商 GMV 模型估算，含自营与第三方；不是 Prosus 集团营收或 eMAG 单一站点的销售收入。 研究机构可能修订历史估算，本项保留本轮公开页面读取值，不把2026预测值或月度值混入全年。",
+            "ref": "ecdb-emag",
+            "extraRefs": [
+              "ecdb-methodology"
+            ],
+            "metric": "GMV",
+            "from": "2025-01-01",
+            "to": "2025-12-31",
+            "label": "2025",
+            "quality": "机构估算 · ECDB",
+            "checkedOn": "2026-10-22"
           }
         },
         "wildberries": {
@@ -7358,9 +7453,21 @@ window.COFFEE_CONTENT = {
             "Rakuten France 已停止运营；不得把日本的开店方案描述成法国可入驻。"
           ],
           "gmv": {
-            "amount": null,
-            "reason": "官方披露的日本国内 EC GMS 合并 Ichiba、旅游、图书等服务，不能代表单一商城或法国市场；本轮未取得可比商城单独年度 GMV。",
-            "ref": "rakuten-results"
+            "amount": 30760000000,
+            "currency": "USD",
+            "entity": "rakuten.co.jp（日本主域名，ECDB store 口径）",
+            "region": "日本",
+            "scope": "采用 ECDB 公布的 rakuten.co.jp 日本主域名 2025 年 GMV 估算 USD30,760m；未采用同页 Rakuten 多域名合计 USD32,346m。不是 Rakuten 集团全部日本EC、旅游／支付金额，也不是法国站成交额。 研究机构可能修订历史估算，本项保留本轮公开页面读取值，不把2026预测值或月度值混入全年。",
+            "ref": "ecdb-rakuten",
+            "extraRefs": [
+              "ecdb-methodology"
+            ],
+            "metric": "GMV",
+            "from": "2025-01-01",
+            "to": "2025-12-31",
+            "label": "2025",
+            "quality": "机构估算 · ECDB",
+            "checkedOn": "2026-10-22"
           }
         },
         "walmart": {
@@ -7504,8 +7611,25 @@ window.COFFEE_CONTENT = {
           "limits": [],
           "gmv": {
             "amount": null,
-            "reason": "本次未取得 Alibaba.com 国际站单独完整年度 GMV；不以 Alibaba 集团或中国零售平台数据代替。",
-            "ref": "alibaba-results"
+            "reason": "已核对FY2026官方全年业务分项，仍未取得Alibaba.com独立完整年度GMV。下方列示相关国际商业批发业务营收作参考，两者口径不同，营收不参与GMV排序。",
+            "ref": "alibaba-fy2026-results",
+            "extraRefs": [
+              "alibaba-results"
+            ],
+            "checkedOn": "2026-10-22"
+          },
+          "revenue": {
+            "amount": 26439000000,
+            "currency": "CNY",
+            "entity": "Alibaba Group International commerce wholesale（阿里巴巴集团国际商业批发业务）",
+            "metric": "revenue",
+            "label": "FY2026",
+            "from": "2025-04-01",
+            "to": "2026-03-31",
+            "quality": "官方披露（未审计年度业绩公告）",
+            "scope": "公告全年表单位为百万元人民币：26,439百万元等于264.39亿元人民币。此为国际商业批发业务分项营收，非Alibaba.com独立GMV，不能作为成交额或咖啡胶囊销售金额。",
+            "ref": "alibaba-fy2026-results",
+            "checkedOn": "2026-10-22"
           }
         },
         "coupang": {
@@ -7543,9 +7667,21 @@ window.COFFEE_CONTENT = {
           "rulesRef": "coupang-start",
           "limits": [],
           "gmv": {
-            "amount": null,
-            "reason": "本次未取得可核验的全年 GMV；不把集团 net revenues（净营收）改写为成交额。",
-            "ref": "coupang-results"
+            "amount": 57228000000,
+            "currency": "USD",
+            "entity": "Coupang（ECDB retailer 口径）",
+            "region": "平台运营市场；以韩国为主",
+            "scope": "ECDB 2025 全年电商 GMV 模型估算；不能当作 Coupang 财报净营收，亦不代表单独台湾市场或咖啡类目。 研究机构可能修订历史估算，本项保留本轮公开页面读取值，不把2026预测值或月度值混入全年。",
+            "ref": "ecdb-coupang",
+            "extraRefs": [
+              "ecdb-methodology"
+            ],
+            "metric": "GMV",
+            "from": "2025-01-01",
+            "to": "2025-12-31",
+            "label": "2025",
+            "quality": "机构估算 · ECDB",
+            "checkedOn": "2026-10-22"
           }
         },
         "etsy": {
@@ -7735,9 +7871,21 @@ window.COFFEE_CONTENT = {
           "rulesRef": "stockx-start",
           "limits": [],
           "gmv": {
-            "amount": null,
-            "reason": "本次未取得可核验、单独披露的完整年度 GMV；未披露不填零，也不按营收或季度数字推算。",
-            "ref": "stockx-start"
+            "amount": 2096000000,
+            "currency": "USD",
+            "entity": "StockX（ECDB retailer 口径）",
+            "region": "全球运营市场",
+            "scope": "ECDB 2025 全年平台 GMV 模型估算；不把公司估值、平台服务收入或历史累计交易金额当作成交额。 研究机构可能修订历史估算，本项保留本轮公开页面读取值，不把2026预测值或月度值混入全年。",
+            "ref": "ecdb-stockx",
+            "extraRefs": [
+              "ecdb-methodology"
+            ],
+            "metric": "GMV",
+            "from": "2025-01-01",
+            "to": "2025-12-31",
+            "label": "2025",
+            "quality": "机构估算 · ECDB",
+            "checkedOn": "2026-10-22"
           }
         }
       }
