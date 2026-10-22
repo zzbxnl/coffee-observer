@@ -5473,6 +5473,304 @@ window.COFFEE_CONTENT = {
         "width": 800,
         "height": 800,
         "sha256": "7ff5e721273ed7ac86d1c594509649bc4a6ac1f90d8679f98d307bc6d222247a"
+      },
+      "store-aliexpress-32983386751": {
+        "id": "store-aliexpress-32983386751",
+        "subject": "Belr-Housewares reusable capsule for Delta Q",
+        "owner": "AliExpress · Belr-Housewares Official Store",
+        "source": "https://aliexpress.com/item/32983386751.html",
+        "provenanceURL": "https://alitools.io/en/showcase/stainless-steel-reusable-coffee-capsules-kitchen-reusable-coffee-capsule-cup-filter-compatible-for-delta-q-coffee-accessories-32983386751",
+        "imageURL": "https://ae01.alicdn.com/kf/H5056f04e93484657bc60ecbb967b1b81K.jpg_480x480.jpg",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-22",
+        "file": "images/store-aliexpress-32983386751-4d7cf2dd7c.webp",
+        "width": 480,
+        "height": 480,
+        "sha256": "4d7cf2dd7c15b963854d4f26503a0b33cb2dfd0bda7bbbc51a4e5fc1ed81705b"
+      },
+      "store-aliexpress-32960367041": {
+        "id": "store-aliexpress-32960367041",
+        "subject": "Belr-Housewares reusable steel capsule, silicone lid",
+        "owner": "AliExpress · Belr-Housewares Official Store",
+        "source": "https://aliexpress.com/item/32960367041.html",
+        "provenanceURL": "https://alitools.io/en/showcase/refillable-stainless-steel-metal-reusable-dolce-gusto-capsule-silicone-cover-dolci-gusto-coffee-machine-coffee-spoon-with-clip-32960367041",
+        "imageURL": "https://ae01.alicdn.com/kf/H67304a8484414a06b67d1a94be36c172T.jpg_480x480.jpg",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-22",
+        "file": "images/store-aliexpress-32960367041-ea20c3d836.webp",
+        "width": 480,
+        "height": 480,
+        "sha256": "ea20c3d8369bca8b425778f9e7336ca0a3d1e5b23563d2e732c0f562386f689c"
+      },
+      "store-aliexpress-33038156488": {
+        "id": "store-aliexpress-33038156488",
+        "subject": "i Cafilas reusable capsule for illy Y3.2",
+        "owner": "AliExpress · i Cafilas Official Store",
+        "source": "https://aliexpress.com/item/33038156488.html",
+        "provenanceURL": "https://alitools.io/en/showcase/icafilasstainless-steel-reusable-coffee-filter-support-refillable-capsules-cup-pod-for-illy-y3-2-mahine-33038156488",
+        "imageURL": "https://ae01.alicdn.com/kf/H362c602ec33241b2b88412142c886a253.jpg_480x480.jpg",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-22",
+        "file": "images/store-aliexpress-33038156488-ef2c8b5155.webp",
+        "width": 480,
+        "height": 480,
+        "sha256": "ef2c8b5155d526cc3cbda6127970f260588040b32f83d202c2d19fd50d76798a"
+      },
+      "store-aliexpress-32815705219": {
+        "id": "store-aliexpress-32815705219",
+        "subject": "Nespresso reusable steel capsule",
+        "owner": "AliExpress · i Cafilas Official Store",
+        "source": "https://aliexpress.com/item/32815705219.html",
+        "provenanceURL": "https://alitools.io/en/showcase/icafilasnespresso-stainless-steel-metal-capsule-compatible-with-nespresso-machine-refillable-reusable-capsule-coffee-32815705219",
+        "imageURL": "https://ae01.alicdn.com/kf/Ha2dbfe47618b455d96e3ce77725e24a0b.jpg_480x480.jpg",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-22",
+        "file": "images/store-aliexpress-32815705219-0cebf98ae8.webp",
+        "width": 480,
+        "height": 480,
+        "sha256": "0cebf98ae820a3d2d52c363e679a815fca93ed764228a94ee00201cda127d6d7"
+      },
+      "store-aliexpress-4000622486637": {
+        "id": "store-aliexpress-4000622486637",
+        "subject": "i Cafilas upgraded reusable steel coffee capsule",
+        "owner": "AliExpress · i Cafilas Loving Coffee Store",
+        "source": "https://aliexpress.com/item/4000622486637.html",
+        "provenanceURL": "https://alitools.io/en/showcase/icafilas-new-upgraded-reusable-coffee-capsule-for-nespresso-stainless-steel-coffee-filters-espresso-coffee-crema-maker-4000622486637",
+        "imageURL": "https://ae01.alicdn.com/kf/H9186b34bfd8b4a98ba12cb4af1fb9330r.jpg_480x480.jpg",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-22",
+        "file": "images/store-aliexpress-4000622486637-be1e2b7556.webp",
+        "width": 480,
+        "height": 480,
+        "sha256": "be1e2b755684a8abccca3e19652f6f17decdee41e0f3e24ce3f9f1a6cfa6ba19"
+      },
+      "store-aliexpress-1005001903447359": {
+        "id": "store-aliexpress-1005001903447359",
+        "subject": "Reusable capsule for Nespresso Vertuoline",
+        "owner": "AliExpress · daidaidog Store",
+        "source": "https://aliexpress.com/item/1005001903447359.html",
+        "provenanceURL": "https://alitools.io/en/showcase/230ml-reusable-coffee-capsule-for-nespresso-vertuoline-delonghi-refillable-stainless-steel-coffee-filter-with-milk-frother-1005001903447359",
+        "imageURL": "https://ae01.alicdn.com/kf/H4e0d0505884d4975a1f030d3c3876654l.jpg_480x480.jpg",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-22",
+        "file": "images/store-aliexpress-1005001903447359-556e3ccd8e.webp",
+        "width": 480,
+        "height": 480,
+        "sha256": "556e3ccd8edc1815bba7eb46eab0a9f728c491a1a8b3326bdd2f594142c87387"
+      },
+      "store-aliexpress-4001196793708": {
+        "id": "store-aliexpress-4001196793708",
+        "subject": "Belr-Housewares reusable capsule for Essenza Mini",
+        "owner": "AliExpress · Belr-Housewares EnjoyCoffee Store",
+        "source": "https://aliexpress.com/item/4001196793708.html",
+        "provenanceURL": "https://alitools.io/en/showcase/capsule-for-nespresso-reutilisable-inox-refillable-capsule-crema-reusable-refillable-coffee-filter-nespresso-essenza-mini-4001196793708",
+        "imageURL": "https://ae01.alicdn.com/kf/Hc84d37115e03426694c2a4037fc68877y.jpg_480x480.jpg",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-22",
+        "file": "images/store-aliexpress-4001196793708-e5b6146e48.webp",
+        "width": 480,
+        "height": 480,
+        "sha256": "e5b6146e48a26a927919b0a62e9cac548a283d3cd59251fb1700dc792c03e63a"
+      },
+      "store-aliexpress-32858733842": {
+        "id": "store-aliexpress-32858733842",
+        "subject": "CAPSULONE reusable capsule for Scishare",
+        "owner": "AliExpress · CAPSULONE Official Store",
+        "source": "https://aliexpress.com/item/32858733842.html",
+        "provenanceURL": "https://alitools.io/en/showcase/capsulone-stainless-steel-metal-capsule-compatible-for-scishare-machine-refillable-reusable-coffee-capsule-gift-32858733842",
+        "imageURL": "https://ae01.alicdn.com/kf/HTB1fb36bwKTBuNkSne1q6yJoXXat/capsulone-STAINLESS-STEEL-Metal-Capsule-Compatible-for-Scishare-Machine-Refillable-Reusable-coffee-capsule-gift.jpg_480x480.jpg",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-22",
+        "file": "images/store-aliexpress-32858733842-1638b1b19e.webp",
+        "width": 480,
+        "height": 480,
+        "sha256": "1638b1b19e5fb581310baee5d1561a45e215240133e0df3b2b31002a27c6a4cd"
+      },
+      "store-aliexpress-1005001727132602": {
+        "id": "store-aliexpress-1005001727132602",
+        "subject": "i Cafilas reusable capsule for GCA1 / ENV135",
+        "owner": "AliExpress · i Cafilas Youcoffee Store",
+        "source": "https://aliexpress.com/item/1005001727132602.html",
+        "provenanceURL": "https://alitools.io/en/showcase/icafilas-reusable-coffee-capsule-pod-for-nespresso-vertuoline-gca1-delonghi-env135-stainless-steel-refillable-filters-dosing-1005001727132602",
+        "imageURL": "https://ae01.alicdn.com/kf/Heb9da0a38a5541949f8d5fc004a9ef4dY.png_480x480.jpg",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-22",
+        "file": "images/store-aliexpress-1005001727132602-72c252c0d2.webp",
+        "width": 480,
+        "height": 480,
+        "sha256": "72c252c0d289dcbd76774e37b55660bf5c9f1f4d9db1ec21e7c819fbd5d8e8e9"
+      },
+      "store-aliexpress-32970914524": {
+        "id": "store-aliexpress-32970914524",
+        "subject": "Dalinwell reusable capsules with spoon and brush, 6pcs",
+        "owner": "AliExpress · Seeme Dropshipping Store",
+        "source": "https://aliexpress.com/item/32970914524.html",
+        "provenanceURL": "https://alitools.io/en/showcase/6pcs-reusable-nespresso-coffee-capsules-cup-with-spoon-brush-black-refillable-coffee-capsule-refilling-filter-coffeeware-gift-32970914524",
+        "imageURL": "https://ae01.alicdn.com/kf/H58aba1513a6844579ce15d9ac193b613p.jpg_480x480.jpg",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-22",
+        "file": "images/store-aliexpress-32970914524-1866430f7e.webp",
+        "width": 480,
+        "height": 480,
+        "sha256": "1866430f7ea75e6c5626e2552b4e68868b073e2146b8dc16302b24d88d309a9b"
+      },
+      "store-aliexpress-32882310029": {
+        "id": "store-aliexpress-32882310029",
+        "subject": "Dalinwell steel reusable coffee capsule, 1 / 2pcs",
+        "owner": "AliExpress · Seller 1936009（历史店名未取得）",
+        "source": "https://aliexpress.com/item/32882310029.html",
+        "provenanceURL": "https://alitools.io/en/showcase/2pcs-box-refill-nespresso-coffee-capsulas-stainless-steel-refillable-nespress-coffee-capsule-reusable-italian-coffee-filters-cup-32882310029",
+        "imageURL": "https://ae01.alicdn.com/kf/H34a009b5fdb4439780df33f4f2141f2db.jpg_480x480.jpg",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-22",
+        "file": "images/store-aliexpress-32882310029-82d78543af.webp",
+        "width": 480,
+        "height": 480,
+        "sha256": "82d78543af10c43f3130e569f79a0882b7597b7de785a9e4a81714f2dd302975"
+      },
+      "store-aliexpress-4001252098924": {
+        "id": "store-aliexpress-4001252098924",
+        "subject": "RECAFIMIL reusable capsule for Vertuoline Plus / ENV150",
+        "owner": "AliExpress · RECAFIMIL Capsules Dropshipping Store",
+        "source": "https://aliexpress.com/item/4001252098924.html",
+        "provenanceURL": "https://alitools.io/en/showcase/rich-crema-refillable-coffee-capsule-pod-for-nespresso-vertuoline-plus-delonghi-env150-stainless-steel-coffee-filter-4001252098924",
+        "imageURL": "https://ae01.alicdn.com/kf/He7c2a2525df84c8e913d6e40e155753em.png_480x480.jpg",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-22",
+        "file": "images/store-aliexpress-4001252098924-c8a03f4b3c.webp",
+        "width": 480,
+        "height": 480,
+        "sha256": "c8a03f4b3c0d588cade31ba09c5090af4e241e13e194c83cf88f03482acd08f8"
+      },
+      "store-otto-s06fu047rfy": {
+        "id": "store-otto-s06fu047rfy",
+        "subject": "FELIXLEO refillable Tassimo capsule kit",
+        "owner": "OTTO · Genoy Handels UG",
+        "source": "https://www.otto.de/p/felixleo-wiederbefuellbare-kaffeepads-nachfuellbare-kaffeekapseln-set-mit-papierfiltern-fuer-tassimo-S06FU047/",
+        "imageURL": "https://i.otto.de/i/otto/677ada53-8a8a-4e17-b092-e5ddaf461bc0/felixleo-wiederbefuellbare-kaffeepads-nachfuellbare-kaffeekapseln-set-mit-papierfiltern-fuer-tassimo.jpg?%24formatz%24=",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-22",
+        "file": "images/store-otto-s06fu047rfy-b367ad1f6c.jpg",
+        "width": 960,
+        "height": 745,
+        "sha256": "b367ad1f6cfc5e9c2a4b756806cb10cac8008c03a2e2e299f22aa624bc0d7f65"
+      },
+      "store-otto-s075s0oirfy": {
+        "id": "store-otto-s075s0oirfy",
+        "subject": "HAC24 steel capsule stand, 32 capsules",
+        "owner": "OTTO · HAC24",
+        "source": "https://www.otto.de/p/hac24-kapselhalter-kapselspender-kaffeekapselhalter-fuer-nespresso-kapseln-kapselstaender-fuer-je-32-kaffeekapseln-S075S0OI/",
+        "imageURL": "https://i.otto.de/i/otto/6d3319fe-ac13-4967-9b4a-eb0b3123b484/hac24-kapselhalter-kapselspender-kaffeekapselhalter-fuer-nespresso-kapseln-kapselstaender-fuer-32-kaffeekapseln.jpg?%24formatz%24=",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-22",
+        "file": "images/store-otto-s075s0oirfy-4ac0964354.jpg",
+        "width": 960,
+        "height": 960,
+        "sha256": "4ac0964354dc302ae9616e041acb3aecd9b4b087260fb407032393ee3021393f"
+      },
+      "store-otto-s06cl0a0": {
+        "id": "store-otto-s06cl0a0",
+        "subject": "Krups MS-624360 capsule holder",
+        "owner": "OTTO · Knethaken-Shop",
+        "source": "https://www.otto.de/p/krups-kapselhalter-krups-ms-624360-kapselhalter-fuer-kp1301-kp1305-kp1308-kp310810-S06CL0A0/",
+        "imageURL": "https://i.otto.de/i/otto/6e856555-cf07-59ad-a598-80f5ccd74a02/krups-kapselhalter-krups-ms-624360-kapselhalter-fuer-kp1301-kp1305-kp1308-kp310810.jpg?%24formatz%24=",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-22",
+        "file": "images/store-otto-s06cl0a0-95c8b54527.jpg",
+        "width": 960,
+        "height": 873,
+        "sha256": "95c8b54527178bf4a73d10ef435d145f7ccae7a89f3b5de79bf17bdd7cecdde1"
+      },
+      "store-otto-s0bcs0i5": {
+        "id": "store-otto-s0bcs0i5",
+        "subject": "Xavax Torre metal capsule stand, 40 capsules",
+        "owner": "OTTO · koka.shop",
+        "source": "https://www.otto.de/p/xavax-kapselhalter-kapsel-halter-halterung-staender-torre-silber-spender-metall-passend-fuer-40x-nespresso-kaffee-kapseln-caps-CS0BCS0I5/",
+        "imageURL": "https://i.otto.de/i/otto/408785da-6a2d-5a1a-8801-087dbaea0592/xavax-kapselhalter-kapsel-halter-halterung-staender-torre-silber-spender-metall-passend-fuer-40x-nespresso-kaffee-kapseln-caps.jpg?%24formatz%24=",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-22",
+        "file": "images/store-otto-s0bcs0i5-c88dd1eb7e.jpg",
+        "width": 960,
+        "height": 960,
+        "sha256": "c88dd1eb7e6570af8d80d280ebf5566620649a44c845a66f296cf702d519f2a9"
+      },
+      "store-otto-s0x0k0rh": {
+        "id": "store-otto-s0x0k0rh",
+        "subject": "TAVOLA SWISS Box 60 capsule dispenser",
+        "owner": "OTTO · Pink.Your.Kitchen!",
+        "source": "https://www.otto.de/p/tavola-swiss-kapselspender-nespresso-kapselhalter-box-60-fuer-bis-zu-60-nespresso-kaffeekapseln-S0X0K0RH/",
+        "imageURL": "https://i.otto.de/i/otto/3eac7b3c-01ae-40f0-bc68-72157ee0bd2d/tavola-swiss-kapselspender-nespresso-kapselhalter-box-60-fuer-bis-zu-60-nespresso-kaffeekapseln.jpg?%24formatz%24=",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-22",
+        "file": "images/store-otto-s0x0k0rh-aecbfefb19.jpg",
+        "width": 723,
+        "height": 960,
+        "sha256": "aecbfefb19ccbf16f76fa7df2742f8d89fd5c1d9a2b167afa47da198ed874189"
+      },
+      "store-otto-s0w0r01o": {
+        "id": "store-otto-s0w0r01o",
+        "subject": "relaxdays bamboo Dolce Gusto capsule dispenser",
+        "owner": "OTTO · Relaxdays",
+        "source": "https://www.otto.de/p/relaxdays-kapselspender-kapselhalter-fuer-dolce-gusto-S0W0R01O/",
+        "imageURL": "https://i.otto.de/i/otto/9149055f-0532-590a-b9d7-20be10a12126/relaxdays-kapselspender-kapselhalter-fuer-dolce-gusto.jpg?%24formatz%24=",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-22",
+        "file": "images/store-otto-s0w0r01o-80f01d27fc.jpg",
+        "width": 960,
+        "height": 960,
+        "sha256": "80f01d27fc95a3a201a5c94c9f1126dfc4e237763a8fa647b7a29dd2105e731d"
+      },
+      "store-otto-s047t0ce": {
+        "id": "store-otto-s047t0ce",
+        "subject": "eluno rotating Dolce Gusto capsule stand, 32 capsules",
+        "owner": "OTTO · eluno24",
+        "source": "https://www.otto.de/p/eluno-kapselspender-kapselstaender-fuer-bis-zu-32-dolce-gusto-kapseln-kapselspender-S047T0CE/",
+        "imageURL": "https://i.otto.de/i/otto/54745916-cc93-53ab-9415-48e19015fb56/eluno-kapselspender-kapselstaender-fuer-bis-zu-32-dolce-gusto-kapseln-kapselspender.jpg?%24formatz%24=",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-22",
+        "file": "images/store-otto-s047t0ce-8d23330e30.jpg",
+        "width": 960,
+        "height": 960,
+        "sha256": "8d23330e30b30c8fa0651cec5f714f8dd9e1bacf864260ae5ae78818ac3a8531"
+      },
+      "store-otto-s090d00o": {
+        "id": "store-otto-s090d00o",
+        "subject": "SoBuy FRG280 capsule storage drawer",
+        "owner": "OTTO · SoBuy",
+        "source": "https://www.otto.de/p/sobuy-kapselspender-frg280-monitorstaender-mit-schublade-aufbewahrungsbox-kapselhalter-kaffeekapsel-box-schubladenbox-zur-aufbewahrung-von-kaffeekapseln-S090D00O/",
+        "imageURL": "https://i.otto.de/i/otto/b7cd7ed0-8da1-4eef-a0eb-a97bce5e520b/sobuy-kapselspender-frg280-monitorstaender-mit-schublade-aufbewahrungsbox-kapselhalter-kaffeekapsel-box-schubladenbox-zur-aufbewahrung-von-kaffeekapseln.jpg?%24formatz%24=",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-22",
+        "file": "images/store-otto-s090d00o-96304fd5d6.jpg",
+        "width": 960,
+        "height": 960,
+        "sha256": "96304fd5d6f4ba50eb01bf6437a05fa49370318028ff3c1825d035a7e89de03e"
+      },
+      "store-otto-s0ne40xr": {
+        "id": "store-otto-s0ne40xr",
+        "subject": "Cremesso Crema coffee capsules, 16pcs / 96g",
+        "owner": "OTTO · Benture.de",
+        "source": "https://www.otto.de/p/cremesso-wiederbefuellbare-espresso-kapsel-cremesso-crema-16-kapseln-S0NE40XR/",
+        "imageURL": "https://i.otto.de/i/otto/d4804669-4761-5323-b69f-ab874e26e4cb/cremesso-wiederbefuellbare-espresso-kapsel-cremesso-crema-16-kapseln.jpg?%24formatz%24=",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-22",
+        "file": "images/store-otto-s0ne40xr-611b145382.jpg",
+        "width": 960,
+        "height": 851,
+        "sha256": "611b1453825de08e365ae84dac41d8e8485014e570939d2766b7d3290bc0a0ff"
+      },
+      "store-otto-s0fgo0mw": {
+        "id": "store-otto-s0fgo0mw",
+        "subject": "TSB Werk Tassimo capsule dispenser, 8 capsules",
+        "owner": "OTTO · konkor24",
+        "source": "https://www.otto.de/p/tsb-werk-papierfilter-kapselhalter-kompatibel-fuer-tassimo-kapselspender-kapselstaender-kaffeekapsel-S0FGO0MW/",
+        "imageURL": "https://i.otto.de/i/otto/db84ce7c-b574-58f2-84e6-7f4a9a66659c?fmt=auto&h=380&sm=clamp&upscale=true&w=312",
+        "kind": "marketplace-listing",
+        "checkedOn": "2026-10-22",
+        "file": "images/store-otto-s0fgo0mw-ce2387902c.jpg",
+        "width": 312,
+        "height": 312,
+        "sha256": "ce2387902c8218ca0de8e7ffe3c44c482011b94b3405311408c76e077faa819a"
       }
     }
   },
@@ -7445,9 +7743,9 @@ window.COFFEE_CONTENT = {
       }
     },
     "storeResearch": {
-      "checkedOn": "2026-10-21",
+      "checkedOn": "2026-10-22",
       "targetStoresPerPlatform": 10,
-      "method": "全部26个平台均以10家不同店铺为目标。同平台优先按卖家 ID／店铺链接去重；未取得平台编号时，仅按原页明确披露的不同经营主体记录并标注。俄罗斯本批取得真实卖家编号但未取得店名，明确显示店名待核；Alibaba 为全球批发采购，不能当作欧美零售销量。相关候选不是销量前十，推广分类仅描述取得证据的商品展示位。",
+      "method": "全部26个平台均以10家不同店铺为目标。优先按原平台卖家ID去重；无编号时按商品页明确显示的卖家名称／经营主体去重，单独说明身份边界。相关候选不是销量前十。原站公开索引与第三方历史档案分列，核对日不等于报价日；历史档案不证明今天仍售或同一卖家仍在经营。俄罗斯部分店名待核，Alibaba为全球批发资料，不能当作欧美零售销量。推广分类只描述已有展示位证据。",
       "imagePolicy": "SKU 表只用对应平台商品页原图，保留商品编号、来源和核对时间；未公开卖家 SKU 或未核验子变体时明确标注，不以相似产品图替代。",
       "stores": [
         {
@@ -10939,6 +11237,1517 @@ window.COFFEE_CONTENT = {
               "painRefs": []
             }
           ]
+        },
+        {
+          "id": "aliexpress-3011010",
+          "platform": "aliexpress",
+          "market": "WW",
+          "sellerId": "3011010",
+          "name": "i Cafilas Official Store",
+          "url": "https://aliexpress.com/store/3011010",
+          "identitySource": "https://alitools.io/en/showcase/icafilasnespresso-stainless-steel-metal-capsule-compatible-with-nespresso-machine-refillable-reusable-capsule-coffee-32815705219",
+          "checkedAt": "2026-10-22T00:21:15.334Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "aliexpress-32815705219",
+              "listingId": "32815705219",
+              "listingIdType": "AliExpress 商品编号",
+              "sellerSKU": null,
+              "name": "Nespresso reusable steel capsule",
+              "zh": "Nespresso 钢制可填充胶囊；系列未明确",
+              "system": "nespresso-unconfirmed",
+              "type": "reusable",
+              "url": "https://aliexpress.com/item/32815705219.html",
+              "variant": "标题及材料字段有不锈钢／塑料、350ml／小于50ml冲突；不采用矛盾容量，数量与子规格未选择。",
+              "image": "store-aliexpress-32815705219",
+              "sourceSnapshot": {
+                "kind": "third-party-archive",
+                "source": "https://alitools.io/en/showcase/icafilasnespresso-stainless-steel-metal-capsule-compatible-with-nespresso-machine-refillable-reusable-capsule-coffee-32815705219",
+                "label": "Alitools 第三方历史档案",
+                "dataAsOf": null,
+                "dateNote": "报价实际日期未披露；页内可见评论为 2020-12-10—2020-12-15，评论日期不代表报价日期。"
+              },
+              "price": {
+                "amount": 7.98,
+                "maxAmount": 28.14,
+                "currency": "USD",
+                "quality": "indexed",
+                "offerType": "历史混合变体区间（未选规格）",
+                "pack": "标题及材料字段有不锈钢／塑料、350ml／小于50ml冲突；不采用矛盾容量，数量与子规格未选择。",
+                "source": "https://alitools.io/en/showcase/icafilasnespresso-stainless-steel-metal-capsule-compatible-with-nespresso-machine-refillable-reusable-capsule-coffee-32815705219",
+                "observedAt": "2026-10-22T00:21:15.334Z",
+                "basis": "第三方档案展示的美元历史报价区间；上下限来自同一档案，不把任一端当作已选择子规格价格。 今天只核对档案可读性，不代表原站今日仍售、仍由该卖家销售或同价。",
+                "shipping": "目的国、税运费、库存与实际交付条件未核实；国际站，非特定美国／欧盟站报价。",
+                "promotions": []
+              },
+              "sales": {
+                "text": "25 orders（历史档案）",
+                "scope": "历史商品订单计数，非独立卖家精确销量",
+                "period": "统计期间未披露",
+                "basis": "第三方历史档案记录，计数时点及订单件数、跨卖家／变体范围未披露；不是当前月销量。"
+              },
+              "revenue": null,
+              "rating": 5,
+              "ratingCount": 3,
+              "reviewScope": "第三方历史档案的商品评价；非当前评分或店铺评分，可能合并变体。",
+              "placement": {
+                "type": "unknown",
+                "source": "https://alitools.io/en/showcase/icafilasnespresso-stainless-steel-metal-capsule-compatible-with-nespresso-machine-refillable-reusable-capsule-coffee-32815705219",
+                "observedAt": "2026-10-22T00:21:15.334Z",
+                "evidence": "第三方档案没有保存原平台搜索展示位，不能判断当时或现在的付费／自然来源。"
+              },
+              "shipping": "历史档案；未核实当前库存、收货国、税运费及售后。",
+              "checkedAt": "2026-10-22T00:21:15.334Z",
+              "freshness": "indexed",
+              "freshnessNote": "第三方历史候选，原站当前销售状态未核验。报价实际日期未披露；页内可见评论为 2020-12-10—2020-12-15，评论日期不代表报价日期。",
+              "selection": "按档案链接中实际平台 store ID 去重；同店多个商品只计一家，非当前销量前十。",
+              "painRefs": []
+            },
+            {
+              "id": "aliexpress-33038156488",
+              "listingId": "33038156488",
+              "listingIdType": "AliExpress 商品编号",
+              "sellerSKU": null,
+              "name": "i Cafilas reusable capsule for illy Y3.2",
+              "zh": "i Cafilas 适用 illy Y3.2 可填充胶囊",
+              "system": "iperespresso",
+              "type": "reusable",
+              "url": "https://aliexpress.com/item/33038156488.html",
+              "variant": "标题声明适用 illy Y3.2；套装数量未选定，未实测。",
+              "image": "store-aliexpress-33038156488",
+              "sourceSnapshot": {
+                "kind": "third-party-archive",
+                "source": "https://alitools.io/en/showcase/icafilasstainless-steel-reusable-coffee-filter-support-refillable-capsules-cup-pod-for-illy-y3-2-mahine-33038156488",
+                "label": "Alitools 第三方历史档案",
+                "dataAsOf": null,
+                "dateNote": "报价实际日期未披露；页内可见评论为 2020-12-29—2021-01-07，评论日期不代表报价日期。"
+              },
+              "price": {
+                "amount": 4.84,
+                "maxAmount": 35.64,
+                "currency": "USD",
+                "quality": "indexed",
+                "offerType": "历史混合变体区间（未选规格）",
+                "pack": "标题声明适用 illy Y3.2；套装数量未选定，未实测。",
+                "source": "https://alitools.io/en/showcase/icafilasstainless-steel-reusable-coffee-filter-support-refillable-capsules-cup-pod-for-illy-y3-2-mahine-33038156488",
+                "observedAt": "2026-10-22T00:21:15.334Z",
+                "basis": "第三方档案展示的美元历史报价区间；上下限来自同一档案，不把任一端当作已选择子规格价格。 今天只核对档案可读性，不代表原站今日仍售、仍由该卖家销售或同价。",
+                "shipping": "目的国、税运费、库存与实际交付条件未核实；国际站，非特定美国／欧盟站报价。",
+                "promotions": []
+              },
+              "sales": {
+                "text": "368 orders（历史档案）",
+                "scope": "历史商品订单计数，非独立卖家精确销量",
+                "period": "统计期间未披露",
+                "basis": "第三方历史档案记录，计数时点及订单件数、跨卖家／变体范围未披露；不是当前月销量。"
+              },
+              "revenue": null,
+              "rating": 4.7,
+              "ratingCount": 61,
+              "reviewScope": "第三方历史档案的商品评价；非当前评分或店铺评分，可能合并变体。",
+              "placement": {
+                "type": "unknown",
+                "source": "https://alitools.io/en/showcase/icafilasstainless-steel-reusable-coffee-filter-support-refillable-capsules-cup-pod-for-illy-y3-2-mahine-33038156488",
+                "observedAt": "2026-10-22T00:21:15.334Z",
+                "evidence": "第三方档案没有保存原平台搜索展示位，不能判断当时或现在的付费／自然来源。"
+              },
+              "shipping": "历史档案；未核实当前库存、收货国、税运费及售后。",
+              "checkedAt": "2026-10-22T00:21:15.334Z",
+              "freshness": "indexed",
+              "freshnessNote": "第三方历史候选，原站当前销售状态未核验。报价实际日期未披露；页内可见评论为 2020-12-29—2021-01-07，评论日期不代表报价日期。",
+              "selection": "按档案链接中实际平台 store ID 去重；同店多个商品只计一家，非当前销量前十。",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "aliexpress-2447013",
+          "platform": "aliexpress",
+          "market": "WW",
+          "sellerId": "2447013",
+          "name": "Belr-Housewares Official Store",
+          "url": "https://aliexpress.com/store/2447013",
+          "identitySource": "https://alitools.io/en/showcase/stainless-steel-reusable-coffee-capsules-kitchen-reusable-coffee-capsule-cup-filter-compatible-for-delta-q-coffee-accessories-32983386751",
+          "checkedAt": "2026-10-22T00:21:15.334Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "aliexpress-32983386751",
+              "listingId": "32983386751",
+              "listingIdType": "AliExpress 商品编号",
+              "sellerSKU": null,
+              "name": "Belr-Housewares reusable capsule for Delta Q",
+              "zh": "Belr-Housewares 适用 Delta Q 可填充胶囊",
+              "system": "unconfirmed",
+              "type": "reusable",
+              "url": "https://aliexpress.com/item/32983386751.html",
+              "variant": "Delta Q 独立系统，不能当作 Nespresso 或 Lavazza；套装数量未选定。",
+              "image": "store-aliexpress-32983386751",
+              "sourceSnapshot": {
+                "kind": "third-party-archive",
+                "source": "https://alitools.io/en/showcase/stainless-steel-reusable-coffee-capsules-kitchen-reusable-coffee-capsule-cup-filter-compatible-for-delta-q-coffee-accessories-32983386751",
+                "label": "Alitools 第三方历史档案",
+                "dataAsOf": null,
+                "dateNote": "报价实际日期未披露；未取得可确认档案时点的评论日期。"
+              },
+              "price": {
+                "amount": 14.65,
+                "maxAmount": 40.01,
+                "currency": "USD",
+                "quality": "indexed",
+                "offerType": "历史混合变体区间（未选规格）",
+                "pack": "Delta Q 独立系统，不能当作 Nespresso 或 Lavazza；套装数量未选定。",
+                "source": "https://alitools.io/en/showcase/stainless-steel-reusable-coffee-capsules-kitchen-reusable-coffee-capsule-cup-filter-compatible-for-delta-q-coffee-accessories-32983386751",
+                "observedAt": "2026-10-22T00:21:15.334Z",
+                "basis": "第三方档案展示的美元历史报价区间；上下限来自同一档案，不把任一端当作已选择子规格价格。 今天只核对档案可读性，不代表原站今日仍售、仍由该卖家销售或同价。",
+                "shipping": "目的国、税运费、库存与实际交付条件未核实；国际站，非特定美国／欧盟站报价。",
+                "promotions": []
+              },
+              "sales": {
+                "text": "128 orders（历史档案）",
+                "scope": "历史商品订单计数，非独立卖家精确销量",
+                "period": "统计期间未披露",
+                "basis": "第三方历史档案记录，计数时点及订单件数、跨卖家／变体范围未披露；不是当前月销量。"
+              },
+              "revenue": null,
+              "rating": 4.9,
+              "ratingCount": 22,
+              "reviewScope": "第三方历史档案的商品评价；非当前评分或店铺评分，可能合并变体。",
+              "placement": {
+                "type": "unknown",
+                "source": "https://alitools.io/en/showcase/stainless-steel-reusable-coffee-capsules-kitchen-reusable-coffee-capsule-cup-filter-compatible-for-delta-q-coffee-accessories-32983386751",
+                "observedAt": "2026-10-22T00:21:15.334Z",
+                "evidence": "第三方档案没有保存原平台搜索展示位，不能判断当时或现在的付费／自然来源。"
+              },
+              "shipping": "历史档案；未核实当前库存、收货国、税运费及售后。",
+              "checkedAt": "2026-10-22T00:21:15.334Z",
+              "freshness": "indexed",
+              "freshnessNote": "第三方历史候选，原站当前销售状态未核验。报价实际日期未披露；未取得可确认档案时点的评论日期。",
+              "selection": "按档案链接中实际平台 store ID 去重；同店多个商品只计一家，非当前销量前十。",
+              "painRefs": []
+            },
+            {
+              "id": "aliexpress-32960367041",
+              "listingId": "32960367041",
+              "listingIdType": "AliExpress 商品编号",
+              "sellerSKU": null,
+              "name": "Belr-Housewares reusable steel capsule, silicone lid",
+              "zh": "Belr-Housewares 钢制可填充胶囊与硅胶盖",
+              "system": "dolce-gusto",
+              "type": "reusable",
+              "url": "https://aliexpress.com/item/32960367041.html",
+              "variant": "Dolce Gusto 声明；不同数量／附件变体未选择；未实测。",
+              "image": "store-aliexpress-32960367041",
+              "sourceSnapshot": {
+                "kind": "third-party-archive",
+                "source": "https://alitools.io/en/showcase/refillable-stainless-steel-metal-reusable-dolce-gusto-capsule-silicone-cover-dolci-gusto-coffee-machine-coffee-spoon-with-clip-32960367041",
+                "label": "Alitools 第三方历史档案",
+                "dataAsOf": null,
+                "dateNote": "报价实际日期未披露；页内可见评论为 2021-02-05—2021-02-07，评论日期不代表报价日期。"
+              },
+              "price": {
+                "amount": 6.32,
+                "maxAmount": 23.44,
+                "currency": "USD",
+                "quality": "indexed",
+                "offerType": "历史混合变体区间（未选规格）",
+                "pack": "Dolce Gusto 声明；不同数量／附件变体未选择；未实测。",
+                "source": "https://alitools.io/en/showcase/refillable-stainless-steel-metal-reusable-dolce-gusto-capsule-silicone-cover-dolci-gusto-coffee-machine-coffee-spoon-with-clip-32960367041",
+                "observedAt": "2026-10-22T00:21:15.334Z",
+                "basis": "第三方档案展示的美元历史报价区间；上下限来自同一档案，不把任一端当作已选择子规格价格。 今天只核对档案可读性，不代表原站今日仍售、仍由该卖家销售或同价。",
+                "shipping": "目的国、税运费、库存与实际交付条件未核实；国际站，非特定美国／欧盟站报价。",
+                "promotions": []
+              },
+              "sales": {
+                "text": "429 orders（历史档案）",
+                "scope": "历史商品订单计数，非独立卖家精确销量",
+                "period": "统计期间未披露",
+                "basis": "第三方历史档案记录，计数时点及订单件数、跨卖家／变体范围未披露；不是当前月销量。"
+              },
+              "revenue": null,
+              "rating": 4.8,
+              "ratingCount": 64,
+              "reviewScope": "第三方历史档案的商品评价；非当前评分或店铺评分，可能合并变体。",
+              "placement": {
+                "type": "unknown",
+                "source": "https://alitools.io/en/showcase/refillable-stainless-steel-metal-reusable-dolce-gusto-capsule-silicone-cover-dolci-gusto-coffee-machine-coffee-spoon-with-clip-32960367041",
+                "observedAt": "2026-10-22T00:21:15.334Z",
+                "evidence": "第三方档案没有保存原平台搜索展示位，不能判断当时或现在的付费／自然来源。"
+              },
+              "shipping": "历史档案；未核实当前库存、收货国、税运费及售后。",
+              "checkedAt": "2026-10-22T00:21:15.334Z",
+              "freshness": "indexed",
+              "freshnessNote": "第三方历史候选，原站当前销售状态未核验。报价实际日期未披露；页内可见评论为 2021-02-05—2021-02-07，评论日期不代表报价日期。",
+              "selection": "按档案链接中实际平台 store ID 去重；同店多个商品只计一家，非当前销量前十。",
+              "painRefs": [
+                {
+                  "date": "2021-02-05",
+                  "summary": "历史评论有收到的套装缺件反馈，不能推定当前缺件率。",
+                  "action": "明确装箱清单，并在发货前核对胶囊、硅胶盖和附件数量。",
+                  "url": "https://alitools.io/en/showcase/refillable-stainless-steel-metal-reusable-dolce-gusto-capsule-silicone-cover-dolci-gusto-coffee-machine-coffee-spoon-with-clip-32960367041"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "aliexpress-5439042",
+          "platform": "aliexpress",
+          "market": "WW",
+          "sellerId": "5439042",
+          "name": "Belr-Housewares EnjoyCoffee Store",
+          "url": "https://aliexpress.com/store/5439042",
+          "identitySource": "https://alitools.io/en/showcase/capsule-for-nespresso-reutilisable-inox-refillable-capsule-crema-reusable-refillable-coffee-filter-nespresso-essenza-mini-4001196793708",
+          "checkedAt": "2026-10-22T00:21:15.334Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "aliexpress-4001196793708",
+              "listingId": "4001196793708",
+              "listingIdType": "AliExpress 商品编号",
+              "sellerSKU": null,
+              "name": "Belr-Housewares reusable capsule for Essenza Mini",
+              "zh": "Belr-Housewares 适用 Essenza Mini 可填充胶囊",
+              "system": "original",
+              "type": "reusable",
+              "url": "https://aliexpress.com/item/4001196793708.html",
+              "variant": "标题适用 Essenza Mini；数量未选择。12.5g 为档案卖家参数，未验证，不作标准建议粉量。",
+              "image": "store-aliexpress-4001196793708",
+              "sourceSnapshot": {
+                "kind": "third-party-archive",
+                "source": "https://alitools.io/en/showcase/capsule-for-nespresso-reutilisable-inox-refillable-capsule-crema-reusable-refillable-coffee-filter-nespresso-essenza-mini-4001196793708",
+                "label": "Alitools 第三方历史档案",
+                "dataAsOf": null,
+                "dateNote": "报价实际日期未披露；页内可见评论为 2020-11-06—2020-12-06，评论日期不代表报价日期。"
+              },
+              "price": {
+                "amount": 6.37,
+                "maxAmount": 20.78,
+                "currency": "USD",
+                "quality": "indexed",
+                "offerType": "历史混合变体区间（未选规格）",
+                "pack": "标题适用 Essenza Mini；数量未选择。12.5g 为档案卖家参数，未验证，不作标准建议粉量。",
+                "source": "https://alitools.io/en/showcase/capsule-for-nespresso-reutilisable-inox-refillable-capsule-crema-reusable-refillable-coffee-filter-nespresso-essenza-mini-4001196793708",
+                "observedAt": "2026-10-22T00:21:15.334Z",
+                "basis": "第三方档案展示的美元历史报价区间；上下限来自同一档案，不把任一端当作已选择子规格价格。 今天只核对档案可读性，不代表原站今日仍售、仍由该卖家销售或同价。",
+                "shipping": "目的国、税运费、库存与实际交付条件未核实；国际站，非特定美国／欧盟站报价。",
+                "promotions": []
+              },
+              "sales": {
+                "text": "700 orders（历史档案）",
+                "scope": "历史商品订单计数，非独立卖家精确销量",
+                "period": "统计期间未披露",
+                "basis": "第三方历史档案记录，计数时点及订单件数、跨卖家／变体范围未披露；不是当前月销量。"
+              },
+              "revenue": null,
+              "rating": 4.7,
+              "ratingCount": 117,
+              "reviewScope": "第三方历史档案的商品评价；非当前评分或店铺评分，可能合并变体。",
+              "placement": {
+                "type": "unknown",
+                "source": "https://alitools.io/en/showcase/capsule-for-nespresso-reutilisable-inox-refillable-capsule-crema-reusable-refillable-coffee-filter-nespresso-essenza-mini-4001196793708",
+                "observedAt": "2026-10-22T00:21:15.334Z",
+                "evidence": "第三方档案没有保存原平台搜索展示位，不能判断当时或现在的付费／自然来源。"
+              },
+              "shipping": "历史档案；未核实当前库存、收货国、税运费及售后。",
+              "checkedAt": "2026-10-22T00:21:15.334Z",
+              "freshness": "indexed",
+              "freshnessNote": "第三方历史候选，原站当前销售状态未核验。报价实际日期未披露；页内可见评论为 2020-11-06—2020-12-06，评论日期不代表报价日期。",
+              "selection": "按档案链接中实际平台 store ID 去重；同店多个商品只计一家，非当前销量前十。",
+              "painRefs": [
+                {
+                  "date": "2020-11-06",
+                  "summary": "历史评论提到杯体较薄、盖子为压合而非旋拧，对密封圈清洁和老化有顾虑；老化是消费者担忧，非耐久测试结论。",
+                  "action": "展示真实开合结构，提供密封圈清洗、更换方法及备件。",
+                  "url": "https://alitools.io/en/showcase/capsule-for-nespresso-reutilisable-inox-refillable-capsule-crema-reusable-refillable-coffee-filter-nespresso-essenza-mini-4001196793708"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "aliexpress-3559007",
+          "platform": "aliexpress",
+          "market": "WW",
+          "sellerId": "3559007",
+          "name": "i Cafilas Loving Coffee Store",
+          "url": "https://aliexpress.com/store/3559007",
+          "identitySource": "https://alitools.io/en/showcase/icafilas-new-upgraded-reusable-coffee-capsule-for-nespresso-stainless-steel-coffee-filters-espresso-coffee-crema-maker-4000622486637",
+          "checkedAt": "2026-10-22T00:21:15.334Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "aliexpress-4000622486637",
+              "listingId": "4000622486637",
+              "listingIdType": "AliExpress 商品编号",
+              "sellerSKU": null,
+              "name": "i Cafilas upgraded reusable steel coffee capsule",
+              "zh": "i Cafilas 升级款钢制可填充胶囊",
+              "system": "nespresso-unconfirmed",
+              "type": "reusable",
+              "url": "https://aliexpress.com/item/4000622486637.html",
+              "variant": "档案参数 36.7 × 26.9 × 23mm、4g，为卖家声明；子规格、数量未选择，系列及兼容性未实测。",
+              "image": "store-aliexpress-4000622486637",
+              "sourceSnapshot": {
+                "kind": "third-party-archive",
+                "source": "https://alitools.io/en/showcase/icafilas-new-upgraded-reusable-coffee-capsule-for-nespresso-stainless-steel-coffee-filters-espresso-coffee-crema-maker-4000622486637",
+                "label": "Alitools 第三方历史档案",
+                "dataAsOf": null,
+                "dateNote": "报价实际日期未披露；页内可见评论为 2021-02-18—2021-02-19，评论日期不代表报价日期。"
+              },
+              "price": {
+                "amount": 7.81,
+                "maxAmount": 24.26,
+                "currency": "USD",
+                "quality": "indexed",
+                "offerType": "历史混合变体区间（未选规格）",
+                "pack": "档案参数 36.7 × 26.9 × 23mm、4g，为卖家声明；子规格、数量未选择，系列及兼容性未实测。",
+                "source": "https://alitools.io/en/showcase/icafilas-new-upgraded-reusable-coffee-capsule-for-nespresso-stainless-steel-coffee-filters-espresso-coffee-crema-maker-4000622486637",
+                "observedAt": "2026-10-22T00:21:15.334Z",
+                "basis": "第三方档案展示的美元历史报价区间；上下限来自同一档案，不把任一端当作已选择子规格价格。 今天只核对档案可读性，不代表原站今日仍售、仍由该卖家销售或同价。",
+                "shipping": "目的国、税运费、库存与实际交付条件未核实；国际站，非特定美国／欧盟站报价。",
+                "promotions": []
+              },
+              "sales": {
+                "text": "6486 orders（历史档案）",
+                "scope": "历史商品订单计数，非独立卖家精确销量",
+                "period": "统计期间未披露",
+                "basis": "第三方历史档案记录，计数时点及订单件数、跨卖家／变体范围未披露；不是当前月销量。"
+              },
+              "revenue": null,
+              "rating": 4.7,
+              "ratingCount": 248,
+              "reviewScope": "第三方历史档案的商品评价；非当前评分或店铺评分，可能合并变体。",
+              "placement": {
+                "type": "unknown",
+                "source": "https://alitools.io/en/showcase/icafilas-new-upgraded-reusable-coffee-capsule-for-nespresso-stainless-steel-coffee-filters-espresso-coffee-crema-maker-4000622486637",
+                "observedAt": "2026-10-22T00:21:15.334Z",
+                "evidence": "第三方档案没有保存原平台搜索展示位，不能判断当时或现在的付费／自然来源。"
+              },
+              "shipping": "历史档案；未核实当前库存、收货国、税运费及售后。",
+              "checkedAt": "2026-10-22T00:21:15.334Z",
+              "freshness": "indexed",
+              "freshnessNote": "第三方历史候选，原站当前销售状态未核验。报价实际日期未披露；页内可见评论为 2021-02-18—2021-02-19，评论日期不代表报价日期。",
+              "selection": "按档案链接中实际平台 store ID 去重；同店多个商品只计一家，非当前销量前十。",
+              "painRefs": [
+                {
+                  "date": "2021-02-19",
+                  "summary": "历史一星评论称首次使用的咖啡口感不满意；不能由单条评价判断产品总体表现。",
+                  "action": "给出相匹配的研磨、粉量和操作指引，并按机型复测。",
+                  "url": "https://alitools.io/en/showcase/icafilas-new-upgraded-reusable-coffee-capsule-for-nespresso-stainless-steel-coffee-filters-espresso-coffee-crema-maker-4000622486637"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "aliexpress-911068014",
+          "platform": "aliexpress",
+          "market": "WW",
+          "sellerId": "911068014",
+          "name": "daidaidog Store",
+          "url": "https://aliexpress.com/store/911068014",
+          "identitySource": "https://alitools.io/en/showcase/230ml-reusable-coffee-capsule-for-nespresso-vertuoline-delonghi-refillable-stainless-steel-coffee-filter-with-milk-frother-1005001903447359",
+          "checkedAt": "2026-10-22T00:21:15.334Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "aliexpress-1005001903447359",
+              "listingId": "1005001903447359",
+              "listingIdType": "AliExpress 商品编号",
+              "sellerSKU": null,
+              "name": "Reusable capsule for Nespresso Vertuoline",
+              "zh": "Nespresso Vertuoline 可填充胶囊套装",
+              "system": "vertuo",
+              "type": "reusable",
+              "url": "https://aliexpress.com/item/1005001903447359.html",
+              "variant": "标题含 230ml／奶泡器，不保证最低区间包含奶泡器；资料写9g，仅为卖家参数，具体套装未选择。",
+              "image": "store-aliexpress-1005001903447359",
+              "sourceSnapshot": {
+                "kind": "third-party-archive",
+                "source": "https://alitools.io/en/showcase/230ml-reusable-coffee-capsule-for-nespresso-vertuoline-delonghi-refillable-stainless-steel-coffee-filter-with-milk-frother-1005001903447359",
+                "label": "Alitools 第三方历史档案",
+                "dataAsOf": null,
+                "dateNote": "报价实际日期未披露；未取得可确认档案时点的评论日期。"
+              },
+              "price": {
+                "amount": 10.48,
+                "maxAmount": 66.14,
+                "currency": "USD",
+                "quality": "indexed",
+                "offerType": "历史混合变体区间（未选规格）",
+                "pack": "标题含 230ml／奶泡器，不保证最低区间包含奶泡器；资料写9g，仅为卖家参数，具体套装未选择。",
+                "source": "https://alitools.io/en/showcase/230ml-reusable-coffee-capsule-for-nespresso-vertuoline-delonghi-refillable-stainless-steel-coffee-filter-with-milk-frother-1005001903447359",
+                "observedAt": "2026-10-22T00:21:15.334Z",
+                "basis": "第三方档案展示的美元历史报价区间；上下限来自同一档案，不把任一端当作已选择子规格价格。 今天只核对档案可读性，不代表原站今日仍售、仍由该卖家销售或同价。",
+                "shipping": "目的国、税运费、库存与实际交付条件未核实；国际站，非特定美国／欧盟站报价。",
+                "promotions": []
+              },
+              "sales": {
+                "text": "9 orders（历史档案）",
+                "scope": "历史商品订单计数，非独立卖家精确销量",
+                "period": "统计期间未披露",
+                "basis": "第三方历史档案记录，计数时点及订单件数、跨卖家／变体范围未披露；不是当前月销量。"
+              },
+              "revenue": null,
+              "rating": 3.7,
+              "ratingCount": 3,
+              "reviewScope": "第三方历史档案的商品评价；非当前评分或店铺评分，可能合并变体。",
+              "placement": {
+                "type": "unknown",
+                "source": "https://alitools.io/en/showcase/230ml-reusable-coffee-capsule-for-nespresso-vertuoline-delonghi-refillable-stainless-steel-coffee-filter-with-milk-frother-1005001903447359",
+                "observedAt": "2026-10-22T00:21:15.334Z",
+                "evidence": "第三方档案没有保存原平台搜索展示位，不能判断当时或现在的付费／自然来源。"
+              },
+              "shipping": "历史档案；未核实当前库存、收货国、税运费及售后。",
+              "checkedAt": "2026-10-22T00:21:15.334Z",
+              "freshness": "indexed",
+              "freshnessNote": "第三方历史候选，原站当前销售状态未核验。报价实际日期未披露；未取得可确认档案时点的评论日期。",
+              "selection": "按档案链接中实际平台 store ID 去重；同店多个商品只计一家，非当前销量前十。",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "aliexpress-1095486",
+          "platform": "aliexpress",
+          "market": "WW",
+          "sellerId": "1095486",
+          "name": "CAPSULONE Official Store",
+          "url": "https://aliexpress.com/store/1095486",
+          "identitySource": "https://alitools.io/en/showcase/capsulone-stainless-steel-metal-capsule-compatible-for-scishare-machine-refillable-reusable-coffee-capsule-gift-32858733842",
+          "checkedAt": "2026-10-22T00:21:15.334Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "aliexpress-32858733842",
+              "listingId": "32858733842",
+              "listingIdType": "AliExpress 商品编号",
+              "sellerSKU": null,
+              "name": "CAPSULONE reusable capsule for Scishare",
+              "zh": "CAPSULONE 适用 Scishare 可填充胶囊",
+              "system": "unconfirmed",
+              "type": "reusable",
+              "url": "https://aliexpress.com/item/32858733842.html",
+              "variant": "仅声明 Scishare，未确认具体机型及是否属于 Nespresso 兼容系统；套装未选择。",
+              "image": "store-aliexpress-32858733842",
+              "sourceSnapshot": {
+                "kind": "third-party-archive",
+                "source": "https://alitools.io/en/showcase/capsulone-stainless-steel-metal-capsule-compatible-for-scishare-machine-refillable-reusable-coffee-capsule-gift-32858733842",
+                "label": "Alitools 第三方历史档案",
+                "dataAsOf": null,
+                "dateNote": "报价实际日期未披露；未取得可确认档案时点的评论日期。"
+              },
+              "price": {
+                "amount": 35.85,
+                "maxAmount": 48,
+                "currency": "USD",
+                "quality": "indexed",
+                "offerType": "历史混合变体区间（未选规格）",
+                "pack": "仅声明 Scishare，未确认具体机型及是否属于 Nespresso 兼容系统；套装未选择。",
+                "source": "https://alitools.io/en/showcase/capsulone-stainless-steel-metal-capsule-compatible-for-scishare-machine-refillable-reusable-coffee-capsule-gift-32858733842",
+                "observedAt": "2026-10-22T00:21:15.334Z",
+                "basis": "第三方档案展示的美元历史报价区间；上下限来自同一档案，不把任一端当作已选择子规格价格。 今天只核对档案可读性，不代表原站今日仍售、仍由该卖家销售或同价。",
+                "shipping": "目的国、税运费、库存与实际交付条件未核实；国际站，非特定美国／欧盟站报价。",
+                "promotions": []
+              },
+              "sales": {
+                "text": "1 orders（历史档案）",
+                "scope": "历史商品订单计数，非独立卖家精确销量",
+                "period": "统计期间未披露",
+                "basis": "第三方历史档案记录，计数时点及订单件数、跨卖家／变体范围未披露；不是当前月销量。"
+              },
+              "revenue": null,
+              "rating": null,
+              "ratingCount": null,
+              "reviewScope": "第三方历史档案的商品评价；非当前评分或店铺评分，可能合并变体。",
+              "placement": {
+                "type": "unknown",
+                "source": "https://alitools.io/en/showcase/capsulone-stainless-steel-metal-capsule-compatible-for-scishare-machine-refillable-reusable-coffee-capsule-gift-32858733842",
+                "observedAt": "2026-10-22T00:21:15.334Z",
+                "evidence": "第三方档案没有保存原平台搜索展示位，不能判断当时或现在的付费／自然来源。"
+              },
+              "shipping": "历史档案；未核实当前库存、收货国、税运费及售后。",
+              "checkedAt": "2026-10-22T00:21:15.334Z",
+              "freshness": "indexed",
+              "freshnessNote": "第三方历史候选，原站当前销售状态未核验。报价实际日期未披露；未取得可确认档案时点的评论日期。",
+              "selection": "按档案链接中实际平台 store ID 去重；同店多个商品只计一家，非当前销量前十。",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "aliexpress-5085170",
+          "platform": "aliexpress",
+          "market": "WW",
+          "sellerId": "5085170",
+          "name": "i Cafilas Youcoffee Store",
+          "url": "https://aliexpress.com/store/5085170",
+          "identitySource": "https://alitools.io/en/showcase/icafilas-reusable-coffee-capsule-pod-for-nespresso-vertuoline-gca1-delonghi-env135-stainless-steel-refillable-filters-dosing-1005001727132602",
+          "checkedAt": "2026-10-22T00:21:15.334Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "aliexpress-1005001727132602",
+              "listingId": "1005001727132602",
+              "listingIdType": "AliExpress 商品编号",
+              "sellerSKU": null,
+              "name": "i Cafilas reusable capsule for GCA1 / ENV135",
+              "zh": "i Cafilas 适用 GCA1／DeLonghi ENV135 可填充胶囊",
+              "system": "vertuo",
+              "type": "reusable",
+              "url": "https://aliexpress.com/item/1005001727132602.html",
+              "variant": "Vertuoline GCA1／ENV135 为档案声明，不能扩展至 Vertuo Next／Pop 或所有 Vertuo；数量未选择。",
+              "image": "store-aliexpress-1005001727132602",
+              "sourceSnapshot": {
+                "kind": "third-party-archive",
+                "source": "https://alitools.io/en/showcase/icafilas-reusable-coffee-capsule-pod-for-nespresso-vertuoline-gca1-delonghi-env135-stainless-steel-refillable-filters-dosing-1005001727132602",
+                "label": "Alitools 第三方历史档案",
+                "dataAsOf": null,
+                "dateNote": "报价实际日期未披露；未取得可确认档案时点的评论日期。"
+              },
+              "price": {
+                "amount": 9.63,
+                "maxAmount": 29.94,
+                "currency": "USD",
+                "quality": "indexed",
+                "offerType": "历史混合变体区间（未选规格）",
+                "pack": "Vertuoline GCA1／ENV135 为档案声明，不能扩展至 Vertuo Next／Pop 或所有 Vertuo；数量未选择。",
+                "source": "https://alitools.io/en/showcase/icafilas-reusable-coffee-capsule-pod-for-nespresso-vertuoline-gca1-delonghi-env135-stainless-steel-refillable-filters-dosing-1005001727132602",
+                "observedAt": "2026-10-22T00:21:15.334Z",
+                "basis": "第三方档案展示的美元历史报价区间；上下限来自同一档案，不把任一端当作已选择子规格价格。 今天只核对档案可读性，不代表原站今日仍售、仍由该卖家销售或同价。",
+                "shipping": "目的国、税运费、库存与实际交付条件未核实；国际站，非特定美国／欧盟站报价。",
+                "promotions": []
+              },
+              "sales": {
+                "text": "80 orders（历史档案）",
+                "scope": "历史商品订单计数，非独立卖家精确销量",
+                "period": "统计期间未披露",
+                "basis": "第三方历史档案记录，计数时点及订单件数、跨卖家／变体范围未披露；不是当前月销量。"
+              },
+              "revenue": null,
+              "rating": 3.8,
+              "ratingCount": 13,
+              "reviewScope": "第三方历史档案的商品评价；非当前评分或店铺评分，可能合并变体。",
+              "placement": {
+                "type": "unknown",
+                "source": "https://alitools.io/en/showcase/icafilas-reusable-coffee-capsule-pod-for-nespresso-vertuoline-gca1-delonghi-env135-stainless-steel-refillable-filters-dosing-1005001727132602",
+                "observedAt": "2026-10-22T00:21:15.334Z",
+                "evidence": "第三方档案没有保存原平台搜索展示位，不能判断当时或现在的付费／自然来源。"
+              },
+              "shipping": "历史档案；未核实当前库存、收货国、税运费及售后。",
+              "checkedAt": "2026-10-22T00:21:15.334Z",
+              "freshness": "indexed",
+              "freshnessNote": "第三方历史候选，原站当前销售状态未核验。报价实际日期未披露；未取得可确认档案时点的评论日期。",
+              "selection": "按档案链接中实际平台 store ID 去重；同店多个商品只计一家，非当前销量前十。",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "aliexpress-1941093",
+          "platform": "aliexpress",
+          "market": "WW",
+          "sellerId": "1941093",
+          "name": "Seeme Dropshipping Store",
+          "url": "https://aliexpress.com/store/1941093",
+          "identitySource": "https://alitools.io/en/showcase/6pcs-reusable-nespresso-coffee-capsules-cup-with-spoon-brush-black-refillable-coffee-capsule-refilling-filter-coffeeware-gift-32970914524",
+          "checkedAt": "2026-10-22T00:21:15.334Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "aliexpress-32970914524",
+              "listingId": "32970914524",
+              "listingIdType": "AliExpress 商品编号",
+              "sellerSKU": null,
+              "name": "Dalinwell reusable capsules with spoon and brush, 6pcs",
+              "zh": "Dalinwell 可填充胶囊、量勺与刷子六件装",
+              "system": "nespresso-unconfirmed",
+              "type": "reusable",
+              "url": "https://aliexpress.com/item/32970914524.html",
+              "variant": "档案标题 6PCS，塑料；具体 Nespresso 系列与机型未确认，未实测。",
+              "image": "store-aliexpress-32970914524",
+              "sourceSnapshot": {
+                "kind": "third-party-archive",
+                "source": "https://alitools.io/en/showcase/6pcs-reusable-nespresso-coffee-capsules-cup-with-spoon-brush-black-refillable-coffee-capsule-refilling-filter-coffeeware-gift-32970914524",
+                "label": "Alitools 第三方历史档案",
+                "dataAsOf": null,
+                "dateNote": "报价实际日期未披露；页内可见评论为 2021-01-21—2021-01-24，评论日期不代表报价日期。"
+              },
+              "price": {
+                "amount": 11.18,
+                "currency": "USD",
+                "quality": "indexed",
+                "offerType": "历史档案标价（非今日报价）",
+                "pack": "档案标题 6PCS，塑料；具体 Nespresso 系列与机型未确认，未实测。",
+                "source": "https://alitools.io/en/showcase/6pcs-reusable-nespresso-coffee-capsules-cup-with-spoon-brush-black-refillable-coffee-capsule-refilling-filter-coffeeware-gift-32970914524",
+                "observedAt": "2026-10-22T00:21:15.334Z",
+                "basis": "第三方档案展示的美元历史报价；档案未披露该报价的实际日期。 今天只核对档案可读性，不代表原站今日仍售、仍由该卖家销售或同价。",
+                "shipping": "目的国、税运费、库存与实际交付条件未核实；国际站，非特定美国／欧盟站报价。",
+                "promotions": []
+              },
+              "sales": {
+                "text": "30 orders（历史档案）",
+                "scope": "历史商品订单计数，非独立卖家精确销量",
+                "period": "统计期间未披露",
+                "basis": "第三方历史档案记录，计数时点及订单件数、跨卖家／变体范围未披露；不是当前月销量。"
+              },
+              "revenue": null,
+              "rating": 5,
+              "ratingCount": 3,
+              "reviewScope": "第三方历史档案的商品评价；非当前评分或店铺评分，可能合并变体。",
+              "placement": {
+                "type": "unknown",
+                "source": "https://alitools.io/en/showcase/6pcs-reusable-nespresso-coffee-capsules-cup-with-spoon-brush-black-refillable-coffee-capsule-refilling-filter-coffeeware-gift-32970914524",
+                "observedAt": "2026-10-22T00:21:15.334Z",
+                "evidence": "第三方档案没有保存原平台搜索展示位，不能判断当时或现在的付费／自然来源。"
+              },
+              "shipping": "历史档案；未核实当前库存、收货国、税运费及售后。",
+              "checkedAt": "2026-10-22T00:21:15.334Z",
+              "freshness": "indexed",
+              "freshnessNote": "第三方历史候选，原站当前销售状态未核验。报价实际日期未披露；页内可见评论为 2021-01-21—2021-01-24，评论日期不代表报价日期。",
+              "selection": "按档案链接中实际平台 store ID 去重；同店多个商品只计一家，非当前销量前十。",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "aliexpress-5890942",
+          "platform": "aliexpress",
+          "market": "WW",
+          "sellerId": "5890942",
+          "name": "RECAFIMIL Capsules Dropshipping Store",
+          "url": "https://aliexpress.com/store/5890942",
+          "identitySource": "https://alitools.io/en/showcase/rich-crema-refillable-coffee-capsule-pod-for-nespresso-vertuoline-plus-delonghi-env150-stainless-steel-coffee-filter-4001252098924",
+          "checkedAt": "2026-10-22T00:21:15.334Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "aliexpress-4001252098924",
+              "listingId": "4001252098924",
+              "listingIdType": "AliExpress 商品编号",
+              "sellerSKU": null,
+              "name": "RECAFIMIL reusable capsule for Vertuoline Plus / ENV150",
+              "zh": "RECAFIMIL 适用 Vertuoline Plus／ENV150 可填充胶囊",
+              "system": "vertuo",
+              "type": "reusable",
+              "url": "https://aliexpress.com/item/4001252098924.html",
+              "variant": "70–230ml 为档案卖家参数，套装数量未选择；不扩展到所有 Vertuo 机型，未实测。",
+              "image": "store-aliexpress-4001252098924",
+              "sourceSnapshot": {
+                "kind": "third-party-archive",
+                "source": "https://alitools.io/en/showcase/rich-crema-refillable-coffee-capsule-pod-for-nespresso-vertuoline-plus-delonghi-env150-stainless-steel-coffee-filter-4001252098924",
+                "label": "Alitools 第三方历史档案",
+                "dataAsOf": null,
+                "dateNote": "报价实际日期未披露；页内可见评论为 2021-01-09—2021-01-09，评论日期不代表报价日期。"
+              },
+              "price": {
+                "amount": 30.01,
+                "maxAmount": 41.64,
+                "currency": "USD",
+                "quality": "indexed",
+                "offerType": "历史混合变体区间（未选规格）",
+                "pack": "70–230ml 为档案卖家参数，套装数量未选择；不扩展到所有 Vertuo 机型，未实测。",
+                "source": "https://alitools.io/en/showcase/rich-crema-refillable-coffee-capsule-pod-for-nespresso-vertuoline-plus-delonghi-env150-stainless-steel-coffee-filter-4001252098924",
+                "observedAt": "2026-10-22T00:21:15.334Z",
+                "basis": "第三方档案展示的美元历史报价区间；上下限来自同一档案，不把任一端当作已选择子规格价格。 今天只核对档案可读性，不代表原站今日仍售、仍由该卖家销售或同价。",
+                "shipping": "目的国、税运费、库存与实际交付条件未核实；国际站，非特定美国／欧盟站报价。",
+                "promotions": []
+              },
+              "sales": {
+                "text": "19 orders（历史档案）",
+                "scope": "历史商品订单计数，非独立卖家精确销量",
+                "period": "统计期间未披露",
+                "basis": "第三方历史档案记录，计数时点及订单件数、跨卖家／变体范围未披露；不是当前月销量。"
+              },
+              "revenue": null,
+              "rating": 3.7,
+              "ratingCount": 3,
+              "reviewScope": "第三方历史档案的商品评价；非当前评分或店铺评分，可能合并变体。",
+              "placement": {
+                "type": "unknown",
+                "source": "https://alitools.io/en/showcase/rich-crema-refillable-coffee-capsule-pod-for-nespresso-vertuoline-plus-delonghi-env150-stainless-steel-coffee-filter-4001252098924",
+                "observedAt": "2026-10-22T00:21:15.334Z",
+                "evidence": "第三方档案没有保存原平台搜索展示位，不能判断当时或现在的付费／自然来源。"
+              },
+              "shipping": "历史档案；未核实当前库存、收货国、税运费及售后。",
+              "checkedAt": "2026-10-22T00:21:15.334Z",
+              "freshness": "indexed",
+              "freshnessNote": "第三方历史候选，原站当前销售状态未核验。报价实际日期未披露；页内可见评论为 2021-01-09—2021-01-09，评论日期不代表报价日期。",
+              "selection": "按档案链接中实际平台 store ID 去重；同店多个商品只计一家，非当前销量前十。",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "aliexpress-1936009",
+          "platform": "aliexpress",
+          "market": "WW",
+          "sellerId": "1936009",
+          "name": "Seller 1936009（历史店名未取得）",
+          "url": "https://aliexpress.com/store/1936009",
+          "identitySource": "https://alitools.io/en/showcase/2pcs-box-refill-nespresso-coffee-capsulas-stainless-steel-refillable-nespress-coffee-capsule-reusable-italian-coffee-filters-cup-32882310029",
+          "checkedAt": "2026-10-22T00:21:15.334Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "aliexpress-32882310029",
+              "listingId": "32882310029",
+              "listingIdType": "AliExpress 商品编号",
+              "sellerSKU": null,
+              "name": "Dalinwell steel reusable coffee capsule, 1 / 2pcs",
+              "zh": "Dalinwell 钢制可填充胶囊一只／两只选项",
+              "system": "nespresso-unconfirmed",
+              "type": "reusable",
+              "url": "https://aliexpress.com/item/32882310029.html",
+              "variant": "标题写两只装，但参数同时提供一只／两只；未选定变体，不把区间低价当作两只装价格。",
+              "image": "store-aliexpress-32882310029",
+              "sourceSnapshot": {
+                "kind": "third-party-archive",
+                "source": "https://alitools.io/en/showcase/2pcs-box-refill-nespresso-coffee-capsulas-stainless-steel-refillable-nespress-coffee-capsule-reusable-italian-coffee-filters-cup-32882310029",
+                "label": "Alitools 第三方历史档案",
+                "dataAsOf": null,
+                "dateNote": "报价实际日期未披露；页内可见评论为 2021-01-19—2021-01-30，评论日期不代表报价日期。"
+              },
+              "price": {
+                "amount": 3.71,
+                "maxAmount": 3.85,
+                "currency": "USD",
+                "quality": "indexed",
+                "offerType": "历史混合变体区间（未选规格）",
+                "pack": "标题写两只装，但参数同时提供一只／两只；未选定变体，不把区间低价当作两只装价格。",
+                "source": "https://alitools.io/en/showcase/2pcs-box-refill-nespresso-coffee-capsulas-stainless-steel-refillable-nespress-coffee-capsule-reusable-italian-coffee-filters-cup-32882310029",
+                "observedAt": "2026-10-22T00:21:15.334Z",
+                "basis": "第三方档案展示的美元历史报价区间；上下限来自同一档案，不把任一端当作已选择子规格价格。 今天只核对档案可读性，不代表原站今日仍售、仍由该卖家销售或同价。",
+                "shipping": "目的国、税运费、库存与实际交付条件未核实；国际站，非特定美国／欧盟站报价。",
+                "promotions": []
+              },
+              "sales": {
+                "text": "93 orders（历史档案）",
+                "scope": "历史商品订单计数，非独立卖家精确销量",
+                "period": "统计期间未披露",
+                "basis": "第三方历史档案记录，计数时点及订单件数、跨卖家／变体范围未披露；不是当前月销量。"
+              },
+              "revenue": null,
+              "rating": 4.6,
+              "ratingCount": 34,
+              "reviewScope": "第三方历史档案的商品评价；非当前评分或店铺评分，可能合并变体。",
+              "placement": {
+                "type": "unknown",
+                "source": "https://alitools.io/en/showcase/2pcs-box-refill-nespresso-coffee-capsulas-stainless-steel-refillable-nespress-coffee-capsule-reusable-italian-coffee-filters-cup-32882310029",
+                "observedAt": "2026-10-22T00:21:15.334Z",
+                "evidence": "第三方档案没有保存原平台搜索展示位，不能判断当时或现在的付费／自然来源。"
+              },
+              "shipping": "历史档案；未核实当前库存、收货国、税运费及售后。",
+              "checkedAt": "2026-10-22T00:21:15.334Z",
+              "freshness": "indexed",
+              "freshnessNote": "第三方历史候选，原站当前销售状态未核验。报价实际日期未披露；页内可见评论为 2021-01-19—2021-01-30，评论日期不代表报价日期。",
+              "selection": "按档案链接中实际平台 store ID 去重；同店多个商品只计一家，非当前销量前十。",
+              "painRefs": [
+                {
+                  "date": "2021-01-30",
+                  "summary": "历史三星评论提到产品后部漏水；未披露具体机型，不能归因全部同类胶囊。",
+                  "action": "检查接触面及密封圈，按具体机型记录漏水测试。",
+                  "url": "https://alitools.io/en/showcase/2pcs-box-refill-nespresso-coffee-capsulas-stainless-steel-refillable-nespress-coffee-capsule-reusable-italian-coffee-filters-cup-32882310029"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "otto-s06fu047rfy",
+          "platform": "otto",
+          "market": "DE",
+          "sellerId": null,
+          "identityKind": "seller-name",
+          "sellerName": "Genoy Handels UG",
+          "name": "Genoy Handels UG",
+          "url": "https://www.otto.de/p/felixleo-wiederbefuellbare-kaffeepads-nachfuellbare-kaffeekapseln-set-mit-papierfiltern-fuer-tassimo-S06FU047/",
+          "urlKind": "listing",
+          "identitySource": "https://www.otto.de/p/felixleo-wiederbefuellbare-kaffeepads-nachfuellbare-kaffeekapseln-set-mit-papierfiltern-fuer-tassimo-S06FU047/",
+          "checkedAt": "2026-10-22T00:21:15.334Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "otto-s06fu047rfy",
+              "listingId": "S06FU047RFY",
+              "listingIdType": "OTTO 商品／选定变体编号",
+              "sellerSKU": null,
+              "name": "FELIXLEO refillable Tassimo capsule kit",
+              "zh": "FELIXLEO Tassimo 可填充胶囊套装",
+              "system": "tassimo",
+              "type": "reusable",
+              "url": "https://www.otto.de/p/felixleo-wiederbefuellbare-kaffeepads-nachfuellbare-kaffeekapseln-set-mit-papierfiltern-fuer-tassimo-S06FU047/",
+              "variant": "PP 胶囊，页面声明含密封圈及附件；可选1／2／3件，本报价对应选中1件；“全部 Tassimo”仅为卖家声明，未实测。",
+              "image": "store-otto-s06fu047rfy",
+              "sourceSnapshot": {
+                "kind": "primary-index",
+                "source": "https://www.otto.de/p/felixleo-wiederbefuellbare-kaffeepads-nachfuellbare-kaffeekapseln-set-mit-papierfiltern-fuer-tassimo-S06FU047/",
+                "label": "OTTO 原站公开索引",
+                "dataAsOf": null,
+                "dateNote": "原站公开索引标注约1个月前；原报价的实际日期未披露，今天仅为核对索引的日期。"
+              },
+              "availabilityNote": null,
+              "price": {
+                "amount": 26.99,
+                "currency": "EUR",
+                "quality": "indexed",
+                "offerType": "原站索引展示标价（非即时价）",
+                "pack": "1 tlg.（页面选中一件规格）",
+                "observedAt": "2026-10-22T00:21:15.334Z",
+                "source": "https://www.otto.de/p/felixleo-wiederbefuellbare-kaffeepads-nachfuellbare-kaffeekapseln-set-mit-papierfiltern-fuer-tassimo-S06FU047/",
+                "basis": "同一商品页卖家栏、选定规格及主报价逐项核对。没有用推荐商品价、划线原价、每月分期额或占位0.00作为报价；报价日期未披露，不能当作今日可购买价格。",
+                "shipping": "页面注明含VAT、另计运费；按德国收货地址与当日库存核实，未换算其他国家到手价。",
+                "promotions": []
+              },
+              "sales": null,
+              "revenue": null,
+              "rating": 5,
+              "ratingCount": 1,
+              "reviewScope": "原站索引商品级评价；可能合并规格或卖家，不是该店销量与评分。",
+              "placement": {
+                "type": "unknown",
+                "source": "https://www.otto.de/p/felixleo-wiederbefuellbare-kaffeepads-nachfuellbare-kaffeekapseln-set-mit-papierfiltern-fuer-tassimo-S06FU047/",
+                "observedAt": "2026-10-22T00:21:15.334Z",
+                "evidence": "读取商品详情公开索引，未取得搜索页对应展示位的广告标记，不能判断流量来源。"
+              },
+              "shipping": "索引历史配送说明不作为当前履约承诺；收货地址、时效与运费需按原平台核对。",
+              "checkedAt": "2026-10-22T00:21:15.334Z",
+              "freshness": "indexed",
+              "freshnessNote": "原站公开索引标注约1个月前；原报价的实际日期未披露，今天仅为核对索引的日期。",
+              "selection": "按商品页卖家栏的不同公开名称去重；未取得平台卖家编号，不以品牌或EU责任人冒充销售主体，非销量前十。",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "otto-s075s0oirfy",
+          "platform": "otto",
+          "market": "DE",
+          "sellerId": null,
+          "identityKind": "seller-name",
+          "sellerName": "HAC24",
+          "name": "HAC24",
+          "url": "https://www.otto.de/p/hac24-kapselhalter-kapselspender-kaffeekapselhalter-fuer-nespresso-kapseln-kapselstaender-fuer-je-32-kaffeekapseln-S075S0OI/",
+          "urlKind": "listing",
+          "identitySource": "https://www.otto.de/p/hac24-kapselhalter-kapselspender-kaffeekapselhalter-fuer-nespresso-kapseln-kapselstaender-fuer-je-32-kaffeekapseln-S075S0OI/",
+          "checkedAt": "2026-10-22T00:21:15.334Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "otto-s075s0oirfy",
+              "listingId": "S075S0OIRFY",
+              "listingIdType": "OTTO 商品／选定变体编号",
+              "sellerSKU": null,
+              "name": "HAC24 steel capsule stand, 32 capsules",
+              "zh": "HAC24 钢制胶囊架，三十二粒容量",
+              "system": "nespresso-unconfirmed",
+              "type": "accessories",
+              "url": "https://www.otto.de/p/hac24-kapselhalter-kapselspender-kaffeekapselhalter-fuer-nespresso-kapseln-kapselstaender-fuer-je-32-kaffeekapseln-S075S0OI/",
+              "variant": "黑色钢架，29 × 10 × 12cm，32粒 Nespresso 声明；系列未明确，不据收纳说明推定机型兼容。",
+              "image": "store-otto-s075s0oirfy",
+              "sourceSnapshot": {
+                "kind": "primary-index",
+                "source": "https://www.otto.de/p/hac24-kapselhalter-kapselspender-kaffeekapselhalter-fuer-nespresso-kapseln-kapselstaender-fuer-je-32-kaffeekapseln-S075S0OI/",
+                "label": "OTTO 原站公开索引",
+                "dataAsOf": null,
+                "dateNote": "原站公开索引标注约3周前；原报价的实际日期未披露，今天仅为核对索引的日期。"
+              },
+              "availabilityNote": null,
+              "price": {
+                "amount": 14.99,
+                "currency": "EUR",
+                "quality": "indexed",
+                "offerType": "原站索引展示标价（非即时价）",
+                "pack": "1 tlg.（一个架子，不含咖啡胶囊）",
+                "observedAt": "2026-10-22T00:21:15.334Z",
+                "source": "https://www.otto.de/p/hac24-kapselhalter-kapselspender-kaffeekapselhalter-fuer-nespresso-kapseln-kapselstaender-fuer-je-32-kaffeekapseln-S075S0OI/",
+                "basis": "同一商品页卖家栏、选定规格及主报价逐项核对。没有用推荐商品价、划线原价、每月分期额或占位0.00作为报价；报价日期未披露，不能当作今日可购买价格。",
+                "shipping": "页面注明含VAT、另计运费；按德国收货地址与当日库存核实，未换算其他国家到手价。",
+                "promotions": []
+              },
+              "sales": null,
+              "revenue": null,
+              "rating": 4.7,
+              "ratingCount": 3,
+              "reviewScope": "原站索引商品级评价；可能合并规格或卖家，不是该店销量与评分。",
+              "placement": {
+                "type": "unknown",
+                "source": "https://www.otto.de/p/hac24-kapselhalter-kapselspender-kaffeekapselhalter-fuer-nespresso-kapseln-kapselstaender-fuer-je-32-kaffeekapseln-S075S0OI/",
+                "observedAt": "2026-10-22T00:21:15.334Z",
+                "evidence": "读取商品详情公开索引，未取得搜索页对应展示位的广告标记，不能判断流量来源。"
+              },
+              "shipping": "索引历史配送说明不作为当前履约承诺；收货地址、时效与运费需按原平台核对。",
+              "checkedAt": "2026-10-22T00:21:15.334Z",
+              "freshness": "indexed",
+              "freshnessNote": "原站公开索引标注约3周前；原报价的实际日期未披露，今天仅为核对索引的日期。",
+              "selection": "按商品页卖家栏的不同公开名称去重；未取得平台卖家编号，不以品牌或EU责任人冒充销售主体，非销量前十。",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "otto-s06cl0a0",
+          "platform": "otto",
+          "market": "DE",
+          "sellerId": null,
+          "identityKind": "seller-name",
+          "sellerName": "Knethaken-Shop",
+          "name": "Knethaken-Shop",
+          "url": "https://www.otto.de/p/krups-kapselhalter-krups-ms-624360-kapselhalter-fuer-kp1301-kp1305-kp1308-kp310810-S06CL0A0/",
+          "urlKind": "listing",
+          "identitySource": "https://www.otto.de/p/krups-kapselhalter-krups-ms-624360-kapselhalter-fuer-kp1301-kp1305-kp1308-kp310810-S06CL0A0/",
+          "checkedAt": "2026-10-22T00:21:15.334Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "otto-s06cl0a0",
+              "listingId": "S06CL0A0",
+              "listingIdType": "OTTO 商品／选定变体编号",
+              "sellerSKU": null,
+              "name": "Krups MS-624360 capsule holder",
+              "zh": "Krups MS-624360 咖啡机胶囊托配件",
+              "system": "dolce-gusto",
+              "type": "accessories",
+              "url": "https://www.otto.de/p/krups-kapselhalter-krups-ms-624360-kapselhalter-fuer-kp1301-kp1305-kp1308-kp310810-S06CL0A0/",
+              "variant": "标题列 KP1301、KP1305、KP1308、KP310810；正文另写 KP3101，机型文本有差异，购买前需按原机型号核对。原厂配件为销售页声明。",
+              "image": "store-otto-s06cl0a0",
+              "sourceSnapshot": {
+                "kind": "primary-index",
+                "source": "https://www.otto.de/p/krups-kapselhalter-krups-ms-624360-kapselhalter-fuer-kp1301-kp1305-kp1308-kp310810-S06CL0A0/",
+                "label": "OTTO 原站公开索引",
+                "dataAsOf": null,
+                "dateNote": "原站公开索引标注约2个月前；原报价的实际日期未披露，今天仅为核对索引的日期。"
+              },
+              "availabilityNote": null,
+              "price": {
+                "amount": 43.98,
+                "currency": "EUR",
+                "quality": "indexed",
+                "offerType": "原站索引展示标价（非即时价）",
+                "pack": "一件胶囊托；页面未给独立卖家 SKU",
+                "observedAt": "2026-10-22T00:21:15.334Z",
+                "source": "https://www.otto.de/p/krups-kapselhalter-krups-ms-624360-kapselhalter-fuer-kp1301-kp1305-kp1308-kp310810-S06CL0A0/",
+                "basis": "同一商品页卖家栏、选定规格及主报价逐项核对。没有用推荐商品价、划线原价、每月分期额或占位0.00作为报价；报价日期未披露，不能当作今日可购买价格。",
+                "shipping": "页面注明含VAT、另计运费；按德国收货地址与当日库存核实，未换算其他国家到手价。",
+                "promotions": []
+              },
+              "sales": null,
+              "revenue": null,
+              "rating": null,
+              "ratingCount": null,
+              "reviewScope": "原站索引商品级评价；可能合并规格或卖家，不是该店销量与评分。",
+              "placement": {
+                "type": "unknown",
+                "source": "https://www.otto.de/p/krups-kapselhalter-krups-ms-624360-kapselhalter-fuer-kp1301-kp1305-kp1308-kp310810-S06CL0A0/",
+                "observedAt": "2026-10-22T00:21:15.334Z",
+                "evidence": "读取商品详情公开索引，未取得搜索页对应展示位的广告标记，不能判断流量来源。"
+              },
+              "shipping": "索引历史配送说明不作为当前履约承诺；收货地址、时效与运费需按原平台核对。",
+              "checkedAt": "2026-10-22T00:21:15.334Z",
+              "freshness": "indexed",
+              "freshnessNote": "原站公开索引标注约2个月前；原报价的实际日期未披露，今天仅为核对索引的日期。",
+              "selection": "按商品页卖家栏的不同公开名称去重；未取得平台卖家编号，不以品牌或EU责任人冒充销售主体，非销量前十。",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "otto-s0bcs0i5",
+          "platform": "otto",
+          "market": "DE",
+          "sellerId": null,
+          "identityKind": "seller-name",
+          "sellerName": "koka.shop",
+          "name": "koka.shop",
+          "url": "https://www.otto.de/p/xavax-kapselhalter-kapsel-halter-halterung-staender-torre-silber-spender-metall-passend-fuer-40x-nespresso-kaffee-kapseln-caps-CS0BCS0I5/",
+          "urlKind": "listing",
+          "identitySource": "https://www.otto.de/p/xavax-kapselhalter-kapsel-halter-halterung-staender-torre-silber-spender-metall-passend-fuer-40x-nespresso-kaffee-kapseln-caps-CS0BCS0I5/",
+          "checkedAt": "2026-10-22T00:21:15.334Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "otto-s0bcs0i5",
+              "listingId": "S0BCS0I5",
+              "listingIdType": "OTTO 商品／选定变体编号",
+              "sellerSKU": null,
+              "name": "Xavax Torre metal capsule stand, 40 capsules",
+              "zh": "Xavax Torre 金属胶囊架，四十粒容量",
+              "system": "nespresso-unconfirmed",
+              "type": "accessories",
+              "url": "https://www.otto.de/p/xavax-kapselhalter-kapsel-halter-halterung-staender-torre-silber-spender-metall-passend-fuer-40x-nespresso-kaffee-kapseln-caps-CS0BCS0I5/",
+              "variant": "银色金属，四列各10粒，总容量40粒；Nespresso 系列未明确。",
+              "image": "store-otto-s0bcs0i5",
+              "sourceSnapshot": {
+                "kind": "primary-index",
+                "source": "https://www.otto.de/p/xavax-kapselhalter-kapsel-halter-halterung-staender-torre-silber-spender-metall-passend-fuer-40x-nespresso-kaffee-kapseln-caps-CS0BCS0I5/",
+                "label": "OTTO 原站公开索引",
+                "dataAsOf": null,
+                "dateNote": "原站公开索引标注约4周前；原报价的实际日期未披露，今天仅为核对索引的日期。"
+              },
+              "availabilityNote": null,
+              "price": {
+                "amount": 13.9,
+                "currency": "EUR",
+                "quality": "indexed",
+                "offerType": "原站索引展示标价（非即时价）",
+                "pack": "一个架子，不含胶囊",
+                "observedAt": "2026-10-22T00:21:15.334Z",
+                "source": "https://www.otto.de/p/xavax-kapselhalter-kapsel-halter-halterung-staender-torre-silber-spender-metall-passend-fuer-40x-nespresso-kaffee-kapseln-caps-CS0BCS0I5/",
+                "basis": "同一商品页卖家栏、选定规格及主报价逐项核对。没有用推荐商品价、划线原价、每月分期额或占位0.00作为报价；报价日期未披露，不能当作今日可购买价格。",
+                "shipping": "页面注明含VAT、另计运费；按德国收货地址与当日库存核实，未换算其他国家到手价。",
+                "promotions": []
+              },
+              "sales": null,
+              "revenue": null,
+              "rating": 4.6,
+              "ratingCount": 48,
+              "reviewScope": "原站索引商品级评价；可能合并规格或卖家，不是该店销量与评分。",
+              "placement": {
+                "type": "unknown",
+                "source": "https://www.otto.de/p/xavax-kapselhalter-kapsel-halter-halterung-staender-torre-silber-spender-metall-passend-fuer-40x-nespresso-kaffee-kapseln-caps-CS0BCS0I5/",
+                "observedAt": "2026-10-22T00:21:15.334Z",
+                "evidence": "读取商品详情公开索引，未取得搜索页对应展示位的广告标记，不能判断流量来源。"
+              },
+              "shipping": "索引历史配送说明不作为当前履约承诺；收货地址、时效与运费需按原平台核对。",
+              "checkedAt": "2026-10-22T00:21:15.334Z",
+              "freshness": "indexed",
+              "freshnessNote": "原站公开索引标注约4周前；原报价的实际日期未披露，今天仅为核对索引的日期。",
+              "selection": "按商品页卖家栏的不同公开名称去重；未取得平台卖家编号，不以品牌或EU责任人冒充销售主体，非销量前十。",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "otto-s0x0k0rh",
+          "platform": "otto",
+          "market": "DE",
+          "sellerId": null,
+          "identityKind": "seller-name",
+          "sellerName": "Pink.Your.Kitchen!",
+          "name": "Pink.Your.Kitchen!",
+          "url": "https://www.otto.de/p/tavola-swiss-kapselspender-nespresso-kapselhalter-box-60-fuer-bis-zu-60-nespresso-kaffeekapseln-S0X0K0RH/",
+          "urlKind": "listing",
+          "identitySource": "https://www.otto.de/p/tavola-swiss-kapselspender-nespresso-kapselhalter-box-60-fuer-bis-zu-60-nespresso-kaffeekapseln-S0X0K0RH/",
+          "checkedAt": "2026-10-22T00:21:15.334Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "otto-s0x0k0rh",
+              "listingId": "S0X0K0RH",
+              "listingIdType": "OTTO 商品／选定变体编号",
+              "sellerSKU": null,
+              "name": "TAVOLA SWISS Box 60 capsule dispenser",
+              "zh": "TAVOLA SWISS Box 60 胶囊收纳盒",
+              "system": "nespresso-unconfirmed",
+              "type": "accessories",
+              "url": "https://www.otto.de/p/tavola-swiss-kapselspender-nespresso-kapselhalter-box-60-fuer-bis-zu-60-nespresso-kaffeekapseln-S0X0K0RH/",
+              "variant": "黑色塑料，25 × 15 × 7cm，适用 Nespresso 声明；系列未明确。",
+              "image": "store-otto-s0x0k0rh",
+              "sourceSnapshot": {
+                "kind": "primary-index",
+                "source": "https://www.otto.de/p/tavola-swiss-kapselspender-nespresso-kapselhalter-box-60-fuer-bis-zu-60-nespresso-kaffeekapseln-S0X0K0RH/",
+                "label": "OTTO 原站公开索引",
+                "dataAsOf": null,
+                "dateNote": "原站公开索引标注约1个月前；原报价的实际日期未披露，今天仅为核对索引的日期。"
+              },
+              "availabilityNote": null,
+              "price": {
+                "amount": 28.95,
+                "currency": "EUR",
+                "quality": "indexed",
+                "offerType": "原站索引展示标价（非即时价）",
+                "pack": "一个盒子；标称60粒容量",
+                "observedAt": "2026-10-22T00:21:15.334Z",
+                "source": "https://www.otto.de/p/tavola-swiss-kapselspender-nespresso-kapselhalter-box-60-fuer-bis-zu-60-nespresso-kaffeekapseln-S0X0K0RH/",
+                "basis": "同一商品页卖家栏、选定规格及主报价逐项核对。没有用推荐商品价、划线原价、每月分期额或占位0.00作为报价；报价日期未披露，不能当作今日可购买价格。",
+                "shipping": "页面注明含VAT、另计运费；按德国收货地址与当日库存核实，未换算其他国家到手价。",
+                "promotions": []
+              },
+              "sales": null,
+              "revenue": null,
+              "rating": 4.4,
+              "ratingCount": 7,
+              "reviewScope": "原站索引商品级评价；可能合并规格或卖家，不是该店销量与评分。",
+              "placement": {
+                "type": "unknown",
+                "source": "https://www.otto.de/p/tavola-swiss-kapselspender-nespresso-kapselhalter-box-60-fuer-bis-zu-60-nespresso-kaffeekapseln-S0X0K0RH/",
+                "observedAt": "2026-10-22T00:21:15.334Z",
+                "evidence": "读取商品详情公开索引，未取得搜索页对应展示位的广告标记，不能判断流量来源。"
+              },
+              "shipping": "索引历史配送说明不作为当前履约承诺；收货地址、时效与运费需按原平台核对。",
+              "checkedAt": "2026-10-22T00:21:15.334Z",
+              "freshness": "indexed",
+              "freshnessNote": "原站公开索引标注约1个月前；原报价的实际日期未披露，今天仅为核对索引的日期。",
+              "selection": "按商品页卖家栏的不同公开名称去重；未取得平台卖家编号，不以品牌或EU责任人冒充销售主体，非销量前十。",
+              "painRefs": [
+                {
+                  "date": "2025-10-27",
+                  "summary": "一条可核对购买评论反馈底部胶囊取出费力、易卡；不能据此计算故障率。",
+                  "action": "实测底部开口与胶囊间隙，增加抓取空间并展示取用视频。",
+                  "url": "https://www.otto.de/p/tavola-swiss-kapselspender-nespresso-kapselhalter-box-60-fuer-bis-zu-60-nespresso-kaffeekapseln-S0X0K0RH/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "otto-s047t0ce",
+          "platform": "otto",
+          "market": "DE",
+          "sellerId": null,
+          "identityKind": "seller-name",
+          "sellerName": "eluno24",
+          "name": "eluno24",
+          "url": "https://www.otto.de/p/eluno-kapselspender-kapselstaender-fuer-bis-zu-32-dolce-gusto-kapseln-kapselspender-S047T0CE/",
+          "urlKind": "listing",
+          "identitySource": "https://www.otto.de/p/eluno-kapselspender-kapselstaender-fuer-bis-zu-32-dolce-gusto-kapseln-kapselspender-S047T0CE/",
+          "checkedAt": "2026-10-22T00:21:15.334Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "otto-s047t0ce",
+              "listingId": "S047T0CE",
+              "listingIdType": "OTTO 商品／选定变体编号",
+              "sellerSKU": null,
+              "name": "eluno rotating Dolce Gusto capsule stand, 32 capsules",
+              "zh": "eluno 可旋转 Dolce Gusto 胶囊架",
+              "system": "dolce-gusto",
+              "type": "accessories",
+              "url": "https://www.otto.de/p/eluno-kapselspender-kapselstaender-fuer-bis-zu-32-dolce-gusto-kapseln-kapselspender-S047T0CE/",
+              "variant": "黑色金属，15 × 41.5 × 15cm，四列各8粒；正文另有40粒冲突，按标题和参数记录32粒并保留差异，不自行改写成40粒。",
+              "image": "store-otto-s047t0ce",
+              "sourceSnapshot": {
+                "kind": "primary-index",
+                "source": "https://www.otto.de/p/eluno-kapselspender-kapselstaender-fuer-bis-zu-32-dolce-gusto-kapseln-kapselspender-S047T0CE/",
+                "label": "OTTO 原站公开索引",
+                "dataAsOf": null,
+                "dateNote": "原站公开索引标注约2周前；原报价的实际日期未披露，今天仅为核对索引的日期。"
+              },
+              "availabilityNote": null,
+              "price": {
+                "amount": 29.99,
+                "currency": "EUR",
+                "quality": "indexed",
+                "offerType": "原站索引展示标价（非即时价）",
+                "pack": "一个架子；标题及参数32粒容量",
+                "observedAt": "2026-10-22T00:21:15.334Z",
+                "source": "https://www.otto.de/p/eluno-kapselspender-kapselstaender-fuer-bis-zu-32-dolce-gusto-kapseln-kapselspender-S047T0CE/",
+                "basis": "同一商品页卖家栏、选定规格及主报价逐项核对。没有用推荐商品价、划线原价、每月分期额或占位0.00作为报价；报价日期未披露，不能当作今日可购买价格。",
+                "shipping": "页面注明含VAT、另计运费；按德国收货地址与当日库存核实，未换算其他国家到手价。",
+                "promotions": []
+              },
+              "sales": null,
+              "revenue": null,
+              "rating": 5,
+              "ratingCount": 5,
+              "reviewScope": "原站索引商品级评价；可能合并规格或卖家，不是该店销量与评分。",
+              "placement": {
+                "type": "unknown",
+                "source": "https://www.otto.de/p/eluno-kapselspender-kapselstaender-fuer-bis-zu-32-dolce-gusto-kapseln-kapselspender-S047T0CE/",
+                "observedAt": "2026-10-22T00:21:15.334Z",
+                "evidence": "读取商品详情公开索引，未取得搜索页对应展示位的广告标记，不能判断流量来源。"
+              },
+              "shipping": "索引历史配送说明不作为当前履约承诺；收货地址、时效与运费需按原平台核对。",
+              "checkedAt": "2026-10-22T00:21:15.334Z",
+              "freshness": "indexed",
+              "freshnessNote": "原站公开索引标注约2周前；原报价的实际日期未披露，今天仅为核对索引的日期。",
+              "selection": "按商品页卖家栏的不同公开名称去重；未取得平台卖家编号，不以品牌或EU责任人冒充销售主体，非销量前十。",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "otto-s0w0r01o",
+          "platform": "otto",
+          "market": "DE",
+          "sellerId": null,
+          "identityKind": "seller-name",
+          "sellerName": "Relaxdays",
+          "name": "Relaxdays",
+          "url": "https://www.otto.de/p/relaxdays-kapselspender-kapselhalter-fuer-dolce-gusto-S0W0R01O/",
+          "urlKind": "listing",
+          "identitySource": "https://www.otto.de/p/relaxdays-kapselspender-kapselhalter-fuer-dolce-gusto-S0W0R01O/",
+          "checkedAt": "2026-10-22T00:21:15.334Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "otto-s0w0r01o",
+              "listingId": "S0W0R01O",
+              "listingIdType": "OTTO 商品／选定变体编号",
+              "sellerSKU": null,
+              "name": "relaxdays bamboo Dolce Gusto capsule dispenser",
+              "zh": "relaxdays 竹制可旋转 Dolce Gusto 胶囊架",
+              "system": "dolce-gusto",
+              "type": "accessories",
+              "url": "https://www.otto.de/p/relaxdays-kapselspender-kapselhalter-fuer-dolce-gusto-S0W0R01O/",
+              "variant": "型号10029485，40.5 × 14 × 14cm；八列每列6粒为页面说明。资料在重量1770g／约1.9kg间有差异，不用于运费核算。",
+              "image": "store-otto-s0w0r01o",
+              "sourceSnapshot": {
+                "kind": "primary-index",
+                "source": "https://www.otto.de/p/relaxdays-kapselspender-kapselhalter-fuer-dolce-gusto-S0W0R01O/",
+                "label": "OTTO 原站公开索引",
+                "dataAsOf": null,
+                "dateNote": "原站公开索引标注约2天前；原报价的实际日期未披露，今天仅为核对索引的日期。"
+              },
+              "availabilityNote": "索引页面标为售罄（leider ausverkauft）；展示旧标价，不是可购买报价。",
+              "price": {
+                "amount": 26.99,
+                "currency": "EUR",
+                "quality": "indexed",
+                "offerType": "售罄页历史标价",
+                "pack": "一个架子，不含展示胶囊",
+                "observedAt": "2026-10-22T00:21:15.334Z",
+                "source": "https://www.otto.de/p/relaxdays-kapselspender-kapselhalter-fuer-dolce-gusto-S0W0R01O/",
+                "basis": "同一商品页卖家栏、选定规格及主报价逐项核对。没有用推荐商品价、划线原价、每月分期额或占位0.00作为报价；报价日期未披露，不能当作今日可购买价格。",
+                "shipping": "页面注明含VAT、另计运费；按德国收货地址与当日库存核实，未换算其他国家到手价。",
+                "promotions": []
+              },
+              "sales": null,
+              "revenue": null,
+              "rating": 5,
+              "ratingCount": 2,
+              "reviewScope": "原站索引商品级评价；可能合并规格或卖家，不是该店销量与评分。",
+              "placement": {
+                "type": "unknown",
+                "source": "https://www.otto.de/p/relaxdays-kapselspender-kapselhalter-fuer-dolce-gusto-S0W0R01O/",
+                "observedAt": "2026-10-22T00:21:15.334Z",
+                "evidence": "读取商品详情公开索引，未取得搜索页对应展示位的广告标记，不能判断流量来源。"
+              },
+              "shipping": "索引页面标为售罄（leider ausverkauft）；展示旧标价，不是可购买报价。",
+              "checkedAt": "2026-10-22T00:21:15.334Z",
+              "freshness": "indexed",
+              "freshnessNote": "原站公开索引标注约2天前；原报价的实际日期未披露，今天仅为核对索引的日期。",
+              "selection": "按商品页卖家栏的不同公开名称去重；未取得平台卖家编号，不以品牌或EU责任人冒充销售主体，非销量前十。",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "otto-s090d00o",
+          "platform": "otto",
+          "market": "DE",
+          "sellerId": null,
+          "identityKind": "seller-name",
+          "sellerName": "SoBuy",
+          "name": "SoBuy",
+          "url": "https://www.otto.de/p/sobuy-kapselspender-frg280-monitorstaender-mit-schublade-aufbewahrungsbox-kapselhalter-kaffeekapsel-box-schubladenbox-zur-aufbewahrung-von-kaffeekapseln-S090D00O/",
+          "urlKind": "listing",
+          "identitySource": "https://www.otto.de/p/sobuy-kapselspender-frg280-monitorstaender-mit-schublade-aufbewahrungsbox-kapselhalter-kaffeekapsel-box-schubladenbox-zur-aufbewahrung-von-kaffeekapseln-S090D00O/",
+          "checkedAt": "2026-10-22T00:21:15.334Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "otto-s090d00o",
+              "listingId": "S090D00O",
+              "listingIdType": "OTTO 商品／选定变体编号",
+              "sellerSKU": null,
+              "name": "SoBuy FRG280 capsule storage drawer",
+              "zh": "SoBuy FRG280 胶囊收纳抽屉",
+              "system": "unconfirmed",
+              "type": "accessories",
+              "url": "https://www.otto.de/p/sobuy-kapselspender-frg280-monitorstaender-mit-schublade-aufbewahrungsbox-kapselhalter-kaffeekapsel-box-schubladenbox-zur-aufbewahrung-von-kaffeekapseln-S090D00O/",
+              "variant": "自然色／黑色，竹材与MDF，约30 × 10 × 31cm，四列收纳；页面泛称多系统适用，未实测具体胶囊容量。",
+              "image": "store-otto-s090d00o",
+              "sourceSnapshot": {
+                "kind": "primary-index",
+                "source": "https://www.otto.de/p/sobuy-kapselspender-frg280-monitorstaender-mit-schublade-aufbewahrungsbox-kapselhalter-kaffeekapsel-box-schubladenbox-zur-aufbewahrung-von-kaffeekapseln-S090D00O/",
+                "label": "OTTO 原站公开索引",
+                "dataAsOf": null,
+                "dateNote": "原站公开索引标注约4周前；原报价的实际日期未披露，今天仅为核对索引的日期。"
+              },
+              "availabilityNote": null,
+              "price": {
+                "amount": 19.95,
+                "currency": "EUR",
+                "quality": "indexed",
+                "offerType": "原站索引展示标价（非即时价）",
+                "pack": "一个抽屉盒，不含展示物品",
+                "observedAt": "2026-10-22T00:21:15.334Z",
+                "source": "https://www.otto.de/p/sobuy-kapselspender-frg280-monitorstaender-mit-schublade-aufbewahrungsbox-kapselhalter-kaffeekapsel-box-schubladenbox-zur-aufbewahrung-von-kaffeekapseln-S090D00O/",
+                "basis": "同一商品页卖家栏、选定规格及主报价逐项核对。没有用推荐商品价、划线原价、每月分期额或占位0.00作为报价；报价日期未披露，不能当作今日可购买价格。",
+                "shipping": "页面注明含VAT、另计运费；按德国收货地址与当日库存核实，未换算其他国家到手价。",
+                "promotions": []
+              },
+              "sales": null,
+              "revenue": null,
+              "rating": 4.8,
+              "ratingCount": 5,
+              "reviewScope": "原站索引商品级评价；可能合并规格或卖家，不是该店销量与评分。",
+              "placement": {
+                "type": "unknown",
+                "source": "https://www.otto.de/p/sobuy-kapselspender-frg280-monitorstaender-mit-schublade-aufbewahrungsbox-kapselhalter-kaffeekapsel-box-schubladenbox-zur-aufbewahrung-von-kaffeekapseln-S090D00O/",
+                "observedAt": "2026-10-22T00:21:15.334Z",
+                "evidence": "读取商品详情公开索引，未取得搜索页对应展示位的广告标记，不能判断流量来源。"
+              },
+              "shipping": "索引历史配送说明不作为当前履约承诺；收货地址、时效与运费需按原平台核对。",
+              "checkedAt": "2026-10-22T00:21:15.334Z",
+              "freshness": "indexed",
+              "freshnessNote": "原站公开索引标注约4周前；原报价的实际日期未披露，今天仅为核对索引的日期。",
+              "selection": "按商品页卖家栏的不同公开名称去重；未取得平台卖家编号，不以品牌或EU责任人冒充销售主体，非销量前十。",
+              "painRefs": [
+                {
+                  "date": "2020-12-20",
+                  "summary": "历史评论称 Tassimo 胶囊需要倾斜摆放，隔栏偏窄影响容量；评论很旧，不代表当前批次。",
+                  "action": "按不同系统分别标注实测收纳容量，避免只给通用容量。",
+                  "url": "https://www.otto.de/p/sobuy-kapselspender-frg280-monitorstaender-mit-schublade-aufbewahrungsbox-kapselhalter-kaffeekapsel-box-schubladenbox-zur-aufbewahrung-von-kaffeekapseln-S090D00O/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "otto-s0ne40xr",
+          "platform": "otto",
+          "market": "DE",
+          "sellerId": null,
+          "identityKind": "seller-name",
+          "sellerName": "Benture.de",
+          "name": "Benture.de",
+          "url": "https://www.otto.de/p/cremesso-wiederbefuellbare-espresso-kapsel-cremesso-crema-16-kapseln-S0NE40XR/",
+          "urlKind": "listing",
+          "identitySource": "https://www.otto.de/p/cremesso-wiederbefuellbare-espresso-kapsel-cremesso-crema-16-kapseln-S0NE40XR/",
+          "checkedAt": "2026-10-22T00:21:15.334Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "otto-s0ne40xr",
+              "listingId": "S0NE40XR",
+              "listingIdType": "OTTO 商品／选定变体编号",
+              "sellerSKU": null,
+              "name": "Cremesso Crema coffee capsules, 16pcs / 96g",
+              "zh": "Cremesso Crema 预填充咖啡胶囊十六粒",
+              "system": "unconfirmed",
+              "type": "prefilled",
+              "url": "https://www.otto.de/p/cremesso-wiederbefuellbare-espresso-kapsel-cremesso-crema-16-kapseln-S0NE40XR/",
+              "variant": "Cremesso 系统；虽然原页类目写 Wiederbefüllbare，商品实为预填充含咖啡胶囊，不录成可重复填充空壳，也不归入 Cafissimo。",
+              "image": "store-otto-s0ne40xr",
+              "sourceSnapshot": {
+                "kind": "primary-index",
+                "source": "https://www.otto.de/p/cremesso-wiederbefuellbare-espresso-kapsel-cremesso-crema-16-kapseln-S0NE40XR/",
+                "label": "OTTO 原站公开索引",
+                "dataAsOf": null,
+                "dateNote": "原站公开索引标注约1个月前；原报价的实际日期未披露，今天仅为核对索引的日期。"
+              },
+              "availabilityNote": "索引页面标为售罄（leider ausverkauft）；展示旧标价，不是可购买报价。",
+              "price": {
+                "amount": 7.99,
+                "currency": "EUR",
+                "quality": "indexed",
+                "offerType": "售罄页历史标价",
+                "pack": "16粒，96g，含咖啡",
+                "observedAt": "2026-10-22T00:21:15.334Z",
+                "source": "https://www.otto.de/p/cremesso-wiederbefuellbare-espresso-kapsel-cremesso-crema-16-kapseln-S0NE40XR/",
+                "basis": "同一商品页卖家栏、选定规格及主报价逐项核对。没有用推荐商品价、划线原价、每月分期额或占位0.00作为报价；报价日期未披露，不能当作今日可购买价格。",
+                "shipping": "页面注明含VAT、另计运费；按德国收货地址与当日库存核实，未换算其他国家到手价。",
+                "promotions": []
+              },
+              "sales": null,
+              "revenue": null,
+              "rating": 5,
+              "ratingCount": 2,
+              "reviewScope": "原站索引商品级评价；可能合并规格或卖家，不是该店销量与评分。",
+              "placement": {
+                "type": "unknown",
+                "source": "https://www.otto.de/p/cremesso-wiederbefuellbare-espresso-kapsel-cremesso-crema-16-kapseln-S0NE40XR/",
+                "observedAt": "2026-10-22T00:21:15.334Z",
+                "evidence": "读取商品详情公开索引，未取得搜索页对应展示位的广告标记，不能判断流量来源。"
+              },
+              "shipping": "索引页面标为售罄（leider ausverkauft）；展示旧标价，不是可购买报价。",
+              "checkedAt": "2026-10-22T00:21:15.334Z",
+              "freshness": "indexed",
+              "freshnessNote": "原站公开索引标注约1个月前；原报价的实际日期未披露，今天仅为核对索引的日期。",
+              "selection": "按商品页卖家栏的不同公开名称去重；未取得平台卖家编号，不以品牌或EU责任人冒充销售主体，非销量前十。",
+              "painRefs": []
+            }
+          ]
+        },
+        {
+          "id": "otto-s0fgo0mw",
+          "platform": "otto",
+          "market": "DE",
+          "sellerId": null,
+          "identityKind": "seller-name",
+          "sellerName": "konkor24",
+          "name": "konkor24",
+          "url": "https://www.otto.de/p/tsb-werk-papierfilter-kapselhalter-kompatibel-fuer-tassimo-kapselspender-kapselstaender-kaffeekapsel-S0FGO0MW/",
+          "urlKind": "listing",
+          "identitySource": "https://www.otto.de/p/tsb-werk-papierfilter-kapselhalter-kompatibel-fuer-tassimo-kapselspender-kapselstaender-kaffeekapsel-S0FGO0MW/",
+          "checkedAt": "2026-10-22T00:21:15.334Z",
+          "shopSales": null,
+          "shopRating": null,
+          "items": [
+            {
+              "id": "otto-s0fgo0mw",
+              "listingId": "S0FGO0MW",
+              "listingIdType": "OTTO 商品／选定变体编号",
+              "sellerSKU": null,
+              "name": "TSB Werk Tassimo capsule dispenser, 8 capsules",
+              "zh": "TSB Werk Tassimo 八粒胶囊架",
+              "system": "tassimo",
+              "type": "accessories",
+              "url": "https://www.otto.de/p/tsb-werk-papierfilter-kapselhalter-kompatibel-fuer-tassimo-kapselspender-kapselstaender-kaffeekapsel-S0FGO0MW/",
+              "variant": "黑色PLA，3D打印，约134 × 77 × 49mm，壁挂或摆放，可收纳8粒；是兼容配件，非 Tassimo 原厂配件。类目虽然叫纸滤，商品实为收纳架。",
+              "image": "store-otto-s0fgo0mw",
+              "sourceSnapshot": {
+                "kind": "primary-index",
+                "source": "https://www.otto.de/p/tsb-werk-papierfilter-kapselhalter-kompatibel-fuer-tassimo-kapselspender-kapselstaender-kaffeekapsel-S0FGO0MW/",
+                "label": "OTTO 原站公开索引",
+                "dataAsOf": null,
+                "dateNote": "原站公开索引标注约4个月前；原报价的实际日期未披露，今天仅为核对索引的日期。"
+              },
+              "availabilityNote": null,
+              "price": {
+                "amount": 9.74,
+                "currency": "EUR",
+                "quality": "indexed",
+                "offerType": "原站索引展示标价（非即时价）",
+                "pack": "一个架子，不含胶囊",
+                "observedAt": "2026-10-22T00:21:15.334Z",
+                "source": "https://www.otto.de/p/tsb-werk-papierfilter-kapselhalter-kompatibel-fuer-tassimo-kapselspender-kapselstaender-kaffeekapsel-S0FGO0MW/",
+                "basis": "同一商品页卖家栏、选定规格及主报价逐项核对。没有用推荐商品价、划线原价、每月分期额或占位0.00作为报价；报价日期未披露，不能当作今日可购买价格。",
+                "shipping": "页面注明含VAT、另计运费；按德国收货地址与当日库存核实，未换算其他国家到手价。",
+                "promotions": []
+              },
+              "sales": null,
+              "revenue": null,
+              "rating": null,
+              "ratingCount": null,
+              "reviewScope": "原站索引商品级评价；可能合并规格或卖家，不是该店销量与评分。",
+              "placement": {
+                "type": "unknown",
+                "source": "https://www.otto.de/p/tsb-werk-papierfilter-kapselhalter-kompatibel-fuer-tassimo-kapselspender-kapselstaender-kaffeekapsel-S0FGO0MW/",
+                "observedAt": "2026-10-22T00:21:15.334Z",
+                "evidence": "读取商品详情公开索引，未取得搜索页对应展示位的广告标记，不能判断流量来源。"
+              },
+              "shipping": "索引历史配送说明不作为当前履约承诺；收货地址、时效与运费需按原平台核对。",
+              "checkedAt": "2026-10-22T00:21:15.334Z",
+              "freshness": "indexed",
+              "freshnessNote": "原站公开索引标注约4个月前；原报价的实际日期未披露，今天仅为核对索引的日期。",
+              "selection": "按商品页卖家栏的不同公开名称去重；未取得平台卖家编号，不以品牌或EU责任人冒充销售主体，非销量前十。",
+              "painRefs": []
+            }
+          ]
         }
       ],
       "platforms": [
@@ -10988,9 +12797,9 @@ window.COFFEE_CONTENT = {
           "queryURL": "https://www.aliexpress.com/w/wholesale-reusable-coffee-capsule.html",
           "query": "reusable coffee capsule",
           "market": "WW",
-          "checkedAt": "2026-10-21T15:40:38.610Z",
+          "checkedAt": "2026-10-22T00:21:15.334Z",
           "status": 200,
-          "accessNote": "公开入口可返回页面，但未取得能同时核对卖家、商品、规格、价格及原图的完整记录"
+          "accessNote": "新增10个不同原平台store ID、12个历史商品及对应原图；其中1家历史店名未取得。原站当前页面为空壳，采用Alitools第三方历史档案，所见评论多为2020—2021年，报价实际日期未披露；不作为当前价格、当前销量或欧美站数据。"
         },
         {
           "id": "tiktok",
@@ -11138,9 +12947,9 @@ window.COFFEE_CONTENT = {
           "queryURL": "https://www.otto.de/suche/wiederverwendbare%20kaffeekapseln/",
           "query": "wiederverwendbare kaffeekapseln",
           "market": "DE",
-          "checkedAt": "2026-10-21T15:40:51.270Z",
+          "checkedAt": "2026-10-22T00:21:15.334Z",
           "status": 400,
-          "accessNote": "后台公开入口返回 HTTP 400；未取得可核对的店铺、商品与报价"
+          "accessNote": "新增10个不同卖家名称、10件商品和原图；来自原站公开索引，索引年龄约2天至4个月，实际报价日期未披露。平台卖家编号与独立店铺网址未取得，不把品牌／EU责任人当卖家；2件索引显示售罄并保留提示。直接后台HTTP返回400，不绕过。"
         },
         {
           "id": "alibaba",
