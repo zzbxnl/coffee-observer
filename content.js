@@ -1,6 +1,6 @@
 // 由 scripts/build-coffee-knowledge.ts 从 content/coffee-knowledge.json 生成。
 window.COFFEE_CONTENT = {
-  "checkedOn": "2026-10-17",
+  "checkedOn": "2026-10-22",
   "source": {
     "history": {
       "name": "美国国家咖啡协会 NCA｜咖啡发展史",
@@ -128,6 +128,181 @@ window.COFFEE_CONTENT = {
       "url": "https://www.contact.nespresso.com/faq-3/de/en/1000",
       "type": "制造商官方 FAQ；未标首次更新日",
       "checked_on": "2026-10-21"
+    },
+    "machine-delonghi": {
+      "name": "De’Longhi（德龙）｜咖啡设备分类",
+      "url": "https://support.delonghi.com/en/en-us",
+      "type": "制造商资料／行业机构目录"
+    },
+    "machine-sca": {
+      "name": "SCA（精品咖啡协会）｜家用冲煮设备认证目录",
+      "url": "https://sca.coffee/certified-home-brewer",
+      "type": "制造商资料／行业机构目录"
+    },
+    "machine-senseo": {
+      "name": "Philips（飞利浦）｜SENSEO 软包机目录",
+      "url": "https://www.philips.co.uk/c-m-ho/coffee/senseo-coffee-machines/all",
+      "type": "制造商资料／行业机构目录"
+    },
+    "machine-ese": {
+      "name": "illy（意利）｜E.S.E. 软包冲煮说明",
+      "url": "https://www.illy.com/content/dam/channels/website/professional/usa/professional-standtogether/ESE-Preparation-Guide_5-2020.pdf",
+      "type": "制造商资料／行业机构目录"
+    },
+    "machine-dedica": {
+      "name": "De’Longhi（德龙）｜Dedica Style EC685.M EX:4",
+      "url": "https://www.delonghi.com/it-it/p/macchine-da-caffe-espresso-manuali-dedica-macchina-da-caffe-manuale-dedica-style-ec685.m/EC685.M%2BEX%3A4.html",
+      "type": "制造商资料／行业机构目录"
+    },
+    "machine-dedica-support": {
+      "name": "De’Longhi（德龙）｜Dedica EC685.M 型号支持",
+      "url": "https://www.delonghi.com/en/s/EC685.M",
+      "type": "制造商资料／行业机构目录"
+    },
+    "machine-magnifica": {
+      "name": "De’Longhi（德龙）｜Magnifica S ECAM22.110.B",
+      "url": "https://www.delonghi.com/en/p/magnifica-s-ecam22.110.b-magnifica-s-automatic-coffee-maker/ECAM22.110.B.html",
+      "type": "制造商资料／行业机构目录"
+    },
+    "machine-magnifica-support": {
+      "name": "De’Longhi（德龙）｜Magnifica S 官方手册与维护",
+      "url": "https://www.delonghi.com/en/s/ECAM22.110.B",
+      "type": "制造商资料／行业机构目录"
+    },
+    "machine-moccamaster": {
+      "name": "Moccamaster（滴滤设备品牌）｜KBGV Select 指定颜色",
+      "url": "https://us.moccamaster.com/products/kbgv?variant=40374980280483",
+      "type": "制造商资料／行业机构目录"
+    },
+    "machine-moccamaster-manual": {
+      "name": "Moccamaster（滴滤设备品牌）｜KBGV Select 官方指南",
+      "url": "https://support.moccamaster.com/hc/en-us/articles/1500009437802-KBGV-Select",
+      "type": "制造商资料／行业机构目录"
+    },
+    "machine-minio": {
+      "name": "Arzum（阿尔祖姆）｜OKKA Minio OK004 铜色",
+      "url": "https://www.arzum.com.tr/ok004-okka-minio-turkish-coffee-machine-copper",
+      "type": "制造商资料／行业机构目录"
+    },
+    "machine-minio-manual": {
+      "name": "Arzum（阿尔祖姆）｜OKKA Minio 官方手册",
+      "url": "https://www.arzum.com.tr/Data/EditorFiles/KULLANIM%20KILAVUZLARI/Minio-OK004-KK-130525.pdf",
+      "type": "制造商资料／行业机构目录"
+    },
+    "machine-nanopresso": {
+      "name": "Wacaco（便携咖啡设备品牌）｜Nanopresso 官方说明",
+      "url": "https://www.wacaco.com/products/nanopresso",
+      "type": "制造商资料／行业机构目录"
+    },
+    "machine-gemilai": {
+      "name": "Gemilai（格米莱）｜G3006H 与同系列型号目录",
+      "url": "https://www.gemilai.com.hk/idol-3.html",
+      "type": "制造商资料／行业机构目录"
+    },
+    "machine-jetinno": {
+      "name": "Jetinno（技诺）｜JL60A 商用全自动设备",
+      "url": "https://www.jetinnovending.com/table-top-coffee-machine/fresh-coffee-machine/jl60a-milk-steam-wand-commercial-espresso.html",
+      "type": "制造商资料／行业机构目录"
+    },
+    "machine-pro": {
+      "name": "Nespresso（浓遇咖啡）｜Professional 专业设备目录",
+      "url": "https://www.nespresso.com/pro/us/en/order/machines/pro/zenius",
+      "type": "制造商资料／行业机构目录"
+    },
+    "machine-blue": {
+      "name": "Lavazza（拉瓦萨）｜BLUE Classy Mini",
+      "url": "https://www.lavazza.com/en/business/coffee-machines/classy-mini",
+      "type": "制造商资料／行业机构目录"
+    },
+    "machine-point": {
+      "name": "Lavazza（拉瓦萨）｜Espresso Point 胶囊",
+      "url": "https://www.lavazza.com/en/espresso-point-capsules",
+      "type": "制造商资料／行业机构目录"
+    },
+    "machine-caffitaly": {
+      "name": "Caffitaly（胶囊系统品牌）｜Smart System 设备",
+      "url": "https://caffitaly.com/international/smart-system-machines/",
+      "type": "制造商资料／行业机构目录"
+    },
+    "machine-lor": {
+      "name": "L’OR（咖啡品牌）｜Barista 官方使用手册",
+      "url": "https://www.lorespresso.com/media/wysiwyg/LOR_content/Pages/hero/L-OR_Barista_Manual.pdf",
+      "type": "制造商资料／行业机构目录"
+    },
+    "machine-delta": {
+      "name": "Delta Q（葡萄牙胶囊系统品牌）｜机器目录",
+      "url": "https://ca.mydeltaq.com/ca/en/machines",
+      "type": "制造商资料／行业机构目录"
+    },
+    "brewing-moka": {
+      "name": "Bialetti（比乐蒂）｜Moka Express 摩卡壶",
+      "url": "https://www.bialetti.com/it_en/moka-express.html",
+      "type": "制造商资料／行业机构目录"
+    },
+    "nespresso-faq": {
+      "name": "Nespresso 官方系统兼容 FAQ",
+      "url": "https://www.contact.nespresso.com/faq-3/pl/en",
+      "type": "制造商资料"
+    },
+    "genio": {
+      "name": "Dolce Gusto Genio S Plus 官方资料",
+      "url": "https://www.dolce-gusto.co.uk/genio-s-plus-black-delonghi",
+      "type": "制造商资料"
+    },
+    "essenza": {
+      "name": "Nespresso Essenza Mini 官方资料",
+      "url": "https://www.nespresso.com/se/en/order/machines/original/essenza-mini-piano-black-coffee-machine",
+      "type": "制造商资料"
+    },
+    "pixie": {
+      "name": "Nespresso Pixie 官方资料",
+      "url": "https://www.nespresso.com/qa/en/coffee-machines/original/pixie-c62-qatar",
+      "type": "制造商资料"
+    },
+    "pop": {
+      "name": "Nespresso Vertuo Pop 官方资料",
+      "url": "https://www.nespresso.com/se/en/vertuo-pop/",
+      "type": "制造商资料"
+    },
+    "next": {
+      "name": "Nespresso Vertuo Next 官方资料",
+      "url": "https://www.nespresso.com/uk/en/order/machines/vertuo/vertuo-next-white",
+      "type": "制造商资料"
+    },
+    "ksupreme": {
+      "name": "Keurig K-Supreme 官方使用手册",
+      "url": "https://dam.keurig.com/content/dam/public-assets/kcom_support/FINAL_KDP_KSupreme_UCGuide.pdf",
+      "type": "制造商手册"
+    },
+    "ksmart": {
+      "name": "Keurig K-Supreme SMART 官方手册",
+      "url": "https://dam.keurig.com/content/dam/public-assets/support/kcom/pdf/K_Supreme_Smart_Use_and_Care_Guide_Released.pdf",
+      "type": "制造商手册"
+    },
+    "kcafe": {
+      "name": "Keurig K-Café Essentials 官方手册",
+      "url": "https://dam.keurig.com/content/dam/public-assets/support/kca/pdf/KCafe_Essentials_UCGuide_EN.pdf",
+      "type": "制造商手册"
+    },
+    "jolie": {
+      "name": "Lavazza Jolie 官方资料",
+      "url": "https://www.lavazza.com/en/coffee-machines/a-modo-mio-jolie",
+      "type": "制造商资料"
+    },
+    "idola": {
+      "name": "Lavazza Idola 官方手册",
+      "url": "https://www.lavazza.com/content/dam/lavazza/products/manuale-paperless/Idola_Web_Rev%20E_0720_6L.pdf",
+      "type": "制造商手册"
+    },
+    "illy": {
+      "name": "illy Y3.3 官方产品资料",
+      "url": "https://www.illy.com/en-us/eshop/coffee-machines/iperespresso-capsules-coffee-machines/y3-3-iperespresso-espresso-coffee-machine/coffee-machines-y3-3-iperespresso-us-P",
+      "type": "制造商资料"
+    },
+    "senseo": {
+      "name": "Philips SENSEO CSA210/21 官方资料",
+      "url": "https://www.philips.com/c-p/CSA210_21/original-plus-coffee-pad-machine",
+      "type": "制造商资料"
     }
   },
   "systems": [
@@ -1467,14 +1642,779 @@ window.COFFEE_CONTENT = {
       ],
       "time": "3 分钟",
       "checked_on": "2026-10-17"
+    },
+    {
+      "id": "coffee-machine-map",
+      "category": "咖啡机",
+      "title": "Coffee Machine Map（咖啡机分类全景）：六大类、耗材系统与具体型号",
+      "desc": "把设备类型、品牌、耗材系统和具体型号分开，找到胶囊与周边配件真正对应的机器。",
+      "time": "5 分钟",
+      "icon": "▦",
+      "sources": [
+        "machine-delonghi",
+        "machine-senseo",
+        "machine-sca"
+      ],
+      "checked_on": "2026-10-22",
+      "image": "dedica-ec685",
+      "takeaway": "先看设备类型，再确认系统和完整型号。家用、商用、便携和多用途是筛选条件，不替代兼容性核验。",
+      "sections": [
+        {
+          "title": "六大类分别收什么",
+          "headers": [
+            "主类",
+            "范围",
+            "主要配件方向"
+          ],
+          "rows": [
+            [
+              "Capsule Machines（胶囊咖啡机）",
+              "按专用胶囊接口和识别方式进入系统，再查看具体机器。",
+              "可填充胶囊、盖膜与盖组件、密封圈、胶囊填装与收纳"
+            ],
+            [
+              "Pod Machines（咖啡软包机）",
+              "纸质软包与硬壳胶囊分开；SENSEO 和 E.S.E. 分别建档。",
+              "对应软包、专用滤杯、软包适配手柄"
+            ],
+            [
+              "Manual / Semi-automatic Espresso Machines（手动／半自动意式咖啡机）",
+              "操作者参与装粉与冲煮；手动泵压、杠杆和电泵机再分结构。",
+              "手柄与粉碗、压粉器、接粉环、布粉器、清洁盲碗"
+            ],
+            [
+              "Fully Automatic Espresso Machines（全自动意式咖啡机）",
+              "机器承担研磨和冲煮，奶泡可为手动或自动；商用用途另加标签。",
+              "滤芯、除垢剂、清洁片、奶管与维护件"
+            ],
+            [
+              "Filter / Drip Coffee Makers（滴滤咖啡机）",
+              "以过滤式冲煮为主，按单杯、壶量与磨豆配置继续区分。",
+              "滤纸、对应规格永久滤网、玻璃壶／保温壶、清洁用品"
+            ],
+            [
+              "Specialty Coffee Makers（其他专用咖啡设备）",
+              "专门的电动土耳其咖啡、电摩卡与冷萃设备分别记录冲煮方式。",
+              "型号专用容器、滤网、密封圈、清洁与替换件"
+            ]
+          ],
+          "refs": [
+            "machine-delonghi",
+            "machine-senseo",
+            "machine-sca"
+          ],
+          "kind": "本站导航分类；参考制造商与行业机构目录"
+        },
+        {
+          "title": "型号、系统与文章是三种数量",
+          "text": "分类用于组织设备；系统用于区分耗材接口；型号档案对应一台明确机器；百科文章解释原理。文章只有三篇并不等于市场只有三款机器。本次将原有胶囊档案和便携、半自动、全自动、滴滤及专用设备放进同一个可筛选目录。",
+          "kind": "目录使用说明"
+        },
+        {
+          "title": "胶囊设备进一步按系统展开",
+          "text": "Nespresso 的 Original、Vertuo、Professional 分开，Lavazza 的 A Modo Mio、BLUE、Espresso Point 分开。其他品牌也逐系统建立来源。只有系统目录但尚未取得完整型号的，会显示型号待补录，不把目录当作机型数量。",
+          "refs": [
+            "machine-pro",
+            "machine-blue",
+            "machine-point"
+          ],
+          "kind": "资料组织与核验规则"
+        },
+        {
+          "title": "多用途与便携怎么处理",
+          "text": "每台机器有一个主要设备类别，并可带多个用途标签。Nanopresso 按咖啡粉的默认手动泵压模式归类，另售胶囊适配器写明附加条件；带蒸汽棒的现磨全自动机不会因为手动打奶而被归成半自动。",
+          "refs": [
+            "machine-nanopresso",
+            "machine-jetinno"
+          ],
+          "kind": "具体归类案例"
+        },
+        {
+          "title": "手动冲煮器具放在哪里",
+          "text": "手冲滤杯、法压壶、非电动摩卡壶、爱乐压与虹吸壶放在咖啡其他配件下的冲煮器具入口。磨豆机、电子秤和奶泡器仍作为配套设备记录，不重复计入咖啡机型号。",
+          "kind": "本站分类边界"
+        }
+      ]
+    },
+    {
+      "id": "machine-capsule-guide",
+      "category": "咖啡机",
+      "title": "Capsule Machines（胶囊咖啡机）：类型、机型与配件边界",
+      "desc": "按专用胶囊接口和识别方式进入系统，再查看具体机器。",
+      "time": "4 分钟",
+      "icon": "▦",
+      "sources": [
+        "nespresso-faq",
+        "genio",
+        "tassimo"
+      ],
+      "takeaway": "经营可填充配件时，要分别验证闭合、刺破或识码、密封、出液、排出、清洗与循环寿命。外观像、能够放入、出过一杯咖啡，都不能单独证明长期适配。",
+      "checked_on": "2026-10-22",
+      "image": "essenza-mini",
+      "sections": [
+        {
+          "title": "先识别系统，再识别机器",
+          "text": "同一品牌可以经营多套胶囊接口。查找路径应从系统进入，再确认完整型号和地区版本。机器能制作浓缩、长杯或奶饮，不代表它接受其他系统胶囊。",
+          "refs": [
+            "nespresso-faq",
+            "genio",
+            "tassimo"
+          ],
+          "kind": "分类说明与原厂资料"
+        },
+        {
+          "title": "在这一类里面继续怎么分",
+          "headers": [
+            "子类型",
+            "记录方法"
+          ],
+          "rows": [
+            [
+              "压力式胶囊",
+              "按具体机器说明确认，并记录地区、版本及使用条件。"
+            ],
+            [
+              "旋转萃取胶囊",
+              "按具体机器说明确认，并记录地区、版本及使用条件。"
+            ],
+            [
+              "条码识别胶囊",
+              "按具体机器说明确认，并记录地区、版本及使用条件。"
+            ],
+            [
+              "专业胶囊系统",
+              "按具体机器说明确认，并记录地区、版本及使用条件。"
+            ]
+          ],
+          "kind": "本站导航分类"
+        },
+        {
+          "title": "已收录的具体机型",
+          "headers": [
+            "品牌／机型",
+            "原料或系统",
+            "边界"
+          ],
+          "rows": [
+            [
+              "Nespresso（浓遇咖啡） Essenza Mini",
+              "Original 胶囊",
+              "不能把 Original 机型归属扩大成对任意第三方可填充胶囊的认可。"
+            ],
+            [
+              "Nespresso（浓遇咖啡） Pixie C62",
+              "Original 胶囊",
+              "档案对应官方 C62 页面；不能把旧 Pixie 和不同地区版本的机械细节视作完全相同。"
+            ],
+            [
+              "Nespresso（浓遇咖啡） Vertuo Pop",
+              "Vertuo 条码胶囊",
+              "系统归属不代表每种杯量或第三方重填方案均适用。"
+            ],
+            [
+              "Nespresso（浓遇咖啡） Vertuo Next",
+              "Vertuo 胶囊；不使用 Original 胶囊",
+              "读取条码设置冲煮参数；不能按外观大小推断胶囊或重填组件兼容。"
+            ],
+            [
+              "Keurig（克里格） K-Supreme",
+              "K-Cup 胶囊；手册指定新设计 My K-Cup Universal 可填充滤杯",
+              "手册明确排除其他可填充滤杯及旧版 My K-Cup Universal，不能只看产品名称相同。"
+            ],
+            [
+              "Keurig（克里格） K-Supreme SMART",
+              "K-Cup；手册对新设计 My K-Cup Universal 有专门限制",
+              "SMART 与普通 K-Supreme 分别记录；不能从一个机型的测试外推另一个。"
+            ],
+            [
+              "Keurig（克里格） K-Café Essentials",
+              "K-Cup；官方手册列有 My K-Cup Universal 支持",
+              "官方滤杯支持不自动覆盖第三方滤杯。"
+            ],
+            [
+              "Bosch（博世） TASSIMO HAPPY TAS1002N",
+              "带识别条码的 T DISC",
+              "规格表说明通过条码控制冲煮；能放入盘体不等于能正确识别。"
+            ],
+            [
+              "NESCAFÉ Dolce Gusto（多趣酷思） Genio S Plus De’Longhi",
+              "传统 Dolce Gusto 产品系列",
+              "此档案是 Genio S Plus；不扩大为 Neo 或其他胶囊系统。"
+            ],
+            [
+              "Lavazza（拉瓦萨） A Modo Mio Jolie",
+              "A Modo Mio 家用胶囊系统",
+              "Lavazza 同一品牌下的不同系统不能因品牌名相同就视为互通。"
+            ],
+            [
+              "Lavazza（拉瓦萨） A Modo Mio Idola",
+              "A Modo Mio；手册单列胶囊不兼容相关排查",
+              "手册提到兼容胶囊不代表对某个第三方不锈钢产品的认可。"
+            ],
+            [
+              "illy（意利） Y3.3 iperEspresso",
+              "iperEspresso 产品系列",
+              "不要与 illy 品牌的其他兼容胶囊、咖啡粉或 E.S.E. 粉包混在一个档案。"
+            ]
+          ],
+          "refs": [
+            "essenza",
+            "nespresso-faq",
+            "pixie",
+            "pop",
+            "next",
+            "ksupreme",
+            "ksmart",
+            "kcafe",
+            "tassimo",
+            "genio",
+            "jolie",
+            "idola",
+            "illy"
+          ],
+          "kind": "制造商资料与本站归类"
+        },
+        {
+          "title": "与配件卖家的关系",
+          "text": "经营可填充配件时，要分别验证闭合、刺破或识码、密封、出液、排出、清洗与循环寿命。外观像、能够放入、出过一杯咖啡，都不能单独证明长期适配。",
+          "bullets": [
+            "完整机器型号与地区",
+            "胶囊杯体及盖组件版本",
+            "原厂耗材对照",
+            "不兼容型号与条件"
+          ],
+          "kind": "本站经营核对建议"
+        },
+        {
+          "title": "继续查询",
+          "text": "从下方设备分类入口进入具体型号库，可按系统、品牌、用途、机身形态与多用途条件筛选。机器归类不代表第三方配件已通过实测；本站没有用品牌营收、家庭保有量或整厂产能填成型号销量。",
+          "kind": "阅读与证据边界"
+        }
+      ]
+    },
+    {
+      "id": "machine-pod-guide",
+      "category": "咖啡机",
+      "title": "Pod Machines（咖啡软包机）：类型、机型与配件边界",
+      "desc": "纸质软包与硬壳胶囊分开；SENSEO 和 E.S.E. 分别建档。",
+      "time": "4 分钟",
+      "icon": "▦",
+      "sources": [
+        "machine-senseo",
+        "machine-ese"
+      ],
+      "takeaway": "软包耗材、可重复使用滤杯和适配手柄是不同产品。销售前先确认接触面、密封方式和机器指定用法；不要把一个软包系统的资料套用到另一个系统。",
+      "checked_on": "2026-10-22",
+      "image": "senseo-csa210",
+      "sections": [
+        {
+          "title": "纸质软包也有不同体系",
+          "text": "SENSEO 与 E.S.E. 分别记录。产品名称出现 pod 不能直接判断是纸包还是硬壳胶囊，应看包装、结构和原厂手册。软包机与支持专用软包粉碗的手柄机也分开建档。",
+          "refs": [
+            "machine-senseo",
+            "machine-ese"
+          ],
+          "kind": "分类说明与原厂资料"
+        },
+        {
+          "title": "在这一类里面继续怎么分",
+          "headers": [
+            "子类型",
+            "记录方法"
+          ],
+          "rows": [
+            [
+              "SENSEO 软包",
+              "按具体机器说明确认，并记录地区、版本及使用条件。"
+            ],
+            [
+              "E.S.E. 意式软包",
+              "按具体机器说明确认，并记录地区、版本及使用条件。"
+            ]
+          ],
+          "kind": "本站导航分类"
+        },
+        {
+          "title": "已收录的具体机型",
+          "headers": [
+            "品牌／机型",
+            "原料或系统",
+            "边界"
+          ],
+          "rows": [
+            [
+              "Philips SENSEO（飞利浦软包系统） Original Plus CSA210/21",
+              "SENSEO 咖啡软包与对应包托",
+              "这是咖啡软包体系，单独列作对照，不统计为硬壳咖啡胶囊。"
+            ]
+          ],
+          "refs": [
+            "senseo"
+          ],
+          "kind": "制造商资料与本站归类"
+        },
+        {
+          "title": "与配件卖家的关系",
+          "text": "软包耗材、可重复使用滤杯和适配手柄是不同产品。销售前先确认接触面、密封方式和机器指定用法；不要把一个软包系统的资料套用到另一个系统。",
+          "bullets": [
+            "软包体系与规格",
+            "专用滤杯／适配手柄",
+            "机器允许的原料",
+            "装填、清洁与维护要求"
+          ],
+          "kind": "本站经营核对建议"
+        },
+        {
+          "title": "继续查询",
+          "text": "从下方设备分类入口进入具体型号库，可按系统、品牌、用途、机身形态与多用途条件筛选。机器归类不代表第三方配件已通过实测；本站没有用品牌营收、家庭保有量或整厂产能填成型号销量。",
+          "kind": "阅读与证据边界"
+        }
+      ]
+    },
+    {
+      "id": "machine-manual-guide",
+      "category": "咖啡机",
+      "title": "Manual / Semi-automatic Espresso Machines（手动／半自动意式咖啡机）：类型、机型与配件边界",
+      "desc": "操作者参与装粉与冲煮；手动泵压、杠杆和电泵机再分结构。",
+      "time": "4 分钟",
+      "icon": "▦",
+      "sources": [
+        "machine-delonghi",
+        "machine-dedica",
+        "machine-nanopresso"
+      ],
+      "takeaway": "手柄直径相近仍可能有卡耳、厚度和锁定角度差异。压粉器、粉碗、接粉环与布粉器分别确认接触位置；便携手动泵压机与台式电泵机用形态标签区分。",
+      "checked_on": "2026-10-22",
+      "image": "wacaco-nanopresso",
+      "sections": [
+        {
+          "title": "看装粉和冲煮流程，不只看按钮",
+          "text": "操作者负责装粉的手柄机归在这一类；内部进一步区分手动杠杆、手动泵压和电泵半自动。集成磨豆机或自动定量，都不能单独作为全自动归类依据。",
+          "refs": [
+            "machine-delonghi",
+            "machine-dedica",
+            "machine-nanopresso"
+          ],
+          "kind": "分类说明与原厂资料"
+        },
+        {
+          "title": "在这一类里面继续怎么分",
+          "headers": [
+            "子类型",
+            "记录方法"
+          ],
+          "rows": [
+            [
+              "手动杠杆",
+              "按具体机器说明确认，并记录地区、版本及使用条件。"
+            ],
+            [
+              "手动泵压",
+              "按具体机器说明确认，并记录地区、版本及使用条件。"
+            ],
+            [
+              "电泵半自动",
+              "按具体机器说明确认，并记录地区、版本及使用条件。"
+            ],
+            [
+              "带磨豆机的半自动",
+              "按具体机器说明确认，并记录地区、版本及使用条件。"
+            ]
+          ],
+          "kind": "本站导航分类"
+        },
+        {
+          "title": "已收录的具体机型",
+          "headers": [
+            "品牌／机型",
+            "原料或系统",
+            "边界"
+          ],
+          "rows": [
+            [
+              "Wacaco（便携咖啡设备品牌） Nanopresso Yellow Patrol",
+              "原配咖啡粉滤杯；NS 胶囊适配器另售。",
+              "默认咖啡粉模式归入手动意式；另售适配器的胶囊模式不得写成本体默认支持。"
+            ],
+            [
+              "Gemilai（格米莱） G3006H Owl Pro",
+              "咖啡粉与手柄冲煮结构；官网列为家用系列。",
+              "G3006H 与 G3006A、G3006J 分开建档；不能用系列相似名称替代完整型号。"
+            ],
+            [
+              "De’Longhi（德龙） Dedica Style EC685.M EX:4",
+              "咖啡粉手柄冲煮；本条对应意大利官网 EX:4 版本。",
+              "带自动定量功能仍归手柄式意式设备；品牌手动机命名不等于手动杠杆。"
+            ]
+          ],
+          "refs": [
+            "machine-nanopresso",
+            "machine-gemilai",
+            "machine-dedica",
+            "machine-dedica-support"
+          ],
+          "kind": "制造商资料与本站归类"
+        },
+        {
+          "title": "与配件卖家的关系",
+          "text": "手柄直径相近仍可能有卡耳、厚度和锁定角度差异。压粉器、粉碗、接粉环与布粉器分别确认接触位置；便携手动泵压机与台式电泵机用形态标签区分。",
+          "bullets": [
+            "手柄卡口与锁定结构",
+            "粉碗尺寸与容粉范围",
+            "压粉器／接粉环实际尺寸",
+            "清洁用品与材质要求"
+          ],
+          "kind": "本站经营核对建议"
+        },
+        {
+          "title": "继续查询",
+          "text": "从下方设备分类入口进入具体型号库，可按系统、品牌、用途、机身形态与多用途条件筛选。机器归类不代表第三方配件已通过实测；本站没有用品牌营收、家庭保有量或整厂产能填成型号销量。",
+          "kind": "阅读与证据边界"
+        }
+      ]
+    },
+    {
+      "id": "machine-automatic-guide",
+      "category": "咖啡机",
+      "title": "Fully Automatic Espresso Machines（全自动意式咖啡机）：类型、机型与配件边界",
+      "desc": "机器承担研磨和冲煮，奶泡可为手动或自动；商用用途另加标签。",
+      "time": "4 分钟",
+      "icon": "▦",
+      "sources": [
+        "machine-magnifica",
+        "machine-jetinno"
+      ],
+      "takeaway": "卖家更应关注维护件与耗材：滤芯连接结构、冲煮器清洁方式、奶管和除垢流程。商用配置可能变化，选配功能和同系列其他型号的参数不能混在一条记录里。",
+      "checked_on": "2026-10-22",
+      "image": "jetinno-jl60a",
+      "sections": [
+        {
+          "title": "咖啡自动化与奶泡自动化分别记录",
+          "text": "这里以自动处理咖啡研磨与冲煮的现磨设备为主。机器即使配手动蒸汽棒，仍可能是全自动咖啡机；反过来，半自动手柄机带自动奶泡，也不因此改变主类。",
+          "refs": [
+            "machine-magnifica",
+            "machine-jetinno"
+          ],
+          "kind": "分类说明与原厂资料"
+        },
+        {
+          "title": "在这一类里面继续怎么分",
+          "headers": [
+            "子类型",
+            "记录方法"
+          ],
+          "rows": [
+            [
+              "家用现磨一体",
+              "按具体机器说明确认，并记录地区、版本及使用条件。"
+            ],
+            [
+              "商用现磨一体",
+              "按具体机器说明确认，并记录地区、版本及使用条件。"
+            ],
+            [
+              "手动奶泡",
+              "按具体机器说明确认，并记录地区、版本及使用条件。"
+            ],
+            [
+              "自动奶系统",
+              "按具体机器说明确认，并记录地区、版本及使用条件。"
+            ]
+          ],
+          "kind": "本站导航分类"
+        },
+        {
+          "title": "已收录的具体机型",
+          "headers": [
+            "品牌／机型",
+            "原料或系统",
+            "边界"
+          ],
+          "rows": [
+            [
+              "Jetinno（技诺） JL60A",
+              "咖啡豆现磨、自动冲煮，独立蒸汽棒用于奶泡。",
+              "奶泡需要人工操作，不影响其咖啡研磨／冲煮部分的全自动归类；页面同时出现 JL60B 等配置，不混录参数。"
+            ],
+            [
+              "De’Longhi（德龙） Magnifica S ECAM22.110.B",
+              "自动研磨、冲煮；配手动奶泡器。",
+              "手动打奶泡不等于半自动咖啡冲煮；咖啡处理流程与奶系统分别记录。"
+            ]
+          ],
+          "refs": [
+            "machine-jetinno",
+            "machine-magnifica",
+            "machine-magnifica-support"
+          ],
+          "kind": "制造商资料与本站归类"
+        },
+        {
+          "title": "与配件卖家的关系",
+          "text": "卖家更应关注维护件与耗材：滤芯连接结构、冲煮器清洁方式、奶管和除垢流程。商用配置可能变化，选配功能和同系列其他型号的参数不能混在一条记录里。",
+          "bullets": [
+            "冲煮器是否可拆与清洁规则",
+            "滤芯和水路接口",
+            "奶系统组件与维护",
+            "商用配置及耗材补充周期"
+          ],
+          "kind": "本站经营核对建议"
+        },
+        {
+          "title": "继续查询",
+          "text": "从下方设备分类入口进入具体型号库，可按系统、品牌、用途、机身形态与多用途条件筛选。机器归类不代表第三方配件已通过实测；本站没有用品牌营收、家庭保有量或整厂产能填成型号销量。",
+          "kind": "阅读与证据边界"
+        }
+      ]
+    },
+    {
+      "id": "machine-drip-guide",
+      "category": "咖啡机",
+      "title": "Filter / Drip Coffee Makers（滴滤咖啡机）：类型、机型与配件边界",
+      "desc": "以过滤式冲煮为主，按单杯、壶量与磨豆配置继续区分。",
+      "time": "4 分钟",
+      "icon": "▦",
+      "sources": [
+        "machine-sca",
+        "machine-moccamaster"
+      ],
+      "takeaway": "滤纸规格、滤篮形状、滤网高度和咖啡壶接口都影响配件选择。SCA 认证目录可辅助核对具体设备，但目录收录不等于任何第三方滤网均获认证。",
+      "checked_on": "2026-10-22",
+      "image": "moccamaster-kbgv",
+      "sections": [
+        {
+          "title": "滴滤与意式是不同的配件链条",
+          "text": "滴滤以咖啡粉和过滤结构为核心，按单杯、多杯、壶量及是否集成磨豆继续细分。设备带有自动启动或定量功能，仍应归滴滤类。",
+          "refs": [
+            "machine-sca",
+            "machine-moccamaster"
+          ],
+          "kind": "分类说明与原厂资料"
+        },
+        {
+          "title": "在这一类里面继续怎么分",
+          "headers": [
+            "子类型",
+            "记录方法"
+          ],
+          "rows": [
+            [
+              "单杯滴滤",
+              "按具体机器说明确认，并记录地区、版本及使用条件。"
+            ],
+            [
+              "多杯滴滤",
+              "按具体机器说明确认，并记录地区、版本及使用条件。"
+            ],
+            [
+              "批量冲煮",
+              "按具体机器说明确认，并记录地区、版本及使用条件。"
+            ],
+            [
+              "带磨豆机滴滤",
+              "按具体机器说明确认，并记录地区、版本及使用条件。"
+            ]
+          ],
+          "kind": "本站导航分类"
+        },
+        {
+          "title": "已收录的具体机型",
+          "headers": [
+            "品牌／机型",
+            "原料或系统",
+            "边界"
+          ],
+          "rows": [
+            [
+              "Moccamaster（滴滤设备品牌） KBGV Select Pistachio",
+              "研磨咖啡粉、滤纸与玻璃壶；对应美国官网颜色变体。",
+              "滴滤冲煮，不按意式咖啡机或 K-Cup 胶囊机理解；美国与欧洲电气版本分别核对。"
+            ]
+          ],
+          "refs": [
+            "machine-moccamaster",
+            "machine-moccamaster-manual"
+          ],
+          "kind": "制造商资料与本站归类"
+        },
+        {
+          "title": "与配件卖家的关系",
+          "text": "滤纸规格、滤篮形状、滤网高度和咖啡壶接口都影响配件选择。SCA 认证目录可辅助核对具体设备，但目录收录不等于任何第三方滤网均获认证。",
+          "bullets": [
+            "滤纸及滤篮规格",
+            "滤网形状与滴漏阀结构",
+            "玻璃壶／保温壶型号",
+            "地区电气版本与清洁说明"
+          ],
+          "kind": "本站经营核对建议"
+        },
+        {
+          "title": "继续查询",
+          "text": "从下方设备分类入口进入具体型号库，可按系统、品牌、用途、机身形态与多用途条件筛选。机器归类不代表第三方配件已通过实测；本站没有用品牌营收、家庭保有量或整厂产能填成型号销量。",
+          "kind": "阅读与证据边界"
+        }
+      ]
+    },
+    {
+      "id": "machine-specialty-guide",
+      "category": "咖啡机",
+      "title": "Specialty Coffee Makers（其他专用咖啡设备）：类型、机型与配件边界",
+      "desc": "专门的电动土耳其咖啡、电摩卡与冷萃设备分别记录冲煮方式。",
+      "time": "4 分钟",
+      "icon": "▦",
+      "sources": [
+        "machine-minio"
+      ],
+      "takeaway": "这类产品应先核对使用过程与接触部件，再判断可销售的替换件。冷萃容器和非电动摩卡壶等手动器具放在冲煮器具目录，与机器页面互相连接。",
+      "checked_on": "2026-10-22",
+      "image": "okka-minio",
+      "sections": [
+        {
+          "title": "按专用冲煮方式进一步细分",
+          "text": "电动土耳其咖啡机、电摩卡壶和专用冷萃设备先分别记录，再看具体型号。某台全自动设备附带冷饮功能，仍按主要结构归类，另加功能说明。",
+          "refs": [
+            "machine-minio"
+          ],
+          "kind": "分类说明与原厂资料"
+        },
+        {
+          "title": "在这一类里面继续怎么分",
+          "headers": [
+            "子类型",
+            "记录方法"
+          ],
+          "rows": [
+            [
+              "电动土耳其咖啡机",
+              "按具体机器说明确认，并记录地区、版本及使用条件。"
+            ],
+            [
+              "电摩卡壶",
+              "按具体机器说明确认，并记录地区、版本及使用条件。"
+            ],
+            [
+              "专用冷萃设备",
+              "按具体机器说明确认，并记录地区、版本及使用条件。"
+            ]
+          ],
+          "kind": "本站导航分类"
+        },
+        {
+          "title": "已收录的具体机型",
+          "headers": [
+            "品牌／机型",
+            "原料或系统",
+            "边界"
+          ],
+          "rows": [
+            [
+              "Arzum（阿尔祖姆） OKKA Minio OK004",
+              "按原厂说明加入土耳其咖啡粉与水进行加热煮制。",
+              "专用煮制设备，不是胶囊机，也不以有无蒸汽棒判断类别。"
+            ]
+          ],
+          "refs": [
+            "machine-minio",
+            "machine-minio-manual"
+          ],
+          "kind": "制造商资料与本站归类"
+        },
+        {
+          "title": "与配件卖家的关系",
+          "text": "这类产品应先核对使用过程与接触部件，再判断可销售的替换件。冷萃容器和非电动摩卡壶等手动器具放在冲煮器具目录，与机器页面互相连接。",
+          "bullets": [
+            "具体冲煮方式",
+            "型号专用容器与密封件",
+            "原料、粉水与使用限制",
+            "清洗、浸水及替换说明"
+          ],
+          "kind": "本站经营核对建议"
+        },
+        {
+          "title": "继续查询",
+          "text": "从下方设备分类入口进入具体型号库，可按系统、品牌、用途、机身形态与多用途条件筛选。机器归类不代表第三方配件已通过实测；本站没有用品牌营收、家庭保有量或整厂产能填成型号销量。",
+          "kind": "阅读与证据边界"
+        }
+      ]
+    },
+    {
+      "id": "manual-brewing-equipment",
+      "category": "咖啡其他配件",
+      "title": "Brewing Equipment（冲煮器具）：手冲、法压、摩卡与其他手动器具",
+      "desc": "以手动器具的结构、尺寸和滤材为线索，连接咖啡豆、研磨与配件选择。",
+      "time": "4 分钟",
+      "icon": "▦",
+      "sources": [
+        "brewing-moka",
+        "machine-sca"
+      ],
+      "checked_on": "2026-10-22",
+      "takeaway": "先确认器具、容量与过滤结构，再选滤纸、滤网、密封件和清洁用品；手动器具不重复计入电动咖啡机。",
+      "sections": [
+        {
+          "title": "目录范围",
+          "headers": [
+            "器具",
+            "经营核对重点"
+          ],
+          "rows": [
+            [
+              "Pour-over（手冲滤杯）",
+              "杯型、号数、角度、滤纸贴合与支架"
+            ],
+            [
+              "French Press（法压壶）",
+              "容量、滤网直径、杆件与玻璃杯体"
+            ],
+            [
+              "Moka Pot（非电动摩卡壶）",
+              "型号杯份、密封圈、滤片与适用热源"
+            ],
+            [
+              "AeroPress（爱乐压）",
+              "具体代际、滤片与盖组件"
+            ],
+            [
+              "Siphon（虹吸壶）",
+              "上下壶、滤布／滤网与加热方式"
+            ]
+          ],
+          "kind": "本站产品研究目录"
+        },
+        {
+          "title": "与咖啡机的边界",
+          "text": "本目录用于手动器具。电摩卡、专用冷萃机器等按电动设备主类记录；是否便携是形态标签。磨豆、称量和奶泡设备另按用途作为配件关联。",
+          "kind": "分类规则"
+        },
+        {
+          "title": "原厂资料如何使用",
+          "text": "先按具体型号与容量查询原厂说明，再核对接触部件。品牌同名系列不同杯份的壶体与密封件不应未经核验直接通用。Bialetti 的 Moka Express 官方页作为摩卡壶研究入口，本条没有代替所有品牌做尺寸保证。",
+          "refs": [
+            "brewing-moka"
+          ],
+          "kind": "核对方法"
+        },
+        {
+          "title": "给卖家的记录字段",
+          "text": "至少记录品牌、型号、容量、接触部件尺寸、材料、清洁方式、报价日期与原始链接；实测结论另记测试条件与不适用型号。单份胶囊的适配结论不能移用到这些器具。",
+          "kind": "本站经营建议"
+        }
+      ]
     }
   ],
   "dossiers": [
     {
       "id": "machines",
       "title": "咖啡机",
-      "desc": "机器系统、萃取原理与耗材适配",
+      "desc": "六大设备类型 → 耗材系统 → 品牌与具体型号",
       "articles": [
+        "coffee-machine-map",
+        "machine-capsule-guide",
+        "machine-pod-guide",
+        "machine-manual-guide",
+        "machine-automatic-guide",
+        "machine-drip-guide",
+        "machine-specialty-guide",
         "system-comparison",
         "original-vertuo",
         "alta-system"
@@ -1500,9 +2440,10 @@ window.COFFEE_CONTENT = {
     {
       "id": "accessories",
       "title": "咖啡其他配件",
-      "desc": "滤杯、密封盖、滤网与填装工具",
+      "desc": "胶囊配件、冲煮器具、滤材与维护用品",
       "articles": [
-        "capsule-compatibility"
+        "capsule-compatibility",
+        "manual-brewing-equipment"
       ]
     },
     {
@@ -1531,16 +2472,25 @@ window.COFFEE_CONTENT = {
     "checkedOn": "2026-10-18",
     "scope": "首批官方资料与品牌声明档案。机型系统归属、供应商兼容声明、本站实测是三类证据；本站尚未完成任何第三方可填充产品的机型实测。",
     "systems": {
-      "original": "Nespresso Original 原始系列",
-      "vertuo": "Nespresso Vertuo 馥旋系列",
-      "k-cup": "Keurig K-Cup 克里格",
-      "tassimo": "Tassimo T DISC 条码系统",
-      "dolce-gusto": "Dolce Gusto 多趣酷思传统系统",
-      "a-modo-mio": "Lavazza A Modo Mio 拉瓦萨家用系统",
-      "iperespresso": "illy iperEspresso 意利系统",
-      "senseo": "SENSEO 咖啡软包（非硬壳胶囊）",
-      "cafissimo": "Tchibo Cafissimo（Cafissimo 系统）",
-      "nespresso-unconfirmed": "Nespresso（系列未明确）"
+      "original": "Nespresso Original（原始系列）",
+      "vertuo": "Nespresso Vertuo（馥旋系列）",
+      "k-cup": "Keurig K-Cup（克里格 K 杯）",
+      "tassimo": "TASSIMO T DISC（塔西摩条码系统）",
+      "dolce-gusto": "Dolce Gusto（多趣酷思传统系统）",
+      "a-modo-mio": "Lavazza A Modo Mio（拉瓦萨家用系统）",
+      "iperespresso": "illy iperEspresso（意利胶囊系统）",
+      "senseo": "SENSEO（咖啡软包系统）",
+      "cafissimo": "Tchibo Cafissimo（奇堡胶囊系统）",
+      "nespresso-unconfirmed": "Nespresso（系列未明确）",
+      "nespresso-professional": "Nespresso Professional（浓遇咖啡专业系列）",
+      "neo": "Dolce Gusto NEO（多趣酷思 NEO 系统）",
+      "blue": "Lavazza BLUE（拉瓦萨 BLUE 系统）",
+      "espresso-point": "Lavazza Espresso Point（拉瓦萨 EP 系统）",
+      "caffitaly": "Caffitaly（独立胶囊系统）",
+      "lor": "L’OR Barista（L’OR 双规格系统）",
+      "delta-q": "Delta Q（葡萄牙胶囊系统）",
+      "ese": "E.S.E.（意式软包系统）",
+      "alta": "Keurig Alta / K-Rounds（克里格新设备与单份咖啡体系）"
     },
     "sources": {
       "nespresso-faq": {
@@ -1737,6 +2687,150 @@ window.COFFEE_CONTENT = {
         "name": "European Commission（欧盟委员会）：3 欧元关税及 2 欧元处理费的 VAT 指引",
         "url": "https://vat-one-stop-shop.ec.europa.eu/document/download/3086db0e-7b4a-4202-9f38-d32bd774f5a8_en?filename=VAT+treatment+of+the+EUR+3+customs+duty+and+of+the+EUR+2+Customs+Union+handling+fee+%E2%80%93+Revised+version+06+October+2026.pdf",
         "type": "官方解释指引（不是税率表）· 修订 2026-10-06 · 核对 2026-10-21"
+      },
+      "machine-delonghi": {
+        "name": "De’Longhi（德龙）｜咖啡设备分类",
+        "url": "https://support.delonghi.com/en/en-us",
+        "type": "制造商资料／行业机构目录",
+        "checkedOn": "2026-10-22"
+      },
+      "machine-sca": {
+        "name": "SCA（精品咖啡协会）｜家用冲煮设备认证目录",
+        "url": "https://sca.coffee/certified-home-brewer",
+        "type": "制造商资料／行业机构目录",
+        "checkedOn": "2026-10-22"
+      },
+      "machine-senseo": {
+        "name": "Philips（飞利浦）｜SENSEO 软包机目录",
+        "url": "https://www.philips.co.uk/c-m-ho/coffee/senseo-coffee-machines/all",
+        "type": "制造商资料／行业机构目录",
+        "checkedOn": "2026-10-22"
+      },
+      "machine-ese": {
+        "name": "illy（意利）｜E.S.E. 软包冲煮说明",
+        "url": "https://www.illy.com/content/dam/channels/website/professional/usa/professional-standtogether/ESE-Preparation-Guide_5-2020.pdf",
+        "type": "制造商资料／行业机构目录",
+        "checkedOn": "2026-10-22"
+      },
+      "machine-dedica": {
+        "name": "De’Longhi（德龙）｜Dedica Style EC685.M EX:4",
+        "url": "https://www.delonghi.com/it-it/p/macchine-da-caffe-espresso-manuali-dedica-macchina-da-caffe-manuale-dedica-style-ec685.m/EC685.M%2BEX%3A4.html",
+        "type": "制造商资料／行业机构目录",
+        "checkedOn": "2026-10-22"
+      },
+      "machine-dedica-support": {
+        "name": "De’Longhi（德龙）｜Dedica EC685.M 型号支持",
+        "url": "https://www.delonghi.com/en/s/EC685.M",
+        "type": "制造商资料／行业机构目录",
+        "checkedOn": "2026-10-22"
+      },
+      "machine-magnifica": {
+        "name": "De’Longhi（德龙）｜Magnifica S ECAM22.110.B",
+        "url": "https://www.delonghi.com/en/p/magnifica-s-ecam22.110.b-magnifica-s-automatic-coffee-maker/ECAM22.110.B.html",
+        "type": "制造商资料／行业机构目录",
+        "checkedOn": "2026-10-22"
+      },
+      "machine-magnifica-support": {
+        "name": "De’Longhi（德龙）｜Magnifica S 官方手册与维护",
+        "url": "https://www.delonghi.com/en/s/ECAM22.110.B",
+        "type": "制造商资料／行业机构目录",
+        "checkedOn": "2026-10-22"
+      },
+      "machine-moccamaster": {
+        "name": "Moccamaster（滴滤设备品牌）｜KBGV Select 指定颜色",
+        "url": "https://us.moccamaster.com/products/kbgv?variant=40374980280483",
+        "type": "制造商资料／行业机构目录",
+        "checkedOn": "2026-10-22"
+      },
+      "machine-moccamaster-manual": {
+        "name": "Moccamaster（滴滤设备品牌）｜KBGV Select 官方指南",
+        "url": "https://support.moccamaster.com/hc/en-us/articles/1500009437802-KBGV-Select",
+        "type": "制造商资料／行业机构目录",
+        "checkedOn": "2026-10-22"
+      },
+      "machine-minio": {
+        "name": "Arzum（阿尔祖姆）｜OKKA Minio OK004 铜色",
+        "url": "https://www.arzum.com.tr/ok004-okka-minio-turkish-coffee-machine-copper",
+        "type": "制造商资料／行业机构目录",
+        "checkedOn": "2026-10-22"
+      },
+      "machine-minio-manual": {
+        "name": "Arzum（阿尔祖姆）｜OKKA Minio 官方手册",
+        "url": "https://www.arzum.com.tr/Data/EditorFiles/KULLANIM%20KILAVUZLARI/Minio-OK004-KK-130525.pdf",
+        "type": "制造商资料／行业机构目录",
+        "checkedOn": "2026-10-22"
+      },
+      "machine-nanopresso": {
+        "name": "Wacaco（便携咖啡设备品牌）｜Nanopresso 官方说明",
+        "url": "https://www.wacaco.com/products/nanopresso",
+        "type": "制造商资料／行业机构目录",
+        "checkedOn": "2026-10-22"
+      },
+      "machine-gemilai": {
+        "name": "Gemilai（格米莱）｜G3006H 与同系列型号目录",
+        "url": "https://www.gemilai.com.hk/idol-3.html",
+        "type": "制造商资料／行业机构目录",
+        "checkedOn": "2026-10-22"
+      },
+      "machine-jetinno": {
+        "name": "Jetinno（技诺）｜JL60A 商用全自动设备",
+        "url": "https://www.jetinnovending.com/table-top-coffee-machine/fresh-coffee-machine/jl60a-milk-steam-wand-commercial-espresso.html",
+        "type": "制造商资料／行业机构目录",
+        "checkedOn": "2026-10-22"
+      },
+      "machine-pro": {
+        "name": "Nespresso（浓遇咖啡）｜Professional 专业设备目录",
+        "url": "https://www.nespresso.com/pro/us/en/order/machines/pro/zenius",
+        "type": "制造商资料／行业机构目录",
+        "checkedOn": "2026-10-22"
+      },
+      "machine-blue": {
+        "name": "Lavazza（拉瓦萨）｜BLUE Classy Mini",
+        "url": "https://www.lavazza.com/en/business/coffee-machines/classy-mini",
+        "type": "制造商资料／行业机构目录",
+        "checkedOn": "2026-10-22"
+      },
+      "machine-point": {
+        "name": "Lavazza（拉瓦萨）｜Espresso Point 胶囊",
+        "url": "https://www.lavazza.com/en/espresso-point-capsules",
+        "type": "制造商资料／行业机构目录",
+        "checkedOn": "2026-10-22"
+      },
+      "machine-caffitaly": {
+        "name": "Caffitaly（胶囊系统品牌）｜Smart System 设备",
+        "url": "https://caffitaly.com/international/smart-system-machines/",
+        "type": "制造商资料／行业机构目录",
+        "checkedOn": "2026-10-22"
+      },
+      "machine-lor": {
+        "name": "L’OR（咖啡品牌）｜Barista 官方使用手册",
+        "url": "https://www.lorespresso.com/media/wysiwyg/LOR_content/Pages/hero/L-OR_Barista_Manual.pdf",
+        "type": "制造商资料／行业机构目录",
+        "checkedOn": "2026-10-22"
+      },
+      "machine-delta": {
+        "name": "Delta Q（葡萄牙胶囊系统品牌）｜机器目录",
+        "url": "https://ca.mydeltaq.com/ca/en/machines",
+        "type": "制造商资料／行业机构目录",
+        "checkedOn": "2026-10-22"
+      },
+      "brewing-moka": {
+        "name": "Bialetti（比乐蒂）｜Moka Express 摩卡壶",
+        "url": "https://www.bialetti.com/it_en/moka-express.html",
+        "type": "制造商资料／行业机构目录",
+        "checkedOn": "2026-10-22"
+      },
+      "machine-neo": {
+        "name": "雀巢｜Dolce Gusto Neo 公告，2022-11-10",
+        "url": "https://www.nestle.com/aboutus/research-development/news/nescafe-dolce-gusto-neo",
+        "type": "制造商系统说明",
+        "checkedOn": "2026-10-22"
+      },
+      "machine-cafissimo": {
+        "name": "Tchibo（奇堡）｜Cafissimo 设备目录",
+        "url": "https://www.tchibo.de/categories/kaffee/kaffeemaschinen-zubereiter/kapselmaschinen/cafissimo",
+        "type": "制造商目录",
+        "checkedOn": "2026-10-22"
       }
     },
     "machines": [
@@ -1753,7 +2847,16 @@ window.COFFEE_CONTENT = {
           "nespresso-faq"
         ],
         "zh": "C30 迷你胶囊咖啡机",
-        "image": "essenza-mini"
+        "image": "essenza-mini",
+        "machineType": "capsule",
+        "uses": [
+          "home"
+        ],
+        "form": "countertop",
+        "inputs": [
+          "capsule"
+        ],
+        "multiInput": false
       },
       {
         "id": "pixie",
@@ -1767,7 +2870,16 @@ window.COFFEE_CONTENT = {
           "pixie"
         ],
         "zh": "C62 小型胶囊咖啡机",
-        "image": "pixie"
+        "image": "pixie",
+        "machineType": "capsule",
+        "uses": [
+          "home"
+        ],
+        "form": "countertop",
+        "inputs": [
+          "capsule"
+        ],
+        "multiInput": false
       },
       {
         "id": "vertuo-pop",
@@ -1782,7 +2894,16 @@ window.COFFEE_CONTENT = {
           "nespresso-faq"
         ],
         "zh": "馥旋 Pop 胶囊咖啡机",
-        "image": "vertuo-pop"
+        "image": "vertuo-pop",
+        "machineType": "capsule",
+        "uses": [
+          "home"
+        ],
+        "form": "countertop",
+        "inputs": [
+          "capsule"
+        ],
+        "multiInput": false
       },
       {
         "id": "vertuo-next",
@@ -1796,7 +2917,16 @@ window.COFFEE_CONTENT = {
           "next"
         ],
         "zh": "馥旋 Next 胶囊咖啡机",
-        "image": "vertuo-next"
+        "image": "vertuo-next",
+        "machineType": "capsule",
+        "uses": [
+          "home"
+        ],
+        "form": "countertop",
+        "inputs": [
+          "capsule"
+        ],
+        "multiInput": false
       },
       {
         "id": "k-supreme",
@@ -1810,7 +2940,16 @@ window.COFFEE_CONTENT = {
           "ksupreme"
         ],
         "zh": "多针单杯咖啡机",
-        "image": "k-supreme"
+        "image": "k-supreme",
+        "machineType": "capsule",
+        "uses": [
+          "home"
+        ],
+        "form": "countertop",
+        "inputs": [
+          "capsule"
+        ],
+        "multiInput": false
       },
       {
         "id": "k-supreme-smart",
@@ -1824,7 +2963,16 @@ window.COFFEE_CONTENT = {
           "ksmart"
         ],
         "zh": "智能单杯咖啡机",
-        "image": "k-supreme-smart"
+        "image": "k-supreme-smart",
+        "machineType": "capsule",
+        "uses": [
+          "home"
+        ],
+        "form": "countertop",
+        "inputs": [
+          "capsule"
+        ],
+        "multiInput": false
       },
       {
         "id": "k-cafe-essentials",
@@ -1838,7 +2986,16 @@ window.COFFEE_CONTENT = {
           "kcafe"
         ],
         "zh": "带奶泡器的单杯咖啡机",
-        "image": "k-cafe-essentials"
+        "image": "k-cafe-essentials",
+        "machineType": "capsule",
+        "uses": [
+          "home"
+        ],
+        "form": "countertop",
+        "inputs": [
+          "capsule"
+        ],
+        "multiInput": false
       },
       {
         "id": "tassimo-happy",
@@ -1852,7 +3009,16 @@ window.COFFEE_CONTENT = {
           "tassimo"
         ],
         "zh": "博世快乐系列胶囊咖啡机",
-        "image": "tassimo-happy"
+        "image": "tassimo-happy",
+        "machineType": "capsule",
+        "uses": [
+          "home"
+        ],
+        "form": "countertop",
+        "inputs": [
+          "capsule"
+        ],
+        "multiInput": false
       },
       {
         "id": "genio-s-plus",
@@ -1866,7 +3032,16 @@ window.COFFEE_CONTENT = {
           "genio"
         ],
         "zh": "德龙精灵 S Plus 胶囊咖啡机",
-        "image": "genio-s-plus"
+        "image": "genio-s-plus",
+        "machineType": "capsule",
+        "uses": [
+          "home"
+        ],
+        "form": "countertop",
+        "inputs": [
+          "capsule"
+        ],
+        "multiInput": false
       },
       {
         "id": "jolie",
@@ -1880,7 +3055,16 @@ window.COFFEE_CONTENT = {
           "jolie"
         ],
         "zh": "拉瓦萨 Jolie 胶囊咖啡机",
-        "image": "jolie"
+        "image": "jolie",
+        "machineType": "capsule",
+        "uses": [
+          "home"
+        ],
+        "form": "countertop",
+        "inputs": [
+          "capsule"
+        ],
+        "multiInput": false
       },
       {
         "id": "idola",
@@ -1894,7 +3078,16 @@ window.COFFEE_CONTENT = {
           "idola"
         ],
         "zh": "拉瓦萨 Idola 胶囊咖啡机",
-        "image": "idola"
+        "image": "idola",
+        "machineType": "capsule",
+        "uses": [
+          "home"
+        ],
+        "form": "countertop",
+        "inputs": [
+          "capsule"
+        ],
+        "multiInput": false
       },
       {
         "id": "illy-y33",
@@ -1908,7 +3101,16 @@ window.COFFEE_CONTENT = {
           "illy"
         ],
         "zh": "意利 Y3.3 胶囊咖啡机",
-        "image": "illy-y33"
+        "image": "illy-y33",
+        "machineType": "capsule",
+        "uses": [
+          "home"
+        ],
+        "form": "countertop",
+        "inputs": [
+          "capsule"
+        ],
+        "multiInput": false
       },
       {
         "id": "senseo-csa210",
@@ -1922,7 +3124,215 @@ window.COFFEE_CONTENT = {
           "senseo"
         ],
         "zh": "飞利浦软包咖啡机",
-        "image": "senseo-csa210"
+        "image": "senseo-csa210",
+        "machineType": "soft-pod",
+        "uses": [
+          "home"
+        ],
+        "form": "countertop",
+        "inputs": [
+          "softPod"
+        ],
+        "multiInput": false
+      },
+      {
+        "id": "wacaco-nanopresso",
+        "name": "Nanopresso Yellow Patrol",
+        "zh": "黄色便携手动泵压咖啡机",
+        "brand": "Wacaco（便携咖啡设备品牌）",
+        "machineType": "manual-espresso",
+        "factory": "原配咖啡粉滤杯；NS 胶囊适配器另售。",
+        "boundary": "默认咖啡粉模式归入手动意式；另售适配器的胶囊模式不得写成本体默认支持。",
+        "check": "核对杯体、滤杯、外壳颜色与 NS 适配器版本；需要外部热水。",
+        "refs": [
+          "machine-nanopresso"
+        ],
+        "image": "wacaco-nanopresso",
+        "uses": [
+          "home"
+        ],
+        "form": "portable",
+        "inputs": [
+          "grounds"
+        ],
+        "multiInput": true,
+        "checkedOn": "2026-10-22",
+        "multiInputNote": "咖啡粉＋另售 NS 胶囊适配器；胶囊模式有附加条件。",
+        "accessories": "NS 适配器、对应粉碗、携带收纳、清洁工具；逐版本核对。"
+      },
+      {
+        "id": "gemilai-g3006h",
+        "name": "G3006H Owl Pro",
+        "zh": "猫头鹰 Pro 半自动意式咖啡机",
+        "brand": "Gemilai（格米莱）",
+        "machineType": "manual-espresso",
+        "factory": "咖啡粉与手柄冲煮结构；官网列为家用系列。",
+        "boundary": "G3006H 与 G3006A、G3006J 分开建档；不能用系列相似名称替代完整型号。",
+        "check": "先确认 G3006H 铭牌与手柄卡耳、粉碗尺寸，再判断第三方配件。",
+        "refs": [
+          "machine-gemilai"
+        ],
+        "image": "gemilai-products",
+        "uses": [
+          "home"
+        ],
+        "form": "countertop",
+        "inputs": [
+          "grounds"
+        ],
+        "multiInput": false,
+        "checkedOn": "2026-10-22",
+        "accessories": "手柄、粉碗、压粉器、接粉环；尺寸和卡口尚未逐件实测。"
+      },
+      {
+        "id": "jetinno-jl60a",
+        "name": "JL60A",
+        "zh": "带蒸汽棒的商用全自动咖啡机",
+        "brand": "Jetinno（技诺）",
+        "machineType": "automatic-espresso",
+        "factory": "咖啡豆现磨、自动冲煮，独立蒸汽棒用于奶泡。",
+        "boundary": "奶泡需要人工操作，不影响其咖啡研磨／冲煮部分的全自动归类；页面同时出现 JL60B 等配置，不混录参数。",
+        "check": "按 JL60A 完整配置表核对蒸汽、研磨与维护件，不把整厂产能当型号销量。",
+        "refs": [
+          "machine-jetinno"
+        ],
+        "image": "jetinno-jl60a",
+        "uses": [
+          "commercial",
+          "office"
+        ],
+        "form": "countertop",
+        "inputs": [
+          "beans"
+        ],
+        "multiInput": false,
+        "checkedOn": "2026-10-22",
+        "accessories": "商用滤水、清洁维护与蒸汽棒配件；以具体配置清单为准。"
+      },
+      {
+        "id": "dedica-ec685",
+        "name": "Dedica Style EC685.M EX:4",
+        "zh": "银色半自动意式咖啡机",
+        "brand": "De’Longhi（德龙）",
+        "machineType": "manual-espresso",
+        "factory": "咖啡粉手柄冲煮；本条对应意大利官网 EX:4 版本。",
+        "boundary": "带自动定量功能仍归手柄式意式设备；品牌手动机命名不等于手动杠杆。",
+        "check": "确认 EX:4 完整型号、手柄接口、粉碗与地区电气版本。",
+        "refs": [
+          "machine-dedica",
+          "machine-dedica-support"
+        ],
+        "image": "dedica-ec685",
+        "uses": [
+          "home"
+        ],
+        "form": "countertop",
+        "inputs": [
+          "grounds"
+        ],
+        "multiInput": false,
+        "checkedOn": "2026-10-22",
+        "region": "意大利官网 EX:4 版本",
+        "accessories": "手柄、粉碗、压粉器、奶缸与清洁件；本站未实测尺寸适配。",
+        "price": {
+          "amount": 169.9,
+          "currency": "EUR",
+          "pack": "EC685.M EX:4 银色机器本体",
+          "observedOn": "2026-10-22",
+          "basis": "意大利品牌官网公开标价；不作为其他国家到手价。"
+        }
+      },
+      {
+        "id": "magnifica-s",
+        "name": "Magnifica S ECAM22.110.B",
+        "zh": "黑色全自动意式咖啡机",
+        "brand": "De’Longhi（德龙）",
+        "machineType": "automatic-espresso",
+        "factory": "自动研磨、冲煮；配手动奶泡器。",
+        "boundary": "手动打奶泡不等于半自动咖啡冲煮；咖啡处理流程与奶系统分别记录。",
+        "check": "按地区铭牌、冲煮组件及原厂滤芯／除垢说明选维护配件。",
+        "refs": [
+          "machine-magnifica",
+          "machine-magnifica-support"
+        ],
+        "image": "magnifica-s",
+        "uses": [
+          "home"
+        ],
+        "form": "countertop",
+        "inputs": [
+          "beans"
+        ],
+        "multiInput": false,
+        "checkedOn": "2026-10-22",
+        "accessories": "对应滤芯、除垢维护用品、奶泡器组件。",
+        "availability": "本次官网页面未提供有效报价；不以其他变体价格代填。"
+      },
+      {
+        "id": "moccamaster-kbgv",
+        "name": "KBGV Select Pistachio",
+        "zh": "开心果色滴滤咖啡机",
+        "brand": "Moccamaster（滴滤设备品牌）",
+        "machineType": "drip",
+        "factory": "研磨咖啡粉、滤纸与玻璃壶；对应美国官网颜色变体。",
+        "boundary": "滴滤冲煮，不按意式咖啡机或 K-Cup 胶囊机理解；美国与欧洲电气版本分别核对。",
+        "check": "核对 KBGV、颜色变体、滤篮和玻璃壶型号；不把相近 KBG 名称直接合并。",
+        "refs": [
+          "machine-moccamaster",
+          "machine-moccamaster-manual"
+        ],
+        "image": "moccamaster-kbgv",
+        "uses": [
+          "home"
+        ],
+        "form": "countertop",
+        "inputs": [
+          "grounds"
+        ],
+        "multiInput": false,
+        "checkedOn": "2026-10-22",
+        "region": "美国官网 Pistachio（开心果色）变体 40374980280483",
+        "accessories": "原厂适配滤纸、滤篮、玻璃壶与清洁用品；永久滤网需另验。",
+        "price": {
+          "amount": 369,
+          "currency": "USD",
+          "pack": "KBGV Select Pistachio 机器本体",
+          "observedOn": "2026-10-22",
+          "basis": "美国品牌官网对应颜色变体标价；税费及跨境运费另核。"
+        }
+      },
+      {
+        "id": "okka-minio",
+        "name": "OKKA Minio OK004",
+        "zh": "铜色电动土耳其咖啡机",
+        "brand": "Arzum（阿尔祖姆）",
+        "machineType": "specialty",
+        "factory": "按原厂说明加入土耳其咖啡粉与水进行加热煮制。",
+        "boundary": "专用煮制设备，不是胶囊机，也不以有无蒸汽棒判断类别。",
+        "check": "确认 OK004 与其他 Minio 后缀型号；容器材质、清洁和浸水要求以手册为准。",
+        "refs": [
+          "machine-minio",
+          "machine-minio-manual"
+        ],
+        "image": "okka-minio",
+        "uses": [
+          "home"
+        ],
+        "form": "countertop",
+        "inputs": [
+          "grounds"
+        ],
+        "multiInput": false,
+        "checkedOn": "2026-10-22",
+        "region": "土耳其官网 Copper（铜色）版本",
+        "accessories": "型号专用煮壶、量勺与清洁替换件。",
+        "price": {
+          "amount": 3299,
+          "currency": "TRY",
+          "pack": "OK004 Copper 铜色机器本体",
+          "observedOn": "2026-10-22",
+          "basis": "土耳其品牌官网标价 3.299 TL；点为千位分隔符，不是 3.299 里拉。"
+        }
       }
     ],
     "products": [
@@ -2460,33 +3870,6 @@ window.COFFEE_CONTENT = {
         "source": "https://mhw3bomber.com/products/mhw-3bomber-fresh-ice-drip-coffee-maker"
       },
       {
-        "id": "wacaco-nanopresso",
-        "image": "wacaco-nanopresso",
-        "name": "Nanopresso Yellow Patrol",
-        "zh": "黄色便携咖啡机",
-        "category": "咖啡机",
-        "note": "对应便携机器本体；胶囊适配器需按另售配件和官方说明核对。",
-        "source": "https://www.wacaco.com/products/nanopresso"
-      },
-      {
-        "id": "gemilai-products",
-        "image": "gemilai-products",
-        "name": "G3006H Owl Pro",
-        "zh": "猫头鹰 Pro 半自动咖啡机",
-        "category": "咖啡机",
-        "note": "格米莱官网明确列出的 G3006H，不替代同系列 G3006A 或 G3006J。",
-        "source": "https://www.gemilai.com.hk/idol-3.html"
-      },
-      {
-        "id": "jetinno-jl60a",
-        "image": "jetinno-jl60a",
-        "name": "JL60A",
-        "zh": "带蒸汽棒的商用咖啡机",
-        "category": "咖啡机",
-        "note": "对应技诺官网 JL60A，不作为其他商用机型配图。",
-        "source": "https://www.jetinnovending.com/table-top-coffee-machine/fresh-coffee-machine/jl60a-milk-steam-wand-commercial-espresso.html"
-      },
-      {
         "id": "tchibo-beans",
         "image": "tchibo-beans",
         "name": "coROAST #5 The Crew Coffee",
@@ -2713,7 +4096,327 @@ window.COFFEE_CONTENT = {
           "eu-parcel-vat"
         ]
       }
-    ]
+    ],
+    "machineClassification": {
+      "checkedOn": "2026-10-22",
+      "method": "按冲煮与使用方式分为六个设备主类；家用、商用、便携与多用途为独立筛选标签。主类数量、耗材系统数量、百科文章数量与具体机型数量分别统计。",
+      "categories": [
+        {
+          "id": "capsule",
+          "en": "Capsule Machines",
+          "zh": "胶囊咖啡机",
+          "desc": "按专用胶囊接口和识别方式进入系统，再查看具体机器。",
+          "subtypes": [
+            "压力式胶囊",
+            "旋转萃取胶囊",
+            "条码识别胶囊",
+            "专业胶囊系统"
+          ],
+          "accessories": [
+            "可填充胶囊",
+            "盖膜与盖组件",
+            "密封圈",
+            "胶囊填装与收纳"
+          ],
+          "guide": "machine-capsule-guide",
+          "refs": [
+            "nespresso-faq",
+            "genio",
+            "tassimo"
+          ]
+        },
+        {
+          "id": "soft-pod",
+          "en": "Pod Machines",
+          "zh": "咖啡软包机",
+          "desc": "纸质软包与硬壳胶囊分开；SENSEO 和 E.S.E. 分别建档。",
+          "subtypes": [
+            "SENSEO 软包",
+            "E.S.E. 意式软包"
+          ],
+          "accessories": [
+            "对应软包",
+            "专用滤杯",
+            "软包适配手柄"
+          ],
+          "guide": "machine-pod-guide",
+          "refs": [
+            "machine-senseo",
+            "machine-ese"
+          ]
+        },
+        {
+          "id": "manual-espresso",
+          "en": "Manual / Semi-automatic Espresso Machines",
+          "zh": "手动／半自动意式咖啡机",
+          "desc": "操作者参与装粉与冲煮；手动泵压、杠杆和电泵机再分结构。",
+          "subtypes": [
+            "手动杠杆",
+            "手动泵压",
+            "电泵半自动",
+            "带磨豆机的半自动"
+          ],
+          "accessories": [
+            "手柄与粉碗",
+            "压粉器",
+            "接粉环",
+            "布粉器",
+            "清洁盲碗"
+          ],
+          "guide": "machine-manual-guide",
+          "refs": [
+            "machine-delonghi",
+            "machine-dedica",
+            "machine-nanopresso"
+          ]
+        },
+        {
+          "id": "automatic-espresso",
+          "en": "Fully Automatic Espresso Machines",
+          "zh": "全自动意式咖啡机",
+          "desc": "机器承担研磨和冲煮，奶泡可为手动或自动；商用用途另加标签。",
+          "subtypes": [
+            "家用现磨一体",
+            "商用现磨一体",
+            "手动奶泡",
+            "自动奶系统"
+          ],
+          "accessories": [
+            "滤芯",
+            "除垢剂",
+            "清洁片",
+            "奶管与维护件"
+          ],
+          "guide": "machine-automatic-guide",
+          "refs": [
+            "machine-magnifica",
+            "machine-jetinno"
+          ]
+        },
+        {
+          "id": "drip",
+          "en": "Filter / Drip Coffee Makers",
+          "zh": "滴滤咖啡机",
+          "desc": "以过滤式冲煮为主，按单杯、壶量与磨豆配置继续区分。",
+          "subtypes": [
+            "单杯滴滤",
+            "多杯滴滤",
+            "批量冲煮",
+            "带磨豆机滴滤"
+          ],
+          "accessories": [
+            "滤纸",
+            "对应规格永久滤网",
+            "玻璃壶／保温壶",
+            "清洁用品"
+          ],
+          "guide": "machine-drip-guide",
+          "refs": [
+            "machine-sca",
+            "machine-moccamaster"
+          ]
+        },
+        {
+          "id": "specialty",
+          "en": "Specialty Coffee Makers",
+          "zh": "其他专用咖啡设备",
+          "desc": "专门的电动土耳其咖啡、电摩卡与冷萃设备分别记录冲煮方式。",
+          "subtypes": [
+            "电动土耳其咖啡机",
+            "电摩卡壶",
+            "专用冷萃设备"
+          ],
+          "accessories": [
+            "型号专用容器",
+            "滤网",
+            "密封圈",
+            "清洁与替换件"
+          ],
+          "guide": "machine-specialty-guide",
+          "refs": [
+            "machine-minio"
+          ]
+        }
+      ],
+      "uses": {
+        "home": "Home（家用）",
+        "office": "Office（办公室）",
+        "commercial": "Commercial（商用／咖啡馆）"
+      },
+      "forms": {
+        "countertop": "Countertop（台式）",
+        "portable": "Portable（便携）",
+        "builtIn": "Built-in（嵌入式）"
+      },
+      "inputs": {
+        "capsule": "Capsules（胶囊）",
+        "softPod": "Soft Pods（软包）",
+        "grounds": "Ground Coffee（咖啡粉）",
+        "beans": "Whole Beans（咖啡豆）"
+      },
+      "systemProfiles": [
+        {
+          "id": "original",
+          "category": "capsule",
+          "brand": "Nespresso（浓遇咖啡）",
+          "note": "压力萃取；逐机型核对胶囊仓与第三方杯体版本。",
+          "refs": [
+            "essenza"
+          ]
+        },
+        {
+          "id": "vertuo",
+          "category": "capsule",
+          "brand": "Nespresso（浓遇咖啡）",
+          "note": "旋转萃取与条码参与冲煮；与 Original 分开。",
+          "refs": [
+            "next"
+          ]
+        },
+        {
+          "id": "nespresso-professional",
+          "category": "capsule",
+          "brand": "Nespresso（浓遇咖啡）",
+          "note": "专业设备体系单独建档，不按家用 Original 或 Vertuo 配件类推。",
+          "refs": [
+            "machine-pro"
+          ]
+        },
+        {
+          "id": "k-cup",
+          "category": "capsule",
+          "brand": "Keurig（克里格）",
+          "note": "单杯滤杯体系；不同针头、机器代际和滤杯版本分别核对。",
+          "refs": [
+            "ksupreme"
+          ]
+        },
+        {
+          "id": "dolce-gusto",
+          "category": "capsule",
+          "brand": "NESCAFÉ（雀巢咖啡）",
+          "note": "传统胶囊体系；不与 NEO 合并。",
+          "refs": [
+            "genio"
+          ]
+        },
+        {
+          "id": "neo",
+          "category": "capsule",
+          "brand": "NESCAFÉ（雀巢咖啡）",
+          "note": "新体系独立列档，原厂单份耗材与旧胶囊分开。",
+          "refs": [
+            "machine-neo"
+          ]
+        },
+        {
+          "id": "tassimo",
+          "category": "capsule",
+          "brand": "Bosch（博世）／TASSIMO（塔西摩）",
+          "note": "T DISC 条码参与配方识别；替换盘仍需逐机型核对。",
+          "refs": [
+            "tassimo"
+          ]
+        },
+        {
+          "id": "a-modo-mio",
+          "category": "capsule",
+          "brand": "Lavazza（拉瓦萨）",
+          "note": "家用 A Modo Mio 单独建档，不与 BLUE、Espresso Point 混用。",
+          "refs": [
+            "jolie"
+          ]
+        },
+        {
+          "id": "blue",
+          "category": "capsule",
+          "brand": "Lavazza（拉瓦萨）",
+          "note": "BLUE 体系；办公室与自动售饮设备还需确认具体配置。",
+          "refs": [
+            "machine-blue"
+          ]
+        },
+        {
+          "id": "espresso-point",
+          "category": "capsule",
+          "brand": "Lavazza（拉瓦萨）",
+          "note": "Espresso Point 作为独立耗材目录；具体机型继续补录。",
+          "refs": [
+            "machine-point"
+          ]
+        },
+        {
+          "id": "iperespresso",
+          "category": "capsule",
+          "brand": "illy（意利）",
+          "note": "以对应设备和原厂耗材说明为准；不以品牌名称替代系统判断。",
+          "refs": [
+            "illy"
+          ]
+        },
+        {
+          "id": "cafissimo",
+          "category": "capsule",
+          "brand": "Tchibo（奇堡）",
+          "note": "Cafissimo 与其他系统分别记录，不根据相似外形推定通用。",
+          "refs": [
+            "machine-cafissimo"
+          ]
+        },
+        {
+          "id": "caffitaly",
+          "category": "capsule",
+          "brand": "Caffitaly（胶囊系统品牌）",
+          "note": "Smart System 及具体代际分别确认；品牌兼容产品不等于自有系统通用。",
+          "refs": [
+            "machine-caffitaly"
+          ]
+        },
+        {
+          "id": "lor",
+          "category": "capsule",
+          "brand": "L’OR（咖啡品牌）",
+          "note": "双规格和第三方胶囊声明以具体地区型号手册为准。",
+          "refs": [
+            "machine-lor"
+          ]
+        },
+        {
+          "id": "delta-q",
+          "category": "capsule",
+          "brand": "Delta Q（葡萄牙胶囊系统品牌）",
+          "note": "独立系统目录，不与其他品牌胶囊合并。",
+          "refs": [
+            "machine-delta"
+          ]
+        },
+        {
+          "id": "senseo",
+          "category": "soft-pod",
+          "brand": "Philips SENSEO（飞利浦软包系统）",
+          "note": "纸质咖啡软包；与硬壳胶囊及 E.S.E. 意式软包分列。",
+          "refs": [
+            "senseo"
+          ]
+        },
+        {
+          "id": "ese",
+          "category": "soft-pod",
+          "brand": "E.S.E.（意式软包体系）",
+          "note": "纸质单份意式咖啡；是否支持需看机器或专用手柄说明。",
+          "refs": [
+            "machine-ese"
+          ]
+        }
+      ],
+      "emerging": [
+        {
+          "id": "alta",
+          "note": "新体系观察：上市地区、状态与机型按原文时间核对；不将预告信息计为已收录上市机型。",
+          "article": "alta-system"
+        }
+      ]
+    }
   },
   "companies": {
     "checkedOn": "2026-10-18",
@@ -5771,6 +7474,58 @@ window.COFFEE_CONTENT = {
         "width": 312,
         "height": 312,
         "sha256": "ce2387902c8218ca0de8e7ffe3c44c482011b94b3405311408c76e077faa819a"
+      },
+      "dedica-ec685": {
+        "id": "dedica-ec685",
+        "subject": "Dedica Style EC685.M EX:4（银色半自动意式咖啡机）",
+        "owner": "De’Longhi（德龙）",
+        "source": "https://www.delonghi.com/it-it/p/macchine-da-caffe-espresso-manuali-dedica-macchina-da-caffe-manuale-dedica-style-ec685.m/EC685.M%2BEX%3A4.html",
+        "imageURL": "https://dam.delonghi.com/600x600/assets/223687",
+        "kind": "product",
+        "checkedOn": "2026-10-22",
+        "file": "images/dedica-ec685-d6e568c730.jpg",
+        "width": 600,
+        "height": 600,
+        "sha256": "d6e568c73015ac42b1346ea3bfefa6f08a7c8b6617bb4500b61e3bdedb356044"
+      },
+      "magnifica-s": {
+        "id": "magnifica-s",
+        "subject": "Magnifica S ECAM22.110.B（黑色全自动意式咖啡机）",
+        "owner": "De’Longhi（德龙）",
+        "source": "https://www.delonghi.com/en/p/magnifica-s-ecam22.110.b-magnifica-s-automatic-coffee-maker/ECAM22.110.B.html",
+        "imageURL": "https://dam.delonghi.com/600x600/assets/223655",
+        "kind": "product",
+        "checkedOn": "2026-10-22",
+        "file": "images/magnifica-s-96435d405a.jpg",
+        "width": 600,
+        "height": 600,
+        "sha256": "96435d405a0ce4d9bdd08039f227c4cfd2c4ebbbe845d8df813cd1f5cf372450"
+      },
+      "moccamaster-kbgv": {
+        "id": "moccamaster-kbgv",
+        "subject": "KBGV Select Pistachio（开心果色滴滤咖啡机）",
+        "owner": "Moccamaster（滴滤设备品牌）",
+        "source": "https://us.moccamaster.com/products/kbgv?variant=40374980280483",
+        "imageURL": "https://cdn.shopify.com/s/files/1/0528/3545/1043/products/MoccaMaster_Set_KBGV_Pistachio_3578-02-116803_1024x1024.png?v=1773948173",
+        "kind": "product",
+        "checkedOn": "2026-10-22",
+        "file": "images/moccamaster-kbgv-0b108194c3.png",
+        "width": 1024,
+        "height": 1024,
+        "sha256": "0b108194c3eaee50358a74e87d241c8ccc1cd65b43733fbb93e7eee51dc2f26c"
+      },
+      "okka-minio": {
+        "id": "okka-minio",
+        "subject": "OKKA Minio OK004（铜色土耳其咖啡机）",
+        "owner": "Arzum（阿尔祖姆）",
+        "source": "https://www.arzum.com.tr/ok004-okka-minio-turkish-coffee-machine-copper",
+        "imageURL": "https://witcdn.arzum.com.tr/ok004-okka-minio-turkish-coffee-machine-copper-turkish-coffee-machine-arzum-okka-7246-17-O.jpg",
+        "kind": "product",
+        "checkedOn": "2026-10-22",
+        "file": "images/okka-minio-4fcbeb1c75.jpg",
+        "width": 600,
+        "height": 600,
+        "sha256": "4fcbeb1c756d7169375652e90c471ebae2ccbf06234fc639079644d03c4b1e1d"
       }
     }
   },

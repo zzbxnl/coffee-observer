@@ -10,7 +10,7 @@ function renderKnowledge(isSaved, hint) {
     + (isSaved ? filters(['全部',...dossiers.map(d => d.title)]) : `<div class="wiki-toolbar"><button class="pill ${state.filter === '全部' ? 'active' : ''}" data-filter="全部" aria-pressed="${state.filter === '全部'}">全部</button><span>${articles.length} 篇百科 · 按下方分类顺序阅读</span></div>` + dossierNav())
     + hint
     + (isSaved ? '' : '<p class="scope-note">从原理进入实际产品：<a href="#research/compatibility">机型兼容库 →</a> · <a href="#research/reviews">真实评论与痛点 →</a> · <a href="#research/context">国家与集团档案 →</a></p>')
-    + (groups.map(d => `<section class="knowledge-group" aria-label="${esc(d.title)}词条"><div class="section-head"><div><h2>${esc(d.title)} <small>${d.entries.length} 篇</small></h2><p>${esc(d.desc)}</p></div></div>${officialCatalog(d.title)}<div class="card-grid">${d.entries.map(articleCard).join('')}</div></section>`).join('') || empty(isSaved ? '还没有收藏词条' : '没有找到相关词条', isSaved ? '点击百科卡片的星标即可收藏。' : '试试其他关键词或分类。'));
+    + (groups.map(d => `<section class="knowledge-group" aria-label="${esc(d.title)}词条"><div class="section-head"><div><h2>${esc(d.title)} <small>${d.entries.length} 篇</small></h2><p>${esc(d.desc)}</p></div></div>${d.id==='machines'?machineOverview():officialCatalog(d.title)}<div class="card-grid">${d.entries.map(articleCard).join('')}</div></section>`).join('') || empty(isSaved ? '还没有收藏词条' : '没有找到相关词条', isSaved ? '点击百科卡片的星标即可收藏。' : '试试其他关键词或分类。'));
 }
 
 function renderHome(hint) {
@@ -78,6 +78,7 @@ function renderDocument() {
         ${officialGallery(item.images || (item.image?[item.image]:[]))}
         ${isEvent&&!item.automatic?eventBusinessReading(item):''}
         <nav class="mobile-toc" aria-label="本文目录">${sections.map((s,i) => `<button data-section="section-${i}">${i+1}. ${esc(s.title)}</button>`).join('')}</nav>
+        ${!isEvent&&item.category==='咖啡机'?'<p class="scope-note"><a href="#research/'+(machineClassification.categories.find(c=>c.guide===item.id)?'type-'+machineClassification.categories.find(c=>c.guide===item.id).id:'compatibility')+'">查看对应具体机型与官方图片 →</a></p>':''}
         ${sections.map((s,i) => `<div id="section-${i}" class="document-section">${sectionContent(s)}</div>`).join('')}
         <section class="sources"><h2>原始资料</h2><p>${item.automatic ? '以下链接指向发布者原文。自动摘要未经人工核验，AI 中文整理已另行标明。' : '以下链接指向资料发布者；本站提供摘要、整理与独立解读。'}</p>${refs(keys)}</section>
         <div class="related"><h2>${isEvent ? '相关背景' : '继续阅读'}</h2>${related.map(a => `<a href="#wiki/${a.id}">${esc(a.title)} →</a>`).join('')}</div>
